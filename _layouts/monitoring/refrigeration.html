@@ -3,9 +3,16 @@ layout: monitoring/base
 ---
 <section>
 	<div class="container">
-		<h2>The importance of monitoring</h2>
-		<p>Controlling the temperature of food is extremely important in ensuring that food is safe to eat. Government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public.</p>
-		<p>Meat products are typically regarded as high risk, but dried goods such as rice and pulses, vegetables and salads are also likely to contain bacteria that may grow if the food is subject to poor temperature control.</p>
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<h2>The importance of monitoring</h2>
+				<p>Controlling the temperature of food is extremely important in ensuring that food is safe to eat. Government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public.</p>
+				<p>Meat products are typically regarded as high risk, but dried goods such as rice and pulses, vegetables and salads are also likely to contain bacteria that may grow if the food is subject to poor temperature control.</p>
+			</div>
+			<div class="is-col">
+				<img src="/images/sections/refrigeration/introduction/cold-chain.svg">
+			</div>
+		</div>
 	</div>
 </section>
 <section>
@@ -32,14 +39,38 @@ layout: monitoring/base
 </section>
 <section>
 	<div class="container">
-		<h2>Hazard Analysis and Critical Control Point (HACCP)</h2>
-		<p>Spook can help HACCP planning and execution. With OmniWatch you can:</p>
-		<ul>
-			<li>Look closely at what you do in your business, what could go wrong and what risks there are to food safety</li>
-			<li>Identifying any critical control points the areas a business needs to be monitored</li>
-			<li>Decide who to contact and how if something goes wrong</li>
-			<li>Produce reports and audit changes to prove your procedures are working</li>
-		</ul>
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<h2>Hazard Analysis and Critical Control Point (HACCP)</h2>
+				<p>Spook can help HACCP planning and execution. With OmniWatch you can:</p>
+				<ul>
+					<li>Look closely at what you do in your business, what could go wrong and what risks there are to food safety</li>
+					<li>Identifying any critical control points the areas a business needs to be monitored</li>
+					<li>Decide who to contact and how if something goes wrong</li>
+					<li>Produce reports and audit changes to prove your procedures are working</li>
+				</ul>
+			</div>
+			<div class="is-col">
+				<table class="is-responsive is-bordered">
+					<thead>
+						<tr>
+							<th>Problem</th>
+							<th>Effect</th>
+							<th>Possible outcome</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for item in site.data.refrigeration.haccp %}
+						<tr>
+							<td>{{ item.problem }}</td>
+							<td>{{ item.effect }}</td>
+							<td>{{ item.outcome }}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
 	</div>
 </section>
 <section>

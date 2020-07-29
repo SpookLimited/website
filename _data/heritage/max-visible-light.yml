@@ -1,0 +1,11 @@
+- category: Sensitive collections
+  examples: Textiles, photographs, paperwork, watercolours, organic materials, etc
+  max: 50 lux
+
+- category: Less sensitive collections
+  examples: Oil paintings, wood, leather, acrylic, furniture, etc
+  max: 150 lux
+
+- category: Least sensitive collections
+  examples: Metal, ceramics, stone, glass, etc
+  max: 300 lux

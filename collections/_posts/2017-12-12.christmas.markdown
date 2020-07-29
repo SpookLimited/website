@@ -1,0 +1,33 @@
+yout: post
+title:  "The Christmas Conundrum for IT departments"
+blurb: "Over the Christmas period IT server rooms could be left in a 'lights out' state for over 10 days."
+page-description: "Over the Christmas period your IT server rooms could be left in a 'lights out' state for over 10 days."
+image: /images/blog/christmas/christmas-tree-puzzle.jpeg
+permalink: /blog/the-christmas-conundrum-for-it-departments/
+date:   2017-12-12 10:27:49 +0000
+published: 1
+---
+Christmas is a time of celebration for many and employers can help the festivities by planning ahead for holiday requests, managing absences and Christmas events. However, for the IT department it will be a time when there is likely to be extra demand for products, services and sales in some businesses whilst others may experience a quiet period or may shut down entirely for the Christmas holidays.
+
+Many employees will request time off to spend time with their family, go on holiday or attend religious services. Employees working over the Christmas period may experience different working patterns, a change in the nature of their workload or face difficulties getting to and from work. Some organisations will operate a skeleton staff system, potentially expecting staff to take extra responsibility for areas they are not familiar with.
+
+## Christmas and New Year Bank Holidays
+This year, Christmas Day and Boxing Day directly follow a weekend, as does New Year's Day. Organisations deciding to close over the period could see their IT server rooms being left in a "lights out" state for over 10 days.
+
+Even for those organisations operating normal business hours it still means the IT department may be absent for 90% of the time during the festive period.
+
+## Conclusion
+Spook customers rest assured that whatever shift patterns or organisational business hours are expected, their IT infrastructure is being kept safe with OmniWatch 24/7. 
+
+> With the implementation of Spook's OmniWatch monitoring system, Endsleigh IT and Facilities teams can concentrate on running and supporting the business without worrying about our critical IT Data Centres which are monitored around the clock.
+
+Endsleigh Insurance Services: Stephen Street (Steve), IT Core Services Manager.
+
+### OmniWatch protection completely free and without obligation
+We are pleased to confirm we are offering a genuinely free OmniWatch service from now until the end of January 2018 with absolutely no obligation. Available to organisations that have already invested in monitoring hardware or have network attached UPSs, PDUs or generators. 
+
+To find out more about our co-managed solution [click here](https://omni.watch/solution/comanaged).
+
+It's our job to let you know of a problem before it escalates to a disaster. OmniWatch users rest assured knowing that their critical IT infrastructure is being monitored 24/7.
+
+Simply [contact us](/contact) and we will do the rest.

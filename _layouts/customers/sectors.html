@@ -1,0 +1,63 @@
+---
+layout: base
+---
+<header>
+	<div class="container">
+		<h1>Customer sectors</h1>
+	</div>
+</header>
+<section>
+	<div class="container">
+		<h2>Case studies</h2>
+		<div class="is-row">
+			{% for casestudy in site.data.casestudies %}
+				<div class="is-col">
+					<h3>{{ casestudy.title }}</h3>
+					<p>{{ casestudy.type }} provided hardware:</p>
+					<ul class="is-unstyled">
+						{% for item in casestudy.hardware %}
+							<li>{{ item.name }} x{{ item.quantity }}</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Spook sample industry sectors</h2>
+		<p>Spook's customers remain the most loyal in the industry. With an average contract term of 14 years and growing it’s rare for a client to leave. In fact, a recent audit revealed that those that have left have done so for factors outside their control.</p>
+		<p>It’s true that monitoring requirements do change over time. As IT departments evolve sometimes on-site IT moves off-site for example when co-location services or cloud services are adopted. This may reduce the original monitoring requirement but it does not exclude it. In fact, in Spook’s experience the remaining on-site communication hubs become more critical as businesses need to ensure continuance of secure, fast IT services to its employees and customers.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<ul class="is-bar is-text-center">
+			{% for sector in site.data.customers %}
+			<li><a href="#{{ sector.name | remove: " " }}">{{ sector.name }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>
+{% for sector in site.data.customers %}
+<section id="{{ sector.name | remove: " " }}">
+		<div class="container">
+			<h2>{{ sector.name }}</h2>
+			<div class="is-row">
+				<div class="is-col is-20">
+					{% for customer in sector.customers %}
+					<img style="display: block; margin-bottom: 20px; min-width: 100%;" src="/images/customer-logo/{{ customer.logo }}.svg">
+					{% endfor %}
+				</div>
+				<div class="is-col is-80">
+					<blockquote>
+						<p>{{ sector.quote.text }}</p>
+						<p class="is-small">{{ sector.quote.company }} - {{ sector.quote.information }}</p>
+					</blockquote>
+				</div>
+			</div>
+			<p class="is-text-right"><a href="#top">Back to top</a></p>
+		</div>
+	</section>
+{% endfor %}

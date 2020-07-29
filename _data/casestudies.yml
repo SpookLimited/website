@@ -1,0 +1,29 @@
+- title: Endsleigh Insurance fully managed solution using Geist Watchdog monitoring devices.
+  type: Spook
+  hardware:
+      - name: Geist Watchdog 1200s
+        quantity: 2
+      - name: Socomec UPS
+        quantity: 1
+      - name: Total sensors
+        quantity: 44
+
+- title: Financial Express co-managed solution using The Climate monitoring devices.
+  type: Client
+  hardware:
+      - name: Climate CM10s
+        quantity: 2
+      - name: Emerson UPSs
+        quantity: 3
+      - name: Total sensors
+        quantity: 82
+
+- title: Olympia London co-managed solution using Jacarta interSeptor monitoring devices.
+  type: Client
+  hardware:
+      - name: Jacarta interSeptor
+        quantity: 3
+      - name: Riello UPS
+        quantity: 1
+      - name: Total sensors
+        quantity: 34

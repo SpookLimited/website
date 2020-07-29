@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Playing Jenga in the Server Room"
+blurb: "The main reasons for business continuity invocation in 2017 are due to power and environment issues in server rooms and data centres."
+page-description: "The main reasons for business continuity invocation in 2017 are due to power and environment issues in server rooms and data centres."
+permalink: /blog/playing-jenga-in-the-server-room/
+image: /images/blog/jenga/jenga-pieces.jpeg
+date:   2017-10-11 09:27:49 +0000
+published: 1
+---
+Energy consumption has become a priority focus for any IT manager. From escalating costs to carbon footprint concerns, gaining insight into power utilisation is key. But organisations are overlooking the fast rising business risk associated with power overloads. With overstretched IT teams delivering more innovation and change than ever, data centre design creep is endemic. The result? The vast majority of disaster recovery invocations in the past year were power related.
+
+Companies cannot afford to play Jenga with their IT resources; blithely hoping that each new server can be added without, finally, tripping the circuit breaker and taking out the whole data centre. It is time to leverage the insight provided by power monitoring tools and understand just how power is being used across the infrastructure.
+
+With proactive, predictive analysis based on real time power monitoring, organisations can radically reduce the risk of power related incidents and undertake highly effective power based load balancing to maximise performance and minimise energy consumption across the data centre.
+
+### Design creep
+
+Every IT Manager knows the importance of effectively managing data centre power consumption. From the drive to reduce power usage efficiency (PUE) ratings to corporate CSR pledges, the need to reduce energy related expenditure and address Energy Efficiency Scheme CRC requirements; data centre power consumption is now centre stage. Organisations are increasingly exploring innovative real-time power monitoring and metering tools to assess energy consumption and highlight areas for improvement – from introducing new cooling technologies to creating more efficient data centre design.
+
+But while power consumption is a serious issue – and a serious cost – many organisations are simply too tightly stretched to impose control over power usage in the data centre to minimise overload and ensure the underlying power resources are used effectively and safely. As a result, the most beautifully designed data centre can descend into chaos within a matter of months.
+
+New servers are added onto racks, overloading one phase coming into the server room and creating an imbalance between phases; or old servers are swapped for newer models without considering the best location on a power, as well as space, utilisation perspective. Yes, the new server might be physically smaller than the old one, which means, in theory, it could be repositioned to maximise space – but is the underlying power infrastructure adequate? And what about the air conditioning: although a new server may demand less power for equivalent processing capability, it will typically generate more heat than the old kit, creating a situation where the existing air conditioning is not sufficient for the new heat footprint.
+
+### Power led invocation
+
+Sungard Availability Services ® (Sungard AS) a leading Business Continuity services company publish their invocation statistics every year and this year they revealed that issues related to the office environment are an increasing reason for organisations to invoke their recovery services. [In fact, 8 out of 10 invocations* are due to workplace incidents](https://www.sungardas.com/en-GB/company/news/2017/may/workplace-outages-due-to-environmental-neglect-higher-than-ever/).
+
+According to their records there has been a 200% increase in environmental based invocations in the workplace. In fact, 2016 saw the highest level of environmental issues since their annual analysis began over two decades ago.
+
+Interestingly, something as simple as maintaining power to the workplace may seem obvious, but power related invocations continue to hold second place as the largest cause of invocation failure in the workplace office environment. In fact, power is listed in the main three reasons for invocation for the last 20 years.
+
+With modern digital initiatives being power dependent, such failures stand to undermine the very progress organisations seek to achieve as they undergo transformative IT programmes.
+
+Add to that the consideration that 80% of data centres do not have adequate or, in some cases, any back-up power generation facility, and the potential financial cost of such disruption is significant. A CA Technologies’ study found that €17 billion in revenue is being lost in each year in the time taken to recover from unplanned IT downtime. The study also comments that ‘post-downtime’ there is an additional delay during which time data is still being recovered and that during the post-outage period, company revenue generation is still severely hampered, down by an average of 25%.
+
+### Predictive model
+
+So what are the options? Measuring and understanding power consumption is key to reducing power related disruption; minimising the risk of overload through changes to planned maintenance, for example, and using real time alerts to ensure problems are rapidly and proactively addressed before downtime occurs. By understanding the way power is used within the data centre 24x7, organisations can ensure proactive load balancing activity that ensures consumption is well distributed - preventing the problems caused by overload can then become a standard procedure.
+
+Of course, given the nature of IT resources, undertaking this process in-house is probably not realistic. Gaining insight into power consumption and the implications of design change needs to be made easy: organisations simply do not have the time, expertise or, to be frank, desire to manually consolidate meter readings from multiple power distribution units (PDU) to gain a complete overview. By linking real time monitoring with a single view of the entire data centre’s power utilisation, backed up with simple weekly and monthly reports that highlight both risks and opportunities for improvement, organisations have immediate insight into power utilisation and load balance. With this insight an organisation can begin to impose greater control and ensure staff do not simply use the nearest plug or PDU but understand the dangers of power overload and the value of load balancing, further reducing the risk of data centre design creep.
+
+### Conclusion
+
+Balancing thin resources and the business demand for constant change, the vast majority of IT managers know that it is just a matter of time before a new development – either long term planned or to resolve an immediate problem – will be a step too far; the piece of Jenga that trips the circuit and takes down an entire data centre. Is it really worth either the risk or the ever present stress when, by taking a proactive approach, it is possible to both understand power usage and, critically, predict the impact of data centre change?
+
+Those organisations that are simply monitoring the data centre to check energy consumption figures are missing a trick and seriously overlooking the risks associated with power failure. Metering is becoming a fundamental component of data centre design and performance but organisations need to proactively use this information to minimise IT risk as well as improve efficiency.
+
+*An invocation occurs when a Sungard Availability Services customer calls upon Sungard AS to action their Business Continuity, Technology Recovery or Workplace Recovery arrangements.

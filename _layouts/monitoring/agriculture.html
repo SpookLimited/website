@@ -1,0 +1,237 @@
+---
+layout: monitoring/base
+---
+<style>
+	.introduction-img{
+		max-width: 120px;
+		display: block;
+		margin: 0 auto;
+	}
+	.theft-icons{
+		max-width: 60px;
+	}
+</style>
+<section>
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<p>Spook's remote monitoring service called OmniWatch together with Spool's range of wireless sensors are ideal for the agriculture industry and lets growers remotely monitor and manage crops, processing data and machinery systems from anywhere at anytime; providing a heightened level of awareness for operations. </p>
+				<p>For example, users receive information to alert them to conditions that merit immediate attention. The key is to detect trouble before it escalates into time consuming and sometimes costly interventions.</p>
+			</div>
+			<div class="is-col">
+				<div class="is-row">
+					<div class="is-col">
+						<img class="introduction-img" src="/images/sections/agriculture/introduction/land-management.svg">
+						<p class="is-small is-text-center">Land management</p>
+					</div>
+					<div class="is-col">
+						<img class="introduction-img" src="/images/sections/agriculture/introduction/natural-resource-management.svg">
+						<p class="is-small is-text-center">Natural resource management</p>
+					</div>
+				</div>
+				<div class="is-row">
+					<div class="is-col">
+						<img class="introduction-img" src="/images/sections/agriculture/introduction/water-access.svg">
+						<p class="is-small is-text-center">Water access</p>
+					</div>
+					<div class="is-col">
+						<img class="introduction-img" src="/images/sections/agriculture/introduction/water-treatment.svg">
+						<p class="is-small is-text-center">Water treatment</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Wireless monitoring for agriculture</h2>
+		<p>By monitoring key conditions agricultural businesses can check soil property variances, machine behaviours, aquatic conditions, climate conditions, atmospheric physics and more.</p>
+		<p>By monitoring these conditions Agribusiness can:</p>
+		<ol>
+			<li>Increase food quality</li>
+			<li>Increase operations efficiencies</li>
+			<li>Increase machinery life cycles</li>
+			<li>Realise ideals and standards associated with precision agriculture.</li>
+		</ol>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Agribusiness is an ever evolving industry.</h2>
+		<p>By the year 2050 world growers expected to produce 70% more food.</p>
+		<p>It is predicted there will be a millennium shift from family operations to smart food factories.</p>
+		<p>By employing automation technology means operations can keep pace with Agribusiness trends.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<h2>What is precision agriculture?</h2>
+				<p>Precision agriculture is defined as the optimisation of farm land for maximum profitability and yield, while sustaining a stewardship of farm lands and public safety, through observing and measuring crop health.</p>
+				<p>To understand the perspective, the same farm acreage that was expected to feed 26 people in 1960 will be expected to feed 265 people by the year 2050.</p>
+				<p>Agriculture consumption of water is approximately up to 85% of the nations water consumption. This places substantial financial pressures on farmers to maximise the efficiency of water consumption.</p>
+			</div>
+			<div class="is-col">
+				<table class="is-responsive is-bordered">
+					<thead>
+						<tr>
+							<th>Product</th>
+							<th>Unit</th>
+							<th>Equivalent water in m3 per unit</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for item in site.data.agriculture.number-of-people-fed %}
+						<tr>
+							<td>{{ item.product }}</td>
+							<td>{{ item.unit }}</td>
+							<td class="is-text-right">{{ item.water }}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Rural crime</h2>
+		<div class="is-row">
+			<div class="is-col">
+				<div class="is-row">
+					<div class="is-col">
+						<p>2017</p>
+						<p>£44.5m</p>
+					</div>
+					<div class="is-col">
+						<p>2018</p>
+						<p>£49.9m</p>
+					</div>
+					<div class="is-col">
+						<p>Change</p>
+						<p><span class="caret is-up"></span>12.1%</p>
+					</div>
+				</div>
+				{% for item in site.data.agriculture.cost-of-theft %}
+				<div class="is-row">
+					<div class="is-col">
+						<img class="theft-icons" src="{{ item.icon }}">
+					</div>
+					<div class="is-col">
+						<p>{{ item.name }}</p>
+					</div>
+					<div class="is-col">
+						<p>{{ item.cost }}</p>
+					</div>
+					<div class="is-col">
+						<p><span class="caret is-up"></span>{{ item.percent }}</p>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+			<div class="is-col">
+				<p>The very nature of an agricultural organisation often means their livelihood is achieved in rural locations, and sometimes even ‘off grid’. As a consequence there is considerable investment made in vehicles and machinery.</p>
+				<p>Being rural brings with it its own complications. Agricultural crime covers working farms, farm machinery, farm buildings and smallholdings. Offences include theft of equipment or fuel, damage to property and to livestock. Often offenders know they are unlikely to be caught by police as there is usually a considerable delay in crime agencies attending rural crime scenes.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Agriculture remote wireless sensing</h2>
+		<p>The opportunities for wireless remote sensing in agriculture are innumerable and obviously depends on which areas of agriculture are being farmed.</p>
+		<p>A report published by the Broadband Commission for Sustainable Development identifies a plethora of sensor solutions that have track records saving money in areas such as crop production, food storage, distributions, air monitoring and soil monitoring (temperature, salinity, PF and water levels).</p>
+		<p>By monitoring these conduits allows growers to leverage sensor data and increase yields and efficiency. Routine readings of humidity levels, water levels, temperatures, door positions and other variables translate to saved assets, protected resources and employs automated alerting to avert disasters.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<h2>Quantity of light</h2>
+				<p>Spook wireless light sensors measure the intensity of light in LUX (luminescence/unit area). Plants use light as a source of energy for photosynthesis and LUX has a direct effect on plant growth.</p>
+				<p>The term photosynthesis refers to the reaction between carbon dioxide and water in the presence of light to produce carbohydrates and oxygen. The rate of this process is highly dependent on the light quantity; the photosynthesis rate is higher as the Photosynthetic Active Radiation (PAR) increases. The carbohydrates produced during photosynthesis are stored and used by the plant as a food source.</p>
+				<p>Each plant species starts the process of photosynthesis at different light energy levels, which is called the light compensation point. This point starts when light energy is sufficient for photosynthetic activity to produce more oxygen than is required by the plant for respiration.</p>
+			</div>
+			<div class="is-col">
+				<img src="/images/sections/agriculture/light/rate-of-photosynthesis.svg">
+			</div>
+		</div>
+		<p>Likewise, the release of carbon dioxide through respiration by the plant must be less than the total carbon dioxide used by the plant for photosynthesis. In other words, the net photosynthesis is zero:</p>
+		<p>Net Photosynthesis = Photosynthesis – Respiration</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Light saturation point</h2>
+		<p>More light generally equates to higher levels of photosynthesis. However as the light intensity increases, the photosynthetic rate eventually reaches a maximum point. This point where the light intensity does not increase the photosynthesis rate is called the light saturation point. When this point is reached, the photosynthesis rate curve becomes flat.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Temperature</h2>
+		<p>Spook wireless temperature sensors come in a few options. Ambient temperature sensors are compact and sealed in the body of the sensor. Whereas there are temperature probe options that are available with a lead cable of differing lengths.</p>
+		<p>Caution: The temperature sensors are not water proof so for areas that require water resistance	either select a sensor in a water proof housing or consider the Spook wireless thermo coupler sensor option.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Humidity</h2>
+		<p>Spook wireless humidity sensors measure the Relative Humidity (RH) in an area. RH is a crucial factor when growing plants in greenhouses or poly tunnels.</p>
+		<p>RH that is too high interferes with plant transpiration. It also causes condensate droplets on the ceiling and walls which reflect light. This can reduce the amount of light transmission into the	greenhouse for plant growth.</p>
+		<p>Too little RH also can stress plants by accelerating transpiration to more than what the roots can take up and translocate. The solution to these and other humidity concerns is a program of systematic humidity management.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Water</h2>
+		<p>Spook wireless water sensors detect when there is water present. These sensors can also be used to detect a lack of water, notifying when a container is nearly empty. There are various types of water sensor available, the correct sensor depends on what type of water ingress is being	monitored.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>CO<sub>2</sub></h2>
+		<p>Spook wireless CO<sub>2</sub> sensors measure the amount of CO<sub>2</sub> in an area. Studies have shown that higher concentrations of atmospheric carbon dioxide affect crops in two important ways: they boost crop yields by increasing the rate of photosynthesis, which spurs growth, and they reduce the amount of water crops lose through transpiration.</p>
+		<p>Plants transpire through their leaves, which contain tiny pores called stomata that open and collect carbon dioxide molecules for photosynthesis. During that process they release water vapour.</p>
+		<p>As carbon dioxide concentrations increase, the pores don't open as wide, resulting in lower levels of transpiration by plants and therefore increased water-use efficiency.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Open/closed</h2>
+		<p>Spook wireless open/closed sensors provide information on the status of doors, windows, cabinets, etc. Farmland gates and lock-ups vary and by using a common open/closed sensor on latches and doors provides valuable reassurance that areas are secure.</p>
+		<p>By remotely monitoring whether doors, gates, entrances and windows are open or closed saves time and effort in staff needing to visit to make sure places are secure.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Liquid level</h2>
+		<p>Spook wireless liquid level sensors use a solid state, continuous (multi-level) fluid level sensor for measuring levels in water, non-corrosive water based liquids and dry fluids (powders).</p>
+		<p>The agricultural industry has an array of tanks, storage containers, fuel storage areas and	containers that are used throughout the year. By remotely monitoring the level of these saves valuable time and effort and can act as automatic reminders when low levels are recorded and need re-ordering.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Security/motion</h2>
+		<p>Spook wireless motion sensors are ideal for detecting if unwanted guests are present. Infrared motion detectors can prove a useful guard agains theft and damage. Spook’s wireless motion sensors use an infrared sensing technology to accurately detect movements made by people or even animals such as rats and other vermin.</p>
+		<p>As Spook motion sensors use infrared they are non-obtrusive and can be installed in confined areas without attention being drawn to their use.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Carbon monoxide (CO)</h2>
+		<p>Spook wireless CO sensors are ideal to detect early warnings of carbon monoxide. Carbon	monoxide poisoning is a real threat to confined or restricted areas that have machinery in use.</p>
+		<p>Any areas that have fire or combustibles present are also a potential dangerous generator of carbon monoxide.</p>
+		<p>Agricultural buildings often have machinery running inside them such as mills, saws, forges etc... They are also likely to have paraffin heaters or log burners in areas where people work. Monitoring the CO in these areas is vital to ensuring the safety of workers and staff.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Dry Contact</h2>
+		<p>Spook wireless dry contact sensors detect when there is contact between two wired end points. They can easily be integrated into existing switches or contact plates.</p>
+		<p>The sensors can usually be installed on third party equipment such a generators, mills and machinery to provide operating condition alerts.</p>
+	</div>
+</section>

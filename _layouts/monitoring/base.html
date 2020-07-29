@@ -1,0 +1,22 @@
+---
+layout: base
+---
+<header style="background-image: url('{{ page.header-image }}');">
+	<div class="container">
+		<div class="is-50">
+			<h1>{{ page.header }}</h1>
+			<h3>{{ page.subheader }}</h3>
+		</div>
+	</div>
+</header>
+{% include monitoring/wireless-header.html %}
+<!--{% include monitoring/wireless-sensors.html %}
+	{% include monitoring/wireless-gateways.html %}-->
+{{ content }}
+<section>
+	<div class="container">
+		<h2>Get in touch with Spook</h2>
+		<p>Please contact us if you wish for further information on how Spook can help with your environmental and power monitoring needs.</p>
+		<p><a href="#" class="button">Contact us</a></p>
+	</div>
+</section>

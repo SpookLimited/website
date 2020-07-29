@@ -1,0 +1,14 @@
+- name: Agri-vehicle theft
+  icon: /images/sections/agriculture/theft/tractor.svg
+  cost: £7.4m
+  percent: 26%
+
+- name: ATV/Quad theft
+  icon: /images/sections/agriculture/theft/atv.svg
+  cost: £2.6m
+  percent: 10%
+
+- name: Livestock theft
+  icon: /images/sections/agriculture/theft/pig.svg
+  cost: £2.5m
+  percent: 4%

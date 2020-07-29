@@ -1,0 +1,11 @@
+- type: Coin cell battery
+  text: 3-5 years battery life.
+
+- type: AA battery
+  text: 10 years battery life and an on/off switches.
+
+- type: Industrial
+  text: Lithium battery with 10 year life and weatherproof casing.
+
+- type: Solar
+  text: Internal solar rechargeable lithium battery with weatherproof casing.

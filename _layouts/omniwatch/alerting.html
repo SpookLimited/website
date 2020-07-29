@@ -1,0 +1,74 @@
+---
+layout: base
+---
+
+<header style="background-image: linear-gradient( hsla(0, 0%, 7%, 0.4), hsla(0, 0%, 7%, 0.4) ), url('{{ page.image }}');{% if page.color %}color: #{{ page.color }};{% endif %}; background-position: bottom;">
+	<div class="container">
+		<h1>{{ page.title }}</h1>
+	</div>
+</header>
+<section>
+	<div class="container">
+		<h2>Introduction</h2>
+		<p>The alerting service is one of the key components within OmniWatch. It has <strong>tiered escalation</strong> and can be fully <strong>customised</strong> for each sensor and contact.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<h2>Monitoring sensor readings</h2>
+				<p>Users can set custom trip values for any sensor or metric that is monitored by OmniWatch as well as stating whether the alert is critical or not, determining the level of escalation.</p>
+			</div>
+			<div class="is-col">
+				{% include images/placeholder.html %}
+				<p><i>sensor having trips added</i></p>
+			</div>
+			<div class="is-col">
+				{% include images/placeholder.html %}
+				<p><i>sensor values exceeding the trip value</i></p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Custom contact rota</h2>
+		<p>All alerts can be designed to vary how emergency client personnel are contacted throughout the day (e.g. specific staff in office hours and separate emergency personnel for all other times).</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h5>Stage one</h5>
+		<h2>Email alerts</h2>
+		<p>For the first stage of alerts contacts will receive an email to their specified address(es). The email contains a description of the alert, trend data and a list of all contacts for this alert.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h5>Stage two</h5>
+		<h2>SMS alerts</h2>
+		<p>For critical alerts that require confirmation the system can send SMS alerts to your phone. SMSs contain key information about the current alarm as well as the ability to reply to confirm the alarm; no internet connection required.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h5>Stage three</h5>
+		<h2>Call centre alerts</h2>
+		<p>Alerts can be further escalated to Spook's call centre who will work through the custom contact list in priority order to ensure you are aware. Call center agents are able to pass information about the alarm to the contact and confirm them on their behalf.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<h2>Fully auditable</h2>
+				<p>Every part of the alerting system is logged and updated in real-time.</p>
+				<p>Each message that is sent out is logged and stored and presented within a single exportable report for each alert, perfect for investigations and incident reports.</p>
+			</div>
+			<div class="is-col">
+				{% include images/placeholder.html %}
+			</div>
+		</div>
+	</div>
+</section>

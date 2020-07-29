@@ -1,0 +1,80 @@
+<section style="background-color: #aaa">
+	<div class="container">
+		<div class="is-stack-20">
+			<h5>Contact us</h5>
+			<ul class="is-bar">
+				<li><img src="/images/icons/facebook.svg"></li>
+				<li><img src="/images/icons/linkedin.svg"></li>
+				<li><img src="/images/icons/twitter.svg"></li>
+				<li>email</li>
+			</ul>
+		</div>
+		<div class="is-row">
+			<div class="is-col">
+				<h5>Legal</h5>
+				<ul class="is-unstyled">
+					<li>Terms of use</li>
+					<li>Privacy policy</li>
+					<li>Cookie policy</li>
+				</ul>
+			</div>
+			<div class="is-col">
+				<h5>IT room monitoring</h5>
+				<ul class="is-unstyled">
+				{% for item in site.monitoring %}
+					{% if item.type == 'it' %}
+					<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+				<h5>Facilities</h5>
+				<ul class="is-unstyled">
+				{% for item in site.monitoring %}
+					{% if item.type == 'facilities' %}
+					<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+				<h5>Power monitoring</h5>
+				<ul class="is-unstyled">
+				{% for item in site.monitoring %}
+					{% if item.type == 'power' %}
+					<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+			</div>
+			<div class="is-col">
+				<h5>Environmental</h5>
+				<ul class="is-unstyled">
+					{% for item in site.monitoring %}
+						{% if item.type == 'sensor' %}
+						<li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+				<h5>IoT wireless sensors</h5>
+				<ul class="is-unstyled">
+					{% for item in site.monitoring %}
+						{% if item.type == 'iot' %}
+						<li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+			<div class="is-col">
+				<h5>Company</h5>
+				<ul class="is-unstyled">
+					<li><a href="/about/">About</a></li>
+					<li><a href="/news/">News</a></li>
+					<li>Technical</li>
+				</ul>
+			</div>
+		</div>
+		<p>2020 © Spook Limited. All rights reserved.</p>
+	</div>
+</section>
+<script src="/js/kube.min.js"></script>
+<script>
+    $K.init();
+</script>

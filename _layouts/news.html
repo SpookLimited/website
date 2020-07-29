@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+<header>
+	<div class="container">
+		<h1>News</h1>
+	</div>
+</header>
+<section>
+	<div class="container">
+		{% for post in site.posts %}
+			<h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+		{% endfor %}
+	</div>
+</section>

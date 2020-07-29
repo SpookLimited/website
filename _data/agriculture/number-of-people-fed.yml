@@ -1,0 +1,35 @@
+- product: Cattle
+  unit: head
+  water: 4000
+
+- product: Sheep and goats
+  unit: head
+  water: 500
+
+- product: Fresh beef
+  unit: kg
+  water: 15
+
+- product: Fresh lamb
+  unit: kg
+  water: 10
+
+- product: Fresh poultry
+  unit: kg
+  water: 6
+
+- product: Cereals
+  unit: kg
+  water: 1.5
+
+- product: Citrus fruits
+  unit: kg
+  water: 1
+
+- product: Palm oil
+  unit: kg
+  water: 2
+
+- product: Pulse, roots and tubers
+  unit: kg
+  water: 1

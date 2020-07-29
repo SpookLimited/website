@@ -1,0 +1,146 @@
+---
+---
+
+body, h1, h2, h3, h4, h5
+    font-family: 'Roboto', sans-serif
+
+main
+    min-height: 100vh
+
+p
+    font-weight: 300
+
+$tablet-width: 768px
+$desktop-width: 1024px
+
+=media($size)
+    @media (min-width: $tablet-width)
+        @content
+
+.container
+    position: relative
+    width: 100%
+    max-width: 1024px
+    margin: 0 auto
+    padding: 0 20px
+    box-sizing: border-box
+    &:after
+        content: ""
+        display: table
+        clear: both
+    +media($tablet-width)
+        width: 80%
+
+header
+    padding: 10em 0
+    background-color: #aaa
+    background-size: cover
+    background-attachment: fixed
+    background-position: center
+    color: #fff
+
+.site-header
+    background-image: url(https://images.unsplash.com/photo-1565677662992-a1219883c01a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80)
+    background-position: center
+    background-size: cover
+    color: #fff
+    clip-path: polygon(0 0,100% 0,100% calc(100% - 100px),0 100%)
+    h1
+        font-size: 4em
+    h3
+        font-weight: normal
+
+section
+    padding: 4em 0
+
+button, .button, .button.is-secondary
+    border-radius: 24px
+
+.is-navbar-container .container
+    display: flex
+    padding: 1em 0
+
+.navbar-links
+    li
+        a
+          color: #333
+          text-decoration: none
+          &:hover
+           &:after
+            content: ""
+            width: 100%
+            border-bottom: 2px solid #333
+        a.button
+            color: #fff
+
+.tabbed-links-vertical
+    height: 100%
+    min-width: 100%
+    li
+        margin-bottom: 20px
+        display: block
+        min-width: 100%
+        a
+            display:block
+            min-width: 100%
+            padding-top: 10px
+            padding-bottom: 10px
+            padding-left: 10px
+            text-decoration: none
+            color: #333
+            font-weight: bold
+            &:hover
+                color: #aaa
+        a.is-active
+            display: block
+            background-color: #333
+            color: #fff
+            min-width: 100%
+
+@keyframes flickerAnimation
+  0%
+    opacity: 1
+  50%
+    opacity: 0
+  100%
+    opacity: 1
+
+@keyframes flickerAnimationReverse
+  0%
+    opacity: 0
+  50%
+    opacity: 1
+  100%
+    opacity: 0
+
+.animate-blink
+    opacity: 1
+    animation: flickerAnimation .5s infinite
+
+.animate-blink-reverse
+    opacity: 1
+    animation: flickerAnimationReverse .5s infinite
+
+.animate-flicker
+    opacity: 1
+    animation: flickerAnimation 2s infinite
+
+.animate-flicker-reverse
+    opacity: 1
+    animation: flickerAnimationReverse 2s infinite
+
+.animate-blink-slow
+    opacity: 1
+    animation: flickerAnimation 3s infinite
+
+.animate-blink-reverse-slow
+    opacity: 1
+    animation: flickerAnimationReverse 3s infinite
+
+.animate-flicker-slow
+    opacity: 1
+    animation: flickerAnimation 5s infinite
+
+.animate-flicker-reverse-slow
+    opacity: 1
+    animation: flickerAnimationReverse 5s infinite

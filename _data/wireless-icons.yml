@@ -1,0 +1,23 @@
+- title: Out of the box
+  icon:
+  text: No setup required, just turn the sensors on. 
+
+- title: Plug and play
+  icon: 
+  text: No expertise or existing IT infrastructure required.
+
+- title: 24/7 monitoring
+  icon: 
+  text: Peace of mind from round the clock monitoring.
+
+- title: Any internet device
+  icon: 
+  text: Access data and reports on any internet enabled device.
+
+- title: 1200ft range
+  icon:
+  text: Monitor wirelessly without needing line of sight.
+
+- title: Battery monitoring
+  icon:
+  text: System checks its own health and ensures all is good.

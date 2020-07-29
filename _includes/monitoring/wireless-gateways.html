@@ -1,0 +1,14 @@
+<section>
+	<div class="container">
+		<h2>Gateway options</h2>
+		<div class="is-row">
+			{% for item in site.data.wireless-gateways %}
+			<div class="is-col">
+				<div style="width: 100%; height: 100px; background-color: #aaa;"></div>
+				<h5>{{ item.type }}</h5>
+				<p>{{ item.text }}</p>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

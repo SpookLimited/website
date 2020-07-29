@@ -1,0 +1,23 @@
+- title: 24/7 monitoring
+  link: /omniwatch/247-monitoring/ 
+  image: /images/icons/247.svg
+
+- title: Sensor value alerting
+  link: /omniwatch/alerting/ 
+  image: /images/icons/alert.svg
+
+- title: On-demand reporting
+  link: /omniwatch/reporting/ 
+  image: /images/icons/report.svg
+
+- title: Real-time dashboard
+  link: /omniwatch/dashboard/
+  image: /images/icons/dashboard.svg
+
+- title: Installation plans
+  link: /omniwatch/installation-plans/
+  image: /images/icons/installation-plans.svg
+
+- title: Change logs
+  link: /omniwatch/change-logs/
+  image: /images/icons/change-logs.svg

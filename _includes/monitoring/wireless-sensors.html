@@ -4,7 +4,7 @@
 		<div class="is-row">
 			{% for item in site.data.wireless-sensors %}
 			<div class="is-col">
-				<div style="width: 100%; height: 100px; background-color: #aaa;"></div>
+				<img style="max-height: 160px; display: block; margin: 0; padding-bottom: 1em;" src="{{ item.icon }}">
 				<h5>{{ item.type }}</h5>
 				<p>{{ item.text }}</p>
 			</div>

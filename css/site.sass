@@ -1,6 +1,8 @@
 ---
 ---
 
+$brand: #595e6f
+
 body, h1, h2, h3, h4, h5
     font-family: 'Roboto', sans-serif
 
@@ -59,18 +61,12 @@ button, .button, .button.is-secondary
     display: flex
     padding: 1em 0
 
-.navbar-links
-    li
-        a
-        color: #333
-        text-decoration: none
+.navbar-link
+    color: #333
+    text-decoration: none
     &:hover
-    &:after
-        content: ""
-        width: 100%
-        border-bottom: 2px solid #333
-        a.button
-    color: #fff
+        color: $brand
+        border-bottom: 2px solid $brand
 
 .tabbed-links-vertical
     height: 100%

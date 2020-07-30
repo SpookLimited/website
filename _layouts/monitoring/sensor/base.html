@@ -1,0 +1,48 @@
+---
+layout: base
+---
+<header style="background-image: url('{{ page.header-image }}');">
+	<div class="container">
+		<div class="is-50">
+			<h3>{{ page.subheader }}</h3>
+			<h1>{{ page.header }}</h1>
+			<p><a class="button is-secondary is-inverted" style="margin-top: 2em;" href="/contact/">Contact us</a></p>
+		</div>
+	</div>
+</header>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-30">
+				<p>Spook understands not every company has an engineer available to set up complicated systems and make sure everything is functioning correctly.Spook wireless sensors come pre-configured for easy out-of-box installation.</p>
+			</div>
+			<div class="is-col is-70">
+				<div class="is-row">
+					{% for item in site.data.wireless-sensors-header %}
+					<div class="is-col is-50">
+						<div style="width: 100%; height: 100px; background-color: #aaa;"></div>
+						<h5>{{ item.title }}</h5>
+						<p>{{ item.text }}</p>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<p>Spook wireless sensors arrive pre-configured and have on-board on/off switches making installation extremely easy. Just turn on the kit and access the secure user dashboards via OmniWatch from any internet enabled device.</p>
+		<p>Spook Wireless Sensor Maximum battery life OmniWatch includes monitoring signal strength and battery status of each of the Spook wireless sensors. This means the battery replacement procedure is achieved in an informed and simple way.</p>
+		<p>With over 80 sensor types there is little Spook wireless sensors can not monitor.</p>
+	</div>
+</section>
+{% include monitoring/wireless-sensors.html %} 
+{{ content }}
+<section>
+	<div class="container">
+		<h2>Get in touch with Spook</h2>
+		<p>Please contact us if you wish for further information on how Spook can help with your environmental and power monitoring needs.</p>
+		<p><a href="#" class="button">Contact us</a></p>
+	</div>
+</section>

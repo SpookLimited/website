@@ -1,0 +1,15 @@
+- title: Pre-configured
+  icon: /images/icons/signal.svg
+  text: No setup required, just turn the sensors on.
+
+- title: On-board on/off
+  icon: /images/icons/signal.svg
+  text: Put something in here about how this is great.
+
+- title: Instant access via OmniWatch
+  icon: /images/icons/signal.svg
+  text: More interesting stuff about OmniWatch goes here.
+
+- title: Any internet enabled device
+  icon: /images/icons/signal.svg
+  text: Access data and reports on any internet enabled device.

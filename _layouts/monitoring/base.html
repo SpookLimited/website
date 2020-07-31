@@ -10,8 +10,12 @@ layout: base
 		</div>
 	</div>
 </header>
-{% include monitoring/wireless-header.html %}
-<!--{% include monitoring/wireless-sensors.html %}
-	{% include monitoring/wireless-gateways.html %}-->
+<section>
+	<div class="container">
+		{% include monitoring/wireless-header.html %}
+	<!--{% include monitoring/wireless-sensors.html %}
+		{% include monitoring/wireless-gateways.html %}-->
+	</div>
+</section>
 {{ content }}
 {% include contact-us.html %}

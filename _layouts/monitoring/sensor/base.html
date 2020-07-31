@@ -14,18 +14,11 @@ layout: base
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-30">
-				<p>Spook understands not every company has an engineer available to set up complicated systems and make sure everything is functioning correctly.Spook wireless sensors come pre-configured for easy out-of-box installation.</p>
+				<p>Spook understands not every company has an engineer available to set up complicated systems and make sure everything is functioning correctly.</p>
+				<p>Spook wireless sensors come pre-configured for easy out-of-box installation.</p>
 			</div>
 			<div class="is-col is-70">
-				<div class="is-row">
-					{% for item in site.data.wireless-sensors-header %}
-					<div class="is-col is-33">
-						<div style="width: 100%; height: 100px; background-color: #aaa;"></div>
-						<h5>{{ item.title }}</h5>
-						<p>{{ item.text }}</p>
-					</div>
-					{% endfor %}
-				</div>
+				{% include monitoring/wireless-header.html %}
 			</div>
 		</div>
 	</div>

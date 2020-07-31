@@ -61,63 +61,6 @@ layout: base
 		</div>
 	</div>
 </section>
-<section style="background-color: #aaa;">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-60">
-				<img src="/images/monitoring-dashboard.png">
-			</div>
-			<div class="is-col is-40">
-				<h2>OmniWatch</h2>
-				<h4>Always on remote monitoring solution.</h4>
-				<h4>Get in touch for a demo.</h4>
-				<p><a href="#" class="button">Book demo</a></p>
-			</div>
-		</div>
-	</div>
-</section>
-<!--
-<section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col">
-				<h2>Award winning monitoring</h2>
-				<p>Spook won the 'Most Innovative Solution' at the industry leading CIR Business Continuity Awards in London. All software development is in-house and importantly much of any new functionality is achieved by feed-back from close customer relationships. As a result Spook service remains relevant and functionally rich.</p>
-			</div>
-			<div class="is-col">
-				<div style="width: 100%; height: 200px; background-image: url('/images/cir-award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-				<p class="is-text-center">Winner - CIR Business Continuity Awards 'Most Innovative Solution of the Year'</p>
-			</div>
-		</div>
-	</div>
-</section>
--->
-<!--
-<section id="monitoring-section">
-	<div class="container">
-		<div style="background-image: url('/images/monitoring-dashboard.png'); background-position: top; background-size: cover; padding-top: 30em;"></div>
-		<h2>Monitoring</h2>
-		<div class="is-row">
-			<div class="is-col">
-				<h3>Secure real-time dashboards</h3>
-				<p>Customers have access to an enterprise centric solution via any internet enabled device. Multiple customer end users have their own secure web portals in order to view sensor readings and much more.</p>
-			</div>
-			<div class="is-col">
-				{% include images/placeholder.html %}
-			</div>
-		</div>
-		<h3>Monitoring technology</h3>
-		<p>Spook has been developed to monitor equipment from a multitude of hardware manufacturers. Whether there is a requirement to monitor wired climate monitoring hardware or 3rd party devices such as intelligent power strips, uninterruptible power supplies, generators, BMS systems etc.</p>
-		<p>Spook’s experience shows that the most common type of hardware is wired for example, installed on a Local Area Network (LAN) and Wide Area Network (WAN). However, Spook services embrace cellular services too.</p>
-		<h3>Budgeting for monitoring</h3>
-		<p>With Spook, budgeting for monitoring has never been easier or more affordable. The total cost of ownership (TCO) is simply an annual monitoring fee. The fee varies based on the amount of monitoring required, however by contacting Spook an accurate annual fee can usually be provided and is without obligation. There are no hidden charges. Simply contact us or request a quotation.</p>
-		<ul class="is-bar">
-			<li><a href="#" class="button">Wired vs wireless</a></li>
-			<li><a href="#" class="button is-secondary">Manufacturer support</a></li>
-		</ul>
-	</div>
-</section>
--->
 <section>
 	<div class="container">
 		<div class="is-row">
@@ -132,22 +75,7 @@ layout: base
 		</div>
 	</div>
 </section>
-<!--
--->
-<!--
-<section id="reporting-section">
-	<div class="container">
-		<h2>Measure, analyse, improve and control</h2>
-		<p>Spook streamlines monitoring to deliver an outstanding end user experience. Users are able to continually Measure, Analyse, Improve and Control; which is key to maximising business uptime or protecting valuable assets and ensuring departmental Key Performance Indicators (KPI's) are measured and met.</p>
-		<p>Collected sensor readings are a valuable asset. Unlike data loggers or data sampling on various monitoring hardware devices; whereby the oldest data is deleted while new values are added, Spook readings are held in perpetuity. Spook understands that importance of providing longer trend data periods to study in order for a more accurate measurement to be applied.</p>
-		<p>Spook customers are able to accurately measure and compare readings across different time zones and periods. Trend data reports can be generated and compared for any time frame, this is ideal to ensure accurate measurement of efficiency gains or even creating seasonal or annual trend reports to identify how changes to the general climate effect monitored areas.</p>
-		<p>Weekly and monthly reports are auto-generated and sent to end users via email for handy review.</p>
-		<p>Anything more complicated can be created via the intuitive search engine within the on demand report function.</p>
-		<p>In short Spook makes interpreting data meaningful, intuitive and incredibly easy to access.</p>
-	</div>
-</section>
--->
-<section>
+<section style="background-color: #ddd;">
 	<div class="container">
 		<div class="is-row">
 			{% for post in site.posts | limit: 3 %}
@@ -155,14 +83,14 @@ layout: base
 					<h5>News</h5>
 					<div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center;"></div>
 					<p>{{ post.date | date_to_string }}</p>
-					<h2><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+					<h2><a style="color: #333; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
 					<p>{{ post.page-description | truncate_words: 20 }}</p>
 				</div>
 			{% endfor %}
 		</div>
 	</div>
 </section>
-<section style="margin-top: 160px; background-color: #ddd;">
+<section class="brand">
 	<div class="container is-text-center">
 		<h2>Fully managed or co-managed</h2>
 		<p>Spook customers range from businesses that have already installed environmental hardware and network devices to organisations that are considering monitoring for the first time.</p>

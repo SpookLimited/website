@@ -1,15 +1,36 @@
-- title: Pre-configured
+- title: Cloud based 
   icon: /images/icons/signal.svg
-  text: No setup required, just turn the sensors on.
+  text: 
 
-- title: On-board on/off
+- title: 24/7 monitoring
   icon: /images/icons/signal.svg
-  text: Put something in here about how this is great.
+  text: 
 
-- title: Instant access via OmniWatch
+- title: Secure access via any internet device
   icon: /images/icons/signal.svg
-  text: More interesting stuff about OmniWatch goes here.
+  text: 
 
-- title: Any internet enabled device
+- title: Alerts email, 2-way SMS, UK call centre
   icon: /images/icons/signal.svg
-  text: Access data and reports on any internet enabled device.
+  text: 
+
+- title: Data roaming cellular technology
+  icon: /images/icons/signal.svg
+  text: 
+
+- title: Pre-configured and ready
+  icon: /images/icons/signal.svg
+  text: 
+
+- title: 80+ wireless sensors
+  icon: /images/icons/signal.svg
+  text: 
+
+- title: 12+ year battery life
+  icon: /images/icons/signal.svg
+  text: 
+
+- title: 1200+ feet range (through walls)
+  icon: /images/icons/signal.svg
+  text: 
+

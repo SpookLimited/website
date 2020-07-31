@@ -4,8 +4,8 @@ layout: base
 <header class="site-header">
 	<div class="container">
 		<div class="is-stack-20">
-			<h1>Spook Limited</h1>
-			<h3>Remote enterprise centric cloud based monitoring</h3>
+			<img src="/images/omniwatch-logo.svg" style="max-width: 120px;">
+			<h3>Remote cloud based monitoring</h3>
 		</div>
 		<ul class="is-bar">
 			<li><a href="#" class="button is-inverted">Demo</a></li>
@@ -36,27 +36,41 @@ layout: base
 </section>
 <section>
 	<div class="container">
+		<h2>Welcome to OmniWatch</h2>
+		<div class="is-row">
+			{% for item in site.data.omniwatch-keypoints %}
+				<div class="is-col is-33 is-stack-40">
+					<div style="width: 200px; height: 200px; background-color: #ddd;">
+					</div>
+					<h5>{{ item.title }}</h5>	
+					<a href="{{ item.link }}">More</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
 		<img src="/images/homepage/laptop-screen.svg">
 	</div>
 </section>
 <section>
 	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-				<img style="max-width:150px;" src="/images/omniwatch-logo.svg">
+		<div class="is-row is-text-center">
+			<div class="is-col">
+				<h3>IT monitoring</h3>
+				<div style="width:200px; height: 200px; background: #ddd; margin: 1em auto;"></div>
+				<p><a href="#" class="button">Read more</a></p>
 			</div>
-			<div class="is-col is-80">
-				<h2>What is OmniWatch?</h2>
-				<div class="is-row">
-					{% for item in site.data.omniwatch-keypoints %}
-						<div class="is-col is-33 is-stack-40">
-							<div style="width: 100%; height: 80px; background-image: url('{{ item.image }}'); background-position: left; background-size: contain; background-repeat: no-repeat;">
-							</div>
-							<h5>{{ item.title }}</h5>	
-							<a href="{{ item.link }}">More</a>
-						</div>
-					{% endfor %}
-				</div>
+			<div class="is-col">
+				<h3>Power monitoring</h3>
+				<div style="width:200px; height: 200px; background: #ddd; margin: 1em auto;"></div>
+				<p><a href="#" class="button">Read more</a></p>
+			</div>
+			<div class="is-col">
+				<h3>Industry monitoring</h3>
+				<div style="width:200px; height: 200px; background: #ddd; margin: 1em auto;"></div>
+				<p><a href="#" class="button">Read more</a></p>
 			</div>
 		</div>
 	</div>

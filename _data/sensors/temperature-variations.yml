@@ -1,0 +1,30 @@
+- name: High temperature
+  range: -50°C to +370°C
+  types:
+      - AA
+      - Industrial
+
+- name: Low temperature
+  range: -200°C to +162°C
+  types:
+      - AA
+      - Industrial
+
+- name: Water temperature
+  range: -40°C to +125°C
+  types:
+      - Coin cell
+      - AA
+      - Industrial
+
+- name: Duct temperature
+  range: -40°C to +125°C
+  types:
+      - Coin cell
+      - AA
+      - Industrial
+
+- name: Quad temperature
+  range: -40°C to +125°C
+  types:
+      - Industrial

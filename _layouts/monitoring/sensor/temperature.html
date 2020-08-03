@@ -5,7 +5,7 @@ layout: monitoring/sensor/base
 	<div class="container">
 		<p>Spook wireless temperature sensors use a thermistor to accurately measure temperatures. These sensors are perfect for monitoring ambient temperatures around the sensors physical location.</p>
 		<p>There are temperature probe versions that come with a length of cable attaching the probe to the sensor. A quad temperature probe sensor provides four independent points of temperature monitoring within the single unit.</p>
-		<div class="is-row is-items-middle">
+		<div class="is-row is-items-middle is-stack-80">
 			<div class="is-col">
 				<img style="display: block; margin: 0 auto;" src="/images/sensor/temperature.svg">
 			</div>
@@ -16,6 +16,21 @@ layout: monitoring/sensor/base
 				</ul>
 				<p>Caution: The temperature sensors are not water proof so for areas that require water resistance either select a sensor in a water proof housing or consider the Spook wireless thermo coupler option.</p>
 			</div>
+		</div>
+		<h3>Related sensors</h3>
+		<div class="is-row">
+			{% for item in site.data.sensors.temperature-variations %}
+			<div class="is-col">
+				<div style="width: 120px; height: 120px; background-color: #aaa;"></div>
+				<h5>{{ item.name }}</h5>
+				<p class="is-small">{{ item.range }}</p>
+				<ul class="is-bar">
+					{% for type in item.types %}
+					<li class="is-small">{{ type }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>

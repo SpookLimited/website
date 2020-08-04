@@ -11,11 +11,11 @@
   text: 
 
 - title: Alerts email, 2-way SMS, UK call centre
-  icon: /images/icons/signal.svg
+  icon: /images/icons/alarms.svg
   text: 
 
 - title: Data roaming cellular technology
-  icon: /images/icons/signal.svg
+  icon: /images/icons/simcard.svg
   text: 
 
 - title: Pre-configured and ready

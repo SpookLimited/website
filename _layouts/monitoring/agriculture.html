@@ -121,44 +121,15 @@ layout: monitoring/base
 <section>
 	<div class="container">
 		<h2>Rural crime</h2>
-		<div class="is-row">
-			<div class="is-col">
-				<div class="is-row">
-					<div class="is-col">
-						<p>2017</p>
-						<p>£44.5m</p>
-					</div>
-					<div class="is-col">
-						<p>2018</p>
-						<p>£49.9m</p>
-					</div>
-					<div class="is-col">
-						<p>Change</p>
-						<p><span class="caret is-up"></span>12.1%</p>
-					</div>
-				</div>
-				{% for item in site.data.agriculture.cost-of-theft %}
-				<div class="is-row">
-					<div class="is-col">
-						<img class="theft-icons" src="{{ item.icon }}">
-					</div>
-					<div class="is-col">
-						<p>{{ item.name }}</p>
-					</div>
-					<div class="is-col">
-						<p>{{ item.cost }}</p>
-					</div>
-					<div class="is-col">
-						<p><span class="caret is-up"></span>{{ item.percent }}</p>
-					</div>
-				</div>
-				{% endfor %}
-			</div>
-			<div class="is-col">
-				<p>The very nature of an agricultural organisation often means their livelihood is achieved in rural locations, and sometimes even ‘off grid’. As a consequence there is considerable investment made in vehicles and machinery.</p>
-				<p>Being rural brings with it its own complications. Agricultural crime covers working farms, farm machinery, farm buildings and smallholdings. Offences include theft of equipment or fuel, damage to property and to livestock. Often offenders know they are unlikely to be caught by police as there is usually a considerable delay in crime agencies attending rural crime scenes.</p>
-			</div>
-		</div>
+        <div class="is-row">
+            <div class="is-col is-60">
+                <img src="/images/sections/agriculture/theft/ruralcrime.svg">
+            </div>
+            <div class="is-col is-40">
+                <p>The very nature of an agricultural organisation often means their livelihood is achieved in rural locations, and sometimes even ‘off grid’. As a consequence there is considerable investment made in vehicles and machinery.</p>
+                <p>Being rural brings with it its own complications. Agricultural crime covers working farms, farm machinery, farm buildings and smallholdings. Offences include theft of equipment or fuel, damage to property and to livestock. Often offenders know they are unlikely to be caught by police as there is usually a considerable delay in crime agencies attending rural crime scenes.</p>
+            </div>
+        </div>
 	</div>
 </section>
 <section>

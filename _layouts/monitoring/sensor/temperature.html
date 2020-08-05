@@ -21,7 +21,7 @@ layout: monitoring/sensor/base
 		<div class="is-row">
 			{% for item in site.data.sensors.temperature-variations %}
 			<div class="is-col">
-				<div style="width: 120px; height: 120px; background-color: #aaa;"></div>
+				<img style="width: 120px;" src="{{ item.icon }}">
 				<h5>{{ item.name }}</h5>
 				<p class="is-small">{{ item.range }}</p>
 				<ul class="is-bar">

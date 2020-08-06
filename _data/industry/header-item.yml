@@ -1,0 +1,50 @@
+- title: Heritage
+  link: /monitoring/heritage/
+  image: /images/sections/heritage-monitoring.png
+  reverse: 0
+  text:
+      - Heritage organisations usually require discrete monitoring.
+      - Whether it is protecting collections or simply monitoring for visitor foot fall, institutions such as museums, galleries, libraries, private collections and archives all benefit by remotely monitoring with OmniWatch.
+  
+- title: Refrigeration
+  link: /monitoring/refrigeration/
+  image: /images/sections/refrigeration-monitoring.png
+  reverse: 1
+  text:
+      - Controlling the temperature of food is extremely important in ensuring that food is safe to eat.
+      - Government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public.
+      - OmniWatch is the perfect solution to ensure food security.
+
+- title: Construction
+  link: /monitoring/
+  image: /images/sections/pharma-monitoring.png
+  reverse: 0
+  text:
+      - Construction sites are vulnerable to many areas that could benefit from monitoring.
+      - Whether it is health and safety, theft, activity or any number of other issues OmniWatch combined with Spook's range of over 80 wireless sensors means monitoring can be easily achieved.
+      - Combined with using cellular technology to send data to Spook's servers is also flexible so when construction is completed simply use the monitoring hardware on the next projects.
+
+- title: Agricultural
+  link: /monitoring/agriculture/
+  image: /images/sections/agriculture-monitoring.png
+  reverse: 1
+  text: 
+      - The agricultural industry is diverse and has many areas that can benefit from remote monitoring.
+      - By installing Spook's wireless sensors together with using cellular routers lets growers remotely monitor and manage crops, processing data and machinery systems from anywhere at anytime; providing a heightened level of awareness for operations.
+
+- title: Marine
+  link: /monitoring/marine/
+  image: /images/sections/marine-monitoring.png
+  reverse: 0
+  text:
+      - Watercraft are subject to all sorts of testing conditions, including water damage, submersion, bilge pump failure, theft, and more.
+      - Spook's range of wireless sensors help protect vessels 24/7.
+      - There are many areas that benefit from remote monitoring in the marine industry.
+
+- title: Biotech & pharma
+  link: /monitoring/biotech/
+  image: /images/sections/pharma-monitoring.png
+  reverse: 1
+  text:
+      - The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) have stringent rules and regulations when it comes to compliance.
+      - OmniWatch not only monitors the environment and security of drugs and medicines, it also has an audit function whereby reports can be generated to prove Biotech & Pharma conformity to regulations.

@@ -3,32 +3,13 @@ layout: monitoring/key-pages/base
 ---
 <section>
 	<div class="container">
-		<h3>Key features</h3>
 		<div class="is-row">
+			{% for item in site.data.industry.header-item %}
 			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Heritage</h5>
+				<img src="{{ item.image }}">
+				<h5>{{ item.title }}</h5>
 			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Refrigeration</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Construction</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Agricultural</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Marine</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Biotech & pharma</h5>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>
@@ -37,77 +18,20 @@ layout: monitoring/key-pages/base
 		<p>Spook understands not every business has an engineer available to set up complicated systems and	make sure everything is functioning correctly. That’s why Spook’s range of over 80 wireless sensors	are perfect for monitoring across multiple industry types. The wireless sensors come pre-configured so all that is needed is for them to be installed in the area that requires monitoring and for the sensor to be switched on. Access to Spook’s cloud based remote monitoring service called OmniWatch is immediate. Although any industry can benefit from Spook’s monitoring service, illustrated below are some of the more obvious ones.</p>
 	</div>
 </section>
+{% for item in site.data.industry.header-item %}
 <section>
 	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-				<img src="/images/sections/key-pages/it-monitoring/datacenter.svg">
+		<div class="is-row" {% if item.reverse == 1 %}style="flex-direction: row-reverse;"{% endif %}>
+			<div class="is-col is-40" style="background-image: url('{{ item.image }}'); background-size: cover; background-repeat: no-repeat; background-position: right;">
 			</div>
-			<div class="is-col is-80">
-				<h2>Heritage</h2>
-				<p>Heritage organisations usually require discrete monitoring. Whether it is protecting collections or simply monitoring for visitor foot fall, institutions such as museums, galleries, libraries, private collections and archives all benefit by remotely monitoring with OmniWatch (more).</p>
+			<div class="is-col is-60">
+				<h2>{{ item.title }} monitoring</h2>
+				{% for line in item.text %}
+					<p>{{ line }}</p>
+				{% endfor %}
+				<p><a class="button is-secondary" href="{{ item.link }}">More details</a></p>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-80">
-				<h2>Refrigeration</h2>
-				<p>Controlling the temperature of food is extremely important in ensuring that food is safe to eat. Government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public. OmniWatch is the perfect solution to ensure food security (more).</p>
-			</div>
-			<div class="is-col is-20">
-				<img src="/images/sections/key-pages/it-monitoring/server-room.svg">
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-			</div>
-			<div class="is-col is-80">
-				<h2>Construction</h2>
-				<p>Construction sites are vulnerable to many areas that could benefit from monitoring. Whether it is health and safety, theft, activity or any number of other issues OmniWatch combined with Spook’s range of over 80 wireless sensors means monitoring can be easily achieved. Combined with using cellular technology to send data to Spook’s servers is also flexible so when construction is completed simply use the monitoring hardware on the next projects (more).</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-80">
-				<h2>Agricultural</h2>
-				<p>The agricultural industry is diverse and has many areas that can benefit from remote monitoring. By installing Spook's wireless sensors together with using cellular routers lets growers remotely monitor and manage crops, processing data and machinery systems from anywhere at anytime; providing a heightened level of awareness for operations (more).</p>
-			</div>
-			<div class="is-col is-20">
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-			</div>
-			<div class="is-col is-80">
-				<h2>Marine</h2>
-				<p>Watercraft are subject to all sorts of testing conditions, including water damage, submersion, bilge	pump failure, theft, and more. Spook's range of wireless sensors help protect vessels 24/7. There are many areas that benefit from remote monitoring in the marine industry (more).</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-80">
-				<h2>Biotech & pharma</h2>
-				<p>The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) have stringent rules and regulations when it comes to compliance. OmniWatch not only monitors the environment and security of drugs and medicines, it also has an audit function whereby reports can be generated to prove Biotech & Pharma conformity to regulations (more).</p>
-			</div>
-			<div class="is-col is-20">
-			</div>
-		</div>
-	</div>
-</section>
+{% endfor %}

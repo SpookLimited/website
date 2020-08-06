@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   style="fill: none;"
+   width="930px"
+   height="570px"
+   id="svg8"
+   sodipodi:docname="alerts.svg"
+   inkscape:version="0.92.5 (0.92.5+69)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1882"
+     inkscape:window-height="1016"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="1.1313708"
+     inkscape:cx="365.4003"
+     inkscape:cy="204.37369"
+     inkscape:window-x="38"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <path
+     style="stroke-width: 15px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(106, 106, 106); fill: none;"
+     d=""
+     id="path2" />
+  <path
+     style="stroke-width: 15px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(74, 74, 74); fill: none;"
+     d=""
+     id="path4" />
+  <path
+     style="stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(10, 10, 10);fill:none;stroke-miterlimit:4;stroke-dasharray:none"
+     d="M420,60 A60,60 0 0,0 360,120 A60,60 0 0,0 420,180 A60,60 0 0,0 480,120 A60,60 0 0,0 420,60 M420,210 A105,90 0 0,0 315,300 M420,210 A105,90 0 0,1 525,300 L525,300 L315,300 M360,360 L360,360 L480,360 L480,540 L360,540 L360,360 M360,510 L360,510 L480,510 M240,420 L240,420 L60,420 L60,420 L60,540 L240,540 L240,420 M60,420 L60,420 L150,495 L240,420 M60,540 L60,540 L120,480 M240,540 L240,540 L180,480 M600,540 A90,75 0 0,1 690,465 A90,75 0 0,1 780,540 M600,540 L600,540 L780,540 M690,420 L690,420 L660,420 A15,15 0 0,0 645,435 L645,435 L645,450 L600,450 A30,60 0 0,1 630,390 L630,390 L690,390 M690,420 L690,420 L720,420 A15,15 0 0,1 735,435 L735,435 L735,450 L780,450 A30,60 0 0,0 750,390 L750,390 L690,390 "
+     id="path6" />
+</svg>

@@ -1,0 +1,760 @@
+---
+layout: monitoring/key-pages/base
+---
+<script src="/js/jquery.min.js"></script>
+<script src="/js/peity.min.js"></script>
+<style>
+	.see-more {
+		width: 80%;
+		margin: 0 auto;
+		height: 50px;
+		text-align: center;
+		font-size: 28px;
+		position: relative;
+	}
+
+	.see-more:after {
+		content: '';
+		width: 100%;
+		border-bottom: solid 1px rgba(17, 17, 19, 0.09);
+		position: absolute;
+		left: 0;
+		top: 50%;
+		z-index: 1;
+	}
+
+	.see-more > a > span, .see-more > span {
+		width: auto;
+		display: inline-block;
+		z-index: 3;
+		padding: 0 10px 0 10px;
+		background-color: #fff;
+		position: relative;
+		margin: 0;
+	}
+	
+	.list-item{
+		padding: 1.2em 1em;
+		cursor: pointer;
+	}
+	
+	.list-item:hover{
+		background-color: #e1e1e1;
+	}
+
+	.feature-img, .device-img{
+		height: 120px;
+		padding: 1em;
+	}
+
+	.good{
+		font-weight: bold !important;
+		color: rgba(156,204,101 0.6) !important;
+	}
+
+	.error{
+		font-weight: bold !important;
+		color: rgba(244,67,54,0.6)!important; 
+	}
+
+	.socket{
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		background-color: rgba(156,204,101,0.6) !important;
+		border: 1px solid rgba(200, 200, 200, 0.3) !important;
+	}
+
+	.socket-reboot{
+		background-color: rgba(255,193,7,.6) !important;
+	}
+
+	.socket-off{
+		background-color: rgba(51, 51, 51, 0.6) !important;
+	}
+
+	ul.is-bar li + li.list-button {
+		margin-left: .4em;
+	}
+
+	.list-button{
+		border: 1px solid rgba(200,200,200,0.6);
+		padding: 0 0.5em;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.list-button:hover{
+		background-color: rgba(51,51,51,0.3);
+		color: #fff;
+	}
+
+	.active-tab{
+		background-color: rgba(0,0,255,0.6);
+		font-weight: bolder;
+		color: #fff;
+	}
+
+	.slide-viewer{
+		position: relative;
+		overflow: hidden;
+		height: 300px;
+	}
+
+	.slide-group{
+		width: 100%;
+		height: 100%;
+		position: relative;
+	}
+
+	.slide{
+		width: 100%;
+		height: 100%;
+		display: none;
+		position: absolute;
+	}
+
+	.slide:first-child{
+		display: block;
+	}
+
+	.slide-btn{
+		cursor: pointer;
+		margin-left: 0;
+	}
+
+	.slide-btn.active{
+		color: rgba(255,0,0,0.4);
+	}
+
+	@media (min-width:720px){
+		.column-text{
+			column-count: 3;
+		}
+	}
+</style>
+<section>
+	<div class="container is-text-center">
+		<h2>Key features</h2>
+		<div class="is-row">
+			<div class="is-col is-33">
+				<img class="feature-img" src="/images/icons/bulk-data.svg">
+				<h3>Bulk data collection</h3>
+				<p>Seamless power management using multi-protocols.</p>
+				<div class="is-text-center see-more">
+					<a href="#bulk-data">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-33">
+				<img class="feature-img" src="/images/icons/247.svg">
+				<h3>24/7 monitoring</h3>
+				<p>Dynamic calendaring for informed alarm escalation.</p>
+				<div class="is-text-center see-more">
+					<a href="#247-monitoring">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-33">
+				<img class="feature-img" src="/images/icons/perpetual-data.svg">
+				<h3>Perpetual data storage</h3>
+				<p>Efficiency gains, load-balancing and trend analysis. </p>
+				<div class="is-text-center see-more">
+					<a href="#perpetual-data">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="is-row">
+			<div class="is-col is-33">
+				<img class="feature-img" src="/images/icons/percentage.svg">
+				<h3>Max load function</h3>
+				<p>Load balancing and equitable sharing down to socket level.</p>
+				<div class="is-text-center see-more">
+					<a href="#max-load">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-33">
+				<img class="feature-img" src="/images/icons/switching.svg">
+				<h3>Socket switching</h3>
+				<p>Central management of power switching commands for on/off/reboot.</p>
+				<div class="is-text-center see-more">
+					<a href="#socket-switching">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-33">
+				<img class="feature-img" src="/images/icons/users.svg">
+				<h3>User privileges</h3>
+				<p>Filtered user access limiting power strip browsing rights.</p>
+				<div class="is-text-center see-more">
+					<a href="#users">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Secure cloud based power monitoring</h2>
+		<p>IT departments face ever increasing pressure to ensure continuance of IT services to its business, users and customers alike.</p>
+		<p>Key to maximising IT uptime is understanding server room power consumption.</p>
+		<img src="/images/sections/key-pages/power-monitoring/browser-window.svg">
+		<p>By monitoring power consumption an organisation can implement informed load balancing procedures to prevent power overloads and protect service outages due to loss off power.</p>
+		<p>It is also useful to understand the cost associated with providing power to a business as a whole or to departments or even end users.</p>
+		<p>When monitoring high numbers of PDUs (Power Distribution Units) it’s important to be able to swiftly identify individual or clusters of power strips. With OmniWatch Power+ this is achieved by a global search function. Regional or departmental identification can be overlaid with localised search options too.</p>
+		<p>In short Spook makes interpreting bulk data meaningful, intuitive and incredibly easy.</p>
+		<ul class="is-bar">
+			<li><a href="/contact/" class="button">Get in touch</a></li>
+			<li><a href="/demo-request/" class="button is-secondary">Book demo</a></li>
+		</ul>
+	</div>
+</section>
+<section id="bulk-data">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-20">
+				<img src="/images/icons/bulk-data.svg">
+			</div>
+			<div class="is-col is-80">
+				<h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Bulk data collection</h2>
+				<div class="is-row">
+					<div class="is-col">
+						<h3 style="font-weight: bolder;">Seamless power management using multi-protocols.</h3>
+						<div class="is-row">
+							<div class="is-col">
+								<img style="max-height: 120px; display: block; margin: 1em auto;" src="/images/sections/key-pages/power-monitoring/pdus.svg">
+								<p class="is-small is-text-center"><strong>Intelligent PDUs</strong></p>
+							</div>
+							<div class="is-col">
+								<p>The benefits of monitoring power metrics centrally across an array of different equipment manufacturers is easy to illustrate. Change management procedures can be broadcast swiftly over multi-protocols and older, legacy power power strips can be given a new lease of life thus ensuring the initial investment in hardware is maximised.</p>
+						</div>
+						<div class="is-row">
+							<div class="is-col">
+								<p>Without central management even the smallest of reconfigurations such as amending the on-board emergency contact procedures can take hours. OmniWatch Power+ provides real-time secure cloud based dashboards in order to manage hundreds of devices easily and intuitively.</p>
+							</div>
+							<div class="is-col">
+								<img style="max-height: 120px; display: block; margin: 1em auto;" src="/images/sections/key-pages/power-monitoring/generators.svg">
+								<p class="is-small is-text-center"><strong>Generator sets</strong></p>
+							</div>
+						</div>
+						<div class="is-row">
+							<div class="is-col">
+								<img style="max-height: 120px; display: block; margin: 1em auto;" src="/images/sections/key-pages/power-monitoring/upss.svg">
+								<p class="is-small is-text-center"><strong>UPS systems</strong></p>
+							</div>
+							<div class="is-col">
+								<p>The key to providing seamless bulk power monitoring is to make monitoring simple and available all in one place irrespective of the many different equipment manufacturers, models or equipment types.</p>
+							</div>
+						</div>
+						<p>That’s why Spook’s OmniWatch Power+ is designed to collect data across the facility using multiple protocols such as SNMP, Modbus, BACnet, XML and JSON.</p>
+					</div>
+				</div>
+				<div class="is-text-center" style="margin-top: 2em;">
+					<h4>Supported manufacturers</h4>
+					<div class="is-row" style="margin-top: 2em;">
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/apc.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/cummins.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/eaton.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/emerson.svg">
+						</div>
+					</div>
+					<div class="is-row">
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/geist.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/riello-ups.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/schneider-electric.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/ups-ltd.svg">
+						</div>
+					</div>
+					<div class="is-row">
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/raritan.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/ipt.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/structure-source.svg">
+						</div>
+						<div class="is-col">
+							<img class="device-img" src="/images/devices/olson.svg">
+						</div>
+					</div>
+					<p>And many more</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="247-monitoring">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-80">
+				<h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">24/7 monitoring</h2>
+				<h3 style="font-weight: bolder;">Dynamic calendaring for informed alarm escalation.</h3>
+				<p>Accurate alarm procedures are key to minimising potential disruption when something goes wrong. An organisation often has different teams or even departments for global, regional or departmental alarms. The dynamic calendar function of OmniWatch Power+ provides a flexible and easy to implement solution.</p>
+				<p>User defined alarms are handled by automatic e-mail and 2-way SMS. These can be escalated to Spook's UK Call Centre providing an extra level of certainty should mobile phones be switched to silent, out of signal or lost.</p>
+				<p>Spook call centre agents contact staff on alternative mobile and landline numbers to ensure safe receipt of the alert.</p>
+				<div class="is-row">
+					<div class="is-col">
+						<img src="/images/sections/key-pages/power-monitoring/alerts.svg">
+					</div>
+					<div class="is-col">
+						<div class="slide-viewer">
+							<div class="slide-group">
+								{% for slide in site.data.power-monitoring-slides %}
+									<div class="slide slide-{{ forloop.index }}">
+										<h2>{{ slide.title }}</h2>
+										{% for line in slide.text %}
+											<p>{{ line }}</p>
+										{% endfor %}
+									</div>
+								{% endfor %}
+							</div>
+						</div>
+						<ul class="is-bar is-text-center slide-buttons"></ul>
+					</div>
+				</div>
+			</div>
+			<div class="is-col is-20">
+				<img src="/images/icons/247.svg">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="perpetual-data">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-20">
+				<img src="/images/icons/perpetual-data.svg">
+			</div>
+			<div class="is-col is-80">
+				<h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Perpetual data storage</h2>
+				<h3 style="font-weight: bolder;">Efficiency gains, load-balancing and trend analysis.</h3>
+				<div class="is-row">
+					<div class="is-col is-60">
+						<p>Spook recognises that power readings and their associated trend data is a valuable management commodity. By storing the power consumption data perpetually means measuring efficiency gains, load-balancing and long-term trend analysis is accurate. Not only can patterns in power spikes be identified together with their regularity but identification of spare power known as stranded power is simple.</p>
+					</div>
+					<div class="is-col is-40">
+						<img src="/images/sections/key-pages/power-monitoring/pue-dcie.svg">
+					</div>
+				</div>
+				<img src="/images/sections/key-pages/power-monitoring/PowerUsageOverTime.png">
+				<p>The amount of stranded power obviously varies per PDU and may only be a small amount but when extrapolated across hundreds of power strips this figure can be considerable. By tapping into this valuable resource means an organisation can confidently maximise power consumption at rack level before having to invest in additional data centre expansion.</p>
+				<p>However it is important to understand the ‘stressed power’ requirement of a power strip; this being the total power requirement when all attached equipment is set to maximum consumption,  before utilising stranded power.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="max-load">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-80">
+				<h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Max load function</h2>
+				<h3 style="font-weight: bolder;">Load balancing and equitable sharing down to socket level.</h3>
+				<p>By setting a maximum load % threshold on a PDUs global intake and applying this to socket level consumption is ideal to prevent overloading and power loss.</p>
+				<p>Organisations can, for the first time, apply equitable sharing to their users and by doing so, ensure a fair usage policy towards power consumption.</p>
+				<img style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
+				<div class="is-row">
+					<div class="is-col">
+						<h4>Max Percentage</h4>
+						<div class="form-item">
+							<div class="is-prepend is-50">
+								<span>%</span>
+								<input style="max-width: 100%;" id="max-percentage-input" type="number" value="100">
+							</div>
+						</div>
+					</div>
+					<div class="is-col">
+						<h4>Max Amps</h4>
+						<h2 id="max-amps-amount">N/A</h2>
+					</div>
+					<div class="is-col">
+						<h4>Socket Limit</h4>
+						<h2 id="socket-amps-value">N/A</h2>
+					</div>
+					<div class="is-col">
+						<h4>Stranded Power</h4>
+						<h2>9.10 A</h2>
+					</div>
+				</div>
+				<div class="is-row" style="margin-top: 1em;">
+					{% for socket in site.data.power-monitoring.sockets %}
+						<div class="is-col is-25">
+							<div class="is-row is-stack-20">
+								<div class="is-col is-25">
+									<img style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
+								</div>
+								<div class="is-col is-75">
+									<div class="socket"></div>
+									<strong>{{ socket.name }}</strong><br>
+									Amps: <span id="socket-{{ socket.id }}-value">{{ socket.amps }}</span><br>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="is-col is-20">
+				<img src="/images/icons/percentage.svg">
+			</div>
+		</div>
+	</div>
+</section>
+<section id="socket-switching">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-20">
+				<img src="/images/icons/switching.svg">
+			</div>
+			<div class="is-col is-80">
+				<h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Socket switching</h2>
+				<h3 style="font-weight: bolder;">Central management of power switching commands for on/off/reboot.</h3>
+				<p>PDU manufactures each have there own GUI’s to manage their PDUs. This often gets complicated as typically an installation has multiple PDU manufacturers installed, each with their own functions and procedures. This can be compounded by different PDU models from the same manufacturer often having different commands meaning accessing them to do simple functions becomes a challenge.</p>
+				<p>By managing power strip socket switching via OmniWatch Power+ ensures a single, cohesive methodology can be adopted for on/off and re-boot functionality. This simplifies matters and an audit trail is automatically created to check who did what together with date and time stamps of each event.</p>
+				<ul class="is-bar is-stack-20">
+					<li id="socket-reboot-all" class="button is-secondary is-small is-stack-20">
+						Reboot all 
+					</li>
+					<li id="socket-turn-all-off" class="button is-secondary is-small is-stack-20">
+						All off
+					</li>
+					<li id="socket-turn-all-on" class="button is-secondary is-small is-stack-20">
+						All on
+					</li>
+					<li>
+						Click individual sockets to power cycle
+					</li>
+				</ul>
+				<div class="is-row">
+					{% for socket in site.data.power-monitoring.sockets %}
+						<div class="is-col is-25">
+							<div class="is-row is-stack-20">
+								<div class="is-col is-25">
+									<img id="socket-{{ socket.id }}-image" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
+								</div>
+								<div class="is-col is-75">
+									<div id="socket-{{ socket.id }}-icon" class="socket"></div>
+									<p class="is-small">
+										<strong>{{ socket.name }}</strong><br>
+										Amps: {{ socket.amps }}<br>
+										Wh: {{ socket.wh }}<br>
+										<ul class="is-bar">
+											<li id="socket-{{ socket.id }}-status-on" class="is-small list-button"><strong>On</strong></li>
+											<li id="socket-{{ socket.id }}-status-off" class="is-small list-button"><span class="is-muted">Off</span></li>
+											<li id="socket-{{ socket.id }}-status-reboot" class="is-small list-button"><span class="is-muted">Reboot</span></li>
+										</ul>
+									</p>
+								</div>
+							</div>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="users">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-80">
+				<h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Users</h2>
+				<h3 style="font-weight: bolder;">Filtered user access limiting power strip browsing rights.</h3>
+				<p>PDUs often have shared power demands for multiple users, departments and sometimes customers from a single power strip.</p>
+				<p>By limiting end user browsing rights of each PDU down to socket level means power sharing is easily achieved and sensitive commands such as global PDU re-boot can be protected.</p>
+				<p>Super users have access rights to all PDU functionality whereas Users only have access to their own available PDUs and sockets.</p>
+				<script>
+					function toggle(id){
+						$('[id^="list-item-"]').each(function() {
+							var currentId = this.id.slice(-1);
+							if(currentId == id){
+								$(this).removeClass('is-hidden');
+								$("#user-button-" + currentId).addClass('active-tab');
+							}else{
+								$(this).addClass('is-hidden');
+								$("#user-button-" + currentId).removeClass('active-tab');
+							}
+						});
+					}
+				</script>
+				<ul class="is-bar">
+					<li id="user-button-1" class="list-item list-button active-tab" onclick="toggle('1');" style="padding: .2em 1em;">
+						<img src="/images/icons/users.svg" style="max-width: 40px;"> Super user
+					</li>
+					<li id="user-button-2" class="list-item list-button" onclick="toggle('2');" style="padding: .2em 1em;">
+						<img src="/images/icons/users.svg" style="max-width: 40px;"> User 
+					</li>
+				</ul>
+				<div id="list-item-1" style="min-height: 100%; padding: 1em 2em;">
+					<h3>Super user</h3>
+					<img style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
+					<div class="is-row">
+						<div class="is-col">
+							<h4>Total Amps</h4>
+							<h2>6.9A</h2>
+						</div>
+						<div class="is-col">
+							<h4>Stranded Power</h4>
+							<h2>9.1A</h2>
+						</div>
+						<div class="is-col">
+							<h4>Volts</h4>
+							<h2>230V</h2>
+						</div>
+						<div class="is-col">
+							<h4>kWh</h4>
+							<h2>29.7</h2>
+						</div>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Name</th>
+								<th>Customer</th>
+								<th>Status</th>
+								<th>Amps</th>
+								<th>Wh</th>
+							</tr>
+						</thead>
+						<tbody>
+							{% for socket in site.data.power-monitoring.sockets %}
+							<tr>
+								<td>{{ socket.id }}</td>
+								<td>{{ socket.name }}</td>
+								<td>{{ socket.customer }}</td>
+								<td><span style="display: inline-block; width: 20px; height: 20px; border-radius: 100%; background-color: rgba(156,204,101,0.6); margin-right: 10px;"></span> On</td>
+								<td>{{ socket.amps }}</td>
+								<td>{{ socket.wh }}</td>
+							</tr>
+							{% endfor %}
+						</tbody>
+					</table>
+				</div>
+				<div id="list-item-2" class="is-hidden" style="min-height: 100%; padding: 1em 2em;">
+					<h3>User</h3>
+					<img style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU-filtered.svg">
+					<div class="is-row">
+						{% for socket in site.data.power-monitoring.sockets %}
+							{% if forloop.index >= 3 and forloop.index <= 5 %}
+								<div class="is-col is-25">
+									<div class="is-row is-stack-20">
+										<div class="is-col is-25">
+											<img id="socket-{{ socket.id }}-image" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
+										</div>
+										<div class="is-col is-75">
+											<div id="socket-{{ socket.id }}-icon" class="socket"></div>
+											<p class="is-small">
+												<strong>{{ socket.name }}</strong><br>
+												Amps: {{ socket.amps }}<br>
+												Wh: {{ socket.wh }}<br>
+												<ul class="is-bar">
+													<li id="socket-{{ socket.id }}-status-on" class="is-small"><strong>On</strong></li>
+													<li id="socket-{{ socket.id }}-status-off" class="is-small"><span class="is-muted">Off</span></li>
+													<li id="socket-{{ socket.id }}-status-reboot" class="is-small"><span class="is-muted">Reboot</span></li>
+												</ul>
+											</p>
+										</div>
+									</div>
+								</div>
+							{% endif %}
+						{% endfor %}
+					</div>
+				</div>
+			</div>
+			<div class="is-col is-20">
+				<img src="/images/icons/users.svg">
+			</div>
+		</div>
+	</div>
+</section>
+<script src="/js/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+		calculateMax()
+
+        $('#max-percentage-input').keyup(function () {
+            var p = parseFloat($("#max-percentage-input").val());
+			if(isNaN(p)){
+				console.log('update input box');
+				$("#max-percentage-input").val(0);
+			}
+            calculateMax()
+        });
+
+        function calculateMax() {
+            var p = parseFloat($("#max-percentage-input").val());
+            var s = 8;
+            var a = 16;
+			var m = (p/100)*a;
+			var sm = m/s;
+
+            $("#max-amps-amount").text(parseFloat(m).toFixed(2) + ' A');
+			$("#socket-amps-value").text(parseFloat(sm).toFixed(2) + ' A');
+			{% for socket in site.data.power-monitoring.sockets %}
+				var v = $("#socket-{{socket.id }}-value").html();
+				if(v >= sm){
+					$("#socket-{{socket.id }}-value").addClass('error');
+					$("#socket-{{socket.id }}-value").removeClass('good');
+				}else{
+					$("#socket-{{socket.id }}-value").removeClass('error');
+					$("#socket-{{socket.id }}-value").addClass('good');
+				}
+			{% endfor %}
+        }
+
+		{% for socket in site.data.power-monitoring.sockets %}
+			$("#socket-{{ socket.id }}-status-reboot").on("click", function(e){
+				$('#socket-{{ socket.id }}-status-reboot').html('<strong>Reboot</strong>');
+				$('#socket-{{ socket.id }}-status-on').html('<span class="is-muted">On</span>');
+				$('#socket-{{ socket.id }}-status-off').html('<span class="is-muted">Off</span>');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-off');
+				$('#socket-{{ socket.id }}-icon').addClass('socket-reboot');
+				$('#socket-{{ socket.id }}-image').fadeTo(400,0.3).delay(800).fadeTo(400,1).delay(800).fadeTo(400,0.3).delay(800).fadeTo(400,1, function(){
+					$('#socket-{{ socket.id }}-status-reboot').html('<span class="is-muted">Reboot</span>');
+					$('#socket-{{ socket.id }}-status-on').html('<strong>On</strong>');
+					$('#socket-{{ socket.id }}-status-off').html('<span class="is-muted">Off</span>');
+					$('#socket-{{ socket.id }}-icon').removeClass('socket-reboot');
+				});
+			});
+			$("#socket-{{ socket.id }}-status-off").on("click", function(e){
+				$('#socket-{{ socket.id }}-status-reboot').html('<span class="is-muted">Reboot</span>');
+				$('#socket-{{ socket.id }}-status-on').html('<span class="is-muted">On</span>');
+				$('#socket-{{ socket.id }}-status-off').html('<strong>Off</strong>');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-reboot');
+				$('#socket-{{ socket.id }}-icon').addClass('socket-off');
+				$('#socket-{{ socket.id }}-image').fadeTo(400,0.3);
+			});
+			$("#socket-{{ socket.id }}-status-on").on("click", function(e){
+				$('#socket-{{ socket.id }}-status-reboot').html('<span class="is-muted">Reboot</span>');
+				$('#socket-{{ socket.id }}-status-on').html('<strong>On</strong>');
+				$('#socket-{{ socket.id }}-status-off').html('<span class="is-muted">Off</span>');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-reboot');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-off');
+				$('#socket-{{ socket.id }}-image').fadeTo(400,1);
+			});
+		{% endfor %}
+
+		$("#socket-reboot-all").on("click", function(e){
+			{% for socket in site.data.power-monitoring.sockets %}
+				$('#socket-{{ socket.id }}-status-reboot').html('<strong>Reboot</strong>');
+				$('#socket-{{ socket.id }}-status-on').html('<span class="is-muted">On</span>');
+				$('#socket-{{ socket.id }}-status-off').html('<span class="is-muted">Off</span>');
+				$('#socket-{{ socket.id }}-icon').addClass('socket-reboot');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-off');
+				$("#socket-{{ socket.id }}-image").fadeTo(400,0.3).delay(800).fadeTo(400,1).delay(800).fadeTo(400,0.3).delay(800).fadeTo(400,1, function(){
+					$('#socket-{{ socket.id }}-status-reboot').html('<span class="is-muted">Reboot</span>');
+					$('#socket-{{ socket.id }}-status-on').html('<strong>On</strong>');
+					$('#socket-{{ socket.id }}-status-off').html('<span class="is-muted">Off</span>');
+					$('#socket-{{ socket.id }}-icon').removeClass('socket-reboot');
+				});
+			{% endfor %}
+		});
+
+		$("#socket-turn-all-off").on("click", function(e){
+			{% for socket in site.data.power-monitoring.sockets %}
+				$('#socket-{{ socket.id }}-status-reboot').html('<span class="is-muted">Reboot</span>');
+				$('#socket-{{ socket.id }}-status-on').html('<span class="is-muted">On</span>');
+				$('#socket-{{ socket.id }}-status-off').html('<strong>Off</strong>');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-reboot');
+				$('#socket-{{ socket.id }}-icon').addClass('socket-off');
+				$("#socket-{{ socket.id }}-image").fadeTo(400,0.3);
+			{% endfor %}
+		});
+
+		$("#socket-turn-all-on").on("click", function(e){
+			{% for socket in site.data.power-monitoring.sockets %}
+				$('#socket-{{ socket.id }}-status-reboot').html('<span class="is-muted">Reboot</span>');
+				$('#socket-{{ socket.id }}-status-on').html('<strong>On</strong>');
+				$('#socket-{{ socket.id }}-status-off').html('<span class="is-muted">Off</span>');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-reboot');
+				$('#socket-{{ socket.id }}-icon').removeClass('socket-off');
+				$("#socket-{{ socket.id }}-image").fadeTo(400,1);
+			{% endfor %}
+		});
+	});
+
+	$('.slide-viewer').each(function() {
+		var $group = $(this).find('.slide-group');
+		var $slides = $(this).find('.slide');
+		var buttonArray = [];
+		var currentIndex = 0;
+		var timeout;
+
+		function move(newIndex){
+			var animateLeft;
+			var sideLeft;
+			advance();
+
+			if($group.is(':animated') || currentIndex === newIndex){
+				return;
+			}
+
+			buttonArray[currentIndex].removeClass('active');
+			buttonArray[newIndex].addClass('active');
+
+			if(newIndex > currentIndex){
+				slideLeft = '100%';
+				animateLeft = '-100%';
+			}else{
+				slideLeft = '-100%';
+				animateLeft = '100%';
+			}
+
+			$slides.eq(newIndex).css({left: slideLeft, display: 'block'});
+			$group.animate({left: animateLeft}, function(){
+				$slides.eq(currentIndex).css({display:'none'});
+				$slides.eq(newIndex).css({left:0});
+				$group.css({left: 0});
+				currentIndex = newIndex;
+			});
+		}
+
+		function advance(){
+			clearTimeout(timeout);
+			timeout = setTimeout(function(){
+				if(currentIndex < ($slides.length - 1)){
+					move(currentIndex + 1);
+				}else{
+					move(0);
+				}
+			},10000);
+		}
+
+		$.each($slides, function(index){
+			var $button = $('<li class="slide-btn">&bull;</li>');
+			if(index === currentIndex){
+				$button.addClass('active');
+			}
+			$button.on('click', function(){
+				move(index);
+			}).appendTo('.slide-buttons');
+			buttonArray.push($button);
+		});
+
+		advance();
+	});
+</script>

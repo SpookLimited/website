@@ -1,0 +1,48 @@
+- id: 1
+  name: 'Rack Switch'
+  customer: Customer 1
+  amps: 1.6
+  wh: 4733
+
+- id: 2
+  name: 'Mail Server'
+  customer: Customer 1
+  amps: 0.4
+  wh: 1448
+
+- id: 3
+  name: 'Server 01'
+  customer: Customer 2
+  amps: 0.1
+  wh: 2383
+
+- id: 4
+  name: 'Server 02'
+  customer: Customer 2
+  amps: 0.8
+  wh: 1825
+
+- id: 5
+  name: 'Security Server'
+  customer: Customer 2
+  amps: 1.2
+  wh: 4001
+
+- id: 6
+  name: 'Firewall'
+  customer: Customer 3
+  amps: 0.9
+  wh: 1950
+
+- id: 7
+  name: 'Backup Server'
+  customer: Customer 3
+  amps: 1.2
+  wh: 4005
+
+- id: 8
+  name: 'Rack UPS'
+  customer: Customer 3
+  amps: 0.7
+  wh: 1783
+

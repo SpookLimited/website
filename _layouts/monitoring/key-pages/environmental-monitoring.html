@@ -5,30 +5,12 @@ layout: monitoring/key-pages/base
 	<div class="container">
 		<h3>Key features</h3>
 		<div class="is-row">
+			{% for item in site.data.environmental.header-item %}
 			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>24/7 alarms</h5>
+				<img style="margin: 0 auto;" src="{{ item.image }}">
+				<h5>{{ item.title }}</h5>
 			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Cloud based</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Secure dashboards</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Disparate equipment</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Perpetual data</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>On demand reports</h5>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>

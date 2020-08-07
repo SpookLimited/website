@@ -28,6 +28,22 @@ layout: monitoring/key-pages/base
 		<p>Our customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally rich to businesses that are considering monitoring for the first time.</p>
 	</div>
 </section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			{% for item in site.monitoring %}
+				{% if item.type == 'sensor' %}
+				<div class="is-col is-25 is-stack-20">
+					<img style="max-width: 200px; max-height: 200px;" src="{{ item.sensor-image }}">
+					{% assign size = item.title | size | minus: 11 %}
+					<h3>{{ item.title | slice: 0, size }}</h3>
+					<p><a href="{{ item.permalink }}" class="button is-small">Read more</a></p>
+				</div>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</section>
 <section id="alarms">
 	<div class="container">
 		<div class="is-row">

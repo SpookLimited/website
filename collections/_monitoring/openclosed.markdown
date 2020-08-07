@@ -5,4 +5,5 @@ type: sensor
 title: Open/closed monitoring
 header: Open/closed monitoring
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/openclosed.svg
 ---

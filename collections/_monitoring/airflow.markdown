@@ -5,4 +5,5 @@ type: sensor
 title: Airflow monitoring
 header: Airflow monitoring
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/airflow.svg
 ---

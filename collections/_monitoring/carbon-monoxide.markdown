@@ -5,4 +5,5 @@ type: sensor
 title: Carbon monoxide monitoring
 header: Carbon monoxide (CO) monitoring
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/carbon-monoxide.svg
 ---

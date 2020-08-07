@@ -5,4 +5,5 @@ type: sensor
 title: AC meter monitoring
 header: Alternating current (AC) meter
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/acmeter.svg
 ---

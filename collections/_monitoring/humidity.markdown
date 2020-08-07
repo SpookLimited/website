@@ -5,4 +5,5 @@ type: sensor
 title: Humidity monitoring
 header: Humidity monitoring
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/humidity.svg
 ---

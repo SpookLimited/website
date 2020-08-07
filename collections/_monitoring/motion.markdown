@@ -5,4 +5,5 @@ type: sensor
 title: Motion monitoring
 header: Motion detection monitoring
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/motion.svg
 ---

@@ -1,17 +1,29 @@
 - title: 24/7 alarms
   image: /images/icons/247.svg
+  text: Dynamic calendaring for informed alarm escalation.
+  link: alarms
 
 - title: Cloud based
   image: /images/icons/cloud.svg
+  text: Cloud based monitoring is perfect for monitoring remotely.
+  link: cloud
 
 - title: Secure dashboards
   image: /images/icons/secure.svg
+  text: User connectivity is via secure internet access.
+  link: secure
 
 - title: Disparate equipment
   image: /images/icons/integrate.svg
+  text: Support legacy and new hardware; irregardless of manufacturer.
+  link: integration
 
 - title: Perpetual data
   image: /images/icons/perpetual-data.svg
+  text: All data is stored forever; perfect for trend analysis. 
+  link: perpetual
 
 - title: On demand reports
   image: /images/icons/report.svg
+  text: Ideal for audits and investigations.
+  link: reports

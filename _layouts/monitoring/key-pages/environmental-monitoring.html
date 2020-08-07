@@ -3,12 +3,18 @@ layout: monitoring/key-pages/base
 ---
 <section>
 	<div class="container is-text-center">
-		<h3>Key features</h3>
+		<h2>Key features</h2>
 		<div class="is-row">
 			{% for item in site.data.environmental.header-item %}
-			<div class="is-col is-33 is-stack-20">
-				<img style="max-height: 100px; margin-bottom: 1em;" src="{{ item.image }}">
-				<h5>{{ item.title }}</h5>
+			<div class="is-col is-33">
+				<img class="feature-img" src="{{ item.image }}">
+				<h3>{{ item.title }}</h3>
+				<p>{{ item.text }}</p>
+				<div class="is-text-center see-more">
+					<a href="#{{ item.link }}">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
 			</div>
 			{% endfor %}
 		</div>
@@ -22,24 +28,26 @@ layout: monitoring/key-pages/base
 		<p>Our customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally rich to businesses that are considering monitoring for the first time.</p>
 	</div>
 </section>
-<section>
+<section id="alarms">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-20">
 				<img src="/images/icons/247.svg">
 			</div>
 			<div class="is-col is-80">
-				<h2>24/7 alarms</h2>
+				<h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">24/7 alarms</h2>
+				<h3>Dynamic calendaring for informed alarm escalation.</h3>
 				<p>Spook's alarm escalation procedure is the most advanced in the industry. Sensors can be assigned to be critical or not. All alerts are auto-emailed and critical alerts are also sent via 2-way SMS and can be escalated to Spook's UK call-centre.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section id="cloud">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-80">
-				<h2>Cloud based</h2>
+				<h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Cloud based</h2>
+				<h3>Cloud based monitoring is perfect for monitoring remotely.</h3>
 				<p>All sensor data is stored securely in the cloud via Spook’s dedicated AWS servers. There is no need to provide on-premise data base servers or subscribe to software licences. This ensures all monitoring is safe, secure and automatically backed up. Cloud based monitoring is perfect for monitoring remotely.</p>
 			</div>
 			<div class="is-col is-20">
@@ -48,24 +56,26 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="secure">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-20">
 				<img src="/images/icons/secure.svg">
 			</div>
 			<div class="is-col is-80">
-				<h2>Secure dashboards</h2>
+				<h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Secure dashboards</h2>
+				<h3>User connectivity is via secure internet access.</h3>
 				<p>User connectivity is via secure internet access. OmniWatch is accessible on any internet enabled device and is a perfect fix for remote monitoring while on the move.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section id="integration">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-80">
-				<h2>Disparate equipment</h2>
+				<h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Disparate equipment</h2>
+				<h3>Support legacy and new hardware; irregardless of manufacturer.</h3>
 				<p>The benefits of monitoring the environment centrally across an array of different equipment manufacturers is easy to illustrate. Organisations often have different types of hardware installed as new makes and models become available. Older, legacy monitoring devices can be managed in a similar way to new ones and be given a new lease of life thus ensuring the initial investment in hardware and sensors is maximised.</p>
 			</div>
 			<div class="is-col is-20">
@@ -74,7 +84,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="perpetual">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-20">
@@ -87,7 +97,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="reports">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-80">

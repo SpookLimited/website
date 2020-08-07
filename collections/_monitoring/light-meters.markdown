@@ -5,4 +5,5 @@ type: sensor
 title: Light meter monitoring
 header: Light meter monitoring
 subheader: Spook remote wireless sensors
+sensor-image: /images/sensor/light.svg
 ---

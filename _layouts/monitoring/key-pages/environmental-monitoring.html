@@ -2,12 +2,12 @@
 layout: monitoring/key-pages/base
 ---
 <section>
-	<div class="container">
+	<div class="container is-text-center">
 		<h3>Key features</h3>
 		<div class="is-row">
 			{% for item in site.data.environmental.header-item %}
 			<div class="is-col is-33 is-stack-20">
-				<img style="margin: 0 auto;" src="{{ item.image }}">
+				<img style="max-height: 100px; margin-bottom: 1em;" src="{{ item.image }}">
 				<h5>{{ item.title }}</h5>
 			</div>
 			{% endfor %}
@@ -17,7 +17,7 @@ layout: monitoring/key-pages/base
 <section>
 	<div class="container">
 		<h2>Secure cloud based environmental monitoring</h2>
-		<p>Monitoring the environment is important for many industries. Whether it’s temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods.</p>
+		<p>Monitoring the environment is important for many industries. Whether it's temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods.</p>
 		<p>Spook has developed OmniWatch to work with any hardware manufacturers equipment making monitoring the environment easy, cohesive and technically advanced.</p>
 		<p>Our customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally rich to businesses that are considering monitoring for the first time.</p>
 	</div>
@@ -69,7 +69,7 @@ layout: monitoring/key-pages/base
 				<p>The benefits of monitoring the environment centrally across an array of different equipment manufacturers is easy to illustrate. Organisations often have different types of hardware installed as new makes and models become available. Older, legacy monitoring devices can be managed in a similar way to new ones and be given a new lease of life thus ensuring the initial investment in hardware and sensors is maximised.</p>
 			</div>
 			<div class="is-col is-20">
-				<img src="/images/icons/bulk-data.svg">
+				<img src="/images/icons/integrate.svg">
 			</div>
 		</div>
 	</div>
@@ -104,7 +104,7 @@ layout: monitoring/key-pages/base
 				<p>A custom start and end date can also be applied for reports that are required for longer periods.</p>
 			</div>
 			<div class="is-col is-20">
-				<img src="/images/icons/bulk-data.svg">
+				<img src="/images/icons/report.svg">
 			</div>
 		</div>
 	</div>

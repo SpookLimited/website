@@ -1,14 +1,18 @@
 - title: Heritage
+  sub: Stuff goes here, amazing stuff.
   link: /monitoring/heritage/
   image: /images/sections/heritage-monitoring.png
+  section-link: heritage
   reverse: 0
   text:
       - Heritage organisations usually require discrete monitoring.
       - Whether it is protecting collections or simply monitoring for visitor foot fall, institutions such as museums, galleries, libraries, private collections and archives all benefit by remotely monitoring with OmniWatch.
   
 - title: Refrigeration
+  sub: Stuff goes here, amazing stuff.
   link: /monitoring/refrigeration/
   image: /images/sections/refrigeration-monitoring.png
+  section-link: refrigeration
   reverse: 1
   text:
       - Controlling the temperature of food is extremely important in ensuring that food is safe to eat.
@@ -16,8 +20,10 @@
       - OmniWatch is the perfect solution to ensure food security.
 
 - title: Construction
+  sub: Stuff goes here, amazing stuff.
   link: /monitoring/
   image: /images/sections/pharma-monitoring.png
+  section-link: construction
   reverse: 0
   text:
       - Construction sites are vulnerable to many areas that could benefit from monitoring.
@@ -25,16 +31,20 @@
       - Combined with using cellular technology to send data to Spook's servers is also flexible so when construction is completed simply use the monitoring hardware on the next projects.
 
 - title: Agricultural
+  sub: Stuff goes here, amazing stuff.
   link: /monitoring/agriculture/
   image: /images/sections/agriculture-monitoring.png
+  section-link: agricultural
   reverse: 1
   text: 
       - The agricultural industry is diverse and has many areas that can benefit from remote monitoring.
       - By installing Spook's wireless sensors together with using cellular routers lets growers remotely monitor and manage crops, processing data and machinery systems from anywhere at anytime; providing a heightened level of awareness for operations.
 
 - title: Marine
+  sub: Stuff goes here, amazing stuff.
   link: /monitoring/marine/
   image: /images/sections/marine-monitoring.png
+  section-link: marine
   reverse: 0
   text:
       - Watercraft are subject to all sorts of testing conditions, including water damage, submersion, bilge pump failure, theft, and more.
@@ -42,8 +52,10 @@
       - There are many areas that benefit from remote monitoring in the marine industry.
 
 - title: Biotech & pharma
+  sub: Stuff goes here, amazing stuff.
   link: /monitoring/biotech/
   image: /images/sections/pharma-monitoring.png
+  section-link: biotech
   reverse: 1
   text:
       - The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) have stringent rules and regulations when it comes to compliance.

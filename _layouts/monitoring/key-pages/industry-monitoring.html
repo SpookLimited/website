@@ -2,12 +2,19 @@
 layout: monitoring/key-pages/base
 ---
 <section>
-	<div class="container">
+	<div class="container is-text-center">
+		<h2>Key features</h2>
 		<div class="is-row">
 			{% for item in site.data.industry.header-item %}
-			<div class="is-col is-33 is-stack-20">
-				<img src="{{ item.image }}">
-				<h5>{{ item.title }}</h5>
+			<div class="is-col is-33">
+				<img class="feature-img" src="{{ item.image }}">
+				<h3>{{ item.title }}</h3>
+				<p>{{ item.sub }}</p>
+				<div class="is-text-center see-more">
+					<a href="#{{ item.section-link }}">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
 			</div>
 			{% endfor %}
 		</div>
@@ -19,7 +26,7 @@ layout: monitoring/key-pages/base
 	</div>
 </section>
 {% for item in site.data.industry.header-item %}
-<section>
+<section id="{{ item.section-link }}">
 	<div class="container">
 		<div class="is-row" {% if item.reverse == 1 %}style="flex-direction: row-reverse;"{% endif %}>
 			<div class="is-col is-40" style="background-image: url('{{ item.image }}'); background-size: cover; background-repeat: no-repeat; background-position: right;">
@@ -29,7 +36,7 @@ layout: monitoring/key-pages/base
 				{% for line in item.text %}
 					<p>{{ line }}</p>
 				{% endfor %}
-				<p><a class="button is-secondary" href="{{ item.link }}">More details</a></p>
+				<p><a class="button is-secondary" href="{{ item.link }}">More details</a> <a href="#top" class="button is-inverted">Back to top</a></p>
 			</div>
 		</div>
 	</div>

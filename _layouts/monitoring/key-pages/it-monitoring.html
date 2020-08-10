@@ -2,33 +2,21 @@
 layout: monitoring/key-pages/base
 ---
 <section>
-	<div class="container">
-		<h3>Key features</h3>
+	<div class="container is-text-center">
+		<h2>Key features</h2>
 		<div class="is-row">
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Data centre</h5>
+			{% for item in site.data.it.header-item %}
+			<div class="is-col is-33">
+				<img class="feature-img" src="{{ item.image }}">
+				<h3>{{ item.title }}</h3>
+				<p>{{ item.text }}</p>
+				<div class="is-text-center see-more">
+					<a href="#{{ item.link }}">
+						<span class="caret is-down"></span>
+					</a>
+				</div>
 			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Server room</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Comms room</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Comms closet</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Facilities monitoring</h5>
-			</div>
-			<div class="is-col is-33 is-stack-20">
-				<div style="width: 200px; height: 200px; margin: 0 auto; background-color: #aaa;"></div>
-				<h5>Disaster recovery</h5>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </section>
@@ -38,7 +26,7 @@ layout: monitoring/key-pages/base
 		<p>Whether there is a requirement to monitor wired climate monitoring hardware or 3rd party devices such as intelligent power strips, uninterruptible power supplies, generators, BMS systems and more; OmniWatch provides an enterprise centric monitoring solution.</p>
 	</div>
 </section>
-<section>
+<section id="data-centre">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-20">
@@ -51,7 +39,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="server-room">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-80">
@@ -65,7 +53,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="comms-room">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-20">
@@ -77,7 +65,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="comms-closet">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-80">
@@ -89,7 +77,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="facilities">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-20">
@@ -102,7 +90,7 @@ layout: monitoring/key-pages/base
 		</div>
 	</div>
 </section>
-<section>
+<section id="disaster">
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-80">

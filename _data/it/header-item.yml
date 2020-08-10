@@ -1,0 +1,29 @@
+- title: Data centre
+  image: /images/sections/key-pages/it-monitoring/datacenter.svg
+  text: Early warning system to avoid unplanned downtime and trend analysis tools for efficiency gains.
+  link: data-centre
+
+- title: Server room
+  image: /images/sections/key-pages/it-monitoring/server-room.svg
+  text: Reduce downtime, increase equipment reliability, reduce operating expense and increase employee satisfaction.
+  link: server-room
+
+- title: Comms room
+  image: /images/sections/key-pages/it-monitoring/server-room.svg
+  text: Ensuring continued IT connectivity for a business to its users and customers.
+  link: comms-room
+
+- title: Comms closet
+  image: /images/sections/key-pages/it-monitoring/server-room.svg
+  text: Ensuring continued IT connectivity for a business to its users and customers.
+  link: comms-closet
+
+- title: Facilities monitoring
+  image: /images/sections/key-pages/it-monitoring/server-room.svg
+  text: Disparate equipment monitoring across the whole enterprise.
+  link: facilities
+
+- title: Disaster recovery
+  image: /images/sections/key-pages/it-monitoring/server-room.svg
+  text: Take remedial action before having to invoke disaster recovery plans.
+  link: disaster

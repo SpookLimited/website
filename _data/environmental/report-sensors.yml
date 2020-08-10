@@ -1,0 +1,59 @@
+- name: Temperature 1
+  max: 28
+  min: 20
+  avg: 21.8
+  alarms: 0
+
+- name: Temperature 2
+  max: 34
+  min: 19
+  avg: 22.7
+  alarms: 1
+
+- name: Temperature Node
+  max: 30
+  min: 21
+  avg: 23.0
+  alarms: 1
+
+- name: CAB 15
+  max: 39.6
+  min: 23.8
+  avg: 26.1
+  alarms: 1
+
+- name: CAB 16
+  max: 42.6
+  min: 25.1
+  avg: 34.7
+  alarms: 1
+
+- name: CAB 22
+  max: 37.9
+  min: 31.1
+  avg: 33.3
+  alarms: 1
+
+- name: CAB 9
+  max: 47.9
+  min: 30.9
+  avg: 40.9
+  alarms: 1
+
+- name: Temperature 3
+  max: 32.0
+  min: 24.0
+  avg: 26.2
+  alarms: 1
+
+- name: CAB 18
+  max: 40.4
+  min: 34.1
+  avg: 37.3
+  alarms: 2
+
+- name: CAB 17
+  max: 35.6
+  min: 20.7
+  avg: 23.2
+  alarms: 0

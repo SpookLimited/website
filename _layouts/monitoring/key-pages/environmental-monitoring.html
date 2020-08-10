@@ -34,7 +34,7 @@ layout: monitoring/key-pages/base
 			{% for item in site.monitoring %}
 				{% if item.type == 'sensor' %}
 				<div class="is-col is-25 is-stack-20">
-					<div style="width: 200px; height: 200px; background-image: url('{{ item.sensor-image }}'); background-size: contain; background-repeat: no-repeat;"></div>
+					<div style="width: 100px; height: 100px; background-image: url('{{ item.sensor-image }}'); background-size: contain; background-repeat: no-repeat;"></div>
 					{% assign size = item.title | size | minus: 11 %}
 					<h3>{{ item.title | slice: 0, size }}</h3>
 					<p><a href="{{ item.permalink }}" class="button is-small">Read more</a></p>
@@ -128,15 +128,55 @@ layout: monitoring/key-pages/base
 				<h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">On demand reports</h2>
 				<h3>Ideal for audits and investigations.</h3>
 				<p>Reports can be created showing all monitored activity, sensor readings, trend data, user changes, alarm histories and installation plans. The on demand report function is ideal for audits and investigations on how alerts were managed by users and understanding how an alarm for a particular sensor impacted the environment and any other associated sensors.</p>
-				<p>Quick reports can be created for:</p>
-				<ul>
-					<li>Week</li>
-					<li>Month</li>
-					<li>Week to date</li>
-					<li>Month to date</li>
-					<li>Last 2, 7 and 30 day periods.</li>
-				</ul>
-				<p>A custom start and end date can also be applied for reports that are required for longer periods.</p>
+				<div class="is-row">
+					<div class="is-col is-80">
+						<nav class="tabs" data-kube="tabs" data-equal="true">
+							<a href="#chart-data" class="is-active">Charts</a>
+							<a href="#table-data">Tables</a>
+							<a href="#csv-data">CSV</a>
+						</nav>
+
+						<div id="chart-data">
+							<img src="/images/sections/key-pages/environmental-monitoring/report-chart.svg">
+						</div>
+						<div id="table-data">
+							<table class="is-responsive is-bordered is-small">
+								<thead>
+									<tr>
+										<th>Sensor name</th>
+										<th>Max</th>
+										<th>Min</th>
+										<th>Avg</th>
+										<th>Alarms</th>
+									</tr>
+								</thead>
+								<tbody>
+									{% for sensor in site.data.environmental.report-sensors %}
+									<tr>
+										<td>{{ sensor.name }}</td>
+										<td>{{ sensor.max }}</td>
+										<td>{{ sensor.min }}</td>
+										<td>{{ sensor.avg }}</td>
+										<td>{{ sensor.alarms }}</td>
+									</tr>
+									{% endfor %}
+								</tbody>
+							</table>
+						</div>
+						<div id="csv-data">
+							{% include  monitoring/environmental/csv-data.html %}
+						</div>
+					</div>
+					<div class="is-col is-20">
+						<p>Quick reports can be created for:</p>
+						<ul>
+							<li>Week to date</li>
+							<li>Month to date</li>
+							<li>Last 2, 7 and 30 day periods.</li>
+						</ul>
+						<p>A custom start and end date can also be applied for reports that are required for longer periods.</p>
+					</div>
+				</div>
 			</div>
 			<div class="is-col is-20">
 				<img src="/images/icons/report.svg">

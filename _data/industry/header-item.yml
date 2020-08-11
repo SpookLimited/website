@@ -1,5 +1,5 @@
-- title: Heritage
-  sub: Stuff goes here, amazing stuff.
+- title: Heritage organisations
+  sub: Discrete monitoring for conservators and exhibits.
   link: /monitoring/heritage/
   image: /images/sections/heritage-monitoring.png
   section-link: heritage
@@ -8,8 +8,8 @@
       - Heritage organisations usually require discrete monitoring.
       - Whether it is protecting collections or simply monitoring for visitor foot fall, institutions such as museums, galleries, libraries, private collections and archives all benefit by remotely monitoring with OmniWatch.
   
-- title: Refrigeration
-  sub: Stuff goes here, amazing stuff.
+- title: Refrigeration industry
+  sub: Cold chain monitoring for food safety.
   link: /monitoring/refrigeration/
   image: /images/sections/refrigeration-monitoring.png
   section-link: refrigeration
@@ -19,8 +19,8 @@
       - Government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public.
       - OmniWatch is the perfect solution to ensure food security.
 
-- title: Construction
-  sub: Stuff goes here, amazing stuff.
+- title: Construction industry
+  sub: Reglatory and security monitoring for construction sites.
   link: /monitoring/
   image: /images/sections/pharma-monitoring.png
   section-link: construction
@@ -30,8 +30,8 @@
       - Whether it is health and safety, theft, activity or any number of other issues OmniWatch combined with Spook's range of over 80 wireless sensors means monitoring can be easily achieved.
       - Combined with using cellular technology to send data to Spook's servers is also flexible so when construction is completed simply use the monitoring hardware on the next projects.
 
-- title: Agricultural
-  sub: Stuff goes here, amazing stuff.
+- title: Agricultural industry
+  sub: Precision monitoring for modern farming techniques.
   link: /monitoring/agriculture/
   image: /images/sections/agriculture-monitoring.png
   section-link: agricultural
@@ -40,8 +40,8 @@
       - The agricultural industry is diverse and has many areas that can benefit from remote monitoring.
       - By installing Spook's wireless sensors together with using cellular routers lets growers remotely monitor and manage crops, processing data and machinery systems from anywhere at anytime; providing a heightened level of awareness for operations.
 
-- title: Marine
-  sub: Stuff goes here, amazing stuff.
+- title: Marine industry
+  sub: Sailing craft remote monitoring for the marine industry.
   link: /monitoring/marine/
   image: /images/sections/marine-monitoring.png
   section-link: marine
@@ -52,7 +52,7 @@
       - There are many areas that benefit from remote monitoring in the marine industry.
 
 - title: Biotech & pharma
-  sub: Stuff goes here, amazing stuff.
+  sub: Regulatory and compliance monitoring for the biotech & pharma industry.
   link: /monitoring/biotech/
   image: /images/sections/pharma-monitoring.png
   section-link: biotech

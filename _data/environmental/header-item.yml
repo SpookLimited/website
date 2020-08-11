@@ -5,7 +5,7 @@
   reverse: 0
   link: /monitoring/sensors/temperature/
   words:
-      - Temperature monitoring is an important measurement for climate control. Temperature is an important factor for many scenarios and is perhaps the most commonly measured condition of all environmental monitoring conditions. Whether you need to know its too hot, too cold or simply that there is a rapid change measuring the temperature is key to this activity.
+      - Temperature monitoring is an important measurement for climate control. Temperature is an important factor for many scenarios and is perhaps the most commonly measured condition of all environmental monitoring conditions. Whether you need to know if it's too hot, too cold or simply that there is a rapid change measuring the temperature is key to this activity.
 
 - title: Humidity
   image: /images/icons/bulk-data.svg
@@ -14,7 +14,7 @@
   reverse: 1
   link: /monitoring/sensor/humidity/
   words:
-      - Measuring Relative Humidity (RH) is important because the amount of water that can be contained within a volume of air is not fixed. As air temperature increases the air has the ability to hold more and more water vapour. As air temperature decreases, the air’s ability to hold water decreases. The effects of too high and too low humidity have different effects on things
+      - Measuring relative humidity (RH) is important because the amount of water that can be contained within a volume of air is not fixed. As air temperature increases the air has the ability to hold more and more water vapour. As air temperature decreases, the air's ability to hold water decreases. The effects of too high and too low humidity have different effects on things.
 
 - title: Dew point
   image: /images/icons/bulk-data.svg
@@ -23,7 +23,7 @@
   reverse: 0
   link: /monitoring/sensor/dew-point/
   words:
-      - Dew point is inextricably linked between temperature and RH. Dew point is the temperature at which water vapour in the air starts condensing. Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C).
+      - Dew point is inextricably linked between temperature and relative humidity. Dew point is the temperature at which water vapour in the air starts condensing. Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C).
 
 - title: Air flow
   image: /images/icons/bulk-data.svg

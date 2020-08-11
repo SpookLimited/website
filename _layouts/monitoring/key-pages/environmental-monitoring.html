@@ -28,160 +28,20 @@ layout: monitoring/key-pages/base
 		<p>Our customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally rich to businesses that are considering monitoring for the first time.</p>
 	</div>
 </section>
-<section>
+{% for item in site.data.environmental.header-item %}
+<section id="{{ item.section-link }}">
 	<div class="container">
-		<div class="is-row">
-			{% for item in site.monitoring %}
-				{% if item.type == 'sensor' %}
-				<div class="is-col is-25 is-stack-20">
-					<div style="width: 100px; height: 100px; background-image: url('{{ item.sensor-image }}'); background-size: contain; background-repeat: no-repeat;"></div>
-					{% assign size = item.title | size | minus: 11 %}
-					<h3>{{ item.title | slice: 0, size }}</h3>
-					<p><a href="{{ item.permalink }}" class="button is-small">Read more</a></p>
-				</div>
-				{% endif %}
-			{% endfor %}
-		</div>
-		<p><a href="#top">Back to top</a></p>
-	</div>
-</section>
-<section id="alarms">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-				<img src="/images/icons/247.svg">
+		<div class="is-row" {% if item.reverse == 1 %}style="flex-direction: row-reverse;"{% endif %}>
+			<div class="is-col is-40" style="background-image: url('{{ item.image }}'); background-size: cover; background-repeat: no-repeat; background-position: right;">
 			</div>
-			<div class="is-col is-80">
-				<h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">24/7 alarms</h2>
-				<h3>Dynamic calendaring for informed alarm escalation.</h3>
-				<p>Spook's alarm escalation procedure is the most advanced in the industry. Sensors can be assigned to be critical or not. All alerts are auto-emailed and critical alerts are also sent via 2-way SMS and can be escalated to Spook's UK call-centre.</p>
-				<p>The dynamic calendar function within OmniWatch provides a central on-call rota for individual emergency contact staff. Personnel can set the days and times they are to be contacted for alarms together with any out-of-office hour emergency contact procedures.</p>
+			<div class="is-col is-60">
+				<h2>{{ item.title }} monitoring</h2>
+				{% for line in item.words %}
+					<p>{{ line }}</p>
+				{% endfor %}
+				<p><a class="button is-secondary" href="{{ item.link }}">More details</a> <a href="#top" class="button is-inverted">Back to top</a></p>
 			</div>
 		</div>
-		<p><a href="#top">Back to top</a></p>
 	</div>
 </section>
-<section id="cloud">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-80">
-				<h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Cloud based</h2>
-				<h3>Cloud based monitoring is perfect for monitoring remotely.</h3>
-				<p>All sensor data is stored securely in the cloud via Spook’s dedicated AWS servers. There is no need to provide on-premise data base servers or subscribe to software licences. This ensures all monitoring is safe, secure and automatically backed up. Cloud based monitoring is perfect for monitoring remotely.</p>
-			</div>
-			<div class="is-col is-20">
-				<img src="/images/icons/cloud.svg">
-			</div>
-		</div>
-		<p><a href="#top">Back to top</a></p>
-	</div>
-</section>
-<section id="secure">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-				<img src="/images/icons/secure.svg">
-			</div>
-			<div class="is-col is-80">
-				<h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Secure dashboards</h2>
-				<h3>User connectivity is via secure internet access.</h3>
-				<p>User connectivity is via secure internet access. OmniWatch is accessible on any internet enabled device and is a perfect fix for remote monitoring while on the move.</p>
-			</div>
-		</div>
-		<p><a href="#top">Back to top</a></p>
-	</div>
-</section>
-<section id="integration">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-80">
-				<h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Disparate equipment</h2>
-				<h3>Support legacy and new hardware; irregardless of manufacturer.</h3>
-				<p>The benefits of monitoring the environment centrally across an array of different equipment manufacturers is easy to illustrate. Organisations often have different types of hardware installed as new makes and models become available. Older, legacy monitoring devices can be managed in a similar way to new ones and be given a new lease of life thus ensuring the initial investment in hardware and sensors is maximised.</p>
-			</div>
-			<div class="is-col is-20">
-				<img src="/images/icons/integrate.svg">
-			</div>
-		</div>
-		<p><a href="#top">Back to top</a></p>
-	</div>
-</section>
-<section id="perpetual">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-20">
-				<img src="/images/icons/perpetual-data.svg">
-			</div>
-			<div class="is-col is-80">
-				<h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Perpetual data</h2>
-				<h3>All data is stored forever; perfect for trend analysis.</h3>
-				<p>Spook recognises that sensor readings and their associated trend data is a valuable management commodity. By storing the readings perpetually means measuring efficiency gains is accurate as measurements can be plotted for long time periods. Identifying patterns in the trends of sensor readings together with understanding their regularity can prove useful in building preventative measures for environmental protection.</p>
-			</div>
-		</div>
-		<p><a href="#top">Back to top</a></p>
-	</div>
-</section>
-<section id="reports">
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col is-80">
-				<h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">On demand reports</h2>
-				<h3>Ideal for audits and investigations.</h3>
-				<p>Reports can be created showing all monitored activity, sensor readings, trend data, user changes, alarm histories and installation plans. The on demand report function is ideal for audits and investigations on how alerts were managed by users and understanding how an alarm for a particular sensor impacted the environment and any other associated sensors.</p>
-				<div class="is-row">
-					<div class="is-col is-80">
-						<nav class="tabs" data-kube="tabs" data-equal="true">
-							<a href="#chart-data" class="is-active">Charts</a>
-							<a href="#table-data">Tables</a>
-							<a href="#csv-data">CSV</a>
-						</nav>
-
-						<div id="chart-data">
-							<img src="/images/sections/key-pages/environmental-monitoring/report-chart.svg">
-						</div>
-						<div id="table-data">
-							<table class="is-responsive is-bordered is-small">
-								<thead>
-									<tr>
-										<th>Sensor name</th>
-										<th>Max</th>
-										<th>Min</th>
-										<th>Avg</th>
-										<th>Alarms</th>
-									</tr>
-								</thead>
-								<tbody>
-									{% for sensor in site.data.environmental.report-sensors %}
-									<tr>
-										<td>{{ sensor.name }}</td>
-										<td>{{ sensor.max }}</td>
-										<td>{{ sensor.min }}</td>
-										<td>{{ sensor.avg }}</td>
-										<td>{{ sensor.alarms }}</td>
-									</tr>
-									{% endfor %}
-								</tbody>
-							</table>
-						</div>
-						<div id="csv-data">
-							{% include  monitoring/environmental/csv-data.html %}
-						</div>
-					</div>
-					<div class="is-col is-20">
-						<p>Quick reports can be created for:</p>
-						<ul>
-							<li>Week to date</li>
-							<li>Month to date</li>
-							<li>Last 2, 7 and 30 day periods.</li>
-						</ul>
-						<p>A custom start and end date can also be applied for reports that are required for longer periods.</p>
-					</div>
-				</div>
-			</div>
-			<div class="is-col is-20">
-				<img src="/images/icons/report.svg">
-			</div>
-		</div>
-		<p><a href="#top">Back to top</a></p>
-	</div>
-</section>
+{% endfor %}

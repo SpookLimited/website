@@ -3,7 +3,7 @@
   text: Need words
   section-link: temperature
   reverse: 0
-  link: /monitoring/sensors/temperature/
+  link: /omniwatch/temperature-monitoring/
   words:
       - Temperature monitoring is an important measurement for climate control. Temperature is an important factor for many scenarios and is perhaps the most commonly measured condition of all environmental monitoring conditions. Whether you need to know if it's too hot, too cold or simply that there is a rapid change measuring the temperature is key to this activity.
 
@@ -12,7 +12,7 @@
   text: Need words
   section-link: humidity
   reverse: 1
-  link: /monitoring/sensor/humidity/
+  link: /omniwatch/humidity-monitoring/
   words:
       - Measuring relative humidity (RH) is important because the amount of water that can be contained within a volume of air is not fixed. As air temperature increases the air has the ability to hold more and more water vapour. As air temperature decreases, the air's ability to hold water decreases. The effects of too high and too low humidity have different effects on things.
 
@@ -21,7 +21,7 @@
   text: Need words
   section-link: dewpoint
   reverse: 0
-  link: /monitoring/sensor/dew-point/
+  link: /omniwatch/dewpoint-monitoring/
   words:
       - Dew point is inextricably linked between temperature and relative humidity. Dew point is the temperature at which water vapour in the air starts condensing. Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C).
 
@@ -30,7 +30,7 @@
   text: Need words
   section-link: airflow
   reverse: 1
-  link: /monitoring/sensor/airflow/
+  link: /omniwatch/airflow-monitoring/
   words:
       - Good airflow management cuts costs by reducing the volume of cooled air that needs to be supplied and will also improve the temperature distribution across monitored areas. Knowing air ducts are clear and not blocked increases efficiency and maximises efficiencies.
 
@@ -39,7 +39,7 @@
   text: Need words
   section-link: water
   reverse: 0
-  link: /monitoring/sensor/water/
+  link: /omniwatch/water-ingress-monitoring/
   words:
       - Monitoring water ingress is perhaps one of the most important environmental conditions it has the power to cause the most destruction. Water has the potential to do the most damage in the shortest amount of time. Whether there is a burst water pipe, build up of storm water or a boiler leak; by knowing there is water ingress gives valuable early warning time to remedy matters before it becomes a deluge.
 
@@ -48,6 +48,6 @@
   text: Need words
   section-link: light
   reverse: 1
-  link: /monitoring/sensor/light-meters/
+  link: /omniwatch/light-monitoring/
   words:
       - Know when the lights are on or off maybe a key area to ensure the safety for critical applications, such as parking garages & common areas commercial in buildings. Measuring light may be a key component to ensure areas are 100% operational.

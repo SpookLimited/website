@@ -11,7 +11,7 @@ layout: monitoring/key-pages/base
 				<h3>{{ item.title }}</h3>
 				<p>{{ item.text }}</p>
 				<div class="is-text-center see-more">
-					<a href="#{{ item.link }}">
+					<a href="#{{ item.section-link }}">
 						<span class="caret is-down"></span>
 					</a>
 				</div>
@@ -23,16 +23,16 @@ layout: monitoring/key-pages/base
 <section>
 	<div class="container">
 		<h2>Secure cloud based environmental monitoring</h2>
-		<p>Monitoring the environment is important for many industries. Whether it's temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods.</p>
-		<p>Spook has developed OmniWatch to work with any hardware manufacturers equipment making monitoring the environment easy, cohesive and technically advanced.</p>
-		<p>Our customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally rich to businesses that are considering monitoring for the first time.</p>
+        <p>Monitoring the environment is important for many industries. Whether it's temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods, the range of climate monitoring by Spook is extensive.</p>
+        <p>Spook has developed OmniWatch to work with any hardware manufacturers equipment making monitoring the environment easy, cohesive and technically advanced.</p>
+        <p>Our customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally rich to businesses that are considering monitoring for the first time and want a hassle free, out-of-box monitoring solution.</p>
 	</div>
 </section>
 {% for item in site.data.environmental.header-item %}
 <section id="{{ item.section-link }}">
 	<div class="container">
 		<div class="is-row" {% if item.reverse == 1 %}style="flex-direction: row-reverse;"{% endif %}>
-			<div class="is-col is-40" style="background-image: url('{{ item.image }}'); background-size: cover; background-repeat: no-repeat; background-position: right;">
+			<div class="is-col is-40" style="background-image: url('{{ item.image }}'); background-size: contain; background-repeat: no-repeat; background-position: center;">
 			</div>
 			<div class="is-col is-60">
 				<h2>{{ item.title }} monitoring</h2>

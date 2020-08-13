@@ -1,53 +1,58 @@
 - title: Temperature
-  image: /images/icons/bulk-data.svg
-  text: Need words
+  image: /images/sensor/icons/temperature.svg
+  text: Thermal condition monitoring.
   section-link: temperature
   reverse: 0
   link: /omniwatch/temperature-monitoring/
   words:
-      - Temperature monitoring is an important measurement for climate control. Temperature is an important factor for many scenarios and is perhaps the most commonly measured condition of all environmental monitoring conditions. Whether you need to know if it's too hot, too cold or simply that there is a rapid change measuring the temperature is key to this activity.
+      - Temperature monitoring is an important measurement for climate control and is perhaps the most commonly measured condition of all environmental states.
+      - Whether you need to know if it's too hot, too cold or simply that there is a rapid change; measuring the activity of temperature is key to climate monitoring.
 
 - title: Humidity
-  image: /images/icons/bulk-data.svg
-  text: Need words
+  image: /images/sensor/icons/humidity.svg
+  text: Atmospheric moisture control.
   section-link: humidity
   reverse: 1
   link: /omniwatch/humidity-monitoring/
   words:
-      - Measuring relative humidity (RH) is important because the amount of water that can be contained within a volume of air is not fixed. As air temperature increases the air has the ability to hold more and more water vapour. As air temperature decreases, the air's ability to hold water decreases. The effects of too high and too low humidity have different effects on things.
+      - Measuring relative humidity (RH) is important because the amount of water that can be contained within a volume of air is not fixed. As air temperature increases the air has the ability to hold more and more water vapour.
+      - As air temperature decreases, the air's ability to hold water decreases. The effects of too high and too low humidity can directly impact the safe running of equipment.
 
 - title: Dew point
-  image: /images/icons/bulk-data.svg
-  text: Need words
+  image: /images/sensor/icons/dewpoint.svg
+  text: Water droplet condensation.
   section-link: dewpoint
   reverse: 0
   link: /omniwatch/dewpoint-monitoring/
   words:
-      - Dew point is inextricably linked between temperature and relative humidity. Dew point is the temperature at which water vapour in the air starts condensing. Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C).
+      - Dew point is inextricably linked between temperature and relative humidity. Dew point is the temperature at which water vapour in the air starts condensing.
+      - Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C). Try Spook's free dew point calculator <a href='#'>here</a>.
 
 - title: Air flow
-  image: /images/icons/bulk-data.svg
-  text: Need words
+  image: /images/sensor/icons/airflow.svg
+  text: Measuring the movement of air.
   section-link: airflow
   reverse: 1
   link: /omniwatch/airflow-monitoring/
   words:
-      - Good airflow management cuts costs by reducing the volume of cooled air that needs to be supplied and will also improve the temperature distribution across monitored areas. Knowing air ducts are clear and not blocked increases efficiency and maximises efficiencies.
+      - Air flow monitoring is becoming more important especially since the Covid-19 epidemic of 2020. According to the Health and Safety Executive (HSE) the risk of air conditioning spreading coronavirus in the workplace is extremely low as long as there is an adequate supply of fresh air and ventilation therefore monitoring air flow circulation is becoming more important. 
 
 - title: Water ingress
-  image: /images/icons/bulk-data.svg
-  text: Need words
+  image: /images/sensor/icons/water.svg
+  text: Water and moisture monitoring
   section-link: water
   reverse: 0
   link: /omniwatch/water-ingress-monitoring/
   words:
-      - Monitoring water ingress is perhaps one of the most important environmental conditions it has the power to cause the most destruction. Water has the potential to do the most damage in the shortest amount of time. Whether there is a burst water pipe, build up of storm water or a boiler leak; by knowing there is water ingress gives valuable early warning time to remedy matters before it becomes a deluge.
+      - Monitoring water ingress is perhaps one of the most important environmental conditions as water has the power to cause immediate disruption. Water has the potential to do the most damage in the shortest amount of time.
+      - Whether there is a burst water pipe, build up of storm water or a boiler leak; knowing there is water ingress gives valuable early warning time to remedy matters before it becomes a deluge.
 
 - title: Light
-  image: /images/icons/bulk-data.svg
-  text: Need words
+  image: /images/sensor/icons/light.svg
+  text: Measuring LUX (luminescence/unit area).
   section-link: light
   reverse: 1
   link: /omniwatch/light-monitoring/
   words:
-      - Know when the lights are on or off maybe a key area to ensure the safety for critical applications, such as parking garages & common areas commercial in buildings. Measuring light may be a key component to ensure areas are 100% operational.
+      - Monitoring whether lights are on or off maybe key area to ensure the safety for critical applications. Areas such as parking garages & common areas of use in commercial buildings all benefit from monitoring light.
+      - Measuring light is also importation to agricultural businesses such as greenhouses and crop management, understanding LUX (luminescence/unit area) can assist maximising growing conditions.

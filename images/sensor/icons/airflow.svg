@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Airflow">
+        <path d="M54,162L240,162" style="fill:none;stroke:black;stroke-width:10px;"/>
+        <path d="M302,122C326.749,130.234 300.112,168.48 277,147C253.871,125.504 285.362,90.001 316,108C334.444,118.836 335.099,156.136 316,173C312.136,176.412 305.902,180.004 299,180L73,180" style="fill:none;stroke:black;stroke-width:10px;"/>
+        <g transform="matrix(1,0,0,-1,-11,380)">
+            <path d="M302,122C326.749,130.234 300.112,168.48 277,147C253.871,125.504 285.362,90.001 316,108C334.444,118.836 335.099,156.136 316,173C312.136,176.412 305.902,180.004 299,180L159,180" style="fill:none;stroke:black;stroke-width:10px;"/>
+        </g>
+        <g transform="matrix(1,0,0,-1,-115,399)">
+            <path d="M302,122C326.749,130.234 300.112,168.48 277,147C253.871,125.504 285.362,90.001 316,108C334.444,118.836 335.099,156.136 316,173C312.136,176.412 305.902,180.004 299,180L182,180" style="fill:none;stroke:black;stroke-width:10px;"/>
+        </g>
+    </g>
+</svg>

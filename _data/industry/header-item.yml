@@ -2,6 +2,7 @@
   sub: Discrete monitoring for conservators and exhibits.
   link: /monitoring/heritage/
   image: /images/sections/heritage-monitoring.png
+  circle-image: /images/sections/heritage-monitoring-circle.png
   section-link: heritage
   reverse: 0
   text:
@@ -12,6 +13,7 @@
   sub: Cold chain monitoring for food safety.
   link: /monitoring/refrigeration/
   image: /images/sections/refrigeration-monitoring.png
+  circle-image: /images/sections/refrigeration-monitoring-circle.png
   section-link: refrigeration
   reverse: 1
   text:
@@ -22,7 +24,8 @@
 - title: Construction industry
   sub: Reglatory and security monitoring for construction sites.
   link: /monitoring/
-  image: /images/sections/pharma-monitoring.png
+  image: /images/sections/construction-monitoring.png
+  circle-image: /images/sections/construction-monitoring-circle.png
   section-link: construction
   reverse: 0
   text:
@@ -34,6 +37,7 @@
   sub: Precision monitoring for modern farming techniques.
   link: /monitoring/agriculture/
   image: /images/sections/agriculture-monitoring.png
+  circle-image: /images/sections/agriculture-monitoring-circle.png
   section-link: agricultural
   reverse: 1
   text: 
@@ -44,6 +48,7 @@
   sub: Sailing craft remote monitoring for the marine industry.
   link: /monitoring/marine/
   image: /images/sections/marine-monitoring.png
+  circle-image: /images/sections/marine-monitoring-circle.png
   section-link: marine
   reverse: 0
   text:
@@ -55,6 +60,7 @@
   sub: Regulatory and compliance monitoring for the biotech & pharma industry.
   link: /monitoring/biotech/
   image: /images/sections/pharma-monitoring.png
+  circle-image: /images/sections/pharma-monitoring-circle.png
   section-link: biotech
   reverse: 1
   text:

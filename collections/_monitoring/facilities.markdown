@@ -1,6 +1,6 @@
 ---
 layout: page 
-permalink: /monitoring/facilities
+permalink: /monitoring/facilities/
 type: facilities
 title: Facilities monitoring
 ---

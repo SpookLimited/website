@@ -1,0 +1,9 @@
+- name: 3 phase current meter - 150 amp
+  icon: /images/sensor/three-phase.svg
+  types:
+      - Ind
+
+- name: 3 phase current meter - 500 amp
+  icon: /images/sensor/three-phase.svg
+  types:
+      - Ind

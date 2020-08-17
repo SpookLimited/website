@@ -1,0 +1,10 @@
+- name: AC 150 amps
+  icon: /images/sensor/acmeter.svg
+  types:
+      - AA
+
+- name: AC 500 amps
+  icon: /images/sensor/acmeter.svg
+  types:
+      - AA
+

@@ -1,0 +1,7 @@
+- name: Hydrogen sulfide (H<sub>2</sub>S)
+  types:
+      - AA
+
+- name: Carbon dioxide (CO<sub>2</sub>)
+  types:
+      - AA

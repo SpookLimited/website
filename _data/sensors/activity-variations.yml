@@ -1,0 +1,36 @@
+- name: Tilt sensor
+  icon: /images/sensor/aa-sensor.svg
+  types:
+      - AA
+      - Ind
+
+- name: Impact detection
+  icon: /images/sensor/aa-sensor.svg
+  types:
+      - AA
+      - Ind
+
+- name: G-Force snapshot
+  icon: /images/sensor/aa-sensor.svg
+  types:
+      - AA
+      - Ind
+
+- name: G-Force max and avg
+  icon: /images/sensor/aa-sensor.svg
+  types:
+      - AA
+      - Ind
+
+- name: Vibration meter
+  icon: /images/sensor/aa-sensor.svg
+  types:
+      - AA
+      - Ind
+
+- name: Tilt detection sensor
+  icon: /images/sensor/aa-sensor.svg
+  types:
+      - AA
+      - Ind
+

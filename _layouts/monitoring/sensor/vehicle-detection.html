@@ -1,0 +1,40 @@
+---
+layout: monitoring/sensor/base
+---
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<p>Spook's wireless vehicle detect/counter sensor can be deployed to detect the presence of a vehicle or count oncoming traffic utilising a 9 ft. pneumatic tube. Deployment is easy with the included hose anchor and mounting spikes. Simply turn the unit on with the included magnet, roll the hose out where you wish to record traffic data and pound the spikes into the asphalt. Select the option for counting or detecting and begin recording data.</p>
+				<ul>
+					<li>9 foot hose</li>
+					<li>Signal hose anchor</li>
+					<li>Mounting spikes for hose anchor</li>
+					<li>Wireless Sensor</li>
+					<li>Mounting Hardware</li>
+					<li>3V Industrial Battery (Pre-Installed)</li>
+				</ul>
+			</div>
+			<div class="is-col">
+				<img style="display: block; max-width: 300px; margin: 0 auto;" src="/images/sensor/vehicle-detection.svg">
+			</div>
+        </div>
+        <h3>Related sensors</h3>
+        <div class="is-row is-stack-20">
+            {% for item in site.data.sensors.vehicle-detection-variations %}
+            <div class="is-col">
+                <img style="width: 120px;" src="{{ item.icon }}">
+                <h5>{{ item.name }}</h5>
+                <ul class="is-bar">
+                    {% for type in item.types %}
+                    <li class="is-small">{{ type }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endfor %}
+        </div>
+		<p>Spook's industrial ultrasonic sensors can be used in a variety of applications for measuring distances between the sensor and objects in its path. ALTA ultrasonic sensors are impervious to target surface and colour, and feature auto-calibration algorithms which allow them to adapt to variable environmental conditions and compensate for temperature and humidity effects.</p>
+	</div>
+</section>
+
+

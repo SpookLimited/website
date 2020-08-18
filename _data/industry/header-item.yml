@@ -66,3 +66,23 @@
   text:
       - The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) have stringent rules and regulations when it comes to compliance.
       - OmniWatch not only monitors the environment and security of drugs and medicines, it also has an audit function whereby reports can be generated to prove Biotech & Pharma conformity to regulations.
+
+- title: Boiler rooms
+  sub: Nothing yet.
+  image: /images/sections/boiler-room-banner.png
+  circle-image: /images/sections/boiler-room-circle.png
+  section-link: boiler-room
+  reverse: 0
+  text:
+      - Boilers must maintain a certain temperature level for safe, reliable and effective operations. A boiler room is a place usually where no one goes until there is a problem. However most of the time no one knows there is a problem with the heating system until it is too late. To help prevent such issues, remote monitoring can be hugely beneficial.
+      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free. 
+      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
+  sensors:
+      - Temperature
+      - Humidity
+      - Vibration
+      - Water ingress
+      - AC meter
+      - Pressure
+      - Accelerometers
+      - Dry contact (gauges/equipment/etc)

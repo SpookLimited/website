@@ -38,7 +38,15 @@ layout: monitoring/key-pages/base
 				{% for line in item.text %}
 					<p>{{ line }}</p>
 				{% endfor %}
-				<p><a class="button is-secondary" href="{{ item.link }}">More details</a> <a href="#top" class="button is-inverted">Back to top</a></p>
+                {% if item.sensors %}
+                <h5>Popular sensors</h5>
+                <ul>
+                    {% for sensor in item.sensors %}
+                    <li>{{ sensor }}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                <p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details</a> {% endif %}<a href="#top" class="button is-inverted">Back to top</a></p>
 			</div>
 		</div>
 	</div>

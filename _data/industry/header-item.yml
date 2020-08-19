@@ -86,3 +86,20 @@
       - Pressure
       - Accelerometers
       - Dry contact (gauges/equipment/etc)
+
+- title: Educational establishments
+  sub: Nothing yet.
+  image: /images/sections/educational-establishments-banner.png
+  circle-image: /images/sections/educational-establishments-circle.png
+  section-link: educational-establishments
+  reverse: 1
+  text:
+      - Schools, Colleges and Universities are very expensive properties to build and maintain, presenting a unique challenge when they go unoccupied during the week or over the summer. While there might be a handful of staff members present year-round, it is difficult for these individuals to keep an eye on the entire property. Even during term-time knowing the establishment is protected is extremely challenging. 
+      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
+      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
+  sensors:
+      - Temperature
+      - Water ingress
+      - Motion (security)
+      - Door (open/closed)
+      - Dry contact (fire alarms, access panels, etc)

@@ -141,3 +141,40 @@
       - Alternating current (AC)
       - Pressure
       - Accelerometers
+
+- title: Access monitoring
+  sub: Nothing yet.
+  image: /images/sections/access-monitoring-banner.png
+  circle-image: /images/sections/access-monitoring-circle.png
+  section-link: access-monitoring
+  reverse: 0
+  text:
+      - Businesses, buildings, construction sites, schools and many more institutions all have their own priorities and reasons for access monitoring. Whether it is for human or vehicle activity, access monitoring is usually required from a security perspective. Add into the mix that access monitoring has different dynamics for different scenarios can become complicated, for instance monitoring access to a building has a different characteristic to monitoring the same for an area that is fenced or open-plan.
+      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
+      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
+  sensors:
+      - Motion
+      - Door (open/closed)
+      - Vehicle detection (acoustic/pneumatic tube)
+      - Assets
+      - Vibration
+      - Pressure (pads/beams/etc)
+
+- title: Veterinary practices
+  sub: Nothing yet.
+  image: /images/sections/vet-banner.png
+  circle-image: /images/sections/vet-circle.png
+  section-link: veterinary-practices
+  reverse: 1
+  text:
+      - Vets premises need to store drugs and medicines securely. Knowing they are stored in adequate environmental conditions to ensure longevity together with ensuring they are locked in appropriate rooms and cabinets is very important. Vets also need to cater for short term animal occupancy for when pets and other creatures need to be operated on or to recuperate. Ensuring these areas do not get too hot and cause heat exhaustion for their occupants is of prime concern. Also, when animals are recuperating from an operation they are often sedated and remain motionless until the sedation abates. Being able to monitor motion in a recovery area saves time and effort in staff needing to remember to take a look to check matters whilst they maintain their busy veterinary schedules. Veterinarians working in enclosed spaces in winter months (eg, intensive animal production facilities) being heated by combustion sources will most commonly be exposed to carbon monoxide (CO) together with the animals they are treating. CO is colourless and has no odour so monitoring for its presence is crucial.
+      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
+      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
+  sensors:
+      - Temperature
+      - Humidity
+      - Water (present at animal drinking stations etc)
+      - Door (open/closed)
+      - Vehicle detection (acoustic/pneumatic tube)
+      - Motion (security, animal movement, etc)
+      - Carbon monoxide

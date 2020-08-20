@@ -210,16 +210,16 @@
   reverse: 0
   text:
       - The manufacturing industry is perhaps the biggest beneficiary for remote monitoring than any other business type. That's because the manufacturing sector has the largest breadth of business types, from food and household goods to automotive, pharmaceuticals, aerospace and everything in-between. They usually have the most disparate requirement to monitor equipment than any other organisation. Spook's remote monitoring service, called OmniWatch,  is protocol neutral and manufacturer independent. It provides an easy to use, joined-up, intuitive monitoring solution. Many machines and equipment types used in the manufacturing industry are not network connected and rely on dry contact panels and independent monitoring of differing sensor types to create to a cohesive and enterprise centric monitoring.
-  - sensors:
+  sensors:
       - Temperature
-  	  - Humidity
-  	  - Dew point
-  	  - Water ingress
-  	  - Dry contact (mains, UPSs, generators etc)
-  	  - Vibration
-  	  - Alternating current (AC)
-  	  - Direct current (DC)
-  	  - Pressure
-  	  - Accelerometers
-  	  - Gas detection
-  	  - Thermostat
+      - Humidity
+      - Dew point
+      - Water ingress
+      - Dry contact (mains, UPSs, generators etc)
+      - Vibration
+      - Alternating current (AC)
+      - Direct current (DC)
+      - Pressure
+      - Accelerometers
+      - Gas detection
+      - Thermostat

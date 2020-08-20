@@ -75,8 +75,6 @@
   reverse: 0
   text:
       - Boilers must maintain a certain temperature level for safe, reliable and effective operations. A boiler room is a place usually where no one goes until there is a problem. However most of the time no one knows there is a problem with the heating system until it is too late. To help prevent such issues, remote monitoring can be hugely beneficial.
-      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free. 
-      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
   sensors:
       - Temperature
       - Humidity
@@ -95,8 +93,6 @@
   reverse: 1
   text:
       - Schools, Colleges and Universities are very expensive properties to build and maintain, presenting a unique challenge when they go unoccupied during the week or over the summer. While there might be a handful of staff members present year-round, it is difficult for these individuals to keep an eye on the entire property. Even during term-time knowing the establishment is protected is extremely challenging. 
-      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
-      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
   sensors:
       - Temperature
       - Water ingress
@@ -112,8 +108,6 @@
   reverse: 0
   text:
       - Churches, cathedrals, mosques, mandir's, synagogues and other places of worship are very difficult to protect all year-round. Many stay unoccupied for the majority of time and contain valuable and irreplaceable possessions. Even during times of worship protecting valuables and items of heritage importance can be a struggle.
-      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There’s no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
-      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
   sensors:
       - Temperature
       - Water ingress
@@ -131,8 +125,6 @@
   reverse: 1
   text:
       - Many buildings have extensive plumbing with pressurised water being processed around the facility. Knowing if there is a burst water pipe or leaking boiler is often difficult and usually only noticed when there is a deluge and considerable damage. Temperature is also a key factor to ensure pipework and water tanks are not frozen during winter months. This is particularly challenging for older grade listed or heritage buildings whose plumbing can be many decades old.
-      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
-      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
   sensors:
       - Temperature
       - Humidity
@@ -150,8 +142,6 @@
   reverse: 0
   text:
       - Businesses, buildings, construction sites, schools and many more institutions all have their own priorities and reasons for access monitoring. Whether it is for human or vehicle activity, access monitoring is usually required from a security perspective. Add into the mix that access monitoring has different dynamics for different scenarios can become complicated, for instance monitoring access to a building has a different characteristic to monitoring the same for an area that is fenced or open-plan.
-      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
-      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
   sensors:
       - Motion
       - Door (open/closed)
@@ -168,8 +158,6 @@
   reverse: 1
   text:
       - Vets premises need to store drugs and medicines securely. Knowing they are stored in adequate environmental conditions to ensure longevity together with ensuring they are locked in appropriate rooms and cabinets is very important. Vets also need to cater for short term animal occupancy for when pets and other creatures need to be operated on or to recuperate. Ensuring these areas do not get too hot and cause heat exhaustion for their occupants is of prime concern. Also, when animals are recuperating from an operation they are often sedated and remain motionless until the sedation abates. Being able to monitor motion in a recovery area saves time and effort in staff needing to remember to take a look to check matters whilst they maintain their busy veterinary schedules. Veterinarians working in enclosed spaces in winter months (eg, intensive animal production facilities) being heated by combustion sources will most commonly be exposed to carbon monoxide (CO) together with the animals they are treating. CO is colourless and has no odour so monitoring for its presence is crucial.
-      - Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.
-      - The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.
   sensors:
       - Temperature
       - Humidity
@@ -178,3 +166,23 @@
       - Vehicle detection (acoustic/pneumatic tube)
       - Motion (security, animal movement, etc)
       - Carbon monoxide
+
+- title: Food service industry
+  sub: Nothing yet.
+  image: /images/sections/food-service-banner.png
+  circle-image: /images/sections/food-service-circle.png
+  section-link: food-service
+  reverse: 0
+  text:
+      - The food service industry is varied and wide. From cafes and coffee shops to food halls and restaurants, all have common and specific areas where remote monitoring will be hugely beneficial. Food preparation for consumption to members of the public comes with regulatory requirements; whilst ensuring the quality and longevity of food, especially perishable foodstuff in terms of refrigeration is important to measure. Food security is paramount, ensuring food has not deteriorated or been tampered with can be critical.
+  sensors:
+      - Temperature
+      - Humidity
+      - Vibration (refrigeration motors etc)
+      - Water ingress
+      - Water temperature
+      - Alternating current (AC)
+      - Door (open/closed)
+      - Airflow
+      - Motion (security)
+      - Food temperature probes

@@ -39,11 +39,51 @@ layout: monitoring/key-pages/base
 					<p>{{ line }}</p>
 				{% endfor %}
                 <h5>Popular sensors</h5>
-                <ul>
+                <div class="is-row">
                     {% for sensor in item.sensors %}
-                    <li>{{ sensor }}</li>
+                    <div class="is-col is-stack-20">
+                        {% if sensor == "Temperature" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/temperature.svg">
+                            <h5>Temperature</h5>
+                        {% elsif sensor == "Humidity" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/humidity.svg">
+                            <h5>Humidity</h5>
+                        {% elsif sensor == "Dew point" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/dewpoint.svg">
+                            <h5>Dew point</h5>
+                        {% elsif sensor == "Water ingress" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/water.svg">
+                            <h5>Water ingress</h5>
+                        {% elsif sensor == "Light" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/light.svg">
+                            <h5>Light (LUX)</h5>
+                        {% elsif sensor == "Airflow" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/airflow.svg">
+                            <h5>Airflow</h5>
+                        {% elsif sensor == "Motion (security)" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/motion.svg">
+                            <h5>Motion (security)</h5>
+                        {% elsif sensor == "Door (open/closed)" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/door.svg">
+                            <h5>Door (open/closed)</h5>
+                        {% elsif sensor == "Dry contact" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/drycontact.svg">
+                            <h5>Dry contact (3rd party equipment)</h5>
+                        {% elsif sensor == "Pressure" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/pressure.svg">
+                            <h5>Pressure</h5>
+                        {% elsif sensor == "Alternating current (AC)" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/alternatingcurrent.svg">
+                            <h5>Alternating current (AC)</h5>
+                        {% elsif sensor == "Direct current (DC)" %}
+                            <img style="max-width: 60px;" src="/images/sensor/icons/directcurrent.svg">
+                            <h5>Direct current (DC)</h5>
+                        {% else %}
+                            <h5>{{ sensor }}</h5>
+                        {% endif %}
+                    </div>
                     {% endfor %}
-                </ul>
+                </div>
                 <p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details</a> {% endif %}<a href="#top" class="button is-inverted">Back to top</a></p>
 			</div>
 			<div class="is-col is-40 is-small is-muted">

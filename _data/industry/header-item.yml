@@ -15,7 +15,7 @@
       - Water ingress
       - Temperature
       - Humidity
-      - Dry contact (3rd party equipment))
+      - Dry contact
   
 - title: Refrigeration industry
   sub: Cold chain monitoring for food safety.
@@ -59,7 +59,7 @@
       - Door (open/closed)
       - Asset
       - Vehicle detection (acoustic/pneumatic tube)
-      - Dry contact (generators, machinery, etc)
+      - Dry contact
 
 - title: Agricultural industry
   sub: Precision monitoring for modern farming techniques.
@@ -78,7 +78,7 @@
       - Motion (security)
       - Activity (motors, machinery, etc)
       - Door (open/closed)
-      - Dry contact (generator, machinery, etc)
+      - Dry contact
       - Carbon monoxide
       - Liquids/powders
       - Propane level
@@ -135,7 +135,7 @@
       - AC meter
       - Pressure
       - Accelerometers
-      - Dry contact (gauges/equipment/etc)
+      - Dry contact
 
 - title: Educational establishments
   sub: Nothing yet.
@@ -150,7 +150,7 @@
       - Water ingress
       - Motion (security)
       - Door (open/closed)
-      - Dry contact (fire alarms, access panels, etc)
+      - Dry contact
 
 - title: Worship establishments
   sub: Nothing yet.
@@ -165,7 +165,7 @@
       - Water ingress
       - Motion (security)
       - Door (open/closed)
-      - Dry contact (alarm panel etc)
+      - Dry contact
       - Light
       - Asset
 
@@ -251,7 +251,7 @@
       - Temperature
       - Alternating current (AC)
       - Thermostat
-      - Air flow
+      - Airflow
       - Vibration
 
 - title: Manufacturing
@@ -267,7 +267,7 @@
       - Humidity
       - Dew point
       - Water ingress
-      - Dry contact (mains, UPSs, generators etc)
+      - Dry contact
       - Vibration
       - Alternating current (AC)
       - Direct current (DC)
@@ -293,7 +293,7 @@
       - Humidity
       - Dew point
       - Water ingress
-      - Dry contact (VESDA, fire alarms, generators, UPSs, etc)
+      - Dry contact
       - Motion (security)
       - Door (open/closed)
 
@@ -312,7 +312,7 @@
       - Humidity
       - Dew point
       - Water ingress
-      - Dry contact (mains power, UPSs, generators, etc)
+      - Dry contact
       - Vibration
       - Alternating current (AC)
       - Direct current (DC)

@@ -226,7 +226,7 @@
   section-link: food-service
   reverse: 0
   text:
-      - The food service industry is varied and wide. From cafes and coffee shops to food halls and restaurants, all have common and specific areas where remote monitoring will be hugely beneficial. Food preparation for consumption to members of the public comes with regulatory requirements; whilst ensuring the quality and longevity of food, especially perishable foodstuff in terms of refrigeration is important to measure. Food security is paramount, ensuring food has not deteriorated or been tampered with can be critical.
+      - The food service industry is varied and wide. From cafes and coffee shops to food halls and restaurants, all have common and specific areas where remote monitoring will be hugely beneficial. Food preparation for consumption to members of the public comes with regulatory requirements; whilst ensuring the quality and longevity of food, especially perishable foodstuff in terms of refrigeration is important to measure. Food safety is paramount, ensuring food has not deteriorated or been tampered with can be critical.
   sensors:
       - Temperature
       - Humidity

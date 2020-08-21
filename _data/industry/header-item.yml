@@ -76,7 +76,7 @@
       - Water ingress
       - Light
       - Motion (security)
-      - Activity (motors, machinery, etc)
+      - Activity
       - Door (open/closed)
       - Dry contact
       - Carbon monoxide
@@ -216,7 +216,7 @@
       - Water (present at animal drinking stations etc)
       - Door (open/closed)
       - Vehicle detection (acoustic/pneumatic tube)
-      - Motion (security, animal movement, etc)
+      - Motion
       - Carbon monoxide
 
 - title: Food service industry

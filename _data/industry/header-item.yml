@@ -12,6 +12,7 @@
       - Door (open/closed)
       - Motion (security)
       - Pressure
+      - split
       - Water ingress
       - Temperature
       - Humidity
@@ -31,6 +32,7 @@
       - Humidity
       - Water ingress
       - Alternating current (AC)
+      - split
       - Motion (security)
       - Door (open/closed)
       - Vibration
@@ -51,10 +53,12 @@
       - Water ingress
       - Vibration
       - Alternating current (AC)
+      - split
       - Direct current (DC)
       - Pressure
       - Accelerometers
       - Gas detection
+      - split
       - Motion (security)
       - Door (open/closed)
       - Asset
@@ -76,6 +80,7 @@
       - Water ingress
       - Light
       - Motion (security)
+      - split
       - Activity
       - Door (open/closed)
       - Dry contact
@@ -97,6 +102,7 @@
       - Humidity
       - Water ingress
       - Alternating current (AC)
+      - split
       - Direct current (DC)
       - Liquid level
       - Motion (security)
@@ -115,6 +121,7 @@
       - Temperature
       - Humidity
       - Water ingress
+      - split
       - Alternating current (AC)
       - Motion (security)
       - Door (open/closed)
@@ -132,6 +139,7 @@
       - Humidity
       - Vibration
       - Water ingress
+      - split
       - AC meter
       - Pressure
       - Accelerometers
@@ -149,6 +157,7 @@
       - Temperature
       - Water ingress
       - Motion (security)
+      - split
       - Door (open/closed)
       - Dry contact
 
@@ -163,11 +172,12 @@
   sensors:
       - Temperature
       - Water ingress
+      - Light
+      - Asset
+      - split
       - Motion (security)
       - Door (open/closed)
       - Dry contact
-      - Light
-      - Asset
 
 - title: Plumbing
   sub: Nothing yet.
@@ -181,10 +191,11 @@
       - Temperature
       - Humidity
       - Vibration
-      - Water ingress
-      - Alternating current (AC)
       - Pressure
+      - split
+      - Water ingress
       - Accelerometers
+      - Alternating current (AC)
 
 - title: Access monitoring
   sub: Nothing yet.
@@ -198,6 +209,7 @@
       - Motion
       - Door (open/closed)
       - Vehicle detection (acoustic/pneumatic tube)
+      - split
       - Assets
       - Vibration
       - Pressure
@@ -215,6 +227,7 @@
       - Humidity
       - Water (present at animal drinking stations etc)
       - Door (open/closed)
+      - split
       - Vehicle detection (acoustic/pneumatic tube)
       - Motion
       - Carbon monoxide
@@ -233,6 +246,7 @@
       - Vibration
       - Water ingress
       - Water temperature
+      - split
       - Alternating current (AC)
       - Door (open/closed)
       - Airflow
@@ -249,9 +263,10 @@
       - Maintaining a complex heating and cooling system can be a major challenge. Not knowing when your HVAC system needs attention can be costly and repairing or recovering from a faulty system can be a burden both in terms of money for the repair or replacement kit and the resource in terms of labour time and effort. Since the Covid-19 epidemic in 2020 airflow monitoring is fast becoming a necessity. According to the UK Health and Safety Executive (HSE) the risk of air conditioning spreading coronavirus in the workplace is extremely low as long as there is an adequate supply of fresh air and ventilation.
   sensors:
       - Temperature
-      - Alternating current (AC)
       - Thermostat
       - Airflow
+      - split
+      - Alternating current (AC)
       - Vibration
 
 - title: Manufacturing
@@ -267,10 +282,12 @@
       - Humidity
       - Dew point
       - Water ingress
+      - split
       - Dry contact
       - Vibration
       - Alternating current (AC)
       - Direct current (DC)
+      - split
       - Pressure
       - Accelerometers
       - Gas detection
@@ -293,6 +310,7 @@
       - Humidity
       - Dew point
       - Water ingress
+      - split
       - Dry contact
       - Motion (security)
       - Door (open/closed)
@@ -312,10 +330,12 @@
       - Humidity
       - Dew point
       - Water ingress
+      - split
       - Dry contact
       - Vibration
       - Alternating current (AC)
       - Direct current (DC)
+      - split
       - Pressure
       - Accelerometers
       - Gas detection

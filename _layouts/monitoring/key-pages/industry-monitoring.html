@@ -42,9 +42,9 @@ layout: monitoring/key-pages/base
                 <div class="is-row">
                     {% for sensor in item.sensors %}
                     <div class="is-col is-stack-20">
-                        {% if sensor == "Temperature" %}
+                        {% if sensor == "Temperature" or sensor == "Food temperature probes" or sensor == "Water temperature" %}
                             <img style="max-width: 60px;" src="/images/sensor/icons/temperature.svg">
-                            <h5>Temperature</h5>
+							<h5>{{ sensor }}</h5>
                         {% elsif sensor == "Humidity" %}
                             <img style="max-width: 60px;" src="/images/sensor/icons/humidity.svg">
                             <h5>Humidity</h5>
@@ -78,6 +78,9 @@ layout: monitoring/key-pages/base
                         {% elsif sensor == "Direct current (DC)" %}
                             <img style="max-width: 60px;" src="/images/sensor/icons/directcurrent.svg">
                             <h5>Direct current (DC)</h5>
+						{% elsif sensor == "Vibration" %}
+							<img style="max-width: 60px;" src="/images/sensor/icons/vibration.svg">
+							<h5>Vibrations</h5>
                         {% else %}
                             <h5>{{ sensor }}</h5>
                         {% endif %}

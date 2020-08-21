@@ -11,7 +11,7 @@
       - Activity
       - Door (open/closed)
       - Motion (security)
-      - Pressure (pads, beams, etc)
+      - Pressure
       - Water ingress
       - Temperature
       - Humidity
@@ -49,7 +49,7 @@
   sensors:
       - Temperature
       - Water ingress
-      - Vibration (motors, machinery, etc)
+      - Vibration
       - Alternating current (AC)
       - Direct current (DC)
       - Pressure
@@ -200,7 +200,7 @@
       - Vehicle detection (acoustic/pneumatic tube)
       - Assets
       - Vibration
-      - Pressure (pads/beams/etc)
+      - Pressure
 
 - title: Veterinary practices
   sub: Nothing yet.
@@ -230,7 +230,7 @@
   sensors:
       - Temperature
       - Humidity
-      - Vibration (refrigeration motors etc)
+      - Vibration
       - Water ingress
       - Water temperature
       - Alternating current (AC)

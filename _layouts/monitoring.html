@@ -10,12 +10,14 @@ layout: base
 	<div class="container">
 		<div class="is-row">
 			{% for item in site.monitoring %}
+                {% if item.type == "sensor" %}
 				<div class="is-col is-33 is-stack-60">
 					<a href="{{ item.permalink }}">
 						<div style="width: 100%; height: 200px; background-color: #aaa; background-image: url('{{ item.header-image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
 						<h3>{{ item.title }}</h3>
 					</a>
 				</div>
+                {% endif %}
 			{% endfor %}
 		</div>
 	</div>

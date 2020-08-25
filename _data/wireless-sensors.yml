@@ -1,11 +1,11 @@
 - type: Coin cell battery (CC)
-  icon: /images/sensor/coin-cell-sensor.svg
+  icon: /images/sensor/coin-cell-sensor-white.svg
   text: 3-5 years battery life.
 
 - type: AA battery (AA)
-  icon: /images/sensor/aa-sensor.svg
+  icon: /images/sensor/aa-sensor-white.svg
   text: 10+ years battery life.
 
 - type: Industrial (Ind)
-  icon: /images/sensor/industrial-sensor.svg
+  icon: /images/sensor/industrial-sensor-white.svg
   text: 12+ years battery life.

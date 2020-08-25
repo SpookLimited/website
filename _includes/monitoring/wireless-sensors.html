@@ -1,27 +1,29 @@
 <section>
 	<div class="container">
-		<h2>Sensor types</h2>
-		<div class="is-row is-stack-20">
-			{% for item in site.data.wireless-sensors %}
-			<div class="is-col">
-				<img style="max-height: 160px; display: block; margin: 0; padding-bottom: 1em;" src="{{ item.icon }}">
-				<h5>{{ item.type }}</h5>
-				<p>{{ item.text }}</p>
-			</div>
-			{% endfor %}
-		</div>
-		<div class="is-row">
-			<div class="is-col">
-				<p>Spook also monitors the wireless sensor’s signal and battery levels, making battery replacement easy and intuitive.</p>
-			</div>
-			<div class="is-col">
-				<img style="max-height: 100px;" src="/images/icons/battery.svg">
-				<h5>Battery level</h5>
-			</div>
-			<div class="is-col">
-				<img style="max-height: 100px;" src="/images/icons/signal.svg">
-				<h5>Signal strength</h5>
-			</div>
-		</div>
+        <div class="brand is-inset-60 is-shadow-3">
+            <h2 class="is-text-center">Sensor types</h2>
+            <div class="is-row is-stack-20 is-text-center">
+                {% for item in site.data.wireless-sensors %}
+                <div class="is-col">
+                    <img style="max-height: 160px; display: block; margin: 0; padding-bottom: 1em;" src="{{ item.icon }}">
+                    <h5>{{ item.type }}</h5>
+                    <p>{{ item.text }}</p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="is-row">
+                <div class="is-col">
+                    <p>Spook also monitors the wireless sensor's signal and battery levels, making battery replacement easy and intuitive.</p>
+                </div>
+                <div class="is-col is-text-center">
+                    <img style="max-height: 100px;" src="/images/icons/battery-white.svg">
+                    <h5>Battery level</h5>
+                </div>
+                <div class="is-col is-text-center">
+                    <img style="max-height: 100px;" src="/images/icons/signal-white.svg">
+                    <h5>Signal strength</h5>
+                </div>
+            </div>
+        </div>
 	</div>
 </section>

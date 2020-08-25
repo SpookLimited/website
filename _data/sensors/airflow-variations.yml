@@ -1,0 +1,5 @@
+- name: Detect airflow
+  icon: /images/sensor/airflow2.svg
+  types:
+      - CC
+      - AA

@@ -3,3 +3,9 @@
   types:
       - CC
       - AA
+
+- name: Flex sensor
+  icon: /images/sensor/airflow3.svg
+  types:
+      - CC
+      - AA

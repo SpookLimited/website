@@ -28,7 +28,7 @@ layout: base
 		</div>
 	</div>
 </section>
-<section class="introduction-section">
+<section class="introduction-section is-shadow-2">
     <img src="/images/homepage/omniwatch-screen.svg">
     <div class="container">
         <div class="is-row is-items-middle">
@@ -43,7 +43,7 @@ layout: base
         </div>
     </div>
 </section>
-<section class="homepage-links"> 
+<section class="homepage-links is-shadow-3"> 
     <div class="container">
         <div class="is-row is-stack-20">
             {% for item in site.data.homepage-links %}
@@ -58,8 +58,8 @@ layout: base
     </div>
 </section>
 <section>
-    <div class="container">
-        <h2 class="is-stack-60">Customisable 24/7 monitoring and alerting</h2>
+    <div class="container is-shadow-2">
+        <h2 class="is-stack-60" style="padding-top: 1em;">Customisable 24/7 monitoring and alerting</h2>
         <div class="is-row is-stack-60">
             <div class="is-col is-40">
                 <img style="max-width: 300px; display: block; margin: 0 auto;" src="/images/icons/data-checks.svg">
@@ -93,6 +93,13 @@ layout: base
     </div>
 </section>
 <section>
+    <div class="container">
+        <div class="container">
+        <hr>
+        </div>
+    </div>
+</section>
+<section>
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col is-60">
@@ -101,21 +108,24 @@ layout: base
 			<div class="is-col is-40">
 				<h5>Technical</h5>
 				<h2>Wired vs wireless monitoring</h2>
-				<p>Wireless and wired monitoring both have their own benefits over the other. Knowing these benefits helps to make an informed decision when considering which is best for you.</p>
+                <p class="is-large">Wireless and wired monitoring both have their own benefits over the other.</p>
+                <p class="is-large">Knowing these benefits helps to make an informed decision when considering which is best for you.</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section style="background-color: #ddd;">
+<section>
 	<div class="container">
 		<div class="is-row">
 			{% for post in site.posts | limit: 3 %}
 				<div class="is-col">
-					<h5>News</h5>
-					<div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center;"></div>
-					<p>{{ post.date | date_to_string }}</p>
-					<h2><a style="color: #333; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
-					<p>{{ post.page-description | truncate_words: 20 }}</p>
+                    <div class="brand is-inset-20 is-shadow-3" style="min-height: 100%;">
+                        <h5>News</h5>
+                        <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center;"></div>
+                        <p>{{ post.date | date_to_string }}</p>
+                        <h2><a style="color: #fff; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
+                        <p>{{ post.page-description | truncate_words: 20 }}</p>
+                    </div>
 				</div>
 			{% endfor %}
 		</div>
@@ -126,6 +136,6 @@ layout: base
 		<h2>Fully managed or co-managed</h2>
 		<p>Spook customers range from businesses that have already installed environmental hardware and network devices to organisations that are considering monitoring for the first time.</p>
 		<p>Either way Spook can help.</p>
-		<p><a href="#" class="button">Get in touch</a></p>
+		<p><a href="#" class="button is-inverted">Get in touch</a></p>
 	</div>
 </section>

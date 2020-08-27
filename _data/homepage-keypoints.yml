@@ -1,0 +1,11 @@
+- title: Secure
+  icon: /images/icons/secure.svg
+
+- title: Remote
+  icon: /images/icons/signal.svg
+
+- title: Cloud
+  icon: /images/icons/cloud.svg
+
+- title: Monitoring
+  icon: /images/icons/alarms.svg

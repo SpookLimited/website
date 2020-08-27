@@ -28,6 +28,18 @@ layout: base
 		</div>
 	</div>
 </section>
+<section>
+	<div class="container">
+		<div class="is-row is-text-center">
+			{% for item in site.data.homepage-keypoints %}
+			<div class="is-col">
+				<img style="display: block; margin: 0 auto; max-height: 100px; padding-bottom: 20px;" src="{{ item.icon }}">
+				<h3>{{ item.title }}</h3>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
 <section class="introduction-section">
     <img src="/images/homepage/omniwatch-screen.svg">
     <div class="container">

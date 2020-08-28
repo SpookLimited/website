@@ -1,4 +1,4 @@
 ---
 layout: home
-title: Environmental and power monitoring
+title: Cloud based monitoring and alerting service
 ---

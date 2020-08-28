@@ -1,7 +1,7 @@
 ---
 layout: post
 title: EU climate change report 2019
-post-title: Plant-based diets provide "major opportunities" to address climate crisis.
+post-title: Plant-based diets provide major opportunities to aid climate crisis
 blurb: "Intergovernmental Panel on Climate Change (IPCC) has released the first comprehensive look at how land influences climate change, and vice versa."
 page-description: "Intergovernmental Panel on Climate Change (IPCC) has released the first comprehensive look at how land influences climate change, and vice versa."
 image: /images/blog/farm-land-management.jpeg

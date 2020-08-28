@@ -19,10 +19,15 @@ layout: monitoring/sensor/base
 		<h3>Related sensors</h3>
 		<div class="is-row">
 			{% for item in site.data.sensors.water-variations %}
-			<div class="is-col">
-				<div style="width: 120px; height: 120px; background-color: #aaa;"></div>
-				<h5>{{ item.name }}</h5>
-			</div>
+            <div class="is-col">
+                <img style="max-height: 120px; padding-bottom: 20px;" src="{{ item.icon }}">
+                <h5>{{ item.name }}</h5>
+                <ul class="is-bar">
+                    {% for type in item.types %}
+                    <li class="is-small">{{ type }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
 			{% endfor %}
 		</div>
 	</div>

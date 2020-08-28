@@ -1,7 +1,18 @@
 - name: Water probe
+  icon: /images/sensor/water-probe.svg
+  types:
+      - CC
+      - AA
+      - Ind
 
 - name: Water detect
+  icon: /images/sensor/dry-contact.svg
+  types:
+      - CC
+      - AA
+      - Ind
 
 - name: Water puck
-
-- name: Water film
+  icon: /images/sensor/water-puck.svg
+  types:
+      - Ind

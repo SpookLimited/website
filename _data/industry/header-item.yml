@@ -6,17 +6,57 @@
   section-link: heritage
   reverse: 0
   text:
-      - There is a wide breadth of heritage organisations such as museums, galleries, libraries, private collections and archives. Each have their own careful considerations towards discrete monitoring. While on display exhibits and collections are vulnerable to environmental damage and theft. Whilst not on display items are stored in archives and are mostly left unattended until they are needed or for manual examination to ensure their security. Great care needs to be taken to ensure a collections longevity. While some damages are inevitable, most areas can gain huge benefits from remote monitoring.
+      - There is a wide breadth of heritage organisations such as museums, galleries, libraries, private collections and archives. Each have their own careful considerations towards discrete monitoring. While on display exhibitions and collections are vulnerable to environmental damage and theft. Whilst not on display items are usually stored in archives and are mostly left unattended until they are needed or for manual examination to ensure their condition and security. Great care needs to be taken to ensure a collections longevity. While some damages are inevitable, most areas can gain huge benefits from remote monitoring.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring key areas and sending real-time alarms to events that need immediate attention.
   sensors:
-      - Activity
-      - Door (open/closed)
-      - Motion (security)
-      - Pressure
-      - split
-      - Water ingress
-      - Temperature
-      - Humidity
-      - Dry contact
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Gates
+            - Cabinets
+            - Storage areas
+            - Archive rooms
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Guttering
+            - Boiler seals
+            - Flood defence
+      - name: Temperature
+        uses:
+            - Exhibition rooms
+            - Archive rooms
+            - Water pipes
+            - Conservator work areas
+      - name: Humidity
+        uses:
+            - Exhibition rooms
+            - Archive rooms
+            - Water pipes
+            - Conservator work areas
+      - name: Dry contact
+        uses:
+            - Alarm panels
+            - Infrared (IR) beams
+            - Pressure pads
+      - name: Light
+        uses:
+            - Security
+            - Fabric protection
+            - Archives
+            - Exhibition lighting
+            - Rooms
+            - Window light level
+      - name: Asset
+        uses:
+            - Works of art
+            - Precious documents and books
   
 - title: Refrigeration industry
   sub: Cold chain monitoring for food safety.
@@ -26,17 +66,46 @@
   section-link: refrigeration
   reverse: 1
   text:
-      - Controlling the temperature of food is extremely important in ensuring that food is safe to eat. Government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public. Meat products are typically regarded as high risk, but dried goods such as rice and pulses, vegetables and salads are also likely to contain bacteria that may grow if the food is subject to poor temperature control.
+      - Refrigeration is often overlooked as an industry but it spans food processing to drug and medicine production and storage. In terms of controlling the temperature of its contents a refrigeration unit is extremely important. In the food industry government guidelines are set to ensure that food is always cooked, cooled, chilled or reheated properly to minimise the risk of harmful levels of bacteria in the food sold to members of the public. In the medical industry drugs and medicines need to be stored in cool, dry conditions to protect their composition.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring the temperature of refrigerators and freezers plus other conditions and sending real-time alarms to events that require immediate attention.
   sensors:
-      - Temperature
-      - Humidity
-      - Water ingress
-      - Alternating current (AC)
-      - split
-      - Motion (security)
-      - Door (open/closed)
-      - Vibration
-      - Airflow
+      - name: Temperature
+        uses:
+            - Refrigeration
+            - Freezers
+            - Food storage areas
+      - name: Water ingress
+        uses:
+            - Water pipe leaks
+            - Evaporator unit leaks
+            - Condensing unit failure
+      - name: Humidity
+        uses:
+            - Refrigeration
+            - Freezers
+            - Evaporator unit leaks
+            - Condensing unit failure
+      - name: Motion
+        uses:
+            - Security
+            - Access monitoring
+      - name: Open/closed
+        uses:
+            - Door access
+      - name: Dry contact
+        uses:
+            - Alarm panels
+            - 3rd party equipment
+            - Evaporator units
+            - Condensing units
+      - name: Alternating current (AC)
+        uses:
+            - Refrigerator power
+            - Freezer power
+      - name: Vibration
+        uses:
+            - Fan operation
+            - Machinery operation
 
 - title: Construction industry
   sub: Reglatory and security monitoring for construction sites.
@@ -46,24 +115,66 @@
   section-link: construction
   reverse: 0
   text:
-      - The very nature of a construction site often means expensive material and machinery is stored on-site, and sometimes even off grid. Construction sites typically have considerable investment made in vehicles and machinery. Often the busiest of locations suffer the greater losses as perpetrators can be hidden by local activity in the area. Construction sites suffer the need to apply high levels of security in the most inconvenient and challenging of conditions whether it is in cities or in remote rural locations.
-      - Knowing doors, windows and gates are shut by installing open/closed sensors is helpful. Monitoring human activity via infrared remote sensors or vehicles by using wireless activity sensors or vehicle detection/counting sensors. Know if equipment moved, didn't, or if it suddenly moved when it shouldn't. Track activity of motors, machines, pumps & other vital assets to track processes are running smoothly or if maintenance is needed.
+      - Construction sites usually need to monitor health and safety regulations as a prerequisite. Being able to prove, via audit, these regulations are met can be massively helpful. Construction sites typically store expensive material and machinery on-site too, so issues of security are equally important. Often the busiest of locations suffer the greatest losses as perpetrators can hide their intentions while they scrutinise areas of opportunity hidden by the activity of innocent bystanders. Whilst rural locations are easy targets for theft due to their remoteness. Knowing doors, windows and gates are shut is helpful as well as monitoring human and vehicle activity.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring matters and sending real-time alarms for events that require immediate attention.
   sensors:
-      - Temperature
-      - Water ingress
-      - Vibration
-      - Alternating current (AC)
-      - split
-      - Direct current (DC)
-      - Pressure
-      - Accelerometers
-      - Gas detection
-      - split
-      - Motion (security)
-      - Door (open/closed)
-      - Asset
-      - Vehicle detection (acoustic/pneumatic tube)
-      - Dry contact
+      - name: Temperature
+        uses:
+            - Ambient temperature
+            - Storage temperature
+            - Water pipes
+      - name: Direct current (DC)
+        uses:
+            - Battery power
+      - name: Pressure
+        uses:
+            - Tanks
+            - Containers
+      - name: Gas detection
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogen sulphide (H<sub>2</sub>S)
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+      - name: Activity
+        uses:
+            - Vibration
+            - Tilt
+            - Impact
+      - name: Assets
+        uses:
+            - Machinery
+            - Inventory control
+      - name: Vehicle detection
+        uses:
+            - Access control
+            - Security
+            - Machinery
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Storage areas
+            - Toilet blocks
+      - name: Dry contact
+        uses:
+            - 3rd party equipment
+            - Generators
+            - Machinery panels
+            - Pressure pads
+            - Infrared (IR) beams
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Cabinets
+            - Storage areas
+      - name: Alternating current (AC)
+        uses:
+            - Mains power
+            - Equipment power
+            - Generator output
 
 - title: Agricultural industry
   sub: Precision monitoring for modern farming techniques.
@@ -72,21 +183,77 @@
   circle-image: /images/sections/agriculture-monitoring-circle.png
   section-link: agricultural
   reverse: 1
-  text: 
-      - Agricultural businesses have a wide range of activities to worry about. Remote monitoring is especially helpful as often monitoring is required in rural areas with little or no broadband capacity. From knowing the security of doors and access points, measuring the environment or simply knowing when machinery is running can all be hugely beneficial.
+  text:
+      - Agricultural businesses range from precision agriculture organisations to traditional farms and farmland. The very nature of an agricultural organisation often means their livelihood is achieved in rural locations, and sometimes even off grid. There is considerable investment made in vehicles and machinery too. Being rural brings with it its own complications. Agricultural crime covers working farms, farm machinery, farm buildings and smallholdings.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring key areas to assist maximum return on crops and protecting property by sending real-time alarms when when needed. 
   sensors:
-      - Temperature
-      - Humidity
-      - Water ingress
-      - Light
-      - Motion (security)
-      - split
-      - Activity
-      - Door (open/closed)
-      - Dry contact
-      - Carbon monoxide
-      - Liquids/powders
-      - Propane level
+      - name: Temperature
+        uses:
+            - Polytunnels
+            - Greenhouses
+            - Storage silos
+            - Water pipes
+      - name: Humidity
+        uses:
+            - Polytunnels
+            - Greenhouses
+            - Outhouses
+            - Storage silos
+      - name: Water ingress
+        uses:
+            - Troughs
+            - Water pipes
+            - Storage areas
+            - Irigation points
+            - Flood detection
+            - Guttering
+      - name: Light
+        uses:
+            - Crop management
+            - Greenhouses
+            - Security
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+            - Herd activity
+      - name: Thermocoupler
+        uses:
+            - Soil temperature
+            - Silo temperature
+            - Water temperature
+      - name: Activity
+        uses:
+            - Machinery vibration
+            - Impact
+            - Tilt
+      - name: Open/closed
+        uses:
+            - Doors
+            - Hatches
+            - Windows
+            - Gates
+            - Lock ups
+      - name: Dry contact
+        uses:
+            - 3rd party equipment
+            - Alarm panels
+            - Machinery
+            - Generators
+      - name: Gas detection
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogen sulphide (H<sub>2</sub>S)
+            - Carbon dioxide (CO<sub>2</sub>)
+      - name: Liquids/powders
+        uses:
+            - Grain stores
+            - Fuel levels
+            - Water levels
+      - name: Propane level
+        uses:
+            - Tank levels
 
 - title: Marine industry
   sub: Sailing craft remote monitoring for the marine industry.
@@ -97,16 +264,46 @@
   reverse: 0
   text:
       - Boats or yachts are expensive but enjoyable investments and are in constant danger considering they are floating on water most of the time. In addition to daily maintenance, there are yearly inspections of parts of the boat which are not so easy to observe. The vast majority of boat problems stem from the engines, issues with improper cooling, or electrical failure. Most of these mechanical parts are not easily accessible and wouldn't necessarily be something that is easily checked while out on the water.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring key areas and sending real-time alarms to events that need immediate attention while on water, in dry dock or simply moored ready for the next trip.
   sensors:
-      - Temperature
-      - Humidity
-      - Water ingress
-      - Alternating current (AC)
-      - split
-      - Direct current (DC)
-      - Liquid level
-      - Motion (security)
-      - Carbon monoxide
+      - name: Temperature
+        uses:
+            - Cabin temperature
+            - External temperature
+            - Water pipes
+      - name: Water ingress
+        uses:
+            - Leaks
+            - Bilge pumps
+            - Tanks
+      - name: Humidity
+        uses:
+            - Fabric
+            - Mould prevention
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Hatches
+            - Cabinets
+      - name: Dry contact
+        uses:
+            - Alarm panels
+            - 3rd party equipment
+      - name: Gas detecton
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogen Sulphine (H<sub>2</sub>S)
+      - name: Alternating current (AC)
+        uses:
+            - Shore power
+      - name: Direct current (DC)
+        uses:
+            - Battery health
 
 - title: Biotech & pharma
   sub: Regulatory and compliance monitoring for the biotech & pharma industry.
@@ -116,15 +313,54 @@
   section-link: biotech
   reverse: 1
   text:
-      - The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) are the regulatory authorities with responsibility in their respective countries. They work closely with each other to maintain compliance of Biotec & Pharma (B&P) organisations. B&P's must guarantee that their products have been maintained in strictly controlled environments. This often requires a significant expense in the implementation and overhead for advanced environmental monitoring systems 
+      - Many aspects of Biotech and Pharma (B&P) organisations are regulated. The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) are the two largest regulatory authorities with responsibility in their respective countries. They work closely with each other to maintain compliance of B&P organisations. B&P's often need to prove that their products have been maintained in strictly controlled environments. This often requires a significant expense in the implementation and overhead for advanced environmental monitoring systems.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring key areas and sending real-time alarms to events that need immediate attention.
   sensors:
-      - Temperature
-      - Humidity
-      - Water ingress
-      - split
-      - Alternating current (AC)
-      - Motion (security)
-      - Door (open/closed)
+      - name: Temperature
+        uses:
+            - Medicine storage
+            - Refrigerators
+            - Freezers
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Cooling tanks
+            - Guttering
+      - name: Humidity
+        uses:
+            - Medicine storage
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Cabinets
+            - Storage areas
+      - name: Dry contact
+        uses:
+            - Alarm panels
+            - 3rd party equipment
+            - Generators
+            - Infrared (IR) beams
+            - Pressure pads
+      - name: Alternating current (AC)
+        uses:
+            - Refrigerator power
+            - Freezer power
+            - Equipment power
+      - name: Vibrations
+        uses:
+            - Motor vibration
+            - Storage conditions
+      - name: Airflow
+        uses:
+            - Clean rooms
+            - Ducts
+            - Air conditioning (AC) units
 
 - title: Boiler rooms
   sub: Nothing yet.
@@ -133,17 +369,37 @@
   section-link: boiler-room
   reverse: 0
   text:
-      - Boilers must maintain a certain temperature level for safe, reliable and effective operations. A boiler room is a place usually where no one goes until there is a problem. However most of the time no one knows there is a problem with the heating system until it is too late. To help prevent such issues, remote monitoring can be hugely beneficial.
+      - Boilers come in all shapes and sizes but all must maintain a certain temperature level for safe, reliable and effective operations. Boilers typically have four main components; the burner, the combustion chamber, the heat exchanger and the pluming apparatus and they distribute pressurised water around the system. Old or improperly maintained boilers they often develop heavy duty leaks due to the pressurised environment. Most industrial boilers reside in a dedicated room, however this is usually a room where no one goes until there is a problem.
+      - Spook's remote monitoring service called OmniWatch helps by remotely monitoring key areas and sending real-time alarms when there’s a problem. 
   sensors:
-      - Temperature
-      - Humidity
-      - Vibration
-      - Water ingress
-      - split
-      - AC meter
-      - Pressure
-      - Accelerometers
-      - Dry contact
+      - name: Temperature
+        uses:
+            - Water pipe supply
+            - Water pipe return
+            - Water element
+            - Ambient room
+      - name: Water ingress
+        uses:
+            - Leaking pipes
+            - Broken seals
+            - Boiler health
+      - name: Activity
+        uses:
+            - Vibration (motors)
+            - Pumps
+      - name: Alternating current (AC)
+        uses:
+            - Mains power
+            - Motor power
+            - Pumps power
+      - name: Gas detection
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogren sulphide (H<sub>2</sub>S)
+      - name: Pressure
+        uses:
+            - Gas tanks
+            - Water tanks
 
 - title: Educational establishments
   sub: Nothing yet.
@@ -152,14 +408,42 @@
   section-link: educational-establishments
   reverse: 1
   text:
-      - Schools, Colleges and Universities are very expensive properties to build and maintain, presenting a unique challenge when they go unoccupied during the week or over the summer. While there might be a handful of staff members present year-round, it is difficult for these individuals to keep an eye on the entire property. Even during term-time knowing the establishment is protected is extremely challenging. 
+      - Educational institutions such as schools, colleges and universities are very expensive properties to build and maintain, presenting a unique challenge when they go unoccupied during the week or over the holidays. While there might be a handful of staff members present year-round, it is difficult for these individuals to keep an eye on the entire property.
+      - Even during term-time knowing the establishment is protected is extremely challenging. Protecting educational organisations is hugely important. Should anything untoward happen to the physical fabric of a building or campus can have a massive impact on student activity.
+      - Spooks remote monitoring service, called OmniWatch, helps by remotely monitoring key areas and sending real-time alarms before problems cause student disruption.
   sensors:
-      - Temperature
-      - Water ingress
-      - Motion (security)
-      - split
-      - Door (open/closed)
-      - Dry contact
+      - name: Temperature
+        uses:
+            - Ambient room temperature
+            - Outside temperature
+            - Air conditioning (AC) units
+            - HVAC
+            - Chemistry storage units
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Guttering
+            - Boilers
+            - Flood defense
+            - Toilet blocks
+            - Shower facilities
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Gates
+            - Cabinets
+            - Storage areas
+      - name: Dry contact
+        uses:
+            - Alarm panels
+            - Generators
+            - 3rd party equipment
 
 - title: Worship establishments
   sub: Nothing yet.
@@ -168,16 +452,46 @@
   section-link: worship-establishments
   reverse: 0
   text:
-      - Churches, cathedrals, mosques, mandir's, synagogues and other places of worship are very difficult to protect all year-round. Many stay unoccupied for the majority of time and contain valuable and irreplaceable possessions. Even during times of worship protecting valuables and items of heritage importance can be a struggle.
+      - Establishments such as churches, cathedrals, mosques, mandir’s, synagogues and other places of worship are very difficult to protect all year-round. Many stay unoccupied for the majority of time and contain valuable and irreplaceable possessions. Even during times of worship protecting valuables and items of heritage importance can be a struggle. Many areas of worship are rural and suffer targeted crime, from the theft of lead roofs to stealing items of reverence. Often overlooked is the impact of theft or deliberate damage on those communities linked to the place of worship.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring key areas and sending real-time alarms before perpetrators can cause disruption.
   sensors:
-      - Temperature
-      - Water ingress
-      - Light
-      - Asset
-      - split
-      - Motion (security)
-      - Door (open/closed)
-      - Dry contact
+      - name: Temperature
+        uses:
+            - Archive rooms
+            - Water pipes
+            - Book storage areas
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Guttering
+            - Boiler seals
+            - Flood defence
+      - name: Light
+        uses:
+            - Security
+            - Fabric protection
+            - Archive rooms
+      - name: Asset
+        uses:
+            - Works of art
+            - Precious documents and books
+            - Icons
+            - Valuable metals/items
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Gates
+            - Cabinets
+            - Storage areas
+      - name: Dry contact
+        uses:
+            - Alarm panels
 
 - title: Plumbing
   sub: Nothing yet.
@@ -186,16 +500,27 @@
   section-link: plumbing
   reverse: 1
   text:
-      - Many buildings have extensive plumbing with pressurised water being processed around the facility. Knowing if there is a burst water pipe or leaking boiler is often difficult and usually only noticed when there is a deluge and considerable damage. Temperature is also a key factor to ensure pipework and water tanks are not frozen during winter months. This is particularly challenging for older grade listed or heritage buildings whose plumbing can be many decades old.
+      - Many buildings have extensive plumbing with pressurised water being processed around the facility. Water ingress has one of the most disruptive environmental conditions that can be monitored. This is because the effects of unwanted water are immediate and sometimes long-lasting. Once the cause of water ingress has been addressed the drying out process can be protracted and in some cases dangerous. Temperature is also a key factor to ensure pipework and water tanks are not frozen during winter months. This is particularly challenging for older grade listed or heritage buildings whose plumbing can be many decades old.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring key areas and sending real-time alarms providing valuable time to take remedial action.
   sensors:
-      - Temperature
-      - Humidity
-      - Vibration
-      - Pressure
-      - split
-      - Water ingress
-      - Accelerometers
-      - Alternating current (AC)
+      - name: Temperature
+        uses:
+            - Water pipes
+            - Boilers and water tanks
+      - name: Pressure
+        uses:
+            - Boiler seals
+            - Pressurised water pipes
+            - Gas tanks
+            - Water tanks
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Boilers
+      - name: Alternating current (AC)
+        uses:
+            - Boiler mains power
+            - Cooler mains power
 
 - title: Access monitoring
   sub: Nothing yet.
@@ -204,15 +529,23 @@
   section-link: access-monitoring
   reverse: 0
   text:
-      - Businesses, buildings, construction sites, schools and many more institutions all have their own priorities and reasons for access monitoring. Whether it is for human or vehicle activity, access monitoring is usually required from a security perspective. Add into the mix that access monitoring has different dynamics for different scenarios can become complicated, for instance monitoring access to a building has a different characteristic to monitoring the same for an area that is fenced or open-plan.
+      - Many organisations have their own priorities and reasons for access monitoring. Whether it is for human or vehicle activity, access monitoring is usually required from a security perspective. Add into the mix that access monitoring has different dynamics for different scenarios can become complicated. For instance, monitoring access to a building has a different characteristic to monitoring the same for an area that is fenced or open-plan. Even access rights vary for rural or city based monitoring. Rural based monitoring usually has to account for lack of electricity and communications whereas city based monitoring has to contend with high foot-fall and localised activity in the vicinity.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring access in both scenarios sending real-time alarms to events that could compromise security.
   sensors:
-      - Motion
-      - Door (open/closed)
-      - Vehicle detection (acoustic/pneumatic tube)
-      - split
-      - Assets
-      - Vibration
-      - Pressure
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Cabinets
+            - Storage areas
+      - name: Vehicle detection
+        uses:
+            - Security
+            - Access monitoring
 
 - title: Veterinary practices
   sub: Nothing yet.
@@ -223,14 +556,33 @@
   text:
       - Vets premises need to store drugs and medicines securely. Knowing they are stored in adequate environmental conditions to ensure longevity together with ensuring they are locked in appropriate rooms and cabinets is very important. Vets also need to cater for short term animal occupancy for when pets and other creatures need to be operated on or to recuperate. Ensuring these areas do not get too hot and cause heat exhaustion for their occupants is of prime concern. Also, when animals are recuperating from an operation they are often sedated and remain motionless until the sedation abates. Being able to monitor motion in a recovery area saves time and effort in staff needing to remember to take a look to check matters whilst they maintain their busy veterinary schedules. Veterinarians working in enclosed spaces in winter months (eg, intensive animal production facilities) being heated by combustion sources will most commonly be exposed to carbon monoxide (CO) together with the animals they are treating. CO is colourless and has no odour so monitoring for its presence is crucial.
   sensors:
-      - Temperature
-      - Humidity
-      - Water (present at animal drinking stations etc)
-      - Door (open/closed)
-      - split
-      - Vehicle detection (acoustic/pneumatic tube)
-      - Motion
-      - Carbon monoxide
+      - name: Temperature
+        uses:
+            - Storage rooms
+            - Treatment rooms
+      - name: Humidity
+        uses:
+            - Storage rooms
+            - Treatment rooms
+      - name: Water ingress
+        uses:
+            - Pipes
+            - Boilers
+            - Troughs
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Gates
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Gas detection
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogen sulfide (H<sub>2</sub>S)
 
 - title: Food service industry
   sub: Nothing yet.
@@ -239,19 +591,59 @@
   section-link: food-service
   reverse: 0
   text:
-      - The food service industry is varied and wide. From cafes and coffee shops to food halls and restaurants, all have common and specific areas where remote monitoring will be hugely beneficial. Food preparation for consumption to members of the public comes with regulatory requirements; whilst ensuring the quality and longevity of food, especially perishable foodstuff in terms of refrigeration is important to measure. Food safety is paramount, ensuring food has not deteriorated or been tampered with can be critical.
+      - The food service industry is varied and wide. From cafes and coffee shops to food halls and restaurants, all have common and specific areas where remote monitoring is hugely beneficial. Food preparation for public consumption comes with regulatory requirements; whilst ensuring the quality and longevity of food, especially perishable foodstuff, monitoring refrigeration is an important measurement. Food security is also paramount, ensuring food has not deteriorated or been tampered with is critical for safe consumption. Monitoring access to confined areas as well as ensuring doors and access points are protected all contribute to the protection of the food chain in the food services.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring many aspects of food safety and security and sending real-time alarms for events that require immediate attention.
   sensors:
-      - Temperature
-      - Humidity
-      - Vibration
-      - Water ingress
-      - Water temperature
-      - split
-      - Alternating current (AC)
-      - Door (open/closed)
-      - Airflow
-      - Motion (security)
-      - Food temperature probes
+      - name: Temperature
+        uses:
+            - Refrigerators
+            - Freezers
+            - Kitchens
+            - Water temperature
+            - Food probes
+      - name: Humidity
+        uses:
+            - Cold storage areas
+            - Kitchens
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Tap water
+            - Water coolers
+            - Fridges
+            - Freezers
+            - Condensors
+            - Gutters
+      - name: Activity
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Dry contact
+        uses:
+            - Alarm panels
+            - HVAC
+            - Air conditioning (AC) units
+            - Generators
+            - 3rd party equipment
+      - name: Airflow
+        uses:
+            - Evaporator unit failure
+            - Condensing unit failure
+            - Air conditioning (AC) units
+            - Food storage areas
+            - Ducts
+      - name: Open/closed
+        uses:
+            - Walk in fridge/freezer doors
+            - Cabinets
+            - Food storage areas
+      - name: Alternating current (AC)
+        uses:
+            - Refrigerator power
+            - Freezer power
+            - Appliance power
+            - Site power
 
 - title: HVAC (Heating, ventilation and air conditioning)
   sub: Nothing yet.
@@ -260,14 +652,46 @@
   section-link: hvac
   reverse: 1
   text:
-      - Maintaining a complex heating and cooling system can be a major challenge. Not knowing when your HVAC system needs attention can be costly and repairing or recovering from a faulty system can be a burden both in terms of money for the repair or replacement kit and the resource in terms of labour time and effort. Since the Covid-19 epidemic in 2020 airflow monitoring is fast becoming a necessity. According to the UK Health and Safety Executive (HSE) the risk of air conditioning spreading coronavirus in the workplace is extremely low as long as there is an adequate supply of fresh air and ventilation.
+      - Maintaining a complex heating and cooling system can be a major challenge. Not knowing when your HVAC system needs attention can be costly and repairing or recovering from a faulty system can be a burden both in terms of money for the repair or replacement kit and the resource in terms of labour time and effort. Another important factor is that since the Covid-19 epidemic in 2020 airflow monitoring is fast becoming a necessity. According to the UK Health and Safety Executive (HSE) the risk of air conditioning spreading coronavirus in the workplace is extremely low as long as there is an adequate supply of fresh air and ventilation (more).
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring HVAC equipment and sending real-time alarms for events that require immediate attention.
   sensors:
-      - Temperature
-      - Thermostat
-      - Airflow
-      - split
-      - Alternating current (AC)
-      - Vibration
+      - name: Temperature
+        uses:
+            - Ambient temperature
+            - Outside temperature
+            - Airflow temperature
+            - Water pipes
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Compressors
+            - Valves
+            - Seals
+      - name: Vibration
+        uses:
+            - Fans
+            - Motors
+      - name: Dry contact
+        uses:
+            - Air conditioning (AC) units
+            - Heaters
+            - Alarm panels
+            - Pumps
+      - name: Airflow
+        uses:
+            - Ducts
+            - Air conditioning (AC) outlets
+            - Air conditioning (AC) vents
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Hatches
+      - name: Alternating current (AC)
+        uses:
+            - Mains power
+            - Motor power
+            - Unit power
 
 - title: Manufacturing
   sub: Nothing yet.
@@ -276,21 +700,53 @@
   section-link: manufacturing
   reverse: 0
   text:
-      - The manufacturing industry is perhaps the biggest beneficiary for remote monitoring than any other business type. That's because the manufacturing sector has the largest breadth of business types, from food and household goods to automotive, pharmaceuticals, aerospace and everything in-between. They usually have the most disparate requirement to monitor equipment than any other organisation. Spook's remote monitoring service, called OmniWatch,  is protocol neutral and manufacturer independent. It provides an easy to use, joined-up, intuitive monitoring solution. Many machines and equipment types used in the manufacturing industry are not network connected and rely on dry contact panels and independent monitoring of differing sensor types to create to a cohesive and enterprise centric monitoring.
+      - The manufacturing industry is perhaps the biggest beneficiary for remote monitoring than any other business type. Thats because the manufacturing sector has the largest breadth of business types, from food and household goods to automotive, pharmaceuticals and aerospace and everything in-between. Manufacturing organisations have a plethora of different equipment types, dependant of their manufacturing activity. They usually have to monitor disparate hardware too. Spook’s remote monitoring service called OmniWatch is designed to be protocol neutral and works with SNMP, BACnet, Modbus, XML, Jason and others. For equipment that is not network attached, fitting dry contact sensors to monitor equipment is extremely helpful.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring various equipment types and sending real-time alarms for events that require immediate attention.
   sensors:
-      - Temperature
-      - Humidity
-      - Dew point
-      - Water ingress
-      - split
-      - Dry contact
-      - Vibration
-      - Alternating current (AC)
-      - Direct current (DC)
-      - split
-      - Pressure
-      - Accelerometers
-      - Gas detection
+      - name: Temperature
+        uses:
+            - Production line temperature
+            - Storage areas
+            - Ambient room temperature
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Boiler seals
+            - Boiler rooms
+            - Toilet blocks
+            - Kitchens
+            - Ducts
+      - name: Airflow
+        uses:
+            - Air conditioning (AC) units
+            - HVAC
+            - Ducts
+      - name: Alternating current (AC)
+        uses:
+            - Mains power
+            - Equipment power
+      - name: Dry contact
+        uses:
+            - 3rd party equipment
+            - Alarm panels
+            - Water panels
+            - UPSs
+            - Generators
+            - VESDA
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Production line monitoring
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Storage areas
+      - name: Gas detection
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogen sulphide (H<sub>2</sub>S)
 
 - title: Data centre/server rooms
   sub: None yet.
@@ -300,20 +756,51 @@
   section-link: data-centre
   reverse: 1
   text:
-      - In Spook's experience most IT department staff are located some distance from the actual data centre/server room, often in a different part of the business, or sometimes in a different part of the country or world. Physical visits to the server rooms are therefore rare and normally confined to when on-site work is actually required.
-      - This is known as running a lights out operation which is increasingly common; however it can result in IT staff not being 100% up to date on the the current environmental state of the server room.
-      - By monitoring the server room environment, IT managers and their teams can ensure they are immediately aware of key changes as and when they occur, giving them that valuable early warning time to take remedial action before the incident impacts IT uptime.
-      - Once alerted, even the simplest of actions, such as opening doors and windows or installing temporary fans to help with air flow should air conditioning units fail can often be an adequate first step in helping to avert business downtime.
-      - During the Covid-19 crisis of 2020 this increased to over 99% of the time with IT departments happy to know there was an issue as long as they could keep a remote eye on matters and track the situation in real-time whilst lock-down procedures meant very limited on-site visits were permissible. Check out Spook’s IT monitoring articles.
+      - IT departments are often at the vanguard of maximising the uptime of their services to their business, users and customers alike. Typically IT staff are located some distance from the actual data centre/server room, often in a different part of the business, or sometimes in a different part of the country or world. Physical visits to the server rooms are therefore rare and normally confined to when on-site work is actually required. This is known as running a lights out operation which is increasingly common. During the Covid-19 crisis of 2020 IT rooms were left unattended for over 99% of the time.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring the operating environment of IT rooms and sending real-time alarms for events that require immediate attention.
   sensors:
-      - Temperature
-      - Humidity
-      - Dew point
-      - Water ingress
-      - split
-      - Dry contact
-      - Motion (security)
-      - Door (open/closed)
+      - name: Temperature
+        uses:
+            - Ambient room temperature
+            - Rack temperature
+            - Load monitoring
+            - Air conditioning (AC) units
+            - Server optimal operation
+            - Warranty
+      - name: Humidity
+        uses:
+            - Server optimal operation
+            - Warranty
+      - name: Dew point
+        uses:
+            - Air conditioning (AC) units
+            - Server optimal operation
+            - Warranty
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Adjacent rooms
+            - Air conditioning (AC) units
+            - Flood detections
+      - name: Dry contact
+        uses:
+            - VESDA
+            - Alarm panels
+            - Generators
+            - UPSs
+            - Water panels
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access control
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Security
+            - Racks
+            - Cabinets
 
 - title: Hard facilities
   sub: None yet.
@@ -322,21 +809,58 @@
   section-link: hard-facilities
   reverse: 0
   text:
-      - Both IT & facility management departments share similar concerns regarding the monitoring of physical equipment and their general environment. The topic of monitoring systems across the entire facility means the 'net' of equipment that can be monitored is varied and wide. It's important to have a monitoring solution that is meaningful and uncomplicated.
-      - Hard facility services are ones which relate to the physical fabric of the building and cannot easily be removed. They ensure the safety and welfare of employees and generally are required by law.
-      - Key hard facility monitoring areas where Spook can help are <ul><li>Monitoring infrastructure and information communications & technology (ICT)</li><li>Protecting maintenance and warranty support</li><li>Monitoring new technology</li><li>Supporting business continuity and delivering disaster avoidance</li><li>Proving regulatory compliance</li><li>Monitoring mechanical, electrical and plumbing (MEP)</li><li>Monitoring technical services</li><li>Interfacing with Building Management Systems (BMS)</li><li>Monitoring disparate facilities equipement</li></ul>
+      - Both IT & facility management departments share similar concerns regarding the monitoring of physical equipment and their general environment. The topic of monitoring systems across the entire facility means the net of equipment that can be monitored is varied and wide. It's important to have a monitoring solution that is meaningful and uncomplicated. Hard facility services are ones which relate to the physical fabric of the building and cannot easily be removed. They ensure the safety and welfare of employees and generally are required by law.
+      - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring disparate equipment across the facility and sending real-time alarms for events that require immediate attention.
   sensors:
-      - Temperature
-      - Humidity
-      - Dew point
-      - Water ingress
-      - split
-      - Dry contact
-      - Vibration
-      - Alternating current (AC)
-      - Direct current (DC)
-      - split
-      - Pressure
-      - Accelerometers
-      - Gas detection
-      - Thermostat
+      - name: Temperature
+        uses:
+            - Ambient room temperature
+            - Air conditioning (AC) unit
+            - Storage areas
+            - Employee areas
+      - name: Humidity
+        uses:
+            - Air conditioning (AC) unit
+            - Storage areas
+            - Employee areas
+      - name: Water ingress
+        uses:
+            - Water pipes
+            - Boiler seals
+            - Boiler rooms
+            - Toilet blocks
+            - Kitchens
+            - Drinking points
+            - Ducts
+            - Air conditioning (AC) units
+      - name: Airflow
+        uses:
+            - Air conditioning (AC) units
+            - HVAC
+            - Ducts
+      - name: Dry contact
+        uses:
+            - VESDA
+            - Alarm panels
+            - Generators
+            - UPSs
+            - Water panels
+            - 3rd party equipment
+      - name: Motion
+        uses:
+            - Security
+            - Intruder detection
+            - Access monitoring
+      - name: Open/closed
+        uses:
+            - Doors
+            - Windows
+            - Hatches
+            - Gates
+            - Cabinets
+            - Storage areas
+            - Archive rooms
+      - name: Gas detection
+        uses:
+            - Carbon monoxide (CO)
+            - Hydrogen sulphide (H<sub>2</sub>S)

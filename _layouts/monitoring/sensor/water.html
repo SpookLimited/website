@@ -33,3 +33,12 @@ layout: monitoring/sensor/base
 	</div>
 </section>
 <section>
+	<div class="container">
+		<h3>Uses</h3>
+		<ul>
+			{% for use in site.data.sensors.water-uses %}
+			<li>{{ use }}</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

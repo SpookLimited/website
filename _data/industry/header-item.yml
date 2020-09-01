@@ -294,7 +294,7 @@
         uses:
             - Alarm panels
             - 3rd party equipment
-      - name: Gas detecton
+      - name: Gas detection
         uses:
             - Carbon monoxide (CO)
             - Hydrogen Sulphine (H<sub>2</sub>S)

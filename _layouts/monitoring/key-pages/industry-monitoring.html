@@ -38,78 +38,68 @@ layout: monitoring/key-pages/base
 				{% for line in item.text %}
 					<p>{{ line }}</p>
 				{% endfor %}
-                <h5>Popular sensors</h5>
-                    {% for sensor in item.sensors %}
-						{% if sensor.name == "Temperature" or sensor.name == "Food temperature probes" or sensor.name == "Water temperature" or sensor.name == "Thermostat" or sensor.name == "Thermocoupler" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/temperature.svg">
-							<h5>{{ sensor.name }}</h5>
-						{% elsif sensor.name == "Humidity" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/humidity.svg">
-							<h5>Humidity</h5>
-						{% elsif sensor.name == "Dew point" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/dewpoint.svg">
-							<h5>Dew point</h5>
-						{% elsif sensor.name == "Water ingress" or sensor.name == "Water (present at animal drinking stations etc)" or sensor.name == "Liquid level" or sensor.name == "Liquids/powders" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/water.svg">
-							<h5>Water ingress</h5>
-						{% elsif sensor.name == "Light" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/light.svg">
-							<h5>Light (LUX)</h5>
-						{% elsif sensor.name == "Airflow" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/airflow.svg">
-							<h5>Airflow</h5>
-						{% elsif sensor.name == "Motion (security)" or sensor.name == "Motion" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/motion.svg">
-							<h5>Motion</h5>
-						{% elsif sensor.name == "Door (open/closed)" or sensor.name == "Open/closed" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/door.svg">
-							<h5>{{ sensor.name }}</h5>
-						{% elsif sensor.name == "Dry contact" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/drycontact.svg">
-							<h5>Dry contact (3rd party equipment)</h5>
-						{% elsif sensor.name == "Pressure" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/pressure.svg">
-							<h5>Pressure</h5>
-						{% elsif sensor.name == "Alternating current (AC)" or sensor.name == "AC meter" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/alternatingcurrent.svg">
-							<h5>{{ sensor.name }}</h5>
-						{% elsif sensor.name == "Direct current (DC)" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/directcurrent.svg">
-							<h5>Direct current (DC)</h5>
-						{% elsif sensor.name == "Vibration" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/vibration.svg">
-							<h5>Vibrations</h5>
-						{% elsif sensor.name == "Activity" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/activity.svg">
-							<h5>Activity</h5>
-						{% elsif sensor.name == "Asset" or sensor.name == "Assets" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/asset.svg">
-							<h5>Asset</h5>
-						{% elsif sensor.name == "Accelerometers" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/accelerometer.svg">
-							<h5>Accelerometers</h5>
-						{% elsif sensor.name == "Gas detection" or sensor.name == "Carbon monoxide" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/gas.svg">
-							<h5>{{ sensor.name }}</h5>
-						{% elsif sensor.name == "Vehicle detection" %}
-							<img style="max-width: 60px;" src="/images/sensor/icons/vehicle.svg">
-							<h5>{{ sensor.name }}</h5>
-						{% else %}
-							<h5>{{ sensor.name }}</h5>
-						{% endif %}
-						<ul>
-						{% for use in sensor.uses %}
-							<li>{{ use }}</li>
-						{% endfor %}
-						</ul>
-                    {% endfor %}
-                <p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details</a> {% endif %}<a href="#top" class="button is-inverted">Back to top</a></p>
+				<p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details</a> {% endif %}<a href="#top" class="button is-inverted">Back to top</a></p>
 			</div>
 			<div class="is-col is-40 is-small is-muted">
                 <p>Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.</p>
                 <p>The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.</p>
 			</div>
 		</div>
+		<h3>Popular sensors</h3>
+		{% for sensor in item.sensors %}
+			<div class="is-row is-items-middle is-stack-8 is-border is-inset-6 is-small">
+				<div class="is-col is-10">
+				{% if sensor.name == "Temperature" or sensor.name == "Food temperature probes" or sensor.name == "Water temperature" or sensor.name == "Thermostat" or sensor.name == "Thermocoupler" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/temperature.svg">
+				{% elsif sensor.name == "Humidity" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/humidity.svg">
+				{% elsif sensor.name == "Dew point" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/dewpoint.svg">
+				{% elsif sensor.name == "Water ingress" or sensor.name == "Water (present at animal drinking stations etc)" or sensor.name == "Liquid level" or sensor.name == "Liquids/powders" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/water.svg">
+				{% elsif sensor.name == "Light" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/light.svg">
+				{% elsif sensor.name == "Airflow" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/airflow.svg">
+				{% elsif sensor.name == "Motion (security)" or sensor.name == "Motion" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/motion.svg">
+				{% elsif sensor.name == "Door (open/closed)" or sensor.name == "Open/closed" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/door.svg">
+				{% elsif sensor.name == "Dry contact" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/drycontact.svg">
+				{% elsif sensor.name == "Pressure" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/pressure.svg">
+				{% elsif sensor.name == "Alternating current (AC)" or sensor.name == "AC meter" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/alternatingcurrent.svg">
+				{% elsif sensor.name == "Direct current (DC)" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/directcurrent.svg">
+				{% elsif sensor.name == "Vibration" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/vibration.svg">
+				{% elsif sensor.name == "Activity" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/activity.svg">
+				{% elsif sensor.name == "Asset" or sensor.name == "Assets" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/asset.svg">
+				{% elsif sensor.name == "Accelerometers" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/accelerometer.svg">
+				{% elsif sensor.name == "Gas detection" or sensor.name == "Carbon monoxide" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/gas.svg">
+				{% elsif sensor.name == "Vehicle detection" %}
+					<img style="max-height: 60px;" src="/images/sensor/icons/vehicle.svg">
+				{% endif %}
+			</div>
+			<div class="is-col is-20">
+				<p><strong>{{ sensor.name }}</strong></p>
+			</div>
+			<div class="is-col is-70">
+				<ul class="is-bar is-muted">
+				{% for use in sensor.uses %}
+				{% if forloop.index != 1 %}<li>|</li>{% endif %}
+				<li>{{ use }}</li>
+				{% endfor %}
+				</ul>
+			</div>
+		</div>
+	{% endfor %}
 	</div>
 </section>
 {% endfor %}

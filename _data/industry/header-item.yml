@@ -700,7 +700,7 @@
   section-link: manufacturing
   reverse: 0
   text:
-      - The manufacturing industry is perhaps the biggest beneficiary for remote monitoring than any other business type. Thats because the manufacturing sector has the largest breadth of business types, from food and household goods to automotive, pharmaceuticals and aerospace and everything in-between. Manufacturing organisations have a plethora of different equipment types, dependant of their manufacturing activity. They usually have to monitor disparate hardware too. Spook’s remote monitoring service called OmniWatch is designed to be protocol neutral and works with SNMP, BACnet, Modbus, XML, Jason and others. For equipment that is not network attached, fitting dry contact sensors to monitor equipment is extremely helpful.
+      - The manufacturing industry is perhaps the biggest beneficiary for remote monitoring than any other business type. Thats because the manufacturing sector has the largest breadth of business types, from food and household goods to automotive, pharmaceuticals and aerospace and everything in-between. Manufacturing organisations have a plethora of different equipment types, dependent of their manufacturing activity. They usually have to monitor disparate hardware too. Spook’s remote monitoring service called OmniWatch is designed to be protocol neutral and works with SNMP, BACnet, Modbus, XML, Jason and others. For equipment that is not network attached, fitting dry contact sensors to monitor equipment is extremely helpful.
       - Spook's remote monitoring service, called OmniWatch, helps by remotely monitoring various equipment types and sending real-time alarms for events that require immediate attention.
   sensors:
       - name: Temperature
@@ -864,3 +864,8 @@
         uses:
             - Carbon monoxide (CO)
             - Hydrogen sulphide (H<sub>2</sub>S)
+
+- title: Not shown
+  sub: Not yet.
+  circle-image: /images/sections/not-shown-circle.png
+  section-link: not-shown

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: About Spook Limited
 permalink: /about/
 ---
 

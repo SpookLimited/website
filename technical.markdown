@@ -1,5 +1,5 @@
 ---
 layout: technical
-title: Technical
+title: Technical information
 permalink: /technical/
 ---

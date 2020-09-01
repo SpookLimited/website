@@ -6,7 +6,10 @@ layout: base
 		<div class="is-50">
 			<h3>{{ page.subheader }}</h3>
 			<h1>{{ page.header }}</h1>
-			<p><a class="button is-secondary is-inverted" style="margin-top: 2em;" href="/contact/">Contact us</a></p>
+			{% if page.header-text %}
+			<p class="is-large">{{ page.header-text }}</p>
+			{% endif %}
+			<p><a class="button is-secondary is-inverted" style="margin-top: 2em; margin-right: 1em;" href="/contact/">Contact us</a> <a class="button is-secondary" style="margin-top: 2em;" href="#">Book demo</a></p>
 		</div>
 	</div>
 </header>

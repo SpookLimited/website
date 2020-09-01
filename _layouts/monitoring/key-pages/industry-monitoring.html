@@ -3,7 +3,7 @@ layout: monitoring/key-pages/base
 ---
 <section>
 	<div class="container is-text-center">
-		<h2>Key features</h2>
+		<h2>Supported industries</h2>
 		<div class="is-row">
 			{% for item in site.data.industry.header-item %}
 			<div class="is-col is-33">
@@ -28,6 +28,22 @@ layout: monitoring/key-pages/base
 	</div>
 </section>
 {% for item in site.data.industry.header-item %}
+{% if item.section-link == "not-shown" %}
+<section id="{{ item.section-link }}">
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col is-30">
+				<img src="{{ item.circle-image }}">
+			</div>
+			<div class="is-col is-70">
+				<h2>Don't see your industry on this page?</h2>
+				<p class="is-large">Get in contact with Spook to discuss how OmniWatch could benefit you and your company.</p>
+				<p><a href="/contact/" class="button">Contact us</a></p>
+			</div>
+		</div>
+	</div>
+</section>
+{% else %}
 <section id="{{ item.section-link }}">
 	<div class="container">
         <div style="background-image: url('{{ item.image }}'); background-size: cover; background-repeat: no-repeat; background-position: right; min-height: 240px; margin-bottom: 4em; position: relative;">
@@ -38,14 +54,14 @@ layout: monitoring/key-pages/base
 				{% for line in item.text %}
 					<p>{{ line }}</p>
 				{% endfor %}
-				<p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details</a> {% endif %}<a href="#top" class="button is-inverted">Back to top</a></p>
+				<p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details <span class="caret is-right"></span></a> {% endif %}<a href="#top" class="button">Back to top <span class="caret is-up"></span></a></p>
 			</div>
 			<div class="is-col is-40 is-small is-muted">
                 <p>Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.</p>
                 <p>The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.</p>
 			</div>
 		</div>
-		<h3>Popular sensors</h3>
+		<p class="is-large">Popular sensors</p>
 		{% for sensor in item.sensors %}
 			<div class="is-row is-items-middle is-stack-8 is-border is-inset-6 is-small">
 				<div class="is-col is-10">
@@ -102,4 +118,5 @@ layout: monitoring/key-pages/base
 	{% endfor %}
 	</div>
 </section>
+{% endif %}
 {% endfor %}

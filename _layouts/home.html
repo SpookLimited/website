@@ -41,7 +41,7 @@ layout: base
 	</div>
 </section>
 <section class="introduction-section">
-    <img src="/images/homepage/omniwatch-screen.svg">
+    <img style="z-index: 10;" src="/images/homepage/omniwatch-screen.svg">
     <div class="container">
         <div class="is-row is-items-middle">
             <div class="is-col is-30">
@@ -59,7 +59,7 @@ layout: base
     <div class="container">
         <div class="is-row is-stack-20">
             {% for item in site.data.homepage-links %}
-            <div class="is-col homepage-link-item" style="background-image: url('{{ item.image }}');" onclick="location.href = '{{ item.link }}'">
+            <div class="is-col homepage-link-item" style="background-image: url('{{ item.image }}'); z-index: 0;" onclick="location.href = '{{ item.link }}'">
                     <h3>{{ item.title }}<br>monitoring</h3>
                 </div>
                 {% if forloop.index == 2 %}

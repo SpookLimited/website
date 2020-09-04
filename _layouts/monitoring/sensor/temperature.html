@@ -3,8 +3,9 @@ layout: monitoring/sensor/base
 ---
 <section>
 	<div class="container">
-		<div class="is-row">
+		<div class="is-row is-items-middle">
 			<div class="is-col">
+                <h1>Wireless temperature sensor</h1>
 				<p>Spook wireless temperature sensors use a thermistor to accurately measure temperatures. These sensors are perfect for monitoring ambient temperatures around the sensors physical location.</p>
 				<p>There are temperature probe versions that come with a length of cable attaching the probe to the sensor. A quad temperature probe sensor provides four independent points of temperature monitoring within the single unit.</p>
 				<ul>
@@ -17,6 +18,21 @@ layout: monitoring/sensor/base
 				<img style="display: block; margin: 0 auto;" src="/images/sensor/temperature.svg">
 			</div>
 		</div>
+    </div>
+</section>
+<section>
+	<div class="container">
+		<h3>Potential uses for wireless temperature sensors</h3>
+        <ul class="is-bar is-small is-muted">
+            {% for use in site.data.sensors.temperature-uses %}
+                {% if forloop.index != 1 %}<li>|</li>{% endif %}
+                <li>{{ use }}</li>
+            {% endfor %}
+        </ul>
+	</div>
+</section>
+<section>
+    <div class="container">
 		<h3>Related sensors</h3>
 		<div class="is-row">
 			{% for item in site.data.sensors.temperature-variations %}
@@ -32,15 +48,5 @@ layout: monitoring/sensor/base
 			</div>
 			{% endfor %}
 		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h3>Uses</h3>
-		<ul>
-			{% for use in site.data.sensors.temperature-uses %}
-			<li>{{ use }}</li>
-			{% endfor %}
-		</ul>
 	</div>
 </section>

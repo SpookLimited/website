@@ -3,24 +3,36 @@ layout: monitoring/sensor/base
 ---
 <section>
 	<div class="container">
-		<div class="is-row is-stack-80">
+		<div class="is-row is-items-middle">
 			<div class="is-col">
-				<p>Spook wireless water rope sensors detect conductive liquids anywhere along the length of the detection rope by using two wires covered with conducting polymer.</p>
-				<p>Place this sensor anywhere near areas susceptible to flooding or areas that have pressurised plumbing.</p>
-				<ul>
-					<li>Senses immediate presence of water anywhere along rope</li>
-					<li>10 foot water rope (expandable in 10 foot sections up to 100 feet)</li>
-				</ul>
+                <h1>Wireless water detection sensor</h1>
+                <p>There is a wide range of Spook wireless water sensors to choose from but Spook's water rope sensor is one of the most popular. The water detection rope uses two wires covered with conducting polymer to detect the presence of water or other fluids. When a fluid passes over the two internal wires a short circuit is detected and <a href="/omniwatch/alerting/">an alert</a> is sent by OmniWatch.</p>
+                <p>The water sensor comes with a 10 foot long rope. This can be extended easily by clipping on additional lengths of interconnecting 10 foot sections up to a maximum of 100 feet.</p>
 			</div>
 			<div class="is-col">
 				<img style="display: block; margin: 0 auto; max-height: 300px;" src="/images/sensor/waterrope.svg">
 			</div>
 		</div>
+    </div>
+</section>
+<section>
+	<div class="container">
+		<h3>Potential uses for wireless water detection sensors</h3>
+        <ul class="is-bar is-small is-muted">
+            {% for use in site.data.sensors.water-uses %}
+                {% if forloop.index != 1 %}<li>|</li>{% endif %}
+                <li>{{ use }}</li>
+            {% endfor %}
+        </ul>
+	</div>
+</section>
+<section>
+    <div class="container">
 		<h3>Related sensors</h3>
 		<div class="is-row">
 			{% for item in site.data.sensors.water-variations %}
             <div class="is-col">
-                <img style="max-height: 120px; padding-bottom: 20px;" src="{{ item.icon }}">
+                <img style="max-height: 120px;" src="{{ item.icon }}">
                 <h5>{{ item.name }}</h5>
                 <ul class="is-bar">
                     {% for type in item.types %}
@@ -30,15 +42,5 @@ layout: monitoring/sensor/base
             </div>
 			{% endfor %}
 		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h3>Uses</h3>
-		<ul>
-			{% for use in site.data.sensors.water-uses %}
-			<li>{{ use }}</li>
-			{% endfor %}
-		</ul>
 	</div>
 </section>

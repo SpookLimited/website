@@ -3,44 +3,52 @@ layout: monitoring/sensor/base
 ---
 <section>
 	<div class="container">
-		<div class="is-row">
+		<div class="is-row is-items-middle">
 			<div class="is-col">
-				<p>Spook wireless alternating current (AC) meters measure the root mean square (RMS) current of an AC system using a current transformer (CT) that wraps around the live wire (also refered to as the hot wire) of a power system. The sensor reports minimum RMS current, maximum RMS current, average RMS current, and amp hours.</p>
-				<ul>
-					<li>Measures amp hours, maximum RMS current, minimum RMS current, and average RMS current</li>
-					<li>Capable of generating watt-hour or kilowatt-hour readings</li>
-					<li>Data logging for accumulated amp hour readings</li>
-					<li>Can notify based on current levels or changes in current levels</li>
-					<li>Measures current from 0-20 amps</li>
-				</ul>
+                <h1>Wireless alternating current (AC) sensor</h1>
+                <p>Spook wireless AC meters use current transformers (CT) to measure the RMS (root, mean, square). The CT is installed around the live wire (also known as the hot wire) of equipment in order to measure the AC power in real-time.</p>
+                <p>Available metrics for RMS are:</p>
+                <ul>
+                    <li>Amp hours (which can be converted to watt hours or kilowatt hours).</li>
+                    <li>Average current</li>
+                    <li>Maximum current</li>
+                    <li>Minimum current</li>
+                </ul>
 			</div>
 			<div class="is-col">
 				<img style="display: block; max-width: 300px; margin: 0 auto;" src="/images/sensor/acmeter.svg">
 			</div>
         </div>
-        <h3>Related sensors</h3>
-        <div class="is-row">
-            {% for item in site.data.sensors.ac-meter-variations %}
-            <div class="is-col">
-                <img style="width: 120px;" src="{{ item.icon }}">
-                <h5>{{ item.name }}</h5>
-                <ul class="is-bar">
-                    {% for type in item.types %}
-                    <li class="is-small">{{ type }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% endfor %}
-        </div>
-	</div>
+    </div>
 </section>
 <section>
 	<div class="container">
-		<h3>Uses</h3>
-		<ul>
+		<h3>Potential uses for wireless AC sensors</h3>
+		<ul class="is-bar is-small is-muted">
 			{% for use in site.data.sensors.ac-meter-uses %}
-			<li>{{ use }}</li>
+                {% if forloop.index != 1 %}<li>|</li>{% endif %}
+                <li>{{ use }}</li>
 			{% endfor %}
 		</ul>
 	</div>
 </section>
+<section>
+    <div class="container">
+        <h3>Related sensors</h3>
+            <div class="is-row">
+                {% for item in site.data.sensors.ac-meter-variations %}
+                <div class="is-col">
+                    <img style="width: 120px;" src="{{ item.icon }}">
+                    <h5>{{ item.name }}</h5>
+                    <ul class="is-bar">
+                        {% for type in item.types %}
+                        <li class="is-small">{{ type }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+

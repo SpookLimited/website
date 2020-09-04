@@ -3,10 +3,10 @@ layout: monitoring/sensor/base
 ---
 <section>
 	<div class="container">
-		<div class="is-row">
+		<div class="is-row is-items-middle">
 			<div class="is-col">
-				<p>Spook wireless dry contact sensors detect when there is contact between two wired end points. They can easily be integrated into existing switches or contact plates.</p>
-				<p>The sensors can be configured to detect both closed and open loops alerting if contact is made or broken.</p>
+                <h1>Wireless dry contact sensor</h1>
+                <p>Spook wireless dry contact sensors detect when there is contact between two wired end points. They basically form a loop when closed and should the loop be opened <a href="/omniwatch/alerting/">an alert</a> is broadcast and vice versa. These sensors can easily be integrated into existing dry contact panels/ports usually present on third party equipment.</p>
 			</div>
 			<div class="is-col">
 				<img style="display: block; margin: 0 auto; max-height: 300px;" src="/images/sensor/dry-contact.svg">
@@ -16,11 +16,12 @@ layout: monitoring/sensor/base
 </section>
 <section>
 	<div class="container">
-		<h3>Uses</h3>
-		<ul>
-			{% for use in site.data.sensors.drycontact-uses %}
-			<li>{{ use }}</li>
-			{% endfor %}
-		</ul>
+		<h3>Potential uses for wireless dry contact sensors</h3>
+        <ul class="is-bar is-small is-muted">
+            {% for use in site.data.sensors.drycontact-uses %}
+                {% if forloop.index != 1 %}<li>|</li>{% endif %}
+                <li>{{ use }}</li>
+            {% endfor %}
+        </ul>
 	</div>
 </section>

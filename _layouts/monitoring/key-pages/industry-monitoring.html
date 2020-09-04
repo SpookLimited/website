@@ -57,8 +57,14 @@ layout: monitoring/key-pages/base
 				<p>{% if item.link %}<a class="button is-secondary" href="{{ item.link }}">More details <span class="caret is-right"></span></a> {% endif %}<a href="#top" class="button">Back to top <span class="caret is-up"></span></a></p>
 			</div>
 			<div class="is-col is-40 is-small is-muted">
-                <p>Spook's monitoring bundle has over 80 different types of wireless sensor to choose from. A cellular router is included in the bundle and has a pre-installed SIM. There's no need to worry about SIM usage charges or even SMS credits for alerts because they are unlimited with Spook making the remote monitoring bundle hassle-free.</p>
-                <p>The sensors come pre-configured so simply place them where you want to monitor and switch them on together with the cellular router. User access to OmniWatch is immediate and via any internet enabled device.</p>
+                <div class="is-row">
+                    {% for item in site.data.industry.icons %}
+                    <div class="is-col is-33 is-text-center">
+                        <img src="{{ item.icon }}">
+                        <p>{{ item.title }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
 			</div>
 		</div>
 		<p class="is-large">Popular sensors</p>

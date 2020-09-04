@@ -1,63 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   style="fill: none;"
-   width="855px"
-   height="570px"
-   id="svg941"
-   sodipodi:docname="switching.svg"
-   inkscape:version="0.92.5 (0.92.5+69)">
-  <metadata
-     id="metadata947">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs945" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1328"
-     inkscape:window-height="704"
-     id="namedview943"
-     showgrid="false"
-     inkscape:zoom="0.93333333"
-     inkscape:cx="276.42857"
-     inkscape:cy="285"
-     inkscape:window-x="38"
-     inkscape:window-y="27"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg941" />
-  <path
-     style="stroke-width: 15px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(106, 106, 106); fill: none;"
-     d=""
-     id="path935" />
-  <path
-     style="stroke-width: 15px; stroke-linecap: round; stroke-linejoin: round; stroke: rgb(74, 74, 74); fill: none;"
-     d=""
-     id="path937" />
-  <path
-     style="fill:none;stroke:#0a0a0a;stroke-width:12.24489784px;stroke-linecap:round;stroke-linejoin:round"
-     d="M 574.43878,187.04082 A 97.959184,97.959184 0 0 0 476.47959,285 97.959184,97.959184 0 0 0 574.43878,382.95919 97.959184,97.959184 0 0 0 672.39796,285 97.959184,97.959184 0 0 0 574.43878,187.04081 m 0,-48.97959 A 146.93878,146.93878 0 0 1 721.37755,285 146.93878,146.93878 0 0 1 574.43878,431.93878 m -293.87756,0 A 146.93878,146.93878 0 0 1 133.62245,285 146.93878,146.93878 0 0 1 280.56122,138.06123 v 0 H 574.43878 M 280.56122,431.93878 v 0 h 293.87756"
-     id="path939"
-     inkscape:connector-curvature="0" />
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 400 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g id="path939" transform="matrix(0.438523,0,0,0.438523,12.5314,-24.9819)">
+        <path d="M574.439,187.041L574.439,187.041C520.7,187.041 476.48,231.261 476.48,285L476.48,285C476.48,338.739 520.7,382.959 574.439,382.959L574.439,382.959C628.178,382.959 672.398,338.739 672.398,285L672.398,285C672.398,231.261 628.178,187.041 574.439,187.041M574.439,138.061C655.047,138.061 721.378,204.392 721.378,285C721.378,365.608 655.047,431.939 574.439,431.939M280.561,431.939C199.953,431.939 133.622,365.608 133.622,285C133.622,204.392 199.953,138.061 280.561,138.061L574.439,138.061M280.561,431.939L574.439,431.939" style="fill:none;fill-rule:nonzero;stroke:rgb(10,10,10);stroke-width:20px;"/>
+    </g>
 </svg>

@@ -5,21 +5,37 @@ layout: monitoring/sensor/base
 	<div class="container">
 		<div class="is-row">
 			<div class="is-col">
-				<p>Spook's wireless vehicle detect/counter sensor can be deployed to detect the presence of a vehicle or count oncoming traffic utilising a 9 ft. pneumatic tube. Deployment is easy with the included hose anchor and mounting spikes. Simply turn the unit on with the included magnet, roll the hose out where you wish to record traffic data and pound the spikes into the asphalt. Select the option for counting or detecting and begin recording data.</p>
-				<ul>
-					<li>9 foot hose</li>
-					<li>Signal hose anchor</li>
-					<li>Mounting spikes for hose anchor</li>
-					<li>Wireless sensor</li>
-					<li>Mounting hardware</li>
-					<li>3V industrial battery (pre-installed)</li>
-				</ul>
-				<p>Spook's industrial ultrasonic sensors can be used in a variety of applications for measuring distances between the sensor and objects in its path. These ultrasonic sensors are impervious to target surface and colour, and feature auto-calibration algorithms which allow them to adapt to variable environmental conditions and compensate for temperature and humidity effects.</p>
+                <h1>Wireless vehicle detection sensor</h1>
+                <p>Spook's wireless vehicle detect/counter is a pneumatic sensor that detects the presence of a vehicle or count oncoming traffic as they pass over the 9 foot pneumatic tube. Simply install the sensor and switch it on with the magnet on/off switch. The sensor can be set to counting or detecting mode.</p>
+                <p>Included with the sensor kit is:</p>
+                <ul>
+                    <li>9 foot hose</li>
+                    <li>Signal hose anchor</li>
+                    <li>Mounting spikes</li>
+                    <li>Mounting hardware</li>
+                    <li>3V industrial battery (pre-installed)</li>
+                </ul>
+                <p>For ultrasonic sensor vehicle detection consider Spook's wireless ultrasonic sensors. They measure distances between the sensor and objects in its path. The sensors auto-adapt to variable environmental conditions and compensate for changes in temperature and humidity.</p>
 			</div>
 			<div class="is-col">
 				<img style="display: block; max-width: 300px; margin: 0 auto;" src="/images/sensor/vehicle-detection.svg">
 			</div>
         </div>
+    </div>
+</section>
+<section>
+	<div class="container">
+		<h3>Potential uses for wireless vehicle detection sensors</h3>
+        <ul class="is-bar is-small is-muted">
+            {% for use in site.data.sensors.vehicle-detection-uses %}
+                {% if forloop.index != 1 %}<li>|</li>{% endif %}
+                <li>{{ use }}</li>
+            {% endfor %}
+        </ul>
+	</div>
+</section>
+<section>
+    <div class="container">
         <h3>Related sensors</h3>
         <div class="is-row is-stack-20">
             {% for item in site.data.sensors.vehicle-detection-variations %}
@@ -36,14 +52,3 @@ layout: monitoring/sensor/base
         </div>
 	</div>
 </section>
-<section>
-	<div class="container">
-		<h3>Uses</h3>
-		<ul>
-			{% for use in site.data.sensors.vehicle-detection-uses %}
-			<li>{{ use }}</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
-

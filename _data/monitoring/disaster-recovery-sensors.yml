@@ -1,0 +1,47 @@
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+  uses:
+      - Ambient temperature
+      - Air flow temperature
+      - Equipment heat production
+
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+  uses:
+      - Air conditioning (AC)
+      - Equipment optimal operation
+
+- name: Dew point
+  icon: /images/sensor/icons/dewpoint.svg
+  uses:
+      - Air conditioning (AC)
+      - Equipment optimal operation
+
+- name: Water ingress
+  icon: /images/sensor/icons/water.svg
+  uses:
+      - Air conditioning leak (AC)
+      - Water pipe leak
+      - Flood detection
+
+- name: Airflow
+  icon: /images/sensor/icons/airflow.svg
+  uses:
+      - Air conditioning (AC)
+      - Equipment ventilation
+      - Equipment optimal operation
+
+- name: Dry contact
+  icon: /images/sensor/icons/drycontact.svg
+  uses:
+      - Alarm panels
+      - 3rd party equipment
+      - UPS alarms
+      - Generator errors
+
+- name: Alternating current (AC)
+  icon: /images/sensor/icons/alternatingcurrent.svg
+  uses:
+      - Mains power
+      - UPS power
+      - Generator power

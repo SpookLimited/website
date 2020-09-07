@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 267 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <rect x="64" y="10" width="193" height="312" style="fill:none;"/>
+    <g>
+        <path d="M72.5,10L72.5,322" style="fill:none;fill-rule:nonzero;"/>
+        <path d="M107.5,10L107.5,322" style="fill:none;fill-rule:nonzero;"/>
+        <path d="M142.5,10L142.5,322" style="fill:none;fill-rule:nonzero;"/>
+        <path d="M177.5,10L177.5,322" style="fill:none;fill-rule:nonzero;"/>
+        <path d="M212.5,10L212.5,322" style="fill:none;fill-rule:nonzero;"/>
+        <path d="M247.5,10L247.5,322" style="fill:none;fill-rule:nonzero;"/>
+    </g>
+    <g>
+        <path d="M64,322.5L257,322.5" style="fill:none;fill-rule:nonzero;stroke:rgb(230,230,230);stroke-width:1px;"/>
+        <path d="M64,244.5L257,244.5" style="fill:none;fill-rule:nonzero;stroke:rgb(230,230,230);stroke-width:1px;"/>
+        <path d="M64,166.5L257,166.5" style="fill:none;fill-rule:nonzero;stroke:rgb(230,230,230);stroke-width:1px;"/>
+        <path d="M64,88.5L257,88.5" style="fill:none;fill-rule:nonzero;stroke:rgb(230,230,230);stroke-width:1px;"/>
+        <path d="M64,9.5L257,9.5" style="fill:none;fill-rule:nonzero;stroke:rgb(230,230,230);stroke-width:1px;"/>
+    </g>
+    <rect x="64" y="10" width="193" height="312" style="fill:none;"/>
+    <g>
+        <path d="M64,322.5L257,322.5" style="fill:none;fill-rule:nonzero;stroke:rgb(204,214,235);stroke-width:1px;"/>
+    </g>
+    <g>
+        <g transform="matrix(7.04481e-16,-1,1,7.04481e-16,24.0938,166)">
+            <text x="-57.36px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:12px;">T<tspan x="-51.36px -44.687px " y="0px 0px ">ot</tspan>al revenue loss (€)</text>
+        </g>
+        <path d="M64,10L64,322" style="fill:none;fill-rule:nonzero;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,64,10)">
+        <g>
+            <rect x="6" y="208" width="7" height="105" style="fill:rgb(106,136,218);"/>
+            <rect x="23" y="63" width="7" height="250" style="fill:rgb(106,136,218);"/>
+            <rect x="41" y="148" width="7" height="165" style="fill:rgb(106,136,218);"/>
+            <rect x="58" y="200" width="7" height="113" style="fill:rgb(106,136,218);"/>
+            <rect x="76" y="296" width="7" height="17" style="fill:rgb(106,136,218);"/>
+            <rect x="93" y="305" width="7" height="8" style="fill:rgb(106,136,218);"/>
+            <rect x="111" y="300" width="7" height="13" style="fill:rgb(106,136,218);"/>
+            <rect x="128" y="298" width="7" height="15" style="fill:rgb(106,136,218);"/>
+            <rect x="146" y="296" width="7" height="17" style="fill:rgb(106,136,218);"/>
+            <rect x="164" y="284" width="7" height="29" style="fill:rgb(106,136,218);"/>
+            <rect x="181" y="302" width="7" height="11" style="fill:rgb(106,136,218);"/>
+        </g>
+    </g>
+    <g>
+        <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,75.3655,338)">
+            <text x="-15.281px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">UK</text>
+        </g>
+        <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,110.456,338)">
+            <text x="-45.235px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">Germany</text>
+        </g>
+        <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,145.547,338)">
+            <text x="-20.174px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">Italy</text>
+        </g>
+        <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,180.638,338)">
+            <text x="-59.313px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">Netherlands</text>
+        </g>
+        <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,215.729,338)">
+            <text x="-36.078px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">Finland</text>
+        </g>
+        <g transform="matrix(0.707107,-0.707107,0.707107,0.707107,250.82,338)">
+            <text x="-44.623px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">Denmark</text>
+        </g>
+    </g>
+    <g>
+        <g transform="matrix(1,0,0,1,49,327)">
+            <text x="-6.118px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">0</text>
+        </g>
+        <g transform="matrix(1,0,0,1,49,249)">
+            <text x="-14.674px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">2G</text>
+        </g>
+        <g transform="matrix(1,0,0,1,49,171)">
+            <text x="-14.674px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">4G</text>
+        </g>
+        <g transform="matrix(1,0,0,1,49,93)">
+            <text x="-14.674px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">6G</text>
+        </g>
+        <g transform="matrix(1,0,0,1,49,15)">
+            <text x="-14.674px" y="0px" style="font-family:'ArialMT', 'Arial', sans-serif;font-size:11px;">8G</text>
+        </g>
+    </g>
+</svg>

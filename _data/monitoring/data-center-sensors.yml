@@ -1,0 +1,51 @@
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+  uses:
+      - Ambient room temperature
+      - Rack temperature
+      - Load monitoring
+      - Air conditioning (AC) units
+      - Server optimal operation
+      - Warranty
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+  uses:
+      - Server optimal operation
+      - Warranty
+- name: Dew point
+  icon: /images/sensor/icons/dewpoint.svg
+  uses:
+      - Air conditioning (AC) units
+      - Server optimal operation
+      - Warranty
+- name: Water ingress
+  icon: /images/sensor/icons/water.svg
+  uses:
+      - Water pipes
+      - Adjacent rooms
+      - Air conditioning (AC) units
+      - Flood detections
+- name: Dry contact
+  icon: /images/sensor/icons/drycontact.svg
+  uses:
+      - VESDA
+      - Alarm panels
+      - Generators
+      - UPSs
+      - Water panels
+- name: Motion
+  icon: /images/sensor/icons/motion.svg
+  uses:
+      - Security
+      - Intruder detection
+      - Access control
+- name: Open/closed
+  icon: /images/sensor/icons/door.svg
+  uses:
+      - Doors
+      - Windows
+      - Security
+      - Racks
+      - Cabinets
+
+

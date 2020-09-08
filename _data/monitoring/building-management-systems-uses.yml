@@ -1,0 +1,23 @@
+- name: Mains power
+  icon: /images/sensor/icons/alternatingcurrent.svg
+
+- name: Lighting
+  icon: /images/sensor/icons/light.svg
+
+- name: HVAC
+  icon: /images/sensor/icons/airflow.svg
+
+- name: Fire alarm panels
+  icon: /images/sensor/icons/fire.svg
+
+- name: Smoke detection
+  icon: /images/sensor/icons/smoke.svg
+
+- name: Water monitoring
+  icon: /images/sensor/icons/water.svg
+
+- name: Elevator operations
+  icon: /images/sensor/icons/elevator.svg
+
+- name: Security systems
+  icon: /images/sensor/icons/door.svg

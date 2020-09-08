@@ -9,29 +9,24 @@ layout: base
 </header>
 <section>
 	<div class="container">
-		<blockquote>
-			<p>Spook provides instant, clear notification of TV Licensing’s BMS alerts via OmniWatch’s real-time dashboard, allowing us to rapidly investigate matters to prevent costly outages. Spook monitors our dual data centres in Darwen, Lancashire and Bristol. Our knowledge that our BMS systems are being monitored by Spook provides real peace of mind to our regional team of specialists.</p>
-			<p class="is-small">TV Licensing - A trademark of the BBC (British Broadcasting Corporation).</p>
-		</blockquote>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h2>What is a Building Management System (BMS)?</h2>
-		<p>A Building Management System (BMS) is a centralised computer controlled monitoring system for the a building or facility.</p>
-		<p>The core functions of a BMS system is typically to control and monitor utility equipment such as:</p>
-		<ul>
-			<li>Lighting</li>
-			<li>Heating, ventilation and air conditioning (HVAC)</li>
-			<li>Fire alarm panels</li>
-			<li>Fire hydrant systems</li>
-			<li>Smoke detection</li>
-			<li>ICT (Information Communications and Telecoms)</li>
-			<li>Water tank monitoring</li>
-			<li>Elevator operations</li>
-			<li>Door entry and security systems</li>
-		</ul>
-		<p>BMSs vary and usually include sensors, pressure switches, flow meters, controllers, and relays.</p>
+        <div class="is-row">
+            <div class="is-col">
+                <h2>What is a Building Management System (BMS)?</h2>
+                <p class="is-large">A BMS is a centralised computer-based controller and monitoring system for a building or facility.</p>
+                <p>The most common use of BMS is to control a buildings mechanical and electrical equipment such as heating ventilation and air conditioning (HVAC), lighting and security systems.</p>
+                <p>BMSs vary and usually include sensors, pressure switches, flow meters, controllers, and relays.</p>
+            </div>
+            <div class="is-col">
+                <div class="is-row is-text-center">
+                    {% for item in site.data.monitoring.building-management-systems-uses %}
+                    <div class="is-col is-25">
+                        <img src="{{ item.icon }}">
+                        <p>{{ item.name }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
 	</div>
 </section>
 <section>
@@ -41,16 +36,22 @@ layout: base
 		<p>A BMS helps understand how buildings are operating and enables methods of optimisation and as a consequence enrol cost efficiency processes.</p>
 	</div>
 </section>
-<section>
+<section class="grey">
 	<div class="container">
-		<h2>Spook is an approved Endorser of the European Code of Conduct for Data Centres</h2>
-		<p>The Data Centres Energy Efficiency Code of Conduct has been established in response to increasing energy consumption in data centres and the need to reduce the related environmental, economic and energy supply security impacts.</p>
-		<p>The aim is to inform and stimulate data centre operators and owners to reduce energy consumption in a cost-effective manner without hampering the mission critical function of data centres.</p>
-		<p>The Code of Conduct aims to achieve this by improving understanding of energy demand within the data centre, raising awareness, and recommending energy efficient best practice and targets.</p>
-		<ul class="is-bar">
-			<li><a href="#" class="button">Read more</a></li>
-			<li><a href="#" class="button is-secondary">2019 best practice guidelines</a></li>
-		</ul>
+        <div class="is-row">
+            <div class="is-col is-30">
+                <img src="/images/monitoring/bms/code-of-conduct.svg">
+            </div>
+            <div class="is-col is-70">
+                <h2>Spook is an approved Endorser of the European Code of Conduct for Data Centres</h2>
+                <p>The Data Centres Energy Efficiency Code of Conduct has been established in response to increasing energy consumption in data centres and the need to reduce the related environmental, economic and energy supply security impacts.</p>
+                <p>The aim is to inform and stimulate data centre operators and owners to reduce energy consumption in a cost-effective manner without hampering the mission critical function of data centres.</p>
+                <p>The Code of Conduct aims to achieve this by improving understanding of energy demand within the data centre, raising awareness, and recommending energy efficient best practice and targets.</p>
+        <ul class="is-bar">
+            <li><a href="#" class="button">Read more</a></li>
+            <li><a href="#" class="button is-secondary">2019 best practice guidelines</a></li>
+            </ul>
+        </div>
 	</div>
 </section>
 <section>
@@ -80,5 +81,13 @@ layout: base
 		<p>Weekly and monthly reports are auto-generated and sent to end users via email for handy review.</p>
 		<p>Anything more complicated can be created via the intuitive search engine within the on demand report function.</p>
 		<p>In short Spook makes interpreting data meaningful, intuitive and incredibly easy to access.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<blockquote>
+			<p>Spook provides instant, clear notification of TV Licensing's BMS alerts via OmniWatch's real-time dashboard, allowing us to rapidly investigate matters to prevent costly outages. Spook monitors our dual data centres in Darwen, Lancashire and Bristol. Our knowledge that our BMS systems are being monitored by Spook provides real peace of mind to our regional team of specialists.</p>
+			<p class="is-small">TV Licensing - A trademark of the BBC (British Broadcasting Corporation).</p>
+		</blockquote>
 	</div>
 </section>

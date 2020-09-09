@@ -1,6 +1,6 @@
 ---
 layout: monitoring/data-center
-permalink: /monitoring/data-center
+permalink: /monitoring/data-center/
 type: it
-title: Data centre monitoring
+title: Data center monitoring
 ---

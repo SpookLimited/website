@@ -6,8 +6,7 @@ layout: monitoring/sensor/base
 		<div class="is-row is-items-middle">
 			<div class="is-col">
                 <h1>Wireless airflow sensor</h1>
-                <p>There are a few options to consider for airflow monitoring. Spook's differential pressure sensor is the most popular and measures the difference in pressure between two points. One inlet point is the positive port and the other is calibrated to measure the opposite pressure reading. When the pressure is greater on the positive point the sensor records a negative pressure reading and vice versa. The range of airflow pressure on this sensor is -500 Pa and +500 Pa.</p>
-                <p class="is-muted">The pascal (Pa) is a SI (International System of Units) derived unit of pressure or stress. It is derived from <code>kg⋅m<sup>−1</sup>⋅s<sup>−2</sup></code>. It is named after the French mathematician Blaise Pascal (1623–62)
+				<p>Spook's differential pressure sensor is the most popular airflow monitor for accuracy and measures the difference in pressure between two points. One inlet point is the positive port and the other is calibrated to measure the opposite pressure reading. When the pressure is greater on the positive point the sensor records a negative pressure reading and vice versa. The range of airflow pressure on this sensor is -500 Pa and +500 Pa.</p>
 			</div>
 			<div class="is-col">
 				<img style="display: block; margin: 0 auto; max-height: 300px;" src="/images/sensor/airflow.svg">
@@ -15,6 +14,7 @@ layout: monitoring/sensor/base
 		</div>
     </div>
 </section>
+{% include sensor/did-you-know.html %}
 <section>
 	<div class="container">
 		<h3>Potential uses for wireless airflow sensors</h3>

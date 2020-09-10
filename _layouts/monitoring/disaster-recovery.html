@@ -7,8 +7,8 @@ layout: base
             <div class="is-col">
                 <h3>First line of defense for disaster recovery</h3>
                 <h1>Early warning for disaster avoidance</h1>
-                <p>Take remedial action before having to invoke disaster recovery plans because prevention is better than cure.</p>
-                <p>Disaster recovery is a subset of business continuity planning (BCP) and focuses on policies, tools and procedures used to get critical business functions operational again after a disaster.</p>
+				<p>Spook's remote cloud based monitoring service called OmniWatch is designed with disaster avoidance in mind rather than disaster recovery (DR). Disaster avoidance is focused on monitoring key areas for early warnings to events that, if left unnoticed could easily escalate to invoking DR plans.</p>
+				<p>By taking remedial actions at early stages of a problem means organisations can contain a situation and fix it with little or no disruption to its business.</p>
 				<p><a class="button" style="margin-top: 2em; margin-right: 1em;" href="/contact/">Contact us</a> <a class="button is-secondary" style="margin-top: 2em;" href="#">Book demo</a></p>
             </div>
             <div class="is-col">
@@ -24,20 +24,31 @@ layout: base
                 <h2>Over 60% of all OmniWatch alarms are critical.</h2>
             </div>
             <div class="is-col is-70">
-                <h2>Prevention is better than cure</h2>
-                <p>Spook's ethos of <strong>prevention is better than cure</strong> is as important today as it was when the Spook was established in 2003. As specialists in environmental and power monitoring OmniWatch is chiefly deployed in data centres and IT server rooms.</p>
-                <p>It is generally well known that the majority of business disruption is caused by unplanned IT downtime. By monitoring the key environmental and power elements of IT rooms, if there is an alarm, remedial action can take place to normalise matters in order to maximise business uptime.</p>
-                <p>Over half of OmniWatch's alarms prove critical, this means users are alerted to issues that could effect their IT uptime at the earliest opportunity. They can take remedial action to stabilise matters before having to invoke their disaster recovery plans.</p>
-                <p>By knowing there is an issue in the early stages gives valuable thinking and reaction time to busy IT staff. For instance sometimes even the simplest actions like opening doors and windows or installing temporary fans if air conditioning fails and temperatures rise can be enough to get things under control and address the problem.</p>
+				<h2>Spook monitoring for disaster avoidance</h2>
+				<p>Over half of OmniWatch's alarms prove critical which means OmniWatch is instrumental in restricting business disruption. Many events that could cause a DR invocation are preventable, for instance, should water ingress such as a burst pipe threaten the fabric of a server room, if it is dealt with immediately it may have little or no effect on the continued delivery of IT services.</p>
             </div>
         </div>
     </div>
 </section>
 <section>
+	<div class="container">
+		<h2>OmniWatch remote monitoring service - first line of defence for disaster avoidance</h2>
+		<p>A poll of Spook customers before the Covid-19 epidemic of 2020 confirmed that less than 50% tested their disaster recovery plans regularly. They prefer to rely on OmniWatch to be their first line of defence against disaster recovery invocations. By monitoring key climate and power conditions and important third party equipment such as UPSs and generator sets OmniWatch is a perfect solution for organisations who can see the benefit of dealing with issues long before they become troublesome.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<h2>Spook Remote IT monitoring for remote IT teams</h2>
+		<p>Cloud services and remote working for employees has proven to be the world’s biggest beneficiary to the Covid-19 crisis. Many organisations have realised the impact of the virus and responded by deploying remote working or work from home (WFH) policies for their employees wherever possible.</p>
+		<p>It is predicted that traditional DR testing will be even less since in years to come as many organisations adopt DRaaS (Disaster Recovery as a Service) thus enabling data recovery within a few minutes depending on the server without any interruption within the business operation if any disaster occurs.</p>
+		<p>There is also much less of an appetite for IT staff to commit resource to traditional on-site DR when using OmniWatch to prevent IT downtime proves so successful.</p>
+	</div>
+</section>
+<section>
     <div class="container">
-        <h2>Typical monitored conditions</h2>
+        <h2 class="is-stack-20">Typical monitored conditions</h2>
         {% for sensor in site.data.monitoring.disaster-recovery-sensors %}
-        <div class="is-row is-items-middle is-stack-8 is-border is-inset-6 is-small">
+        <div class="is-row is-items-middle is-stack-8 is-border is-inset-20 is-small">
             <div class="is-col is-10">
                 <img class="is-inset-8" style="max-height: 60px;" src="{{ sensor.icon }}">
             </div>

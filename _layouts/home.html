@@ -11,7 +11,7 @@ layout: base
                 <div class="is-stack-20">
                     <h5 style="text-transform: uppercase;">Secure cloud based monitoring</h5>
                     <h1 style="margin-top: 16px; margin-bottom: 16px;"><span class="brand" style="padding:8px;">OmniWatch</span></h1>
-                    <p class="is-large"><strong>Prevention is better than cure</strong> has been Spook's motto from day one. OmniWatch gives  organisations valuable early warnings to events that could impact the continued running of their business. Timely detection to harmful conditions provides valuable thinking and reaction time to avoid service disruption.</p>
+                    <p><strong>Prevention is better than cure</strong> has been Spook's motto from day one. OmniWatch gives  organisations valuable early warnings to events that could impact the continued running of their business. Timely detection to harmful conditions provides valuable thinking and reaction time to avoid service disruption.</p>
                 </div>
                 <ul class="is-bar">
                     <li><a href="#" class="button">Book demo</a></li>
@@ -156,29 +156,31 @@ layout: base
 </section>
 <section>
 	<div class="container">
-		<div class="is-row">
+		<div class="is-row is-gapless">
 			<div class="is-col is-60">
-				<img src="/images/banner/communications-tower.jpeg">
+				<div style="background-image: url('/images/banner/communications-tower.jpeg'); min-height: 100%; min-width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
 			</div>
-			<div class="is-col is-40">
-				<h5>Technical</h5>
-				<h2>Wired vs wireless monitoring</h2>
-                <p class="is-large">Wireless and wired monitoring both have their own benefits over the other.</p>
-                <p class="is-large">Knowing these benefits helps to make an informed decision when considering which is best for you.</p>
+			<div class="is-col is-40" style="background-color: #212121; color: #fff;">
+				<div class="is-inset-20">
+					<h5>Technical</h5>
+					<h2>Wired vs wireless monitoring</h2>
+					<p class="is-large">Wireless and wired monitoring both have their own benefits over the other.</p>
+					<p class="is-large">Knowing these benefits helps to make an informed decision when considering which is best for you.</p>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section>
+<section class="grey">
 	<div class="container">
 		<div class="is-row">
 			{% for post in site.posts | limit: 3 %}
 				<div class="is-col">
-                    <div class="brand is-inset-20 is-shadow-3" style="min-height: 100%;">
+                    <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
                         <h5>News</h5>
-                        <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center;"></div>
+                        <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
                         <p>{{ post.date | date_to_string }}</p>
-                        <h2><a style="color: #fff; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
+                        <h2><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
                         <p>{{ post.page-description | truncate_words: 20 }}</p>
                     </div>
 				</div>
@@ -186,7 +188,7 @@ layout: base
 		</div>
 	</div>
 </section>
-<section class="brand">
+<section style="background-color: #212121; color: #fff;">
 	<div class="container is-text-center">
 		<h2>Fully managed or co-managed</h2>
 		<p>Spook customers range from businesses that have already installed environmental hardware and network devices to organisations that are considering monitoring for the first time.</p>

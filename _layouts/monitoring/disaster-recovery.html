@@ -43,7 +43,7 @@ layout: base
 	<div class="container">
 		<div class="is-row is-items-middle">
 			<div class="is-col is-30">
-				<img class="is-stack-20" src="/images/icons/remote-working.svg">
+				<img alt="Remote working" class="is-stack-20" src="/images/icons/remote-working.svg">
 			</div>
 			<div class="is-col is-70">
 				<h2>Spook Remote IT monitoring for remote IT teams</h2>
@@ -60,7 +60,7 @@ layout: base
         {% for sensor in site.data.monitoring.disaster-recovery-sensors %}
         <div class="is-row is-items-middle is-stack-8 is-border is-inset-20 is-small">
             <div class="is-col is-10">
-                <img class="is-inset-8" style="max-height: 60px;" src="{{ sensor.icon }}">
+				<img alt="{{ sensor.name }}" class="is-inset-8" style="max-height: 60px;" src="{{ sensor.icon }}">
             </div>
             <div class="is-col is-20">
                 <p><strong>{{ sensor.name }}</strong></p>
@@ -86,7 +86,7 @@ layout: base
                 <p>A <a href="http://img2.insight.com/graphics/uk/shop/ca/ca-acd-report.pdf">CA Technologies study</a> found that €17 billion in revenue is being lost in each year in the time taken to recover from unplanned IT downtime. The study also comments that post-downtime there is an additional delay during which time data is still being recovered and that during the post-outage period, company revenue generation is still severely hampered, down by an average of 25%.</p>
             </div>
             <div class="is-col">
-                <img style="max-height: 400px;" src="/images/monitoring/disaster-recovery/loss-graph.svg">
+                <img alt="Disaster recovery monetary loss graph" style="max-height: 400px;" src="/images/monitoring/disaster-recovery/loss-graph.svg">
             </div>
         </div>
         <table class="is-bordered">

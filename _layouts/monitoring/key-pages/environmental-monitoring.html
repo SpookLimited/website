@@ -7,7 +7,7 @@ layout: monitoring/key-pages/base
 		<div class="is-row">
 			{% for item in site.data.environmental.header-item %}
 			<div class="is-col is-33">
-				<img class="feature-img" src="{{ item.image }}">
+				<img alt="{{ item.title }}" class="feature-img" src="{{ item.image }}">
 				<h3>{{ item.title }}</h3>
 				<p>{{ item.text }}</p>
 				<div class="is-text-center see-more">

@@ -12,7 +12,7 @@ layout: base
 				<p>Security is an issue too. Comms closets should be locked in order to prevent access to non-authorised employees or visitors.</p>
             </div>
             <div class="is-col">
-                <img src="/images/devices/network-switch.svg">
+                <img alt="Network switch" src="/images/devices/network-switch.svg">
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@ layout: base
         {% for sensor in site.data.monitoring.comms-closet-sensors %}
         <div class="is-row is-items-middle is-stack-8 is-border is-inset-6 is-small">
             <div class="is-col is-10">
-                <img class="is-inset-8" style="max-height: 60px;" src="{{ sensor.icon }}">
+				<img alt="{{ sensor.name }" class="is-inset-8" style="max-height: 60px;" src="{{ sensor.icon }}">
             </div>
             <div class="is-col is-20">
                 <p><strong>{{ sensor.name }}</strong></p>

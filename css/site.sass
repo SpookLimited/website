@@ -64,14 +64,33 @@ header
         font-size: 4em
     h3
         font-weight: normal
-    img
-        animation: rotation 20s infinite linear
+
+.rotate
+    animation: rotation 20s infinite linear
+    transform-box: fill-box
+    transform-origin: center
+
+.rotate-slow
+    animation: rotation 120s infinite linear
+    transform-box: fill-box
+    transform-origin: center
+
+.reverse-rotate
+    animation: reverse-rotation 120s infinite linear
+    transform-box: fill-box
+    transform-origin: center
 
 @keyframes rotation
     from
         transform: rotate(0deg)
     to
         transform: rotate(359deg)
+
+@keyframes reverse-rotation
+    from
+        transform: rotate(359deg)
+    to
+        transform: rotate(0deg)
 
 section
     padding: 4em 0

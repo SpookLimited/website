@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/boundary
-permalink: /monitoring/sensors/boundary-and-ir/
+permalink: /monitoring/sensors/boundary-and-ir
 type: sensor
 title: Boundary and IR monitoring
 header: Boundary and IR monitoring

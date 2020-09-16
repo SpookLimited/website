@@ -1,6 +1,6 @@
 ---
 layout: monitoring/refrigeration
-permalink: /monitoring/refrigeration/
+permalink: /monitoring/refrigeration
 type: iot
 title: Refrigeration monitoring
 header: Refrigeration monitoring by Spook 

@@ -1,6 +1,6 @@
 ---
 layout: monitoring/agriculture
-permalink: /monitoring/agriculture/ 
+permalink: /monitoring/agriculture 
 type: iot
 title: Agricultural monitoring
 page-description: By monitoring key conditions agricultural businesses can check soil property variances, machine behaviours, aquatic conditions, climate conditions, atmospheric physics and more.

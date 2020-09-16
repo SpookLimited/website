@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/propane
-permalink: /monitoring/sensors/propane-monitoring/
+permalink: /monitoring/sensors/propane-monitoring
 type: sensor
 title: Propane monitoring
 header: Propane monitoring

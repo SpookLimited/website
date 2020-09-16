@@ -20,7 +20,7 @@ layout: base
                 <div class="is-row is-text-center">
                     {% for item in site.data.monitoring.building-management-systems-uses %}
                     <div class="is-col is-25">
-                        <img src="{{ item.icon }}">
+						<img alt="{{ item.name }}" src="{{ item.icon }}">
                         <p>{{ item.name }}</p>
                     </div>
                     {% endfor %}
@@ -33,7 +33,7 @@ layout: base
 	<div class="container">
         <div class="is-row">
             <div class="is-col is-30">
-                <img src="/images/monitoring/bms/code-of-conduct.svg">
+                <img alt="Code of conduct" src="/images/monitoring/bms/code-of-conduct.svg">
             </div>
             <div class="is-col is-70">
                 <h2>Spook is an approved Endorser of the European Code of Conduct for Data Centres</h2>

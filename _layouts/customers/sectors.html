@@ -47,7 +47,7 @@ layout: base
 			<div class="is-row">
 				<div class="is-col is-20">
 					{% for customer in sector.customers %}
-					<img style="display: block; margin-bottom: 20px; min-width: 100%;" src="/images/customer-logo/{{ customer.logo }}.svg">
+					<img alt="{{ customer.name }}" style="display: block; margin-bottom: 20px; min-width: 100%;" src="/images/customer-logo/{{ customer.logo }}.svg">
 					{% endfor %}
 				</div>
 				<div class="is-col is-80">

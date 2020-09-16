@@ -5,7 +5,7 @@
             <div class="is-row is-stack-20 is-text-center">
                 {% for item in site.data.wireless-sensors %}
                 <div class="is-col">
-                    <img style="max-height: 160px; display: block; margin: 0; padding-bottom: 1em;" src="{{ item.icon }}">
+					<img alt="{{ item.type }}" style="max-height: 160px; display: block; margin: 0; padding-bottom: 1em;" src="{{ item.icon }}">
                     <h5>{{ item.type }}</h5>
                     <p>{{ item.text }}</p>
                 </div>
@@ -16,11 +16,11 @@
                     <p>Spook also monitors the wireless sensor's signal and battery levels, making battery replacement easy and intuitive.</p>
                 </div>
                 <div class="is-col is-text-center">
-                    <img style="max-height: 100px;" src="/images/icons/battery-white.svg">
+                    <img alt="Battery level monitoring" style="max-height: 100px;" src="/images/icons/battery-white.svg">
                     <h5>Battery level</h5>
                 </div>
                 <div class="is-col is-text-center">
-                    <img style="max-height: 100px;" src="/images/icons/signal-white.svg">
+                    <img alt="Signal level monitoring" style="max-height: 100px;" src="/images/icons/signal-white.svg">
                     <h5>Signal strength</h5>
                 </div>
             </div>

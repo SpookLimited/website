@@ -1,5 +1,5 @@
 - title: Temperature
-  image: /images/sensor/icons/temperature.svg
+  image: /images/sensor/icons/temperature-white.svg
   text: Thermal condition monitoring.
   section-link: temperature
   reverse: 0
@@ -7,9 +7,10 @@
   words:
       - Temperature monitoring is an important measurement for climate control and is perhaps the most commonly measured condition of all environmental states.
       - Whether you need to know if it's too hot, too cold or simply that there is a rapid change; measuring the activity of temperature is key to climate monitoring.
+  extra-include: sensor/temperature-information.html 
 
 - title: Humidity
-  image: /images/sensor/icons/humidity.svg
+  image: /images/sensor/icons/humidity-white.svg
   text: Atmospheric moisture control.
   section-link: humidity
   reverse: 1
@@ -19,7 +20,7 @@
       - As air temperature decreases, the air's ability to hold water decreases. The effects of too high and too low humidity can directly impact the safe running of equipment.
 
 - title: Dew point
-  image: /images/sensor/icons/dewpoint.svg
+  image: /images/sensor/icons/dewpoint-white.svg
   text: Water droplet condensation.
   section-link: dewpoint
   reverse: 0
@@ -29,7 +30,7 @@
       - Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C). Try Spook's free dew point calculator <a href='#'>here</a>.
 
 - title: Airflow
-  image: /images/sensor/icons/airflow.svg
+  image: /images/sensor/icons/airflow-white.svg
   text: Measuring the movement of air.
   section-link: airflow
   reverse: 1
@@ -39,7 +40,7 @@
       - According to the UK Health and Safety Executive (HSE) the risk of air conditioning spreading coronavirus in the workplace is extremely low as long as there is an adequate supply of fresh air and ventilation.
 
 - title: Water ingress
-  image: /images/sensor/icons/water.svg
+  image: /images/sensor/icons/water-white.svg
   text: Water and moisture monitoring
   section-link: water
   reverse: 0
@@ -49,7 +50,7 @@
       - Whether there is a burst water pipe, build up of storm water or a boiler leak; knowing there is water ingress gives valuable early warning time to remedy matters before it becomes a deluge.
 
 - title: Light
-  image: /images/sensor/icons/light.svg
+  image: /images/sensor/icons/light-white.svg
   text: Measuring LUX (luminescence/unit area).
   section-link: light
   reverse: 1

@@ -31,7 +31,7 @@ layout: monitoring/key-pages/base
 </section>
 {% for item in site.data.environmental.header-item %}
 <section id="{{ item.section-link }}">
-	<div class="container">
+	<div class="container" style="background-color: #212121; color: #fff; padding: 2em;">
 		<div class="is-row" {% if item.reverse == 1 %}style="flex-direction: row-reverse;"{% endif %}>
 			<div class="is-col is-40" style="background-image: url('{{ item.image }}'); background-size: contain; background-repeat: no-repeat; background-position: center;">
 			</div>
@@ -43,6 +43,11 @@ layout: monitoring/key-pages/base
 				<p><a class="button is-secondary" href="{{ item.link }}">More details</a> <a href="#top" class="button is-inverted">Back to top</a></p>
 			</div>
 		</div>
+	</div>
+	<div class="container" style="margin-top: 2em;">
+		{% if item.extra-include %}
+		{% include {{ item.extra-include }} %}
+		{% endif %}
 	</div>
 </section>
 {% endfor %}

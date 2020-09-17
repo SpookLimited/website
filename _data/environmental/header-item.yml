@@ -1,5 +1,6 @@
 - title: Temperature
-  image: /images/sensor/icons/temperature-white.svg
+  image: /images/sensor/icons/temperature.svg
+  icon: /images/sensor/icons/temperature-white.svg
   text: Thermal condition monitoring.
   section-link: temperature
   reverse: 0
@@ -10,7 +11,8 @@
   extra-include: sensor/temperature-information.html 
 
 - title: Humidity
-  image: /images/sensor/icons/humidity-white.svg
+  image: /images/sensor/icons/humidity.svg
+  icon: /images/sensor/icons/humidity-white.svg
   text: Atmospheric moisture control.
   section-link: humidity
   reverse: 1
@@ -18,9 +20,11 @@
   words:
       - Measuring relative humidity (RH) is important because the amount of water that can be contained within a volume of air is not fixed. As air temperature increases the air has the ability to hold more and more water vapour.
       - As air temperature decreases, the air's ability to hold water decreases. The effects of too high and too low humidity can directly impact the safe running of equipment.
+  extra-include: sensor/humidity-information.html
 
 - title: Dew point
-  image: /images/sensor/icons/dewpoint-white.svg
+  image: /images/sensor/icons/dewpoint.svg
+  icon: /images/sensor/icons/dewpoint-white.svg
   text: Water droplet condensation.
   section-link: dewpoint
   reverse: 0
@@ -28,9 +32,11 @@
   words:
       - Dew point is inextricably linked between temperature and relative humidity. Dew point is the temperature at which water vapour in the air starts condensing.
       - Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C). Try Spook's free dew point calculator <a href='#'>here</a>.
+  extra-include: sensor/dew-point-information.html
 
 - title: Airflow
-  image: /images/sensor/icons/airflow-white.svg
+  image: /images/sensor/icons/airflow.svg
+  icon: /images/sensor/icons/airflow-white.svg
   text: Measuring the movement of air.
   section-link: airflow
   reverse: 1
@@ -38,9 +44,11 @@
   words:
       - Airflow monitoring has always been important to ensure ducts and airways are free from blockage. However, since the Covid-19 epidemic of 2020 airflow monitoring is fast becoming a necessity.
       - According to the UK Health and Safety Executive (HSE) the risk of air conditioning spreading coronavirus in the workplace is extremely low as long as there is an adequate supply of fresh air and ventilation.
+  extra-include: sensor/airflow-information.html
 
 - title: Water ingress
-  image: /images/sensor/icons/water-white.svg
+  image: /images/sensor/icons/water.svg
+  icon: /images/sensor/icons/water-white.svg
   text: Water and moisture monitoring
   section-link: water
   reverse: 0
@@ -48,9 +56,11 @@
   words:
       - Monitoring water ingress is one of the most important conditions to monitor as water has the power to cause immediate disruption. Water has the potential to do the most damage in the shortest amount of time.
       - Whether there is a burst water pipe, build up of storm water or a boiler leak; knowing there is water ingress gives valuable early warning time to remedy matters before it becomes a deluge.
+  extra-include: sensor/water-information.html
 
 - title: Light
-  image: /images/sensor/icons/light-white.svg
+  image: /images/sensor/icons/light.svg
+  icon: /images/sensor/icons/light-white.svg
   text: Measuring LUX (luminescence/unit area).
   section-link: light
   reverse: 1
@@ -58,3 +68,4 @@
   words:
       - Monitoring light has many applications, from knowing whether lights are on or off for safety reasons to more security based applications such as monitoring light in parking lots, garages and common areas of use in commercial buildings, they all benefit from monitoring light.
       - Measuring light is also importation to agricultural businesses such as greenhouse and crop management, understanding LUX (luminescence/unit area) can assist maximising growing conditions of plants and vegetation.
+  extra-include: sensor/light-information.html

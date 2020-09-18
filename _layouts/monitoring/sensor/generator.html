@@ -3,29 +3,10 @@ layout: base
 ---
 <header>
 	<div class="container">
-		<h1>Generator monitoring</h1>
 		<h3>Real-time data collection</h3>
+		<h1>Generator monitoring</h1>
 	</div>
 </header>
-<section>
-	<div class="container">
-		<blockquote>
-			<p>We monitor our diesel generator to enable us to present key operating status metrics while it is in use. The generator is some distance from our IT department so knowing when it is running as well as identifying important information like fuel level, auto-start, low battery, at rest and fault are valuable data. Spook OmniWatch helps prove our ‘fail over’ tests to support our departmental and achieve our Key Performance Indicators(KPI’s).</p>
-			<p class="is-small">P&O Ferrymasters - European providers of tailor-made transportation and logistics services.</p>
-		</blockquote>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h2>The benefits of generator monitoring</h2>
-		<p>Most businesses know the importance of installing a diesel generator (generator) as an emergency source of electrical power. Often referred to as power redundancy, generators provide important mid to long term electrical power upon the loss of normal power supply.</p>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<p>Investment in a generator is usually twinned with installing an Uninterruptible Power Supply (UPS monitoring). Whereas a UPS is designed to provide seamless power for a short period of time while IT systems can be managed and shut down, generators provide a reliable source of back-up emergency power for longer periods of time.</p>
-	</div>
-</section>
 <section>
 	<div class="container">
 		<h2>Power redundancy</h2>
@@ -36,40 +17,84 @@ layout: base
 </section>
 <section>
 	<div class="container">
-		<h2>Avoiding potential damage</h2>
-		<p>It is not a well known fact but the less energy expended by the diesel generator, the shorter it lasts.</p>
-		<p>When generators are used at less than 70% of capacity, it places excess wear on the engine.</p>
+		<h2>The benefits of generator monitoring</h2>
+		<p>Installing a diesel generator as an emergency source of electrical power provides important mid to long term electrical power upon the loss of normal power supply.</p>
+		<p>Generators provide a reliable source of back-up emergency power for longer periods of time. Due to how a generator is used it is more often than not stored outside or in an area that is not normally accessed by staff. By monitoring the generator you can be instantly alerted to any change in state or mechanical issues.</p>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<h2>Dangers of under-loading</h2>
-		<p>One of the most common causes of damage to generators is when they’re under-loaded. That is, generators function most effectively when they’re operating at high capacity. When they’re used for low capacity tasks (such as powering 10% of the voltage load), they can start to build up carbon and internal glazing.</p>
-		<p>Eventually, soot and residue from unused fuel can accumulate and clog the generator’s piston rings.</p>
-		<p>The longer this happens, the more pronounced the degradation of the diesel generator’s system. To avoid this, generators should have a capacity at approximately 70% of the maximum load.</p>
+		<div class="is-row is-items-middle">
+			<div class="is-col is-30">
+				<img src="/images/devices/generator.svg">
+			</div>
+			<div class="is-col is-70">
+				<div class="is-row is-text-center">
+					{% for item in site.data.generator.monitored-metrics %}
+						<div class="is-col is-25 is-stack-20">
+							<img style="padding-top: 2em; padding-left: 2em; padding-right: 2em; padding-bottom: .5em;" src="{{ item.icon }}">
+							<h5>{{ item.name }}</h5>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>	
+</section>
+<section>
+	<div class="container">
+		<div class="is-row is-gapless is-border">
+			<div class="is-col is-70 is-inset-20">
+				<h2>Avoiding potential damage and dangers of under-loading</h2>
+				<p>One of the most common causes of damage to generators is when they’re under-loaded. That is, generators function most effectively when they’re operating at high capacity. When they're used for low capacity tasks (such as powering 10% of the voltage load), they can start to build up carbon and internal glazing.</p>
+				<p>Eventually, soot and residue from unused fuel can accumulate and clog the generator’s piston rings.</p>
+				<p>The longer this happens, the more pronounced the degradation of the diesel generator’s system. To avoid this, generators should have a capacity at approximately 70% of the maximum load.</p>
+			</div>
+			<div class="is-col is-30 block is-inset-20">
+				<p class="is-large">It is not a well known fact but the less energy expended by the diesel generator, the shorter it lasts.</p>
+				<p class="is-large">When generators are used at less than 70% of capacity, it places excess wear on the engine.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container" style="background-image: url('/images/monitoring/generator/generator-background.png'); background-position: center; background-size: cover; background-repeat: no-repeat; padding: 2em;">
+		<img src="/images/devices/generator-manufacturers.svg">
 	</div>
 </section>
 <section>
 	<div class="container">
-		<h2>UPS intervention</h2>
-		<p>One effective strategy for accomplishing this is to use a UPS for short-term emergencies. Then, have a diesel generator available for long-term outages.</p>
-		<p>Though generators tend to be expensive, their value as a dependable source of electricity can make them a worthwhile investment.</p>
+		<div class="is-row is-items-middle">
+			<div class="is-col is-30">
+				<img src="/images/customer-logo/pando.svg"> 
+			</div>
+			<div class="is-col is-70">
+				<blockquote>
+					<p>We monitor our diesel generator to enable us to present key operating status metrics while it is in use. The generator is some distance from our IT department so knowing when it is running as well as identifying important information like fuel level, auto-start, low battery, at rest and fault are valuable data. Spook OmniWatch helps prove our fail over tests to support our departmental and achieve our Key Performance Indicators(KPI’s).</p>
+					<p class="is-small">P&O Ferrymasters - European providers of tailor-made transportation and logistics services.</p>
+				</blockquote>
+			</div>
+		</div>
 	</div>
 </section>
 <section>
 	<div class="container">
-		<h2>Network cards and Voltage Free Contacts</h2>
-		<p>Modern generators have network cards or Voltage Free Connection (VFC) panels to monitor key operating conditions.</p>
-		<p>Typical generator monitoring measures:</p>
-		<ul>
-			<li>Voltage</li>
-			<li>Frequency</li>
-			<li>Oil temperature</li>
-			<li>Water temperature</li>
-			<li>Battery condition</li>
-			<li>Emergency stop (EPO) status</li>
-			<li>Fuel levels</li>
-		</ul>
+		<div class="is-row">
+			<div class="is-col">
+				<h2>Add UPS monitoring for full redundancy power monitoring</h2>
+				<p>Sites will often utilise UPSs alongside generators to ensure that there is always available power during the switchover.</p>
+				<p>OmniWatch allows for users to monitor both from a central solution, removing the hassle of switching between manufacturer provided software, as well as instant alerts via email, SMS and call centre.</p>
+			</div>
+			<div class="is-col block is-text-center is-inset-20">
+				<a class="button is-inverted" href="/monitoring/sensor/ups/">Read more about UPS monitoring</a>
+			</div>
+		</div>
 	</div>
 </section>
-
+<section class="block">
+	<div class="container">
+		<h2>Getting in touch with Spook</h2>
+		<p>Please contact us if you wish for further information on how Spook can help you monitor your generators.</p>
+		<p><a href="/contact" class="button">Contact us</a></p>
+	</div>
+</section>

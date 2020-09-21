@@ -3,18 +3,10 @@ layout: base
 ---
 <header>
 	<div class="container">
-		<h1>PDU monitoring</h1>
 		<h3>Real-time data collection</h3>
+		<h1>PDU monitoring</h1>
 	</div>
 </header>
-<section>
-	<div class="container">
-		<blockquote>
-			<p>Following a potential disaster when an entire switch chassis shared an overloaded Power Distribution Unit (PDU), we had a new requirement to monitor mains and UPS power consumption at Power Distribution Unit level for each of our IT racks in head office. Spook OmniWatch monitors the power metrics of each PDU. We now centrally manage our required power metrics. We can also plan in advance any preventative maintenance in a well informed manner by reviewing the trend data provided by OmniWatch’s on-demand reports.</p>
-			<p class="is-small">Henry Schein - A Fortune 500 Worlds Most Admired Company.</p>
-		</blockquote>
-	</div>
-</section>
 <section>
 	<div class="container">
 		<h2>The benefits of PDU monitoring</h2>
@@ -25,9 +17,21 @@ layout: base
 </section>
 <section>
 	<div class="container">
-		<h2>Power usage variances</h2>
-		<p>Today's processing techniques means that equipment has additional power management capabilities like moving virtual loads, auto changing clock frequencies and adjusting voltage magnitudes.</p>
-		<p>So while the power variation impact was in the low percentiles two decades ago, today’s servers can vary with easily up to 50% to 100% as on-demand power increases. This can result in numerous issues, including overheating, branch circuit overload and loss of redundancy.</p>
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<img src="/images/monitoring/pdu/power-consumption-comparison.svg">
+			</div>
+			<div class="is-col">
+				<h2>Power usage variances</h2>
+				<p>Today's processing techniques means that equipment has additional power management capabilities like moving virtual loads, auto changing clock frequencies and adjusting voltage magnitudes.</p>
+				<p>So while the power variation impact was in the low percentiles two decades ago, today’s servers can vary with easily up to 50% to 100% as on-demand power increases. This can result in numerous issues, including overheating, branch circuit overload and loss of redundancy.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container" style="background-image: url('/images/monitoring/pdu/pdu-overview.png'); background-position: center; background-size: cover; background-repeat: no-repeat; padding: 2em;">
+		<img class="is-inset-20" src="/images/devices/pdu-manufacturers.svg">
 	</div>
 </section>
 <section>
@@ -46,11 +50,34 @@ layout: base
 </section>
 <section>
 	<div class="container">
-		<h2>Temperature</h2>
-		<p>Servers in general consume power and release it as heat, but when there are large variances in consumption because of workloads, the heat released from IT equipment also rises.</p>
-		<p>Therefore sudden fluctuations in server power consumption can cause dangerous increases in temperature, creating unplanned heat spots.</p>
-		<p>While data centres have cooling systems, they may not be designed to handle specific localised hot spots.</p>
-		<p>As temperature rises, equipment is likely to auto-shut down or act abnormally.</p>
-		<p>Many intelligent power strips have on-board temperature sensors and this can be supplemented to by including separate temperature probes to monitor intake and vented temperature.</p>
+		<div class="is-row is-gapless is-border">
+			<div class="is-col is-30 block is-inset-20 is-text-center">
+				<h3 class="is-outset-y-60">Find out more about temperature monitoring.<h3>
+				<p><a href="/monitoring/sensors/temperature/" class="button is-inverted">Read more</a></p>
+			</div>
+			<div class="is-col is-70 is-inset-20">
+				<h2>Temperature</h2>
+				<p>Servers in general consume power and release it as heat, but when there are large variances in consumption because of workloads, the heat released from IT equipment also rises.</p>
+				<p>Therefore sudden fluctuations in server power consumption can cause dangerous increases in temperature, creating unplanned heat spots.</p>
+				<p>While data centres have cooling systems, they may not be designed to handle specific localised hot spots.</p>
+				<p>As temperature rises, equipment is likely to auto-shut down or act abnormally.</p>
+				<p>Many intelligent power strips have on-board temperature sensors and this can be supplemented to by including separate temperature probes to monitor intake and vented temperature.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col is-30">
+				<img src="/images/customer-logo/henry-schein.svg"> 
+			</div>
+			<div class="is-col is-70">
+				<blockquote>
+				<p>Following a potential disaster when an entire switch chassis shared an overloaded Power Distribution Unit (PDU), we had a new requirement to monitor mains and UPS power consumption at Power Distribution Unit level for each of our IT racks in head office. Spook OmniWatch monitors the power metrics of each PDU. We now centrally manage our required power metrics. We can also plan in advance any preventative maintenance in a well informed manner by reviewing the trend data provided by OmniWatch’s on-demand reports.</p>
+				<p class="is-small">Henry Schein - A Fortune 500 Worlds Most Admired Company.</p>
+				</blockquote>
+			</div>
+		</div>
 	</div>
 </section>

@@ -3,18 +3,10 @@ layout: base
 ---
 <header>
 	<div class="container">
-		<h1>UPS monitoring</h1>
 		<h3>Real-time data collection</h3>
+		<h1>UPS monitoring</h1>
 	</div>
 </header>
-<section>
-	<div class="container">
-		<blockquote>
-			<p>During recent roadworks the mains power was lost to our London server room. Thanks to OmniWatch our IT team in the Midlands could monitor our UPS systems in London to ensure they were providing back-up power during the outage. We could keep an eye on each power phase as well as knowing the ‘time remaining’ on each UPS. Afterwards we could produce audit reports to prove to management that our UPS systems continued seamless power provision in accordance with our plans.</p>
-			<p class="is-small">Waterstones - The last remaining chain of specialist bookshops on the highstreet.</p>
-		</blockquote>
-	</div>
-</section>
 <section>
 	<div class="container">
 		<h2>The benefits of UPS monitoring</h2>
@@ -24,9 +16,28 @@ layout: base
 <section>
 	<div class="container">
 		<h2>What is a UPS?</h2>
-		<p>The installation of an Uninterruptible Power Supplies (UPS systems) can be anything from a small black box protecting the power to a key server closet up to a mega-watt utility with the capacity to power big business.</p>
-		<p>However, the majority are designed to be the ‘belt and braces’ between providing seamless power for a short period of time while IT systems can be managed and shut down or straddling the incoming power of a ‘stand-by’ power generator.</p>
+		<p>The installation of an Uninterruptible Power Supplies (UPS) can be anything from a small black box protecting the power to a key server closet up to a mega-watt utility with the capacity to power big business.</p>
+		<p>However, the majority are designed to be the belt and braces between providing seamless power for a short period of time while IT systems can be managed and shut down or straddling the incoming power of a stand-by power generator.</p>
 	</div>
+</section>
+<section class="grey">
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col is-30">
+				<img src="/images/monitoring/ups/ups.svg">
+			</div>
+			<div class="is-col is-70">
+				<div class="is-row is-text-center">
+					{% for item in site.data.ups.monitored-metrics %}
+						<div class="is-col is-33 is-stack-20">
+							<img style="padding-top: 2em; padding-left: 2em; padding-right: 2em; padding-bottom: .5em;" src="{{ item.icon }}">
+							<h5>{{ item.name }}</h5>
+						</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>	
 </section>
 <section>
 	<div class="container">
@@ -34,7 +45,7 @@ layout: base
 		<p>What most UPS systems have in common is that the investment is considerable. Many are network attached and will have their own network interfaces providing key metrics and usage data as well as broadcasting alerts when certain changes are triggered.</p>
 		<p>For systems that are not network attached, there is usually a facility to connect to a Voltage Free Connection (VFC) panel to monitor certain conditions.</p>
 		<p>When using a VFC there are two types of condition to monitor, NO (Normally Open) or NC (Normally Closed).</p>
-		<p>Spook recommends setting equipment to NO when the alarm status is within the normal operating mode (when good). Therefore, if the interconnecting cable connecting the sensor to the monitoring unit is cut or becomes loose, the sensor will send an alarm.</p>
+		<p>Spook recommends setting equipment to NO when the alarm status is within the normal operating mode. Therefore, if the interconnecting cable connecting the sensor to the monitoring unit is cut or becomes loose, the sensor will send an alarm.</p>
 	</div>
 </section>
 <section>
@@ -48,7 +59,30 @@ layout: base
 	<div class="container">
 		<h2>UPS environmental monitoring</h2>
 		<p>Monitoring the environment of a UPS is as important as monitoring the temperature of a server room.</p>
-		<p>Many UPS’s have battery banks associated with them. These battery banks contain individual batteries that require the ambient environment to be within the guidelines of the manufacturer.</p>
+		<p>Many UPS's have battery banks associated with them. These battery banks contain individual batteries that require the ambient environment to be within the guidelines of the manufacturer.</p>
 		<p>It's important to be able to prove the operating environment of a UPS and associated batteries in order to maintain its warranty protection.</p>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col is-30">
+				<img src="/images/customer-logo/pando.svg"> 
+			</div>
+			<div class="is-col is-70">
+				<blockquote>
+					<p>During recent roadworks the mains power was lost to our London server room. Thanks to OmniWatch our IT team in the Midlands could monitor our UPS systems in London to ensure they were providing back-up power during the outage. We could keep an eye on each power phase as well as knowing the time remaining on each UPS. Afterwards we could produce audit reports to prove to management that our UPS systems continued seamless power provision in accordance with our plans.</p>
+					<p class="is-small">Waterstones - The last remaining chain of specialist bookshops on the highstreet.</p>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="block">
+	<div class="container">
+		<h2>Getting in touch with Spook</h2>
+		<p>Please contact us if you wish for further information on how Spook can help you monitor your generators.</p>
+		<p><a href="/contact" class="button">Contact us</a></p>
 	</div>
 </section>

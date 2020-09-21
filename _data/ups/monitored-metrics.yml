@@ -1,0 +1,17 @@
+- name: Run time remaining
+  icon: /images/sensor/icons/time-remaining.svg
+
+- name: Battery capacity
+  icon: /images/icons/battery.svg
+
+- name: UPS errors
+  icon: /images/sensor/icons/error.svg
+
+- name: Amps
+  icon: /images/sensor/icons/alternatingcurrent.svg
+
+- name: Volts
+  icon: /images/sensor/icons/kwh.svg
+
+- name: Frequency
+  icon: /images/sensor/icons/activity.svg

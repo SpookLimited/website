@@ -8,12 +8,60 @@ layout: base
 		<p><a class="button" style="margin-top: 2em; margin-right: 1em;" href="/contact/">Contact us</a> <a class="button is-secondary" style="margin-top: 2em;" href="#">Book demo</a></p>
 	</div>
 </header>
-<section>
+<section class="grey">
 	<div class="container">
-		<h2>The benefits of PDU monitoring</h2>
-		<p>Keeping an eye on server room and data centre power metrics is becoming a prerequisite as the importance of power load balancing and knowing the cost of providing power to the facility increases.</p>
-		<p>In just two decades the way servers consume power has changed beyond imagination. Back in the day variances in server power was largely due to disk drive spin-up and fans being invoked.</p>
-		<p>Today's complex server configurations means that variances in power required for disk utilisation is reduced but more power is consumed when computational loads are enforced.</p>
+		<div class="is-row">
+			<div class="is-col is-60">
+				<img alt="Monitored PDU" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
+				<div class="is-row">
+					<div class="is-col">
+						<p><strong>Total Amps</strong></p>
+						<p class="is-large"><strong>6.9A</strong></p>
+					</div>
+					<div class="is-col">
+						<p><strong>Stranded Power</strong></p>
+						<p class="is-large"><strong>9.1A</strong></p>
+					</div>
+					<div class="is-col">
+						<p><strong>Volts</strong></p>
+						<p class="is-large"><strong>230V</strong></p>
+					</div>
+					<div class="is-col">
+						<p><strong>kWh</strong></p>
+						<p class="is-large"><strong>29.7</strong></p>
+					</div>
+				</div>
+				<table class="is-small">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Name</th>
+							<th>Status</th>
+							<th>Amps</th>
+							<th>Wh</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for socket in site.data.power-monitoring.sockets %}
+						<tr>
+							<td>{{ socket.id }}</td>
+							<td>{{ socket.name }}</td>
+							<td><span style="display: inline-block; width: 20px; height: 20px; border-radius: 100%; background-color: rgba(156,204,101,0.6); margin-right: 10px;"></span> On</td>
+							<td>{{ socket.amps }}</td>
+							<td>{{ socket.wh }}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+			<div class="is-col is-40">
+				<h2>The benefits of PDU monitoring</h2>
+				<p>Keeping an eye on server room and data centre power metrics is becoming a prerequisite as the importance of power load balancing and knowing the cost of providing power to the facility increases.</p>
+				<p>In just two decades the way servers consume power has changed beyond imagination. Back in the day variances in server power was largely due to disk drive spin-up and fans being invoked.</p>
+				<p>Today's complex server configurations means that variances in power required for disk utilisation is reduced but more power is consumed when computational loads are enforced.</p>
+				<p><a href="/monitoring/power-monitoring/" class="button">More on power monitoring</a></p>
+			</div>
+		</div>
 	</div>
 </section>
 <section>

@@ -89,6 +89,15 @@ layout: monitoring/base
 <section>
 	<div class="container">
 		<h2>{{ item.title }}</h2>
+		{% for word in item.words %}
+		<p>{{ word }}</p>
+		{% endfor %}
+		{% for sensor in item.sensors %}
+			<h3>{{ sensor.name }}</h3>
+			{% for para in sensor.words %}
+				<p>{{ para }}</h3>
+			{% endfor %}
+		{% endfor %}
 	</div>
 </section>
 {% endfor %}

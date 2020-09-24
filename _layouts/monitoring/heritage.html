@@ -7,38 +7,38 @@ layout: monitoring/base
 		display: block;
 		margin: 0 auto;
 	}
+	.item-img{
+		max-width: 100px;
+		max-height: 100px;
+		display: block;
+		margin: 0 auto;
+	}
 </style>
 <section>
 	<div class="container">
-		<div class="is-row is-items-middle">
+		<div class="is-40 is-stack-40">
+			<p class="is-large">Spook's remote monitoring service called OmniWatch together with Spook’s range of wireless sensors are ideal for the heritage industry that usually requires discrete monitoring for organisations such as museums, galleries, libraries, private collections and archives.</p>
+		</div>
+		<div class="is-row is-items-middle is-text-center">
 			<div class="is-col">
-				<p>Spook’s remote monitoring service called OmniWatch together with Spook’s range of wireless sensors are ideal for the heritage industry that usually requires discrete monitoring for organisations such as museums, galleries, libraries, private collections and archives.</p>
+				<img alt="Archive documents" class="introduction-img" src="/images/sections/heritage/introduction/archive.svg">
+				<p>Archives</p>
 			</div>
-			<div class="is-col is-text-center">
-				<div class="is-row">
-					<div class="is-col">
-						<img alt="Archive documents" class="introduction-img" src="/images/sections/heritage/introduction/archive.svg">
-						<p>Archives</p>
-					</div>
-					<div class="is-col">
-						<img alt="Art galleries" class="introduction-img" src="/images/sections/heritage/introduction/gallery.svg">
-						<p>Galleries</p>
-					</div>
-				</div>
-				<div class="is-row">
-					<div class="is-col">
-						<img alt="Libraries" class="introduction-img" src="/images/sections/heritage/introduction/library.svg">
-						<p>Libraries</p>
-					</div>
-					<div class="is-col">
-						<img alt="Museums" class="introduction-img" src="/images/sections/heritage/introduction/museum.svg">
-						<p>Museums</p>
-					</div>
-					<div class="is-col">
-						<img alt="Private collections" class="introduction-img" src="/images/sections/heritage/introduction/private-collection.svg">
-						<p>Private collections</p>
-					</div>
-				</div>
+			<div class="is-col">
+				<img alt="Art galleries" class="introduction-img" src="/images/sections/heritage/introduction/gallery.svg">
+				<p>Galleries</p>
+			</div>
+			<div class="is-col">
+				<img alt="Libraries" class="introduction-img" src="/images/sections/heritage/introduction/library.svg">
+				<p>Libraries</p>
+			</div>
+			<div class="is-col">
+				<img alt="Museums" class="introduction-img" src="/images/sections/heritage/introduction/museum.svg">
+				<p>Museums</p>
+			</div>
+			<div class="is-col">
+				<img alt="Private collections" class="introduction-img" src="/images/sections/heritage/introduction/private-collection.svg">
+				<p>Private collections</p>
 			</div>
 		</div>
 	</div>
@@ -50,94 +50,48 @@ layout: monitoring/base
 		<p>Add into the mix that heritage organisations are now lending more of their collections and collaborating with each other means professional but discrete environmental and security monitoring is critical both in static exhibition spaces and while collections are in transit and at temporary ‘pop-up’ or ‘guest’ exhibition spaces.</p>
 	</div>
 </section>
-<section>
+<section class="block">
 	<div class="container">
 		<h2>Transportation and logistics</h2>
 			<p>Often the preparation for pop-up or guest exhibitions begins months or even years in advance. Whether the exhibition is to be held in a counter museum on the other side of the world or in a temporary exhibition space in the UK means the logistics behind transporting fragile objects requires careful planning.</p>
 			<p>Before leaving the confines of the parent organisation all objects must be assessed by conservators to see whether or not they are stable enough to travel. If objects are particularly fragile decisions need to be made on what needs to be done in order to transport them safely.</p>
 			<p>Key areas for consideration are security, environmental threats and knowing exactly where consignments are in real time.</p>
 			<p>Occasionally certain kinds of objects, for instance delicate ivories, artefacts, fabrics and paintings; will require special conservation materials to be included in order to maintain steady environmental conditions whilst in transit and while being displayed at the temporary location.</p>
-			<p>Spook has designed a mobile monitoring solution precisely for this called TRIG (Transportable RIG).</p>
 	</div>
 </section>
+<section class="grey">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<h2>Leading causes of decay and destruction</h2>
+				<p>According to the Canadian Conservation Institute (CCI) there are 9 Agents of Decay responsible for decay and destruction of objects within collections.</p>
+			</div>
+			<div class="is-col">
+				<div class="is-row">
+					{% for item in site.data.heritage.leading-causes %}
+					<div class="is-col is-50">
+						<div class="is-row is-items-middle">
+							<div class="is-col is-30">
+								<img class="item-img" src="{{ item.icon }}">		
+							</div>
+							<div class="is-col is-70">
+								<p>{{ item.name }}</p>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% for item in site.data.heritage.heritage-sensors %}
 <section>
 	<div class="container">
-		<h2>Leading causes of decay and destruction</h2>
-		<p>According to the Canadian Conservation Institute (CCI) there are 9 Agents of Decay responsible for decay and destruction of objects within collections.</p>
-		<ol>
-			<li>Direct physical forces</li>
-			<li>Thieves, vandals and displacers</li>
-			<li>Fire</li>
-			<li>Water</li>
-			<li>Pests</li>
-			<li>Contaminants</li>
-			<li>Light</li>
-			<li>Incorrect temperature</li>
-			<li>Incorrect relative humidity (RH)</li>
-		</ol>
+		<h2>{{ item.title }}</h2>
 	</div>
 </section>
-<section>
-	<div class="container">
-		<h2>Security</h2>
-		<p>Heritage organisations often tread the fine line between public enjoyment and protection of valuable assets.</p>
-		<p>Grade listed buildings, exhibition spaces and areas with delicate fabrics and wall coverings all need to manage the difficult balance between members of the public viewing them and the organisation conserving them providing adequate protection.</p>
-
-		<h3>Activity sensors</h3>
-		<p>For important or irreplaceable items a small activity detection sensor is available. Spook’s wireless activity sensors can be used to determine if assets (art-work) is removed from the premises, or just moved in general. Any vibration or sudden movement would cause an alarm. Activity sensors are ideal to place on protective glass covering exhibits. Any unexpected movement of the glass is usually indicative of intruder or theft.</p>
-
-		<h3>Open/closed status</h3>
-		<p>Spook wireless open/closed sensors provide information on the status of doors, windows, cabinets, etc. Knowing if doors or windows are open is an important feature. Cabinets and rooms that contain secure items may also need to be monitored.</p>
-
-		<h3>Infrared (IR) sensors</h3>
-		<p>Spook wireless IR sensors are designed to locate movement even in completely dark environments, perfect for additional after-hours security.</p>
-
-		<h3>Boundary/pressure pad sensors</h3>
-		<p>These sensors are ideal for areas that need to allow viewing platforms or areas to members of the public and to protect ‘no go’ boundaries. Often these areas are simply protected with a perimeter rope and exhibition security staff are employed to ensure no one intrudes beyond the permitted area.</p>
-		<p>By installing Spook wireless open/closed sensors to IR beams and pressure pads, any vulnerable area can be monitored with ease. Subtle alerts can be discretely sent to security staff within the vicinity. This ensures public viewing of exhibits remain calm and members of the public are not unduly panicked while enjoying their visit should someone inadvertently or purposely stray over a monitored sensor.</p>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h2>Water ingress</h2>
-		<p>Water ingress has the ability to cause damage in a matter of seconds. Spook’s range of wireless water sensors are ideal to monitor for water ingress. Whether it is water leaks from overhead pipework or leaking Air Conditioning (AC) units, all have the ability to cause substantial damage.</p>
-		<p>Objects within the affected area can be instantly destroyed or waterlogged from the leak. Additionally, items that are then incorrectly dried can lead to corrosion, mould to occur or end up warping or falling apart.</p>
-		<p>The drying out process for water damaged areas is prolonged too. Public areas may be cordoned off for substantial periods of time. If using heated extractor fans to assist, this often causes health and safety issues to be considered and as a consequence restrict viewing or working areas.</p>
-		<p>Older properties, especially ones that are Grade listed or protected, often have old pipework, leaky roofs and boiler rooms that may need monitoring. By installing Spook wireless water sensors in areas of concern means any unseen leaks can be addressed quickly. </p>
-		<p>Reaction to a water alert such as getting the maintenance team on the scene rapidly to deal with the issue and take remedial action can be instrumental in preventing bigger problems occurring.</p>
-		
-		<h3>Natural flood</h3>
-		<p>Equally worrying is natural flood. We live in an era whereby unusual weather patterns can quickly cause flash floods. It is easy for a flash downpour to cause local flooding or entrapment of water in ducts and guttering around buildings.</p>
-		<p>Spook has an array of wireless water sensors designed for detecting water ingress immediately.</p>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h2>Light (LUX - luminescence/unit area)</h2>
-		<p>Galleries and viewing areas are often lit to set the appropriate mood, there are usually special requirements to ensure images, pictures and fabrics remain pristine. Spook wireless light meters are a perfect solution to track LUX to help avoid accidental lighting mistakes.</p>
-		<p>Light needs to be managed, whether it is with automatic dimmers or by the more conventional method of staff entering an area to close blinds to prevent sun damage.</p>
-		<p>Because Spook’s OmniWatch monitoring service retains Spook sensor readings in perpetuity, reports can be produced to study long-term trend data. Analysis can be gained to predict light patterns at different times of day, season or even year. By understanding the cyclical changes to light means planning and building ‘LUX’ routines is achievable.</p>
-		<p>Many heritage organisations have areas that are sensitive to light. Sometimes they have a specified "Light Budget." Spook wireless light sensors are ideal for tracking and managing "Lux Hours”.</p>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h2>Temperature</h2>
-		<p>Spook wireless temperature sensors come in a few options. Ambient temperature sensors are compact and sealed in the body of the sensor but variations are available in the form of various temperature probes.</p>
-		<p>The Association of Independent Museums (AIM) highlights the importance of maintaining stable temperatures. Fluctuating temperatures cause greater damage to the collections than achieving a constant level.</p>
-		<p>Heritage organisations sometimes struggle between keeping temperatures low for exhibited collections while the exhibition spaces are generally heated to accommodate members of the public. Typical temperature ranges for human comfort levels is around 17-21°C. However, storage of items can be kept at lower temperatures to slow down degradation.</p>
-	</div>
-</section>
-<section>
-	<div class="container">
-		<h2>Humidity</h2>
-		<p>Spook wireless humidity sensors measure the Relative Humidity (RH) in an area.</p>
-		<p>AIM recommends RH to be maintained as closely as possible within a 20% variance. This allows for daily and annual seasonal changes to be taken into account.</p>
-		<p>Commonly used bands are 40%-60% or 45%-65%. However, acceptable levels may vary depending on what is achievable locally and that which best suits the needs of the particular items in the heritage collections.</p>
-		<p>Daily RH fluctuations tend to be more damaging than constant levels. Even seasonal changes can have a detrimental effect. However, humidity levels in museums and art galleries are notoriously difficult to maintain consistently. The constant influx of people through a room will cause the temperature and humidity to fluctuate. One minute a room may be full of visitors and the next it is empty.</p>
-		<p>Picture frames shrinking, textiles becoming brittle, paint on canvas flaking and furniture joints loosening are all symptoms of a dry atmosphere. When these effects occur in a museum or art gallery the results can be catastrophic.</p>
-	</div>
-</section>
+{% endfor %}
 <section>
 	<div class="container">
 		<div class="is-row is-items-middle">

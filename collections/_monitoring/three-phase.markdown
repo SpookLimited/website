@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/three-phase
-permalink: /monitoring/sensors/three-phase-current
+permalink: /monitoring/sensor/three-phase-current
 type: sensor
 title: 3 phase current monitoring
 header: 3 phase current monitoring

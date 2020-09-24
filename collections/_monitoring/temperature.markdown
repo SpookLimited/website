@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/temperature
-permalink: /monitoring/sensors/temperature
+permalink: /monitoring/sensor/temperature
 type: sensor
 title: Temperature monitoring
 header: Temperature monitoring

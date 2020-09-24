@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/asset
-permalink: /monitoring/sensors/asset-monitoring
+permalink: /monitoring/sensor/asset-monitoring
 type: sensor
 title: Asset monitoring
 header: Asset monitoring

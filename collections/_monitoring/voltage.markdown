@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/voltage-meter
-permalink: /monitoring/sensors/voltage-meter
+permalink: /monitoring/sensor/voltage-meter
 type: sensor
 title: Volts direct current (VDC) monitoring
 header: Volts direct current (VDC) meter

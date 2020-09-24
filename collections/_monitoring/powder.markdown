@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/powder
-permalink: /monitoring/sensors/powder-monitoring
+permalink: /monitoring/sensor/powder-monitoring
 type: sensor
 title: Powder monitoring
 header: Powder monitoring

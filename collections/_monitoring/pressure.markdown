@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/pressure
-permalink: /monitoring/sensors/pressure
+permalink: /monitoring/sensor/pressure
 type: sensor
 title: Pressure monitoring
 header: Pressure monitoring

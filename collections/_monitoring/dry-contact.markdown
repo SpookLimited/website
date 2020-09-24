@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/dry-contact
-permalink: /monitoring/sensors/dry-contact
+permalink: /monitoring/sensor/dry-contact
 type: sensor
 title: Dry contact monitoring
 header: Dry contact monitoring

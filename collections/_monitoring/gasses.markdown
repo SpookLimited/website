@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/gasses
-permalink: /monitoring/sensors/gasses
+permalink: /monitoring/sensor/gasses
 type: sensor
 title: Gas monitoring
 header: Gas monitoring

@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/vehicle-detection
-permalink: /monitoring/sensors/vehicle-detection
+permalink: /monitoring/sensor/vehicle-detection
 type: sensor
 title: Vehicle detection
 header: Vehicle detection

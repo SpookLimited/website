@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/motion
-permalink: /monitoring/sensors/motion
+permalink: /monitoring/sensor/motion
 type: sensor
 title: Motion monitoring
 header: Motion detection monitoring

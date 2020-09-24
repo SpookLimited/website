@@ -1,6 +1,6 @@
 ---
 layout: monitoring/sensor/activity
-permalink: /monitoring/sensors/activity
+permalink: /monitoring/sensor/activity
 type: sensor
 title: Activity monitoring
 header: Activity monitoring

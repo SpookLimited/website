@@ -150,6 +150,7 @@ layout: monitoring/base
 				{% for paragraph in item.words %}
 				<p>{{ paragraph }}</p>
 				{% endfor %}
+				{% if item.link %}<p><a href="{{ item.link }}" class="button">{{ item.name }} information</a></p>{% endif %}
 			</div>
 			<div class="is-col">
 				<img alt="{{ item.name }}" style="display: block; margin: 0 auto; padding: 20px" src="{{ item.image }}">

@@ -1,9 +1,9 @@
 ---
 layout: monitoring/biotech
-permalink: /monitoring/biotech
+permalink: /monitoring/biotechnology-and-pharmaceutical/
 type: iot
-title: Biotech and pharma monitoring
-header: Biotech and pharma monitoring by Spook
+title: Biotechnology and pharmaceutical monitoring
+header: Biotechnology and pharmaceutical monitoring by Spook
 subheader: Real-time remote monitoring and alerting
 header-image: /images/sections/pharma-monitoring.png
 ---

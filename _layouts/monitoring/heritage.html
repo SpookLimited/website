@@ -85,22 +85,6 @@ layout: monitoring/base
 		</div>
 	</div>
 </section>
-{% for item in site.data.heritage.heritage-sensors %}
-<section>
-	<div class="container">
-		<h2>{{ item.title }}</h2>
-		{% for word in item.words %}
-		<p>{{ word }}</p>
-		{% endfor %}
-		{% for sensor in item.sensors %}
-			<h3>{{ sensor.name }}</h3>
-			{% for para in sensor.words %}
-				<p>{{ para }}</h3>
-			{% endfor %}
-		{% endfor %}
-	</div>
-</section>
-{% endfor %}
 <section>
 	<div class="container">
 		<div class="is-row is-items-middle">
@@ -150,3 +134,30 @@ layout: monitoring/base
 		<p>Mould is a threat to any hygroscopic object, if conditions are not measured mould can spread at a rapid rate to cause decay and microscopic damage.</p>
 	</div>
 </section>
+{% for item in site.data.heritage.heritage-sensors %}
+<section>
+	<div class="container">
+		<div class="block is-inset-20 is-stack-20">
+			<h2>{{ item.title }}</h2>
+			{% for word in item.words %}
+			<p>{{ word }}</p>
+			{% endfor %}
+		</div>
+		{% for sensor in item.sensors %}
+			<div class="is-row is-stack-20">
+				<div class="is-col">
+					<h3>{{ sensor.name }}</h3>
+					{% for para in sensor.words %}
+						<p>{{ para }}</h3>
+					{% endfor %}
+					<p class="is-outset-y-20"><a class="button" href="{{ sensor.link }}">{{ sensor.link-text }}</a></p>
+				</div>
+				<div class="is-col is-text-center">
+					<img src="{{ sensor.image }}">
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+{% endfor %}
+

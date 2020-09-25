@@ -46,7 +46,7 @@
   sensors:
       - name: Light meter
         image: /images/sensor/light.svg
-        link: /monitoring/sensor/light/
+        link: /monitoring/sensor/light-meters/
         link-text: More information on light meters
         words:
             - Many heritage organisations have areas that are sensitive to light. Sometimes they have a specified Light Budget. Spook wireless light sensors are ideal for tracking and managing Lux Hours.

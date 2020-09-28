@@ -33,3 +33,16 @@
   icon: /images/sensor/temperature-quad.svg
   types:
       - Ind
+
+- name: Thermocoupler
+  range: -100°C to +400°C
+  icon: /images/sensor/thermocoupler.svg
+  types:
+      - CC
+      - AA
+      - Ind
+
+- name: Food probe
+  range: -50°C to 260°C
+  icon: /images/sensor/food-probe.svg
+  types:

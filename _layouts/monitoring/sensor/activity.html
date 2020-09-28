@@ -6,6 +6,7 @@ layout: monitoring/sensor/base
 		<div class="is-row">
 			<div class="is-col">
                 <h1>Wireless activity detection sensor</h1>
+				<h3>Coin cell | AA | Industrial</h3>
                 <p>Spook wireless activity sensors come in a range of different types. Each are designed to alert on the change of a specific activity. They can detect sudden movement or whether machinery is in use or not.</p>
                 <p>Understanding the activity of equipment can be helpful in knowing if things are running in a normal state or whether they require attention. This, in turn, can assist in preventative maintenance programs and extending the life of monitored kit.</p>
 			</div>
@@ -32,7 +33,7 @@ layout: monitoring/sensor/base
         <h3>Related sensors</h3>
 		<div class="is-row">
 			{% for item in site.data.sensors.activity-variations %}
-			<div class="is-col">
+			<div class="is-col is-33 is-stack-40">
 				<img style="width: 120px;" src="{{ item.icon }}">
 				<h5>{{ item.name }}</h5>
 				<ul class="is-bar">

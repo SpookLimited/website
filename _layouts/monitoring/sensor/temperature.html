@@ -38,17 +38,19 @@ layout: monitoring/sensor/base
 		<h3>Related sensors</h3>
 		<div class="is-row">
 			{% for item in site.data.sensors.temperature-variations %}
-			<div class="is-col is-25">
+			<div class="is-col is-25 is-stack-40">
 				<img style="max-height: 120px;" src="{{ item.icon }}">
 				<h5>{{ item.name }}</h5>
-				<p class="is-small">{{ item.range }}</p>
 				<ul class="is-bar">
 					{% for type in item.types %}
+					{% if forloop.index != 1 %}<li>|</li>{% endif %}
 					<li class="is-small">{{ type }}</li>
 					{% endfor %}
 				</ul>
+				<p class="is-small">{{ item.range }}</p>
 			</div>
 			{% endfor %}
+			<div class="is-col is-25"></div>
 		</div>
 	</div>
 </section>

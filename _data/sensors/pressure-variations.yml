@@ -2,4 +2,4 @@
   icon: /images/sensor/pressure.svg
   types:
       - AA
-      - Ind
+      - Industrial

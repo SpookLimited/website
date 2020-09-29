@@ -2,35 +2,35 @@
   icon: /images/sensor/aa-sensor.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: Impact detection
   icon: /images/sensor/aa-sensor.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: G-Force snapshot
   icon: /images/sensor/aa-sensor.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: G-Force max and avg
   icon: /images/sensor/aa-sensor.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: Vibration meter
   icon: /images/sensor/aa-sensor.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: Tilt detection sensor
   icon: /images/sensor/aa-sensor.svg
   types:
       - AA
-      - Ind
+      - Industrial
 

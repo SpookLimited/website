@@ -1,11 +1,11 @@
 - name: Detect airflow
   icon: /images/sensor/airflow2.svg
   types:
-      - CC
+      - Coin cell
       - AA
 
 - name: Flex sensor
   icon: /images/sensor/airflow3.svg
   types:
-      - CC
+      - Coin cell
       - AA

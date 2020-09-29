@@ -1,18 +1,18 @@
 - name: Water probe
   icon: /images/sensor/water-probe.svg
   types:
-      - CC
+      - Coin cell
       - AA
-      - Ind
+      - Industrial
 
 - name: Water detect
   icon: /images/sensor/dry-contact.svg
   types:
-      - CC
+      - Coin cell
       - AA
-      - Ind
+      - Industrial
 
 - name: Water puck
   icon: /images/sensor/water-puck.svg
   types:
-      - Ind
+      - Industrial

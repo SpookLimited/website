@@ -3,44 +3,44 @@
   icon: /images/sensor/temperature-2.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: Low temperature
   range: -200°C to +162°C
   icon: /images/sensor/temperature-2.svg
   types:
       - AA
-      - Ind
+      - Industrial
 
 - name: Water temperature
   range: -40°C to +125°C
   icon: /images/sensor/temperature-2.svg
   types:
-      - CC
+      - Coin cell
       - AA
-      - Ind
+      - Industrial
 
 - name: Duct temperature
   range: -40°C to +125°C
   icon: /images/sensor/thermocoupler.svg
   types:
-      - CC
+      - Coin cell
       - AA
-      - Ind
-
-- name: Quad temperature
-  range: -40°C to +125°C
-  icon: /images/sensor/temperature-quad.svg
-  types:
-      - Ind
+      - Industrial
 
 - name: Thermocoupler
   range: -100°C to +400°C
   icon: /images/sensor/thermocoupler.svg
   types:
-      - CC
+      - Coin cell
       - AA
-      - Ind
+      - Industrial
+
+- name: Quad temperature
+  range: -40°C to +125°C
+  icon: /images/sensor/temperature-quad.svg
+  types:
+      - Industrial
 
 - name: Food probe
   range: -50°C to 260°C

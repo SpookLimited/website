@@ -44,6 +44,7 @@ layout: monitoring/sensor/base
                 <h5>{{ item.name }}</h5>
                 <ul class="is-bar">
                     {% for type in item.types %}
+					{% if forloop.index != 1 %}<li>|</li>{% endif %}
                     <li class="is-small">{{ type }}</li>
                     {% endfor %}
                 </ul>

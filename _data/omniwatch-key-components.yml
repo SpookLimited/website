@@ -1,0 +1,14 @@
+- name: Dashboard
+  link: /omniwatch/dashboard/
+
+- name: Alerting
+  link: /omniwatch/alerting/
+
+- name: Reporting
+  link: /omniwatch/reporting/
+
+- name: Audits
+  link: /omniwatch/change-logs/
+
+- name: Installation plans
+  link: /omniwatch/installation-plans/

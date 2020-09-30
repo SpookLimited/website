@@ -1,0 +1,11 @@
+<div class="container">
+	<div class="is-row is-stack-60">
+		{% for item in site.data.omniwatch-key-components %}
+			<div class="is-col block is-inset-20">
+				<a href="{{ item.link }}">
+					<p class="is-large"><strong>{{ item.name }}</strong></p>
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+</div>

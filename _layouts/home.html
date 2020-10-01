@@ -29,6 +29,33 @@ layout: base
 	</div>
 </section>
 <section>
+    <div class="container">
+		<div class="is-row">
+			<div class="is-col is-30">
+				<div data-kube="tabs" data-equal="true">
+					{% for item in site.data.omniwatch-key-components %}
+					<div class="is-inset-12 is-border is-stack-20">
+						<a href="#tab{{ forloop.index }}" {% if forloop.index == 1 %}class="is-active"{% endif %}>
+							<img src="{{ item.icon }}" style="display:inline-block; width: 40px; margin-right: 1em;">
+							{{ item.name }}
+						</a>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			<div class="is-col is-70">
+				{% for item in site.data.omniwatch-key-components %}
+				<div id="tab{{ forloop.index }}">
+					<h2>{{ item.name }}</h2>
+					<img src="{{ item.image }}">
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+    </div>
+</section>
+
+<section>
 	<div class="container">
 		<div class="is-row is-text-center">
 			{% for item in site.data.homepage-keypoints %}
@@ -68,62 +95,6 @@ layout: base
                 {% endif %}
             {% endfor %}
         </div>
-    </div>
-</section>
-<section>
-    <div class="container">
-		<nav class="tabs" data-kube="tabs" data-equal="true">
-			<a href="#tab1" class="is-active">Dashboards</a>
-			<a href="#tab2">Alerting</a>
-			<a href="#tab3">Reports</a>
-			<a href="#tab4">Audits</a>
-			<a href="#tab5">Installation plans</a>
-		</nav>
-
-		<div id="tab1">
-			<div class="is-row">
-				<div class="is-col is-30">
-					<h2>Real-time dashboards</h2>
-					<p>OmniWatch customers are assigned secure cloud based dashboards for easy access to their
-					monitored installations via any internet enabled device.</p>
-					<p><a href="/omniwatch/dashboard/" class="button is-secondary">More information</a></p>
-				</div>
-				<div class="is-col is-70">
-					<img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
-				</div>
-			</div>
-		</div>
-		<div id="tab2">
-			<div class="is-row">
-				<div class="is-col is-30">
-					<h2>Customisable 24/7 monitoring and alerting</h2>
-					<p>Spook's alarm escalation procedure is perhaps the most comprehensive in the industry. Alerts are sent in real-time via email and 2-way SMS.</p>
-					<p><a href="/omniwatch/alerting" class="button is-secondary">Read more about alerts</a></p>
-				</div>
-				<div class="is-col is-70">
-					<img alt="OmniWatch alerting" class="is-shadow-2" src="/images/omniwatch/alert-view.svg">
-				</div>
-			</div>
-		</div>
-		<div id="tab3">
-			<h2>Reports</h2>
-			<p><a href="/omniwatch/reporting" class="button is-secondary">Read more</a></p>
-		</div>
-		<div id="tab4">
-			<h2>Audits</h2>
-			<p><a href="/omniwatch/change-logs" class="button is-secondary">Read more</a></p>
-		</div>
-		<div id="tab5">
-            <div class="is-row">
-                <div class="is-col is-30">
-                    <h2>Installation plans</h2>
-                    <p><a href="/omniwatch/installation-plans" class="button is-secondary">Read more</a></p>
-                </div>
-                <div class="is-col is-70">
-                    <img alt="Installation floor plans" class="is-shadow-2" src="/images/homepage/installation-plans.svg">
-                </div>
-            </div>
-		</div>
     </div>
 </section>
 <section>

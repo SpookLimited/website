@@ -1,14 +1,24 @@
 - name: Dashboard
+  icon: /images/icons/bulk-data.svg
   link: /omniwatch/dashboard/
+  image: /images/homepage/omniwatch-dashboard.svg
 
 - name: Alerting
+  icon: /images/icons/alarms.svg
   link: /omniwatch/alerting/
+  image: /images/omniwatch/alert-view.svg
 
 - name: Reporting
+  icon: /images/icons/report.svg
   link: /omniwatch/reporting/
+  image: /images/homepage/omniwatch-screen.svg
 
 - name: Audits
+  icon: /images/icons/data.svg
   link: /omniwatch/change-logs/
+  image: /images/homepage/omniwatch-dashboard.svg
 
 - name: Installation plans
+  icon: /images/icons/bulk-data.svg
   link: /omniwatch/installation-plans/
+  image: /images/homepage/installation-plans.svg

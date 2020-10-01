@@ -30,14 +30,13 @@ layout: base
 </section>
 <section>
     <div class="container">
-		<div class="is-row">
+		<div class="is-row is-items-middle">
 			<div class="is-col is-30">
 				<div data-kube="tabs" data-equal="true">
 					{% for item in site.data.omniwatch-key-components %}
 					<div class="is-inset-12 is-border is-stack-20">
-						<a href="#tab{{ forloop.index }}" {% if forloop.index == 1 %}class="is-active"{% endif %}>
-							<img src="{{ item.icon }}" style="display:inline-block; width: 40px; margin-right: 1em;">
-							{{ item.name }}
+						<a href="#tab{{ forloop.index }}" {% if forloop.index == 1 %}class="is-active"{% endif %} style="color: #333; text-decoration: none;">
+							<img src="{{ item.icon }}" style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>{{ item.name }}</strong>
 						</a>
 					</div>
 					{% endfor %}
@@ -47,39 +46,28 @@ layout: base
 				{% for item in site.data.omniwatch-key-components %}
 				<div id="tab{{ forloop.index }}">
 					<h2>{{ item.name }}</h2>
-					<img src="{{ item.image }}">
+					<img class="is-shadow-2" src="{{ item.image }}">
 				</div>
 				{% endfor %}
 			</div>
 		</div>
     </div>
 </section>
-
-<section>
-	<div class="container">
-		<div class="is-row is-text-center">
-			{% for item in site.data.homepage-keypoints %}
-			<div class="is-col">
-				<img alt="{{ item.title }}" style="display: block; margin: 0 auto; max-height: 100px; padding-bottom: 20px;" src="{{ item.icon }}">
-				<h3>{{ item.title }}</h3>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
-</section>
+<div class="container">
+	<hr>
+</div>
 <section class="introduction-section">
     <div class="container">
         <div class="is-row is-items-middle">
-            <div class="is-col is-30">
-                <p>Spook has specialised in remote monitoring for nearly two decades. OmniWatch is designed to monitor and alert users to business threatening events 24/7.</p>
-                <p>OmniWatch comes pre-configured for a hassle free, intuitive, immediate service. Try it for free, just contact us and we will do the rest.</p>
-                <p><a href="/contact/" class="button is-secondary">Contact us</a></p>
+			<div class="is-col is-40">
 				<div style="width: 100%; height: 250px; background-image: url('/images/cir-award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
 				<p class="is-text-center"><strong>'Most Innovative Solution of the Year'<br>Winner</strong><br>CIR Business Continuity Awards</p>
             </div>
-            <div class="is-col is-70">
-				<img class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg" alt="OmniWatch remote cloud based monitoring solution">
-            </div>
+            <div class="is-col is-60">
+                <p>Spook has specialised in remote monitoring for nearly two decades. OmniWatch is designed to monitor and alert users to business threatening events 24/7.</p>
+                <p>OmniWatch comes pre-configured for a hassle free, intuitive, immediate service. Try it for free, just contact us and we will do the rest.</p>
+                <p><a href="/contact/" class="button is-secondary">Contact us</a></p>
+			</div>
         </div>
     </div>
 </section>
@@ -136,11 +124,11 @@ layout: base
 		</div>
 	</div>
 </section>
-<section style="background-color: #212121; color: #fff;">
+<section class="gray is-shadow-2"> 
 	<div class="container is-text-center">
 		<h2>Fully managed or co-managed</h2>
 		<p>Spook customers range from businesses that have already installed environmental hardware and network devices to organisations that are considering monitoring for the first time.</p>
 		<p>Either way Spook can help.</p>
-		<p><a href="#" class="button is-inverted">Get in touch</a></p>
+		<p><a href="#" class="button is-secondary">Get in touch</a></p>
 	</div>
 </section>

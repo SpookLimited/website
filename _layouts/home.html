@@ -46,6 +46,7 @@ layout: base
 				{% for item in site.data.omniwatch-key-components %}
 				<div id="tab{{ forloop.index }}">
 					<h2>{{ item.name }}</h2>
+					<a href="{{ item.link }}" class="button is-secondary">View more</a>
 					<img class="is-shadow-2" src="{{ item.image }}">
 				</div>
 				{% endfor %}

@@ -30,28 +30,22 @@ layout: base
 </section>
 <section>
     <div class="container">
-		<div class="is-row is-items-middle">
+		{% for item in site.data.omniwatch-key-components %}
+		<div class="is-row is-stack-60">
 			<div class="is-col is-30">
-				<div data-kube="tabs" data-equal="true">
-					{% for item in site.data.omniwatch-key-components %}
-					<div class="is-inset-12 is-border is-stack-20">
-						<a href="#tab{{ forloop.index }}" {% if forloop.index == 1 %}class="is-active"{% endif %} style="color: #333; text-decoration: none;">
-							<img src="{{ item.icon }}" style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>{{ item.name }}</strong>
-						</a>
-					</div>
-					{% endfor %}
+				<div class="is-inset-12 is-border is-stack-20">
+					<img src="{{ item.icon }}" style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>{{ item.name }}</strong>
 				</div>
+				{% for paragraph in item.words %}
+				<p>{{ paragraph }}</p>
+				{% endfor %}
+				<a href="{{ item.link }}" class="button is-secondary">View more</a>
 			</div>
 			<div class="is-col is-70">
-				{% for item in site.data.omniwatch-key-components %}
-				<div id="tab{{ forloop.index }}">
-					<h2>{{ item.name }}</h2>
-					<a href="{{ item.link }}" class="button is-secondary">View more</a>
-					<img class="is-shadow-2" src="{{ item.image }}">
-				</div>
-				{% endfor %}
+				<img class="is-shadow-2" src="{{ item.image }}">
 			</div>
 		</div>
+		{% endfor %}
     </div>
 </section>
 <div class="container">

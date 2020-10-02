@@ -2,6 +2,9 @@
   icon: /images/icons/bulk-data.svg
   link: /omniwatch/dashboard
   image: /images/homepage/omniwatch-dashboard.svg
+  words:
+      - OmniWatchs dashboards are designed to combine, simplify and improve existing monitoring installations or allow first time user to get up and running quickly.
+      - Sensor readings and data metrics are presented on a centralised solution that means you can keep an eye on your installation any time no matter where you are.
 
 - name: Alerting
   icon: /images/icons/alarms.svg

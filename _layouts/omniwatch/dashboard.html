@@ -21,28 +21,41 @@ layout: omniwatch/base
 		<h2>Omniwatch dashboards are designed and built to give the user instant access to their most important information</h2>
 		<p>Spook's aim is to ensure that users are not left in the dark about the health and stability of their business and put that data straight into their hands. OmniWatch supports all modern devices, be it a desktop PC, laptop, tablet or phone, meaning it's available any time or place.</p>
 		<p>Dashboards are designed with the input of the end user. Data can be filtered to individual requirements and displayed in a variety of ways; real-time updating current readings, historical comparisons or added functionality and calculations on top of the raw data (see PUE and DCiE, power usage and cost calculations).</p>
-		<div class="is-row is-text-center">
-			<div class="is-col">
+		<div class="is-row is-stack-20">
+			<div class="is-col is-30">
 				<h3>Current readings</h3>
+			</div>
+			<div class="is-col is-70">
 				<img src="/images/omniwatch/real-time-sensor-value.svg">
 			</div>
-			<div class="is-col">
+		</div>
+		<div class="is-row is-stack-20">
+			<div class="is-col is-30">
 				<h3>Historical comparisons</h3>
 			</div>
-			<div class="is-col">
+			<div class="is-col is-70">
+				<img style="height: 120px;" src="/images/omniwatch/historical-trend-data-compact.svg">
+			</div>
+		</div>
+		<div class="is-row">
+			<div class="is-col is-30">
 				<h3>Added functionality</h3>
-				<div class="is-row">
-					<div class="is-col">
-						<p class="is-inset-top-20">PUE</p>
+			</div>
+			<div class="is-col is-70">
+				<ul class="is-bar">
+					<li>
+						<p><strong>PUE</strong></p>
 						<p style="font-weight: 300; font-size: 2em;" id="pue">1.25</p>
-					</div>
-					<div class="is-col">
-						<p class="is-inset-top-20">DCiE</p>
+					</li>
+					<li>
+						<p><strong>DCiE</strong></p>
 						<p style="font-weight: 300; font-size: 2em;" id="dcie">80%</p>
-					</div>
-				</div>
-				<p class="is-inset-top-20" style="font-weight: 300; font-size: 2em;" id="description">Efficient</p>
-				<svg class="peity" height="68" width="68"><path d="M 34 0 A 34 34 0 1 1 1.6640784459647762 23.493422191251792 L 14.978869674096927 27.819660112501055 A 20 20 0 1 0 34 14" data-value="80" fill="#95c859"></path><path d="M 1.6640784459647762 23.493422191251792 A 34 34 0 0 1 33.99999999999999 0 L 33.99999999999999 14 A 20 20 0 0 0 14.978869674096927 27.819660112501055" data-value="20" fill="#eee">
+					</li>
+					<li>
+						<p><strong>Efficient</strong></p>
+						<svg class="peity" height="68" width="68"><path d="M 34 0 A 34 34 0 1 1 1.6640784459647762 23.493422191251792 L 14.978869674096927 27.819660112501055 A 20 20 0 1 0 34 14" data-value="80" fill="#95c859"></path><path d="M 1.6640784459647762 23.493422191251792 A 34 34 0 0 1 33.99999999999999 0 L 33.99999999999999 14 A 20 20 0 0 0 14.978869674096927 27.819660112501055" data-value="20" fill="#eee">
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>

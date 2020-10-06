@@ -1,0 +1,18 @@
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+
+- name: Power monitoring
+  icon: /images/sensor/icons/alternatingcurrent.svg
+
+- name: Generator, UPS and AC
+  icon: /images/sensor/icons/error.svg
+
+- name: Water
+  icon: /images/sensor/icons/water.svg
+
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+
+- name: Dew point
+  icon: /images/sensor/icons/dewpoint.svg
+

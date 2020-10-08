@@ -1,12 +1,44 @@
 ---
-layout: monitoring/key-pages/base
+layout: base
 ---
+<header style="background-image: url('{{ page.header-image }}'); background-attachment: fixed; background-repeat: no-repeat; background-position: bottom; background-size: cover;">
+	<div class="container">
+		<div class="is-50 block is-inset-20">
+			<h3>{{ page.subheader }}</h3>
+			<h1>{{ page.header }}</h1>
+			{% if page.header-text %}
+			<p class="is-large">{{ page.header-text }}</p>
+			{% endif %}
+			<p><a class="button is-secondary is-inverted" style="margin-top: 2em; margin-right: 1em;" href="/contact/">Contact us</a> <a class="button is-secondary" style="margin-top: 2em;" href="#">Book demo</a></p>
+		</div>
+	</div>
+</header>
+<section class="grey">
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<h3 class="is-stack-20">Although any industry can benefit from Spook's monitoring service, here are some of the key ones.</h3>
+				<p>Other links</p>
+				<ul class="is-unstyled">
+					<li><a href="/monitoring/">See available sensors</a></li>
+					<li><a href="/customers/">Case studies</a></li>
+					<li>Wireless technology post</li>
+				</ul>
+			</div>
+			<div class="is-col">
+				<p>Spook understands not every business has an engineer available to set up complicated systems and make sure everything is functioning correctly.</p>
+				<p>That's why Spook's range of over 80 wireless sensors are perfect for monitoring across multiple industry types.</p>
+				<p>Spook's wireless sensors come pre-configured and ready to go, so all that is needed is for them to be installed in the area that requires monitoring and for the sensor to be switched on.</p>
+			</div>
+		</div>
+	</div>
+</section>
 <section>
 	<div class="container is-text-center">
 		<h2>Supported industries</h2>
 		<div class="is-row">
 			{% for item in site.data.industry.header-item %}
-			<div class="is-col is-33">
+			<div class="is-col is-25">
 				<img alt="{{ item.title }}" class="feature-img" style="width: 200px; height: 200px;" src="{{ item.circle-image }}">
 				<h3>{{ item.title }}</h3>
 				<div class="is-text-center see-more">
@@ -17,13 +49,6 @@ layout: monitoring/key-pages/base
 			</div>
 			{% endfor %}
 		</div>
-	</div>
-</section>
-<section>
-	<div class="container">
-        <p>Spook understands not every business has an engineer available to set up complicated systems and make sure everything is functioning correctly. That's why Spook's range of over 80 wireless sensors are perfect for monitoring across multiple industry types. Spook's wireless sensors come pre-configured and ready to go, so all that is needed is for them to be installed in the area that requires monitoring and for the sensor to be switched on.</p>
-        <p>Access to Spook's cloud based remote monitoring service called OmniWatch is immediate.</p>
-        <p>Although any industry can benefit from Spook's monitoring service, here are some of the key ones.</p>
 	</div>
 </section>
 {% for item in site.data.industry.header-item %}
@@ -126,3 +151,5 @@ layout: monitoring/key-pages/base
 </section>
 {% endif %}
 {% endfor %}
+{% include monitoring/key-footer.html %} 
+{% include contact-us.html %}

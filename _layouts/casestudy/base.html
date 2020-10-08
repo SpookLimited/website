@@ -1,0 +1,17 @@
+---
+layout: base
+---
+{{ content }}
+<section class="grey">
+	<div class="container">
+		<h2 class="is-stack-20">Other case studies</h2>
+		<div class="is-row">
+			{% for casestudy in site.data.casestudies %}
+				<div class="is-col">
+					<h3>{{ casestudy.title }}</h3>
+					<p><a href="{{ casestudy.link }}">View more</a></p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>

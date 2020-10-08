@@ -19,7 +19,7 @@
 				</ul>
 			</div>
 			<div class="is-col">
-				<h5>IT room monitoring</h5>
+				<h5>IT monitoring</h5>
 				<ul class="is-unstyled">
 				{% for item in site.monitoring %}
 					{% if item.type == 'it' %}
@@ -27,7 +27,7 @@
 					{% endif %}
 				{% endfor %}
 				</ul>
-				<h5>Facilities</h5>
+				<h5>Facilities monitoring</h5>
 				<ul class="is-unstyled">
 				{% for item in site.monitoring %}
 					{% if item.type == 'facilities' %}
@@ -45,7 +45,7 @@
 				</ul>
 			</div>
 			<div class="is-col">
-				<h5>Environmental</h5>
+				<h5>IoT wireless sensors</h5>
 				<ul class="is-unstyled">
 					{% for item in site.monitoring %}
 						{% if item.type == 'sensor' %}
@@ -55,7 +55,7 @@
 				</ul>
 			</div>
 			<div class="is-col">
-				<h5>IoT wireless sensors</h5>
+				<h5>Industry use cases</h5>
 				<ul class="is-unstyled">
 					{% for item in site.monitoring %}
 						{% if item.type == 'iot' %}

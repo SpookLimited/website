@@ -18,7 +18,7 @@ layout: base
                 {% if item.type == "sensor" %}
 				<div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
                     <div class="is-inset-20" onclick="location.href = '{{ item.permalink }}'">
-						<div class="image-holder" style="background-image: url('{{ item.sensor-image }}');"></div>
+						<div class="image-holder is-stack-20" style="background-image: url('{{ item.sensor-image }}');"></div>
 						<p class="is-large">{{ item.title }}</p>
                     </div>
 				</div>

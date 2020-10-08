@@ -1,7 +1,7 @@
 ---
 layout: base
 ---
-<header>
+<header style="background-image: url('/images/customers/robert-bye-london-view.jpg'); background-size: cover; background-repeat: no-repeat; background-position: bottom;">
 	<div class="container">
 		<h1>Customer sectors</h1>
 	</div>
@@ -44,7 +44,7 @@ layout: base
 {% for sector in site.data.customers %}
 <section id="{{ sector.name | remove: " " }}">
 		<div class="container">
-			<h2>{{ sector.name }}</h2>
+			<h2 class="is-stack-20">{{ sector.name }}</h2>
 			<div class="is-row">
 				<div class="is-col is-20">
 					{% for customer in sector.customers %}

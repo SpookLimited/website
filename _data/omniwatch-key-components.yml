@@ -36,4 +36,5 @@
   link: /omniwatch/installation-plans
   image: /images/homepage/installation-plans.svg
   words:
-      - Spook publishes installation plans for every monitored location clearly showing where the installed sensor is together with showing its unique friendly name, which is referenced in any alerts, for swift fault identification. This is hugely beneficial for customers to locate sensors or malfunctioning equipment that are broadcasting alerts.
+      - Spook publishes installation plans for every monitored location clearly showing where the installed sensor is together with showing its unique friendly name, which is referenced in any alerts, for swift fault identification.
+      - This is hugely beneficial for customers to locate sensors or malfunctioning equipment that are broadcasting alerts.

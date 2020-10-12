@@ -6,6 +6,19 @@ layout: casestudy/base
 	max-width: 80px;
 	max-height: 80px;
 }
+.device-logo{
+	max-width: 300px;
+	max-height: 80px;
+}
+.device-subheader{
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.device-header{
+	margin-top: 0;
+	padding-top: 0;
+}
 </style>
 <header style="background-image: url('{{ page.header-image }}'); background-size: cover; background-position: center;">
 	<div class="container">
@@ -25,6 +38,30 @@ layout: casestudy/base
 				<p>Since its formation in 1965 Endsleigh Insurance has grown to become the No.1 provider of insurance services for students and graduates and the only one to be recommended by National Union of Students.</p>
 				<p>Endsleigh offers an extensive range of insurance products including cover for gadgets, travel, car, home and buildings, including contents cover in shared accommodation.</p>
 				<p>Endsleigh's IT department is responsible for delivering a high quality and dependable IT service to the business. It has the added pressure of working in an industry that is technically leading edge. The competitive insurance industry sector is continually evolving with emerging technologies and innovations, from Apps for mobiles and tablets to black box insurance for cars.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="grey is-inset-20">
+			<h2 class="is-stack-40">Monitored hardware</h2>
+			<div class="is-row">
+				<div class="is-col">
+					<img class="device-logo" src="/images/devices/geist.svg">
+					<h5 class="device-subheader">Geist</h5>
+					<h3 class="device-header">Watchdog 1200 x2</h3>
+				</div>
+				<div class="is-col">
+					<img class="device-logo" src="/images/devices/socomec.svg">
+					<h5 class="device-subheader">Socomec</h5>
+					<h3 class="device-header">Uninterruptible power supply</h3>
+				</div>
+				<div class="is-col">
+					<img class="device-logo" src="/images/icons/bulk-data.svg">
+					<h5 class="device-subheader">Total sensors</h5>
+					<h3 class="device-header">44</h3>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,10 +96,18 @@ layout: casestudy/base
 </section>
 <section>
 	<div class="container">
-		<h2>Emergency contact</h2>
-		<p>A key consideration for Endsleigh was sourcing a service provider that could guarantee to let them know of problems 24/7. Part of their remit was to ensure a robust method of emergency contact. They decided that purely relying on technology to alert them was flawed.</p>
-		<p>The fact alerts can be sent via email and SMS is fairly standard but what would happen if they were not successfully delivered. Added to this, they needed any out-of-office hours alerts to be sent to their third party IT service desk by means of email and landline telephone call.</p>
-		<p>They particularly value our third level of support whereby our UK based call centre will contact their managed support desk by phone if there is an issue.</p>
+		<div class="is-row">
+			<div class="is-col">
+				<h2>Emergency contact</h2>
+				<p>A key consideration for Endsleigh was sourcing a service provider that could guarantee to let them know of problems 24/7. Part of their remit was to ensure a robust method of emergency contact. They decided that purely relying on technology to alert them was flawed.</p>
+				<p>The fact alerts can be sent via email and SMS is fairly standard but what would happen if they were not successfully delivered. Added to this, they needed any out-of-office hours alerts to be sent to their third party IT service desk by means of email and landline telephone call.</p>
+				<p>They particularly value our third level of support whereby our UK based call centre will contact their managed support desk by phone if there is an issue.</p>
+				<p><a href="/omniwatch/alerting/" class="button">Read more about alerting</a></p>
+			</div>
+			<div class="is-col">
+				<img src="/images/omniwatch/rota-overview.svg">
+			</div>
+		</div>
 	</div>
 </section>
 <section>
@@ -72,7 +117,7 @@ layout: casestudy/base
 				{% for sensor in site.data.casestudy.endsleigh-insurance-sensors %}
 				<div class="is-col is-33 {% if forloop.index < 4 %}is-stack-20{% endif %}">
 					<img class="sensor-icon is-stack-20" src="{{ sensor.icon }}">
-					<p><strong>{{ sensor.name }}</strong></p>
+					<h3 class="device-header">{{ sensor.name }}</h3>
 				</div>
 				{% endfor %}
 			</div>

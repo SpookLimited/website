@@ -1,0 +1,9 @@
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+
+- name: Input power
+  icon: /images/sensor/icons/alternatingcurrent.svg
+
+- name: UPS errors
+  icon: /images/sensor/icons/error-2.svg
+

@@ -1,6 +1,26 @@
 ---
 layout: casestudy/base
 ---
+<style>
+.sensor-icon{
+	max-width: 80px;
+	max-height: 80px;
+}
+.device-logo{
+	max-width: 300px;
+	max-height: 80px;
+}
+.device-subheader{
+	text-transform: uppercase;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+.device-header{
+	margin-top: 0;
+	padding-top: 0;
+}
+</style>
+
 <header style="background-image: url('{{ page.header-image }}'); background-size: cover; background-position: center;">
 	<div class="container">
 		<div class="is-50">
@@ -18,6 +38,30 @@ layout: casestudy/base
 				<h2>Introduction</h2>
 				<p>FE fundinfo (FE) is the UK's leading investment ratings and research agency. FE provides industry-leading investment data, software, and analysis trusted by thousands of financial advisers and institutions to make better investment decisions. FE Analytics is a powerful award-winning tool that combines genuinely comprehensive fund data with market-leading analysis.</p>
 				<p>FE has data centres in Surrey and London, both of which are lights out facilities and as such are only attended for planned maintenance visits and system tape back-ups etc. FE recognised the need to monitor the environment of both rooms in order to help avoid or minimise unplanned IT outages causing business outages.</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="grey is-inset-20">
+			<h2 class="is-stack-40">Monitored hardware</h2>
+			<div class="is-row">
+				<div class="is-col">
+					<img class="device-logo" src="/images/devices/swiftalert.svg">
+					<h5 class="device-subheader">Swiftalert</h5>
+					<h3 class="device-header">Climate CM10 x2</h3>
+				</div>
+				<div class="is-col">
+					<img class="device-logo" src="/images/devices/emerson.svg">
+					<h5 class="device-subheader">Emerson x3</h5>
+					<h3 class="device-header">Uninterruptible power supply</h3>
+				</div>
+				<div class="is-col">
+					<img class="device-logo" src="/images/icons/bulk-data.svg">
+					<h5 class="device-subheader">Total sensors</h5>
+					<h3 class="device-header">82</h3>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -59,12 +103,33 @@ layout: casestudy/base
 </section>
 <section>
 	<div class="container">
-		<h2>Emergency contact</h2>
-		<p>Although FE could configure the individual Climate Monitors to send emails and SMS messages they were nervous emails and SMS messages could be blocked or not delivered just at the time they needed them most. Also, they could never be sure the devices were working or the attached sensors were connected unless they logged on directly to each unit and browsed their respective firmware interfaces, which of course would be a rare check to make.</p>
-		<p>FE particularly values our third level of support whereby our UK based call centre will contact FE staff by phone if there is a serious issue and emails and texts don't work. Equally valued is the fact OmniWatch is configured to sweep through all the monitoring devices and associated sensors regularly throughout the day. If no data is harvested from a device or a sensor becomes unplugged or faulty, OmniWatch lets FE know of the issue.</p>
-		<blockquote>
-			<p>We were never convinced relying on technology to contact us in terms of simple email and SMS was the best solution. We have relied on Spook's third level of support (the dedicated call centre) a few times now, guaranteeing we are aware of problems before they escalate to incidents we need to recover from. This allows us to rest easy at night knowing that someone is watching for us.</p>
-		</blockquote>
+		<div class="grey is-inset-20">
+			<div class="is-row is-items-middle is-text-center">
+				{% for sensor in site.data.casestudy.fe-fundinfo-sensors %}
+				<div class="is-col is-33 {% if forloop.index < 4 %}is-stack-20{% endif %}">
+					<img class="sensor-icon is-stack-20" src="{{ sensor.icon }}">
+					<h3 class="device-header">{{ sensor.name }}</h3>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col">
+				<img src="/images/omniwatch/contact-view.svg">
+			</div>
+			<div class="is-col">
+				<h2>Emergency contact</h2>
+				<p>Although FE could configure the individual Climate Monitors to send emails and SMS messages they were nervous emails and SMS messages could be blocked or not delivered just at the time they needed them most. Also, they could never be sure the devices were working or the attached sensors were connected unless they logged on directly to each unit and browsed their respective firmware interfaces, which of course would be a rare check to make.</p>
+				<p>FE particularly values our third level of support whereby our UK based call centre will contact FE staff by phone if there is a serious issue and emails and texts don't work. Equally valued is the fact OmniWatch is configured to sweep through all the monitoring devices and associated sensors regularly throughout the day. If no data is harvested from a device or a sensor becomes unplugged or faulty, OmniWatch lets FE know of the issue.</p>
+				<blockquote>
+					<p>We were never convinced relying on technology to contact us in terms of simple email and SMS was the best solution. We have relied on Spook's third level of support (the dedicated call centre) a few times now, guaranteeing we are aware of problems before they escalate to incidents we need to recover from. This allows us to rest easy at night knowing that someone is watching for us.</p>
+				</blockquote>
+			</div>
+		</div>
 	</div>
 </section>
 <section>

@@ -1,0 +1,73 @@
+- title: Security
+  banner-image: /images/monitoring/server-room/server-room-monitoring.png
+  wired-words:
+      - As the solution is physically cabled with interconnecting cables from monitoring devices to sensors and the monitoring units are installed on the physical LAN; everything is contained within the internal network.
+      - Security is protected by the strict security policies and procedures of the customer e.g. behind firewalls and switches etc. This lets IT or facility managers have full control of who has access to the monitoring system and its data.
+      - However, wired monitoring devices can connect to cellular routers, this means monitoring can be independent of the organisations network.
+  wireless-words:
+      - A wireless solution is as secure as a wired. A wireless gateway is typically physically connected to the LAN via a LAN port hence adopt the same security profile of any other ethernet device.
+      - However, there is a trend to use cellular routers with wireless solutions which means the monitoring project can be independent of an organisations network and as such be separate to the organisations network.
+      - With the development of cellular router technology, security and resilience has got even stronger. For more information on this go here.
+
+- title: Reliability
+  banner-image: /images/monitoring/server-room/server-room-monitoring.png
+  wired-words:
+      - LAN based monitoring technology has been around for a long time and has continually improved over the years. As a consequence a wired solution is perceived as being more reliable.
+      - The added benefit is that it is less susceptible to electronic interference from other sources, although power related interference is not uncommon especially if interconnecting sensor cables run parallel to or near to power sources or power hungry equipment.
+  wireless-words:
+      - Wireless sensors have come a long way and now are very robust. They often have some level of protection from electrical interference and many have the option for industrial enclosures protecting them from the effects of dust, wind and rain.
+      - Even the distance between sensors and their monitoring gateway has evolved. In fact, Spook's range of wireless sensors work with gateways that have a 1,200 foot range and work through more that 12 walls.
+      - For some wireless solutions, consideration needs to be given to other systems that operate on the same frequency, as these are likely to create issues with data transmission.
+
+- title: Scalability
+  banner-image: /images/monitoring/server-room/server-room-monitoring.png
+  wired-words:
+      - Some say scalability of a wired solution is difficult. However, with careful planning, wired sensors are scalable.
+      - It is important to take time out to understand what you want to monitor for and why.
+      - Once you understand this it’s best to work backwards from what monitoring points you know you need; e.g. temperature, water, power etc., and to map this back to a suitable Ethernet attached monitoring device.
+      - Many start off with the immediate monitoring requirement and tend to increase the monitoring footprint once the benefits of monitoring can be proven. However, adding new sensors incur the same labour costs as when installing the original ones and require careful planning of cable routing back to where the monitoring unit resides.
+  wireless-words:
+      - Wireless systems present a flexible way of monitoring as sensors can simply be placed in the vicinity of the monitoring point; e.g. a water sensor can be installed next to an air conditioning unit and a temperature sensor can be placed near to the heat source.
+      - Spook's range of wireless monitoring sensors come with onboard on/off switches so it is easy to install the sensor where it is needed and to simply switch it on.
+      - Wireless sensors can also be moved easily or added to should the landscape of the monitored area change.
+
+- title: Cost benefit
+  banner-image: /images/monitoring/server-room/server-room-monitoring.png
+  wired-words:
+      - Because sensors are powered by interconnecting cables from network attached monitoring devices; digital sensors can take advantage of the electrical current flowing through the ethernet cables and on-going operating costs are negligible.
+      - However the initial cost of installing a wired solution can be considerable. The cost of monitoring devices and sensors seem to have stabilised and some can be very expensive. Add into the mix, the sensors need to be installed and connected back to the main monitoring units means there are often added labour costs.
+      - Wired monitoring hardware also has a limited amount of ports, whether they are RJ45 connected digital sensors for dry contact sensors which usually connect to an I/O port on the device. Once these have been exhausted additional monitoring hardware devices are required.
+      - However, after the initial cost of purchasing and installing the solution, the overall cost of ownership reduces year by year.
+  wireless-words:
+      - The installation and labour costs of a wireless solution are a fraction to that of a wired solution. Installation of sensors is as simple as seating them where they need to be installed (sometimes connecting them too, such as dry contact sensors or door open/closed etc.), and switching them on.
+      - There are also very few restrictions on adding new sensors to a wireless installation as typically a wireless gateway can accommodate hundreds of sensors.
+      - Wireless sensors can be to installed wherever needed without the need to run cabling through walls, floors, and ceilings. This keeps labour costs down and time/resource to a minimum.
+
+- title: Cost negative
+  banner-image: /images/monitoring/server-room/server-room-monitoring.png
+  wired-words:
+      - There are situations where the interconnecting cables for sensors can be damaged, loosened or disconnected.
+       - The very nature of a busy IT department is there may be staff or contractors involved in various projects that were not involved with the original monitoring project.
+       - It's rare but damage to the cabling can make sensors faulty or unresponsive.
+       - In these cases cabling may need to be simply reconnected but sometimes need to be replaced.
+       - The cost of physical cabling in terms of network cables and interconnecting cables is relatively low however the cost associated with labour and resource to install them can be high.
+       - Also, if a fault occurs with digital sensors the whole sensor will need to be replaced including the interconnecting wired cable back to the base monitoring unit and the cost associated with this can be considerable.
+  wireless-words:
+       - Wireless sensor technology has become more reliable and cheaper. There are now many sensors designed with specific monitoring in mind. Spook's range of wireless sensors are in excess of 80 different types and growing. This means there is usually a sensor available for most monitoring requirements.
+       - Adding to the footprint of monitoring wirelessly is also cost effective as it simply means buying the appropriate sensors and installing them where they are needed.
+       - There is a known cost overhead that should be addressed and that is the actual cost of batteries for replacement.
+       - For small installation the battery cost is low but for larger installations the cost could be considerable.
+       - There is a need to factor in cyclical battery swaps, typically every 10 years depending on the sensor type and the polling frequency. However, Spook monitors for battery level and signal which makes the battery replacement process easy and intuitive.
+       - Battery replacement also has a hidden overhead associated with it and that is the need to factor in labour costs too.
+
+- title: Speed
+  banner-image: /images/monitoring/server-room/server-room-monitoring.png
+  wired-words:
+       - Wired data transmission is generally only affected by the bandwidth rating of the cable, LAN ports and the monitoring devices ability to send and receive data.
+       - However, many monitoring devices are set to 10/100Mb and this often conflicts with organisations that are upgrading their networks to 1Gb and higher. In many instances this makes old wired monitoring units redundant even though their functionality has not been compromised.
+       - Sensor data transfer is immediate and there is no limit, apart from a few seconds polling cycle, to the frequency of data collection.
+  wireless-words:
+       - Wireless sensors may be susceptible to a delay before a transfer of data begins. It's important that the data is transmitted and available as fast as possible.
+       - The major overhead to speed is preserving battery life in relation to the data sampling frequency. The more frequent the data collection, the less battery life a sensor will have.
+       - Spook wireless sensors have onboard memory chips and store every sensor value locally. However the collected readings are transmitted every 10 minutes via the local gateway. This ensures the maximum battery life of approximately 10+ years is achieved.
+       - In order to ensure a sensor records a true change in sensor value in real-time it has an onboard aware state which is variable. For example a temperature sensor may be set with a high of 30°C. Should the reading change to match or exceed this the aware state is invoked and the real-time reading is transmitted immediately. This in turn sets an immediate alarm to the out-of-line condition of the sensor.

@@ -1,228 +1,797 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 400 400" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,0,-46)">
-        <g transform="matrix(0.328358,0,0,0.328358,144.343,143.851)">
-            <g transform="matrix(0.87156,0,0,1,21.7706,0)">
-                <rect x="115" y="104" width="109" height="134" style="fill:none;stroke:black;stroke-width:6.49px;"/>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="281.05106"
+   height="65.565292"
+   viewBox="0 0 281.05106 65.565292"
+   version="1.1"
+   xml:space="preserve"
+   style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
+   id="svg290"
+   sodipodi:docname="filter-contacts.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata296"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs294" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1362"
+   inkscape:window-height="729"
+   id="namedview292"
+   showgrid="false"
+   inkscape:zoom="0.59"
+   inkscape:cx="-100.99973"
+   inkscape:cy="-3.5"
+   inkscape:window-x="0"
+   inkscape:window-y="37"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg290" />
+    
+    
+    
+    
+    
+    <g
+   id="g442"
+   transform="translate(-59.47431,-130.93471)"><g
+     id="g252"
+     transform="translate(0,-46)">
+        <g
+   id="g50"
+   transform="matrix(0.328358,0,0,0.328358,144.343,143.851)">
+            <g
+   id="g4"
+   transform="matrix(0.87156,0,0,1,21.7706,0)">
+                <rect
+   id="rect2"
+   style="fill:none;stroke:#000000;stroke-width:6.48999977px"
+   height="134"
+   width="109"
+   y="104"
+   x="115" />
             </g>
-            <g>
-                <g transform="matrix(1,0,0,1,7,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+            <g
+   id="g48">
+                <g
+   id="g8"
+   transform="translate(7)">
+                    <rect
+   id="rect6"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,70,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g12"
+   transform="translate(70)">
+                    <rect
+   id="rect10"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,38.5,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g16"
+   transform="translate(38.5)">
+                    <rect
+   id="rect14"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,7,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g20"
+   transform="translate(7,39)">
+                    <rect
+   id="rect18"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,70,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g24"
+   transform="translate(70,39)">
+                    <rect
+   id="rect22"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,38.5,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g28"
+   transform="translate(38.5,39)">
+                    <rect
+   id="rect26"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,7,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g32"
+   transform="translate(7,78)">
+                    <rect
+   id="rect30"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,70,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g36"
+   transform="translate(70,78)">
+                    <rect
+   id="rect34"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                 </g>
-                <g transform="matrix(1,0,0,1,5,0)">
-                    <g transform="matrix(1,0,0,1,28.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                <g
+   id="g46"
+   transform="translate(5)">
+                    <g
+   id="g40"
+   transform="translate(28.5,89)">
+                        <rect
+   id="rect38"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                     </g>
-                    <g transform="matrix(1,0,0,1,38.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                </g>
-            </g>
-        </g>
-        <g transform="matrix(0.328358,0,0,0.328358,82.3433,143.851)">
-            <g transform="matrix(0.87156,0,0,1,21.7706,0)">
-                <rect x="115" y="104" width="109" height="134" style="fill:none;stroke:black;stroke-width:6.49px;"/>
-            </g>
-            <g>
-                <g transform="matrix(1,0,0,1,7,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,5,0)">
-                    <g transform="matrix(1,0,0,1,28.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,38.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                </g>
-            </g>
-        </g>
-        <g transform="matrix(0.328358,0,0,0.328358,20.3433,143.851)">
-            <g transform="matrix(0.87156,0,0,1,21.7706,0)">
-                <rect x="115" y="104" width="109" height="134" style="fill:none;stroke:black;stroke-width:6.49px;"/>
-            </g>
-            <g>
-                <g transform="matrix(1,0,0,1,7,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,5,0)">
-                    <g transform="matrix(1,0,0,1,28.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,38.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                </g>
-            </g>
-        </g>
-        <g transform="matrix(0.328358,0,0,0.328358,206.343,143.851)">
-            <g transform="matrix(0.87156,0,0,1,21.7706,0)">
-                <rect x="115" y="104" width="109" height="134" style="fill:none;stroke:black;stroke-width:6.49px;"/>
-            </g>
-            <g>
-                <g transform="matrix(1,0,0,1,7,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,5,0)">
-                    <g transform="matrix(1,0,0,1,28.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,38.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                </g>
-            </g>
-        </g>
-        <g transform="matrix(0.328358,0,0,0.328358,268.343,143.851)">
-            <g transform="matrix(0.87156,0,0,1,21.7706,0)">
-                <rect x="115" y="104" width="109" height="134" style="fill:none;stroke:black;stroke-width:6.49px;"/>
-            </g>
-            <g>
-                <g transform="matrix(1,0,0,1,7,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,0)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,38.5,39)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,7,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,70,78)">
-                    <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                </g>
-                <g transform="matrix(1,0,0,1,5,0)">
-                    <g transform="matrix(1,0,0,1,28.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
-                    </g>
-                    <g transform="matrix(1,0,0,1,38.5,89)">
-                        <rect x="126" y="132" width="10" height="17" style="fill:none;stroke:black;stroke-width:6.09px;"/>
+                    <g
+   id="g44"
+   transform="translate(38.5,89)">
+                        <rect
+   id="rect42"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
                     </g>
                 </g>
             </g>
         </g>
-    </g>
-    <g>
-        <circle cx="76" cy="191" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
-        <g transform="matrix(1,0,0,1,-19.5,2.5)">
-            <circle cx="95.5" cy="188.5" r="2.5" style="fill:rgb(49,49,49);"/>
+        <g
+   id="g100"
+   transform="matrix(0.328358,0,0,0.328358,82.3433,143.851)">
+            <g
+   id="g54"
+   transform="matrix(0.87156,0,0,1,21.7706,0)">
+                <rect
+   id="rect52"
+   style="fill:none;stroke:#000000;stroke-width:6.48999977px"
+   height="134"
+   width="109"
+   y="104"
+   x="115" />
+            </g>
+            <g
+   id="g98">
+                <g
+   id="g58"
+   transform="translate(7)">
+                    <rect
+   id="rect56"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g62"
+   transform="translate(70)">
+                    <rect
+   id="rect60"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g66"
+   transform="translate(38.5)">
+                    <rect
+   id="rect64"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g70"
+   transform="translate(7,39)">
+                    <rect
+   id="rect68"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g74"
+   transform="translate(70,39)">
+                    <rect
+   id="rect72"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g78"
+   transform="translate(38.5,39)">
+                    <rect
+   id="rect76"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g82"
+   transform="translate(7,78)">
+                    <rect
+   id="rect80"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g86"
+   transform="translate(70,78)">
+                    <rect
+   id="rect84"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g96"
+   transform="translate(5)">
+                    <g
+   id="g90"
+   transform="translate(28.5,89)">
+                        <rect
+   id="rect88"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                    <g
+   id="g94"
+   transform="translate(38.5,89)">
+                        <rect
+   id="rect92"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                </g>
+            </g>
         </g>
-    </g>
-    <g transform="matrix(1,0,0,1,62,0)">
-        <circle cx="76" cy="191" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
-        <g transform="matrix(1,0,0,1,-19.5,2.5)">
-            <circle cx="95.5" cy="188.5" r="2.5" style="fill:rgb(49,49,49);"/>
+        <g
+   id="g150"
+   transform="matrix(0.328358,0,0,0.328358,20.3433,143.851)">
+            <g
+   id="g104"
+   transform="matrix(0.87156,0,0,1,21.7706,0)">
+                <rect
+   id="rect102"
+   style="fill:none;stroke:#000000;stroke-width:6.48999977px"
+   height="134"
+   width="109"
+   y="104"
+   x="115" />
+            </g>
+            <g
+   id="g148">
+                <g
+   id="g108"
+   transform="translate(7)">
+                    <rect
+   id="rect106"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g112"
+   transform="translate(70)">
+                    <rect
+   id="rect110"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g116"
+   transform="translate(38.5)">
+                    <rect
+   id="rect114"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g120"
+   transform="translate(7,39)">
+                    <rect
+   id="rect118"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g124"
+   transform="translate(70,39)">
+                    <rect
+   id="rect122"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g128"
+   transform="translate(38.5,39)">
+                    <rect
+   id="rect126"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g132"
+   transform="translate(7,78)">
+                    <rect
+   id="rect130"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g136"
+   transform="translate(70,78)">
+                    <rect
+   id="rect134"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g146"
+   transform="translate(5)">
+                    <g
+   id="g140"
+   transform="translate(28.5,89)">
+                        <rect
+   id="rect138"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                    <g
+   id="g144"
+   transform="translate(38.5,89)">
+                        <rect
+   id="rect142"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                </g>
+            </g>
         </g>
-    </g>
-    <g transform="matrix(1,0,0,1,124,0)">
-        <circle cx="76" cy="191" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
-        <g transform="matrix(1,0,0,1,-19.5,2.5)">
-            <circle cx="95.5" cy="188.5" r="2.5" style="fill:rgb(49,49,49);"/>
+        <g
+   id="g200"
+   transform="matrix(0.328358,0,0,0.328358,206.343,143.851)">
+            <g
+   id="g154"
+   transform="matrix(0.87156,0,0,1,21.7706,0)">
+                <rect
+   id="rect152"
+   style="fill:none;stroke:#000000;stroke-width:6.48999977px"
+   height="134"
+   width="109"
+   y="104"
+   x="115" />
+            </g>
+            <g
+   id="g198">
+                <g
+   id="g158"
+   transform="translate(7)">
+                    <rect
+   id="rect156"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g162"
+   transform="translate(70)">
+                    <rect
+   id="rect160"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g166"
+   transform="translate(38.5)">
+                    <rect
+   id="rect164"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g170"
+   transform="translate(7,39)">
+                    <rect
+   id="rect168"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g174"
+   transform="translate(70,39)">
+                    <rect
+   id="rect172"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g178"
+   transform="translate(38.5,39)">
+                    <rect
+   id="rect176"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g182"
+   transform="translate(7,78)">
+                    <rect
+   id="rect180"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g186"
+   transform="translate(70,78)">
+                    <rect
+   id="rect184"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g196"
+   transform="translate(5)">
+                    <g
+   id="g190"
+   transform="translate(28.5,89)">
+                        <rect
+   id="rect188"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                    <g
+   id="g194"
+   transform="translate(38.5,89)">
+                        <rect
+   id="rect192"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                </g>
+            </g>
         </g>
-    </g>
-    <g transform="matrix(1,0,0,1,186,0)">
-        <circle cx="76" cy="191" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
-    </g>
-    <g transform="matrix(1,0,0,1,248,0)">
-        <circle cx="76" cy="191" r="5" style="fill:none;stroke:black;stroke-width:1px;"/>
-        <g transform="matrix(1,0,0,1,-19.5,2.5)">
-            <circle cx="95.5" cy="188.5" r="2.5" style="fill:rgb(49,49,49);"/>
+        <g
+   id="g250"
+   transform="matrix(0.328358,0,0,0.328358,268.343,143.851)">
+            <g
+   id="g204"
+   transform="matrix(0.87156,0,0,1,21.7706,0)">
+                <rect
+   id="rect202"
+   style="fill:none;stroke:#000000;stroke-width:6.48999977px"
+   height="134"
+   width="109"
+   y="104"
+   x="115" />
+            </g>
+            <g
+   id="g248">
+                <g
+   id="g208"
+   transform="translate(7)">
+                    <rect
+   id="rect206"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g212"
+   transform="translate(70)">
+                    <rect
+   id="rect210"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g216"
+   transform="translate(38.5)">
+                    <rect
+   id="rect214"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g220"
+   transform="translate(7,39)">
+                    <rect
+   id="rect218"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g224"
+   transform="translate(70,39)">
+                    <rect
+   id="rect222"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g228"
+   transform="translate(38.5,39)">
+                    <rect
+   id="rect226"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g232"
+   transform="translate(7,78)">
+                    <rect
+   id="rect230"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g236"
+   transform="translate(70,78)">
+                    <rect
+   id="rect234"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                </g>
+                <g
+   id="g246"
+   transform="translate(5)">
+                    <g
+   id="g240"
+   transform="translate(28.5,89)">
+                        <rect
+   id="rect238"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                    <g
+   id="g244"
+   transform="translate(38.5,89)">
+                        <rect
+   id="rect242"
+   style="fill:none;stroke:#000000;stroke-width:6.09000015px"
+   height="17"
+   width="10"
+   y="132"
+   x="126" />
+                    </g>
+                </g>
+            </g>
         </g>
-    </g>
+    </g><g
+     id="g260">
+        <circle
+   id="circle254"
+   style="fill:none;stroke:#000000;stroke-width:1px"
+   r="5"
+   cy="191"
+   cx="76" />
+        <g
+   id="g258"
+   transform="translate(-19.5,2.5)">
+            <circle
+   id="circle256"
+   style="fill:#313131"
+   r="2.5"
+   cy="188.5"
+   cx="95.5" />
+        </g>
+    </g><g
+     id="g268"
+     transform="translate(62)">
+        <circle
+   id="circle262"
+   style="fill:none;stroke:#000000;stroke-width:1px"
+   r="5"
+   cy="191"
+   cx="76" />
+        <g
+   id="g266"
+   transform="translate(-19.5,2.5)">
+            <circle
+   id="circle264"
+   style="fill:#313131"
+   r="2.5"
+   cy="188.5"
+   cx="95.5" />
+        </g>
+    </g><g
+     id="g276"
+     transform="translate(124)">
+        <circle
+   id="circle270"
+   style="fill:none;stroke:#000000;stroke-width:1px"
+   r="5"
+   cy="191"
+   cx="76" />
+        <g
+   id="g274"
+   transform="translate(-19.5,2.5)">
+            <circle
+   id="circle272"
+   style="fill:#313131"
+   r="2.5"
+   cy="188.5"
+   cx="95.5" />
+        </g>
+    </g><g
+     id="g280"
+     transform="translate(186)">
+        <circle
+   id="circle278"
+   style="fill:none;stroke:#000000;stroke-width:1px"
+   r="5"
+   cy="191"
+   cx="76" />
+    </g><g
+     id="g288"
+     transform="translate(248)">
+        <circle
+   id="circle282"
+   style="fill:none;stroke:#000000;stroke-width:1px"
+   r="5"
+   cy="191"
+   cx="76" />
+        <g
+   id="g286"
+   transform="translate(-19.5,2.5)">
+            <circle
+   id="circle284"
+   style="fill:#313131"
+   r="2.5"
+   cy="188.5"
+   cx="95.5" />
+        </g>
+    </g></g>
 </svg>

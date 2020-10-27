@@ -59,18 +59,25 @@ layout: omniwatch/base
 	</ul>
 	<div class="is-row">
 	  <div class="is-col">
-	    <h3>Hardware</h3>
-	    <p><a href="#">More about hardware</a></p>
-	  </div>
-	  <div class="is-col">
 	    <h3>Alarms</h3>
 	    <p>A summary of each alarm can be interrogated showing each one in detail, including who were sent the alarms, which escalation stage they reached (email, SMS and Spook call centre) together with the detail of who, within the team, reacted to the alarm.</p>
 	    <p><a href="/omniwatch/alerting">More about alerts/contacts</a></p>
 	  </div>
 	  <div class="is-col">
 	    <h3>Change logs</h3>
-	    <p>It's important to keep a track on any changes to the set-up of OmniWatch. All changes are date and time stamped together with cataloging the reason for the amendment and who applied them. This is critical to understanding why changes have been applied from simply amending the high temperature trigger point of a temperature sensor to tracking a rota change or updating an email address of a key contact.</p>
+	    <p>It's important to keep a track on any changes to the set-up of OmniWatch. All changes are date and time stamped together with cataloging the reason for the amendment and who applied them.</p>
+	    <p>This is critical to understanding why changes have been applied from simply amending the high temperature trigger point of a temperature sensor to tracking a rota change or updating an email address of a key contact.</p>
 	    <p><a href="/omniwatch/change-logs">More about change logs</a></p>
+	  </div>
+	</div>
+	<div class="is-row">
+	  <div class="is-col">
+	    <h3>Hardware</h3>
+	    <p><a href="#">More about hardware</a></p>
+	  </div>
+	  <div class="is-col">
+	    <h3>Installation plans</h3>
+	    <p><a href="/omniwatch/installation-plans">More about installation plans</a></p>
 	  </div>
 	</div>
     </div>
@@ -81,12 +88,64 @@ layout: omniwatch/base
     <p>By understanding the environmental pressures and operating conditions of an area by monitoring temperature, humidity and dew point means pro-active management policies can be adopted.</p>
     <p>For example, comparing temperature readings from climate monitors, UPS systems, intelligent power strips and even rack mounted versus ambient room temperature sensors is simple. This applies to all sensor types which can be grouped together.</p>
     <p>Cooling is a huge beneficiary of accurate monitoring. By being able to measure temperature fluctuations, cases can be made for upgrading air conditioning units or simply managing an active maintenance program by spotting when cooling systems become less efficient and managing filter changes etc. Cooling has a direct impact on the longevity of electrical equipment such as servers but is equally important in understanding non-it related demands of cooling such as measuring the efficiency of fridges and freezers.</p>
+    <p><a href="/monitoring/environmental-monitoring">Read more about environmental monitoring</a></p>
   </div>
 </section>
 <section>
   <div class="container">
-    <h2>Power monitoring reports</h2>
-    <p>Power monitoring and load balancing measurements can be applied to various types of equipment. When measuring power metrics, intuitive comparisons can be made for amps, kWh, stranded power and any variety of power measurement. This means a true measurement of power efficiency gains can be captured across any time frame. This is extremely helpful in applying active load balancing exercises or auto-calculating the stranded power (spare power available) before having to invest in power expansion programs.</p>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+	<img alt="Monitored PDU" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
+	<div class="is-row">
+	  <div class="is-col">
+	    <p>Total Amps</h4>
+	    <p class="is-large"><strong>6.9A</strong></h2>
+	  </div>
+	  <div class="is-col">
+	    <p>Stranded Power</h4>
+	    <p class="is-large"><strong>9.1A</strong></p>
+	  </div>
+	  <div class="is-col">
+	    <p>Volts</h4>
+	    <p class="is-large"><strong>230V</strong></p>
+	  </div>
+	  <div class="is-col">
+	    <p>kWh</h4>
+	    <p class="is-large"><strong>29.7</strong></p>
+	  </div>
+	</div>
+	<table>
+	  <thead>
+	    <tr>
+	      <th>#</th>
+	      <th>Name</th>
+	      <th>Customer</th>
+	      <th>Status</th>
+	      <th>Amps</th>
+	      <th>Wh</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  {% for socket in site.data.power-monitoring.sockets %}
+	    <tr>
+	      <td>{{ socket.id }}</td>
+	      <td>{{ socket.name }}</td>
+	      <td>{{ socket.customer }}</td>
+	      <td><span style="display: inline-block; width: 20px; height: 20px; border-radius: 100%; background-color: rgba(156,204,101,0.6); margin-right: 10px;"></span> On</td>
+	      <td>{{ socket.amps }}</td>
+	      <td>{{ socket.wh }}</td>
+	    </tr>
+	  {% endfor %}
+	  </tbody>
+	</table>
+      </div>
+      <div class="is-col">
+	<h2>Power monitoring reports</h2>
+	<p>Power monitoring and load balancing measurements can be applied to various types of equipment. When measuring power metrics, intuitive comparisons can be made for amps, kWh, stranded power and any variety of power measurement.</p>
+	<p>This means a true measurement of power efficiency gains can be captured across any time frame. This is extremely helpful in applying active load balancing exercises or auto-calculating the stranded power before having to invest in power expansion programs.</p>
+	<p><a href="/monitoring/power-monitoring">Read more about dedicated power monitoring</a></p>
+      </div>
+    </div>
   </div>
 </section>
 <section>

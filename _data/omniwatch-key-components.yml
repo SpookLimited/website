@@ -1,5 +1,5 @@
 - name: Dashboard
-  icon: /images/icons/bulk-data.svg
+  icon: /images/icons/remote-working.svg
   link: /omniwatch/dashboard
   image: /images/homepage/omniwatch-dashboard.svg
   words:
@@ -33,7 +33,7 @@
       - Every change on the system is logged and stored for review and can also be sent out when the change is made to other users who wish to be kept in the loop.
 
 - name: Installation plans
-  icon: /images/icons/bulk-data.svg
+  icon: /images/omniwatch/installation-plans.svg
   link: /omniwatch/installation-plans
   image: /images/homepage/installation-plans.svg
   words:

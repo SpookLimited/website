@@ -1,0 +1,134 @@
+- type: Sensor
+  item: Temperature 1
+  change: Trip
+  from: 30°C
+  to: 35°C
+  reason: Increase trip value due to increased outside temperature
+  by: Steven
+  when: 12:05 03-04-2020
+
+- type: Sensor
+  item: Temperature 2
+  change: Trip
+  from: 30°C
+  to: 35°C
+  reason: Increase trip value due to increased outside temperature
+  by: Steven
+  when: 12:05 03-04-2020
+
+- type: Sensor
+  item: Temperature 3
+  change: Trip
+  from: 30°C
+  to: 35°C
+  reason: Increase trip value due to increased outside temperature
+  by: Steven
+  when: 12:06 03-04-2020
+
+- type: Sensor
+  item: Temperature 4
+  change: Trip
+  from: 30°C
+  to: 35°C
+  reason: Increase trip value due to increased outside temperature
+  by: Steven
+  when: 12:06 03-04-2020
+
+- type: Contact
+  item: John
+  change: Contact details
+  from: Email and SMS
+  to: Email, SMS and Phone
+  reason: Enable phone calls for alerts
+  by: Paul
+  when: 16:23 20-04-2020
+
+- type: Contact
+  item: John
+  change: Phone number
+  from: 
+  to: +44 1632 960395
+  reason: Enable phone calls for alerts
+  by: Paul
+  when: 16:23 20-04-2020
+
+- type: Sensor
+  item: Door access
+  change: Active status
+  from: Active
+  to: Inactive
+  reason: Disable door alerts while maintenance work is being done
+  by: Steven
+  when: 10:51 10-05-2020
+
+- type: Sensor
+  item: Door access
+  change: Active status
+  from: Inactive
+  to: Active
+  reason: Enable door alerts, maintenance work is completed
+  by: Steven
+  when: 14:26 10-05-2020
+
+- type: Contact
+  item: Paul
+  change: Active status 
+  from: Active
+  to: Inactive
+  reason: Disable alerts while on holiday
+  by: Paul
+  when: 16:58 01-06-2020
+
+- type: Sensor
+  item: AC Status
+  change: Trip
+  from: 
+  to: 50
+  reason: Adding trip value to new AC unit
+  by: Steven
+  when: 13:38 03-06-2020
+
+- type: Sensor
+  item: AC Status
+  change: Active status
+  from: Inactive
+  to: Active
+  reason: Enable new AC unit for alerting
+  by: Steven
+  when: 13:42 03-06-2020
+
+- type: Sensor
+  item: Temperature 1
+  change: Trip
+  from: 35°C
+  to: 30°C
+  reason: Decrease trip value due to new AC unit
+  by: Steven
+  when: 14:00 03-06-2020
+
+- type: Sensor
+  item: Temperature 2
+  change: Trip
+  from: 35°C
+  to: 30°C
+  reason: Decrease trip value due to new AC unit
+  by: Steven
+  when: 14:02 03-06-2020
+
+- type: Sensor
+  item: Temperature 3
+  change: Trip
+  from: 35°C
+  to: 30°C
+  reason: Decrease trip value due to new AC unit
+  by: Steven
+  when: 14:05 03-06-2020
+
+- type: Contact
+  item: Paul
+  change: Active status 
+  from: Inactive
+  to: Active
+  reason: Enable alerts after returning from holiday
+  by: Paul
+  when: 09:07 08-06-2020

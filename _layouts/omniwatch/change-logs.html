@@ -28,9 +28,45 @@ layout: omniwatch/base
 </section>
 <section>
   <div class="container">
-    <h2>Searchable and sortable</h2>
-    <p>Over time many changes can be actioned on OmniWatch which can cause the amount of recorded items to be substantial. Users are able to search within the event log using any data to filter down to the events they wish to see.</p>
-    <p>For example, simply type <code>temp</code> for all changes associated with temperature; or type in the name of a contact to track all amendments associated with that staff member.</p>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+	<h2>Searchable and sortable</h2>
+	<p>Over time many changes can be actioned on OmniWatch which can cause the amount of recorded items to be substantial. Users are able to search within the event log using any data to filter down to the events they wish to see.</p>
+	<p>For example, simply type <code>temp</code> for all changes associated with temperature; or type in the name of a contact to track all amendments associated with that staff member.</p>
+      </div>
+      <div class="is-col">
+	<table id="change-log-table" class="is-smaller">
+	  <thead>
+	    <tr>
+	      <th>ID</th>
+	      <th>Date</th>
+	      <th>Type</th>
+	      <th>Item</th>
+	      <th>Change</th>
+	      <th>From</th>
+	      <th>To</th>
+	      <th>Reason</th>
+	      <th>By</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    {% for row in site.data.change-logs %}
+	      <tr>
+		<td>{{ forloop.index }}</td>
+		<td>{{ row.when }}</td>
+		<td>{{ row.type }}</td>
+		<td>{{ row.item }}</td>
+		<td>{{ row.change }}</td>
+		<td>{{ row.from }}</td>
+		<td>{{ row.to }}</td>
+		<td>{{ row.reason }}</td>
+		<td>{{ row.by }}</td>
+	      </tr>
+	    {% endfor %}
+	  </tbody>
+	</table>
+      </div>
+    </div>
   </div>
 </section>
 <section>
@@ -43,3 +79,22 @@ layout: omniwatch/base
     <h2>Included on each item page (contact/sensor)</h2>
   </div>
 </section>
+<script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#change-log-table').DataTable({
+      'pageLength': 5,
+      "language": {
+	  "lengthMenu": 'Display <select>'+
+	    '<option value="5">5</option>'+
+	    '<option value="10">10</option>'+
+	    '<option value="15">15</option>'+
+	    '<option value="20">20</option>'+
+	    '<option value="-1">All</option>'+
+	    '</select> records'
+	}
+    });
+  });
+</script>

@@ -1,0 +1,13 @@
+<div class="is-row is-items-middle">
+  <div class="is-col is-30">
+    <img src="{{ quote-image }}">
+  </div>
+  <div class="is-col is-70">
+    <blockquote>
+      {% for line in quote %}
+      <p>{{ line }}</p>
+      {% endfor %}
+      <p class="is-small">{{ quote-by }} - {{ quote-information }}</p>
+    </blockquote>
+  </div>
+</div>

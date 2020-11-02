@@ -19,6 +19,8 @@ collections:
         output: true
     monitoring:
         output: true
+    environmental:
+        output: true
     omniwatch:
         output: true
     tools:

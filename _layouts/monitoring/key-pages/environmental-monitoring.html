@@ -1,53 +1,42 @@
 ---
-layout: monitoring/key-pages/base
+layout: base
 ---
 <section>
-	<div class="container is-text-center">
-		<h2>Key climate conditions</h2>
-		<div class="is-row">
-			{% for item in site.data.environmental.header-item %}
-			<div class="is-col is-33">
-				<img alt="{{ item.title }}" class="feature-img" src="{{ item.image }}">
-				<h3>{{ item.title }}</h3>
-				<p>{{ item.text }}</p>
-				<div class="is-text-center see-more">
-					<a href="#{{ item.section-link }}">
-						<span class="caret is-down"></span>
-					</a>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
+  <div class="container">
+    <h1>Environmental monitoring</h1>
+  </div>
 </section>
 <section>
-	<div class="container">
-		<h2>Secure cloud based environmental monitoring</h2>
-		<p>Monitoring the environment is important for many reasons, whether it's temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods, the range of climate monitoring by Spook is extensive.</p>
-		<p>Spook's secure remote monitoring service called OmniWatch is designed to work with most climate measuring hardware making monitoring the environment easy, cohesive and technically advanced.</p>
-		<p>OmniWatch's main function is to alert users to changes to the sensors being monitored via email, SMS and UK call centre. In addition, Spook understands that users real-time dashboards must be intuitive yet functionally rich. That's why OmniWatch's functionality has been and continues to be designed by customer led feedback.</p>
-		<p>Spook's customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally advanced to businesses that are considering monitoring for the first time and want a hassle free, out-of-box monitoring solution.</p>
-	</div>
+  <div class="container">
+    <h2>Key climate conditions</h2>
+    {% for item in site.data.environmental.header-item %}
+      <p class="is-large">{{ item.title }}</p>
+      <p>{{ item.text }}</p>
+      <a href="#{{ item.section-link }}">goto</a>
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2>Secure cloud based environmental monitoring</h2>
+    <p>Monitoring the environment is important for many reasons, whether it's temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods, the range of climate monitoring by Spook is extensive.</p>
+    <p>Spook's secure remote monitoring service called OmniWatch is designed to work with most climate measuring hardware making monitoring the environment easy, cohesive and technically advanced.</p>
+    <p>OmniWatch's main function is to alert users to changes to the sensors being monitored via email, SMS and UK call centre. In addition, Spook understands that users real-time dashboards must be intuitive yet functionally rich. That's why OmniWatch's functionality has been and continues to be designed by customer led feedback.</p>
+    <p>Spook's customers range from organisations that have already invested in environmental monitoring equipment and want a central cloud based service that is easy to use and functionally advanced to businesses that are considering monitoring for the first time and want a hassle free, out-of-box monitoring solution.</p>
+  </div>
 </section>
 {% for item in site.data.environmental.header-item %}
 <section id="{{ item.section-link }}">
-	<div class="container" style="background-color: #212121; color: #fff; padding: 2em;">
-		<div class="is-row" {% if item.reverse == 1 %}style="flex-direction: row-reverse;"{% endif %}>
-			<div class="is-col is-40" style="background-image: url('{{ item.icon }}'); background-size: contain; background-repeat: no-repeat; background-position: center;">
-			</div>
-			<div class="is-col is-60">
-				<h2>{{ item.title }} monitoring</h2>
-				{% for line in item.words %}
-					<p>{{ line }}</p>
-				{% endfor %}
-				<p><a class="button is-secondary" href="{{ item.link }}">More details</a> <a href="#top" class="button is-inverted">Back to top</a></p>
-			</div>
-		</div>
-	</div>
-	<div class="container is-border" style="padding: 2em;">
-		{% if item.extra-include %}
-		{% include {{ item.extra-include }} %}
-		{% endif %}
-	</div>
+  <div class="container">
+    <h2>{{ item.title }} monitoring</h2>
+    {% for line in item.words %}
+      <p>{{ line }}</p>
+    {% endfor %}
+    <ul class="is-bar">
+      <li><a href="{{ item.link }}">View more</a></li>
+      <li><a href="#top" class="button is-inverted">Back to top</a></li>
+    </ul>
 </section>
 {% endfor %}
+{% include monitoring/key-footer.html %} 
+{% include contact-us.html %}

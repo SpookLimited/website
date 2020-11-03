@@ -5,7 +5,7 @@
   words:
     - OmniWatch's real-time dashboards are designed to combine, simplify and improve the monitoring of existing sensors and equipment or allow first time users to monitor areas quickly from scratch.
     - Sensor readings and data metrics are displayed on a centralised console and accessed on any internet enabled device securely in the cloud.
-    - Dashboard’s are bespoke and designed by Spook and with nearly two decades of experience users can relax, knowing the end result will be intuitive and easy to use.
+    - Dashboard's are bespoke and designed by Spook and with nearly two decades of experience users can relax, knowing the end result will be intuitive and easy to use.
 
 - name: Alerting
   icon: /images/icons/alarms.svg

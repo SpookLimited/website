@@ -141,8 +141,7 @@ layout: monitoring/key-pages/base
 <section id="bulk-data">
   <div class="container">
     <!--<img alt="Bulk data collection" src="/images/icons/bulk-data.svg">-->
-    <h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Bulk data collection</h2>
-    <h3 style="font-weight: bolder;">Seamless power management using multiple protocols.</h3>
+    <h2>Bulk data collection and seamless power management with support for all modern protocols.</h2>
     <p>The benefits of monitoring power metrics centrally across an array of different equipment manufacturers is easy to illustrate. Change management procedures can be broadcast swiftly over multiple protocols and older, legacy power power strips, can be given a new lease of life thus ensuring the initial investment in hardware is maximised.</p>
     <p>Without central management even the smallest of reconfigurations such as amending the on-board emergency contact procedures can take hours. OmniWatch provides real-time secure cloud based dashboards in order to manage hundreds of devices easily and intuitively.</p>
     <p>The key to providing seamless bulk power monitoring is to make monitoring simple and available all in one place irrespective of the many different equipment manufacturers, models or equipment types.</p>
@@ -204,8 +203,7 @@ layout: monitoring/key-pages/base
 <section id="247-monitoring">
   <div class="container">
     <!--<img alt="24/7 monitoring and alerting" src="/images/icons/247.svg">-->
-    <h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">24/7 monitoring</h2>
-    <h3 style="font-weight: bolder;">Dynamic calendaring for informed alarm escalation.</h3>
+    <h2>24/7 monitoring and alerting with customisable contact details and rotas</h2>
     <p>Accurate alarm procedures are key to minimising potential disruption when something goes wrong. An organisation often has different teams or even departments for global, regional or departmental alarms. The dynamic calendar function of OmniWatch provides a flexible and easy to implement solution.</p>
     <p>User defined alarms are handled by automatic e-mail and 2-way SMS. These can be escalated to Spook's UK Call Centre providing an extra level of certainty should mobile phones be switched to silent, out of signal or lost.</p>
     <p>Spook call centre agents contact staff on alternative mobile and landline numbers to ensure safe receipt of the alert.</p>
@@ -214,8 +212,7 @@ layout: monitoring/key-pages/base
 <section id="perpetual-data">
   <div class="container">
     <!--<img alt="Perpetual data storage" src="/images/icons/perpetual-data.svg">-->
-    <h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Perpetual data storage</h2>
-    <h3 style="font-weight: bolder;">Efficiency gains, load-balancing and trend analysis.</h3>
+    <h2>Perpetual data storage for trend analysis, load balance planning and efficiency impact tracking</h2>
     <p>Spook recognises that power readings and their associated trend data is a valuable management commodity. By storing the power consumption data perpetually means measuring efficiency gains, load-balancing and long-term trend analysis is accurate. Not only can patterns in power spikes be identified together with their regularity but identification of spare power known as stranded power is simple.</p>
     <!--<img alt="PUE and DCiE monitoring" src="/images/sections/key-pages/power-monitoring/pue-dcie.svg">
     <img alt="Power usage over time" src="/images/sections/key-pages/power-monitoring/PowerUsageOverTime.png">-->
@@ -225,222 +222,201 @@ layout: monitoring/key-pages/base
 </section>
 <section id="max-load">
   <div class="container">
+    <h2>Max load monitoring for both PDU and individual sockets</h2>
+    <p>By setting a maximum load % threshold on a PDUs global intake and applying this to socket level consumption is ideal to prevent overloading and power loss.</p>
+    <p>Organisations can apply equitable sharing to their users and by doing so, ensure a fair usage policy towards power consumption.</p>
+    <img alt="PDU monitoring" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
     <div class="is-row">
-      <div class="is-col is-80">
-        <h2 style="border-bottom: 20px solid rgba(255,0,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Max load function</h2>
-        <h3 style="font-weight: bolder;">Load balancing and equitable sharing down to socket level.</h3>
-        <p>By setting a maximum load % threshold on a PDUs global intake and applying this to socket level consumption is ideal to prevent overloading and power loss.</p>
-        <p>Organisations can, for the first time, apply equitable sharing to their users and by doing so, ensure a fair usage policy towards power consumption.</p>
-        <img alt="PDU monitoring" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
-        <div class="is-row">
-          <div class="is-col">
-            <h4>Max Percentage</h4>
-            <div class="form-item">
-              <div class="is-prepend is-50">
-                <span>%</span>
-                <input style="max-width: 100%;" id="max-percentage-input" type="number" value="100">
-              </div>
-            </div>
-          </div>
-          <div class="is-col">
-            <h4>Max Amps</h4>
-            <h2 id="max-amps-amount">N/A</h2>
-          </div>
-          <div class="is-col">
-            <h4>Socket Limit</h4>
-            <h2 id="socket-amps-value">N/A</h2>
-          </div>
-          <div class="is-col">
-            <h4>Stranded Power</h4>
-            <h2>9.10 A</h2>
-          </div>
-        </div>
-        <div class="is-row" style="margin-top: 1em;">
-          {% for socket in site.data.power-monitoring.sockets %}
-            <div class="is-col is-25">
-              <div class="is-row is-stack-20">
-                <div class="is-col is-25">
-                  <img alt="Socket switching {{ socket.name }}" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
-                </div>
-                <div class="is-col is-75">
-                  <div class="socket"></div>
-                  <strong>{{ socket.name }}</strong><br>
-                  Amps: <span id="socket-{{ socket.id }}-value">{{ socket.amps }}</span><br>
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
+      <div class="is-col">
+	<h4>Max Percentage</h4>
+	<div class="form-item">
+	  <div class="is-prepend is-50">
+	    <span>%</span>
+	    <input style="max-width: 100%;" id="max-percentage-input" type="number" value="100">
+	  </div>
+	</div>
       </div>
-      <div class="is-col is-20">
-        <img alt="Percentage" src="/images/icons/percentage.svg">
+      <div class="is-col">
+	<h4>Max Amps</h4>
+	<h2 id="max-amps-amount">N/A</h2>
       </div>
+      <div class="is-col">
+	<h4>Socket Limit</h4>
+	<h2 id="socket-amps-value">N/A</h2>
+      </div>
+      <div class="is-col">
+	<h4>Stranded Power</h4>
+	<h2>9.10 A</h2>
+      </div>
+    </div>
+    <div class="is-row" style="margin-top: 1em;">
+      {% for socket in site.data.power-monitoring.sockets %}
+	<div class="is-col is-25">
+	  <div class="is-row is-stack-20">
+	    <div class="is-col is-25">
+	      <img alt="Socket switching {{ socket.name }}" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
+	    </div>
+	    <div class="is-col is-75">
+	      <div class="socket"></div>
+	      <strong>{{ socket.name }}</strong><br>
+	      Amps: <span id="socket-{{ socket.id }}-value">{{ socket.amps }}</span><br>
+	    </div>
+	  </div>
+	</div>
+      {% endfor %}
     </div>
   </div>
 </section>
 <section id="socket-switching">
   <div class="container">
+    <!--<img alt="Socket switching" src="/images/icons/switching.svg">-->
+    <h2>Remote individual socket management through central commands</h2>
+    <p>PDU manufactures each have there own GUI’s to manage their PDUs. This often gets complicated as typically an installation has multiple PDU manufacturers installed, each with their own functions and procedures. This can be compounded by different PDU models from the same manufacturer often having different commands meaning accessing them to do simple functions becomes a challenge.</p>
+    <p>By managing power strip socket switching via OmniWatch ensures a single, cohesive methodology can be adopted for on/off and re-boot functionality. This simplifies matters and an audit trail is automatically created to check who did what together with date and time stamps of each event.</p>
+    <ul class="is-bar is-stack-20">
+      <li id="socket-reboot-all" class="button is-secondary is-small is-stack-20">
+	Reboot all 
+      </li>
+      <li id="socket-turn-all-off" class="button is-secondary is-small is-stack-20">
+	All off
+      </li>
+      <li id="socket-turn-all-on" class="button is-secondary is-small is-stack-20">
+	All on
+      </li>
+      <li>
+	Click individual sockets to power cycle
+      </li>
+    </ul>
     <div class="is-row">
-      <div class="is-col is-20">
-        <img alt="Socket switching" src="/images/icons/switching.svg">
-      </div>
-      <div class="is-col is-80">
-        <h2 style="border-bottom: 20px solid rgba(0,255,0,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Socket switching</h2>
-        <h3 style="font-weight: bolder;">Central management of power switching commands for on/off/reboot.</h3>
-        <p>PDU manufactures each have there own GUI’s to manage their PDUs. This often gets complicated as typically an installation has multiple PDU manufacturers installed, each with their own functions and procedures. This can be compounded by different PDU models from the same manufacturer often having different commands meaning accessing them to do simple functions becomes a challenge.</p>
-        <p>By managing power strip socket switching via OmniWatch ensures a single, cohesive methodology can be adopted for on/off and re-boot functionality. This simplifies matters and an audit trail is automatically created to check who did what together with date and time stamps of each event.</p>
-        <ul class="is-bar is-stack-20">
-          <li id="socket-reboot-all" class="button is-secondary is-small is-stack-20">
-            Reboot all 
-          </li>
-          <li id="socket-turn-all-off" class="button is-secondary is-small is-stack-20">
-            All off
-          </li>
-          <li id="socket-turn-all-on" class="button is-secondary is-small is-stack-20">
-            All on
-          </li>
-          <li>
-            Click individual sockets to power cycle
-          </li>
-        </ul>
-        <div class="is-row">
-          {% for socket in site.data.power-monitoring.sockets %}
-            <div class="is-col is-25">
-              <div class="is-row is-stack-20">
-                <div class="is-col is-25">
-                  <img alt="Socket {{ socket.id }}" id="socket-{{ socket.id }}-image" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
-                </div>
-                <div class="is-col is-75">
-                  <div id="socket-{{ socket.id }}-icon" class="socket"></div>
-                  <p class="is-small">
-                    <strong>{{ socket.name }}</strong><br>
-                    Amps: {{ socket.amps }}<br>
-                    Wh: {{ socket.wh }}<br>
-                    <ul class="is-bar">
-                      <li id="socket-{{ socket.id }}-status-on" class="is-small list-button"><strong>On</strong></li>
-                      <li id="socket-{{ socket.id }}-status-off" class="is-small list-button"><span class="is-muted">Off</span></li>
-                      <li id="socket-{{ socket.id }}-status-reboot" class="is-small list-button"><span class="is-muted">Reboot</span></li>
-                    </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
+      {% for socket in site.data.power-monitoring.sockets %}
+	<div class="is-col is-25">
+	  <div class="is-row is-stack-20">
+	    <div class="is-col is-25">
+	      <img alt="Socket {{ socket.id }}" id="socket-{{ socket.id }}-image" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
+	    </div>
+	    <div class="is-col is-75">
+	      <div id="socket-{{ socket.id }}-icon" class="socket"></div>
+	      <p class="is-small">
+		<strong>{{ socket.name }}</strong><br>
+		Amps: {{ socket.amps }}<br>
+		Wh: {{ socket.wh }}<br>
+		<ul class="is-bar">
+		  <li id="socket-{{ socket.id }}-status-on" class="is-small list-button"><strong>On</strong></li>
+		  <li id="socket-{{ socket.id }}-status-off" class="is-small list-button"><span class="is-muted">Off</span></li>
+		  <li id="socket-{{ socket.id }}-status-reboot" class="is-small list-button"><span class="is-muted">Reboot</span></li>
+		</ul>
+	      </p>
+	    </div>
+	  </div>
+	</div>
+      {% endfor %}
     </div>
   </div>
 </section>
 <section id="users">
   <div class="container">
-    <div class="is-row">
-      <div class="is-col is-80">
-        <h2 style="border-bottom: 20px solid rgba(0,0,255,0.3); line-height: 0.3; display: inline-block; margin-bottom: 0;">Users</h2>
-        <h3 style="font-weight: bolder;">Filtered user access limiting power strip browsing rights.</h3>
-        <p>PDUs often have shared power demands for multiple users, departments and sometimes customers from a single power strip.</p>
-        <p>By limiting end user browsing rights of each PDU down to socket level means power sharing is easily achieved and sensitive commands such as global PDU re-boot can be protected.</p>
-        <p>Super users have access rights to all PDU functionality whereas Users only have access to their own available PDUs and sockets.</p>
-        <script>
-          function toggle(id){
-            $('[id^="list-item-"]').each(function() {
-              var currentId = this.id.slice(-1);
-              if(currentId == id){
-                $(this).removeClass('is-hidden');
-                $("#user-button-" + currentId).addClass('active-tab');
-              }else{
-                $(this).addClass('is-hidden');
-                $("#user-button-" + currentId).removeClass('active-tab');
-              }
-            });
-          }
-        </script>
-        <ul class="is-bar">
-          <li id="user-button-1" class="list-item list-button active-tab" onclick="toggle('1');" style="padding: .2em 1em;">
-            <img alt="Super user" src="/images/icons/users.svg" style="max-width: 40px;"> Super user
-          </li>
-          <li id="user-button-2" class="list-item list-button" onclick="toggle('2');" style="padding: .2em 1em;">
-            <img alt="User account" src="/images/icons/users.svg" style="max-width: 40px;"> User 
-          </li>
-        </ul>
-        <div id="list-item-1" style="min-height: 100%; padding: 1em 2em;">
-          <h3>Super user</h3>
-          <img alt="Monitored PDU" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
-          <div class="is-row">
-            <div class="is-col">
-              <h4>Total Amps</h4>
-              <h2>6.9A</h2>
-            </div>
-            <div class="is-col">
-              <h4>Stranded Power</h4>
-              <h2>9.1A</h2>
-            </div>
-            <div class="is-col">
-              <h4>Volts</h4>
-              <h2>230V</h2>
-            </div>
-            <div class="is-col">
-              <h4>kWh</h4>
-              <h2>29.7</h2>
-            </div>
-          </div>
-          <table>
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Name</th>
-                <th>Customer</th>
-                <th>Status</th>
-                <th>Amps</th>
-                <th>Wh</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for socket in site.data.power-monitoring.sockets %}
-              <tr>
-                <td>{{ socket.id }}</td>
-                <td>{{ socket.name }}</td>
-                <td>{{ socket.customer }}</td>
-                <td><span style="display: inline-block; width: 20px; height: 20px; border-radius: 100%; background-color: rgba(156,204,101,0.6); margin-right: 10px;"></span> On</td>
-                <td>{{ socket.amps }}</td>
-                <td>{{ socket.wh }}</td>
-              </tr>
-              {% endfor %}
-            </tbody>
-          </table>
-        </div>
-        <div id="list-item-2" class="is-hidden" style="min-height: 100%; padding: 1em 2em;">
-          <h3>User</h3>
-          <img alt="Filtered PDU" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU-filtered.svg">
-          <div class="is-row">
-            {% for socket in site.data.power-monitoring.sockets %}
-              {% if forloop.index >= 3 and forloop.index <= 5 %}
-                <div class="is-col is-25">
-                  <div class="is-row is-stack-20">
-                    <div class="is-col is-25">
-                      <img alt="Socket {{ socket.id }}" id="socket-{{ socket.id }}-image" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
-                    </div>
-                    <div class="is-col is-75">
-                      <div id="socket-{{ socket.id }}-icon" class="socket"></div>
-                      <p class="is-small">
-                        <strong>{{ socket.name }}</strong><br>
-                        Amps: {{ socket.amps }}<br>
-                        Wh: {{ socket.wh }}<br>
-                        <ul class="is-bar">
-                          <li id="socket-{{ socket.id }}-status-on" class="is-small"><strong>On</strong></li>
-                          <li id="socket-{{ socket.id }}-status-off" class="is-small"><span class="is-muted">Off</span></li>
-                          <li id="socket-{{ socket.id }}-status-reboot" class="is-small"><span class="is-muted">Reboot</span></li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              {% endif %}
-            {% endfor %}
-          </div>
-        </div>
+    <!--<img alt="Users" src="/images/icons/users.svg">-->
+    <h2>Control who controls what with user permissions</h2>
+    <p>PDUs often have shared power demands for multiple users, departments and sometimes customers from a single power strip.</p>
+    <p>By limiting end user browsing rights of each PDU down to socket level means power sharing is easily achieved and sensitive commands such as global PDU re-boot can be protected.</p>
+    <p>Super users have access rights to all PDU functionality whereas Users only have access to their own available PDUs and sockets.</p>
+    <script>
+      function toggle(id){
+	$('[id^="list-item-"]').each(function() {
+	  var currentId = this.id.slice(-1);
+	  if(currentId == id){
+	    $(this).removeClass('is-hidden');
+	    $("#user-button-" + currentId).addClass('active-tab');
+	  }else{
+	    $(this).addClass('is-hidden');
+	    $("#user-button-" + currentId).removeClass('active-tab');
+	  }
+	});
+      }
+    </script>
+    <ul class="is-bar">
+      <li>Filter by:</li>
+      <li id="user-button-1" class="list-item list-button active-tab" onclick="toggle('1');">
+	Super user
+      </li>
+      <li id="user-button-2" class="list-item list-button" onclick="toggle('2');">
+	User 
+      </li>
+    </ul>
+    <div id="list-item-1" style="min-height: 100%; padding: 1em 2em;">
+      <h3>Super user</h3>
+      <img alt="Monitored PDU" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU.svg">
+      <div class="is-row">
+	<div class="is-col">
+	  <h4>Total Amps</h4>
+	  <h2>6.9A</h2>
+	</div>
+	<div class="is-col">
+	  <h4>Stranded Power</h4>
+	  <h2>9.1A</h2>
+	</div>
+	<div class="is-col">
+	  <h4>Volts</h4>
+	  <h2>230V</h2>
+	</div>
+	<div class="is-col">
+	  <h4>kWh</h4>
+	  <h2>29.7</h2>
+	</div>
       </div>
-      <div class="is-col is-20">
-        <img alt="Users" src="/images/icons/users.svg">
+      <table>
+	<thead>
+	  <tr>
+	    <th>#</th>
+	    <th>Name</th>
+	    <th>Customer</th>
+	    <th>Status</th>
+	    <th>Amps</th>
+	    <th>Wh</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  {% for socket in site.data.power-monitoring.sockets %}
+	  <tr>
+	    <td>{{ socket.id }}</td>
+	    <td>{{ socket.name }}</td>
+	    <td>{{ socket.customer }}</td>
+	    <td><span style="display: inline-block; width: 20px; height: 20px; border-radius: 100%; background-color: rgba(156,204,101,0.6); margin-right: 10px;"></span> On</td>
+	    <td>{{ socket.amps }}</td>
+	    <td>{{ socket.wh }}</td>
+	  </tr>
+	  {% endfor %}
+	</tbody>
+      </table>
+    </div>
+    <div id="list-item-2" class="is-hidden" style="min-height: 100%; padding: 1em 2em;">
+      <h3>User</h3>
+      <img alt="Filtered PDU" style="margin-bottom: 2em;" src="/images/sections/key-pages/power-monitoring/PDU-filtered.svg">
+      <div class="is-row">
+	{% for socket in site.data.power-monitoring.sockets %}
+	  {% if forloop.index >= 3 and forloop.index <= 5 %}
+	    <div class="is-col is-25">
+	      <div class="is-row is-stack-20">
+		<div class="is-col is-25">
+		  <img alt="Socket {{ socket.id }}" id="socket-{{ socket.id }}-image" style="max-width: 40px; margin-bottom: 1em;" src="/images/sections/key-pages/power-monitoring/socket.svg">
+		</div>
+		<div class="is-col is-75">
+		  <div id="socket-{{ socket.id }}-icon" class="socket"></div>
+		  <p class="is-small">
+		    <strong>{{ socket.name }}</strong><br>
+		    Amps: {{ socket.amps }}<br>
+		    Wh: {{ socket.wh }}<br>
+		    <ul class="is-bar">
+		      <li id="socket-{{ socket.id }}-status-on" class="is-small"><strong>On</strong></li>
+		      <li id="socket-{{ socket.id }}-status-off" class="is-small"><span class="is-muted">Off</span></li>
+		      <li id="socket-{{ socket.id }}-status-reboot" class="is-small"><span class="is-muted">Reboot</span></li>
+		    </ul>
+		  </p>
+		</div>
+	      </div>
+	    </div>
+	  {% endif %}
+	{% endfor %}
       </div>
     </div>
   </div>

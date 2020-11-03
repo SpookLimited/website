@@ -1,0 +1,12 @@
+<section>
+  <div class="container">
+    <div class="is-row">
+      {% for item in site.data.environmental.header-item %}
+      <div class="is-col">
+	<p class="is-large"><a href="{{ item.link }}">{{ item.title }}</a></p>
+	<p>{{ item.text }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

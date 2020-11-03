@@ -2,8 +2,8 @@
 layout: base
 ---
 <header class="site-header"> 
-	<div class="container">
-		{% include header-sphere.html %}
+  <div class="container">
+    {% include header-sphere.html %}
         <div class="is-row is-items-middle">
             <div class="is-col">
             </div>
@@ -11,7 +11,7 @@ layout: base
                 <div class="is-stack-20">
                     <h5 style="text-transform: uppercase;">Secure remote cloud based monitoring</h5>
                     <h1 style="margin-top: 16px; margin-bottom: 16px;"><span class="brand" style="padding:8px;">OMNIWATCH</span></h1>
-		    <p><strong>Prevention is better than cure</strong> has been Spook's motto from day one. By installing sensors or monitoring existing equipment OmniWatch sends alarms in real-time via email, 2-way SMS and UK call centres. Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it before it causes service disruption.</p>
+        <p><strong>Prevention is better than cure</strong> has been Spook's motto from day one. By installing sensors or monitoring existing equipment OmniWatch sends alarms in real-time via email, 2-way SMS and UK call centres. Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it before it causes service disruption.</p>
                 </div>
                 <ul class="is-bar">
                     <li><a href="#" class="button">Book demo</a></li>
@@ -19,113 +19,121 @@ layout: base
                 </ul>
             </div>
         </div>
-	</div>
+  </div>
 </header>
 <section>
-	<div class="container">
-		<div class="slider">
-			<div class="slider-row"></div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="slider">
+      <div class="slider-row"></div>
+    </div>
+  </div>
 </section>
 <section>
-	<div class="container">
-	    <h2 class="is-text-center">There is much more to successful remote monitoring than installing out-of-the-box software. OmniWatch installations are unique and present their own distinctive dynamics.</h2>
-	</div>
+  <div class="container">
+      <h2 class="is-text-center">There is much more to successful remote monitoring than installing out-of-the-box software. OmniWatch installations are unique and present their own distinctive dynamics.</h2>
+  </div>
 </section>
 <section>
     <div class="container">
-		{% for item in site.data.omniwatch-key-components %}
-		<div class="is-row is-stack-60">
-			<div class="is-col is-30">
-				<div class="is-inset-12 is-border is-stack-20">
-					<img src="{{ item.icon }}" style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>{{ item.name }}</strong>
-				</div>
-				{% for paragraph in item.words %}
-				<p>{{ paragraph }}</p>
-				{% endfor %}
-				<a href="{{ item.link }}" class="button is-secondary">View more</a>
-			</div>
-			<div class="is-col is-70">
-				<img class="is-shadow-2" src="{{ item.image }}">
-			</div>
-		</div>
-		{% endfor %}
+    {% for item in site.data.omniwatch-key-components %}
+    <div class="is-row is-stack-60">
+      <div class="is-col is-30">
+        <div class="is-inset-12 is-border is-stack-20">
+          <img src="{{ item.icon }}" style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>{{ item.name }}</strong>
+        </div>
+        {% for paragraph in item.words %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+        <a href="{{ item.link }}" class="button is-secondary">View more</a>
+      </div>
+      <div class="is-col is-70">
+        <img class="is-shadow-2" src="{{ item.image }}">
+      </div>
+    </div>
+    {% endfor %}
     </div>
 </section>
 <div class="container">
-	<hr>
+  <hr>
 </div>
 <section class="introduction-section">
     <div class="container">
         <div class="is-row is-items-middle">
-			<div class="is-col is-40">
-				<div style="width: 100%; height: 250px; background-image: url('/images/cir-award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-				<p class="is-text-center"><strong>'Most Innovative Solution of the Year'<br>Winner</strong><br>CIR Business Continuity Awards</p>
+      <div class="is-col is-40">
+        <div style="width: 100%; height: 250px; background-image: url('/images/cir-award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+        <p class="is-text-center"><strong>'Most Innovative Solution of the Year'<br>Winner</strong><br>CIR Business Continuity Awards</p>
             </div>
             <div class="is-col is-60">
                 <p>Spook has specialised in remote monitoring for nearly two decades. OmniWatch is designed to monitor and alert users to business threatening events 24/7.</p>
                 <p>OmniWatch comes pre-configured for a hassle free, intuitive, immediate service. Try it for free, just contact us and we will do the rest.</p>
                 <p><a href="/contact/" class="button is-secondary">Contact us</a></p>
-			</div>
-        </div>
-    </div>
-</section>
-<section class="homepage-links"> 
-    <div class="container">
-        <div class="is-row is-stack-20">
-            {% for item in site.data.homepage-links %}
-            <div class="is-col homepage-link-item" style="background-image: url('{{ item.image }}'); z-index: 0;" onclick="location.href = '{{ item.link }}'">
-                    <h3>{{ item.title }}<br>monitoring</h3>
-                </div>
-                {% if forloop.index == 2 %}
-                    </div><div class="is-row">
-                {% endif %}
-            {% endfor %}
+      </div>
         </div>
     </div>
 </section>
 <section>
-	<div class="container">
-		<img src="/images/homepage/cir-award-shortlist-2020.png">
-		<div class="is-row is-gapless">
-			<div class="is-col is-60">
-				<div style="background-image: url('/images/banner/communications-tower.jpeg'); min-height: 100%; min-width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
-			</div>
-			<div class="is-col is-40" style="background-color: #212121; color: #fff;">
-				<div class="is-inset-20">
-					<h5>Technical</h5>
-					<h2>Wired vs wireless monitoring</h2>
-					<p class="is-large">Wireless and wired monitoring both have their own benefits over the other.</p>
-					<p class="is-large">Knowing these benefits helps to make an informed decision when considering which is best for you.</p>
-					<p><a href="/technical/wired-vs-wireless/" class="button is-inverted">Read more</a></p>
-				</div>
-			</div>
-		</div>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-30">
+	<h2>OmniWatch is capable of monitoring almost anything</h2>
+	<p>Can't find what you are looking for? Get in <a href="/contact">contact with us</a> to discuss how we can help.</p>
+      </div>
+      <div class="is-col is-70">
+	<div class="is-row">
+	  {% for item in site.data.homepage-links %}
+	  <div class="is-col is-50 is-stack-20">
+	    <div style="height: 120px; width: 100%; background-image: url('{{ item.image }}'); background-size: cover; background position: right; background-repeat: no-repeat;"></div>
+	    <p class="is-large"><strong>{{ item.title }} monitoring</strong></p>
+	    <p>{{ item.text }}</p>
+	    <a href="{{ item.link }}">Read more</a>
+	  </div>
+	  {% endfor %}
 	</div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <img src="/images/homepage/cir-award-shortlist-2020.png">
+    <div class="is-row is-gapless">
+      <div class="is-col is-60">
+        <div style="background-image: url('/images/banner/communications-tower.jpeg'); min-height: 100%; min-width: 100%; background-size: cover; background-repeat: no-repeat; background-position: center;"></div>
+      </div>
+      <div class="is-col is-40" style="background-color: #212121; color: #fff;">
+        <div class="is-inset-20">
+          <h5>Technical</h5>
+          <h2>Wired vs wireless monitoring</h2>
+          <p class="is-large">Wireless and wired monitoring both have their own benefits over the other.</p>
+          <p class="is-large">Knowing these benefits helps to make an informed decision when considering which is best for you.</p>
+          <p><a href="/technical/wired-vs-wireless/" class="button is-inverted">Read more</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <section class="grey">
-	<div class="container">
-		<div class="is-row">
-			{% for post in site.posts | limit: 3 %}
-				<div class="is-col">
-                    <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
-                        <h5>News</h5>
-                        <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
-                        <p>{{ post.date | date_to_string }}</p>
-                        <h2><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
-                        <p>{{ post.page-description | truncate_words: 20 }}</p>
-                    </div>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
+  <div class="container">
+    <div class="is-row">
+      {% for post in site.posts | limit: 3 %}
+        <div class="is-col">
+	  <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
+	    <h5>News</h5>
+	    <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
+	    <p>{{ post.date | date_to_string }}</p>
+	    <h2><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></h2>
+	    <p>{{ post.page-description | truncate_words: 20 }}</p>
+	  </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 <section class="gray is-shadow-2"> 
-	<div class="container is-text-center">
-		<h2>Fully managed or co-managed</h2>
-		<p>Spook customers range from businesses that have already installed environmental hardware and network devices to organisations that are considering monitoring for the first time.</p>
-		<p>Either way Spook can help.</p>
-		<p><a href="#" class="button is-secondary">Get in touch</a></p>
-	</div>
+  <div class="container is-text-center">
+    <h2>Fully managed or co-managed</h2>
+    <p>Spook customers range from businesses that have already installed environmental hardware and network devices to organisations that are considering monitoring for the first time.</p>
+    <p>Either way Spook can help.</p>
+    <p><a href="#" class="button is-secondary">Get in touch</a></p>
+  </div>
 </section>

@@ -1,0 +1,23 @@
+- title: Bulk data collection
+  image: /images/icons/bulk-data.svg
+  link: bulk-data
+
+- title: 24/7 monitoring
+  image: /images/icons/247.svg
+  link: 247-monitoring
+
+- title: Perpetual data storage
+  image: /images/icons/perpetual-data.svg
+  link: perpetual-data
+
+- title: Max load function
+  image: /images/icons/percentage.svg
+  link: max-load
+
+- title: Socket switching
+  image: /images/icons/switching.svg
+  link: socket-switching
+
+- title: User privileges
+  image: /images/icons/users.svg
+  link: users

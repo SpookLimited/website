@@ -3,11 +3,9 @@ layout: base
 ---
 <section>
   <div class="container">
+    <h3>Secure cloud based monitoring and data collection</h3>
     <h1>Environmental monitoring</h1>
-    <ul class="is-bar">
-      <li><a class="button" href="/contact/">Contact us</a></li>
-      <li><a class="button is-secondary" href="#">Book demo</a></li>
-    </ul>
+    {% include header-buttons.html %}
   </div>
 </section>
 <section>
@@ -48,7 +46,7 @@ layout: base
       <p>{{ line }}</p>
     {% endfor %}
     <ul class="is-bar">
-      <li><a href="{{ item.link }}">View more</a></li>
+      <li><a href="{{ item.link }}" class="button is-secondary">View more</a></li>
       <li><a href="#top" class="button is-inverted">Back to top</a></li>
     </ul>
 </section>

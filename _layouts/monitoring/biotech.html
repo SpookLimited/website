@@ -3,54 +3,54 @@ layout: monitoring/base
 ---
 <style>
 .introduction-img{
-	max-width: 200px;
-	display: block;
-	margin: 1em auto;
+  max-width: 200px;
+  display: block;
+  margin: 1em auto;
 }
 </style>
 <section class="block">
-	<div class="container">
-		<div class="is-row is-items-middle">
-			<div class="is-col">
-				<p>Spook's remote monitoring service called OmniWatch together with Spook’s range of wireless sensors help organisations that are regulated by The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) provide audible data to prove their compliance.</p>
-			</div>
-			<div class="is-col">
-				<img alt="FDA" class="introduction-img" src="/images/sections/biotech/introduction/fda.svg">
-				<img alt="MHPRA" class="introduction-img" src="/images/sections/biotech/introduction/mhpra.svg">
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <p>Spook's remote monitoring service called OmniWatch together with Spook’s range of wireless sensors help organisations that are regulated by The Medicines and Healthcare products Regulatory Agency (MHRA) of the United Kingdom (UK) and the Food and Drug Administration (FDA) of the United States of America (USA) provide audible data to prove their compliance.</p>
+      </div>
+      <div class="is-col">
+        <img alt="FDA" class="introduction-img" src="/images/sections/biotech/introduction/fda.svg">
+        <img alt="MHPRA" class="introduction-img" src="/images/sections/biotech/introduction/mhpra.svg">
+      </div>
+    </div>
+  </div>
 </section>
 <section>
-	<div class="container">
-		<div class="is-row is-items-middle is-stack-20">
-			<div class="is-col is-60">
-				<img alt="OmniWatch screen" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
-			</div>
-			<div class="is-col is-40">
-				<h2>Controlled environmental and regulatory compliance</h2>
-				<p>Biotechnology and pharmaceutical companies must guarantee that their products have been maintained in strictly controlled environments. This often requires a significant expense in the implementation and overhead for advanced environmental monitoring systems.</p>
-			</div>
-		</div>
-		<p>Because Spook wireless sensor readings are held in perpetuity means users can prove, via audit trail, that they have complied in accordance with the MHRA and FDA regulations.</p>
-		<p>Biotechnology and pharmaceutical companies have many reasons to monitor the environment. Spook has a wide variety of wireless sensors available. However, there are some common areas they share.</p>
-	</div>
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-20">
+      <div class="is-col is-60">
+        <img alt="OmniWatch screen" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+      </div>
+      <div class="is-col is-40">
+        <h2>Controlled environmental and regulatory compliance</h2>
+        <p>Biotechnology and pharmaceutical companies must guarantee that their products have been maintained in strictly controlled environments. This often requires a significant expense in the implementation and overhead for advanced environmental monitoring systems.</p>
+      </div>
+    </div>
+    <p>Because Spook wireless sensor readings are held in perpetuity means users can prove, via audit trail, that they have complied in accordance with the MHRA and FDA regulations.</p>
+    <p>Biotechnology and pharmaceutical companies have many reasons to monitor the environment. Spook has a wide variety of wireless sensors available. However, there are some common areas they share.</p>
+  </div>
 </section>
 {% for item in site.data.monitoring.biotech-sensors %}
 <section>
-	<div class="container">
-		<div class="is-row">
-			<div class="is-col">
-				<h2>{{ item.name }}</h2>
-				{% for paragraph in item.words %}
-				<p>{{ paragraph }}</p>
-				{% endfor %}
-				{% if item.link %}<p><a href="{{ item.link }}" class="button">{{ item.name }} information</a></p>{% endif %}
-			</div>
-			<div class="is-col">
-				<img alt="{{ item.name }}" style="display: block; margin: 0 auto; padding: 20px" src="{{ item.image }}">
-			</div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="is-row">
+      <div class="is-col">
+        <h2>{{ item.name }}</h2>
+        {% for paragraph in item.words %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
+        {% if item.link %}<p><a href="{{ item.link }}" class="button">{{ item.name }} information</a></p>{% endif %}
+      </div>
+      <div class="is-col">
+        <img alt="{{ item.name }}" style="display: block; margin: 0 auto; padding: 20px" src="{{ item.image }}">
+      </div>
+    </div>
+  </div>
 </section>
 {% endfor %}

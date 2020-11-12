@@ -2,69 +2,74 @@
 layout: base
 ---
 <header style="background-image: url('/images/customers/robert-bye-london-view.jpg'); background-size: cover; background-repeat: no-repeat; background-position: bottom;">
-	<div class="container">
-		<div class="is-50 block is-inset-20">
-			<h1 class="is-stack-40">Spook supports a large number of clients for all industry sectors</h1>
-			<ul class="is-bar">
-				<li><a href="#" class="button">Book demo</a></li>
-				<li><a href="/contact/" class="button is-inverted">Contact us</a></li>
-			</ul>
-		</div>
-	</div>
+  <div class="container">
+    <div class="is-50 block is-inset-20">
+      <h1 class="is-stack-40">Spook supports a large number of clients for all industry sectors</h1>
+      <ul class="is-bar">
+	<li><a href="#" class="button">Book demo</a></li>
+	<li><a href="/contact/" class="button is-inverted">Contact us</a></li>
+      </ul>
+    </div>
+  </div>
 </header>
 <section>
-	<div class="container">
-		<h2>Case studies</h2>
-		<div class="is-row">
-			{% for casestudy in site.data.casestudies %}
-				<div class="is-col">
-					<h3>{{ casestudy.title }}</h3>
-					<p>{{ casestudy.type }} provided hardware:</p>
-					<ul class="is-unstyled">
-						{% for item in casestudy.hardware %}
-							<li>{{ item.name }} x{{ item.quantity }}</li>
-						{% endfor %}
-					</ul>
-					<p><a href="{{ casestudy.link }}">View more</a></p>
-				</div>
-			{% endfor %}
-		</div>
+  <div class="container">
+    <h2>Case studies</h2>
+    <div class="is-row">
+      {% for casestudy in site.data.casestudies %}
+	<div class="is-col">
+	  <h3>{{ casestudy.title }}</h3>
+	  <p>{{ casestudy.type }} provided hardware:</p>
+	  <ul class="is-unstyled">
+	    {% for item in casestudy.hardware %}
+	      <li>{{ item.name }} x{{ item.quantity }}</li>
+	    {% endfor %}
+	  </ul>
+	  <p><a href="{{ casestudy.link }}">View more</a></p>
 	</div>
+      {% endfor %}
+    </div>
+  </div>
 </section>
 <section>
-	<div class="container">
-		<h2>Spook sample industry sectors</h2>
-		<p>Spook's customers remain the most loyal in the industry. With an average contract term of 14 years and growing it’s rare for a client to leave. In fact, a recent audit revealed that those that have left have done so for factors outside their control.</p>
-		<p>It’s true that monitoring requirements do change over time. As IT departments evolve sometimes on-site IT moves off-site for example when co-location services or cloud services are adopted. This may reduce the original monitoring requirement but it does not exclude it. In fact, in Spook’s experience the remaining on-site communication hubs become more critical as businesses need to ensure continuance of secure, fast IT services to its employees and customers.</p>
-	</div>
+  <div class="container">
+    <h2>Spook sample industry sectors</h2>
+    <p>Spook's customers remain the most loyal in the industry. With an average contract term of 14 years and growing it’s rare for a client to leave. In fact, a recent audit revealed that those that have left have done so for factors outside their control.</p>
+    <p>It’s true that monitoring requirements do change over time. As IT departments evolve sometimes on-site IT moves off-site for example when co-location services or cloud services are adopted. This may reduce the original monitoring requirement but it does not exclude it. In fact, in Spook’s experience the remaining on-site communication hubs become more critical as businesses need to ensure continuance of secure, fast IT services to its employees and customers.</p>
+  </div>
 </section>
 <section>
-	<div class="container">
-		<ul class="is-bar is-text-center">
-			{% for sector in site.data.customers %}
-			<li><a href="#{{ sector.name | remove: " " }}">{{ sector.name }}</a></li>
-			{% endfor %}
-		</ul>
-	</div>
+  <div class="container">
+    <ul class="is-bar is-text-center">
+      {% for sector in site.data.customers %}
+	<li><a href="#{{ sector.name | remove: " " }}">{{ sector.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 {% for sector in site.data.customers %}
 <section id="{{ sector.name | remove: " " }}">
-		<div class="container">
-			<h2 class="is-stack-20">{{ sector.name }}</h2>
-			<div class="is-row">
-				<div class="is-col is-20">
-					{% for customer in sector.customers %}
-					<img alt="{{ customer.name }}" style="display: block; margin-bottom: 20px; min-width: 100%;" src="/images/customer-logo/{{ customer.logo }}.svg">
-					{% endfor %}
-				</div>
-				<div class="is-col is-80">
-					<blockquote>
-						<p>{{ sector.quote.text }}</p>
-						<p class="is-small">{{ sector.quote.company }} - {{ sector.quote.information }}</p>
-					</blockquote>
-				</div>
-			</div>
-			<p class="is-text-right"><a href="#top">Back to top</a></p>
-		</div>
-	</section>
+  <div class="container">
+    <h2 class="is-stack-20">{{ sector.name }}</h2>
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+	<div class="is-row">
+	  {% for customer in sector.customers %}
+	  <div class="is-col is-50">
+	    <div style="width: 100%; height: 100px; background-image: url('/images/customer-logo/{{ customer.logo }}.svg'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
+	  </div>
+	  {% endfor %}
+	</div>
+      </div>
+      <div class="is-col is-60">
+	<blockquote>
+	  <p>{{ sector.quote.text }}</p>
+	  <p class="is-small">{{ sector.quote.company }} - {{ sector.quote.information }}</p>
+	</blockquote>
+      </div>
+    </div>
+    <p class="is-text-right"><a href="#top">Back to top</a></p>
+  </div>
+  </section>
 {% endfor %}
+{% include contact-us.html %}

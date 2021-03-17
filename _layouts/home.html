@@ -3,22 +3,22 @@ layout: base
 ---
 <header class="site-header"> 
   <div class="container">
-    {% include header-sphere.html %}
-        <div class="is-row is-items-middle">
-            <div class="is-col">
-            </div>
-            <div class="is-col" style="z-index: 10;">
-                <div class="is-stack-20">
-                    <h5 style="text-transform: uppercase;">Secure remote cloud based monitoring</h5>
-                    <h1 style="margin-top: 16px; margin-bottom: 16px;"><span class="brand" style="padding:8px;">OMNIWATCH</span></h1>
-        <p><strong>Prevention is better than cure</strong> has been Spook's motto from day one. By installing sensors or monitoring existing equipment OmniWatch sends alarms in real-time via email, 2-way SMS and UK call centres. Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it before it causes service disruption.</p>
-                </div>
-                <ul class="is-bar">
-                    <li><a href="#" class="button">Book demo</a></li>
-                    <li><a href="/contact/" class="button is-inverted">Contact us</a></li>
-                </ul>
-            </div>
-        </div>
+      <div class="is-row is-items-middle">
+	<div class="is-col">
+	  <img src="/images/omniwatch-logo.svg">
+	</div>
+	<div class="is-col" style="background-color: #fff; padding: 1em;">
+	  <div class="is-stack-20">
+	    <h5 style="text-transform: uppercase;">Secure remote cloud based monitoring</h5>
+	    <h1>OmniWatch</h1>
+	    <p><strong>Prevention is better than cure</strong> has been Spook's motto from day one. By installing sensors or monitoring existing equipment OmniWatch sends alarms in real-time via email, 2-way SMS and UK call centres. Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it before it causes service disruption.</p>
+	  </div>
+	  <ul class="is-bar">
+	    <li><a href="#" class="button">Book demo</a></li>
+	    <li><a href="/contact/" class="button is-inverted">Contact us</a></li>
+	  </ul>
+	</div>
+      </div>
   </div>
 </header>
 <section>
@@ -75,20 +75,20 @@ layout: base
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-30">
-	<h2>OmniWatch can remotely monitor almost anything</h2>
-	<p>Can't find what you are looking for? Get in <a href="/contact">contact with us</a> to discuss monitoring ideas.</p>
+  <h2>OmniWatch can remotely monitor almost anything</h2>
+  <p>Can't find what you are looking for? Get in <a href="/contact">contact with us</a> to discuss monitoring ideas.</p>
       </div>
       <div class="is-col is-70">
-	<div class="is-row">
-	  {% for item in site.data.homepage-links %}
-	  <div class="is-col is-50 is-stack-20">
-	    <div style="height: 120px; width: 100%; background-image: url('{{ item.image }}'); background-size: cover; background position: right; background-repeat: no-repeat;"></div>
-	    <p class="is-large"><strong>{{ item.title }} monitoring</strong></p>
-	    <p>{{ item.text }}</p>
-	    <a href="{{ item.link }}">Read more</a>
-	  </div>
-	  {% endfor %}
-	</div>
+  <div class="is-row">
+    {% for item in site.data.homepage-links %}
+    <div class="is-col is-50 is-stack-20">
+      <div style="height: 120px; width: 100%; background-image: url('{{ item.image }}'); background-size: cover; background position: right; background-repeat: no-repeat;"></div>
+      <p class="is-large"><strong>{{ item.title }} monitoring</strong></p>
+      <p>{{ item.text }}</p>
+      <a href="{{ item.link }}">Read more</a>
+    </div>
+    {% endfor %}
+  </div>
       </div>
     </div>
   </div>
@@ -117,13 +117,13 @@ layout: base
     <div class="is-row">
       {% for post in site.posts | limit: 3 %}
         <div class="is-col">
-	  <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
-	    <h5>News</h5>
-	    <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
-	    <p>{{ post.date | date_to_string }}</p>
-	    <p class="is-large"><strong><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></strong></p>
-	    <p>{{ post.page-description | truncate_words: 20 }}</p>
-	  </div>
+    <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
+      <h5>News</h5>
+      <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
+      <p>{{ post.date | date_to_string }}</p>
+      <p class="is-large"><strong><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></strong></p>
+      <p>{{ post.page-description | truncate_words: 20 }}</p>
+    </div>
         </div>
       {% endfor %}
     </div>

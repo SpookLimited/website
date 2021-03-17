@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-	{% include header.html %}
-    </head>
-    <body>
-	<div class="container">
-		<ul class="is-bar is-text-right is-inset-y-8">
-			<li><a href="#">enquiries@spook.co.uk</a></li>
-			<li><a href="#">+44(0)1737 906 111</a></li>
-		</ul>
+  <head>
+  {% include header.html %}
+  </head>
+  <body>
+  <div class="container">
+    <div class="is-row">
+      <div class="is-col">
+	<div class="is-brand">
+	  <img alt="Spook Limited" style="max-height: 80px;" src="/images/spook-limited.svg">
 	</div>
-	<div id="top" class="is-navbar-container">
-		<div class="container">
-			<div class="is-brand">
-				<img alt="Spook Limited" style="min-width: 100px; max-width:300px;" src="/images/spook-limited.svg">
-			</div>
-			<div class="is-navbar">
-				<nav class="is-push-right">
-					<ul class="navbar-links">
-						<li><a class="navbar-link" href="/">Home</a></li>
-                        <li><span class="navbar-link" data-kube="dropdown" data-target="#dropdown">Use cases</span></li>
-                        <div id="dropdown" class="dropdown is-hidden">
-                            <a href="/monitoring/environmental-monitoring/">Environmental</a>
-                            <a href="/monitoring/it-monitoring/">IT</a>
-                            <a href="/monitoring/industry-monitoring/">Industry</a>
-                            <a href="/monitoring/power-monitoring/">Power</a>
-                        </div>
-						<li><a class="navbar-link" href="/monitoring/">Monitoring</a></li>
-						<li><a class="navbar-link" href="/customers/">Customers</a></li>
-						<li><a class="navbar-link" href="/technical/">Technical</a></li>
-						<li><a class="navbar-link" href="/news/">News</a></li>
-						<li>|</li>
-						<li><a href="https://omni.watch/login" class="button is-small">Login</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>	
-	<main>
-	    {{ content }}
-	</main>
-    {% include footer.html %}
-    </body>
+      </div>
+      <div class="is-col">
+	<ul class="is-bar is-text-right is-inset-y-8">
+	  <li><a href="#">enquiries@spook.co.uk</a></li>
+	  <li><a href="#">+44(0)1737 906 111</a></li>
+	</ul>
+      </div>
+    </div>
+  </div>
+  <div id="top" class="is-navbar-container">
+    <div class="container">
+      <div class="is-navbar">
+        <nav class="is-push-right">
+          <ul class="navbar-links">
+            <li><a class="navbar-link" href="/">Home</a></li>
+            <li><span class="navbar-link" data-kube="dropdown" data-target="#dropdown">Use cases</span></li>
+            <div id="dropdown" class="dropdown is-hidden">
+              <a href="/monitoring/environmental-monitoring/">Environmental</a>
+              <a href="/monitoring/it-monitoring/">IT</a>
+              <a href="/monitoring/industry-monitoring/">Industry</a>
+              <a href="/monitoring/power-monitoring/">Power</a>
+            </div>
+            <li><a class="navbar-link" href="/monitoring/">Monitoring</a></li>
+            <li><a class="navbar-link" href="/customers/">Customers</a></li>
+            <li><a class="navbar-link" href="/technical/">Technical</a></li>
+            <li><a class="navbar-link" href="/news/">News</a></li>
+            <li>|</li>
+            <li><a href="https://omni.watch/login" class="button is-small">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>  
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  </body>
 </html>

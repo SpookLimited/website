@@ -99,11 +99,10 @@ layout: base
       <div class="is-col is-70">
   <div class="is-row">
     {% for item in site.data.homepage-links %}
-    <div class="is-col is-50 is-stack-20">
-      <div style="height: 120px; width: 100%; background-image: url('{{ item.image }}'); background-size: cover; background position: right; background-repeat: no-repeat;"></div>
+    <div class="is-col is-50 is-stack-20" style="height: 120px; width: 100%; background-image: url('{{ item.image }}'); background-size: cover; background position: right; background-repeat: no-repeat;">
       <p class="is-large"><strong>{{ item.title }} monitoring</strong></p>
-      <p>{{ item.text }}</p>
-      <a href="{{ item.link }}">Read more</a>
+      <!--<p>{{ item.text }}</p>-->
+      <a href="{{ item.link }}" class="button">Read more</a>
     </div>
     {% endfor %}
   </div>

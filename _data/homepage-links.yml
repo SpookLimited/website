@@ -1,19 +1,19 @@
 - title: Environmental
-  image: /images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.png
+  image: /images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.svg
   link: /monitoring/environmental-monitoring/
   text: Remotely monitor any location and/or key equipments environmental conditions including temperature, humidity, dew point and water ingress. 
 
 - title: IT
-  image: /images/sections/key-pages/it-monitoring/it-monitoring-banner.png
+  image: /images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.svg
   link: /monitoring/it-monitoring/
   text: Remotely monitor all aspects of the IT industry from singular comms cabinets to multiple data centers. Whether they are on-site lights-out, managed servies, co-locations or cloud based.
 
 - title: Power
-  image: /images/sections/key-pages/power-monitoring/power-monitoring-banner.png
+  image: /images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.svg
   link: /monitoring/power-monitoring/
   text: Remotely monitor and measure power, to understand power usage, calculate power consumption costs, measure efficiency gains or assist with informed power load balancing projects and more.
 
 - title: Industry
-  image: /images/sections/key-pages/industry-monitoring/industry-monitoring-banner.png
+  image: /images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.svg
   link: /monitoring/industry-monitoring/
   text: Remotely monitor any industry type from small independent business to multi national organisations across single locations, regional areas, global territories and multiple time zones.

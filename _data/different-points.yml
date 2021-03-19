@@ -1,0 +1,15 @@
+- title: Award winning
+  icon: /images/icons/award.svg
+  text: Our focus is maintaining business uptime for our customers and to be mindful of business continuance. 
+
+- title: 100% focus on monitoring
+  icon: /images/icons/focus.svg
+  text: Everything we do is focused on monitoring, expanding hardware support and improving data visualisation.
+
+- title: Bespoke service
+  icon: /images/icons/bespoke.svg
+  text: We work with you to setup, customise and maintain your monitoring installation.
+
+- title: Data in perpetuity
+  icon: /images/icons/infinite.svg
+  text: All data collected is stored forever; allowing for historical trend analysis and reports. 

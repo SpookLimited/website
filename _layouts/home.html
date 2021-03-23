@@ -104,23 +104,23 @@ layout: base
 </section>
 <section>
   <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-30">
-  <h2>OmniWatch can remotely monitor almost anything</h2>
-  <p>Can't find what you are looking for? Get in <a href="/contact">contact with us</a> to discuss monitoring ideas.</p>
-      </div>
-      <div class="is-col is-70">
-	<div class="is-row">
-	  {% for item in site.data.homepage-links %}
-	  <div class="is-col is-50 is-stack-20">
-	    <img src="{{ item.image }}">
+    <div class="is-row is-stack-20">
+      {% for item in site.data.homepage-links %}
+      <div class="is-col is-50 is-stack-20">
+	<div class="homepage-links-block" style="background-color: {{ item.color }};">
+	  <a href="{{ item.link }}">
+	  <div class="homepage-links-block-content">
+	    <img src="{{ item.icon }}">
 	    <h3>{{ item.title }} monitoring</h3>
-	    <a href="{{ item.link }}">Read more</a>
 	  </div>
-	  {% endfor %}
+	  </a>
 	</div>
       </div>
+      {% endfor %}
     </div>
+    <div class="is-text-center">
+      <h4>Can't find what you are looking for?</h4>
+      <p class="is-big">Get in <a href="/contact">contact with us</a> to discuss monitoring solutions and how Spook can help.</p>
   </div>
 </section>
 <section class="grey">
@@ -128,13 +128,13 @@ layout: base
     <div class="is-row">
       {% for post in site.posts | limit: 3 %}
         <div class="is-col">
-    <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
-      <h5>News</h5>
-      <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
-      <p>{{ post.date | date_to_string }}</p>
-      <p class="is-large"><strong><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></strong></p>
-      <p>{{ post.page-description | truncate_words: 20 }}</p>
-    </div>
+	  <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
+	    <h5>News</h5>
+	    <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
+	    <p>{{ post.date | date_to_string }}</p>
+	    <p class="is-large"><strong><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></strong></p>
+	    <p>{{ post.page-description | truncate_words: 20 }}</p>
+	  </div>
         </div>
       {% endfor %}
     </div>

@@ -1,19 +1,19 @@
 - title: Climate
   color: 'rgb(44,79,177)'
   link: /monitoring/environmental-monitoring/
-  icon: /images/icons/focus.svg
+  icon: /images/icons/climate.svg
 
 - title: IT
   color: 'rgb(73,107,199)'
   link: /monitoring/it-monitoring/
-  icon: /images/icons/focus.svg
+  icon: /images/icons/it-equipment.svg
 
 - title: Power
   color: 'rgb(106,136,218)'
   link: /monitoring/power-monitoring/
-  icon: /images/icons/focus.svg
+  icon: /images/icons/power.svg
 
 - title: Industry
   color: 'rgb(146,169,234)'
   link: /monitoring/industry-monitoring/
-  icon: /images/icons/focus.svg
+  icon: /images/icons/industry.svg

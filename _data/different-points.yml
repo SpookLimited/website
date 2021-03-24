@@ -1,15 +1,15 @@
 - title: Monitor anything
   icon: /images/icons/monitor-all.svg
-  text: We support monitoring through many different network protocols and integration with 3rd party equipment.
+  text: Being protocol independent and hardware neutral means we can monitor most things. By using a single, cohesive interface to monitor disparate equipment makes comparing sensors across multiple equipment types easy and intuitive. 
 
 - title: 100% focus on monitoring
   icon: /images/icons/focus.svg
-  text: Everything we do is focused on monitoring, expanding hardware support and improving data visualisation.
+  text: Everything we do is focused on monitoring, expanding hardware support and improving data visualisation. All software development is based on customer feedback making any new features meaningful and useful to users.
 
 - title: Bespoke service
   icon: /images/icons/bespoke.svg
-  text: We work with you to setup, customise and maintain your monitoring installation.
+  text: We understand you are busy and although monitoring may be important you may not have the time or appetite to spend designing how things work. We work with you to setup, customise, evolve and maintain your monitoring installation.
 
 - title: Data in perpetuity
   icon: /images/icons/infinite.svg
-  text: All data collected is stored forever; allowing for historical trend analysis and reports. 
+  text: Sensor and data readings are held in perpetuity; allowing for accurate historical trend analysis, load balancing projects, preventative maintenance programs and protecting equipment warranties.

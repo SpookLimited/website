@@ -1,4 +1,4 @@
-- name: Dashboard
+- name: Dashboards
   id: dashboard-tab
   icon: /images/icons/remote-working.svg
   link: /omniwatch/dashboard

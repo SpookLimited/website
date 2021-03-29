@@ -6,6 +6,7 @@ title: Volts direct current (VDC) monitoring
 header: Volts direct current (VDC) meter
 subheader: Spook remote wireless sensors
 sensor-image: /images/sensor/voltage-meter.svg
+icon-image: /images/sensor/icons/directcurrent.svg
 page-description: Spook wireless VDC meters are used for measuring the voltage of third party devices and batteries. There are a range of different sensor voltages available but the most common Spook meter measures voltage up to 5 VDC.
 did-you-know:
   - Thomas Edison and Nikola Tesla were caught up in a battle now known as the War of the Currents during the 1880s. Edison developed a current that runs continually along a single direction (Direct Current) whereas Tesla developed alternating current (AC). The problem with DC is it is not easily converted to high or low voltages and therefore not efficient at large scale distribution. 

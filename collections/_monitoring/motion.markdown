@@ -6,6 +6,7 @@ title: Motion monitoring
 header: Motion detection monitoring
 subheader: Spook remote wireless sensors
 sensor-image: /images/sensor/motion.svg
+icon-image: /images/sensor/icons/motion.svg
 did-you-know:
   - Sir Frederick William Herschel discovered Infrared radiation in 1800 which was described back then as "invisible radiation in the spectrum of light lower in energy than red light". He was aware of Sir Issac Newton’s discovery that sunlight could be separated into different colours using refraction through a glass prism. 
   - Herschel was investigating the differences in heat for each of the light forms he called the "thermometrical spectrum". In doing so he discovered that there was a temperature just beyond the red portion of the rainbow spectrum and found this area had the highest temperature of all. Herschel's experiments lead to the discovery of infrared light however the term infrared was coined approximately 75 years later. 

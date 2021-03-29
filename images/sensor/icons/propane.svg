@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100%"
+   height="100%"
+   viewBox="0 0 400 400"
+   version="1.1"
+   xml:space="preserve"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+   id="svg933"
+   sodipodi:docname="propane.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata939"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs937" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1880"
+   inkscape:window-height="1136"
+   id="namedview935"
+   showgrid="false"
+   inkscape:zoom="1.145"
+   inkscape:cx="283.05427"
+   inkscape:cy="283.84975"
+   inkscape:window-x="40"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="svg933" />
+    <path
+   style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:11.33858268;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1;stroke-miterlimit:1.5;stroke-dasharray:none"
+   d="m 178.75973,55.974384 c -9.64034,47.934356 -34.10987,85.721816 -53.92855,120.050476 -34.968467,60.57013 -47.920295,130.34264 40.651,166.4976 -55.04642,-48.85398 -8.25594,-86.99153 0.30878,-129.68771 11.36295,11.49879 20.96267,24.61386 22.54096,45.08192 17.14584,-27.69527 27.54739,-59.63694 22.54096,-101.27993 86.80496,78.1675 55.98805,160.34173 17.90925,187.12084 28.24532,5.98614 174.75794,-88.24578 -50.0224,-287.783196 z"
+   id="path952"
+   inkscape:connector-curvature="0"
+   sodipodi:nodetypes="cscccccc" />
+    
+</svg>

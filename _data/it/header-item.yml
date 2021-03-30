@@ -1,29 +1,48 @@
-- title: Data centre
+- title: Data centre monitoring
   image: /images/sections/key-pages/it-monitoring/datacenter.svg
   text: Early warning system to avoid unplanned downtime and trend analysis tools for efficiency gains.
-  link: data-centre
+  section-link: data-center
+  link: /monitoring/data-center/
+  words:
+    - OmniWatch provides data center managers with is an early warning system to avoid unplanned IT downtime and to present trend analysis tools to achieve Key Performance Indicators (KPIs), enhance efficiency gains, make informed decisions for power load balancing and assist planned preventative maintenance programs.
 
-- title: Server room
+- title: Server room monitoring
   image: /images/sections/key-pages/it-monitoring/server-room.svg
   text: Reduce downtime, increase equipment reliability, reduce operating expense and increase employee satisfaction.
-  link: server-room
+  section-link: server-room
+  link: /monitoring/server-room/
+  words:
+    - OmniWatch helps server room IT managers to check the environmental and power conditions of their IT equipment. By monitoring key aspects of the climate such as temperature, humidity and water ingress also helps to protect warranties and ensure that their investment in hardware is maximised.</p>
 
-- title: Comms room
+- title: Comms room monitoring
   image: /images/sections/key-pages/it-monitoring/server-room.svg
   text: Ensuring continued IT connectivity for a business to its users and customers.
-  link: comms-room
+  section-link: comms-room
+  link: /monitoring/comms-room/
+  words:
+    - OmniWatch helps IT managers keep a remote eye on their comms rooms. Because comms rooms often contain less equipment than that of a server room the operating environment can usually be more relaxed albeit still important.</p>
 
-- title: Comms closet
+- title: Comms closet monitoring
   image: /images/sections/key-pages/it-monitoring/server-room.svg
   text: Ensuring continued IT connectivity for a business to its users and customers.
-  link: comms-closet
+  section-link: comms-closet
+  link: /monitoring/comms-closet/
+  words:
+    - Comms closets are small rooms or even just cabinets that house critical comms equipment and sometimes servers. They often include similar equipment to that of a comms room but on a much smaller scale.</p>
 
 - title: Facilities monitoring
   image: /images/sections/key-pages/it-monitoring/server-room.svg
   text: Disparate equipment monitoring across the whole enterprise.
-  link: facilities
+  section-link: facilities
+  link: /monitoring/facilities/
+  words:
+    - Facilities monitoring (also known as facility monitoring or facility management) by definition is a permanent, semi-permanent, or temporary commercial or industrial property. The buildings hard facilities are typically managed by the facilities department.</p>
 
 - title: Disaster recovery
   image: /images/sections/key-pages/it-monitoring/server-room.svg
   text: Take remedial action before having to invoke disaster recovery plans.
-  link: disaster
+  section-link: disaster
+  link: /monitoring/disaster-recovery/
+  words:
+    - OmniWatch is designed with disaster avoidance in mind rather than disaster recovery (DR). Disaster avoidance is focused on monitoring key areas for early warnings to events that, if left unnoticed could easily escalate to invoking DR plans.
+    - By taking remedial actions at early stages of a problem means organisations can contain a situation and fix it with little or no disruption to its business.

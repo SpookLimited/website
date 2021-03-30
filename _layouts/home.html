@@ -125,27 +125,7 @@ layout: base
     <p><a href="#" class="button is-secondary">Get in touch</a></p>
   </div>
 </section>
-<section>
-  <div class="container">
-    <div class="is-row is-stack-20">
-      {% for item in site.data.homepage-links %}
-      <div class="is-col is-50 is-stack-20">
-	<div class="homepage-links-block" style="background-image: url({{ item.banner }}); background-size: cover; background-position: center; background-repeat: no-repeat;">
-	  <a href="{{ item.link }}">
-	  <div class="homepage-links-block-content">
-	    <img style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);" src="{{ item.icon }}">
-	    <h3>{{ item.title }} monitoring</h3>
-	  </div>
-	  </a>
-	</div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="is-text-center">
-      <h4>Can't find what you are looking for?</h4>
-      <p class="is-big">Get in <a href="/contact">contact with us</a> to discuss monitoring solutions and how Spook can help.</p>
-  </div>
-</section>
+{% include monitoring/key-footer.html %} 
 <section class="grey">
   <div class="container">
     <div class="is-row">

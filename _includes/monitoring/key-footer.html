@@ -1,26 +1,18 @@
 <section>
-	<div class="container">
-		<div class="is-row is-text-center">
-			<div class="is-col">
-				<h3>Environmental<br>monitoring</h3>
-				<img alt="Environmental monitoring" style="width:200px; margin: 1em auto;" src="/images/sections/key-pages/environmental-monitoring/environmental-monitoring-circle.png">
-				<p><a href="/monitoring/environmental-monitoring/" class="button">Read more</a></p>
-			</div>
-			<div class="is-col">
-				<h3>IT<br>monitoring</h3>
-				<img alt="IT monitoring" style="width:200px; margin: 1em auto;" src="/images/sections/key-pages/it-monitoring/it-monitoring-circle.png">
-				<p><a href="/monitoring/it-monitoring/" class="button">Read more</a></p>
-			</div>
-			<div class="is-col">
-				<h3>Power<br>monitoring</h3>
-				<img alt="Power monitoring" style="width:200px; margin: 1em auto;" src="/images/sections/key-pages/power-monitoring/power-monitoring-circle.png">
-				<p><a href="/monitoring/power-monitoring/" class="button">Read more</a></p>
-			</div>
-			<div class="is-col">
-				<h3>Industry<br>monitoring</h3>
-				<img alt="Industry monitoring" style="width:200px; margin: 1em auto;" src="/images/sections/key-pages/industry-monitoring/industry-monitoring-circle.png">
-				<p><a href="/monitoring/industry-monitoring/" class="button">Read more</a></p>
-			</div>
-		</div>
+  <div class="container">
+    <div class="is-row is-stack-20">
+      {% for item in site.data.homepage-links %}
+      <div class="is-col is-50 is-stack-20">
+	<div class="homepage-links-block" style="background-image: url({{ item.banner }}); background-size: cover; background-position: center; background-repeat: no-repeat;">
+	  <a href="{{ item.link }}">
+	  <div class="homepage-links-block-content">
+	    <img style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);" src="{{ item.icon }}">
+	    <h3>{{ item.title }} monitoring</h3>
+	  </div>
+	  </a>
 	</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </section>

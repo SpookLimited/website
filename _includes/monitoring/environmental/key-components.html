@@ -1,11 +1,20 @@
 <section>
   <div class="container">
+    <div class="is-60 is-stack-60">
+      <h2>Spook monitors a wide range of climate conditions</h2>
+      <p>Are we missing the climate condition you are looking for? Get in contact with us to discuss how we can help.</p>
+      <p><a href="/contact/" class="button">Get in touch</a></p>
+    </div>
     <div class="is-row">
       {% for item in site.data.environmental.header-item %}
-      <div class="is-col">
-	<img style="max-height: 60px;" src="{{ item.image }}">
-	<p class="is-large"><a href="{{ item.link }}">{{ item.title }}</a></p>
-	<p>{{ item.text }}</p>
+      <div class="is-col is-33">
+	<div class="line-block-content">
+	  <img style="max-height: 60px; margin-right: 1em;" src="{{ item.image }}">
+	  <div>
+	    <h4><a href="{{ item.link }}">{{ item.title }}</a></h4>
+	    <p>{{ item.text }}</p>
+	  </div>
+	</div>
       </div>
       {% endfor %}
     </div>

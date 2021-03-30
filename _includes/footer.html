@@ -1,78 +1,79 @@
 <footer class="block is-shadow-3">
-	<div class="container">
-		<div class="is-stack-20">
-			<h5>Contact us</h5>
-			<ul class="is-bar">
-				<li><img alt="Spook Facebook link" src="/images/icons/facebook.svg"></li>
-				<li><img alt="Spook LinkedIn link" src="/images/icons/linkedin.svg"></li>
-				<li><img alt="Spook Twitter link" src="/images/icons/twitter.svg"></li>
-				<li><img alt="Spook email link" src="/images/icons/email.svg"></li>
-			</ul>
-		</div>
-		<div class="is-row is-stack-20">
-			<div class="is-col">
-				<h5>Legal</h5>
-				<ul class="is-unstyled">
-					<li><a href="/policies/#terms-and-conditions">Terms of use</a></li>
-					<li><a href="/policies/#privacy-policy">Privacy policy</a></li>
-					<li><a href="/policies/#cookie-policy">Cookie policy</a></li>
-				</ul>
-			</div>
-			<div class="is-col">
-				<h5>IT monitoring</h5>
-				<ul class="is-unstyled">
-				{% for item in site.monitoring %}
-					{% if item.type == 'it' %}
-					<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				</ul>
-				<h5>Facilities monitoring</h5>
-				<ul class="is-unstyled">
-				{% for item in site.monitoring %}
-					{% if item.type == 'facilities' %}
-					<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				</ul>
-				<h5>Power monitoring</h5>
-				<ul class="is-unstyled">
-				{% for item in site.monitoring %}
-					{% if item.type == 'power' %}
-					<li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-					{% endif %}
-				{% endfor %}
-				</ul>
-			</div>
-			<div class="is-col">
-				<h5>IoT wireless sensors</h5>
-				<ul class="is-unstyled">
-					{% for item in site.monitoring %}
-						{% if item.type == 'sensor' %}
-						<li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-			</div>
-			<div class="is-col">
-				<h5>Industry use cases</h5>
-				<ul class="is-unstyled">
-					{% for item in site.monitoring %}
-						{% if item.type == 'iot' %}
-						<li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
-						{% endif %}
-					{% endfor %}
-				</ul>
-				<h5>Company</h5>
-				<ul class="is-unstyled">
-					<li><a href="/about/">About</a></li>
-					<li><a href="/news/">News</a></li>
-					<li><a href="/technical/">Technical</a></li>
-				</ul>
-			</div>
-		</div>
-		<p class="is-small">2020 © Spook Limited. All rights reserved.</p>
-	</div>
+  <div class="container">
+    <div class="is-stack-20">
+      <h5>Contact us</h5>
+      <ul class="is-bar">
+        <li><img alt="Spook Facebook link" src="/images/icons/facebook.svg"></li>
+        <li><img alt="Spook LinkedIn link" src="/images/icons/linkedin.svg"></li>
+        <li><img alt="Spook Twitter link" src="/images/icons/twitter.svg"></li>
+        <li><img alt="Spook email link" src="/images/icons/email.svg"></li>
+      </ul>
+    </div>
+    <div class="is-row is-stack-20">
+      <div class="is-col">
+        <h5>Legal</h5>
+        <ul class="is-unstyled">
+          <li><a href="/policies/#terms-and-conditions">Terms of use</a></li>
+          <li><a href="/policies/#privacy-policy">Privacy policy</a></li>
+          <li><a href="/policies/#cookie-policy">Cookie policy</a></li>
+        </ul>
+      </div>
+      <div class="is-col">
+        <h5>IT monitoring</h5>
+        <ul class="is-unstyled">
+        {% for item in site.monitoring %}
+          {% if item.type == 'it' %}
+          <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+        <h5>Facilities monitoring</h5>
+        <ul class="is-unstyled">
+        {% for item in site.monitoring %}
+          {% if item.type == 'facilities' %}
+          <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+        <h5>Power monitoring</h5>
+        <ul class="is-unstyled">
+        {% for item in site.monitoring %}
+          {% if item.type == 'power' %}
+          <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="is-col">
+        <h5>Spook wireless sensors</h5>
+        <ul class="is-unstyled">
+          {% for item in site.monitoring %}
+            {% if item.type == 'sensor' %}
+            <li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="is-col">
+        <h5>Industry use cases</h5>
+        <ul class="is-unstyled">
+          {% for item in site.monitoring %}
+            {% if item.type == 'iot' %}
+            <li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+	  <li><a href="/monitoring/industry-monitoring">Other industries</a></li>
+        </ul>
+        <h5>Company</h5>
+        <ul class="is-unstyled">
+          <li><a href="/about/">About</a></li>
+          <li><a href="/news/">News</a></li>
+          <li><a href="/technical/">Technical</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="is-small">2020 © Spook Limited. All rights reserved.</p>
+  </div>
 </footer>
 <script src="/js/kube.min.js"></script>
 <script>

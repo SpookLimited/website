@@ -1,6 +1,6 @@
 - title: Temperature
   image: /images/sensor/icons/temperature.svg
-  icon: /images/sensor/icons/temperature-white.svg
+  icon: /images/sensor/icons/temperature.svg
   text: Thermal condition monitoring.
   section-link: temperature
   reverse: 0
@@ -12,7 +12,7 @@
 
 - title: Humidity
   image: /images/sensor/icons/humidity.svg
-  icon: /images/sensor/icons/humidity-white.svg
+  icon: /images/sensor/icons/humidity.svg
   text: Atmospheric moisture control.
   section-link: humidity
   reverse: 1
@@ -24,7 +24,7 @@
 
 - title: Dew point
   image: /images/sensor/icons/dewpoint.svg
-  icon: /images/sensor/icons/dewpoint-white.svg
+  icon: /images/sensor/icons/dewpoint.svg
   text: Water droplet condensation.
   section-link: dewpoint
   reverse: 0
@@ -36,7 +36,7 @@
 
 - title: Airflow
   image: /images/sensor/icons/airflow.svg
-  icon: /images/sensor/icons/airflow-white.svg
+  icon: /images/sensor/icons/airflow.svg
   text: Measuring the movement of air.
   section-link: airflow
   reverse: 1
@@ -48,7 +48,7 @@
 
 - title: Water ingress
   image: /images/sensor/icons/water.svg
-  icon: /images/sensor/icons/water-white.svg
+  icon: /images/sensor/icons/water.svg
   text: Water and moisture monitoring
   section-link: water
   reverse: 0
@@ -60,7 +60,7 @@
 
 - title: Light
   image: /images/sensor/icons/light.svg
-  icon: /images/sensor/icons/light-white.svg
+  icon: /images/sensor/icons/light.svg
   text: Measuring LUX (luminescence/unit area).
   section-link: light
   reverse: 1

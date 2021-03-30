@@ -1,13 +1,13 @@
 ---
 layout: base
 ---
-<section>
+<header style="background-image: url('{{ page.header-image }}');">
   <div class="container">
     <h3>Secure cloud based monitoring and data collection</h3>
     <h1>Climate monitoring</h1>
     {% include header-buttons.html %}
   </div>
-</section>
+</header>
 <section>
   <div class="container">
     <h2>Secure cloud based climate monitoring</h2>
@@ -28,9 +28,12 @@ layout: base
 	<div class="is-row">
 	  {% for item in site.data.environmental.header-item %}
 	  <div class="is-col is-33 is-stack-20">
-	    <p class="is-large"><strong>{{ item.title }}</strong></p>
+	    <div class="line-block-content">
+	      <img style="width: 40px;" src="{{ item.icon }}">
+	      <h4>{{ item.title }}</h4>
+	    </div>
 	    <p>{{ item.text }}</p>
-	    <a href="#{{ item.section-link }}">Read more</a>
+	    <a href="#{{ item.section-link }}" class="button">Read more</a>
 	  </div>
 	  {% endfor %}
 	</div>

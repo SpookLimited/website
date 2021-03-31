@@ -3,28 +3,21 @@ layout: base
 ---
 <section>
   <div class="container">
-    <h3>Real-time data collection</h3>
-    <h1>Humidity monitoring</h1>
-    {% include header-buttons.html %}
+    <div class="is-40">
+      <h3>Real-time data collection</h3>
+      <h1>Humidity monitoring</h1>
+      <p>Relative humidity (RH) is a measurement of the amount of water vapour present in the air and is stated as a percentage of the amount needed to achieve saturation at the same temperature.</p>
+      {% include header-buttons.html %}
+    </div>
   </div>
 </section>
 <section>
   <div class="container">
     <h2>The importance of humidity monitoring</h2>
-    <p>Relative humidity (RH) is a measurement of the amount of water vapour present in the air and is stated as a percentage of the amount needed to achieve saturation at the same temperature.</p>
     <p>Humidity is highly sensitive to temperature and pressure fluctuations in the surrounding area and can quickly change.</p>
     <p>High humidity can cause an undesirable level of moisture in the air which can negatively impact a wide range of products as well as creating an uncomfortable environment for people. Increased moisture can damage electronic equipment, manufactured products, structures, encourage the growth of mould and mildew and cause rot.</p>
     <p>Low humidity levels can cause excess build up of static electricity, increase the susceptibility of colds and respiratory illnesses and allows viruses and germs to thrive. It can also have adverse effects on plants, wood, paint and other objects that are hygroscopic as their natural moisture levels are decreased in line with the RH.</p>
     <p>The aim of humidity monitoring is to ensure the safety of the local environment and allow a quick and correct response to the shifting factors in the surrounding area. Being able to react correctly and quickly can not only save products from unnecessary damage and create a safe environment for humans but it could also be used a cost saving initiative when it comes to air conditioning demand.</p>
-  </div>
-</section>
-<section>
-  <div class="container">
-    {% assign quote = page.quote %}
-    {% assign quote-by = page.quote-by %}
-    {% assign quote-information = page.quote-information %}
-    {% assign quote-image = page.quote-image %}
-    {% include quote.html %}
   </div>
 </section>
 <section>
@@ -43,6 +36,18 @@ layout: base
     </div>
   </div>
 </section>
+{% include omniwatch-key-components.html %}
+<section class="container"><hr></section>
+<section>
+  <div class="container">
+    {% assign quote = page.quote %}
+    {% assign quote-by = page.quote-by %}
+    {% assign quote-information = page.quote-information %}
+    {% assign quote-image = page.quote-image %}
+    {% include quote.html %}
+  </div>
+</section>
+<section class="container"><hr></section>
 <section>
   <div class="container">
     <h3>Tonal language and humidity</h3>

@@ -3,26 +3,21 @@ layout: base
 ---
 <section>
   <div class="container">
-    <h3>Real-time data collection</h3>
-    <h1>Dew point monitoring</h1>
-    {% include header-buttons.html %}
+    <div class="is-40">
+      <h3>Real-time data collection</h3>
+      <h1>Dew point monitoring</h1>
+      <p>Dew point is the temperature at which water vapour in the air starts condensing on the equipment. Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C).</p>
+      {% include header-buttons.html %}
+    </div>
   </div>
 </section>
 <section>
   <div class="container">
     <h2>The importance of dew point monitoring</h2>
-    <p>Dew point is the temperature at which water vapour in the air starts condensing on the equipment. Environments with high relative humidity (RH) and rapid changes in temperature are most likely to experience condensing humidity. Dew point is always expressed as a temperature (°C).</p>
+    <p>In an unmonitored room containing several air conditioning (AC) units, it is possible to have half the room's cooling units adding humidity while the other half work to reduce it. This condition is known as demand contention and is one of the primary causes of excessive energy consumption in IT environments.</p>
+    <p>By monitoring and controlling dew point and <a href="/omniwatch/humidity-monitoring">relative humidity (RH)</a> greatly reduces the frequency of demand contention. This is due to the fact that as air increases in temperature in an IT environment its dew point stays the same.</p>
+    <p>Most air cooling units simply maintain humidity based on the actual amount of water required in each pound of air that passes through the unit. Elimination of demand contention can significantly increase the efficiency of the cooling system and save excessive usage of power and fluctuation.</p>
     <p>Access Spook's free dew point calculator <a href="/tools/dewpoint-calculator">here</a>.</p>
-    <p>Spook monitors dew point by auto-calculating it via Spook's wireless dual temperature and humidity sensors.</p>
-  </div>
-</section>
-<section>
-  <div class="container">
-    {% assign quote = page.quote %}
-    {% assign quote-by = page.quote-by %}
-    {% assign quote-information = page.quote-information %}
-    {% assign quote-image = page.quote-image %}
-    {% include quote.html %}
   </div>
 </section>
 <section>
@@ -41,20 +36,18 @@ layout: base
     </div>
   </div>
 </section>
+{% include omniwatch-key-components.html %}
+<section class="container"><hr></section>
 <section>
   <div class="container">
-    <h2>Demand contention</h2>
-    <p>In an unmonitored room containing several air conditioning (AC) units, it is possible to have half the room's cooling units adding humidity while the other half work to reduce it.</p>
-    <p>This condition is known as demand contention and is one of the primary causes of excessive energy consumption in IT environments.</p>
-    <p>By monitoring and controlling dew point and <a href="/omniwatch/humidity-monitoring">relative humidity (RH)</a> greatly reduces the frequency of demand contention. This is due to the fact that as air increases in temperature in an IT environment its dew point stays the same.</p>
-    <p>Most air cooling units simply maintain humidity based on the actual amount of water required in each pound of air that passes through the unit. Elimination of demand contention can significantly increase the efficiency of the cooling system and save excessive usage of power and fluctuation.</p>
+    {% assign quote = page.quote %}
+    {% assign quote-by = page.quote-by %}
+    {% assign quote-information = page.quote-information %}
+    {% assign quote-image = page.quote-image %}
+    {% include quote.html %}
   </div>
 </section>
-<section>
-  <div class="container">
-    <img src="/images/devices/multiple-devices.svg">
-  </div>
-</section>
+<section class="container"><hr></section>
 <section>
   <div class="container">
     <div class="is-row">

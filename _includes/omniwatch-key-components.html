@@ -1,12 +1,21 @@
-<div class="container">
-	<div class="is-row is-stack-60">
-		{% for item in site.data.omniwatch-key-components %}
-			<div class="is-col">
-				<a href="{{ item.link }}" class="is-color-black" style="text-decoration: none;">
-					<img style="max-width: 100px; max-height: 40px;" src="{{ item.icon }}">
-					<p class="is-large"><strong>{{ item.name }}</strong></p>
-				</a>
-			</div>
-		{% endfor %}
+<section>
+  <div class="container is-text-center">
+    <div class="is-stack-40">
+      <h4>OmniWatch key components</h4>
+    </div>
+    <div class="is-row is-stack-60">
+      {% for item in site.data.omniwatch-key-components %}
+	<div class="is-col is-border">
+	  <div class="is-inset-20">
+	    <a href="{{ item.link }}" class="is-color-black" style="text-decoration: none;">
+	      <div class="line-block-content">
+		<img style="max-width: 100px; max-height: 40px; padding-right: 20px;" src="{{ item.icon }}">
+		<h5>{{ item.name }}</h5>
+	      </div>
+	    </a>
+	  </div>
 	</div>
-</div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

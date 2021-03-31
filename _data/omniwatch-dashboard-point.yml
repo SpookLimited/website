@@ -1,0 +1,37 @@
+- title: Custom user access controls
+  tab-title: Access controls
+  panel-id: access-controls
+  words:
+      - OmniWatch typically monitors areas across several departments. Each department usually have their own priorities and when trying to monitor equipment on a piecemeal basis can be difficult to manage or keep secure.
+      - For example a refrigeration alarm may need to inform both the maintenance/service company and those that use the equipment on site; whereas a water alert in an IT server room may need to be handled by the facilities department instead of the IT department.
+      - OmniWatch automatically filters alerts to authorised users and relevant departments.
+
+- title: Individual sensor settings for meaningful alerts
+  tab-title: Custom settings
+  panel-id: custom-settings
+  words:
+    - Spook recognises similar sensors may need different settings dependent where they are installed. For example a temperature sensor near an air conditioning unit may need lower variables when compared to a similar sensor located near to a heat source.
+    - All sensor settings are variable and can be easily changed via the individual sensor interface within OmniWatch.
+
+- title: Power related efficiency gains
+  tab-title: Power monitoring
+  panel-id: power-monitoring
+  words:
+    - For organisations that monitor power, automated calculations can be made from the collected data readings for speed and accuracy. For instance, real time load balancing ensures power is not overloaded whilst understanding the stranded power (spare power available) across distributed power strips can be invaluable when needing to maximise power usage.
+    - <a href="/monitoring/power-monitoring" class="button">Read more</a>
+
+- title: Auto-generated alerts based on user defined settings
+  tab-title: Custom alerts
+  panel-id: custom-alerts
+  words:
+    - When sensor readings reach their set alarm levels they visually change for easy identification when viewing the real-time dashboard.
+    - When an alert is triggered it invokes Spook's 3-tier emergency alarm escalation procedure.
+    - <a href="/omniwatch/alerting/" class="button">Read more about alerts</a>
+
+- title: Spot issues before they become an issue
+  tab-title: Sawtoothing
+  panel-id: sawtoothing
+  words:
+    - Sensor readings are rarely static unless your monitoring dry contacts for on/off type settings. The majority of digital sensors produce varied readings such as when measuring the climate for temperature and humidity and collecting power metrics such as amps and kilowatts.
+    - These data types often produce sawtooth readings. This is fine if the values are not near a pre-set alarm trip. However if the sawtooth hunts above and below an alarm point many alerts can be generated and these can become annoying or more importantly ignored.
+    - OmniWatch provides an easy to use edit feature to change individual sensor trip values to stop sawtoothing alerts while on the move.

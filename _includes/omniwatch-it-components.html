@@ -1,0 +1,21 @@
+<section>
+  <div class="container is-text-center">
+    <div class="is-stack-40">
+      <h4>OmniWatch IT monitoring</h4>
+    </div>
+    <div class="is-row is-stack-60">
+      {% for item in site.data.it.header-item %}
+	<div class="is-col is-33 is-border is-stack-20">
+	  <div class="is-inset-20">
+	    <a href="{{ item.link }}" class="is-color-black" style="text-decoration: none;">
+	      <div class="line-block-content">
+		<img style="max-width: 100px; max-height: 40px; padding-right: 20px;" src="/images/icons/circle.svg">
+		<h5>{{ item.title }}</h5>
+	      </div>
+	    </a>
+	  </div>
+	</div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

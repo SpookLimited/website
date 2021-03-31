@@ -3,33 +3,36 @@ layout: base
 ---
 <section>
   <div class="container">
-    <h3>Real-time data collection</h3>
-    <h1>Temperature monitoring</h1>
-    {% include header-buttons.html %}
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+	<h3>Real-time data collection</h3>
+	<h1>Temperature monitoring</h1>
+	<p>Temperature monitoring is one of the most important and, therefore, common metrics that people monitor. Incorrect temperatures can cause harm to a wide range of electrical equipment, ruin produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
+	{% include header-buttons.html %}
+      </div>
+      <div class="is-col is-60">
+	<img class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+      </div>
+    </div>
   </div>
 </section>
 <section>
   <div class="container">
-    <h2>The importance of temperature monitoring</h2>
-    <p>Temperature monitoring is one of the most important and, therefore, common metrics that people monitor. Incorrect temperatures can cause harm to a wide range of electrical equipment, ruin produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
-    <h3>1. Damage prevention</h3>
-    <p>Ensuring that environments remain within the proper temperature range will help to extend the lifespan of equipment, perishable produce and structures. Catching excessive or fluctuating temperatures and rectifying them before harm can be done will save replacement costs and potential impact to business down the line.</p>
-    <p>Proactive action and early alerting provides time for replacement plans and maintenance calls to be booked at more convenient times; further reducing negative impact on businesses.</p>
-    <h3>2. Energy efficiency and cost savings</h3>
-    <p>Historical data can be used to track energy demands and utilisation of other systems such as air conditioning (AC) units or cooling units within fridges/freezers. Not only can areas with high demands point towards a previously unknown issue, such as a failing AC unit or broken fan, it can also help plan redistribution of equipment to lower demand areas.</p>
-    <p>High demand areas can also exist where there is an artificial demand; after equipment is moved or a period of high ambient temperature has passed and cooling hasn't been altered to reflect this (also see audit logs to track historical changes). Artificial demand on cooling can cause excess expense which once rectified can save the business money.</p>
-    <h3>3. Health and safety and warranty audit</h3>
-    <p>Often there is a duty to prove equipment or produce or other items are stored at the correct temperature. With OmniWatch temperature monitoring you are able to produce a report for any time frame covered by your installation as proof of correct environmental conditions. Unlike most off the shelf monitoring solutions available OmniWatch stores all readings forever rather than just the last 30 days.</p>
-  </div>
-</section>
-{% include omniwatch-key-components.html %}
-<section>
-  <div class="container">
-    {% assign quote = page.quote %}
-    {% assign quote-by = page.quote-by %}
-    {% assign quote-information = page.quote-information %}
-    {% assign quote-image = page.quote-image %}
-    {% include quote.html %}
+    <div class="is-row">
+      <div class="is-col is-20">
+	<h2>The importance of temperature monitoring and the benefits it offers</h2>
+      </div>
+      <div class="is-col is-80">
+	<h3>1. Damage prevention</h3>
+	<p>Ensuring that environments remain within the proper temperature range will help to extend the lifespan of equipment, perishable produce and structures. Catching excessive or fluctuating temperatures and rectifying them before harm can be done will save replacement costs and potential impact to business down the line.</p>
+	<p>Proactive action and early alerting provides time for replacement plans and maintenance calls to be booked at more convenient times; further reducing negative impact on businesses.</p>
+	<h3>2. Energy efficiency and cost savings</h3>
+	<p>Historical data can be used to track energy demands and utilisation of other systems such as air conditioning (AC) units or cooling units within fridges/freezers. Not only can areas with high demands point towards a previously unknown issue, such as a failing AC unit or broken fan, it can also help plan redistribution of equipment to lower demand areas.</p>
+	<p>High demand areas can also exist where there is an artificial demand; after equipment is moved or a period of high ambient temperature has passed and cooling hasn't been altered to reflect this (also see audit logs to track historical changes). Artificial demand on cooling can cause excess expense which once rectified can save the business money.</p>
+	<h3>3. Health and safety and warranty audit</h3>
+	<p>Often there is a duty to prove equipment or produce or other items are stored at the correct temperature. With OmniWatch temperature monitoring you are able to produce a report for any time frame covered by your installation as proof of correct environmental conditions. Unlike most off the shelf monitoring solutions available OmniWatch stores all readings forever rather than just the last 30 days.</p>
+      </div>
+    </div>
   </div>
 </section>
 <section>
@@ -48,43 +51,53 @@ layout: base
     </div>
   </div>
 </section>
+{% include omniwatch-key-components.html %}
+<section class="container"><hr></section>
 <section>
   <div class="container">
-    <h2>Definition of temperature</h2>
-    <p>The temperature of something is the result of the speed at which molecules move on an object. The more volatile the movement equates to a higher temperature being measured.</p>
-    <div class="is-row is-items-middle">
+    {% assign quote = page.quote %}
+    {% assign quote-by = page.quote-by %}
+    {% assign quote-information = page.quote-information %}
+    {% assign quote-image = page.quote-image %}
+    {% include quote.html %}
+  </div>
+</section>
+<section class="container"><hr></section>
+<section>
+  <div class="container">
+    <div class="is-row">
       <div class="is-col">
 	<img src="/images/omniwatch/temperature-monitoring/si.svg">
       </div>
       <div class="is-col">
-	<p class="is-large"><strong>What is SI?</strong></p>
-	<p>SI is the International System of Units established in 1960 and adopted by all the major countries of the world.</p>
-	<p><a href="https://www.bipm.org/en/measurement-units/" class="button">Find out more</a></p>
-      </div>
-    </div>
-    <div class="is-row">
-      <div class="is-col is-20">
-	<p class="is-large"><strong>Kelvin (K)</strong></p>
-      </div>
-      <div class="is-col is-80">
-	<p>Kelvin is the base unit of temperature in the International System of Units (SI). Celsius shares the same magnitude of change as Kelvin so ±1K is equal to ±1°C.</p>
-	<p>Kelvin's lowest value is 0K, absolute zero, and can go up to the theoretical limit of 10<sup>32</sup>K which is the highest temperature we believe possible according to the standard model of particle physics.</p>
-      </div>
-    </div>
-    <div class="is-row">
-      <div class="is-col is-20">
-	<p class="is-large"><strong>Celsius (°C)</strong></p>
-      </div>
-      <div class="is-col is-80">
-	<p>Celsius, originally known as the centigrade, is based on 0°C for the freezing point of water and 100°C for the boiling point of water at 1 standard atmospherical pressure. Absolute zero is defined as exactly -273.15°C.</p>
-      </div>
-    </div>
-    <div class="is-row">
-      <div class="is-col is-20">
-	<p class="is-large"><strong>Fahrenheit (°F)</strong></p>
-      </div>
-      <div class="is-col is-80">
-	<p>Fahrenheit was the first standardised temperature scale to be used but has been phased out by the metric system and Celsius. It is based on 32°F being the freezing point of water and 212°F for the boiling point of water at 1 standard atmospherical pressure.</p>
+	<h2>Definition of temperature</h2>
+	<p>The temperature of something is the result of the speed at which molecules move on an object. The more volatile the movement equates to a higher temperature being measured.</p>
+	<p>SI is the International System of Units established in 1960 and adopted by all the major countries of the world. <a href="https://www.bipm.org/en/measurement-units/">Find out more about SI</a>.</p>
+	<div class="is-row">
+	  <div class="is-col is-20">
+	    <p class="is-large"><strong>Kelvin (K)</strong></p>
+	  </div>
+	  <div class="is-col is-80">
+	    <p>Kelvin is the base unit of temperature in the International System of Units (SI). Celsius shares the same magnitude of change as Kelvin so ±1K is equal to ±1°C.</p>
+	    <p>Kelvin's lowest value is 0K, absolute zero, and can go up to the theoretical limit of 10<sup>32</sup>K which is the highest temperature we believe possible according to the standard model of particle physics.</p>
+	  </div>
+	</div>
+	<div class="is-row">
+	  <div class="is-col is-20">
+	    <p class="is-large"><strong>Celsius (°C)</strong></p>
+	  </div>
+	  <div class="is-col is-80">
+	    <p>Celsius, originally known as the centigrade, is based on 0°C for the freezing point of water and 100°C for the boiling point of water at 1 standard atmospherical pressure. Absolute zero is defined as exactly -273.15°C.</p>
+	  </div>
+	</div>
+	<div class="is-row">
+	  <div class="is-col is-20">
+	    <p class="is-large"><strong>Fahrenheit (°F)</strong></p>
+	  </div>
+	  <div class="is-col is-80">
+	    <p>Fahrenheit was the first standardised temperature scale to be used but has been phased out by the metric system and Celsius. It is based on 32°F being the freezing point of water and 212°F for the boiling point of water at 1 standard atmospherical pressure.</p>
+	  </div>
+	</div>
       </div>
     </div>
   </div>

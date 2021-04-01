@@ -133,7 +133,7 @@ layout: base
         <div class="is-col">
 	  <div class="is-border is-inset-20" style="min-height: 100%; background-color: #fff;">
 	    <h5>News</h5>
-	    <div style="height: 200px; min-width: 100%; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
+	    <div style="height: 200px; min-width: 100%; background-color: #212121; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;"></div>
 	    <p>{{ post.date | date_to_string }}</p>
 	    <p class="is-large"><strong><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{ post.title }}</a></strong></p>
 	    <p>{{ post.page-description | truncate_words: 20 }}</p>

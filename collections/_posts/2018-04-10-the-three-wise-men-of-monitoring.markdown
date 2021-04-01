@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title:  "The Three Wise Men of data centre monitoring"
 blurb: "Three wise men are predominantly celebrated once a year but monitoring the environment of your data centre should be 24/7."
 page-description: "Three wise men are predominantly celebrated once a year but monitoring the environment of your data centre should be 24/7."

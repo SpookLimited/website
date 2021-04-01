@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title:  "Olympia London upgrades Spook OmniWatch to include real-time UPS monitoring"
 blurb: "Olympia London add support and monitoring for their Reillo UPS using OmniWatch."
 page-description: "Olympia London add support and monitoring for their Reillo UPS using OmniWatch."

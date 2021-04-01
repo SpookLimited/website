@@ -30,7 +30,7 @@
   id: auditing-tab
   icon: /images/icons/data.svg
   link: /omniwatch/change-logs
-  image: /images/homepage/omniwatch-dashboard.svg
+  image: /images/omniwatch/omniwatch-change-logs.svg
   words:
     - Over time the set-up of OmniWatch will evolve and change inline with what a customer requires. As amendments are made, whether it is a contact related field, for example updating a mobile number; to changing the high trip for an alert, it is important to record what was changed, who made the change and why.
     - Every revision within OmniWatch is recorded and stored for audit purposes. Amendments can also be emailed  in real-time in order to let key personnel know without needing to logon and scrutinise log files.

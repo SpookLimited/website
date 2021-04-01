@@ -4,7 +4,7 @@ title: Winners of the Specialist Technology Company of the Year
 post-title: "Spook is pleased to announce we are the winners of the 'Specialist Technology Company of the Year' award at the CIR Business Continuity Awards 2020." 
 blurb: 
 page-description: "Spook is pleased to announce we are the winners of the 'Specialist Technology Company of the Year' award at the CIR Business Continuity Awards 2020." 
-image: 
+image: /images/blog/cir-award-winner-2020.jpeg 
 permalink: /blog/cir-business-continuity-award-winner-2020/
 date:   2020-12-09 08:00:00 +0000
 published: 1

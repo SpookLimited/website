@@ -29,18 +29,22 @@ layout: base
 </section>
 <section>
   <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-30">
-	<h2>Key industries OmniWatch currently supports</h2>
-	<p>Are we missing your industry from this list? Get in <a href="/contact">contact with us</a> to discuss how we can help.</p>
-      </div>
-      <div class="is-col is-70">
-	<div class="is-row">
-	  {% for item in site.data.industry.header-item %}
-	  <div class="is-col is-50">
-	    <p><strong><a href="#{{ item.section-link }}" class="is-color-black" style="text-decoration: none;">{{ item.title }} <span class="caret is-down"></span></a></strong></p>
+    <h2>Key industries OmniWatch currently supports</h2>
+    <p>Are we missing your industry from this list? Get in <a href="/contact">contact with us</a> to discuss how we can help.</p>
+    <div class="is-row">
+      {% for item in site.data.industry.header-item %}
+	  <div class="is-col is-33 is-stack-20 is-border is-shadow-2">
+	    <div class="is-inset-20">
+	      <p class="is-large"><strong>{{ item.title }}</strong></p>
+	      <p>{{ item.blurb }}</p>
+	      <a href="#{{ item.section-link }}">Read more</a>
+	    </div>
 	  </div>
-	  {% endfor %}
+      {% endfor %}
+      <div class="is-col is-33 is-stack-20">
+	<div class="is-inset-40 is-text-center">
+	  <p>Can't see your industry?</p>
+	  <a href="/contact">Contact us</a>
 	</div>
       </div>
     </div>

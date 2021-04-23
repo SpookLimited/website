@@ -20,12 +20,16 @@ layout: monitoring/sensor/base
 <section>
 	<div class="container">
 		<h3>Potential uses for wireless water detection sensors</h3>
-        <ul class="is-bar is-small is-muted">
-            {% for use in site.data.sensors.water-uses %}
-                {% if forloop.index != 1 %}<li>|</li>{% endif %}
-                <li>{{ use }}</li>
-            {% endfor %}
-        </ul>
+		<div class="is-row">
+		  <div class="is-col">
+		    <ul>
+		{% for use in site.data.sensors.water-uses %}
+		{% if forloop.index == 10 %}</div><div class="is-col"><ul>{% endif %}
+		  <li>{{ use }}</li>
+		{% endfor %}
+		</ul>
+	      </div>
+		</div>
 	</div>
 </section>
 <section>

@@ -37,11 +37,10 @@ layout: base
       <div class="is-col is-70">
 	<div class="is-row">
 	  {% for item in site.data.industry.header-item %}
-	  <div class="is-col is-33">
-	    <p><strong><a href="#{{ item.section-link }}">{{ item.title }}</a></strong></p>
+	  <div class="is-col is-50">
+	    <p><strong><a href="#{{ item.section-link }}" class="is-color-black" style="text-decoration: none;">{{ item.title }} <span class="caret is-down"></span></a></strong></p>
 	  </div>
 	  {% endfor %}
-	  <div class="is-col is-33"></div>
 	</div>
       </div>
     </div>

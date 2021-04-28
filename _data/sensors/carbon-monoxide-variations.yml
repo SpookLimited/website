@@ -1,9 +1,0 @@
-- name: Hydrogen sulphide (H<sub>2</sub>S)
-  icon: /images/sensor/carbon-monoxide.svg
-  types:
-      - AA
-
-- name: Carbon dioxide (CO<sub>2</sub>)
-  icon: /images/sensor/carbon-monoxide.svg
-  types:
-      - AA

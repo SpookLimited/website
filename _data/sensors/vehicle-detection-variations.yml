@@ -1,9 +1,0 @@
-- name: Industrialustrial ultrasonic sensor
-  icon: /images/sensor/industrial-ultrasonic.svg
-  types:
-      - Industrial
-
-- name: Commercial ultrasonic sensor
-  icon: /images/sensor/commercial-ultrasonic.svg
-  types:
-      - AA

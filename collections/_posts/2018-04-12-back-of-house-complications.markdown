@@ -4,7 +4,7 @@ title:  "Back of house complications"
 blurb: "Uninterruptible Power Supplies (UPS) are typically associated with Back of House meaning the location is often in a far corner of a room or in a different location altogether. Therefore, the need to monitor the environment of the UPS together with its on-board power metrics is as important as the data centre itself."
 page-description: "Uninterruptible Power Supplies (UPS) are typically associated with Back of House meaning the location is often in a far corner of a room or in a different location altogether. Therefore, the need to monitor the environment of the UPS together with its on-board power metrics is as important as the data centre itself."
 image: /images/blog/back-of-house-complications/back-of-house-complications.jpeg
-permalink: /blog/back-of-house-complications/
+permalink: /news/back-of-house-complications/
 date:   2018-04-12 10:27:49 +0000
 published: 1
 ---

@@ -1,0 +1,79 @@
+- name: Quantity of light
+  image: /images/sections/agriculture/light/rate-of-photosynthesis.svg
+  words:
+      - Spook wireless light sensors measure the intensity of light in LUX (luminescence/unit area). Plants use light as a source of energy for photosynthesis and LUX has a direct effect on plant growth.
+      - The term photosynthesis refers to the reaction between carbon dioxide and water in the presence of light to produce carbohydrates and oxygen. The rate of this process is highly dependent on the light quantity; the photosynthesis rate is higher as the Photosynthetic Active Radiation (PAR) increases. The carbohydrates produced during photosynthesis are stored and used by the plant as a food source.
+      - Each plant species starts the process of photosynthesis at different light energy levels, which is called the light compensation point. This point starts when light energy is sufficient for photosynthetic activity to produce more oxygen than is required by the plant for respiration.
+      - Likewise, the release of carbon dioxide through respiration by the plant must be less than the total carbon dioxide used by the plant for photosynthesis. In other words, the net photosynthesis is zero.
+      - <code>Net Photosynthesis = Photosynthesis – Respiration</code>
+
+- name: Light saturation point
+  image: /images/sensor/light.svg
+  link: /monitoring/sensor/light-meters/
+  words:
+      - More light generally equates to higher levels of photosynthesis. However as the light intensity increases, the photosynthetic rate eventually reaches a maximum point. This point where the light intensity does not increase the photosynthesis rate is called the light saturation point. When this point is reached, the photosynthesis rate curve becomes flat.
+
+- name: Temperature
+  image: /images/sensor/temperature.svg
+  link: /monitoring/sensor/temperature/
+  words:
+      - Spook wireless temperature sensors come in a few options. Ambient temperature sensors are compact and sealed in the body of the sensor. Whereas there are temperature probe options that are available with a lead cable of differing lengths.
+      - <strong>Caution</strong> The temperature sensors are not water proof so for areas that require water resistance either select a sensor in a water proof housing or consider the Spook wireless thermo coupler sensor option.
+
+- name: Humidity
+  image: /images/sensor/humidity.svg
+  link: /monitoring/sensor/humidity/
+  words:
+      - Spook wireless humidity sensors measure the relative humidity (RH) in an area. RH is a crucial factor when growing plants in greenhouses or poly tunnels.
+      - RH that is too high interferes with plant transpiration. It also causes condensate droplets on the ceiling and walls which reflect light. This can reduce the amount of light transmission into the    greenhouse for plant growth.
+      - Too little RH also can stress plants by accelerating transpiration to more than what the roots can take up and translocate. The solution to these and other humidity concerns is a program of systematic humidity management.
+
+- name: Water
+  image: /images/sensor/water-probe.svg
+  link: /monitoring/sensor/water/
+  words:
+      - Spook wireless water sensors detect when there is water present. These sensors can also be used to detect a lack of water, notifying when a container is nearly empty. There are various types of water sensor available, the correct sensor depends on what type of water ingress is being    monitored.
+
+- name: CO<sub>2</sub>
+  image: /images/sensor/carbon-monoxide.svg
+  link: /monitoring/sensor/gasses/
+  words:
+      - Spook wireless CO<sub>2</sub> sensors measure the amount of CO<sub>2</sub> in an area. Studies have shown that higher concentrations of atmospheric carbon dioxide affect crops in two important ways; they boost crop yields by increasing the rate of photosynthesis, which spurs growth, and they reduce the amount of water crops lose through transpiration.
+
+- name: Open/closed
+  image: /images/sensor/openclosed.svg
+  link: /monitoring/sensor/openclosed/
+  words:
+      - Spook wireless open/closed sensors provide information on the status of doors, windows, cabinets, etc. Farmland gates and lock-ups vary and by using a common open/closed sensor on latches and doors provides valuable reassurance that areas are secure.
+      - By remotely monitoring whether doors, gates, entrances and windows are open or closed saves time and effort in staff needing to visit to make sure places are secure.
+      - Plants transpire through their leaves, which contain tiny pores called stomata that open and collect carbon dioxide molecules for photosynthesis. During that process they release water vapour.
+      - As carbon dioxide concentrations increase, the pores don't open as wide, resulting in lower levels of transpiration by plants and therefore increased water-use efficiency.
+
+- name: Liquid level
+  image: /images/sensor/powder.svg
+  link: /monitoring/sensor/powder-monitoring/
+  words:
+      - Spook wireless liquid level sensors use a solid state, continuous (multi-level) fluid level sensor for measuring levels in water, non-corrosive water based liquids and dry fluids (powders).
+      - The agricultural industry has an array of tanks, storage containers, fuel storage areas and    containers that are used throughout the year. By remotely monitoring the level of these saves valuable time and effort and can act as automatic reminders when low levels are recorded and need re-ordering.
+
+- name: Security/motion
+  image: /images/sensor/motion.svg
+  link: /monitoring/sensor/motion/
+  words:
+      - Spook wireless motion sensors are ideal for detecting if unwanted guests are present. Infrared motion detectors can prove a useful guard agains theft and damage. Spook's wireless motion sensors use an infrared sensing technology to accurately detect movements made by people or even animals such as rats and other vermin.
+      - As Spook motion sensors use infrared they are non-obtrusive and can be installed in confined areas without attention being drawn to their use.
+
+- name: Carbon monoxide (CO)
+  image: /images/sensor/carbon-monoxide.svg
+  link: /monitoring/sensor/gasses/
+  words:
+      - Spook wireless CO sensors are ideal to detect early warnings of carbon monoxide. Carbon    monoxide poisoning is a real threat to confined or restricted areas that have machinery in use.
+      - Any areas that have fire or combustibles present are also a potential dangerous generator of carbon monoxide.
+      - Agricultural buildings often have machinery running inside them such as mills, saws, and forges. They are also likely to have paraffin heaters or log burners in areas where people work. Monitoring the CO in these areas is vital to ensuring the safety of workers and staff.
+
+- name: Dry contact
+  image: /images/sensor/dry-contact.svg
+  link: /monitoring/sensor/dry-contact/
+  words:
+      - Spook wireless dry contact sensors detect when there is contact between two wired end points. They can easily be integrated into existing switches or contact plates.
+      - The sensors can usually be installed on third party equipment such a generators, mills and machinery to provide operating condition alerts.

@@ -1,5 +1,0 @@
----
-layout: omniwatch/247
-title: 24/7 monitoring
-permalink: /omniwatch/247-monitoring
----

@@ -15,15 +15,5 @@ plugins:
 collections_dir: collections
 
 collections:
-    technical:
-        output: true
-    monitoring:
-        output: true
-    environmental:
-        output: true
-    omniwatch:
-        output: true
-    tools:
-        output: true
-    casestudy:
-        output: true
+  #omniwatch:
+  #output: true

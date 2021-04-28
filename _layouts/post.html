@@ -1,25 +1,18 @@
 ---
 layout: base
 ---
-<header style="background-image: linear-gradient( hsla(0, 0%, 7%, 0.4), hsla(0, 0%, 7%, 0.4) ), url('{{ page.image }}');{% if page.color %}color: #{{ page.color }};{% endif %}">
-	<div class="container">
-		{% if page.post-title %}
-			<h1>{{ page.post-title }}</h1>
-		{% else %}
-			<h1>{{ page.title }}</h1>
-		{% endif %}
-		<h3>{{ page.blurb }}</h3>
-	</div>
+<header
+  style="background-image: linear-gradient( hsla(0, 0%, 7%, 0.4), hsla(0, 0%, 7%, 0.4) ), url('{{ page.image }}'); background-size: cover; background-position: center;">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    {% if page.blurb %}
+    <h3>{{ page.blurb }}</h3>
+    {% endif %}
+  </div>
 </header>
 <section>
-	<div class="container">
-{{ content }}
-	</div>
+  <div class="container">
+    {{ content }}
+  </div>
 </section>
-<section>
-	<div class="container">
-		<h2>Get in touch with Spook</h2>
-		<p>Please contact us if you wish for further information on how Spook can help with your environmental and power monitoring needs.</p>
-		<p><a href="#" class="button">Contact us</a></p>
-	</div>
-</section>
+{% include contact-us.html %}

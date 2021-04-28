@@ -4,7 +4,7 @@ title:  "Waterstones, BBC Desert Island Discs and OmniWatch"
 blurb: "While Sir Tim Waterstone shares the eight tracks, book and luxury that he would want to take with him if cast away to a desert island Spook ensures his legacy is protected by monitoring the IT interests of the business."
 page-description: "While Sir Tim Waterstone shares the eight tracks, book and luxury that he would want to take with him if cast away to a desert island Spook ensures his legacy is protected by monitoring the IT interests of the business."
 image: /images/blog/waterstones.jpg
-permalink: /blog/waterstones-desert-island-discs/
+permalink: /news/waterstones-desert-island-discs/
 date:   2019-09-16 08:27:49 +0000
 published: 1
 ---

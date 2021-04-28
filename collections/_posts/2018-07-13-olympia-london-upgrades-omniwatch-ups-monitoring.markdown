@@ -5,7 +5,7 @@ blurb: "Olympia London add support and monitoring for their Reillo UPS using Omn
 page-description: "Olympia London add support and monitoring for their Reillo UPS using OmniWatch."
 image: /images/blog/olympia-london-upgrades-omniwatch-ups-monitoring/olympia-london-banner.png
 date:   2018-07-13 10:27:49 +0000
-permalink: /blog/olympia-london-upgrades-spook-omniwatch-real-time-ups-monitoring/
+permalink: /news/olympia-london-upgrades-spook-omniwatch-real-time-ups-monitoring/
 published: 1
 ---
 

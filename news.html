@@ -1,0 +1,29 @@
+---
+layout: base
+title: News and updates
+page-description: "See the latest news and updates from Spook concerning environmental and power monitoring."
+---
+<header>
+  <div class="container">
+    <h1>News</h1>
+  </div>
+</header>
+{% for post in site.posts %}
+<section>
+  <div class="container">
+    <div class="is-row">
+      <div class="is-col"
+        style="background-color: #212121; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      </div>
+      <div class="is-col">
+        <h2><a href="{{ post.permalink }}" class="is-color-black">{{ post.title }}</a></h2>
+        {% if post.blurb %}
+        <p>{{ post.blurb }}</p>
+        {% else %}
+        <p>{{ post.content }}</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endfor %}

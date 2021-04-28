@@ -3,7 +3,7 @@
     <div class="is-stack-20">
       <h5>Contact us</h5>
       <ul class="is-unstyled">
-	<li><a href="/contact/">Get in touch</a></li>
+        <li><a href="/contact/">Get in touch</a></li>
       </ul>
     </div>
     <div class="is-row is-stack-20">
@@ -16,56 +16,54 @@
         </ul>
       </div>
       <div class="is-col">
-        <h5>IT monitoring</h5>
+        <a class="is-big" href="/monitoring/environmental"><strong>Environmental</strong></a>
         <ul class="is-unstyled">
-        {% for item in site.monitoring %}
-          {% if item.type == 'it' %}
-          <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+          <li><a href="/monitoring/environmental/temperature">Temperature</a></li>
+          <li><a href="/monitoring/environmental/humidity">Humidity</a></li>
+          <li><a href="/monitoring/environmental/dewpoint">Dew Point</a></li>
+          <li><a href="/monitoring/environmental/airflow">Airflow</a></li>
+          <li><a href="/monitoring/environmental/water">Water ingress</a></li>
+          <li><a href="/monitoring/environmental/light">Light levels</a></li>
         </ul>
-        <h5>Facilities monitoring</h5>
+        <a class="is-big" href="/monitoring/it"><strong>IT monitoring</strong></a>
         <ul class="is-unstyled">
-        {% for item in site.monitoring %}
-          {% if item.type == 'facilities' %}
-          <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-        <h5>Power monitoring</h5>
-        <ul class="is-unstyled">
-        {% for item in site.monitoring %}
-          {% if item.type == 'power' %}
-          <li><a href="{{ item.permalink }}">{{ item.title }}</a></li>
-          {% endif %}
-        {% endfor %}
+          <li><a href="/monitoring/it/data-center">Data center</a></li>
+          <li><a href="/monitoring/it/server-room">Server room</a></li>
+          <li><a href="/monitoring/it/comms-room">Comms room</a></li>
+          <li><a href="/monitoring/it/comms-closet">Comms closet</a></li>
+          <li><a href="/monitoring/it/facilities">Facilities</a></li>
+          <li><a href="/monitoring/it/disaster-recovery">Disaster recovery</a></li>
         </ul>
       </div>
       <div class="is-col">
-        <h5>Spook wireless sensors</h5>
+        <a class="is-big" href="/monitoring/power"><strong>Power monitoring</strong></a>
         <ul class="is-unstyled">
-          {% for item in site.monitoring %}
-            {% if item.type == 'sensor' %}
-            <li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
-            {% endif %}
-          {% endfor %}
+          <li><a href="/monitoring/power/generator.html">Generator</a></li>
+          <li><a href="/monitoring/power/pdu.html">PDU</a></li>
+          <li><a href="/monitoring/power/pue-and-dcie.html">PUE and DCiE</a></li>
+          <li><a href="/monitoring/power/ups.html">UPS</a></li>
+        </ul>
+        <a class="is-big" href="/monitoring/industry"><strong>Industry</strong></a>
+        <ul class="is-unstyled">
+          <li><a href="/monitoring/industry/agriculture.html">Agriculture</a></li>
+          <li><a href="/monitoring/industry/biotech.html">Biotech and pharmaceuticals</a></li>
+          <li><a href="/monitoring/industry/heritage.html">Heritage</a></li>
+          <li><a href="/monitoring/industry/marine.html">Marine</a></li>
+          <li><a href="/monitoring/industry/refrigeration.html">Refrigeration</a></li>
+          <li><a href="/monitoring/industry">Other industries</a></li>
         </ul>
       </div>
       <div class="is-col">
-        <h5>Industry use cases</h5>
+        <a class="is-big" href="/solutions"><strong>Solutions</strong></a>
         <ul class="is-unstyled">
-          {% for item in site.monitoring %}
-            {% if item.type == 'iot' %}
-            <li><a href="{{ item.permalink }}/">{{ item.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-	  <li><a href="/monitoring/industry-monitoring">Other industries</a></li>
+          <li><a href="/solutions/cellular">Cellular</a></li>
+          <li><a href="/solutions/wireless">Wireless</a></li>
+          <li><a href="/solutions/#technical">Technical documents</a></li>
         </ul>
         <h5>Company</h5>
         <ul class="is-unstyled">
           <li><a href="/about/">About</a></li>
           <li><a href="/news/">News</a></li>
-          <li><a href="/technical/">Technical</a></li>
         </ul>
       </div>
     </div>
@@ -74,5 +72,5 @@
 </footer>
 <script src="/js/kube.min.js"></script>
 <script>
-    $K.init();
+  $K.init();
 </script>

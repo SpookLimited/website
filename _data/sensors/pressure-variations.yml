@@ -1,5 +1,0 @@
-- name: Up to 300 PSIG
-  icon: /images/sensor/pressure.svg
-  types:
-      - AA
-      - Industrial

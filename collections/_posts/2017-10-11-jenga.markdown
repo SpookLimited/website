@@ -3,7 +3,7 @@ layout: post
 title:  "Playing Jenga in the Server Room"
 blurb: "The main reasons for business continuity invocation in 2017 are due to power and environment issues in server rooms and data centres."
 page-description: "The main reasons for business continuity invocation in 2017 are due to power and environment issues in server rooms and data centres."
-permalink: /blog/playing-jenga-in-the-server-room/
+permalink: /news/playing-jenga-in-the-server-room/
 image: /images/blog/jenga/jenga-pieces.jpeg
 date:   2017-10-11 09:27:49 +0000
 published: 1

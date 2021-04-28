@@ -1,0 +1,145 @@
+---
+layout: base
+title: Server room monitoring
+page-description: "Spook's remote cloud based monitoring service, called OmniWatch, helps server room IT managers to
+keep
+an eye on the environmental and power conditions of their IT appliances. By monitoring key aspects of the climate such
+as temperature, humidity and water ingress also helps to protect warranties and ensure that the investment in hardware
+is maximised."
+---
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+        <h3>Cloud based remote monitoring</h3>
+        <h1>Server room monitoring</h1>
+        <p>OmniWatch remote monitoring reduces downtime and operating expense and increases equipment reliability and
+          employee satisfaction.</p>
+        <p><a class="button" style="margin-top: 2em; margin-right: 1em;" href="/contact/">Contact us</a> <a
+            class="button is-secondary" style="margin-top: 2em;" href="#">Book demo</a></p>
+      </div>
+      <div class="is-col is-60">
+        <img alt="OmniWatch monitoring dashboard" class="is-shadow-2 is-stack-60"
+          src="/images/homepage/omniwatch-dashboard.svg">
+      </div>
+    </div>
+  </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="is-row is-items-middle">
+        <div class="is-col is-30 block">
+          <div class="is-inset-20">
+            <p>Server rooms (sometimes referred to as a computer rooms) are usually a secure, dedicated area built
+              within an existing office building. As a consequence, the main utilities such as power and communications
+              are normally a subset of those available to the building as a whole. Many server rooms have been designed
+              with power and communications redundancy in order to provide continuous IT service delivery to their
+              business.</p>
+          </div>
+        </div>
+        <div class="is-col is-70">
+          <h2>Spook real-time monitoring</h2>
+          <p>Any interruption of the IT infrastructure in a server room could cause an organisation to suffer system
+            downtime, loss of productivity as well as loss in revenue. OmniWatch is designed to alert users to events
+            that, if go unnoticed, could cause business interruption.</p>
+          <p>Simple actions, for example; opening doors and windows or installing temporary air conditioning units and
+            fans in cases of high temperature are enough to prevent system failure and to provide valuable thinking and
+            reaction time to remedy matters.</p>
+          <p>The added benefits of monitoring presents opportunities for day to day planning. For example, measuring
+            power metrics means power load balancing between racks can be achieved as well as temperature monitoring
+            providing valuable information in helping to locate new servers into areas that are not heat stressed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="is-row">
+        <div class="is-col">
+          <div class="line-block-content">
+            <img alt="Light" src="/images/sensor/icons/light.svg" style="width: 60px;">
+            <h3>Lights out</h3>
+          </div>
+          <p>Many server rooms are left unattended for the majority of time, this is known as a lights out policy.
+            Physical visits are usually confined to when work within the server room is actually required.</p>
+          <p>When you take into consideration working patterns too, it is unusual for IT staff to be present
+            out-of-office hours including weekends. This means a server room is typically left unoccupied for more than
+            70% of the time.</p>
+        </div>
+        <div class="is-col">
+          <div class="line-block-content">
+            <img alt="Remote working" src="/images/icons/remote-working.svg" style="width: 60px;">
+            <h3>Remote working</h3>
+          </div>
+          <p>The Covid-19 epidemic of 2020 has meant more organisations are enforcing remote working policies than ever
+            before.</p>
+          <p>IT staff are familiar with remote access to servers and networks which makes them uniquely positioned to
+            take advantage of more stringent remote working practices.</p>
+          <p>OmniWatch assists by providing IT server room remote monitoring 24/7 which is ideal for staff working from
+            home or whilst on the move.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container">
+      <div class="is-row is-items-middle"
+        style="background-image: url('/images/monitoring/server-room/server-rack-photograph.jpg');background-size:cover;background-position:center;">
+        <div class="is-col is-40" style="color: #fff;">
+          <h2>Monitor all hardware, regardless of manufacturer</h2>
+          <p class="is-large">OmniWatch is designed to be vendor independent and protocol neutral. This means management
+            of multiple equipment and devices is controlled by a single, secure and easy to use application.</p>
+        </div>
+        <div class="is-col is-60">
+          <img alt="Supported manufacturers" class="is-inset-20"
+            src="/images/monitoring/server-room/server-room-monitoring-manuf.svg">
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include omniwatch/key-components.html %}
+  <section>
+    <div class="container">
+      <h2 class="is-stack-20">Typical monitored conditions</h2>
+      {% for sensor in site.data.monitoring.it.server-room.sensors %}
+      <div class="is-row is-items-middle is-stack-8 is-border is-inset-20 is-small">
+        <div class="is-col is-10">
+          <img alt="{{ sensor.name }}" class="is-inset-8" style="max-height: 60px;" src="{{ sensor.icon }}">
+        </div>
+        <div class="is-col is-20">
+          <p><strong>{{ sensor.name }}</strong></p>
+        </div>
+        <div class="is-col is-70">
+          <ul class="is-bar is-muted">
+            {% for use in sensor.uses %}
+            {% if forloop.index != 1 %}<li>|</li>{% endif %}
+            <li>{{ use }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% include monitoring/it/key-components.html %}
+  <section>
+    <div class="container">
+      <div class="is-row">
+        <div class="is-col">
+          <h2>Contact Spook</h2>
+          <p>Please contact us if you wish for further information on how Spook can help you monitor your server rooms.
+          </p>
+          <p><a href="/contact/" class="button">Contact us</a></p>
+        </div>
+        <div class="is-col">
+          <blockquote>
+            <p>Spook provides peace of mind in that we can monitor all aspects of our server room in real time and
+              review trends to identify areas that we can proactively address. We can rely on OmniWatch to immediately
+              make us aware of any issues 24/7.</p>
+            <p class="is-small">P&O Ferrymasters - European providers of tailor-made transportation and logistics
+              services.</p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>

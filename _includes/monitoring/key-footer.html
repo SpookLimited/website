@@ -1,18 +1,58 @@
 <section>
-  <div class="container">
-    <div class="is-row is-stack-20">
-      {% for item in site.data.homepage-links %}
-      <div class="is-col is-50 is-stack-20">
-	<div class="homepage-links-block" style="background-image: url({{ item.banner }}); background-size: cover; background-position: center; background-repeat: no-repeat;">
-	  <a href="{{ item.link }}">
-	  <div class="homepage-links-block-content">
-	    <img style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);" src="{{ item.icon }}">
-	    <h3>{{ item.title }} monitoring</h3>
-	  </div>
-	  </a>
+	<div class="container">
+		<div class="is-row is-stack-20">
+			<div class="is-col is-50 is-stack-20">
+				<div class="homepage-links-block"
+					style="background-image: url(/images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+					<a href="/monitoring/environmental">
+						<div class="homepage-links-block-content">
+							<img
+								style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);"
+								src="/images/icons/climate.svg">
+							<h3>Climate monitoring</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-50 is-stack-20">
+				<div class="homepage-links-block"
+					style="background-image: url(/images/sections/key-pages/it-monitoring/it-monitoring-banner.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+					<a href="/monitoring/it">
+						<div class="homepage-links-block-content">
+							<img
+								style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);"
+								src="/images/icons/it-equipment.svg">
+							<h3>IT monitoring</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-50 is-stack-20">
+				<div class="homepage-links-block"
+					style="background-image: url(/images/sections/key-pages/power-monitoring/power-monitoring-banner.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+					<a href="/monitoring/power">
+						<div class="homepage-links-block-content">
+							<img
+								style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);"
+								src="/images/icons/power.svg">
+							<h3>Power monitoring</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="is-col is-50 is-stack-20">
+				<div class="homepage-links-block"
+					style="background-image: url(/images/sections/key-pages/industry-monitoring/industry-monitoring-banner.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+					<a href="/monitoring/industry">
+						<div class="homepage-links-block-content">
+							<img
+								style="filter: invert(91%) sepia(0%) saturate(7500%) hue-rotate(54deg) brightness(113%) contrast(108%);"
+								src="/images/icons/industry.svg">
+							<h3>Industry monitoring</h3>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
 </section>

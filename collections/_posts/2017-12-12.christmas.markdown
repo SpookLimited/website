@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title:  "The Christmas Conundrum for IT departments"
 blurb: "Over the Christmas period IT server rooms could be left in a 'lights out' state for over 10 days."
 page-description: "Over the Christmas period your IT server rooms could be left in a 'lights out' state for over 10 days."

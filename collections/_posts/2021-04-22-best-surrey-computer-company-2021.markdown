@@ -5,7 +5,7 @@ post-title: "Spook is listed as one of The Best Computer Companies in Surrey (20
 blurb: 
 page-description: "Spook is featured on a list for best computer companies based in Surrey for 2021." 
 image: /images/blog/best-startup-logo.png 
-permalink: /blog/best-surrey-computer-company-2021/
+permalink: /news/best-surrey-computer-company-2021/
 date:   2021-04-22 08:00:00 +0000
 published: 1
 ---

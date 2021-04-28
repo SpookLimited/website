@@ -1,0 +1,35 @@
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+  uses:
+      - Ambient temperature
+      - Rack temperature
+      - Air conditioning (AC) units
+      - Warranty
+
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+  uses:
+      - Equipment optimal operation
+      - Warranty
+
+- name: Dew point
+  icon: /images/sensor/icons/dewpoint.svg
+  uses:
+      - Air conditioning (AC) units
+      - Equipment optimal operation
+      - Warranty
+
+- name: Water ingress
+  icon: /images/sensor/icons/water.svg
+  uses:
+      - Water pipes
+      - Adjacent rooms
+      - Air conditioning (AC) units
+      - Flood detection
+
+- name: Open/closed
+  icon: /images/sensor/icons/door.svg
+  uses:
+      - Doors
+      - Security
+      - Cabinets

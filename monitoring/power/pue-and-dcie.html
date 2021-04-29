@@ -10,17 +10,14 @@ overloading a circuit breaker and loss of redundancy."
   <div class="container">
     <h3>Real-time data collection</h3>
     <h1>PUE and DCiE monitoring</h1>
+    <p class="is-large">By measuring power at key areas coming into a facility means there are many valuable
+      readings that provide important additional information.</p>
     {% include header-buttons.html %}
   </div>
 </header>
 <section>
   <div class="container">
     <div class="is-row is-items-middle is-stack-20">
-      <div class="is-col block is-inset-20">
-        <h2>The benefits of PUE/DCiE monitoring</h2>
-        <p class="is-large">By measuring power at key areas coming into a facility means there are many valuable
-          readings that provide important additional information.</p>
-      </div>
       <div class="is-col">
         <table class="is-border">
           <thead>
@@ -59,26 +56,8 @@ overloading a circuit breaker and loss of redundancy."
           </tbody>
         </table>
       </div>
-    </div>
-    <div class="is-row is-items-middle">
-      <div class="is-col is-30 is-text-center">
-        <h3 class="is-inset-top-20">PUE</h3>
-        <h3 style="font-weight: 300; font-size: 2em;" id="pue">1.25</h3>
-
-        <h3 class="is-inset-top-20">DCiE</h3>
-        <h3 style="font-weight: 300; font-size: 2em;" id="dcie">80%</h3>
-
-        <h3 class="is-inset-top-20" style="font-weight: 300; font-size: 2em;" id="description">Efficient</h3>
-        <svg class="peity" height="68" width="68">
-          <path
-            d="M 34 0 A 34 34 0 1 1 1.6640784459647762 23.493422191251792 L 14.978869674096927 27.819660112501055 A 20 20 0 1 0 34 14"
-            data-value="80" fill="#95c859"></path>
-          <path
-            d="M 1.6640784459647762 23.493422191251792 A 34 34 0 0 1 33.99999999999999 0 L 33.99999999999999 14 A 20 20 0 0 0 14.978869674096927 27.819660112501055"
-            data-value="20" fill="#eee"></path>
-        </svg>
-      </div>
-      <div class="is-col is-70">
+      <div class="is-col">
+        <h2>The benefits of PUE and DCiE monitoring</h2>
         <p>Knowing what the PUE figure is allows customers to highlight areas for improvement to better the PUE rating
           over time.</p>
         <p>The objective is to ensure that the maximum possible percentage of power utilised in a data centre is
@@ -89,41 +68,48 @@ overloading a circuit breaker and loss of redundancy."
     </div>
   </div>
 </section>
-<section class="grey">
+<section>
   <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-40">
-        <img src="/images/monitoring/pue-dcie/power-consumption-comparison.svg">
-      </div>
-      <div class="is-col is-60">
-        <h2>Power consumption fluctuations</h2>
-        <p>Total electrical power consumed by IT equipment in data centres has been relatively stable historically, but
-          new designs for server processors include energy management capabilities that can result in substantial power
-          consumption fluctuations.</p>
-        <p>This can present potentially numerous problems, including overheating, overloading a circuit breaker and loss
-          of redundancy.</p>
+    <nav class="tabs" data-kube="tabs" data-equal="true">
+      <a href="#power-consumption" class="is-active">Power consumption fluctuations</a>
+      <a href="#computational-loads">Computational loads</a>
+      <a href="#circuit-overload">Circuit overloading</a>
+    </nav>
+
+    <div id="power-consumption">
+      <div class="is-row is-items-middle">
+        <div class="is-col is-40">
+          <img src="/images/monitoring/pue-dcie/power-consumption-comparison.svg">
+        </div>
+        <div class="is-col is-60">
+          <h2>Power consumption fluctuations</h2>
+          <p>Total electrical power consumed by IT equipment in data centres has been relatively stable historically,
+            but
+            new designs for server processors include energy management capabilities that can result in substantial
+            power
+            consumption fluctuations.</p>
+          <p>This can present potentially numerous problems, including overheating, overloading a circuit breaker and
+            loss
+            of redundancy.</p>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <h2>Computational loads</h2>
-    <p>Typically servers operate at light computational loads, with actual power draw amounting to less than the
-      server's potential maximum power draw capabilities.</p>
-    <p>However, because many IT personnel can be unaware of this discrepancy, it's easy to plug more servers than are
-      necessary into a single power circuit.</p>
-    <p>This in turn creates the potential for possible circuit overloads, as the circuit rating can be exceeded by the
-      total maximum server power consumption.</p>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <h2>Cicuit overloading</h2>
-    <p>Another complication is that when servers are simultaneously subjected to heavy loads, circuit overloads will
-      occur. When circuits are overloaded, the entire circuit can be tripped and power shut off to IT equipment.</p>
-    <p>Furthermore, since this happens as a result of heavy loads, power outages at this time can have significant
-      negative effects on business.</p>
+    <div id="computational-loads">
+      <h2>Computational loads</h2>
+      <p>Typically servers operate at light computational loads, with actual power draw amounting to less than the
+        server's potential maximum power draw capabilities.</p>
+      <p>However, because many IT personnel can be unaware of this discrepancy, it's easy to plug more servers than are
+        necessary into a single power circuit.</p>
+      <p>This in turn creates the potential for possible circuit overloads, as the circuit rating can be exceeded by the
+        total maximum server power consumption.</p>
+    </div>
+    <div id="circuit-overload">
+      <h2>Circuit overloading</h2>
+      <p>Another complication is that when servers are simultaneously subjected to heavy loads, circuit overloads will
+        occur. When circuits are overloaded, the entire circuit can be tripped and power shut off to IT equipment.</p>
+      <p>Furthermore, since this happens as a result of heavy loads, power outages at this time can have significant
+        negative effects on business.</p>
+    </div>
   </div>
 </section>
 <section>

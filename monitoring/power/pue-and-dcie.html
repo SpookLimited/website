@@ -63,8 +63,54 @@ overloading a circuit breaker and loss of redundancy."
         <p>The objective is to ensure that the maximum possible percentage of power utilised in a data centre is
           actually used by IT equipment and the minimum by supporting equipment such as AC units.</p>
         <p>Clearly things such as antiquated and/or unreliable AC units will have an adverse effect on the PUE.</p>
-        <p><a href="/tools/pue-dcie-calculator/" class="button">PUE and DCiE calculator</a></p>
       </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="grey is-border is-inset-20">
+      <h2 class="is-stack-20">PUE and DCiE calculator</h2>
+      <form>
+        <div class="is-row is-items-middle is-stack-20">
+          <div class="is-col">
+            <div class="is-stack-20">
+              <p class="is-big">Total facility energy</p>
+              <p class="is-muted">Enter in the total amount of energy your facility is using (kW)</p>
+              <div class="is-prepend">
+                <span>kW</span> <input id="totalfacility" name="totalfacility" class="form-control" value="1000">
+              </div>
+            </div>
+          </div>
+          <div class="is-col">
+            <div class="is-stack-20">
+              <p class="is-big">Total IT equipment energy</p>
+              <p class="is-muted">Enter the total amount of energy your IT equipment is using (kW)</p>
+              <div class="is-prepend">
+                <span>kW</span> <input id="totalit" name="totalit" class="form-control" value="800">
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="is-bar is-text-center">
+          <li>
+            <h3>PUE</h3>
+          </li>
+          <li>
+            <p class="is-big" id="pue">1.25</p>
+          </li>
+          <li>
+            <h3>DCiE</h3>
+          </li>
+          <li>
+            <p class="is-big" id="dcie">80%</p>
+          </li>
+          <li>
+            <h3 id="description">Efficient</h3>
+          </li>
+          <li><span id="dciechart" class="sensor-reading">0/100</span></li>
+        </ul>
+      </form>
     </div>
   </div>
 </section>
@@ -161,3 +207,52 @@ overloading a circuit breaker and loss of redundancy."
 </section>
 {% include monitoring/power/key-components.html %}
 {% include contact-us.html %}
+<script src="/js/jquery.min.js"></script>
+<script src="/js/peity.min.js"></script>
+<script>$(document).ready(function () {
+    $("#dciechart").peity("donut", { innerRadius: 20, radius: 34, fill: ["#eee"] });
+
+    calculatePUEDCiE();
+
+    $('#totalfacility').keyup(function () {
+      calculatePUEDCiE()
+    });
+    $('#totalit').keyup(function () {
+      calculatePUEDCiE()
+    });
+
+    function calculatePUEDCiE() {
+      var tfe = parseFloat($("#totalfacility").val());
+      var tie = parseFloat($("#totalit").val());
+
+      var pue = parseFloat(tfe / tie).toFixed(2);
+      var dcie = parseInt((tie / tfe) * 100);
+
+      $("#pue").text(pue);
+      $("#dcie").text(dcie + '%');
+      var description = "";
+      var color = ""
+      if (pue <= 1.2) {
+        description = "Very efficient";
+        color = "#8bc34a";
+      } else if (pue <= 1.5) {
+        description = "Efficient";
+        color = "#95c859";
+      } else if (pue <= 2.0) {
+        description = "Average";
+        color = "#7CB5EC";
+      } else if (pue <= 2.5) {
+        description = "Inefficient";
+        color = "#FFC107";
+      } else {
+        description = "Very inefficient";
+        color = "#FF5F5F";
+      }
+      $("#description").text(description);
+      var updatingChart = $("#dciechart").peity("donut", { innerRadius: 20, radius: 34, fill: [color, "#eee"] });
+      updatingChart
+        .text(dcie + '/100')
+        .change();
+    }
+  })</script>
+<script>$('.donut').peity('donut');</script>

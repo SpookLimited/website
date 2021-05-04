@@ -3,108 +3,136 @@ layout: base
 title: Change logs
 ---
 <section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-60">
-	<img class="is-shadow-2" src="/images/omniwatch/omniwatch-change-logs.svg">
-      </div>
-      <div class="is-col is-40">
-	<h3>Track all changes within your OmniWatch installation</h3>
-	<h1>OmniWatch stores a record of all modifications within its event logs</h1>
-	<p>OmniWatch installations evolve over time. It's not unusual for the starting configuration of OmniWatch to change so it is important to be able to track what alterations have been made, by whom and for what reason.</p>
-	<p><a class="button" style="margin-top: 2em; margin-right: 1em;" href="/contact/">Contact us</a> <a class="button is-secondary" style="margin-top: 2em;" href="/demo/">Book demo</a></p>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col is-60">
+				<img class="is-shadow-2" src="/images/omniwatch/omniwatch-change-logs.svg">
+			</div>
+			<div class="is-col is-40">
+				<h3>Track all changes within OmniWatch</h3>
+				<h1>OmniWatch records all modifications within its event logs</h1>
+				<p>
+					OmniWatch installations evolve over time. It's not unusual for the starting configuration of OmniWatch to
+					change so it
+					is important to be able to track what alterations when they have been made, by whom and for what reason.
+				</p>
+				{% include header-buttons.html %}
+			</div>
+		</div>
+	</div>
 </section>
 <section>
-  <div class="container">
-    <h2>Hardware changes</h2>
-    <p>OmniWatch is customised to a users requirements. This includes the ability to set individual sensor trip values, state if a device/alarm should be escalated or not, or make the sensor informational only.</p>
-    <p>Each change can have a huge impact on the operation and flow of OmniWatch and when there are many users administering an installation or split across day/night shifts or even timezones important changes can be missed by others.</p>
-    <p>OmniWatch ensures every sensors details are logged and stored accurately.</p>
-  </div>
+	<div class="container">
+		<h2>Hardware changes</h2>
+		<p>
+			OmniWatch is customised to a users requirements. This includes the ability to set individual alarm trip values,
+			dictate
+			if a device/alarm should be escalated or not, or set a sensors status to informational only and have no alarm
+			trip.
+		</p>
+		<p>
+			Each modification can have a huge impact on the operation and workflow of OmniWatch. This can be even more
+			complicated
+			when taking into account multiple users administering an installation.
+		</p>
+		<p>OmniWatch ensures every sensors details are logged and stored accurately.</p>
+	</div>
 </section>
 <section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-	<img src="/images/omniwatch/rota-edit.svg">
-      </div>
-      <div class="is-col">
-	<h2>Contact management audits</h2>
-	<p>Many organisations have an on-call rota system for teams or individuals to assume the first line of support for alerts. Changes to rotas and emergency staff details are recorded in the event log.</p>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<img src="/images/omniwatch/rota-edit.svg">
+			</div>
+			<div class="is-col">
+				<h2>Contact management</h2>
+				<p>Many organisations have an on-call rota system for multiple teams or individuals to assume the first line of
+					support for
+					alerts. Changes to rotas and emergency staff availability are clearly recorded in the event log.</p>
+			</div>
+		</div>
+	</div>
 </section>
 <section id="email-notifications">
-  <div class="container">
-    <h2>Email notifications of changes</h2>
-    <p>With large installations or companies that are split over multiple timezones it can often be difficult to track and monitor changes, and the reasons behind them. OmniWatch can send email notifications of any changes in realtime, keeping staff up to date without having to log in or search through logs online.</p>
-  </div>
+	<div class="container">
+		<h2>Auto-email amendments</h2>
+		<p>
+			With large installations or companies that are split over multiple timezones it can often be difficult to track
+			and
+			monitor changes, and the reasons behind them. OmniWatch can be set to send email notifications of any changes in
+			realtime, keeping staff up to date without having to log in or search through logs online.
+		</p>
+	</div>
 </section>
 <section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-	<h2>Global search</h2>
-	<p>Over time many changes can be applied to OmniWatch which can cause the amount of recorded events to be substantial. Users are able to search for changes easily in the free text search engine.</p>
-	<p>For example, simply type <code>temp</code> for all changes associated with temperature; or type in the name of a contact to track all amendments associated with that staff member.</p>
-      </div>
-      <div class="is-col">
-	<table id="change-log-table" class="is-smaller">
-	  <thead>
-	    <tr>
-	      <th>ID</th>
-	      <th>Date</th>
-	      <th>Type</th>
-	      <th>Item</th>
-	      <th>Change</th>
-	      <th>From</th>
-	      <th>To</th>
-	      <th>Reason</th>
-	      <th>By</th>
-	    </tr>
-	  </thead>
-	  <tbody>
-	    {% for row in site.data.omniwatch.change-logs.table-data %}
-	      <tr>
-		<td>{{ forloop.index }}</td>
-		<td>{{ row.when }}</td>
-		<td>{{ row.type }}</td>
-		<td>{{ row.item }}</td>
-		<td>{{ row.change }}</td>
-		<td>{{ row.from }}</td>
-		<td>{{ row.to }}</td>
-		<td>{{ row.reason }}</td>
-		<td>{{ row.by }}</td>
-	      </tr>
-	    {% endfor %}
-	  </tbody>
-	</table>
-      </div>
-    </div>
-  </div>
+	<div class="container">
+		<div class="is-row is-items-middle">
+			<div class="is-col">
+				<h2>Global search</h2>
+				<p>
+					As OmniWatch evolves the amount of recorded change events can be considerable. In order to find amendments
+					quickly users
+					are able to search for changes easily in the free text search engine.
+				</p>
+				<p>
+					For example, simply type <code>temp</code> for all changes associated with temperature; or type in the name of
+					a contact to track all
+					amendments associated with that staff member.
+				</p>
+			</div>
+			<div class="is-col">
+				<table id="change-log-table" class="is-smaller">
+					<thead>
+						<tr>
+							<th>ID</th>
+							<th>Date</th>
+							<th>Type</th>
+							<th>Item</th>
+							<th>Change</th>
+							<th>From</th>
+							<th>To</th>
+							<th>Reason</th>
+							<th>By</th>
+						</tr>
+					</thead>
+					<tbody>
+						{% for row in site.data.omniwatch.change-logs.table-data %}
+						<tr>
+							<td>{{ forloop.index }}</td>
+							<td>{{ row.when }}</td>
+							<td>{{ row.type }}</td>
+							<td>{{ row.item }}</td>
+							<td>{{ row.change }}</td>
+							<td>{{ row.from }}</td>
+							<td>{{ row.to }}</td>
+							<td>{{ row.reason }}</td>
+							<td>{{ row.by }}</td>
+						</tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
 </section>
 <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.css">
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
 <script>
-  $(document).ready(function() {
-    $('#change-log-table').DataTable({
-      'pageLength': 5,
-      "language": {
-	  "lengthMenu": 'Display <select>'+
-	    '<option value="5">5</option>'+
-	    '<option value="10">10</option>'+
-	    '<option value="15">15</option>'+
-	    '<option value="20">20</option>'+
-	    '<option value="-1">All</option>'+
-	    '</select> records'
-	}
-    });
-  });
+	$(document).ready(function () {
+		$('#change-log-table').DataTable({
+			'pageLength': 5,
+			"language": {
+				"lengthMenu": 'Display <select>' +
+					'<option value="5">5</option>' +
+					'<option value="10">10</option>' +
+					'<option value="15">15</option>' +
+					'<option value="20">20</option>' +
+					'<option value="-1">All</option>' +
+					'</select> records'
+			}
+		});
+	});
 </script>
 {% include omniwatch/key-components.html %}
 {% include contact-us.html %}

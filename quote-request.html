@@ -32,7 +32,7 @@ title: Quotation request
             <input class="is-stack-20" type="text" name="location">
             <label for="room_location">Where is the room located?</label>
             <input class="is-stack-20" type="text" name="room_location">
-            <label for="room_size">Approximately how big is the room?</label>
+            <label for="room_size">Approximately how big is the room (meters)?</label>
             <input class="is-stack-20" type="text" name="room_size">
             <label for="false_floors">Are there false floors?</label>
             <select class="is-stack-20" name="false_floors">
@@ -44,15 +44,6 @@ title: Quotation request
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
-            <label for="number_of_doors">How many doors are there?</label>
-            <input class="is-stack-20" type="number" name="number_of_doors">
-            <label for="secure_access_doors">Are the doors securely accessed?</label>
-            <select class="is-stack-20" name="secure_access_doors">
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-            <label for="number_of_windows">How many natural light windows are there?</label>
-            <input class="is-stack-20" type="number" name="number_of_windows">
           </div>
         </div>
 
@@ -63,11 +54,10 @@ title: Quotation request
             <input class="is-stack-20" type="number" name="number_of_racks">
             <label for="information_of_racks">Extra information about racks:</label>
             <textarea class="is-stack-20" name="information_of_racks"></textarea>
-            <label for="number_of_ac_units">How many air conditioning units are in the room?</label>
-            <input class="is-stack-20" type="number" name='number_of_ac_units'>
-            <label for="information_of_ac_units">Extra information about air conditioning units
-              (make/model/etc):</label>
-            <textarea class="is-stack-20" name="information_of_ac_units"></textarea>
+            <label for="number_of_pdus">How many network attached PDUs are in the room?</label>
+            <input class="is-stack-20" type="number" name="number_of_pdus">
+            <label for="information_of_pdus">Extra information about PDUs (make/model/etc):</label>
+            <textarea class="is-stack-20" name="information_of_pdus"></textarea>
             <label for="number_of_ups">How many UPS units are in the room?</label>
             <input class="is-stack-20" type="number" name="number_of_ups">
             <label for="information_of_ups">Extra information about UPS units (make/model/etc):</label>
@@ -76,6 +66,11 @@ title: Quotation request
             <input class="is-stack-20" type="number" name="number_of_generators">
             <label for="information_of_generators">Extra information about generators (make/model/etc):</label>
             <textarea class="is-stack-20" name="information_of_generators"></textarea>
+            <label for="number_of_ac_units">How many air conditioning units are in the room?</label>
+            <input class="is-stack-20" type="number" name='number_of_ac_units'>
+            <label for="information_of_ac_units">Extra information about air conditioning units
+              (make/model/floor or wall mounted/drip tray etc):</label>
+            <textarea class="is-stack-20" name="information_of_ac_units"></textarea>
           </div>
         </div>
 

@@ -2,15 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-82136150-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-82136150-1');
-  </script>
   {% include header.html %}
 </head>
 
@@ -54,6 +45,39 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script type="text/javascript"
+    src="//www.FreePrivacyPolicy.com/cookie-consent/releases/3.0.0/cookie-consent.js"></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+      cookieconsent.run({ "notice_banner_type": "headline", "consent_type": "express", "palette": "light", "change_preferences_selector": "#changePreferences", "language": "en", "website_name": "Spook Limited", "cookies_policy_url": "https://spook.co.uk/cookie-policy/" });
+    });
+  </script>
+
+  <!-- Google Analytics -->
+  <script type="text/plain" cookie-consent="tracking" async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-82136150-1"></script>
+  <script type="text/plain" cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+  
+      gtag('config', 'UA-82136150-1');
+  </script>
+  <!-- end of Google Analytics-->
+
+  <!-- Tawk -->
+  <script type="text/plain" cookie-consent="tracking">
+      var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+      (function () {
+          var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+          s1.async = true;
+          s1.src = 'https://embed.tawk.to/5cf8ed47267b2e57853122b1/default';
+          s1.charset = 'UTF-8';
+          s1.setAttribute('crossorigin', '*');
+          s0.parentNode.insertBefore(s1, s0);
+      })();
+  </script>
+  <!-- end of Tawk -->
 </body>
 
 </html>

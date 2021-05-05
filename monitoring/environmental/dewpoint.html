@@ -26,7 +26,39 @@ title: Dew point monitoring
         <p>Most air cooling units simply maintain humidity based on the actual amount of water required in each pound of
             air that passes through the unit. Elimination of demand contention can significantly increase the efficiency
             of the cooling system and save excessive usage of power and fluctuation.</p>
-        <p>Access Spook's free dew point calculator <a href="/tools/dewpoint-calculator">here</a>.</p>
+    </div>
+</section>
+<section id="dew-point-calculator">
+    <div class="container">
+        <h2 class="section-header">Dew point calculator</h2>
+        <p>RH and air temperature are always related for any specific dew point temperature. If the RH and temperature
+            are known a calculation can be made to present the dew point.</p>
+        <p>To check your dew point if you know your humidity and temperature use Spook's free dew point calculator
+            below.</p>
+        <div class="is-row is-items-middle">
+            <div class="is-col">
+                <form>
+                    <h3 class="section-subheader">Temperature</h3>
+                    <p>Enter the temperature value (°C)</p>
+                    <div class="is-prepend">
+                        <span>°C</span>
+                        <input id="temperature" name="temperature" class="form-control" value="25" />
+                    </div>
+                    <h3 class="section-subheader">Humidity</h3>
+                    <p>Enter the relative humidity value (%)</p>
+                    <div class="is-prepend">
+                        <span>%</span>
+                        <input id="humidity" name="humidity" class="form-control" value="25" />
+                    </div>
+                </form>
+            </div>
+            <div class="is-col">
+                <div class="col-md-5 is-text-center">
+                    <h3 class="section-subheader">Dew Point</h3>
+                    <h3 id="dewpoint" style="font-size:2em; font-weight: 300;"></h3>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 <section>
@@ -100,3 +132,27 @@ title: Dew point monitoring
     </div>
 </section>
 {% include monitoring/environmental/key-components.html %}
+<script src="/js/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        calculateDewPoint();
+
+        $('#temperature').keyup(function () {
+            calculateDewPoint()
+        });
+        $('#humidity').keyup(function () {
+            calculateDewPoint()
+        });
+
+        function calculateDewPoint() {
+            var t = parseFloat($("#temperature").val());
+            var rh = parseFloat($("#humidity").val());
+            var a = 17.625;
+            var b = 243.04;
+
+            var dp = (b * (Math.log(rh / 100) + ((a * t) / (b + t)))) / (a - Math.log(rh / 100) - ((a * t) / (b + t)));
+
+            $("#dewpoint").text(parseFloat(dp).toFixed(2) + '°C');
+        }
+    })
+</script>

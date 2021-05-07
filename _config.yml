@@ -14,6 +14,5 @@ plugins:
 
 collections_dir: collections
 
-collections:
-  #omniwatch:
-  #output: true
+sass:
+  style: compressed

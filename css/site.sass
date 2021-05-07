@@ -147,15 +147,20 @@ button, .button, .button.is-secondary
 
 .is-navbar-container .container
     display: flex
-    padding: 1em 0
 
-.navbar-link
-    color: #333
-    text-decoration: none
-    cursor: pointer
-    &:hover
-        color: $brand
-        border-bottom: 2px solid $brand
+.navbar-links
+    padding-top: 1em
+    .navbar-link
+        color: #333
+        text-decoration: none
+        cursor: pointer
+        font-size: 1.2em
+        margin-bottom: 1em
+        +media($tablet-width)
+            font-size: 1em
+        &:hover
+            color: $brand
+            border-bottom: 2px solid $brand
 
 .introduction-section > img
     width: 100%

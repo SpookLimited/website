@@ -14,4 +14,4 @@ Spook is pleased to announce we are the winners of the 'Specialist Technology Co
 
 We showcased our flagship remote monitoring service OmniWatch being designed to work with cellular router technology. We would like to thank P&O Ferrymasters and the NHS Business Services Authority for their endorsements for the award. We would also like to thank all those who were shortlisted for presenting such strong competition and of course special thanks go to the CIR judges for presenting the award too.
 
-For more information regarding why our Cellular Router monitoring solution is proving so popular go [here](/technical/wired-vs-wireless).
+For more information regarding why our Cellular Router monitoring solution is proving so popular go [here](/solutions/technical/wired-vs-wireless).

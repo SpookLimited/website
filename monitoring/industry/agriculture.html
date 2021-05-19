@@ -227,16 +227,16 @@ behaviours, aquatic conditions, climate conditions, atmospheric physics and more
 {% for item in site.data.monitoring.industry.agriculture.sensors %}
 <section>
   <div class="container">
-    <div class="is-row">
-      <div class="is-col">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-30">
+        <img style="display: block; margin: 0 auto; max-height: 300px;" src="{{ item.image }}">
+      </div>
+      <div class="is-col is-70">
         <h2>{{ item.name }}</h2>
         {% for paragraph in item.words %}
         <p>{{ paragraph }}</p>
         {% endfor %}
         {% if item.link %}<p><a href="{{ item.link }}" class="button">{{ item.name }} information</a></p>{% endif %}
-      </div>
-      <div class="is-col">
-        <img alt="{{ item.name }}" style="display: block; margin: 0 auto; padding: 20px" src="{{ item.image }}">
       </div>
     </div>
   </div>

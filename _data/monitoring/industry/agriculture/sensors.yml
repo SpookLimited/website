@@ -49,13 +49,6 @@
       - Plants transpire through their leaves, which contain tiny pores called stomata that open and collect carbon dioxide molecules for photosynthesis. During that process they release water vapour.
       - As carbon dioxide concentrations increase, the pores don't open as wide, resulting in lower levels of transpiration by plants and therefore increased water-use efficiency.
 
-- name: Liquid level
-  image: /images/sensor/powder.svg
-  link: /solutions/wireless/sensor/powder-detection
-  words:
-      - Spook wireless liquid level sensors use a solid state, continuous (multi-level) fluid level sensor for measuring levels in water, non-corrosive water based liquids and dry fluids (powders).
-      - The agricultural industry has an array of tanks, storage containers, fuel storage areas and    containers that are used throughout the year. By remotely monitoring the level of these saves valuable time and effort and can act as automatic reminders when low levels are recorded and need re-ordering.
-
 - name: Security/motion
   image: /images/sensor/motion.svg
   link: /solutions/wireless/sensor/motion

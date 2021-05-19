@@ -233,7 +233,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/activity-detection</loc>
+  <loc>https://spook.co.uk/solutions/wireless/sensor/accelerometers-and-vibration-meter</loc>
   <lastmod>2021-05-06T08:56:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -284,11 +284,6 @@
 </url>
 <url>
   <loc>https://spook.co.uk/solutions/wireless/sensor/open-closed</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/powder-detection</loc>
   <lastmod>2021-05-06T08:56:25+00:00</lastmod>
   <priority>0.80</priority>
 </url>

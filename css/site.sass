@@ -184,6 +184,10 @@ button, .button, .button.is-secondary
             color: $brand
             border-bottom: 2px solid $brand
 
+.is-hidden-desktop
+    +media($tablet-width)
+        display: none
+
 .mobile-navigation-link
     margin: .5em .5em .5em 0
     text-decoration: none

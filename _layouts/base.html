@@ -15,40 +15,8 @@
 </head>
 
 <body>
-  <div id="top" class="is-navbar-container">
-    <div class="container">
-      <div class="is-navbar">
-        <nav class="is-push-left">
-          <img alt="Spook Limited" style="height: 80px;" src="/images/spook-limited.svg">
-        </nav>
-        <nav class="is-push-right">
-          <ul class="navbar-links">
-            <li><a class="navbar-link" href="/">Home</a></li>
-            <li><a class="navbar-link" data-kube="dropdown" data-target="#monitoring-dropdown">Monitoring <span
-                  class="caret is-down"></span></a></li>
-            <li><a class="navbar-link" data-kube="dropdown" data-target="#solutions-dropdown">Solutions <span
-                  class="caret is-down"></span></a></li>
-            <li><a class="navbar-link" href="/customers">Customers</a></li>
-            <li><a class="navbar-link" href="/news">News</a></li>
-            <li><a class="navbar-link" href="/contact">Contact</a></li>
-            <li class="is-hidden-mobile">|</li>
-            <li><a href="https://omni.watch/login" class="button is-small">Login</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <div id="monitoring-dropdown" class="dropdown is-hidden">
-    <a href="/monitoring/environmental">Environmental</a>
-    <a href="/monitoring/it">IT</a>
-    <a href="/monitoring/industry">Industry</a>
-    <a href="/monitoring/power">Power</a>
-  </div>
-  <div id="solutions-dropdown" class="dropdown is-hidden">
-    <a href="/solutions">Overview</a>
-    <a href="/solutions/cellular">Cellular</a>
-    <a href="/solutions/wireless">Wireless</a>
-    <a href="/solutions#technical">Technical documents</a>
+  <div id="top">
+    {% include navigation.html %}
   </div>
   <main>
     {{ content }}

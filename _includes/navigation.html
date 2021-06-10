@@ -1,0 +1,73 @@
+<div class="is-navbar-container is-hidden-mobile">
+  <div class="container">
+    <div class="is-navbar">
+      <nav class="is-push-left">
+        <img alt="Spook Limited" style="height: 80px;" src="/images/spook-limited.svg">
+      </nav>
+      <nav class="is-push-right">
+        <ul class="navbar-links">
+          <li><a class="navbar-link" href="/">Home</a></li>
+          <li><a class="navbar-link" data-kube="dropdown" data-target="#monitoring-dropdown">Monitoring <span
+                class="caret is-down"></span></a></li>
+          <li><a class="navbar-link" data-kube="dropdown" data-target="#solutions-dropdown">Solutions <span
+                class="caret is-down"></span></a></li>
+          <li><a class="navbar-link" href="/customers">Customers</a></li>
+          <li><a class="navbar-link" href="/news">News</a></li>
+          <li><a class="navbar-link" href="/contact">Contact</a></li>
+          <li>|</li>
+          <li><a href="https://omni.watch/login" class="button is-small">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+<div id="monitoring-dropdown" class="dropdown is-hidden">
+  <a href="/monitoring/environmental">Environmental</a>
+  <a href="/monitoring/it">IT</a>
+  <a href="/monitoring/industry">Industry</a>
+  <a href="/monitoring/power">Power</a>
+</div>
+<div id="solutions-dropdown" class="dropdown is-hidden">
+  <a href="/solutions">Overview</a>
+  <a href="/solutions/cellular">Cellular</a>
+  <a href="/solutions/wireless">Wireless</a>
+  <a href="/solutions#technical">Technical documents</a>
+</div>
+
+
+<div class="mobile-navigation-link">
+  <a data-kube="toggle" data-target="#mobile-navigation">Menu <span class="caret is-down"></span></a>
+</div>
+<div class="container">
+  <div id="mobile-navigation" class="is-hidden mobile-navigation">
+    <nav>
+      <ul class="is-unstyled">
+        <li><a class="mobile-link" href="/">Home</a></li>
+        <li><a class="mobile-link" data-kube="toggle" data-target="#monitoring-toggle">Monitoring <span
+              class="caret is-down"></span></a></li>
+        <div id="monitoring-toggle" class="is-hidden">
+          <ul>
+            <li><a class="mobile-link" href="/monitoring/environmental">Environmental</a></li>
+            <li><a class="mobile-link" href="/monitoring/it">IT</a></li>
+            <li><a class="mobile-link" href="/monitoring/industry">Industry</a></li>
+            <li><a class="mobile-link" href="/monitoring/power">Power</a></li>
+          </ul>
+        </div>
+        <li><a class="mobile-link" data-kube="toggle" data-target="#solutions-toggle">Solutions <span
+              class="caret is-down"></span></a></li>
+        <div id="solutions-toggle" class="is-hidden">
+          <ul>
+            <li><a class="mobile-link" href="/solutions">Overview</a></li>
+            <li><a class="mobile-link" href="/solutions/cellular">Cellular</a></li>
+            <li><a class="mobile-link" href="/solutions/wireless">Wireless</a></li>
+            <li><a class="mobile-link" href="/solutions#technical">Technical documents</a></li>
+          </ul>
+        </div>
+        <li><a class="mobile-link" href="/customers">Customers</a></li>
+        <li><a class="mobile-link" href="/news">News</a></li>
+        <li><a class="mobile-link" href="/contact">Contact</a></li>
+        <li><a href="https://omni.watch/login" class="button">Login</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>

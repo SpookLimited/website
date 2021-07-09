@@ -1,0 +1,14 @@
+- name: Amps
+  icon: /images/sensor/icons/amps.svg
+
+- name: Volts
+  icon: /images/sensor/icons/voltage.svg
+
+- name: kW
+  icon: /images/sensor/icons/kwh.svg
+
+- name: kWh
+  icon: /images/sensor/icons/kwh.svg
+
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg

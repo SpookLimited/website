@@ -1,0 +1,21 @@
+- name: Amps per phase
+  icon: /images/sensor/icons/amps.svg
+
+- name: Volts per phase
+  icon: /images/sensor/icons/voltage.svg
+
+- name: Low fuel
+  icon: /images/sensor/icons/fuel-level.svg
+
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+
+- name: Oil pressure
+  icon: /images/sensor/icons/pressure.svg
+
+- name: Phase load
+  icon: /images/sensor/icons/percentage.svg
+
+- name: Faults
+  icon: /images/sensor/icons/error-2.svg
+

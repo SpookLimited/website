@@ -1,0 +1,63 @@
+---
+layout: base
+title: Principality installation form
+permalink: /forms/installation/Ao72d5REtR
+---
+<section>
+  <div class="container">
+    <img style="height: 80px;" src="/images/customer-logo/principality-building-society.svg">
+    <h1>Principality Cardiff installation form</h1>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <form action="https://formspree.io/f/xwkanjny" method="POST">
+      <table>
+	<thead>
+	  <tr>
+	    <th>Equipment</th>
+	    <th>EUI</th>
+	    <th>Friendly name (sensor label)</th>
+	    <th>Included in delivery</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  {% assign last_section = 1 %}
+	  {% for item in site.data.forms.installation.principality %}
+	    {% if last_section != item.section %}
+	      <tr>
+		<td class="is-inset-20"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	    {% endif %}
+	    {% if item.eui != "" and item.eui != null %}
+	      <tr style="background-color: #f6f6f6;">
+		<td style="padding-left: 10px;">{{ item.name }}</td>
+		<td><span class="is-muted">{{item.eui|slice: 1, 11  }}</span><strong>{{ item.eui|slice: -5, 5 }}</strong></td>
+		<td>
+		  <input type="text" name="{{ item.eui}}-friendlyname" id="{{ item.eui}}-friendlyname">
+		</td>
+		<td>
+		  <label class="is-checkbox"><input id="{{ item.eui }}-included" name="{{ item.eui }}-included" type="checkbox"> Included</label>
+		</td>
+	      </tr>
+	    {% else %}
+	      <tr style="background-color: #f6f6f6;">
+		<td style="padding-left: 10px;">{{ item.name }}</td>
+		<td></td>
+		<td></td>
+		<td>
+		  <label class="is-checkbox"><input id="{{ item.name }}-included" name="{{ item.name }}-included" type="checkbox"> Included</label>
+		</td>
+	      </tr>
+	    {% endif %}
+	    {% assign last_section = item.section %}
+	  {% endfor %}
+	</tbody>
+      </table>
+      <button class="button" type="submit">Send</button>
+    </form>
+  </div>
+</section>

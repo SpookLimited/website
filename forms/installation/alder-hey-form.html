@@ -54,7 +54,14 @@ permalink: /forms/installation/iKHvrd7FlQ
 		<td></td>
 	      </tr>
 	    {% endif %}
-	    {% if item.eui != "" and item.eui != null %}
+	    {% if item.label != null && item.label != "" %}
+	      <tr>
+		<td><h3>{{ item.label }}</h3></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	    {% else if item.eui != "" and item.eui != null %}
 	      <tr style="background-color: #f6f6f6;">
 		<td style="padding-left: 10px;">{{ item.name }}</td>
 		<td><span class="is-muted">{{item.eui|slice: 1, 11  }}</span><strong>{{ item.eui|slice: -5, 5 }}</strong></td>

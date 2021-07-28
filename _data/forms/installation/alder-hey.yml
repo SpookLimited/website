@@ -1,3 +1,6 @@
+- label: MER1 gateway
+  section: 1
+
 - eui: 7076FF006404035D
   name: iFemtoCell-evolution Gateway
   section: 1
@@ -9,6 +12,9 @@
 - eui:
   name: Power supply
   section: 1
+
+- label: SERN gateway
+  section: 2
 
 - eui: 7076FF006404036D
   name: iFemtoCell-evolution Gateway
@@ -22,6 +28,9 @@
   name: Power supply
   section: 2
 
+- label: MER1
+  section: 3
+
 - eui: 00137A100000A26D
   name: Temperature/humidity sensor
   section: 3
@@ -30,42 +39,48 @@
   name: Temperature/humidity sensor
   section: 3
 
+- eui: 00137A100001301B
+  name: Dual dry contact sensor 
+  section: 3
+
+- eui: 00137A100000CC85
+  name: Single dry contact sensor 
+  section: 3
+
+- label: MER2
+  section: 4
+
 - eui: 00137A100000A26F
   name: Temperature/humidity sensor
-  section: 3
+  section: 4
 
 - eui: 00137A100000AFFE
   name: Temperature/humidity sensor
-  section: 3
-
-- eui: 00137A1000013020
-  name: Temperature/humidity sensor
-  section: 3
-
-- eui: 00137A1000013021
-  name: Temperature/humidity sensor
-  section: 3
-
-- eui: 00137A1000013022
-  name: Temperature/humidity sensor
-  section: 3
-
-- eui: 00137A1000013035
-  name: Temperature/humidity sensor
-  section: 3
-
-- eui: 00137A100001301B
-  name: Dual dry contact sensor 
   section: 4
 
 - eui: 00137A100001301C
   name: Dual dry contact sensor 
   section: 4
 
-- eui: 00137A100000CC85
-  name: Single dry contact sensor 
-  section: 5
-
 - eui: 00137A1000011672
   name: Single dry contact sensor 
+  section: 4
+
+- label: Spare
+  section: 5
+
+- eui: 00137A1000013020
+  name: Temperature/humidity sensor
+  section: 5
+
+- eui: 00137A1000013021
+  name: Temperature/humidity sensor
+  section: 5
+
+- eui: 00137A1000013022
+  name: Temperature/humidity sensor
+  section: 5
+
+- eui: 00137A1000013035
+  name: Temperature/humidity sensor
   section: 5

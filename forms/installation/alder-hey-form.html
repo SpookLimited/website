@@ -1,0 +1,85 @@
+---
+layout: base
+title: Alder Hey installation form
+permalink: /forms/installation/iKHvrd7FlQ
+---
+<section>
+  <div class="container">
+    <ul class="is-bar is-text-right">
+      <li><strong>Contact information:</strong></li>
+      <li>+44 (0)1737 906111</li>
+      <li><a href="mailto:support@spook.co.uk">support@spook.co.uk</a></li>
+    </ul>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+	<img style="height: 120px; float:right;" src="/images/customer-logo/alder-hey.svg">
+	<h1>Alder Hey Children's Hospital installation form</h1>
+	<p>Welcome to your Spook wireless sensor bundle. Please check your parcel contains all the following items. Mark them as 'included' and send the form to Spook before installation. If there is anything missing please contact your Spook representative or email <a href="mailto:support@spook.co.uk">support@spook.co.uk</a>.</p>
+	<p>Note: On most sensors there is a space for a 19 mm label to add a unique friendly name on the front of the sensor. Please ensure this is linked to the correct EUI number which can be found on the rear of the sensor. Complete the form and send to us for our records.</p>
+	<p>Installation instructions can be found <a href="/guides/wireless-installation">here</a>.</p>
+      </div>
+      <div class="is-col">
+	<img src="/images/guides/wireless-installation/wireless-sensor-rear.svg">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="alert is-focus">
+      <p><strong>Important!</strong> Please ensure that your network firewall is configured to allow the gateway to establish an outbound connection to alliot.wanesy.com on port 1194 UDP.</p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <form action="https://formspree.io/f/xvodwgkp" method="POST">
+      <table>
+	<thead>
+	  <tr>
+	    <th>Equipment</th>
+	    <th>EUI</th>
+	    <th>Friendly name (sensor label)</th>
+	    <th>Included in delivery</th>
+	  </tr>
+	</thead>
+	<tbody>
+	  {% assign last_section = 1 %}
+	  {% for item in site.data.forms.installation.alder-hey %}
+	    {% if last_section != item.section %}
+	      <tr>
+		<td class="is-inset-20"></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	      </tr>
+	    {% endif %}
+	    {% if item.eui != "" and item.eui != null %}
+	      <tr style="background-color: #f6f6f6;">
+		<td style="padding-left: 10px;">{{ item.name }}</td>
+		<td><span class="is-muted">{{item.eui|slice: 1, 11  }}</span><strong>{{ item.eui|slice: -5, 5 }}</strong></td>
+		<td>
+		  <input type="text" name="{{ item.eui}}-friendlyname" id="{{ item.eui}}-friendlyname">
+		</td>
+		<td>
+		  <label class="is-checkbox"><input id="{{ item.eui }}-included" name="{{ item.eui }}-included" type="checkbox"> Included</label>
+		</td>
+	      </tr>
+	    {% else %}
+	      <tr style="background-color: #f6f6f6;">
+		<td style="padding-left: 10px;">{{ item.name }}</td>
+		<td></td>
+		<td></td>
+		<td>
+		  <label class="is-checkbox"><input id="{{ item.name }}-included" name="{{ item.name }}-included" type="checkbox"> Included</label>
+		</td>
+	      </tr>
+	    {% endif %}
+	    {% assign last_section = item.section %}
+	  {% endfor %}
+	</tbody>
+      </table>
+      <button class="button" type="submit">Send</button>
+    </form>
+  </div>
+</section>

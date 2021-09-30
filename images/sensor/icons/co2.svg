@@ -12,9 +12,9 @@
    style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5"
    xml:space="preserve"
    version="1.1"
-   viewBox="0 0 346.43039 243.42746"
-   height="243.42746"
-   width="346.43039"
+   viewBox="0 0 319.01834 319.01834"
+   height="319.01834"
+   width="319.01834"
    sodipodi:docname="co2.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><sodipodi:namedview
    pagecolor="#ffffff"
@@ -30,8 +30,8 @@
    id="namedview990"
    showgrid="false"
    inkscape:zoom="2.4076986"
-   inkscape:cx="216.8053"
-   inkscape:cy="61.100922"
+   inkscape:cx="204.80371"
+   inkscape:cy="133.59754"
    inkscape:window-x="80"
    inkscape:window-y="54"
    inkscape:window-maximized="1"
@@ -44,7 +44,7 @@
 <g
    style="display:none"
    id="layer1"
-   transform="translate(-34.659663,-60.858722)"><image
+   transform="translate(-46.661253,-57.764468)"><image
      width="414.23727"
      height="446.10168"
      preserveAspectRatio="none"
@@ -54,7 +54,7 @@
      y="-14.576272"
      style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5" /></g><g
    id="layer2"
-   transform="translate(-34.659663,-60.858722)"><path
+   transform="translate(-45.574815,-26.812895)"><path
    id="path2342"
    d="m 205.08398,93.626953 c -35.3137,0.02989 -66.34742,23.420067 -76.10351,57.359377 -2.16734,-0.22328 -4.34463,-0.33606 -6.52344,-0.33789 -35.446546,-1e-5 -64.181651,28.73509 -64.181639,64.18164 0.03052,33.52178 25.853548,61.37407 59.277339,63.93554 59.33273,0.39742 121.30969,0.26141 175.06446,0.041 33.43874,-2.56365 59.26637,-30.43969 59.27539,-63.97656 10e-6,-35.44655 -28.73509,-64.18165 -64.18164,-64.18164 -2.16221,0.0231 -4.32186,0.1554 -6.47071,0.39648 -9.73989,-33.98131 -40.80664,-57.404076 -76.15625,-57.417967 z"
    style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:10;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"

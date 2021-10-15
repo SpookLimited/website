@@ -1,0 +1,36 @@
+<style>
+.face-icon{
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+}
+</style>
+<div class="is-row">
+  <div class="is-col">
+    <p class="is-big"><strong>Building A Floor 1</strong></p>
+    <div class="is-row">
+      {% for i in (101..110) %}
+      <div class="is-col is-20 is-stack-12">
+        <div class="is-shadow-2 is-border is-inset-12">
+          <p><small><strong>Room {{ i }}</strong></small></p>
+          <img class="face-icon" src="/images/icons/face-{% if i == 105 or i == 102 %}2{% elsif i == 106 %}3{% else %}1{% endif %}.svg">
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="is-col">
+    <p class="is-big"><strong>Building A Floor 2</strong></p>
+    <div class="is-row">
+      {% for i in (201..210) %}
+      <div class="is-col is-20 is-stack-12">
+        <div class="is-shadow-2 is-border is-inset-12">
+          <p><small><strong>Room {{ i }}</strong></small></p>
+          <img class="face-icon" src="/images/icons/face-{% if i == 203 or i == 210 %}2{% elsif i == 208 %}3{% else %}1{% endif %}.svg">
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+

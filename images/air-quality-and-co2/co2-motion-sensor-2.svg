@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="109.76429mm"
+   height="104.47262mm"
+   viewBox="0 0 109.76429 104.47262"
+   version="1.1"
+   id="svg933"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="co2-motion-sensor-2.svg">
+  <defs
+     id="defs927" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="196.57572"
+     inkscape:cy="30.029793"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="2800"
+     inkscape:window-height="1672"
+     inkscape:window-x="80"
+     inkscape:window-y="54"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata930">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.5702381,-2.1029759)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.70588231;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="rect1478"
+       width="91.848213"
+       height="91.848213"
+       x="11.528276"
+       y="8.4151783"
+       ry="6.6145835" />
+    <path
+       style="opacity:1;fill:#81c784;fill-opacity:1;stroke:#000000;stroke-width:0.52916664;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:3.70588231;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="m 89.017525,75.933939 a 9.9557894,9.9557894 0 0 0 -9.955464,9.955467 9.9557894,9.9557894 0 0 0 9.955464,9.955979 9.9557894,9.9557894 0 0 0 9.955982,-9.955979 9.9557894,9.9557894 0 0 0 -9.955982,-9.955467 z m 0,3.207041 a 6.748555,6.748555 0 0 1 6.748944,6.748426 6.748555,6.748555 0 0 1 -6.748944,6.748425 6.748555,6.748555 0 0 1 -6.748423,-6.748425 6.748555,6.748555 0 0 1 6.748423,-6.748426 z"
+       id="path1480"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+- name: High humidity
+  description:
+    - High humidity can cause an undesirable level of moisture in the air which can negatively impact a wide range of products as well as creating an uncomfortable environment for people. 
+    - Increased moisture can damage electronic equipment, manufactured products, structures, encourage the growth of mould and mildew and cause rot.
+
+- name: Low humidity
+  description:
+    - Low humidity levels can cause excess build up of static electricity, increase the susceptibility of colds and respiratory illnesses and allows viruses and germs to thrive. 
+    - It can also have adverse effects on plants, wood, paint and other objects that are hygroscopic as their natural moisture levels are decreased in line with the RH.

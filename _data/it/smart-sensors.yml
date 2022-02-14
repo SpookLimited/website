@@ -1,0 +1,23 @@
+- name: Group device monitoring
+  link: /solutions/technical/smart-sensor#group-device-monitoring
+  img: /images/it-rooms-and-facilities/group-device-monitoring.svg
+
+- name: Combination sensor monitoring
+  link: /solutions/technical/smart-sensors#combine-sensor
+  img: /images/it-rooms-and-facilities/combination-sensor-monitoring.svg
+
+- name: Average sensor readings
+  link: /solutions/technical/smart-sensors#average-sensor
+  img: /images/it-rooms-and-facilities/average-sensor.svg
+
+- name: Delta temperature monitoring
+  link: /solutions/technical/smart-sensors#compare-sensor
+  img: /images/it-rooms-and-facilities/delta-temperature-monitoring.svg
+
+- name: Additional sensor creation
+  link: /solutions/technical/smart-sensors#additional-sensor-creation
+  img: /images/it-rooms-and-facilities/additional-sensor-creation.svg
+
+- name: Complex calculations
+  link: /solutions/technical/smart-sensors#complex-calculations
+  img: /images/it-rooms-and-facilities/complex-calculations.svg

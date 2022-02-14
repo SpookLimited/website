@@ -1,0 +1,19 @@
+- name: Monitor anything
+  icon: /images/icons/monitor-all.svg
+  alt-text: Monitor anything
+  description: Being protocol independent and hardware neutral means we can monitor most things.
+
+- name: 100% focus on monitoring
+  icon: /images/icons/focus.svg
+  alt-text: Focus on monitoring
+  description: Everything we do is focused on monitoring, expanding hardware support and improving data visualisation.
+
+- name: Bespoke service
+  icon: /images/icons/bespoke.svg
+  alt-text: Bespokse service
+  description: We work with you to setup, customise, evolve and maintain your monitoring installation.
+
+- name: Data in perpetuity
+  icon: /images/icons/infinite.svg
+  alt-text: Data in perpetuity
+  description: Sensor and data readings are held in perpetuity; providing accurate historical trend analysis.

@@ -1,0 +1,15 @@
+- name: CO<sub>2</sub>
+  description: Identifying safe levels of CO<sub>2</sub> and other ambient measurements of indoor spaces for ventilation projects and reduce employee anxiety.
+  icon: /images/sensor/icons/airflow.svg
+
+- name: Temperature & humidity
+  description: Understanding sick building syndrome and how to apply changes to reduce stress.
+  icon: /images/air-quality-and-co2/building-icon.svg
+
+- name: Activity & light
+  description: Identifying how changes in occupancy levels effect health and using light levels to increase productivity and assist security.
+  icon: /images/sensor/icons/motion.svg
+
+- name: Perpetual historical data
+  description: Analyse how seasonal trends and environmental changes impact employee satisfaction and attendance.
+  icon: /images/sensor/icons/frequency.svg

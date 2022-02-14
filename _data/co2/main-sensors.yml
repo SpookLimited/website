@@ -1,0 +1,29 @@
+- name: CO<sub>2</sub> ppm
+  icon: /images/sensor/icons/co2.svg
+
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+
+- name: Light
+  icon: /images/sensor/icons/light.svg
+
+- name: Motion/PIR
+  icon: /images/sensor/icons/motion.svg
+
+- name: Total volatile organic compounds (TVOC)
+  icon: /images/sensor/icons/tvoc.svg
+
+- name: Barometric pressure
+  icon: /images/sensor/icons/pressure.svg
+
+- name: Formaldehyde (HCHO)
+  icon: /images/sensor/icons/hcho.svg
+
+- name: PM2.5 & PM10
+  icon: /images/sensor/icons/pm25.svg
+
+- name: Ozone (O<sub>3</sub>)
+  icon: /images/sensor/icons/o3.svg

@@ -1,0 +1,62 @@
+- name: Accelerometers and vibration
+  icon: /images/sensor/icons/vibration.svg
+
+- name: Alternating current (AC)
+  icon: /images/sensor/icons/alternatingcurrent.svg
+
+- name: Air quality
+  icon: /images/sensor/icons/airflow.svg
+
+- name: Boundary and IR
+  icon: /images/sensor/icons/ir.svg
+
+- name: Button press
+  icon: /images/sensor/icons/button-press.svg
+
+- name: Dew point
+  icon: /images/sensor/icons/dewpoint.svg
+
+- name: Dry contact
+  icon: /images/sensor/icons/drycontact.svg
+
+- name: Food probe
+  icon: /images/sensor/icons/food-probe.svg
+
+- name: Gas monitoring
+  icon: /images/sensor/icons/gas.svg
+
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+
+- name: Light
+  icon: /images/sensor/icons/light.svg
+
+- name: Motion monitoring
+  icon: /images/sensor/icons/motion.svg
+
+- name: Open/closed
+  icon: /images/sensor/icons/door.svg
+
+- name: Pressure monitoring
+  icon: /images/sensor/icons/pressure.svg
+
+- name: Propane levels
+  icon: /images/sensor/icons/propane.svg
+
+- name: Soil moisture
+  icon: /images/sensor/icons/soil-moisture.svg
+
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+
+- name: 3 phase current
+  icon: /images/sensor/icons/threephase.svg
+
+- name: Vehicle detection
+  icon: /images/sensor/icons/vehicle.svg
+
+- name: Volt direct current (VDC)
+  icon: /images/sensor/icons/directcurrent.svg
+
+- name: Water ingress
+  icon: /images/sensor/icons/water.svg

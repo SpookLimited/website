@@ -1,0 +1,24 @@
+- name: Covid
+  icon: /images/air-quality-and-co2/covid-icon.svg
+
+- name: Influenza
+  icon: /images/air-quality-and-co2/influenza-icon.svg
+
+- name: Common cold
+  icon: /images/air-quality-and-co2/common-cold-icon.svg
+
+- name: Chicken pox
+  icon: /images/air-quality-and-co2/chicken-pox-icon.svg
+
+- name: Mumps
+  icon: /images/air-quality-and-co2/mumps-icon.svg
+
+- name: Measles
+  icon: /images/air-quality-and-co2/measles-icon.svg
+
+- name: Whooping cough
+  icon: /images/air-quality-and-co2/whooping-cough-icon.svg
+
+- name: Tuberculosis
+  icon: /images/air-quality-and-co2/tuberculosis-icon.svg
+

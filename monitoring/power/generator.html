@@ -5,34 +5,56 @@ page-description: "Most businesses know the importance of installing a diesel ge
 source of electrical power. Often referred to as power redundancy, generators provide important mid to long term
 electrical power upon the loss of normal power supply."
 ---
-<header
-  style="background-image: url('/images/sections/generator-banner.png'); background-size: cover; background-position: right;">
+<header style="background-image: url('/images/sections/generator-banner.png'); background-size: cover; background-position: right;">
   <div class="container">
-    <h3>Real-time data collection</h3>
-    <h1>Generator monitoring</h1>
-    {% include header-buttons.html %}
+    <div class="is-stack-40">
+      <h1>Generator monitoring</h1>
+    </div>
+    <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
 </header>
-<section>
+<div class="is-inset-y-8 black">
   <div class="container">
-    <h2>Power redundancy</h2>
-    <p>A generator provides secure interim power redundancy if a power grid suffers an outage. This power redundancy
-      allows businesses to maintain their operations, hospitals to retain use of their instruments and airports to
-      preserve system integrity.</p>
-    <p>Any organisation that controls mission critical applications can benefit from having a generator available as a
-      reliable power source.</p>
-    <p>Generators provide a continuous stream of voltage power without the peaks and dips of other devices, thus helping
-      to regulate fluctuations. They are designed for continual use.</p>
+    <div class="is-row is-items-middle">
+      <div class="is-col is-10 white-text">
+        Support for
+      </div>
+      <div class="is-col is-80 is-text-center">
+        <img alt="Supported manufacturers for generator monitoring" src="/images/monitoring/generator/supported-manufacturers.svg">
+      </div>
+      <div class="is-col is-10 white-text">
+        and more.
+      </div>
+    </div>
   </div>
-</section>
+</div>
 <section>
   <div class="container">
-    <h2>The benefits of generator monitoring</h2>
-    <p>Installing a diesel generator as an emergency source of electrical power provides important mid to long term
-      electrical power upon the loss of normal power supply.</p>
-    <p>Generators provide a reliable source of back-up emergency power for longer periods of time. Due to how a
-      generator is used it is more often than not stored outside or in an area that is not normally accessed by staff.
-      By monitoring the generator you can be instantly alerted to any change in state or mechanical issues.</p>
+    <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col is-50">
+        <p class="section-subheader">Monitoring specialists</p>
+        <h4 class="section-header">The benefits of generator monitoring</h4>
+        <p>Installing a diesel generator as an emergency source of electrical power provides important mid to long term electrical power upon the loss of normal power supply.</p>
+        <p>A generator provides secure interim power redundancy if a power grid suffers an outage. This power redundancy allows businesses to maintain their operations, hospitals to retain use of their instruments and airports to preserve system integrity.</p>
+      </div>
+      <div class="is-col is-50">
+        {% include awards.html %}
+      </div>
+    </div>
+    <div class="is-row">
+      {% for key-point in site.data.power.generators.key-points %}
+        <div class="is-col is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-content">
+              <h3>{{ key-point.name }}</h3>
+              {% for paragraph in key-point.description %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 <section class="grey">
@@ -107,44 +129,14 @@ electrical power upon the loss of normal power supply."
 </section>
 <section>
   <div class="container">
-    <div class="is-row is-gapless is-border">
-      <div class="is-col is-70 is-inset-20">
-        <h2>Avoiding potential damage and dangers of under-loading</h2>
-        <p>One of the most common causes of damage to generators is when they’re under-loaded. That is, generators
-          function most effectively when they’re operating at high capacity. When they're used for low capacity tasks
-          (such as powering 10% of the voltage load), they can start to build up carbon and internal glazing.</p>
-        <p>Eventually, soot and residue from unused fuel can accumulate and clog the generator’s piston rings.</p>
-        <p>The longer this happens, the more pronounced the degradation of the diesel generator’s system. To avoid this,
-          generators should have a capacity at approximately 70% of the maximum load.</p>
-      </div>
-      <div class="is-col is-30 block is-inset-20">
-        <p class="is-large">It is not a well known fact but the less energy expended by the diesel generator, the
-          shorter it lasts.</p>
-        <p class="is-large">When generators are used at less than 70% of capacity, it places excess wear on the engine.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container"
-    style="background-image: url('/images/monitoring/generator/generator-background.png'); background-position: center; background-size: cover; background-repeat: no-repeat; padding: 2em;">
-    <img alt="Supported generator manufacturers" src="/images/devices/generator-manufacturers.svg">
-  </div>
-</section>
-<section>
-  <div class="container">
+    {% include omniwatch/key-points.html %}
     <div class="is-row is-items-middle">
       <div class="is-col is-30">
         <img alt="P&O Ferrymasters" src="/images/customer-logo/pando.svg">
       </div>
       <div class="is-col is-70">
         <blockquote>
-          <p>We monitor our diesel generator to enable us to present key operating status metrics while it is in use.
-            The generator is some distance from our IT department so knowing when it is running as well as identifying
-            important information like fuel level, auto-start, low battery, at rest and fault are valuable data. Spook
-            OmniWatch helps prove our fail over tests to support our departmental and achieve our Key Performance
-            Indicators(KPI’s).</p>
+          <p>We monitor our diesel generator to enable us to present key operating status metrics while it is in use. The generator is some distance from our IT department so knowing when it is running as well as identifying important information like fuel level, auto-start, low battery, at rest and fault are valuable data. Spook OmniWatch helps prove our fail over tests to support our departmental and achieve our Key Performance Indicators(KPI’s).</p>
           <p class="is-small">P&O Ferrymasters - European providers of tailor-made transportation and logistics
             services.</p>
         </blockquote>
@@ -152,25 +144,10 @@ electrical power upon the loss of normal power supply."
     </div>
   </div>
 </section>
+{% include monitoring/power/key-components.html %}
 <section>
   <div class="container">
-    <h2>Add UPSs for complete energy monitoring</h2>
-    <p>Organisations will often utilise UPSs alongside generators to ensure power security.</p>
-    <p>
-      OmniWatch lets users monitor both apparatus centrally, removing the hassle of switching between each of the
-      appliances
-      onboard software. By doing this disparate equipment types can also adopt OmniWatch’s centrally managed 3-tier
-      alarm
-      process too.
-    </p>
-    <a class="button" href="/monitoring/power/ups">Read more about UPS monitoring</a>
+    {% include two-types-of-customers.html %}
   </div>
 </section>
-{% include monitoring/power/key-components.html %}
-<section class="grey is-text-center">
-  <div class="container">
-    <h2>Get in touch with Spook</h2>
-    <p>Contact us for more information regarding remote monitoring.</p>
-    <p><a href="/contact/" class="button is-secondary">Contact us</a></p>
-  </div>
-</section>
+{% include used-by.html %}

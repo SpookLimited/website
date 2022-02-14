@@ -1,0 +1,17 @@
+- name: Climate monitors
+  icon: /images/sensor/icons/climate-monitor.svg
+
+- name: Multifunction sensors
+  icon: /images/sensor/icons/multifunction-sensor.svg
+
+- name: UPS systems
+  icon: /images/sensor/icons/ups.svg
+
+- name: Intelligent PDUs
+  icon: /images/sensor/icons/pdu-socket.svg
+
+- name: Generators
+  icon: /images/sensor/icons/generator.svg
+
+- name: BMSs
+  icon: /images/sensor/icons/bms-icon.svg

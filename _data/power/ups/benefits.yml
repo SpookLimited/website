@@ -1,0 +1,16 @@
+- name: Critical alerting
+  image: /images/icons/alert.svg
+  description:
+    - When a power cut or interruption to the mains supply occurs it is very important to act quickly. OmniWatch sends out alerts to key members of staff at the very moment the UPS takes over feeding power giving as much warning as possible.
+    - Most UPSs only have enough battery autonomy for a very short period of time and if there is no generator to take over or return of the mains supply then reducing non-critical loads quickly will help keep important equipment up and running longer.
+
+- name: Health monitoring
+  image: /images/icons/focus.svg
+  description:
+    - Alongside monitoring power outages OmniWatch monitors the health of a UPS and is configured to alert to conditions and incidents that could otherwise go unnoticed such as faulty batteries. 
+    - OmniWatch works to keep its users informed and up-to-date with the operational health of all their equipment and reports have been used as evidence in upholding warranties.
+
+- name: Remote information
+  image: /images/icons/remote-working.svg
+  description:
+    - OmniWatch is built from the ground up to work on any internet enabled device so metrics such as run time remaining and phase loads can be tracked on a mobile phone or tablet while on site during an outage; giving all the information needed quickly and easily.

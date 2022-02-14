@@ -1,0 +1,11 @@
+- name: Automated alerting on critical changes
+  description:
+    - Generators provide a reliable source of back-up emergency power for longer periods of time. Due to how a generator is used it is more often than not stored outside or in an area that is not normally accessed by staff.
+    - By monitoring the generator you can be instantly alerted to any change in state or mechanical issues.
+    - Using OmniWatch's 3-tier alarm escalation process ensure the right person is made aware and receive alerts via email, SMS and phone call via our UK call centre.
+
+- name: Avoiding potential damage
+  description:
+    - One of the most common causes of damage to generators is when they're under-loaded. That is, generators function most effectively when they’re operating at high capacity. When they're used for low capacity tasks (such as powering 10% of the voltage load), they can start to build up carbon and internal glazing.
+    - Eventually, soot and residue from unused fuel can accumulate and clog the generator's piston rings.
+    - The longer this happens, the more pronounced the degradation of the diesel generator’s system. To avoid this, generators should have a capacity at approximately 70% of the maximum load.

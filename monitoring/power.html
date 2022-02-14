@@ -1,260 +1,56 @@
 ---
 layout: base
 title: Power monitoring
+page-description: Monitoring and alerting service for power monitoring. Track power usage, efficiencies and changes caused by improvements to the infrastructure.
 ---
 <header
   style="background-image: url('/images/sections/key-pages/power-monitoring/power-monitoring-banner.png'); background-attachment: fixed; background-repeat: no-repeat; background-position: bottom; background-size: cover;">
   <div class="container">
     <div class="is-50">
-      <h3>Bulk remote power monitoring</h3>
-      <h1>OmniWatch enterprise centric cloud based power monitoring</h1>
-      <p>IT departments face ever increasing pressure to ensure continuance of IT services to its business, users and
-        customers
-        alike.</p>
-      <p>Key to maximising IT uptime is understanding server room power consumption.</p>
-      {% include header-buttons.html %}
+      <h1>Power and energy monitoring</h1>
+      <p class="is-big">Secure, remote, cloud based monitoring</p>
+      <a class="button" href="/contact">Get in touch <span class="caret is-right"></span></a>
     </div>
   </div>
 </header>
 <section>
   <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-        <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+    <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col is-50">
+        <p class="section-subheader">Monitoring specialists</p>
+        <h4 class="section-header">OmniWatch is built to be an all-in-one monitoring solution</h4>
+        <p>By monitoring power consumption an organisation can implement informed load balancing procedures to prevent power overloads and protect service outages due to loss off power.</p>
+        <p>It is also useful to understand the cost associated with providing power to a business as a whole or to departments or even end users.</p>
+        <p>In short, Spook makes measuring energy related monitoring meaningful, intuitive and incredibly easy.</p>
       </div>
-      <div class="is-col">
-        <h2>Secure cloud based power monitoring</h2>
-        <p>By monitoring power consumption an organisation can implement informed load balancing procedures to prevent
-          power
-          overloads and protect service outages due to loss off power.</p>
-        <p>It is also useful to understand the cost associated with providing power to a business as a whole or to
-          departments or
-          even end users.</p>
-        <p>When monitoring high numbers of PDUs (Power Distribution Units) it’s important to be able to swiftly identify
-          individual
-          or clusters of power strips. With OmniWatch this is achieved by a global search function. Regional or
-          departmental
-          identification can be overlaid with localised search options too.</p>
-        <p>In short Spook makes interpreting bulk data meaningful, intuitive and incredibly easy.</p>
+      <div class="is-col is-50">
+        {% include awards.html %}
       </div>
+    </div>
+    <div class="is-row is-stack-20">
+      {% for condition in site.data.power.key-power-conditions %}
+        <div class="is-col is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img blue icon" style="background-image: url('{{ condition.icon }}');"></div>
+            <div class="card-content">
+              <h3>{{ condition.name }}</h3>
+              {% for paragraph in condition.description %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+            <div class="card-footer">
+              <a href="{{ condition.link }}">Read more <span class="caret is-right"></span></a>
+            </div>
+          </div>
+        </div>
+        {% if forloop.index == 2 %}</div><div class="is-row">{% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
 <section>
   <div class="container">
-    <div class="is-stack-60 is-text-center">
-      <h2>Power monitoring functionality within OmniWatch</h2>
-    </div>
-    <div class="is-row is-stack-20">
-      <div class="is-col is-50 is-stack-20 is-border is-shadow-2">
-        <div class="is-inset-20">
-          <div class="is-row">
-            <div class="is-col is-20">
-              <img alt="Generator monitoring" src="/images/sensor/icons/generator.svg">
-            </div>
-            <div class="is-col is-80">
-              <h2>Generator monitoring</h2>
-              <p>Generators provide a continuous stream of voltage power without the peaks and dips of other devices,
-                thus
-                helping
-                to
-                regulate fluctuations. They are designed for continual use.</p>
-              <p>Any organisation that controls mission critical applications can benefit from having a generator
-                available
-                as a
-                reliable
-                power source.</p>
-              <p><a class="button is-secondary" href="/monitoring/power/generator">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-50 is-stack-20 is-border is-shadow-2">
-        <div class="is-inset-20">
-          <div class="is-row">
-            <div class="is-col is-20">
-              <img alt="PDU socket monitoring" src="/images/sensor/icons/pdu-socket.svg">
-            </div>
-            <div class="is-col is-80">
-              <h2>Power distribution unit (PDU) monitoring</h2>
-              <p>The key to maximising IT uptime is understanding server room power consumption.</p>
-              <p>By monitoring power consumption at PDU level an organisation can implement informed load balancing
-                procedures to
-                prevent power
-                overloads and protect service outages due to loss off power.</p>
-              <p><a class="button is-secondary" href="/monitoring/power/pdu">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-50 is-stack-20 is-border is-shadow-2">
-        <div class="is-inset-20">
-          <div class="is-row">
-            <div class="is-col is-20">
-              <img alt="PUE and DCiE monitoring" src="/images/sensor/icons/pue-dcie.svg">
-            </div>
-            <div class="is-col is-80">
-              <h2>PUE and DCiE monitoring</h2>
-              <p>OmniWatch provides data center managers with is an early warning system to avoid unplanned IT downtime
-                and
-                to
-                present trend analysis tools to achieve Key Performance Indicators (KPIs), enhance efficiency gains,
-                make
-                informed decisions for power load balancing and assist planned preventative maintenance programs.</p>
-              <p><a class="button is-secondary" href="/monitoring/power/pue-and-dcie">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-50 is-stack-20 is-border is-shadow-2">
-        <div class="is-inset-20">
-          <div class="is-row">
-            <div class="is-col is-20">
-              <img alt="UPS monitoring" src="/images/sensor/icons/ups.svg">
-            </div>
-            <div class="is-col is-80">
-              <h2>Uninterruptible power supply (UPS) monitoring</h2>
-              <p>UPSs are put in place to protect attached equipment, condition the incoming power to reduce sags and
-                surges
-                and
-                to also supply a short term solution during loss of power.</p>
-              <p><a class="button is-secondary" href="/monitoring/power/ups">Read more</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="is-text-center">
-      <h5>Need help deciding if OmniWatch is what you are looking for?</h5>
-      <p><a href="/contact" class="button">Get in contact with us to
-          discuss</a></p>
-    </div>
+    {% include two-types-of-customers.html %}
   </div>
 </section>
-<section class="container">
-  <hr>
-</section>
-<section id="247-monitoring">
-  <div class="container">
-    <div class="is-row">
-      <div class="is-col is-text-center">
-        <h2>24/7 monitoring and alerting with customisable contact details and rotas</h2>
-        <img alt="Alerting service" src="/images/icons/alert-service.svg">
-        <a href="/omniwatch/alerting" class="button is-secondary">More about alerting</a>
-      </div>
-      <div class="is-col">
-        <p>Accurate alarm procedures are key to minimising potential disruption when something goes wrong. An
-          organisation
-          often has different teams or even departments for global, regional or departmental alarms. The dynamic
-          calendar
-          function of OmniWatch provides a flexible and easy to implement solution.</p>
-        <p>User defined alarms are handled by automatic e-mail and 2-way SMS. These can be escalated to Spook's UK Call
-          Centre providing an extra level of certainty should mobile phones be switched to silent, out of signal or
-          lost.
-        </p>
-        <p>Spook call centre agents contact staff on alternative mobile and landline numbers to ensure safe receipt of
-          the
-          alert.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="bulk-data">
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-        <h2>Bulk data collection and seamless power management with support for all modern protocols.</h2>
-        <p>The benefits of monitoring power metrics centrally across an array of different equipment manufacturers is
-          easy
-          to illustrate. Change management procedures can be broadcast swiftly over multiple protocols and older, legacy
-          power power strips, can be given a new lease of life thus ensuring the initial investment in hardware is
-          maximised.</p>
-        <p>Without central management even the smallest of reconfigurations such as amending the on-board emergency
-          contact
-          procedures can take hours. OmniWatch provides real-time secure cloud based dashboards in order to manage
-          hundreds
-          of devices easily and intuitively.</p>
-        <p>The key to providing seamless bulk power monitoring is to make monitoring simple and available all in one
-          place
-          irrespective of the many different equipment manufacturers, models or equipment types.</p>
-        <p>That's why Spook's OmniWatch is designed to collect data across the facility using multiple protocols such as
-          SNMP, Modbus, BACnet, XML and JSON.</p>
-      </div>
-      <div class="is-col">
-        <div class="is-text-center" style="margin-top: 2em;">
-          <div class="is-row" style="margin-top: 2em;">
-            <div class="is-col">
-              <img alt="APC" class="device-img" src="/images/devices/apc.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Cummins" class="device-img" src="/images/devices/cummins.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Eaton" class="device-img" src="/images/devices/eaton.svg">
-            </div>
-          </div>
-          <div class="is-row">
-            <div class="is-col">
-              <img alt="Emerson" class="device-img" src="/images/devices/emerson.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Geist" class="device-img" src="/images/devices/geist.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Riello" class="device-img" src="/images/devices/riello-ups.svg">
-            </div>
-          </div>
-          <div class="is-row">
-            <div class="is-col">
-              <img alt="Schneider electric" class="device-img" src="/images/devices/schneider-electric.svg">
-            </div>
-            <div class="is-col">
-              <img alt="UPS Limited" class="device-img" src="/images/devices/ups-ltd.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Raritan" class="device-img" src="/images/devices/raritan.svg">
-            </div>
-          </div>
-          <div class="is-row">
-            <div class="is-col">
-              <img alt="IPT" class="device-img" src="/images/devices/ipt.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Structure source" class="device-img" src="/images/devices/structure-source.svg">
-            </div>
-            <div class="is-col">
-              <img alt="Olson" class="device-img" src="/images/devices/olson.svg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="perpetual-data">
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-20">
-        <h2>Perpetual data storage for trend analysis, load balance planning and efficiency impact tracking</h2>
-      </div>
-      <div class="is-col is-80">
-        <p>Spook recognises that power readings and their associated trend data is a valuable management commodity. By
-          storing the power consumption data perpetually means measuring efficiency gains, load-balancing and long-term
-          trend analysis is accurate. Not only can patterns in power spikes be identified together with their regularity
-          but
-          identification of spare power known as stranded power is simple.</p>
-        <p>The amount of stranded power obviously varies per PDU and may only be a small amount but when extrapolated
-          across
-          hundreds of power strips this figure can be considerable. By tapping into this valuable resource means an
-          organisation can confidently maximise power consumption at rack level before having to invest in additional
-          data
-          centre expansion.</p>
-        <p>However it is important to understand the stressed power requirement of a power strip; this being the total
-          power
-          requirement when all attached equipment is set to maximum consumption, before utilising stranded power.</p>
-      </div>
-    </div>
-  </div>
-</section>
-{% include monitoring/key-footer.html %}
-{% include contact-us.html %}
+{% include used-by.html %}

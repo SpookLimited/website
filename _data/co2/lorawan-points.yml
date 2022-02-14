@@ -1,0 +1,11 @@
+- name: Out of the box
+  icon: /images/icons/outofthebox.svg
+
+- name: Preconfigured
+  icon: /images/icons/bespoke.svg
+
+- name: Calibrated
+  icon: /images/icons/calibrated.svg
+
+- name: Batteries included
+  icon: /images/icons/battery-included.svg

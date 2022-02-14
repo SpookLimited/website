@@ -1,0 +1,29 @@
+- name: APC
+  image: /images/devices/apc.svg
+
+- name: Cummins
+  image: /images/devices/cummins.svg
+
+- name: Eaton
+  image: /images/devices/eaton.svg
+
+- name: Emerson
+  image: /images/devices/emerson.svg
+
+- name: Kohler Power
+  image: /images/devices/kohler-power.svg
+
+- name: Monnit
+  image: /images/devices/monnit.svg
+
+- name: Raritan
+  image: /images/devices/raritan.svg
+
+- name: Riello
+  image: /images/devices/riello-ups.svg
+
+- name: Schneider Electric
+  image: /images/devices/schneider-electric.svg
+
+- name: Vertiv
+  image: /images/devices/vertiv.svg

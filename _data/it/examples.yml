@@ -1,0 +1,13 @@
+- name: Temperature
+
+- name: Humidity
+
+- name: Water
+
+- name: PDUs
+
+- name: UPSs
+
+- name: Generators
+
+- name: BMSs

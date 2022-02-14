@@ -1,47 +1,31 @@
 ---
 layout: base
 title: PUE and DCiE monitoring
-page-description: "Total electrical power consumed by IT equipment in data centres has been relatively stable
-historically, but new designs for server processors include energy management capabilities that can result in
-substantial power consumption fluctuations. This can present potentially numerous problems, including overheating,
-overloading a circuit breaker and loss of redundancy."
+page-description: Real-time monitoring and alerting for power usage effectiveness (PUE) and data center infrastructure efficiency (DCiE). Keep an eye on fluctuating usage and track trends over large periods of time.
 ---
-<header
-  style="background-image: url('/images/sections/pue-dcie-banner.png'); background-size: cover; background-position: right;">
+<header style="background-image: url('/images/sections/pue-dcie-banner.png'); background-size: cover; background-position: right;">
   <div class="container">
     <div class="is-50">
-      <h3>Real-time data collection</h3>
-      <h1>PUE and DCiE monitoring</h1>
-      <p class="is-large">By measuring power at key areas coming into a facility means there are many valuable
-        readings that provide important additional information.</p>
-      {% include header-buttons.html %}
+      <div class="is-stack-40">
+        <h1>PUE and DCiE monitoring</h1>
+      </div>
+        <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
     </div>
   </div>
 </header>
-<section>
+<section class="grey">
   <div class="container">
-    <h2>What is PUE and DCiE?</h2>
-    <p>
-      PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Effectiveness) are industry standard
-      efficiency
-      benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for its
-      existing
-      IT load.
-    </p>
-
-    <p>
-      By measuring PUE and DCiE presents an efficiency score and sets a testing framework for the data center to repeat
-      and
-      compare. By continually comparing scores, data center managers can verify the impact of what should be the focus
-      of
-      their ongoing efficiency efforts in order to gain greater cost savings and efficiencies in the future.
-    </p>
-
-    <p>
-      At any given time, they are comparing the power currently used for the IT equipment needs with the power used by
-      the
-      infrastructure as a whole which keeps that IT equipment cooled, powered, backed-up and protected.
-    </p>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img alt="How to calculate PUE and DCiE" src="/images/solutions/smart-sensor/pue-dcie-calculation.svg">
+      </div>
+      <div class="is-col">
+        <h2>What is PUE and DCiE?</h2>
+        <p>PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Effectiveness) are industry standard efficiency benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for its existing IT load.</p>
+        <p>By measuring PUE and DCiE presents an efficiency score and sets a testing framework for the data center to repeat and compare. By continually comparing scores, data center managers can verify the impact of what should be the focus of their ongoing efficiency efforts in order to gain greater cost savings and efficiencies in the future.</p>
+        <p>At any given time, they are comparing the power currently used for the IT equipment needs with the power used by the infrastructure as a whole which keeps that IT equipment cooled, powered, backed-up and protected.</p>
+      </div>
+    </div>
   </div>
 </section>
 <section>
@@ -87,34 +71,13 @@ overloading a circuit breaker and loss of redundancy."
       </div>
       <div class="is-col">
         <h2>The benefits of PUE and DCiE monitoring</h2>
-        <p>
-          Knowing what the efficiency figures are in real-time is allows users to highlight areas for improvement in
-          order to to
-          achieve better ratings over time.
-        </p>
-
-        <p>
-          The objective is to ensure that the maximum possible percentage of power utilised in a data center is actually
-          used by
-          IT equipment and the minimum by supporting equipment such as AC units and other peripheral equipment.
-        </p>
-
-        <p>
-          Understanding PUE and DCiE is only the beginning. Efficiency gains should be regularly calculated, preferably
-          in real
-          time. By doing this users can check how well they are doing on different days of the week, month and year.
-          This is
-          particularly important as it identifies equipment overheads that may be missed if the measurements are made
-          infrequently.
-        </p>
+        <p>Knowing what the efficiency figures are in real-time is allows users to highlight areas for improvement in order to to achieve better ratings over time.</p>
+        <p>The objective is to ensure that the maximum possible percentage of power utilised in a data center is actually used by IT equipment and the minimum by supporting equipment such as AC units and other peripheral equipment.</p>
+        <p>Understanding PUE and DCiE is only the beginning. Efficiency gains should be regularly calculated, preferably in real time. By doing this users can check how well they are doing on different days of the week, month and year. This is particularly important as it identifies equipment overheads that may be missed if the measurements are made infrequently.</p>
       </div>
     </div>
     <h2>Perpetuity of data</h2>
-    <p>
-      Spook retains all PUE and DCiE readings in perpetuity so users can study trends for efficiency more accurately.
-      The
-      results can easily be exported in OmniWatch on-demand reports.
-    </p>
+    <p>Spook retains all PUE and DCiE readings in perpetuity so users can study trends for efficiency more accurately. The results can easily be exported in OmniWatch on-demand reports.</p>
   </div>
 </section>
 <section>
@@ -166,70 +129,11 @@ overloading a circuit breaker and loss of redundancy."
 </section>
 <section>
   <div class="container">
-    <nav class="tabs" data-kube="tabs" data-equal="true">
-      <a href="#power-consumption" class="is-active">Power consumption fluctuations</a>
-      <a href="#computational-loads">Computational loads</a>
-      <a href="#circuit-overload">Circuit overloading</a>
-    </nav>
-
-    <div id="power-consumption">
-      <div class="is-row is-items-middle">
-        <div class="is-col is-40">
-          <img alt="Power consumption comparison" src="/images/monitoring/pue-dcie/power-consumption-comparison.svg">
-        </div>
-        <div class="is-col is-60">
-          <h2>Power consumption fluctuations</h2>
-          <p>Total electrical power consumed by IT equipment in data centres has been relatively stable historically,
-            but
-            new designs for server processors include energy management capabilities that can result in substantial
-            power
-            consumption fluctuations.</p>
-          <p>This can present potentially numerous problems, including overheating, overloading a circuit breaker and
-            loss
-            of redundancy.</p>
-        </div>
-      </div>
-    </div>
-    <div id="computational-loads">
-      <h2>Computational loads</h2>
-      <p>Typically servers operate at light computational loads, with actual power draw amounting to less than the
-        server's potential maximum power draw capabilities.</p>
-      <p>However, because many IT personnel can be unaware of this discrepancy, it's easy to plug more servers than are
-        necessary into a single power circuit.</p>
-      <p>This in turn creates the potential for possible circuit overloads, as the circuit rating can be exceeded by the
-        total maximum server power consumption.</p>
-    </div>
-    <div id="circuit-overload">
-      <h2>Circuit overloading</h2>
-      <p>Another complication is that when servers are simultaneously subjected to heavy loads, circuit overloads will
-        occur. When circuits are overloaded, the entire circuit can be tripped and power shut off to IT equipment.</p>
-      <p>Furthermore, since this happens as a result of heavy loads, power outages at this time can have significant
-        negative effects on business.</p>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-70">
         <h2>Spook is an approved Endorser of the European Code of Conduct for Data Centres</h2>
-        <p>
-          The Data Centres Energy Efficiency Code of Conduct was established some years ago in response to increasing
-          energy
-          consumption in data centers and the need to reduce the related environmental, economic and energy supplies.
-        </p>
-
-        <p>
-          The aim is to inform and stimulate data center operators and owners to reduce energy consumption in a
-          cost-effective
-          manner without impacting the mission critical function of data center facility.
-          The Code of Conduct aims to achieve this by improving the understanding of energy demand within the data
-          center, raising
-          awareness and recommending energy efficient best practice and targets.The Code of Conduct aims to achieve this
-          by improving the understanding of energy demand within the data
-          center, raising
-          awareness and recommending energy efficient best practice and targets.
-        </p>
+        <p>The Data Centres Energy Efficiency Code of Conduct was established some years ago in response to increasing energy consumption in data centers and the need to reduce the related environmental, economic and energy supplies.</p>
+        <p>The aim is to inform and stimulate data center operators and owners to reduce energy consumption in a cost-effective manner without impacting the mission critical function of data center facility. The Code of Conduct aims to achieve this by improving the understanding of energy demand within the data center, raising awareness and recommending energy efficient best practice and targets.The Code of Conduct aims to achieve this by improving the understanding of energy demand within the data center, raising awareness and recommending energy efficient best practice and targets.</p>
       </div>
       <div class="is-col is-30">
         <img alt="European Code of Conduct for Data Centers" src="/images/monitoring/bms/code-of-conduct.svg">
@@ -237,24 +141,18 @@ overloading a circuit breaker and loss of redundancy."
     </div>
   </div>
 </section>
+<div class="container"><hr></div>
 <section>
   <div class="container">
+    {% include omniwatch/key-points.html %}
     <div class="is-row is-items-middle">
       <div class="is-col is-30">
         <img alt="Capita" src="/images/customer-logo/capita.svg">
       </div>
       <div class="is-col is-70">
         <blockquote>
-          <p>We had a requirement to improve on the accuracy and time way we calculated the PUE (Power Efficiency) of
-            our separate data centres in Kent and Essex. The relevant data was available on various (Schneider) power
-            meters located around the data centres but it was a laborious task to manually collect the data in-order to
-            calculate matters. Spook OmniWatch continually monitors our key power metrics and we are now in a position
-            to become more energy efficient and to reduce our carbon footprint.</p>
-          <p>We had a requirement to improve on the accuracy and time way we calculated the PUE (Power Efficiency) of
-            our separate data centres in Kent and Essex. The relevant data was available on various (Schneider) power
-            meters located around the data centres but it was a laborious task to manually collect the data in-order to
-            calculate matters. Spook OmniWatch continually monitors our key power metrics and we are now in a position
-            to become more energy efficient and to reduce our carbon footprint.</p>
+          <p>We had a requirement to improve on the accuracy and time way we calculated the PUE (Power Efficiency) of our separate data centres in Kent and Essex. The relevant data was available on various (Schneider) power meters located around the data centres but it was a laborious task to manually collect the data in-order to calculate matters. Spook OmniWatch continually monitors our key power metrics and we are now in a position to become more energy efficient and to reduce our carbon footprint.</p>
+          <p>We had a requirement to improve on the accuracy and time way we calculated the PUE (Power Efficiency) of our separate data centres in Kent and Essex. The relevant data was available on various (Schneider) power meters located around the data centres but it was a laborious task to manually collect the data in-order to calculate matters. Spook OmniWatch continually monitors our key power metrics and we are now in a position to become more energy efficient and to reduce our carbon footprint.</p>
           <p class="is-small">Capita Business Services - An international business outsourcing company.</p>
         </blockquote>
       </div>
@@ -262,7 +160,11 @@ overloading a circuit breaker and loss of redundancy."
   </div>
 </section>
 {% include monitoring/power/key-components.html %}
-{% include contact-us.html %}
+<section>
+  <div class="container">
+    {% include two-types-of-customers.html %}
+  </div>
+</section>
 <script src="/js/jquery.min.js"></script>
 <script src="/js/peity.min.js"></script>
 <script>$(document).ready(function () {

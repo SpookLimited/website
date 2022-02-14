@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 222.40117 176.66606"
+   height="176.66606mm"
+   width="222.40117mm">
+  <defs
+     id="defs2">
+    <filter
+       id="filter1226"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood1216"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1218"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1220"
+         result="blur"
+         stdDeviation="1.4"
+         in="composite1" />
+      <feOffset
+         id="feOffset1222"
+         result="offset"
+         dy="0"
+         dx="0" />
+      <feComposite
+         id="feComposite1224"
+         result="composite2"
+         operator="out"
+         in2="SourceGraphic"
+         in="offset" />
+    </filter>
+    <filter
+       id="filter1226-1"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood1216-5"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1218-9"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1220-8"
+         result="blur"
+         stdDeviation="1.4"
+         in="composite1" />
+      <feOffset
+         id="feOffset1222-4"
+         result="offset"
+         dy="0"
+         dx="0" />
+      <feComposite
+         id="feComposite1224-8"
+         result="composite2"
+         operator="out"
+         in2="SourceGraphic"
+         in="offset" />
+    </filter>
+    <filter
+       id="filter1226-1-1"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood1216-5-7"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1218-9-5"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1220-8-9"
+         result="blur"
+         stdDeviation="1.4"
+         in="composite1" />
+      <feOffset
+         id="feOffset1222-4-6"
+         result="offset"
+         dy="0"
+         dx="0" />
+      <feComposite
+         id="feComposite1224-8-2"
+         result="composite2"
+         operator="out"
+         in2="SourceGraphic"
+         in="offset" />
+    </filter>
+    <filter
+       id="filter1226-7"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood1216-53"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1218-8"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1220-83"
+         result="blur"
+         stdDeviation="1.4"
+         in="composite1" />
+      <feOffset
+         id="feOffset1222-1"
+         result="offset"
+         dy="0"
+         dx="0" />
+      <feComposite
+         id="feComposite1224-89"
+         result="composite2"
+         operator="out"
+         in2="SourceGraphic"
+         in="offset" />
+    </filter>
+    <filter
+       id="filter1226-1-6"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood1216-5-4"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1218-9-3"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1220-8-3"
+         result="blur"
+         stdDeviation="1.4"
+         in="composite1" />
+      <feOffset
+         id="feOffset1222-4-3"
+         result="offset"
+         dy="0"
+         dx="0" />
+      <feComposite
+         id="feComposite1224-8-8"
+         result="composite2"
+         operator="out"
+         in2="SourceGraphic"
+         in="offset" />
+    </filter>
+    <filter
+       id="filter1226-1-1-6"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         id="feFlood1216-5-7-0"
+         result="flood"
+         flood-color="rgb(0,0,0)"
+         flood-opacity="0.498039" />
+      <feComposite
+         id="feComposite1218-9-5-4"
+         result="composite1"
+         operator="in"
+         in2="SourceGraphic"
+         in="flood" />
+      <feGaussianBlur
+         id="feGaussianBlur1220-8-9-8"
+         result="blur"
+         stdDeviation="1.4"
+         in="composite1" />
+      <feOffset
+         id="feOffset1222-4-6-8"
+         result="offset"
+         dy="0"
+         dx="0" />
+      <feComposite
+         id="feComposite1224-8-2-8"
+         result="composite2"
+         operator="out"
+         in2="SourceGraphic"
+         in="offset" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(4.0443451,-41.601486)"
+     id="layer1" />
+  <g
+     transform="translate(4.0443451,-41.601486)"
+     id="layer2">
+    <g
+       transform="translate(0,1.0583333)"
+       id="g1673">
+      <g
+         id="layer1-2"
+         transform="translate(59.224177,33.146614)">
+        <circle
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#ffce15;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path826-9"
+           cx="113.32198"
+           cy="76.096542"
+           r="15.567894" />
+        <path
+           style="fill:none;stroke:#ffce15;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 106.35305,82.120535 h 13.93787"
+           id="path828" />
+        <g
+           id="g849-1"
+           transform="translate(-0.07087326)"
+           style="fill:#ffce15;fill-opacity:1">
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="107.15625"
+             id="path830-2"
+             style="opacity:1;fill:#ffce15;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="119.62946"
+             id="path830-3-7"
+             style="opacity:1;fill:#ffce15;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+      </g>
+      <g
+         id="layer1-6"
+         transform="translate(-75.503343,105.90176)">
+        <circle
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#ff7900;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path826-0"
+           cx="113.32198"
+           cy="76.096542"
+           r="15.567894" />
+        <g
+           id="g849-6"
+           transform="translate(-0.07087326)"
+           style="fill:#ff7900;fill-opacity:1">
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="107.15625"
+             id="path830-26"
+             style="opacity:1;fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="119.62946"
+             id="path830-3-1"
+             style="opacity:1;fill:#ff7900;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#ff7900;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 106.94363,83.847462 c 2.64597,-4.582957 10.11073,-4.582957 12.7567,0"
+           id="path851-8" />
+      </g>
+      <g
+         id="g1237">
+        <rect
+           y="67.950012"
+           x="8.2853556"
+           height="66.149208"
+           width="59.066566"
+           id="rect827"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#eaeaea;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1226)" />
+        <g
+           transform="translate(-75.503343,33.146614)"
+           id="layer1-5">
+          <circle
+             r="15.567894"
+             cy="76.096542"
+             cx="113.32198"
+             id="path826"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <g
+             style="fill:#85cd01;fill-opacity:1"
+             transform="translate(-0.07087326)"
+             id="g849">
+            <circle
+               style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="path830"
+               cx="107.15625"
+               cy="72.293152"
+               r="2.315104" />
+            <circle
+               style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="path830-3"
+               cx="119.62946"
+               cy="72.293152"
+               r="2.315104" />
+          </g>
+          <path
+             id="path851"
+             d="m 106.94363,80.393621 c 2.64597,4.582957 10.11073,4.582957 12.7567,0"
+             style="fill:none;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <text
+           id="text882"
+           y="81.981667"
+           x="19.605797"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Chopin Script';-inkscape-font-specification:'Chopin Script Bold';letter-spacing:0px;word-spacing:0px;fill:#727273;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#727273;fill-opacity:1;stroke-width:0.26458332"
+             y="81.981667"
+             x="19.605797"
+             id="tspan880">Room 101</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="8.2853556"
+         y="55.521984"
+         id="text890"><tspan
+           id="tspan888"
+           x="8.2853556"
+           y="55.521984"
+           style="font-size:8.46666622px;letter-spacing:0.3175px;stroke-width:0.26458332">Building A Floor 1</tspan></text>
+      <g
+         transform="translate(67.363758)"
+         id="g1237-1">
+        <rect
+           y="67.950012"
+           x="8.2853556"
+           height="66.149208"
+           width="59.066566"
+           id="rect827-0"
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#eaeaea;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1226-1)" />
+        <g
+           transform="translate(-75.503343,33.146614)"
+           id="layer1-5-3">
+          <circle
+             r="15.567894"
+             cy="76.096542"
+             cx="113.32198"
+             id="path826-04"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <g
+             style="fill:#85cd01;fill-opacity:1"
+             transform="translate(-0.07087326)"
+             id="g849-4">
+            <circle
+               style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="path830-4"
+               cx="107.15625"
+               cy="72.293152"
+               r="2.315104" />
+            <circle
+               style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="path830-3-4"
+               cx="119.62946"
+               cy="72.293152"
+               r="2.315104" />
+          </g>
+          <path
+             id="path851-7"
+             d="m 106.94363,80.393621 c 2.64597,4.582957 10.11073,4.582957 12.7567,0"
+             style="fill:none;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        </g>
+        <text
+           id="text882-6"
+           y="81.981667"
+           x="19.605797"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Chopin Script';-inkscape-font-specification:'Chopin Script Bold';letter-spacing:0px;word-spacing:0px;fill:#727273;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#727273;fill-opacity:1;stroke-width:0.26458332"
+             y="81.981667"
+             x="19.605797"
+             id="tspan880-3">Room 102</tspan></text>
+      </g>
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#eaeaea;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1226-1-1)"
+         id="rect827-0-7"
+         width="59.066566"
+         height="66.149208"
+         x="143.01288"
+         y="67.950012" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Chopin Script';-inkscape-font-specification:'Chopin Script Bold';letter-spacing:0px;word-spacing:0px;fill:#727273;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="154.33331"
+         y="81.981667"
+         id="text882-6-5"><tspan
+           id="tspan880-3-9"
+           x="154.33331"
+           y="81.981667"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#727273;fill-opacity:1;stroke-width:0.26458332">Room 103</tspan></text>
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#eaeaea;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1226-7)"
+         id="rect827-7"
+         width="59.066566"
+         height="66.149208"
+         x="8.2853556"
+         y="140.70515" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Chopin Script';-inkscape-font-specification:'Chopin Script Bold';letter-spacing:0px;word-spacing:0px;fill:#727273;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="19.605797"
+         y="154.73682"
+         id="text882-9"><tspan
+           id="tspan880-2"
+           x="19.605797"
+           y="154.73682"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#727273;fill-opacity:1;stroke-width:0.26458332">Room 104</tspan></text>
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#eaeaea;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1226-1-6)"
+         id="rect827-0-4"
+         width="59.066566"
+         height="66.149208"
+         x="75.649117"
+         y="140.70515" />
+      <g
+         id="layer1-5-3-0"
+         transform="translate(-8.139584,105.90176)">
+        <circle
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path826-04-59"
+           cx="113.32198"
+           cy="76.096542"
+           r="15.567894" />
+        <g
+           id="g849-4-4"
+           transform="translate(-0.07087326)"
+           style="fill:#85cd01;fill-opacity:1">
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="107.15625"
+             id="path830-4-6"
+             style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="119.62946"
+             id="path830-3-4-9"
+             style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 106.94363,80.393621 c 2.64597,4.582957 10.11073,4.582957 12.7567,0"
+           id="path851-7-2" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Chopin Script';-inkscape-font-specification:'Chopin Script Bold';letter-spacing:0px;word-spacing:0px;fill:#727273;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="86.969559"
+         y="154.73682"
+         id="text882-6-2"><tspan
+           id="tspan880-3-4"
+           x="86.969559"
+           y="154.73682"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#727273;fill-opacity:1;stroke-width:0.26458332">Room 105</tspan></text>
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#eaeaea;stroke-width:0.5291667;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;filter:url(#filter1226-1-1-6)"
+         id="rect827-0-7-7"
+         width="59.066566"
+         height="66.149208"
+         x="143.01288"
+         y="140.70515" />
+      <g
+         id="layer1-5-3-8-5"
+         transform="translate(59.224177,105.90176)">
+        <circle
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+           id="path826-04-5-4"
+           cx="113.32198"
+           cy="76.096542"
+           r="15.567894" />
+        <g
+           id="g849-4-7-8"
+           transform="translate(-0.07087326)"
+           style="fill:#85cd01;fill-opacity:1">
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="107.15625"
+             id="path830-4-4-1"
+             style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <circle
+             r="2.315104"
+             cy="72.293152"
+             cx="119.62946"
+             id="path830-3-4-1-2"
+             style="opacity:1;fill:#85cd01;fill-opacity:1;stroke:none;stroke-width:3.01538467;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        </g>
+        <path
+           style="fill:none;stroke:#85cd01;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 106.94363,80.393621 c 2.64597,4.582957 10.11073,4.582957 12.7567,0"
+           id="path851-7-8-8" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Chopin Script';-inkscape-font-specification:'Chopin Script Bold';letter-spacing:0px;word-spacing:0px;fill:#727273;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="154.33331"
+         y="154.73682"
+         id="text882-6-5-9"><tspan
+           id="tspan880-3-9-3"
+           x="154.33331"
+           y="154.73682"
+           style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:7.76111126px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Semi-Bold';fill:#727273;fill-opacity:1;stroke-width:0.26458332">Room 106</tspan></text>
+    </g>
+  </g>
+</svg>

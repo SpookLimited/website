@@ -1,0 +1,11 @@
+- name: Data roaming
+  description: Each SIM is configured to work on all major cellular networks.
+  icon: /images/solutions/cellular-technology/operators-line.svg
+
+- name: Full LTE support
+  description: SIMs are capable of utilising 4G, 3G and 2G to ensure there is always a strong signal.
+  icon: /images/icons/cellular.svg
+
+- name: Price included
+  description: SIM data charges are already included in Spook's pricing model. No hidden surprises.
+  icon: /images/icons/simcard.svg

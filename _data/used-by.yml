@@ -1,0 +1,53 @@
+- name: 888
+  logo: /images/customer-logo/888.svg
+
+- name: Generali
+  logo: /images/customer-logo/generali.svg
+  
+- name: Creative Assembly
+  logo: /images/customer-logo/creative-assembly.svg
+  
+- name: East Riding of Yorkshire
+  logo: /images/customer-logo/east-riding-of-yorkshire-council.svg
+
+- name: Fiskars
+  logo: /images/customer-logo/fiskars-group.svg
+  
+- name: Friends Provident
+  logo: /images/customer-logo/friends-provident-international.svg
+
+- name: Greene King
+  logo: /images/customer-logo/greene-king.svg
+
+- name: Handelsbanken
+  logo: /images/customer-logo/handelsbanken.svg
+
+- name: Hilti
+  logo: /images/customer-logo/hilti.svg
+  
+- name: Muller
+  logo: /images/customer-logo/muller.svg
+  
+- name: NHS
+  logo: /images/customer-logo/nhs.svg
+  
+- name: Nisa
+  logo: /images/customer-logo/nisa.svg
+
+- name: P&O Ferrymasters
+  logo: /images/customer-logo/pando.svg
+  
+- name: Reed
+  logo: /images/customer-logo/reed.svg
+
+- name: St Albans
+  logo: /images/customer-logo/st-albans-city-and-district-council.svg
+  
+- name: Thermo Fisher
+  logo: /images/customer-logo/thermo-fisher.svg
+  
+- name: Vax
+  logo: /images/customer-logo/vax.svg
+
+- name: Waterstones
+  logo: /images/customer-logo/waterstones.svg

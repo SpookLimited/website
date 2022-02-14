@@ -1,0 +1,559 @@
+---
+layout: base
+title: Air quality and CO2 monitoring
+page-description: Indoor air quality and CO2 monitoring to limit the spread of aerosol related viruses and increase staff productivity.
+---
+<style>
+	@media only screen and (max-width: 600px) {
+		.small-mobile-image {
+			width: 100px;
+		}
+
+		.resource-logo {
+			background-position: left !important;
+			height: 60px !important;
+			margin-bottom: 12px;
+		}
+	}
+
+	.additional-sensor-icon {
+		width: 80px;
+	}
+
+	.resource-logo {
+		height: 80px;
+		min-width: 100%;
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.customer-logo {
+		height: 90px;
+		padding: 1em 0;
+	}
+
+	.card>.card-img.enterprise-centric {
+		background-image: url('/images/air-quality-and-co2/multiple-devices.svg');
+		background-size: contain;
+	}
+	
+  .card>.card-img.one-to-many-img {
+		background-image: url('/images/air-quality-and-co2/one-to-many-icon.svg');
+		background-size: contain;
+	}
+
+  .card>.card-img.scalable-img {
+		background-image: url('/images/icons/scalable.svg');
+		background-size: contain;
+	}
+
+	.card>.card-img.automated-monitoring {
+		background-image: url('/images/air-quality-and-co2/automated-monitoring.svg');
+		background-size: contain;
+	}
+
+	.card>.card-img.type-a-sensor {
+		background-image: url('/images/air-quality-and-co2/co2-motion-sensor.svg');
+		background-size: contain;
+	}
+
+	.card>.card-img.type-b-sensor {
+		background-image: url('/images/air-quality-and-co2/air-quality-sensor.svg');
+		background-size: contain;
+	}
+
+  .is-container.sensor-icons img{
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  .is-container.sensor-icons h4{
+    line-height: 60px;
+  }
+</style>
+<header class="co2-banner">
+	<div class="container">
+    <div class="is-50 is-stack-40">
+      <h1>Remote air quality and CO<sub>2</sub> monitoring</h1>
+      <p class="is-large">Indoor monitoring to limit the spread of aerosol related viruses and increase staff productivity.</p>
+      <img alt="Air quality and CO2 monitoring dashboard" src="/images/air-quality-and-co2/co2-sensor-banner.png">
+    </div>
+	</div>
+</header>
+<div class="is-inset-y-20 black">
+	<div class="container">
+		<div class="is-row is-items-middle white-text">
+			<div class="is-col is-20 is-text-center">
+				<img alt="Understand the benefits of networked air quality and CO2 sensors" style="height: 80px;" src="/images/air-quality-and-co2/stop-icon.svg">
+			</div>
+			<div class="is-col is-60">
+        <p class="is-big is-text-center"><b>STOP!</b> Understand the benefits of network versus stand alone sensors before buying.</p> 
+			</div>
+			<div class="is-col is-20 is-text-center">
+				<a class="button" href="/contact">Free consultation <span class="caret is-right"></span></a>
+			</div>
+		</div>
+	</div>
+</div>
+<section class="grey">
+	<div class="container">
+    <div class="is-text-center is-stack-40">
+      <h2>Improve productivity by monitoring air quality</h2>
+      <p class="is-big">Monitoring CO<sub>2</sub> levels in enclosed spaces has become more important since the Covid-19 pandemic, but there are a host of additional benefits in monitoring work area spaces; from increasing employee productivity to limiting the spread of common viruses that may cause staff absences.</p>
+    </div>
+    <div class="is-row is-hidden-mobile is-stack-60">
+      {% for virus in site.data.co2.airborne-aerosols %}
+        <div class="is-col">
+          <div class="virus-icon is-text-center">
+            <img alt="{{ virus.name }}" class="virus-icons" src="{{ virus.icon }}">
+            <p><b>{{ virus.name }}</b></p>
+          </div>
+        </div>
+        {% if forloop.index == 4 %}
+          </div><div class="is-row is-hidden-mobile is-stack-80">
+        {% endif %}
+      {% endfor %}
+    </div>
+    <p class="is-text-center"><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col is-50">
+        <p class="section-subheader">Monitoring specialists</p>
+        <h4 class="section-header">CO<sub>2</sub> and air quality monitoring made easy</h4>
+        <p>Monitoring CO<sub>2</sub> and air quality using hand held meters is a time consuming activity that requires labour, time and resource to complete.</p>
+        <p>OmniWatch automates this process and makes monitoring easy. </p>
+      </div>
+      <div class="is-col is-50">
+				{% include awards.html %}
+      </div>
+    </div>
+		<div class="is-row is-stack-40">
+			<div class="is-col is-stack-40">
+				<div class="card is-border is-shadow-2">
+					<div class="card-img automated-monitoring green"></div>
+					<div class="card-content">
+						<p class="section-subheader">Automated monitoring</p>
+            <h4 class="section-header">Reduce labour costs and resources</h4>
+            <p>Automatic sensor reading collection means users don't waste valuable time in manually collecting data from a sensors on-board data logger.</p>
+            <p>Sensors can be left in situ to measure air quality as occupancy levels fluctuate.</p>
+					</div>
+				</div>
+			</div>
+			<div class="is-col is-stack-40">
+				<div class="card is-border is-shadow-2">
+					<div class="card-img enterprise-centric blue"></div>
+					<div class="card-content">
+            <p class="section-subheader">Enterprise centric</p>
+            <h4 class="section-header">Cloud based monitoring</h4>
+            <p>Designed to be the central repository for all things monitored, OmniWatch digital dashboards come pre-configured in handy online portals for hassle free monitoring and alerting.</p>
+            <p>Being cloud based means user access is secure and available via any internet enabled device.</p>
+					</div>
+				</div>
+			</div>
+    </div>
+    <div class="is-row is-stack-60">
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img one-to-many-img orange"></div>
+          <div class="card-content">
+            <p class="section-subheader">One-to-many & Many-to-one</p>
+            <h4 class="section-header">Automated sensor updates and user access</h4>
+            <p>Updating software and settings to multiple sensors is performed centrally saving time, effort and resources for sensor management.</p>
+            <p>Sensor data is automatically filtered in accordance with a users organisational hierarchy, this ensures alarms and user access to sensor data is confined to authorised staff.</p>
+            <p>Examples of hierarchical access are: Global managers, regional workers, building team members and local facility staff.</p>
+          </div>
+        </div>
+      </div>
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img scalable-img red"></div>
+          <div class="card-content">
+            <p class="section-subheader">Scaleable solution</p>
+            <h4 class="section-header">Monitoring for small to large installations</h4>
+            <p>OmniWatch is designed to be completely scaleable; ranging from an entry level system monitoring a handful of sensors to an enterprise-wide solution covering many locations across multiple time zones.</p>
+            <p>Monitoring footprints typically evolve and can increase or reduce overtime.</p>
+            <p>Spook has a proven track record in modifying the level of monitoring in-line with an organisations requirement for change.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="dark-blue-grey is-inset-40">
+  <div class="container is-text-center">
+    <div class="is-stack-40 white-text">
+      <h3>The most common air quality sensors</h3>
+    </div>
+    <div class="is-row">
+      {% for sensor in site.data.co2.main-sensors %}
+        <div class="is-col is-20 is-stack-20 is-border is-shadow-2 white">
+          <div class="is-inset-12" style="width: 100px; height: 100px; background-image: url('{{ sensor.icon }}'); background-size: contain; background-repeat: no-repeat; background-origin: content-box; margin: 0 auto;"></div>
+          <p>{{ sensor.name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+<section>
+	<div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+        <h3>Digital dashboards</h3>
+        <img alt="Digital dashboards for air quality and CO2 monitoring" class="is-stack-20 is-shown-mobile" src="/images/air-quality-and-co2/device-view.png">
+        <p>OmniWatch digital dashboards are bespoke and designed by Spook on behalf of our customers. All the hard work of setting up sensors, adding equipment and configuring how the alarm work-flow and sensor management is implemented is included as part of the overall OmniWatch solution.</p>
+        <p>Any customer led additions, deletions or workflow changes are also included as part of the ongoing commitment from Spook to ensure our market leading remote monitoring service remains up to date and appropriate to its users.</p>
+        <p>Additionally, Spook's in-house software development road-map is based upon customer feedback to make sure any new functionality is actually useful. Development is to the benefit of all our customers with any new updates being free of charge.</p>
+      </div>
+      <div class="is-col is-60 is-hidden-mobile">
+        <img alt="Digital dashboards for air quality and CO2 monitoring" class="is-stack-20" src="/images/air-quality-and-co2/device-view.png">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-60 is-hidden-mobile">
+        <img alt="Air quality and CO2 monitoring dashboard" src="/images/air-quality-and-co2/dashboard-co2-view.svg">
+      </div>
+      <div class="is-col is-40">
+        <h4 class="section-header">Emoji overviews</h4>
+        <img alt="Air quality and CO2 monitoring dashboard" class="is-shown-mobile is-stack-20" src="/images/air-quality-and-co2/dashboard-co2-view.svg">
+        <p>A picture paints a thousand words and the art of remote monitoring is to make identifying alarms quick and easy.</p>
+        <p>Using emoji's for a high level overview is ideal for managing air quality devices that have multiple sensors.</p>
+        <p>Spook emoji's are able be expanded to focus on the individual monitored conditions of different equipment types.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+		<div class="is-row is-items-middle is-stack-60">
+			<div class="is-col is-30">
+				<h3>Trend analysis</h3>
+				<img alt="CO2 comparison chart" class="is-shown-mobile" src="/images/air-quality-and-co2/co2-comparison-chart.svg">
+        <p>Unlike traditional data loggers that track readings for a limited amount of time, Spook retains sensor readings in perpetuity.<p>
+        <p>This is important to accurately measure mid to long term trends associated with room occupancy and how this effects air quality.</p>
+        <p>By analysing trend data across greater periods of time means office attendance traffic and seasonal changes that effect the quality of air for indoor spaces can be measured and forecast for building management and facilities teams.</p>
+			</div>
+			<div class="is-col is-70 is-hidden-mobile">
+				<img alt="CO2 comparison chart" src="/images/air-quality-and-co2/co2-comparison-chart.svg">
+			</div>
+		</div>
+    <div class="is-stack-20">
+      <h4 class="is-text-center">Examples of air quality monitoring trend analysis uses:</h4>
+    </div>
+    <div class="is-row is-hidden-mobile">
+      {% for item in site.data.co2.trend-analysis %}
+      <div class="is-col is-50">
+        <div class="card-side is-container">
+          <div class="card-img" style="background-image: url('{{ item.icon }}');">
+          </div>
+          <div class="card-content">
+            <h5>{{ item.name }}</h5>
+            <p>{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="is-shown-mobile is-text-center">
+      {% for item in site.data.co2.trend-analysis %}
+        <img alt="{{ item.name }}" class="is-inset-x-20" src="{{ item.icon }}">
+        <h4 class="blue-text">{{ item.name }}</h4>
+        <p>{{ item.description }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<div class="container"><hr></div>
+<section>
+	<div class="container">
+		<div class="is-row is-items-middle is-stack-40">
+			<div class="is-col">
+				<p class="section-subheader">Spook recommended sensors</p>
+				<h4 class="section-header">LoRaWAN NDIR (Non-dispersive infrared) multi-functional sensors</h4>
+        <p>Spook works with any networked based air quality sensor so for organisations that have already invested in sensor hardware they are usually 100% compatible with OmniWatch.</p>
+        <p>If you are new to monitoring and need to source sensors Spook recommends using LoRaWAN devices as they are the most widely used technology for the Internet of Things (IoT). Our most popular sensors are detailed below as Type A and Type B:</p>
+      </div>
+      <div class="is-col">
+        <div class="is-row is-text-center is-stack-20 is-inset-40 is-hidden-mobile">
+          {% for point in site.data.co2.lorawan-points %}
+            <div class="is-col">
+              <img alt="{{ point.name }}" src="{{ point.icon }}">
+              <p><strong>{{ point.name }}</strong></p>
+            </div>
+          {% endfor %}
+        </div>
+        <div class="is-shown-mobile">
+          {% for point in site.data.co2.lorawan-points %}
+            <div class="is-stack-20">
+              <div style="width: 50%; display: inline-block;">
+                <img alt="{{ point.name }}" src="{{ point.icon }}">
+              </div>
+              <div style="width: 50%; display: inline-block; float: right; padding-top: 60px;">
+                <h5>{{ point.name }}</h5>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+			</div>
+    </div>
+    <div class="is-row">
+			<div class="is-col is-stack-40">
+				<div class="card is-border is-shadow-2">
+					<div class="card-img type-a-sensor green"></div>
+					<div class="card-content">
+						<p class="section-subheader">Type A Sensor</p>
+						<h4 class="section-header">Monitored conditions: CO<sub>2</sub>, temperature, humidity, light level and motion detection</h4>
+						<ul>
+              <li>Nondispersive infrared sensor (NDIR)</li>
+							<li>No onboard display panel</li>
+							<li>LED traffic light function</li>
+							<li>Wall mounted</li>
+							<li>Powered by 3.6V AA Lithium batteries (x2)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="is-col is-stack-40">
+				<div class="card is-border is-shadow-2">
+					<div class="card-img type-b-sensor blue"></div>
+					<div class="card-content">
+						<p class="section-subheader">Type B Sensor</p>
+						<h4 class="section-header">Monitored condition: as per Type A plus TVOC & barometric pressure</h4>
+						<ul>
+              <li>Nondispersive infrared sensor (NDIR)</li>
+							<li>E-ink display screen to show the sensor values on the actual unit itself</li>
+							<li>LED traffic light function</li>
+							<li>Buzzer alarm function</li>
+							<li>Wall mounted</li>
+							<li>Powered by AA standard batteries (x2)</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div class="is-stack-40 is-border is-shadow-2">
+      <div class="is-row">
+        <div class="is-col is-33 is-inset-20 orange">
+          <img alt="Wireless cellular and ethernet gateways" src="/images/air-quality-and-co2/gateway.svg">
+        </div>
+        <div class="is-col is-66 is-inset-20">
+          <h3>Wireless cellular and ethernet gateways</h3>
+          <p>Spook recommended gateways come with ethernet and cellular connectivity as standard.</p>
+          <p>Cellular gateways reside in appropriate locations around the building - dictated by the spread of sensors.</p>
+          <p>Sensor data is transmitted over the ethernet network with a cellular backhaul and is encrypted end to end and is sent to Spook's OmniWatch servers.</p>
+          <p>Gateways can be set to cellular operation as priority, ensuring monitoring is independent of the corporate network.</p>
+        </div>
+      </div>
+    </div>
+		<div class="is-text-center">
+			<h3>SIM features</h3>
+			<p>Cellular gateways each have a pre-installed data roaming SIM card.</p>
+		</div>
+		<div class="is-row is-text-center">
+			{% for feature in site.data.co2.sim-features %}
+				<div class="is-col">
+          <img alt="{{ feature.name }}" style="height: 100px;" src="{{ feature.icon }}">
+					<h5>{{ feature.name }}</h5>
+					<p>{{ feature.description }}</p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<section class="spook-blue">
+  <div class="container white-text">
+    {% include omniwatch/key-points.html %}
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-20">
+      <div class="is-col is-40">
+        <h3>Spook 3-tier alarm escalation process</h3>
+        <p>Alerts are sent in real-time and have three stages. At each stage there is a time delay to allow you to acknowledge the alarm.</p>
+        <p>If alarms aren't acknowledged they pass to the next stage, eventually culminating to Spook's UK call centre where an agent is tasked with calling you and your team.</p>
+        <p>Should an alarm be acknowledged before passing to the next stage, the alarm escalation period is ceased and you and your team are emailed to confirm matters.</p> 
+      </div>
+      <div class="is-col is-60">
+        <img alt="Air quality and CO2 alerting service" class="is-stack-20" style="height: 400px;" src="/images/air-quality-and-co2/co2-alerting-chart.svg">
+      </div>
+    </div>
+    <div class="is-row">
+      {% for stage in site.data.alerting.stages %}
+        <div class="is-col">
+          <div style="width: 80px; height: 80px; background-image: url('{{ stage.image }}'); background-size: contain; background-repeat: no-repeat;"></div>
+          <p class="section-subheader">{{ stage.subheader }}</p>
+          <h4 class="section-header">{{ stage.header }}</h4>
+          {% for paragraph in stage.description %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+		<div class="alert is-error is-text-center">OmniWatch is the only monitoring service to escalate alarms to a UK call centre if emails and SMS messages go unanswered.</div>
+  </div>
+</section>
+<section class="grey">
+	<div class="container">
+		<img alt="Health & Safety Executive (HSE)" class="is-stack-20" style="max-width: 140px;" src="/images/solutions/co2-monitoring/hse.svg">
+		<div class="is-row is-stack-60">
+			<div class="is-col">
+        <p>The <b>HSE (Health & Safety Executive)</b> states that organisations need to ensure that indoor areas that have a high influx of people such as; offices, education establishments and other internal areas, must make sure there's an adequate supply of fresh air (ventilation).</p>
+				<p>This can be achieved by natural or mechanical ventilation. This advice has not changed during the Covid-19 pandemic.</p>
+				<p>More information relating to HSE ventilation guidance is available <a href="https://www.hse.gov.uk/coronavirus/equipment-and-machinery/air-conditioning-and-ventilation/index.htm">here</a>.
+				</p>
+			</div>
+			<div class="is-col">
+				<h3>Natural ventilation</h3>
+				<figure>
+					<img alt="What is natural ventilation" src="/images/solutions/co2-monitoring/natural-ventilation.svg">
+					<figcaption>Natural ventilation using windows, doors and vents allows for a room to be supplied fresh air
+						directly from the outside without the need of mechanical equipment.</figcaption>
+				</figure>
+			</div>
+			<div class="is-col">
+				<h3>Mechanical ventilation</h3>
+				<figure>
+					<img alt="What is mechanical ventilation" src="/images/solutions/co2-monitoring/mechanical-ventilation.svg">
+					<figcaption>A mechanical ventilation system with a fresh air intake ensures that CO<sub>2</sub> and other
+						contaminates are removed quickly and replaced with clean air.</figcaption>
+				</figure>
+			</div>
+		</div>
+		<div class="is-row is-items-middle is-stack-60">
+			<div class="is-col is-30 dark-blue-grey white-text is-inset-20 is-stack-20">
+				<h2>Swift identification of poorly ventilated areas</h2>
+        <p>There are many ways to identify poorly ventilated areas however there are three main protagonists. We recommend focusing on any areas that are more likely to have ventilation issues before extending monitoring to other areas.</p>
+			</div>
+			<div class="is-col is-70">
+				<div class="is-row">
+					<div class="is-col">
+						<div class="is-container is-stack-20">
+							<div>
+								<div class="is-text-center circle-number">1</div>
+							</div>
+							<div>
+								<h4>No natural or mechanical ventilation</h4>
+							</div>
+						</div>
+            <p>If an area where people work or spend extended periods of time have neither natural or mechanical ventilation then there is a risk of contaminated air not being removed and an increase chance of exposing them to airborne pathogens.</p>
+					</div>
+					<div class="is-col">
+						<div class="is-container is-stack-20">
+							<div>
+								<div class="is-text-center circle-number">2</div>
+							</div>
+							<div>
+								<h4>No outdoor air supply</h4>
+							</div>
+						</div>
+            <p>If a rooms air is supplied by a mechanical ventilation system that either has no outdoor air supply or is set to incorrectly recirculate a large percentage of air, the risk of exposure is similar to a room that doesn't have any ventilation.</p>
+					</div>
+					<div class="is-col">
+						<div class="is-container is-stack-20">
+							<div>
+								<div class="is-text-center circle-number">3</div>
+							</div>
+							<div>
+								<h4>Stuffy or bad smell</h4>
+							</div>
+						</div>
+            <p>A room that feels stuffy or has a lingering bad smell is a good indication that it lacks adequate ventilation due to the lack of fresh air.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    <div class="is-row is-stack-60">
+      <div class="is-col">
+        <div class="is-row is-items-middle">
+          <div class="is-col is-20">
+            <img alt="Harvard university" src="/images/air-quality-and-co2/harvard-university-logo.svg">
+          </div>
+          <div class="is-col is-80">
+            <h4>Increased productivity</h4>
+            <p>A recent study showed that employees in an environment with all TVOCs removed performed 61% better on cognitive tasks than in the standard office conditions.</p>
+            <p>Furthermore, by introducing improved ventilation as well their cognitive performance increased by more than 100%.</p>
+          </div>
+        </div>
+      </div>
+      <div class="is-col">
+        <div class="is-row is-items-middle">
+          <div class="is-col is-20">
+            <img alt="Government Covid-19 guidelines" src="/images/air-quality-and-co2/government-guidelines.svg">
+          </div>
+          <div class="is-col is-80">
+            <h4>Keep up with government and regulatory guide lines</h4>
+            <p>Councils and the HSE have powers to shut down work areas for not being Covid safe.</p>
+            <p>As guidance evolves applying changes to air quality sensors is important.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+		<h3>How to install a CO<sub>2</sub> sensor</h3>
+		<div class="is-row">
+			<div class="is-col">
+				<img alt="Optimal wall placement for CO2 sensor" src="/images/solutions/co2-monitoring/sensor-wall-placement.svg">
+				<p>Sensors should be mounted within the <strong>breathing zone</strong> which is 4-6ft above the floor on an internal wall.</p>
+				<p>For industrial CO<sub>2</sub> sensors should be mounted in the <strong>floor zone</strong> which is 6 inches above the floor.</p>
+				<p>If possible position the sensor near the centre of the room being monitored using a pillar or other permanent structure.</p>
+			</div>
+			<div class="is-col">
+				<img alt="CO2 sensor placement with ventilation systems" src="/images/solutions/co2-monitoring/sensor-ventilation-placement.svg">
+				<p>Sensors should be positioned away from sources of ventilation (natural and mechanical) as well as heating equipment to stop false values being recorded.</p>
+			</div>
+			<div class="is-col">
+        <img alt="CO2 sensors should be >50cm away from people" src="/images/solutions/co2-monitoring/sensor-person-placement.svg">
+				<p>Sensors should not be located within 50cm of where people sit or work as this can also cause artificially inflated readings to be produced.</p>
+			</div>
+		</div>
+  </div>
+</section>
+<section>
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-20">
+				<h3>Next steps</h3>
+			</div>
+			<div class="is-col is-80">
+				{% include two-types-of-customers.html %}
+			</div>
+		</div>
+</section>
+{% include used-by.html %}
+<section class="brand-second is-text-center">
+	<div class="container">
+		<h2>Get in touch with Spook</h2>
+		<p>Please contact us if you wish for further information on how Spook can help with your air quality and CO<sub>2</sub> monitoring needs.</p>
+		<p><a href="/contact/" class="button">Contact us <span class="caret is-right"></span></a></p>
+	</div>
+</section>
+<section class="grey">
+	<div class="container">
+		<div class="is-row">
+			<div class="is-col is-20">
+				<h3>Resources</h3>
+			</div>
+			<div class="is-col is-80">
+				{% for resource in site.data.co2.references %}
+				<div class="is-row is-items-middle">
+					<div class="is-col is-80">
+						<p class="section-subheader">{{ resource.subheader }}</p>
+						<h4 class="section-header">{{ resource.header }}</h4>
+					</div>
+					<div class="is-col is-20i is-stack-20">
+						<a href="{{ resource.link }}" class="button is-secondary">Read more <span class="caret is-right"></span></a>
+					</div>
+				</div>
+				<div class="is-stack-20 is-border-bottom"></div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

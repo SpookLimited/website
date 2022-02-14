@@ -1,0 +1,20 @@
+- header: Email alerts
+  subheader: Stage 1
+  image: /images/icons/email-icon.svg
+  description:
+    - Email alerts are the first level of communication within OmniWatch. Emails are broadcast the moment an alert condition is discovered and logged.
+    - Emails contain all the information you need to know regarding what has caused the alarm and includes any linked documents such as floor-plans and trend data.
+
+- header: SMS alerts
+  subheader: Stage 2
+  image: /images/icons/sms-icon.svg
+  description:
+    - SMS messages are sent 10 minutes later if no-one has acknowledged the Stage 1 email. The text contains a brief overview of the issue.
+    - Users can confirm receipt of the alarm by replying to the SMS, this ceases the alarm escalation procedure and lets other team members know you are aware of the issue.
+
+- header: UK call centre
+  subheader: Stage 3
+  image: /images/icons/phone-icon.svg
+  description:
+    - Spook's UK call centre manages alerts 10 minutes after the Stage 2 SMS message if no-one has replied to the original text. The agents are tasked with calling customer personnel in-line with the pre-agreed emergency rota.
+    - All call information, for example who was called and at what time they were contacted, are logged within OmniWatch for future reference and audio recordings are available upon request.

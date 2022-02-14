@@ -1,0 +1,11 @@
+- name: Central
+  icon: /images/icons/climate.svg
+  description: Monitor all sensors and devices from one portal accessable from any internet enabled device
+
+- name: Real-time
+  icon: /images/icons/alarms.svg
+  description: Set alarms on business critical metrics and be alerted the moment an issue arises
+
+- name: Reporting
+  icon: /images/icons/report.svg
+  description: All data is held in perpetuity allowing for in-depth trend analysis and incident reporting

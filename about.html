@@ -1,75 +1,52 @@
 ---
 layout: base
 title: About Spook Limited
-page-description: "From Spook's beginnings back in 2003 of purely providing an environmental monitoring solution they
-have grown to deliver a market leading service spanning the monitoring of the environment, power, video and 3rd party
-equipment such as UPS systems, generators, AC Units, fire suppressant and more. Spook include disparate systems that are
-not network attached for a truly enterprise centric solution."
+page-description: From Spook's beginnings back in 2003 of purely providing an environmental monitoring solution they have grown to deliver a market leading service spanning the monitoring of the environment, power, video and 3rd party equipment.
 ---
+<style>
+h4{
+  font-weight: normal;
+}
 
-<div class="section">
+.timeline-item{
+  border-left: 1px solid rgba(17,17,19,.07);
+  padding-left: 10px;
+}
+
+.timeline-item h2::before{
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 7.5px;
+  background-color: #69b6d5;
+  margin-left: -18px;
+  margin-right: 20px;
+}
+</style>
+<header>
   <div class="container">
-    <h1>About Spook</h1>
-    <p>
-      Spook Limited (Spook) was incorporated in 2003. From day one Spook's motto has been "prevention is better than
-      cure". We
-      know from experience that the majority of disaster recovery invocations are based on environmental or power
-      problems,
-      from faulty air con units to water ingress and power outages; it’s as true today as it was back then all those
-      years
-      ago.
-    </p>
-
-    <p>
-      In the early years we focused on a pinch point in the market that the big business continuity players neglected,
-      "disaster avoidance"; and our service has always been targeted towards maximising the uptime of IT departments by
-      alerting them to real-time changes in the critical operating environment of their data centres, computer rooms and
-      IT
-      areas. Although this remains Spook’s predominant customer base our users now extend to many other <a
-        href="/monitoring/industry">industries</a>.
-    </p>
-
-    <p>
-      Spook's secure, remote, cloud based monitoring service called OmniWatch is developed in house to monitor disparate
-      customer equipment centrally. Designed to be manufacturer and equipment protocol independent, OmniWatch provides
-      an easy
-      to use yet powerful interface for remote monitoring.
-    </p>
-
-    <p>
-      OmniWatch is award winning and has won "The Most Innovative Product of the Year" for power monitoring at the
-      annual CIR
-      Business Continuity Awards and recently "Specialist Technology Company of the Year"; for our cellular monitoring
-      solution, ensuring remote monitoring is independent of an organisations network and that a PC is not required to
-      provide
-      leading edge remote monitoring.
-    </p>
-
-    <p>
-      Spook's software development is led by customer feedback and requests which ensures any new features are actually
-      useful
-      to end users. OmniWatch is bespoke, because all of our customers have their own reasons and dynamics for
-      monitoring.
-    </p>
-
-    <p>
-      What seems to be a common thread that is particularly appealing to our customers is that we include building their
-      monitoring dashboard on their behalf, which releases their time and efforts to focus on other pressing projects.
-    </p>
-
-    <p>
-      For those organisations that are considering monitoring for the first time or wish to supplement their existing
-      monitoring, we have a range of over 80 powerful, <a href="/solutions/wireless">wireless sensors</a> to choose
-      from, all are compatible with
-      OmniWatch.
-    </p>
-
-    <p>
-      With over 20 years of motoring experience Spook is well versed in understanding how to handle sensor readings and
-      data
-      and present it in an easy to use, intuitive, always on monitoring solution.
-    </p>
-
-    <p>For a free web demo go <a href="/demo">here</a>.</p>
+    <div class="is-50">
+      <h1>About Spook</h1>
+    </div>
   </div>
-  </section>
+</header>
+<section>
+  <div class="container">
+    {% for item in site.data.about.timeline reversed %}
+    <div class="is-row">
+      <div class="is-col is-20 timeline-item">
+        <h2>{{ item.year }}</h2>
+      </div>
+      <div class="is-col is-80">
+        <div class="is-50 is-border is-shadow-2 is-inset-20 is-stack-60">
+          <h4>{{ item.header}}</h4>
+          {% for paragraphs in item.description %}
+          <p>{{ paragraphs }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

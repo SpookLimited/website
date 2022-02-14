@@ -1,0 +1,23 @@
+- name: Cloud based
+  description: OmniWatch is cloud based and is accessed via any internet enabled device.
+  icon: /images/icons/cloud.svg
+
+- name: 3-tier alarms
+  description: Alarms are handled using Spook's unique 3-tier alarm escalation process.
+  icon: /images/icons/alarms.svg
+
+- name: Digital dashboards
+  description: OmniWatch dashboards are designed to provide user instant and easy access to their monitored locations.
+  icon: /images/icons/secure.svg
+
+- name: Scaleable installations
+  description: Totally scaleable from a handful of sensors to a global solution monitoring 1000s of devices.
+  icon: /images/icons/scalable.svg
+
+- name: Trend analysis
+  description: Data readings are held in perpetuity; providing accurate historical trend analysis.
+  icon: /images/icons/report.svg
+
+- name: Automated reporting
+  description: Comprehensive reports can be scheduled to be auto emailed daily, weekly and monthly.
+  icon: /images/icons/email-icon.svg

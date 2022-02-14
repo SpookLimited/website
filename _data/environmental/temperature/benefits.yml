@@ -1,0 +1,24 @@
+- name: Damage prevention
+  icon: /images/sensor/icons/damage.svg
+  color: red
+  description:
+    - Ensuring that environments remain within the proper temperature range will help to extend the lifespan of equipment, perishable produce and structures.
+    - Catching excessive or fluctuating temperatures and rectifying them before harm can be done will save replacement costs and potential impact to business down the line.
+    - Proactive action and early alerting provides time for replacement plans and maintenance calls to be booked at more convenient times; further reducing negative impact on businesses.
+
+- name: Energy efficiency and cost savings
+  icon: /images/icons/cost-saving.svg
+  color: green
+  description:
+    - Historical data can be used to track energy demands and utilisation of other systems such as air conditioning (AC) units or cooling units within fridges/freezers.
+    - Not only can areas with high demands point towards a previously unknown issue, such as a failing AC unit or broken fan, it can also help plan redistribution of equipment to lower demand areas.
+    - High demand areas can also exist where there is an artificial demand; after equipment is moved or a period of high ambient temperature has passed and cooling hasn't been altered to reflect this.
+    - Artificial demand on cooling can cause excess expense which once rectified can save the business money.
+
+- name: Health and safety and warranty audit
+  icon: /images/icons/data.svg
+  color: blue
+  description:
+    - Often there is a duty to prove equipment or produce or other items are stored at the correct temperature.
+    - With OmniWatch temperature monitoring you are able to produce a report for any time frame covered by your installation as proof of correct environmental conditions.
+    - Unlike most off the shelf monitoring solutions available OmniWatch stores all readings forever rather than just the last 30 days.

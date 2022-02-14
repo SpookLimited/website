@@ -1,0 +1,35 @@
+- name: APC
+  logo: /images/devices/apc.svg
+
+- name: Cummins
+  logo: /images/devices/cummins.svg
+
+- name: Eaton
+  logo: /images/devices/eaton.svg
+
+- name: Emerson
+  logo: /images/devices/emerson.svg
+
+- name: Geist
+  logo: /images/devices/geist.svg
+
+- name: Riello
+  logo: /images/devices/riello-ups.svg
+
+- name: Schneider Electric
+  logo: /images/devices/schneider-electric.svg
+
+- name: UPS Limited
+  logo: /images/devices/ups-ltd.svg
+
+- name: Raritan
+  logo: /images/devices/raritan.svg
+
+- name: IPT
+  logo: /images/devices/ipt.svg
+
+- name: Structure Source
+  logo: /images/devices/structure-source.svg
+
+- name: Olson
+  logo: /images/devices/olson.svg

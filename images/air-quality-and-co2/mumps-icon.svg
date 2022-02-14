@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1191"
+   style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+   xml:space="preserve"
+   version="1.1"
+   viewBox="0 0 800 600"
+   height="100%"
+   width="100%"><metadata
+   id="metadata1197"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs1195" />
+    
+    
+<path
+   id="path828"
+   d="M 400 69.199219 A 81.72773 81.72773 0 0 0 318.27148 150.92578 A 81.72773 81.72773 0 0 0 400 232.6543 A 81.72773 81.72773 0 0 0 446.17773 218.25195 A 35.222672 35.222672 0 0 0 462.07617 222.08789 A 35.222672 35.222672 0 0 0 497.29883 186.86523 A 35.222672 35.222672 0 0 0 481.40234 157.44727 A 81.72773 81.72773 0 0 0 481.72852 150.92578 A 81.72773 81.72773 0 0 0 400 69.199219 z "
+   style="clip-rule:evenodd;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:18.89763832;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" /><path
+   style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:18.89763832;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   d="m 321.8888,277.20816 c -33.40551,1.70231 -57.72589,18.54916 -73.77419,49.18017 l -24.59006,117.16775 c -3.26892,27.82446 1.07827,51.61406 30.37668,62.19704 0,0 27.32665,6.02398 41.22605,7.23423 69.6516,6.06477 140.09383,6.06477 209.74544,0 13.8994,-1.21025 41.22607,-7.23423 41.22607,-7.23423 29.29838,-10.58298 33.64557,-34.37258 30.37667,-62.19704 L 551.88137,326.38833 c -16.04829,-30.63101 -40.36471,-47.47786 -73.77023,-49.18017 h -65.09231 -26.03771 z"
+   id="path832" /></svg>

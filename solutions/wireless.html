@@ -1,12 +1,15 @@
 ---
 layout: base
 title: Wireless monitoring
+page-description: Make monitoring easier with wireless sensors and gateways. No need to run cables or spend time installing monitoring equipment.
 ---
 <header>
   <div class="container">
-    <h3>New to Monitoring or do you want to add to your existing monitoring?</h3>
-    <h1>Spook wireless monitoring</h1>
-    {% include header-buttons.html %}
+    <div class="is-stack-40">
+      <h3>New to Monitoring or do you want to add to your existing monitoring?</h3>
+      <h1>Spook wireless monitoring</h1>
+    </div>
+    <a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a>
   </div>
 </header>
 <section>
@@ -18,22 +21,16 @@ title: Wireless monitoring
       <div class="is-col">
         <h2>Ethernet gateway</h2>
         <h4>Your gateway to seamless wireless sensor monitoring</h4>
-        <p>Spook's ethernet wireless gateways are the key to collecting sensor readings from Spook’s range of wireless
-          sensors
-          without the need for a PC.</p>
-        <p><a href="/solutions/wireless/gateway" class="button">Read more</a></p>
+        <p>Spook's ethernet wireless gateways are the key to collecting sensor readings from Spook's range of wireless sensors without the need for a PC.</p>
+        <p><a href="/solutions/wireless/gateway" class="button is-secondary">Read more <span class="caret is-right"></span></a></p>
       </div>
     </div>
   </div>
 </section>
+<div class="container"><hr></div>
 <section>
   <div class="container">
-    <hr>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-stack-60">
+    <div class="is-50 is-stack-60">
       <h2>Wireless sensors</h2>
       <p>Spook wireless sensors arrive pre-configured and have on-board on/off switches making installation extremely
         easy. Just switch on the sensor and access Spook's secure cloud based remote monitoring service, called
@@ -41,171 +38,19 @@ title: Wireless monitoring
       <p>With over 80 sensor types there is little Spook wireless sensors can not monitor. Here are some of the most
         popular ones.</p>
     </div>
-    <div class="is-row">
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20"
-          onclick="location.href = '/solutions/wireless/sensor/accelerometers-and-vibration-meter'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/vibration.svg');">
-          </div>
-          <p class="is-large">Accelerometers and vibration monitoring</p>
+    <div class="is-row is-stack-60">
+      {% for sensor in site.data.wireless.sensors %}
+        <div class="is-col is-20 is-stack-20 is-text-center is-border is-shadow-2 is-inset-20">
+          <div class="is-inset-20" style="width: 80px; height: 80px; background-image: url('{{ sensor.icon }}'); background-size: contain; background-repeat: no-repeat; background-origin: content-box; margin: 0 auto;"></div>
+          <p><b>{{ sensor.name }}</b></p>
         </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/ac-meter'">
-          <div class="image-holder is-stack-20"
-            style="background-image: url('/images/sensor/icons/alternatingcurrent.svg');"></div>
-          <p class="is-large">Alternating current (AC) monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/air-quality'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/air-quality.svg');">
-          </div>
-          <p class="is-large">Air quality monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/airflow'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/airflow.svg');">
-          </div>
-          <p class="is-large">Airflow monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/boundary-and-ir'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/ir.svg');"></div>
-          <p class="is-large">Boundary and IR monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/button-press'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/button-press.svg');">
-          </div>
-          <p class="is-large">Button press monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/dew-point'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/dewpoint.svg');">
-          </div>
-          <p class="is-large">Dew point monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/dry-contact'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/drycontact.svg');">
-          </div>
-          <p class="is-large">Dry contact monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/food-probe'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/food-probe.svg');">
-          </div>
-          <p class="is-large">Food probe monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/gasses'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/gas.svg');"></div>
-          <p class="is-large">Gas monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/humidity'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/humidity.svg');">
-          </div>
-          <p class="is-large">Humidity monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/light-meters'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/light.svg');"></div>
-          <p class="is-large">Light meter monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/motion'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/motion.svg');"></div>
-          <p class="is-large">Motion monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/open-closed'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/door.svg');"></div>
-          <p class="is-large">Open/closed monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/pressure'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/pressure.svg');">
-          </div>
-          <p class="is-large">Pressure monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/propane-level'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/propane.svg');">
-          </div>
-          <p class="is-large">Propane monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/soil-moisture'">
-          <div class="image-holder is-stack-20"
-            style="background-image: url('/images/sensor/icons/soil-moisture.svg');">
-          </div>
-          <p class="is-large">Soil moisture monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/temperature'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/temperature.svg');">
-          </div>
-          <p class="is-large">Temperature monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/thermocouple'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/thermocouple.svg');">
-          </div>
-          <p class="is-large">Thermocouple monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/three-phase-current'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/threephase.svg');">
-          </div>
-          <p class="is-large">3 phase current monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/vehicle-detection'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/vehicle.svg');">
-          </div>
-          <p class="is-large">Vehicle detection</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/voltage-meter'">
-          <div class="image-holder is-stack-20"
-            style="background-image: url('/images/sensor/icons/directcurrent.svg');"></div>
-          <p class="is-large">Volts direct current (VDC) monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 is-border is-shadow-2 sensor-block">
-        <div class="is-inset-20" onclick="location.href = '/solutions/wireless/sensor/water'">
-          <div class="image-holder is-stack-20" style="background-image: url('/images/sensor/icons/water.svg');"></div>
-          <p class="is-large">Water monitoring</p>
-        </div>
-      </div>
-      <div class="is-col is-25 is-stack-60 sensor-block"></div>
+      {% endfor %}
     </div>
     <div class="is-row is-items-middle">
-      <div class="is-col">
+      <div class="is-col is-10">
         <img alt="Secure monitoring solution" src="/images/icons/secure.svg">
       </div>
-      <div class="is-col">
+      <div class="is-col is-90">
         <h2>Wireless sensors security</h2>
         <p>Where other devices operate on non-proprietary communication protocols (Wi-Fi, Bluetooth, Zigbee), Spook
           wireless

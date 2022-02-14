@@ -4,300 +4,157 @@ title: Cloud based monitoring and alerting service
 page-description: "By giving organisations early warnings to harmful events that could impact the continued running of
 their business gives them valuable thinking and reaction time."
 ---
-<header class="site-header">
+<style>
+.header-banner{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/homepage-banner-2.png');
+  #background-image: url('/images/banner/homepage-banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+.header-banner h1, .header-banner h3{
+  font-weight: normal;
+}
+
+.card > .card-img.server-room{
+ background-image: url('/images/it-rooms-and-facilities/server-room-banner.jpg');
+}
+
+.card > .card-img.co2-monitoring{
+  background-image: url('/images/solutions/co2-monitoring/co2-monitoring-banner.jpg');
+}
+
+.customer-logo{
+	height: 100px;
+	padding: 1em .5em;
+}
+</style>
+<section class="header-banner">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col">
-        <img alt="Spook OmniWatch" class="banner-logo" src="/images/omniwatch-logo.svg">
+        <div class="is-stack-40">
+          <h1>Spook B2B professional remote monitoring since 2003</h1>
+          <p class="is-large">Secure cloud based monitoring for offices, IT rooms and facilities departments.</p>
+        </div>
+        <a class="button" href="/contact">Get in touch <span class="caret is-right"></span></a>
       </div>
-      <div class="is-col" style="background-color: #fff; padding: 1.5em;">
-        <div class="is-stack-20">
-          <h5 style="text-transform: uppercase;">Secure remote cloud based monitoring</h5>
-          <h1>OmniWatch</h1>
-          <p class="is-big">Taking remedial action at the early stages of an alert lets organisations contain a
-            situation and fix it before it causes service disruption.</p>
-        </div>
-        {% include header-buttons.html %}
-      </div>
-    </div>
-  </div>
-</header>
-<section>
-  <div class="container">
-    <div class="slider">
-      <div class="slider-row"></div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row">
-      <div class="is-col is-20"></div>
-      <div class="is-col is-60 is-text-center">
-        <h2>24/7 real-time monitoring and alerting.</h2>
-        <p><strong>Prevention is better than cure</strong> has been Spook's motto from day one. By installing sensors or
-          monitoring existing equipment OmniWatch sends alarms in real-time via email, 2-way SMS and UK call centres.
-        </p>
-        <a href="/omniwatch/alerting" class="button is-secondary">More about alerting</a>
-        <img alt="Alerting service" class="alert-icon" src="/images/icons/alert-service.svg">
-      </div>
-      <div class="is-col is-20"></div>
-    </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row">
-      <div class="is-col is-30">
-        <ul class="tab-list">
-          <li class="active">
-            <a class="tab-control" href="#dashboard-tab">
-              <img alt="OmniWatch dashboards" src="/images/icons/remote-working.svg"
-                style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>Dashboards</strong>
-            </a>
-          </li>
-          <li>
-            <a class="tab-control" href="#alerting-tab">
-              <img alt="OmniWatch alarms" src="/images/icons/alarms.svg"
-                style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>Alerting</strong>
-            </a>
-          </li>
-          <li>
-            <a class="tab-control" href="#reporting-tab">
-              <img alt="OmniWatch reports" src="/images/icons/report.svg"
-                style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>Reporting</strong>
-            </a>
-          </li>
-          <li>
-            <a class="tab-control" href="#change-logs-tab">
-              <img alt="OmniWatch change logs" src="/images/icons/data.svg"
-                style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>Change
-                logs</strong>
-            </a>
-          </li>
-          <li>
-            <a class="tab-control" href="#installation-plans-tab">
-              <img alt="OmniWatch installation plans" src="/images/omniwatch/installation-plans.svg"
-                style="display:inline-block; max-width: 40px; max-height: 40px; padding-right: 1em;"><strong>Installation
-                plans</strong>
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="is-col is-70">
-        <div class="tab-panel active" id="dashboard-tab">
-          <img alt="OmniWatch dashboards screen" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
-          <p>
-            OmniWatch's digital dashboards are secure and are immediately available 24/7. Designed to be the central
-            repository for
-            all things monitored, the dashboards come pre-configured in handy portals for easy navigation, reporting and
-            alerting.
-          </p>
-          <p>
-            Dashboard's are bespoke and designed by Spook and with nearly two decades of experience users can relax,
-            knowing the end
-            result will be intuitive and easy to use.
-          </p>
-          <a href="/omniwatch/dashboard" class="button is-secondary">View more</a>
-        </div>
-        <div class="tab-panel" id="alerting-tab">
-          <img alt="OmniWatch alerts screen" class="is-shadow-2" src="/images/omniwatch/alert-view.svg">
-          <p>The main reason organisations install remote monitoring is to be alerted to unusual sensor and equipment
-            activity.</p>
-          <p>
-            OmniWatch has a three-tier emergency contact process. It uses familiar technology to broadcast alerts via
-            email and
-            2-way SMS. However, end users are human and they can sometimes miss an email or text. In the unlikely event
-            alerts go
-            unnoticed they are escalated to Spook's UK call centre where agents contact emergency staff on landlines or
-            alternative
-            mobile numbers.
-          </p>
-          <a href="/omniwatch/alerting" class="button is-secondary">View more</a>
-        </div>
-        <div class="tab-panel" id="reporting-tab">
-          <img alt="OmniWatch reports screen" class="is-shadow-2" src="/images/homepage/omniwatch-screen.svg">
-          <p>
-            OmniWatch sensor readings are sent to Spook's servers 24/7. Unlike the majority of 3rd party hardware that
-            use data
-            loggers that delete readings after a short time, OmniWatch holds all readings in perpetuity. These readings
-            are
-            converted to trend data in OmniWatch on-demand reports.
-          </p>
-          <p>
-            On-demand reports come in handy bite-sized timeframes e.g. weekly, monthly etc. Users can customise a report
-            by
-            condensing or expanding its time-line.
-          </p>
-          <a href="/omniwatch/reporting" class="button is-secondary">View more</a>
-        </div>
-        <div class="tab-panel" id="change-logs-tab">
-          <img alt="OmniWatch change logs screen" class="is-shadow-2" src="/images/omniwatch/omniwatch-change-logs.svg">
-          <p>
-            Spook understands it is important to log all changes to OmniWatch for audit purposes. As amendments are
-            made, whether it
-            is a sensor related field, for example changing the alarm trip value; to changing a contact related field,
-            for example
-            updating a mobile phone number, each is date and time stamped and is annotated with who made the change and
-            for what
-            reason.
-          </p>
-          <p>Amendments can also be auto-emailed in real-time so users don't need to logon and scrutinise log files.</p>
-          <a href="/omniwatch/change-logs" class="button is-secondary">View more</a>
-        </div>
-        <div class="tab-panel" id="installation-plans-tab">
-          <img alt="OmniWatch installation plans screen" class="is-shadow-2"
-            src="/images/homepage/installation-plans.svg">
-          <p>
-            Spook designs and publishes installation plans free of charge showing the location of each sensor or piece
-            of monitored
-            equipment. Everything is given a unique friendly name which is referenced in any alerts, for swift fault
-            identification.
-            If the area that is being monitored changes, a new installation plan is published to reflect matters.
-          </p>
-          <p>Installation plans are posted to each on-line monitored location for easy identification of monitored
-            conditions.</p>
-          <a href="/omniwatch/installation-plans" class="button is-secondary">View more</a>
-        </div>
+      <div class="is-col">
+        <!--<img src="/images/solutions/co2-monitoring/co2-vs-motion.png">-->
       </div>
     </div>
   </div>
 </section>
-<div class="container">
-  <hr>
+<div class="is-inset-y-20 black">
+  <div class="container">
+    <div class="is-container is-items-middle">
+      <div class="announcement-block is-50 white-text">
+        <p><b>News:</b> New indoor air quality monitoring to limit the spread of Covid-19 and other aerosol related infections.</p>
+      </div>
+      <div class="is-push-right"><a class="button" href="/monitoring/air-quality-and-co2">Learn more <span class="caret is-right"></span></a></div>
+    </div>
+  </div>
 </div>
-<section class="introduction-section">
+<section>
   <div class="container">
     <div class="is-row is-items-middle is-stack-40">
-      <div class="is-col is-40">
-        <div
-          style="width: 100%; height: 250px; background-image: url('/images/cir-award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
-        </div>
-        <p class="is-text-center"><strong>'Specialist Technology Company of the Year'<br>2020 Winner</strong><br>CIR
-          Business Continuity Awards</p>
+      <div class="is-col is-50">
+        <p class="section-subheader">Monitoring specialists</p>
+        <h4 class="section-header">OmniWatch is Spook's remote monitoring software solution.</h4>
+        <p class="is-big">Designed to be the central repository for all things monitored; OmniWatch is the professionals first choice for monitoring the broadest range of sensors and equipment types.</p>
       </div>
-      <div class="is-col is-60">
-        <h2>What makes us different?</h2>
-        <p>Spook has specialised in remote monitoring for nearly two decades. OmniWatch is designed to monitor and alert
-          users to business threatening events 24/7.</p>
-        <p>OmniWatch comes pre-configured for a hassle free, intuitive, immediate service. Try it for free, just contact
-          us and we will do the rest.</p>
-        <p><a href="/contact/" class="button is-secondary">Contact us</a></p>
+      <div class="is-col is-50">
+        <div class="is-row is-items-middle">
+          <div class="is-col is-20">
+            <div style="width: 100%; height: 100px; background-image: url('/images/icons/award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
+          </div>
+          <div class="is-col is-80">
+            <p>Voted <b>Most Innovative Solution of the Year</b> and <b>Specialist Technology Company of the Year</b> at the annual Business Continuity Awards.</p>
+          </div>
+        </div>
       </div>
     </div>
     <div class="is-row">
-      <div class="is-col is-50">
-        <div class="is-row is-items-middle">
-          <div class="is-col is-30">
-            <img alt="Monitor anything" src="/images/icons/monitor-all.svg">
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img co2-monitoring"></div>
+          <div class="card-content">
+            <h3>Indoor air quality monitoring</h3>
+            <p>For organisations that need to provide safe and healthy indoor environments.</p>
+            <p>Reduce employee and student anxiety by monitoring CO<sub>2</sub> for Covid-19 and other aerosol related infections.</p>
+            <p>Increase productivity by measuring temperature, humidity, light and more for a more productive and greener office experience.</p>
           </div>
-          <div class="is-col is-70">
-            <h3>Monitor anything</h3>
-            <p>Being protocol independent and hardware neutral means we can monitor most things. By using a single,
-              cohesive interface to monitor disparate equipment makes comparing sensors across multiple equipment types
-              easy and intuitive.</p>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-50">
-        <div class="is-row is-items-middle">
-          <div class="is-col is-30">
-            <img alt="Focus on monitoring" src="/images/icons/focus.svg">
-          </div>
-          <div class="is-col is-70">
-            <h3>100% focus on monitoring</h3>
-            <p>Everything we do is focused on monitoring, expanding hardware support and improving data visualisation.
-              All software development is based on customer feedback making any new features meaningful and useful to
-              users.</p>
+          <div class="card-footer">
+            <a href="/monitoring/air-quality-and-co2">Explore air quality monitoring <span class="caret is-right"></span></a>
           </div>
         </div>
       </div>
-      <div class="is-col is-50">
-        <div class="is-row is-items-middle">
-          <div class="is-col is-30">
-            <img alt="Bespoke service" src="/images/icons/bespoke.svg">
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img server-room"></div>
+          <div class="card-content">
+            <h3>IT room & facility monitoring</h3>
+            <p>Maximise business uptime, increase equipment reliability and reduce operating costs by monitoring the environmental and power conditions for rooms containing key equipment.</p>
+            <p>Extend monitoring to include disparate equipment that is important across the whole enterprise.</p>
           </div>
-          <div class="is-col is-70">
-            <h3>Bespoke service</h3>
-            <p>We understand you are busy and although monitoring may be important you may not have the time or appetite
-              to spend designing how things work. We work with you to setup, customise, evolve and maintain your
-              monitoring installation.</p>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-50">
-        <div class="is-row is-items-middle">
-          <div class="is-col is-30">
-            <img alt="Data in perpetuity" src="/images/icons/infinite.svg">
-          </div>
-          <div class="is-col is-70">
-            <h3>Data in perpetuity</h3>
-            <p>Sensor and data readings are held in perpetuity; providing accurate historical trend analysis for load
-              balancing projects, preventative maintenance programs and protecting equipment warranties.</p>
+          <div class="card-footer">
+            <a href="/monitoring/it-rooms-and-facilities">Explore IT monitoring <span class="caret is-right"></span></a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section>
-  <div class="container is-text-center">
-    <div class="grey is-border is-inset-20">
-      <h2>Are you new to monitoring or do you want to supplement your monitoring?</h2>
-      <p>
-        Spook customers range from businesses that already have monitoring to organisations that are considering
-        monitoring for the first time.
-        Either way Spook can help.
-      </p>
-      <ul class="is-bar" style="margin-top: 20px;">
-        <li><a class="button is-quaternary" href="/quote-request.html">Request quote</a></li>
-        <li><a class="button is-secondary" href="/trial-request">Request trial</a></li>
-      </ul>
-    </div>
-  </div>
+<section class="spook-blue white-text">
+	<div class="container">
+    {% include omniwatch/key-points.html %}
+	</div>
 </section>
-{% include monitoring/key-footer.html %}
 <section class="grey">
   <div class="container">
-    <div class="is-row">
-      {% for post in site.posts | limit: 3 %}
-      <div class="is-col">
-        <div class="is-border is-inset-20 is-stack-20" style="min-height: 100%; background-color: #fff;">
-          <h5>News</h5>
-          <div
-            style="height: 200px; min-width: 100%; background-color: #212121; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; margin-bottom: 14px;">
-          </div>
-          <p>{{ post.date | date_to_string }}</p>
-          <p class="is-large"><strong><a style="color: #000; text-decoration: none;" href="{{ post.permalink }}">{{
-                post.title }}</a></strong></p>
-          <p>{{ post.page-description | truncate_words: 20 }}</p>
+    <div class="is-stack-40 is-text-center">
+      <h3>How we do things differently</h3>
+      <p class="is-big">Since our inception our motto has always been <b>prevention is better than cure</b>.<br>Our pedigree is outstanding and ensures we continually deliver a market leading, multi-award winning service.</p>
+      <p><a href="/about" class="button is-secondary">Read more about Spook <span class="caret is-right"></span></a></p>
+    </div>
+    <div class="is-text-center is-shown-mobile">
+      {% for item in site.data.home.how-we-are-different %}
+        <img style="width: 50vw;" alt="{{ item.alt-text }}" src="{{ item.icon }}">
+        <div class="is-inset-x-20 is-stack-40">
+          <h4>{{ item.name }}</h4>
+          <p>{{ item.description }}</p>
         </div>
-      </div>
+      {% endfor %}
+    </div>
+    <div class="is-row is-hidden-mobile">
+      {% for item in site.data.home.how-we-are-different %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="is-row is-items-middle">
+            <div class="is-col is-30">
+              <img alt="{{ item.alt-text }}" src="{{ item.icon }}">
+            </div>
+            <div class="is-col is-70">
+              <h4>{{ item.name }}</h4>
+              <p>{{ item.description }}</p>
+            </div>
+          </div>
+        </div>
       {% endfor %}
     </div>
   </div>
 </section>
-{% include contact-us.html %}
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script>
-  $('.tab-list').each(function () {
-    var $this = $(this);
-    var $tab = $this.find('li.active');
-    var $link = $tab.find('a');
-    var $panel = $($link.attr('href'));
-
-    $this.on('click', '.tab-control', function (e) {
-      e.preventDefault();
-      var $link = $(this);
-      var id = this.hash;
-
-      if (id && !$link.is('.active')) {
-        $panel.removeClass('active');
-        $tab.removeClass('active');
-
-        $panel = $(id).addClass('active');
-        $tab = $link.parent().addClass('active');
-      }
-    });
-  });
-</script>
+<section>
+	<div class="container">
+   {% include two-types-of-customers.html %}
+  </div>
+</section>
+{% include used-by.html %}
+<section class="header-banner is-text-center">
+	<div class="container">
+		<h2>Get in touch with Spook</h2>
+    <p class="is-big">Contact us for further information on how Spook can help with your monitoring requirements.</p>
+    <p><a href="/contact/" class="button">Contact us <span class="caret is-right"></span></a></p>
+	</div>
+</section>

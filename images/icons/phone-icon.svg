@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 54 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g transform="matrix(1,0,0,1,-63.8779,-290.737)">
-        <g transform="matrix(1,0,0,1,-214.4,200.462)">
-            <path d="M329.426,139.884C308.107,146.878 273.295,109.364 282.208,92.775L296.748,92.799C297.787,97.207 298.349,101.739 298.356,106.416L293.93,111.253C294.722,115.056 305.771,126.535 310.948,128.163L315.785,123.736C320.462,123.743 324.994,124.306 329.402,125.344L329.426,139.884Z" style="fill:none;stroke:black;stroke-width:5px;"/>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 52.916666 52.916666"
+   height="200"
+   width="200">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-244.08334)"
+     id="layer1">
+    <g
+       transform="matrix(0.75244616,0,0,0.75244616,6.2788552,250.61157)"
+       id="g941"
+       style="clip-rule:evenodd;fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-width:2.8130473;stroke-dasharray:none;stroke:#333333;stroke-opacity:1">
+      <g
+         style="stroke-width:2.8130473;stroke-miterlimit:4;stroke-dasharray:none;stroke:#333333;stroke-opacity:1"
+         transform="translate(-63.8779,-290.737)"
+         id="g928">
+        <g
+   style="stroke-width:2.8130473;stroke-miterlimit:4;stroke-dasharray:none;stroke:#333333;stroke-opacity:1"
+   transform="translate(-214.4,200.462)"
+   id="g926">
+            <path
+   d="m 329.426,139.884 c -21.319,6.994 -56.131,-30.52 -47.218,-47.109 l 14.54,0.024 c 1.039,4.408 1.601,8.94 1.608,13.617 l -4.426,4.837 c 0.792,3.803 11.841,15.282 17.018,16.91 l 4.837,-4.427 c 4.677,0.007 9.209,0.57 13.617,1.608 z"
+   style="fill:none;stroke:#333333;stroke-width:2.8130473;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+   id="path924" />
+
         </g>
+
     </g>
+    </g>
+  </g>
 </svg>

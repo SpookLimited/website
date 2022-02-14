@@ -5,173 +5,154 @@ page-description: "Temperature monitoring is an important measurement for climat
 commonly measured condition of all environmental states. Whether you need to know if it's too hot, too cold or simply
 that there is a rapid change; measuring the activity of temperature is key to climate monitoring."
 ---
+<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-50">
+        <div class="is-stack-40">
+          <h1>Temperature monitoring</h1>
+        </div>
+        <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
+      </div>
+      <div class="is-col is-50">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+      </div>
+    </div>
+  </div>
+</section>
+<div class="is-inset-y-8 is-inset-y-20-mobile black is-text-center-mobile">
+  <div class="container">
+    <div class="is-container is-items-middle">
+      <div class="announcement-block is-50 white-text">
+        <p><b>News:</b> New indoor air quality monitoring to limit the spread of Covid-19 and other aerosol related infections.</p>
+      </div>
+      <div class="is-push-right is-hidden-mobile">
+        <a class="button" href="/monitoring/air-quality-and-co2">Learn more <span class="caret is-right"></span></a>
+      </div>
+      <div style="margin: 0 auto;">
+        <a class="button is-shown-mobile" href="/monitoring/air-quality-and-co2">Learn more <span class="caret is-right"></span></a>
+      </div>
+    </div>
+  </div>
+</div>
 <section>
-    <div class="container">
+  <div class="container">
+     <div class="is-row is-items-middle is-stack-40">
+        <div class="is-col is-50">
+          <p class="section-subheader">Monitoring specialists</p>
+          <h4 class="section-header">The importance of temperature monitoring and the benefits it offers</h4>
+          <p class="is-big">Incorrect temperatures can cause harm to a wide range of electrical equipment, ruin produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
+        </div>
+        <div class="is-col is-50">
+          {% include awards.html %}
+        </div>
+      </div>
+      <div class="is-row">
+        {% for benefit in site.data.environmental.temperature.benefits %}
+          <div class="is-col is-50 is-stack-40">
+            <div class="card is-border is-shadow-2">
+              <div class="card-content">
+                <h3>{{ benefit.name }}</h3>
+                {% for paragraph in benefit.description %}
+                  <p>{{ paragraph }}</p>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        {% endfor %} 
+      </div>
+      <div class="grey is-border is-inset-20">
         <div class="is-row is-items-middle">
-            <div class="is-col is-40">
-                <h3>Real-time data collection</h3>
-                <h1>Temperature monitoring</h1>
-                <p>Temperature monitoring is one of the most important and, therefore, common metrics that people
-                    monitor. Incorrect temperatures can cause harm to a wide range of electrical equipment, ruin
-                    produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
-                {% include header-buttons.html %}
-            </div>
-            <div class="is-col is-60">
-                <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
-            </div>
+          <div class="is-col is-20">
+            <img alt="Temperature monitoring" src="/images/sensor/temperature.svg">
+          </div>
+          <div class="is-col is-80">
+            <h2>No existing monitoring?</h2>
+            <p>Spook will work with you to identify what your monitoring needs are, secure the required hardware and install it. With nearly 20 years in the industry Spook is one of the leading experts in all things monitoring and are always expanding existing solutions to cater for each individual requirement and challenge it brings.</p>
+            <a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a>
+          </div>
         </div>
-    </div>
+      </div>
+  </div>
 </section>
+<div class="container"><hr></div>
 <section>
-    <div class="container">
-        <div class="is-row">
-            <div class="is-col is-20">
-                <h2>The importance of temperature monitoring and the benefits it offers</h2>
-            </div>
-            <div class="is-col is-80">
-                <h3>1. Damage prevention</h3>
-                <p>Ensuring that environments remain within the proper temperature range will help to extend the
-                    lifespan of equipment, perishable produce and structures. Catching excessive or fluctuating
-                    temperatures and rectifying them before harm can be done will save replacement costs and potential
-                    impact to business down the line.</p>
-                <p>Proactive action and early alerting provides time for replacement plans and maintenance calls to be
-                    booked at more convenient times; further reducing negative impact on businesses.</p>
-                <h3>2. Energy efficiency and cost savings</h3>
-                <p>Historical data can be used to track energy demands and utilisation of other systems such as air
-                    conditioning (AC) units or cooling units within fridges/freezers. Not only can areas with high
-                    demands point towards a previously unknown issue, such as a failing AC unit or broken fan, it can
-                    also help plan redistribution of equipment to lower demand areas.</p>
-                <p>High demand areas can also exist where there is an artificial demand; after equipment is moved or a
-                    period of high ambient temperature has passed and cooling hasn't been altered to reflect this (<a
-                        href="/omniwatch/change-logs">also
-                        see change logs to track historical changes
-                    </a>). Artificial demand on cooling can cause excess expense
-                    which once rectified can save the business money.</p>
-                <h3>3. Health and safety and warranty audit</h3>
-                <p>Often there is a duty to prove equipment or produce or other items are stored at the correct
-                    temperature. With OmniWatch temperature monitoring you are able to produce a report for any time
-                    frame covered by your installation as proof of correct environmental conditions. Unlike most off the
-                    shelf monitoring solutions available OmniWatch stores all readings forever rather than just the last
-                    30 days.</p>
-            </div>
-        </div>
+	<div class="container">
+    {% include omniwatch/key-points.html %}
+    <div class="is-row is-items-middle">
+      <div class="is-col is-30">
+        <img alt="Seven media" src="/images/customer-logo/seven-media-sector-image.png">
+      </div>
+      <div class="is-col is-70">
+        <blockquote>
+          <p>We were experiencing unusual temperature fluctuations in our server room and comms room over weekends.</p>
+          <p>We compared the trend data of our temperature sensors over a 12-month period with the help of OmniWatch's on-demand report function and spotted trends over the weekends whereby our IT rooms suffered regular unplanned increases in temperature.</p>
+          <p>We could create a report showing this trend data and share that with the Facilities team in-order to illustrate the problem and resolve matters.</p>
+          <p class="is-small">SevenC3 - Europe's largest content marketing network.</p>
+        </blockquote>
+      </div>
     </div>
+  </div>
 </section>
-<section>
-    <div class="container">
-        <div class="grey is-border is-inset-20">
-            <div class="is-row is-items-middle">
-                <div class="is-col is-20">
-                    <img alt="Temperature monitoring" src="/images/sensor/temperature.svg">
-                </div>
-                <div class="is-col is-80">
-                    <h2>No existing monitoring?</h2>
-                    <p>Spook will work with you to identify what your monitoring needs are, secure the required hardware
-                        and install it. With nearly 20 years in the industry Spook is one of the leading experts in all
-                        things monitoring and are always expanding existing solutions to cater for each individual
-                        requirement and challenge it brings.</p>
-                    <a class="button" href="/solutions/wireless/sensor/temperature">Wireless temperature monitoring</a>
-                </div>
-            </div>
-        </div>
+<section class="grey">
+  <div class="container">
+    <div class="is-row is-stack-40">
+      <div class="is-col">
+        <h2>Fun fact</h2>
+        <h3>Definition of temperature</h3>
+        <p>The temperature of something is the result of the speed at which molecules move on an object. The more volatile the movement equates to a higher temperature being measured.</p>
+        <p>SI is the International System of Units established in 1960 and adopted by all the major countries of the world.</p>
+        <p><a class="button is-secondary" href="https://www.bipm.org/en/measurement-units/">Find out more about SI <span class="caret is-right"></span></a>.</p>
+      </div>
+      <div class="is-col is-text-center">
+        <img alt="SI temperature monitoring" style="max-height: 300px;" src="/images/omniwatch/temperature-monitoring/si.svg">
+      </div>
     </div>
-</section>
-{% include omniwatch/key-components.html %}
-<section class="container">
-    <hr>
-</section>
-<section>
-    <div class="container">
-        <div class="is-row is-items-middle">
-            <div class="is-col is-30">
-                <img alt="Seven media" src="/images/customer-logo/seven-media-sector-image.png">
-            </div>
-            <div class="is-col is-70">
-                <blockquote>
-                    <p>We were experiencing unusual temperature fluctuations in our server room and comms room over
-                        weekends.</p>
-                    <p>We compared the trend data of our temperature sensors over a 12-month period with the help of
-                        OmniWatch's on-demand report function and spotted trends over the weekends whereby our IT rooms
-                        suffered regular unplanned increases in temperature.</p>
-                    <p>We could create a report showing this trend data and share that with the Facilities team in-order
-                        to illustrate the problem and resolve matters.</p>
-                    <p class="is-small">SevenC3 - Europe's largest content marketing network.</p>
-                </blockquote>
-            </div>
+    <div class="is-stack-40">
+      <div class="is-row">
+        <div class="is-col is-20">
+          <p class="is-large"><strong>Kelvin (K)</strong></p>
         </div>
-    </div>
-</section>
-<section class="container">
-    <hr>
-</section>
-<section>
-    <div class="container">
-        <div class="is-row">
-            <div class="is-col">
-                <img alt="SI temperature monitoring" src="/images/omniwatch/temperature-monitoring/si.svg">
-            </div>
-            <div class="is-col">
-                <h2>Definition of temperature</h2>
-                <p>The temperature of something is the result of the speed at which molecules move on an object. The
-                    more volatile the movement equates to a higher temperature being measured.</p>
-                <p>SI is the International System of Units established in 1960 and adopted by all the major countries of
-                    the world. <a href="https://www.bipm.org/en/measurement-units/">Find out more about SI</a>.</p>
-                <div class="is-row">
-                    <div class="is-col is-20">
-                        <p class="is-large"><strong>Kelvin (K)</strong></p>
-                    </div>
-                    <div class="is-col is-80">
-                        <p>Kelvin is the base unit of temperature in the International System of Units (SI). Celsius
-                            shares the same magnitude of change as Kelvin so ±1K is equal to ±1°C.</p>
-                        <p>Kelvin's lowest value is 0K, absolute zero, and can go up to the theoretical limit of
-                            10<sup>32</sup>K which is the highest temperature we believe possible according to the
-                            standard model of particle physics.</p>
-                    </div>
-                </div>
-                <div class="is-row">
-                    <div class="is-col is-20">
-                        <p class="is-large"><strong>Celsius (°C)</strong></p>
-                    </div>
-                    <div class="is-col is-80">
-                        <p>Celsius, originally known as the centigrade, is based on 0°C for the freezing point of water
-                            and 100°C for the boiling point of water at 1 standard atmospherical pressure. Absolute zero
-                            is defined as exactly -273.15°C.</p>
-                    </div>
-                </div>
-                <div class="is-row">
-                    <div class="is-col is-20">
-                        <p class="is-large"><strong>Fahrenheit (°F)</strong></p>
-                    </div>
-                    <div class="is-col is-80">
-                        <p>Fahrenheit was the first standardised temperature scale to be used but has been phased out by
-                            the metric system and Celsius. It is based on 32°F being the freezing point of water and
-                            212°F for the boiling point of water at 1 standard atmospherical pressure.</p>
-                    </div>
-                </div>
-            </div>
+        <div class="is-col is-80">
+          <p>Kelvin is the base unit of temperature in the International System of Units (SI). Celsius shares the same magnitude of change as Kelvin so ±1K is equal to ±1°C.</p>
+          <p>Kelvin's lowest value is 0K, absolute zero, and can go up to the theoretical limit of 10<sup>32</sup>K which is the highest temperature we believe possible according to the standard model of particle physics.</p>
         </div>
-    </div>
-</section>
-<section class="block">
-    <div class="container">
-        <div class="is-row">
-            <div class="is-col is-40">
-                <div
-                    style="min-height: 100%; background-image: url('/images/monitoring/environmental/lord-kelvin.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-                </div>
-            </div>
-            <div class="is-col is-60">
-                <h3>Lord Kelvin</h3>
-                <p>The Kelvin temperature scale was created by a British inventor and scientist called William Thomson
-                    (later Lord Kelvin). In the 1800s Lord Kelvin helped prove the theory that the volume and
-                    temperature of a gas share a relationship.</p>
-                <p>Lord Kelvin patented over 70 inventions during his life-time and was instrumental in the laying of
-                    the first transatlantic telegraph cable. Because of this that he was knighted by Queen Victoria in
-                    1866. The Baron was raised to peerage in the 1890s and William Thompson was elevated to the title
-                    known as Lord Kelvin of Largs.</p>
-                <p>William Thompson (Lord Kelvin) (B: 26<sup>th</sup> June 1824 – D: 17<sup>th</sup> December 1907)</p>
-            </div>
+      </div>
+      <div class="is-row">
+        <div class="is-col is-20">
+          <p class="is-large"><strong>Celsius (°C)</strong></p>
         </div>
+        <div class="is-col is-80">
+          <p>Celsius, originally known as the centigrade, is based on 0°C for the freezing point of water and 100°C for the boiling point of water at 1 standard atmospherical pressure. Absolute zero is defined as exactly -273.15°C.</p>
+        </div>
+      </div>
+      <div class="is-row">
+        <div class="is-col is-20">
+          <p class="is-large"><strong>Fahrenheit (°F)</strong></p>
+        </div>
+        <div class="is-col is-80">
+          <p>Fahrenheit was the first standardised temperature scale to be used but has been phased out by the metric system and Celsius. It is based on 32°F being the freezing point of water and 212°F for the boiling point of water at 1 standard atmospherical pressure.</p>
+        </div>
+      </div>
     </div>
+    <div class="is-row">
+      <div class="is-col is-40">
+        <div style="min-height: 100%; background-image: url('/images/monitoring/environmental/lord-kelvin.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+        </div>
+      </div>
+      <div class="is-col is-60">
+        <h3>Lord Kelvin</h3>
+        <p>The Kelvin temperature scale was created by a British inventor and scientist called William Thomson (later Lord Kelvin). In the 1800s Lord Kelvin helped prove the theory that the volume and temperature of a gas share a relationship.</p>
+        <p>Lord Kelvin patented over 70 inventions during his life-time and was instrumental in the laying of the first transatlantic telegraph cable. Because of this that he was knighted by Queen Victoria in 1866. The Baron was raised to peerage in the 1890s and William Thompson was elevated to the title known as Lord Kelvin of Largs.</p>
+        <p>William Thompson (Lord Kelvin) (B: 26<sup>th</sup> June 1824 – D: 17<sup>th</sup> December 1907)</p>
+      </div>
+    </div>
+  </div>
 </section>
 {% include monitoring/environmental/key-components.html %}
+<section>
+  <div class="container">
+    {% include two-types-of-customers.html %}
+  </div>
+</section>
+{% include used-by.html %}

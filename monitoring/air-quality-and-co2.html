@@ -4,6 +4,18 @@ title: Air quality and CO2 monitoring
 page-description: Indoor air quality and CO2 monitoring to limit the spread of aerosol related viruses and increase staff productivity.
 ---
 <style>
+  .header-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/homepage-banner-2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  .header-banner h1, .header-banner h3{
+    font-weight: normal;
+  }
+
 	@media only screen and (max-width: 600px) {
 		.small-mobile-image {
 			width: 100px;
@@ -263,7 +275,7 @@ page-description: Indoor air quality and CO2 monitoring to limit the spread of a
     </div>
     <div class="is-shown-mobile is-text-center">
       {% for item in site.data.co2.trend-analysis %}
-        <img alt="{{ item.name }}" class="is-inset-x-20" src="{{ item.icon }}">
+        <img alt="{{ item.name }}" class="is-inset-x-20 is-inset-x-60-mobile" src="{{ item.icon }}">
         <h4 class="blue-text">{{ item.name }}</h4>
         <p>{{ item.description }}</p>
       {% endfor %}
@@ -432,35 +444,44 @@ page-description: Indoor air quality and CO2 monitoring to limit the spread of a
 				<h2>Swift identification of poorly ventilated areas</h2>
         <p>There are many ways to identify poorly ventilated areas however there are three main protagonists. We recommend focusing on any areas that are more likely to have ventilation issues before extending monitoring to other areas.</p>
 			</div>
-			<div class="is-col is-70">
+			<div class="is-col is-70 is-text-center-mobile">
 				<div class="is-row">
-					<div class="is-col">
+					<div class="is-col is-stack-40-mobile">
 						<div class="is-container is-stack-20">
-							<div>
-								<div class="is-text-center circle-number">1</div>
+							<div class="is-hidden-mobile">
+								<div class="is-text-center circle-number is-stack-20-mobile">1</div>
 							</div>
+              <div class="is-shown-mobile is-stack-40-mobile">
+								<div class="is-text-center circle-number is-stack-20-mobile" style="margin: 0 auto;">1</div>
+              </div>
 							<div>
 								<h4>No natural or mechanical ventilation</h4>
 							</div>
 						</div>
             <p>If an area where people work or spend extended periods of time have neither natural or mechanical ventilation then there is a risk of contaminated air not being removed and an increase chance of exposing them to airborne pathogens.</p>
 					</div>
-					<div class="is-col">
+					<div class="is-col is-stack-40-mobile">
 						<div class="is-container is-stack-20">
-							<div>
-								<div class="is-text-center circle-number">2</div>
+							<div class="is-hidden-mobile">
+								<div class="is-text-center circle-number is-stack-20-mobile">2</div>
 							</div>
+              <div class="is-shown-mobile is-stack-40-mobile">
+								<div class="is-text-center circle-number is-stack-20-mobile" style="margin: 0 auto;">2</div>
+              </div>
 							<div>
 								<h4>No outdoor air supply</h4>
 							</div>
 						</div>
             <p>If a rooms air is supplied by a mechanical ventilation system that either has no outdoor air supply or is set to incorrectly recirculate a large percentage of air, the risk of exposure is similar to a room that doesn't have any ventilation.</p>
 					</div>
-					<div class="is-col">
+					<div class="is-col is-stack-40-mobile">
 						<div class="is-container is-stack-20">
-							<div>
-								<div class="is-text-center circle-number">3</div>
+							<div class="is-hidden-mobile">
+								<div class="is-text-center circle-number is-stack-20-mobile">3</div>
 							</div>
+              <div class="is-shown-mobile is-stack-40-mobile">
+								<div class="is-text-center circle-number is-stack-20-mobile" style="margin: 0 auto;">3</div>
+              </div>
 							<div>
 								<h4>Stuffy or bad smell</h4>
 							</div>
@@ -472,9 +493,10 @@ page-description: Indoor air quality and CO2 monitoring to limit the spread of a
 		</div>
     <div class="is-row is-stack-60">
       <div class="is-col">
-        <div class="is-row is-items-middle">
+        <div class="is-row is-items-middle is-stack-60-mobile">
           <div class="is-col is-20">
-            <img alt="Harvard university" src="/images/air-quality-and-co2/harvard-university-logo.svg">
+            <img class="is-hidden-mobile" alt="Harvard university" src="/images/air-quality-and-co2/harvard-university-logo.svg">
+            <img style="width: 200px;" class="is-shown-mobile is-stack-40" alt="Harvard university" src="/images/air-quality-and-co2/harvard-university-logo.svg">
           </div>
           <div class="is-col is-80">
             <h4>Increased productivity</h4>
@@ -486,7 +508,8 @@ page-description: Indoor air quality and CO2 monitoring to limit the spread of a
       <div class="is-col">
         <div class="is-row is-items-middle">
           <div class="is-col is-20">
-            <img alt="Government Covid-19 guidelines" src="/images/air-quality-and-co2/government-guidelines.svg">
+            <img class="is-hidden-mobile" alt="Government Covid-19 guidelines" src="/images/air-quality-and-co2/government-guidelines.svg">
+            <img style="width: 200px;" class="is-shown-mobile is-stack-40" alt="Government Covid-19 guidelines" src="/images/air-quality-and-co2/government-guidelines.svg">
           </div>
           <div class="is-col is-80">
             <h4>Keep up with government and regulatory guide lines</h4>
@@ -527,7 +550,7 @@ page-description: Indoor air quality and CO2 monitoring to limit the spread of a
 		</div>
 </section>
 {% include used-by.html %}
-<section class="brand-second is-text-center">
+<section class="header-banner is-text-center">
 	<div class="container">
 		<h2>Get in touch with Spook</h2>
 		<p>Please contact us if you wish for further information on how Spook can help with your air quality and CO<sub>2</sub> monitoring needs.</p>

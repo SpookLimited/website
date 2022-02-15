@@ -52,9 +52,6 @@
 - name: 3 phase current
   icon: /images/sensor/icons/threephase.svg
 
-- name: Vehicle detection
-  icon: /images/sensor/icons/vehicle.svg
-
 - name: Volt direct current (VDC)
   icon: /images/sensor/icons/directcurrent.svg
 

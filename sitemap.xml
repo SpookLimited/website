@@ -4,417 +4,226 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://spook.co.uk/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://spook.co.uk/monitoring/air-quality-and-co2</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://spook.co.uk/customers</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/news</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/contact/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/it-rooms-and-facilities</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/monitoring/environmental</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/monitoring/power</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/solutions</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/solutions/cellular</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/solutions/wireless</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/demo/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/omniwatch/dashboard</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/omniwatch/alerting</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/omniwatch/reporting</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/omniwatch/change-logs</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/omniwatch/installation-plans</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/quote-request</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/best-surrey-computer-company-2021/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/cir-business-continuity-award-winner-2020/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/blog/cir-business-continuity-award-shortlist-2020/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/policies</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/environmental/temperature</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/environmental/humidity</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/environmental/dewpoint</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/environmental/airflow</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/environmental/water</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/environmental/light</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it/data-center</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it/server-room</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it/comms-room</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it/comms-closet</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it/facilities</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/it/disaster-recovery</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/power/generator</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/power/pdu</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/power/pue-and-dcie</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/power/ups</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/agriculture</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/biotech</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/bms</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/heritage</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/marine</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/nhs</loc>
-  <lastmod>2021-06-12T06:00:00+00:00:</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/monitoring/industry/refrigeration</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/ac-meter</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/accelerometers-and-vibration-meter</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/airflow</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/asset-monitoring</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/boundary-and-ir</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/dew-point</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/dry-contact</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/gasses</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/humidity</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/light-meters</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/motion</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/open-closed</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/pressure</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/propane-level</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/temperature</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/three-phase-current</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/vehicle-detection</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/voltage-meter</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/wireless/sensor/water</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/about</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://spook.co.uk/news/bulk-power-monitoring/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <loc>https://spook.co.uk/policies</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/environmental/temperature</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/environmental/humidity</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/environmental/dewpoint</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/environmental/airflow</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/environmental/water</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/environmental/light</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/power/generator</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/power/pdu</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/power/pue-and-dcie</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/monitoring/power/ups</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/christmas-remote-monitoring-2021/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://spook.co.uk/news/eu-climate-change-report/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <loc>https://spook.co.uk/news/best-surrey-computer-company-2021/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://spook.co.uk/news/waterstones-testaments-christmas-omniwatch/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/waterstones-desert-island-discs/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/spook-monitors-loscar-masterchef/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/spook-welcomes-vax-to-omniwatch/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/server-room-temperature-monitoring-on-the-hottest-day-of-the-year/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/spook-welcomes-creative-assembly-to-omniwatch/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/olympia-london-upgrades-spook-omniwatch-real-time-ups-monitoring/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/back-of-house-complications/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/the-three-wise-men-of-data-centre-monitoring/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/news/playing-jenga-in-the-server-room/</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://spook.co.uk/solutions/technical/cellular-technology</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <loc>https://spook.co.uk/news/cir-business-continuity-award-winner-2020/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/solutions/technical/wired-vs-wireless</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/blog/cir-business-continuity-award-shortlist-2020/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/bulk-power-monitoring/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/eu-climate-change-report/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/waterstones-testaments-christmas-omniwatch/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/waterstones-desert-island-discs/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/spook-monitors-loscar-masterchef/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/spook-welcomes-vax-to-omniwatch/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/server-room-temperature-monitoring-on-the-hottest-day-of-the-year/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/spook-welcomes-creative-assembly-to-omniwatch/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/olympia-london-upgrades-spook-omniwatch-real-time-ups-monitoring/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/back-of-house-complications/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/the-three-wise-men-of-data-centre-monitoring/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/news/playing-jenga-in-the-server-room/</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/solutions/technical/smart-sensors</loc>
-  <lastmod>2021-06-08T17:00:00+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://spook.co.uk/solutions/technical/co2-monitoring</loc>
-  <lastmod>2021-10-20T17:00:00+00:00</lastmod>
+  <loc>https://spook.co.uk/solutions/technical/cellular-technology</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://spook.co.uk/solutions/technical/legionella-monitoring</loc>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://spook.co.uk/solutions/wireless/gateway</loc>
-  <lastmod>2021-05-06T08:56:25+00:00</lastmod>
+  <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

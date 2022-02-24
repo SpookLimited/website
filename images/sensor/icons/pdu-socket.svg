@@ -18,7 +18,7 @@
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
    id="metadata1957"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs1955" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -28,15 +28,15 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1880"
-   inkscape:window-height="1136"
+   inkscape:window-width="2800"
+   inkscape:window-height="1672"
    id="namedview1953"
    showgrid="false"
-   inkscape:zoom="1.145"
-   inkscape:cx="299.21404"
-   inkscape:cy="165.42962"
-   inkscape:window-x="40"
-   inkscape:window-y="27"
+   inkscape:zoom="3.2385491"
+   inkscape:cx="167.84036"
+   inkscape:cy="235.90879"
+   inkscape:window-x="80"
+   inkscape:window-y="54"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg1951" />
     
@@ -45,7 +45,11 @@
     
     
     
-<g
+<path
+   style="fill:#ffffff;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+   d="M 106.83797,65.590985 H 295.19392 L 305.4275,79.357501 V 324.65762 L 294.57636,335.77371 106.22041,335.46493 94.177977,323.11372 94.486758,77.633415 Z"
+   id="path822"
+   inkscape:connector-curvature="0" /><g
    id="layer1"
    transform="matrix(3.7795275,0,0,3.7795275,80.000002,31.766031)"><g
      id="g1851"

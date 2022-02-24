@@ -4,54 +4,16 @@
       <h2>Spook monitors a wide range of power devices</h2>
     </div>
     <div class="is-row">
-
-      <div class="is-col is-25 is-border is-stack-20">
-        <div class="is-inset-20">
-          <div class="line-block-content">
-            <img alt="Generator monitoring" style="max-height: 60px; margin-right: 1em;" src="/images/sensor/icons/generator.svg">
-            <div>
-              <h4><a href="/monitoring/power/generator" class="is-color-black"
-                  style="text-decoration: none;">Generators</a></h4>
-              <p>Maintaining power security.</p>
-            </div>
-          </div>
+      {% for component in site.data.power.key-components %}
+        <div class="is-col is-border is-shadow-2 is-inset-20 power-block">
+          <a class="is-text-center" href="{{ component.link }}">
+            <img src="{{ component.icon }}">
+            <div class="divider"></div>
+            <h4>{{ component.name }}</h4>
+            <p>{{ component.description }}</p>
+          </a>
         </div>
-      </div>
-      <div class="is-col is-25 is-border is-stack-20">
-        <div class="is-inset-20">
-          <div class="line-block-content">
-            <img alt="Intelligent power distribution unit (PDU) monitoring" style="max-height: 60px; margin-right: 1em;" src="/images/sensor/icons/pdu-socket.svg">
-            <div>
-              <h4><a href="/monitoring/power/pdu" class="is-color-black" style="text-decoration: none;">PDUs</a></h4>
-              <p>Analysing equipment power consumption.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-25 is-border is-stack-20">
-        <div class="is-inset-20">
-          <div class="line-block-content">
-            <img alt="PUE and DCiE monitoring" style="max-height: 60px; margin-right: 1em;" src="/images/sensor/icons/pue-dcie.svg">
-            <div>
-              <h4><a href="/monitoring/power/pue-and-dcie" class="is-color-black" style="text-decoration: none;">PUE and
-                  DCiE</a></h4>
-              <p>Measuring power efficiency.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="is-col is-25 is-border is-stack-20">
-        <div class="is-inset-20">
-          <div class="line-block-content">
-            <img alt="Uninterruptible power supply (UPS) monitoring" style="max-height: 60px; margin-right: 1em;" src="/images/sensor/icons/ups.svg">
-            <div>
-              <h4><a href="/monitoring/power/ups" class="is-color-black" style="text-decoration: none;">UPSs</a></h4>
-              <p>Managing back-up power.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      {% endfor %}
     </div>
   </div>
 </section>

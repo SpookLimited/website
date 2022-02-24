@@ -1,0 +1,24 @@
+- name: Energy monitoring
+  description: Real time monitoring.
+  link: /monitoring/power/energy-monitoring
+  icon: /images/icons/peak-load.svg
+
+- name: Generators
+  description: Maintaining power security.
+  link: /monitoring/power/generator
+  icon: /images/sensor/icons/generator.svg
+
+- name: PDUs
+  description: Analysing equipment power consumption.
+  link: /monitoring/power/pdu
+  icon: /images/sensor/icons/pdu-socket.svg
+
+- name: PUE and DCiE
+  description: Measuring power efficiency.
+  link: /monitoring/power/pue-and-dcie
+  icon: /images/sensor/icons/pue-dcie.svg
+
+- name: UPSs
+  description: Managing back-up power.
+  link: /monitoring/power/ups
+  icon: /images/sensor/icons/ups.svg

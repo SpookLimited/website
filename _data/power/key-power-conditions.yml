@@ -1,8 +1,14 @@
-- name: Generators
-  icon: /images/sensor/icons/generator.svg
-  link: /monitoring/power/generator
+- name: Energy monitoring
+  icon: /images/icons/peak-load.svg
+  link: /monitoring/power/energy-monitoring
   description:
-    - Generators provide a continuous stream of voltage power and are designed for continual use. Any organisation that controls mission critical applications can benefit from having a generator available as a reliable power source.
+    - Energy monitoring is the process of measuring energy consumption for the whole or part of a facilities incoming power. By measuring the incoming energy means granular consumption can be understood too, from energy sub-sets to individual assets.
+
+- name: Uninterruptible power supply (UPS) monitoring
+  icon: /images/sensor/icons/ups.svg
+  link: /monitoring/power/ups
+  description:
+    - UPSs are put in place to protect attached equipment, condition the incoming power to reduce sags and surges and to also supply a short term solution during loss of power.
 
 - name: Power distribution units (PDUs)
   icon: /images/sensor/icons/pdu-socket.svg
@@ -10,14 +16,15 @@
   description:
     - By monitoring power consumption at PDU level an organisation can implement informed load balancing procedures to prevent power overloads and protect service outages due to loss off power.
 
+- name: Generators
+  icon: /images/sensor/icons/generator.svg
+  link: /monitoring/power/generator
+  description:
+    - Generators provide a continuous stream of voltage power and are designed for continual use. Any organisation that controls mission critical applications can benefit from having a generator available as a reliable power source.
+
 - name: PUE and DCiE
   icon: /images/sensor/icons/pue-dcie.svg
   link: /monitoring/power/pue-and-dcie
   description:
     - PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Effectiveness) are industry standard efficiency benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for its existing IT load. 
 
-- name: Uninterruptible power supply (UPS) monitoring
-  icon: /images/sensor/icons/ups.svg
-  link: /monitoring/power/ups
-  description:
-    - UPSs are put in place to protect attached equipment, condition the incoming power to reduce sags and surges and to also supply a short term solution during loss of power.

@@ -102,6 +102,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://spook.co.uk/monitoring/power/energy-monitoring</loc>
+  <lastmod>2022-02-24T14:32:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://spook.co.uk/monitoring/power/generator</loc>
   <lastmod>2022-02-15T11:53:26+00:00</lastmod>
   <priority>0.80</priority>

@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="200"
    height="200"
    viewBox="0 0 52.916666 52.916666"
    version="1.1"
-   id="svg8">
+   id="svg8"
+   sodipodi:docname="phone-icon.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2800"
+     inkscape:window-height="1672"
+     id="namedview13"
+     showgrid="false"
+     inkscape:zoom="1.18"
+     inkscape:cx="100"
+     inkscape:cy="100"
+     inkscape:window-x="80"
+     inkscape:window-y="54"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g849" />
   <defs
      id="defs2" />
   <metadata
@@ -20,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,14 +67,14 @@
        id="path829"
        transform="scale(0.26458333)" />
     <ellipse
-       style="clip-rule:evenodd;opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="clip-rule:evenodd;opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path828"
        cx="26.427395"
        cy="14.952522"
        rx="6.3354797"
        ry="6.5145359" />
     <path
-       style="clip-rule:evenodd;fill:none;fill-rule:evenodd;stroke:#333333;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="clip-rule:evenodd;fill:#ffffff;fill-rule:evenodd;stroke:#333333;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
        d="m 20.372267,25.018497 c -2.589573,0.135692 -4.474873,1.478557 -5.718927,3.920162 l -1.906205,9.339469 c -0.253405,2.217894 0.08359,4.114168 2.35478,4.95774 l 3.195816,0.576642 h 16.259326 l 3.195818,-0.576642 c 2.271191,-0.843572 2.608182,-2.739846 2.35478,-4.95774 L 38.20114,28.938659 c -1.244052,-2.441605 -3.129046,-3.78447 -5.718619,-3.920162 h -5.045914 -2.018426 z"
        id="path832" />
     <path

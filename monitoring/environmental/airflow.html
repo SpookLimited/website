@@ -3,17 +3,19 @@ layout: base
 title: Airflow monitoring
 page-description: Airflow monitoring and management has two main benefits; early warning of mechanical issues and cost reduction through accurate distribution.
 ---
-<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+<section style="background-image: url('/images/banner/airflow-chart.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-50">
         <div class="is-stack-40">
+          <img style="width: 80px;" src="/images/sensor/icons/airflow.svg">
           <h1>Airflow monitoring</h1>
+          <p class="is-big">The importance of airflow monitoring and the benefits it offers</p>
         </div>
         <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
       </div>
       <div class="is-col is-50">
-        <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/monitoring/environmental/airflow-dashboard.png">
       </div>
     </div>
   </div>
@@ -30,17 +32,70 @@ page-description: Airflow monitoring and management has two main benefits; early
 </div>
 <section>
   <div class="container">
+     <div class="is-row is-items-middle is-stack-40">
+        <div class="is-col is-50">
+          <p class="section-subheader">Monitoring specialists</p>
+          <p>Spook's award winning remote monitoring service called OmniWatch monitors airflow. Measuring airflow across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
+          <p>Air flow monitoring does not measure the volume of air but measures the movement of air in an area.</p>
+        </div>
+        <div class="is-col is-50">
+          {% include awards.html %}
+        </div>
+      </div>
     <div class="is-stack-40">
-      <h2>The importance of airflow monitoring</h2>
+      <h3 class="section-header">The importance of airflow monitoring</h3>
       <p>Airflow management is a crucial tool because it can remove the chance of excess static electricity and dust building up that can cause damage to equipment. The sooner ventilation failures are detected, the faster preventative and remedial measures can be managed.</p>
-      <p>There are many reasons airflow may become less efficient however the most common reasons are associated with:
+      <p>There are many reasons airflow may become less efficient however the most common reasons are associated with:</p>
       <ul>
         <li>Missed filter changes</li>
         <li>Motors of HVAC (Heating Ventilation and Air Conditioning) becoming less efficient or failing</li>
         <li>Fans become unbalanced and out of sequence</li>
         <li>Obstructions being placed in air flow channels</li>
       </ul>
-      <p>Larger rooms often require additional sensor information to determine potential problems with cooling efficiency. It's therefore very important to measure the rate of airflow throughout to gauge the overall health of the environment.</p>
+      <p>Larger rooms often require additional airflow sensor information to determine potential problems with cooling efficiency. It's therefore very important to measure the rate of airflow throughout to gauge the overall health of the environment.</p>
+    </div>
+  </div>
+</section>
+<section id="group-device-monitoring">
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <h4 class="brand-header">Group device monitoring</h4>
+        <h2>Confirm equipment activity within complex and nontraditional configurations</h2>
+        <p>There are often times where multiple pieces of equipment perform the same job but don't need to be active at the same time. An example would be air conditioning (AC) units that are on duty rotation and only one or two are active at any time in order to maximise the lifetime of each system while also increasing their efficiency.</p>
+        <p>With conventional monitoring, incorrect alerts would be generated whenever a unit switches from active to inactive, as each unit is treated separately with no knowledge of the others. By creating smart sensors within OmniWatch users are able to track the planned rotation cycles and be <a href="/alerting">alerted</a> to any unplanned activity which, if left unnoticed could cause unplanned service disruption.</p>
+      </div>
+      <div class="is-col">
+        <figure class="is-text-center">
+          <img alt="Confirm AC activity with smart sensor monitoring" src="/images/solutions/smart-sensor/ac-activity-confirmation.svg">
+          <figcaption>Ensure at least one AC unit is operational at all times and receive an alert
+            when all units are
+            offline.
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="grey">
+  <div class="container">
+    <div class="is-text-center is-stack-60">
+      <h2>Different types of duty cycle</h2>
+    </div>
+    <div class="is-row">
+      {% for cycle in site.data.environmental.airflow.duty-cycle %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img {{ cycle.color }} icon" style="background-image: url('{{ cycle.icon }}');"></div>
+            <div class="card-content">
+              <h3>{{ cycle.name }}</h3>
+              {% for word in cycle.words %}
+                <p>{{ word }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -85,3 +140,4 @@ page-description: Airflow monitoring and management has two main benefits; early
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

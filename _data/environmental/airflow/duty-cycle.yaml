@@ -1,0 +1,29 @@
+- name: Load shedding
+  color: blue
+  icon: /images/icons/load-balance.svg
+  words:
+    - Equipment is shut down for certain periods of time on a scheduled basis when it is considered non-essential. A variation of this uses demand readings from utility meters to shut down equipment when instantaneous demand reaches certain levels. 
+
+- name: Time based duty cycling
+  color: green
+  icon: /images/icons/time-remaining.svg
+  words:
+    - Equipment is shut down periodically for fixed or variable intervals of time during its operating cycle. In a simple time-based control an example would be when the unit is not allowed to operate for a fixed interval out of a given period of time, for example 60 minutes off out of every 120 minutes on. 
+
+- name: Temperature based duty cycling
+  color: red
+  icon: /images/sensor/icons/temperature.svg
+  words:
+    - When the controller overrides the thermostat for heating or cooling, so for extended periods the unit is cycled according to these preset on/off settings. Alternatively the equipment uses thermostats to implement the off-periods, for example, the off-period is invoked if the thermostat is satisfied during a cycle and vice versa. 
+
+- name: Price based load control
+  color: orange
+  icon: /images/icons/cost-saving.svg
+  words:
+    - Direct load is controlled where thermostat control set-points are offset based on pricing signals sent by the utility. Using this method the user can decide how much energy cost is expired at any particular time. 
+
+- name: Optimal start/stop
+  color: dark-blue-grey
+  icon: /images/icons/performance.svg
+  words:
+    - Delays the equipment startup or equipment shutdown to take advantage of thermal lags in building structures. 

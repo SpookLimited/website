@@ -5,17 +5,19 @@ page-description: "Temperature monitoring is an important measurement for climat
 commonly measured condition of all environmental states. Whether you need to know if it's too hot, too cold or simply
 that there is a rapid change; measuring the activity of temperature is key to climate monitoring."
 ---
-<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+<section style="background-image: url('/images/banner/temperature-chart.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-50">
         <div class="is-stack-40">
+          <img style="width: 80px;" src="/images/sensor/icons/temperature.svg">
           <h1>Temperature monitoring</h1>
+          <p class="is-big">The importance of temperature monitoring and the benefits it offers</p>
         </div>
         <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
       </div>
       <div class="is-col is-50">
-        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/monitoring/environmental/temperature-dashboard.png">
       </div>
     </div>
   </div>
@@ -40,17 +42,21 @@ that there is a rapid change; measuring the activity of temperature is key to cl
      <div class="is-row is-items-middle is-stack-40">
         <div class="is-col is-50">
           <p class="section-subheader">Monitoring specialists</p>
-          <h4 class="section-header">The importance of temperature monitoring and the benefits it offers</h4>
-          <p class="is-big">Incorrect temperatures can cause harm to a wide range of electrical equipment, ruin produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
+          <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors temperature. Measuring key thermal output across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
         </div>
         <div class="is-col is-50">
           {% include awards.html %}
         </div>
       </div>
+      <div class="is-stack-40">
+        <p>Whether it's a general area such as a server room or office space, or measuring a strategic thermal point such as an internal space in a computer rack or thermal output of an asset; OmniWatch is able to monitor temperature sensors from multiple sources and present them centrally within its temperature based digital dashboard.</p>
+        <p>Irregular temperatures can cause harm to a wide range of electrical equipment, ruin produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
+      </div>
       <div class="is-row">
         {% for benefit in site.data.environmental.temperature.benefits %}
           <div class="is-col is-50 is-stack-40">
             <div class="card is-border is-shadow-2">
+              <div class="card-img {{ benefit.color }} icon" style="background-image: url('{{ benefit.icon }}');"></div>
               <div class="card-content">
                 <h3>{{ benefit.name }}</h3>
                 {% for paragraph in benefit.description %}
@@ -144,3 +150,4 @@ that there is a rapid change; measuring the activity of temperature is key to cl
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

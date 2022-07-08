@@ -1,0 +1,18 @@
+- name: Equipment
+  color: green
+  icon: /images/icons/it-equipment.svg
+  description:
+    - OmniWatch monitoring bundles come with all the necessary equipment to monitor the CO2 levels of your rooms. Our intelligent, non-intrusive, wireless sensors arrive pre-configured, calibrated and ready to work out-of-the-box. All you need to do is install them and switch them on.
+
+- name: Software
+  color: blue
+  icon: /images/icons/remote-working.svg
+  description:
+    - OmniWatch is a bespoke remote, secure web-based service and is tailored to your requirements and made available to you so that you can monitor the condition of your premises in real time.
+
+- name: Support
+  color: orange
+  icon: /images/icons/predictive-maintenance.svg
+  description:
+    - Spook works with you in advance of sending the sensors and gateways. Everything is preconfigured and ready to use for a hassle free installation.
+    - Our support team work with you whilst you install the equipment and are there for your assistance for the lifetime of your service at no extra charge.

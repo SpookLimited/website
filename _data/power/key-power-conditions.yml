@@ -1,30 +1,33 @@
-- name: Energy monitoring
-  icon: /images/icons/peak-load.svg
-  link: /monitoring/power/energy-monitoring
-  description:
-    - Energy monitoring is the process of measuring energy consumption for the whole or part of a facilities incoming power. By measuring the incoming energy means granular consumption can be understood too, from energy sub-sets to individual assets.
-
-- name: Uninterruptible power supply (UPS) monitoring
+- name: Uninterruptible power supplies (UPS)
   icon: /images/sensor/icons/ups.svg
   link: /monitoring/power/ups
   description:
-    - UPSs are put in place to protect attached equipment, condition the incoming power to reduce sags and surges and to also supply a short term solution during loss of power.
+    - UPS units are used to protect critical power loads from utility-supplied power problems, including spikes, brownouts, fluctuations and power outages. UPS units use dedicated batteries to provide seamless power in the event of a mains power outage. Most UPS systems are designed to provide relatively short amounts of power as diesel generators are invoked to provide more long term secure power.
 
-- name: Power distribution units (PDUs)
+- name: Intelligent power distribution units (iPDU)
   icon: /images/sensor/icons/pdu-socket.svg
   link: /monitoring/power/pdu
   description:
-    - By monitoring power consumption at PDU level an organisation can implement informed load balancing procedures to prevent power overloads and protect service outages due to loss off power.
+    - By monitoring power consumption at PDU level an organisation can measure power consumption to asset level. Bring aware of real-time power usage means informed load balancing procedures can be implemented to prevent power overloads and protect service outages due to loss off power.
 
-- name: Generators
+- name: Energy meters
+  icon: /images/icons/peak-load.svg
+  link: /monitoring/power/energy-meters
+  description:
+    - Energy meter monitoring is the process of measuring energy consumption for the whole or part of a facilities utility incoming power.
+    - By measuring the incoming energy means granular consumption can be understood too, from energy sub-sets to individual assets.
+
+- name: Diesel generators
   icon: /images/sensor/icons/generator.svg
   link: /monitoring/power/generator
   description:
     - Generators provide a continuous stream of voltage power and are designed for continual use. Any organisation that controls mission critical applications can benefit from having a generator available as a reliable power source.
+    - Understanding core generator metrics in realtime ensures power security is maintained.
 
 - name: PUE and DCiE
   icon: /images/sensor/icons/pue-dcie.svg
   link: /monitoring/power/pue-and-dcie
   description:
-    - PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Effectiveness) are industry standard efficiency benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for its existing IT load. 
+    - PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Effectiveness) are industry standard efficiency benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for its existing IT load.
+    - By measuring these efficiency benchmarks in realtime means ongoing efforts to gain the best ratings can be achieved.
 

@@ -1,0 +1,14 @@
+- name: Andel
+  image: /images/devices/andel.svg
+
+- name: Aqualeak
+  image: /images/devices/aqualeak.svg
+
+- name: Aquilar
+  image: /images/devices/aquilar.svg
+
+- name: Hochiki
+  image: /images/devices/hochiki.svg
+
+- name: Vimpex
+  image: /images/devices/vimpex.svg

@@ -9,6 +9,7 @@ electrical power upon the loss of normal power supply."
   <div class="container">
     <div class="is-stack-40">
       <h1>Generator monitoring</h1>
+      <p class="is-big">The importance of monitoring diesel generators and the benefits it offers</p>
     </div>
     <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
@@ -33,9 +34,7 @@ electrical power upon the loss of normal power supply."
     <div class="is-row is-items-middle is-stack-40">
       <div class="is-col is-50">
         <p class="section-subheader">Monitoring specialists</p>
-        <h4 class="section-header">The benefits of generator monitoring</h4>
-        <p>Installing a diesel generator as an emergency source of electrical power provides important mid to long term electrical power upon the loss of normal power supply.</p>
-        <p>A generator provides secure interim power redundancy if a power grid suffers an outage. This power redundancy allows businesses to maintain their operations, hospitals to retain use of their instruments and airports to preserve system integrity.</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors diesel generator usage. Measuring key generator metrics; OmniWatch presents real-time readings in an easy to use real-time digital dashboard.</p>
       </div>
       <div class="is-col is-50">
         {% include awards.html %}
@@ -43,8 +42,9 @@ electrical power upon the loss of normal power supply."
     </div>
     <div class="is-row">
       {% for key-point in site.data.power.generators.key-points %}
-        <div class="is-col is-stack-40">
+        <div class="is-col is-50 is-stack-40">
           <div class="card is-border is-shadow-2">
+            <div class="card-img blue icon" style="background-image: url('{{ key-point.icon }}');"></div>
             <div class="card-content">
               <h3>{{ key-point.name }}</h3>
               {% for paragraph in key-point.description %}
@@ -57,8 +57,31 @@ electrical power upon the loss of normal power supply."
     </div>
   </div>
 </section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img src="/images/icons/alert-service.svg">
+      </div>
+      <div class="is-col">
+        <h2>Automated alerting</h2>
+        <p>Generators provide a reliable source of back-up emergency power for long periods of time. Due to how a generator is used it is more often than not installed outside or in an area that is not normally accessed by staff.</p>
+        <p>By monitoring the generator you can be instantly alerted to any change in its operating state or detect mechanical issues that need addressing before they fail.</p>
+        <p>Using OmniWatch's 3-tier alarm escalation process ensure the right personnel is made aware of events and receive alerts via email, SMS and phone call via our UK call centre.</p>
+      </div>
+    </div>
+
+    <h2>Avoiding potential damage</h2>
+    <p>One of the most common causes of damage to generators is when they're under-loaded. That is, generators function most effectively when they're operating at high capacity. When they're used for low capacity tasks (such as powering 10% of the voltage load), they can start to build up carbon and internal glazing.</p>
+    <p>If this continues, eventually, soot and residue from unused fuel can accumulate and clog the generator's piston rings.</p>
+    <p>The longer this happens, the more pronounced the degradation of the diesel generator’s system. To avoid this, generators should have a capacity at approximately 70% of the maximum load.</p>
+  </div>
+</section>
 <section class="grey">
   <div class="container">
+    <div class="is-text-center">
+      <h3>Typical generator monitoring metrics</h3>
+    </div>
     <div class="is-row is-items-middle">
       <div class="is-col is-30">
         <img alt="Generator monitoring" src="/images/devices/generator.svg">
@@ -151,3 +174,4 @@ electrical power upon the loss of normal power supply."
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

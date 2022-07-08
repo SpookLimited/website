@@ -1,0 +1,20 @@
+- name: Protecting equipment warranties
+  icon: /images/icons/warranty.svg
+
+- name: Assisting preventative maintenance programs
+  icon: /images/icons/predictive-maintenance.svg
+
+- name: Maximising equipment longevity
+  icon: /images/icons/longevity.svg
+
+- name: Understanding seasonal trends, impacts and adjustments
+  icon: /images/icons/seasonal.svg
+
+- name: Forecasting and supporting infrastructure change management
+  icon: /images/icons/hardhat.svg
+
+- name: Creating informed load balancing methodologies
+  icon: /images/icons/load-balance.svg
+
+- name: Supporting the achievement of Key Performance Indicators (KPIs)
+  icon: /images/icons/kpis.svg

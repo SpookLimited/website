@@ -8,7 +8,8 @@ page-description: Real-time monitoring and alerting for intelligent power distri
   <div class="container">
     <div class="is-50">
       <div class="is-stack-40">
-        <h1>PDU monitoring</h1>
+        <h1>Intelligent power distribution unit (iPDU) monitoring</h1>
+        <p class="is-big">The importance of iPDU monitoring and the benefits it offers</p>
       </div>
       <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
     </div>
@@ -29,46 +30,105 @@ page-description: Real-time monitoring and alerting for intelligent power distri
     </div>
   </div>
 </div>
-<section>
+<section class="grey">
   <div class="container">
     <div class="is-row is-items-middle is-stack-40">
       <div class="is-col is-50">
         <p class="section-subheader">Monitoring specialists</p>
-        <h4 class="section-header">The importance of pdu monitoring and the benefits it offers</h4>
-        <p class="is-big">Keeping an eye on server room and data centre power metrics is becoming a prerequisite as the importance of power load balancing and knowing the cost of providing power to the facility increases.</p>
-        <p class="is-big">In just two decades the way servers consume power has changed beyond imagination. Back in the day variances in server power was largely due to disk drive spin-up and fans being invoked.</p>
-        <p class="is-big">Today's complex server configurations means that variances in power required for disk utilisation is reduced but more power is consumed when computational loads are enforced.</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors iPDU units. Measuring key iPDU metrics across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
       </div>
       <div class="is-col is-50">
         {% include awards.html %}
       </div>
     </div>
-    <div class="is-row">
-      {% for benefit in site.data.power.pdus.benefits %}
-        <div class="is-col is-50 is-stack-40">
-          <div class="card is-border is-shadow-2">
-            <div class="card-content">
-              <h3>{{ benefit.name }}</h3>
-              {% for paragraph in benefit.description %}
-                <p>{{ paragraph }}</p>
-              {% endfor %}
-            </div>
-          </div>
-        </div>
-      {% endfor %} 
+    <div class="is-row is-items-middle">
+      <div class="is-col is-30">
+        <h3>Popular iPDU monitoring</h3>
+        <p>Any iPDU power metric can be monitored however the most common metrics are:</p>
+      </div>
+      <div class="is-col is-70">
+        <img src="/images/monitoring/pdu/popular-power-sensors.svg">
+      </div>
+    </div>
+    <div class="is-row is-items-middle">
+      <div class="is-col is-70">
+        {% include monitoring/power/popular-environmental-sensors.html %}
+      </div>
+      <div class="is-col is-30">
+        <h3>Climate monitoring</h3>
+        <p>Most iPDU units also include onboard climate monitoring, this is often expandable to room related environmental monitoring by installing sensors connected to the iPDU units onboard interface.</p>
+      </div>
     </div>
   </div>
 </section>
-<section class="grey">
+<div class="container"><hr></div>
+<section>
   <div class="container">
     <div class="is-row">
-      <div class="is-col is-80">
+      <div class="is-col">
         {% include monitoring/power/pdu-and-table.html %}
       </div>
-      <div class="is-col is-20">
-        <h2>Power strip monitoring</h2>
-        <p>Measuring power consumption at power strip level is becoming more important in understanding where power overloads are likely.</p>
-        <p>If you know your total power available is for example 16 amps, loading more than 50% power consumption on a single power strip can be dangerous.</p>
+      <div class="is-col">
+        <h2>iPDU Global and socket level monitoring</h2>
+        <p>Power management is crucial within server rooms and data centers. For the best financial and computing results, the modern data center manager needs an efficient power monitoring strategy in order to avoid server downtime and optimise power usage.</p>
+        <p>With this in mind, iPDU units are crucial. Rack mounted iPDU units provide energy from the utility or UPS power supply to servers and other electronic assets, and monitoring the power metrics at global or individual socket level can be a revelation.</p>
+        <p>By monitoring iPDU power metrics in realtime means potential problems can be detected before they have negative consequences.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h3>Load balancing</h3>
+    <p>By measuring the power consumption of an iPDU over time the trend data of its power metrics becomes a valuable commodity. Not only can any patterns in power spikes be identified but identification of how high they reach when servers are at maximum stress levels can prove invaluable for building in power related latency.<p>
+    <img src="/images/monitoring/pdu/load-balance-amps-chart.png">
+    <p>Ensuring efficient load balancing reduces these stresses and helps power managers to intelligently plan for load balancing it order to spread the consumption of assets across the iPDU estate.</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img src="/images/monitoring/pdu/pdu-temperature-chart.png">
+      </div>
+      <div class="is-col">
+        <h3>Temperature</h3>
+        <p>Servers in general consume power and release it as heat, but when there are large variances in consumption because of workloads, the heat released from IT equipment also rises.</p>
+        <p>Fluctuations in server power consumption can cause dangerous increases in temperature, creating unplanned heat spots. While data centres have cooling systems, they may not be designed to handle specific localised hot spots. As temperature rises, equipment is likely to auto-shut down or act abnormally.</p>
+        <p>iPDU units usually have onboard temperature sensors, this is perfect to monitor for localised, hard to find, hot spots.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <h3>Stranded power</h3>
+        <p>Stranded power is the spare power available but not used on a power strip. This may be small on a single unit but extrapolating this across hundreds of power strips in an installation can provide valuable spare power for new projects before having to extend/expand the installation with more PDUs.</p>
+        <p>Stranded power can be calculated by monitoring the global power consumption of an iPDU versus the nameplate power (16amp/32amp) of the device.</p>
+        <p>Spook Smart Sensors calculate stranded power in realtime.</p>
+      </div>
+      <div class="is-col">
+        <figure>
+          <img alt="Monitor stranded power with smart sensors" src="/images/solutions/smart-sensor/stranded-power.svg">
+          <figcaption class="is-text-center">Calculating stranded power on an individual iPDU - the same process can also be used on multiple iPDUs to see utilisation across racks or buildings.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img src="/images/monitoring/pdu/kwh-pdu-price.png">
+      </div>
+      <div class="is-col">
+        <h3>Billing grade energy usage</h3>
+        <p>By pairing a Spook smart sensor with a cost per kWh; users are able to get a cost of power usage within their installation per iPDU or if monitoring down to socket level, per connected asset.</p>
+        <p>OmniWatch can also apply peak and off-peak hourly charges when generating the billing cost.</p>
+        <p>This is ideal for allocating costs across departments, users and customers.</p>
       </div>
     </div>
   </div>
@@ -96,3 +156,4 @@ page-description: Real-time monitoring and alerting for intelligent power distri
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

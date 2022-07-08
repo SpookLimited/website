@@ -12,17 +12,11 @@ page-description: Monitoring and alerting for IT rooms and facilities teams with
   background-attachment: fixed;
   color: #fff;
 }
+.header-banner.footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/omniwatch-banner-image.png');
+}
 .header-banner h1, .header-banner h3{
   font-weight: normal;
-}
-
-.section-subheader{
-	color: #2c4fb1;
-	text-transform: uppercase;
-	font-size: .8em;
-	padding: 0;
-	margin: 0;
-	font-weight: bold;
 }
 
 .section-header{
@@ -75,11 +69,18 @@ page-description: Monitoring and alerting for IT rooms and facilities teams with
     </div>
   </div>
 </section>
+<div class="is-inset-y-80">
+  <div class="container">
+    <div class="slider">
+      <div class="is-text-center">
+        <h5>Trusted by</h5>
+      </div>
+      <div class="slider-row"></div>
+    </div>
+  </div>
+</div>
 <div class="is-inset-y-20 black">
   <div class="container">
-    <div class="announcement-block white-text">
-      <p><b>News:</b> Spook adds LoRaWAN technology to monitor the Internet of Things (IoT).</p>
-    </div>
     <div class="is-row is-items-middle">
       <div class="is-col is-10 white-text is-hidden-mobile">
         Support for
@@ -135,7 +136,7 @@ page-description: Monitoring and alerting for IT rooms and facilities teams with
           <div class="card-img many-to-one-img red"></div>
           <div class="card-content">
             <p class="section-subheader">Granular management</p>
-            <h4 class="section-header">Automated sensor updates and user access</h4>
+            <h4 class="section-header">Automated user access rights</h4>
             <p>Sensor data is automatically filtered in accordance with a users organisational hierarchy, this ensures alarms and user access to sensor data is confined to authorised staff.</p>
             <p>Examples of hierarchical access are: Global managers, regional workers, building team members and local facility staff.</p>
           </div>
@@ -145,102 +146,6 @@ page-description: Monitoring and alerting for IT rooms and facilities teams with
   </div>
 </section>
 <div class="container"><hr></div>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle is-stack-20">
-      <div class="is-col is-40">
-        <h3>Spook 3-tier alarm escalation process</h3>
-        <p>Alerts are sent in real-time and have three stages. At each stage there is a time delay to allow you to acknowledge the alarm.</p>
-        <p>If alarms aren't acknowledged they pass to the next stage, eventually culminating to Spook's UK call centre where an agent is tasked with calling you and your team.</p>
-        <p>Should an alarm be acknowledged before passing to the next stage, the alarm escalation period is ceased and you and your team are emailed to confirm matters.</p> 
-      </div>
-      <div class="is-col is-60">
-        <img alt="Temperature monitoring chart" class="is-stack-20" style="height: 400px;" src="/images/it-rooms-and-facilities/temperature-chart.svg">
-      </div>
-    </div>
-    <div class="is-row">
-      {% for stage in site.data.alerting.stages %}
-        <div class="is-col">
-          <div style="width: 80px; height: 80px; background-image: url('{{ stage.image }}'); background-size: contain; background-repeat: no-repeat;"></div>
-          <p class="section-subheader">{{ stage.subheader }}</p>
-          <h4 class="section-header">{{ stage.header }}</h4>
-          {% for paragraph in stage.description %}
-            <p>{{ paragraph }}</p>
-          {% endfor %}
-        </div>
-      {% endfor %}
-    </div>
-		<div class="alert is-error is-text-center">OmniWatch is the only monitoring service to escalate alarms to a UK call centre if emails and SMS messages go unanswered.</div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-60 is-hidden-mobile">
-        <img alt="UPS monitoring dashboard" src="/images/it-rooms-and-facilities/ups-dashboard-view.png">
-      </div>
-      <div class="is-col is-40">
-        <h3>Digital dashboards</h3>
-        <img alt="UPS monitoring dashboard" class="is-shown-mobile is-stack-20" src="/images/it-rooms-and-facilities/ups-dashboard-view.png">
-        <p>OmniWatch digital dashboards are bespoke and designed by Spook on behalf of our customers. All the hard work of setting up sensors, adding equipment and configuring how the alarm work-flow and sensor management is implemented is included as part of the overall OmniWatch solution.</p>
-        <p>Any customer led additions, deletions or workflow changes are also included as part of the ongoing commitment from Spook to ensure our market leading remote monitoring service remains up to date and appropriate to its users.</p>
-        <p>Additionally, Spook's in-house software development road-map is based upon customer feedback to make sure any new functionality is actually useful. Development is to the benefit of all our customers with any new updates being free of charge.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col is-40">
-        <h4 class="section-header">Emoji overviews</h4>
-        <img alt="Air quality and CO2 monitoring dashboard" class="is-shown-mobile is-stack-20" src="/images/it-rooms-and-facilities/dashboard-it-view.svg">
-        <p>A picture paints a thousand words and the art of remote monitoring is to make identifying alarms quick and easy.</p>
-        <p>Using emoji's for a high level overview on a sensors health is ideal for managing equipment that has multiple line items of monitoring.</p>
-        <p>Spook emoji's are able to be expanded to focus on the individual monitored conditions of different equipment types.</p>
-      </div>
-      <div class="is-col is-60 is-hidden-mobile">
-        <img alt="Air quality and CO2 monitoring dashboard" src="/images/it-rooms-and-facilities/dashboard-it-view.svg">
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-		<div class="is-row is-items-middle">
-			<div class="is-col is-60 is-hidden-mobile">
-				<img alt="Temperature monitoring comparison" src="/images/it-rooms-and-facilities/temperature-comparison-chart.svg">
-			</div>
-			<div class="is-col is-40">
-				<p class="section-subheader">Trend analysis</p>
-        <h4 class="section-header">Data in perpetuity</h4>
-				<img alt="Temperature monitoring comparison" class="is-shown-mobile is-stack-20" src="/images/it-rooms-and-facilities/temperature-comparison-chart.svg">
-        <p>Most third party sensors and equipment, including climate monitors, have on-board data loggers. Often the collected readings have a limited shelf life of between 30 and 60 days before falling off the data horizon; and it is usually hard to access, download and understand.</p>
-        <p>OmniWatch sensor and data readings are held in perpetuity; providing accurate historical trend analysis for a unique user insight. Understanding and providing accurate historical measurements is hugely beneficial.</p>
-			</div>
-		</div>
-    <div class="grey muted is-inset-20 is-stack-60">
-      <div class="is-stack-20">
-        <h4>Examples of trend analysis uses:</h4>
-      </div>
-      <div class="is-row">
-        <div class="is-col">
-          <p>Protecting equipment warranties</p>
-          <p>Assisting preventative maintenance programs</p>
-          <p>Maximising equipment longevity</p>
-        </div>
-        <div class="is-col">
-          <p>Understanding seasonal trends, impacts and adjustments</p>
-          <p>Forecasting and supporting infrastructure change management</p>
-        </div>
-        <div class="is-col">
-          <p>Creating informed load balancing methodologies</p>
-          <p>Supporting the achievement of Key Performance Indicators (KPIs)</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 <section>
   <div class="container">
     <div class="is-row">
@@ -262,22 +167,111 @@ page-description: Monitoring and alerting for IT rooms and facilities teams with
         </div>
       </div>
     </div>
-    <!--
-    <div class="dark-blue-grey white-text is-inset-20 is-text-center is-stack-60">
-      <div class="is-stack-40 is-inset-x-40">
-        <h4>Unlimited equipment monitoring</h4>
-        <p>OmniWatch already supports the largest number of equipment manufacturers and model types on the market and is committed to adding more as hardware becomes available.</p>
+  </div>
+</section>
+<section class="grey">
+  <div class="container">
+    <div class="is-stack-20 is-text-center">
+      <h3>The most popular sensors are:</h3>
+    </div>
+    {% include monitoring/it/popular-sensors.html %}
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h3>Digital dashboards</h3>
+    <p>OmniWatch digital dashboards are bespoke and designed by Spook on behalf of our users.</p>
+    <p>All the hard work of setting up sensors, adding equipment and configuring how the alarm work-flow and sensor management is implemented is included as part of the overall OmniWatch solution.</p>
+    <p>Any customer led additions, deletions or workflow changes are also included as part of the ongoing commitment from Spook to ensure our market leading remote monitoring service remains up to date and appropriate to its users.</p>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img class="is-border is-shadow-2 is-inset-20" alt="IT monitoring dashboard" src="/images/it-rooms-and-facilities/it-dashboard.png">
       </div>
-      <div class="is-row is-items-middle is-stack-40">
-        {% for equipment in site.data.it.supported-equipment %}
-        <div class="is-col">
-          <img style="filter: brightness(0) invert(1); padding: 1em;" src="{{ equipment.image }}">
-        </div>
-        {% if forloop.index == 5 %}</div><div class="is-row is-items-middle is-stack-40">{% endif %}
+      <div class="is-col is-40">
+        <img class="is-border is-shadow-2 is-inset-20" alt="IT monitoring dashboard" src="/images/it-rooms-and-facilities/floorplan.svg">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+        <h4 class="section-header">Emoji overviews</h4>
+        <img alt="Air quality and CO2 monitoring dashboard" class="is-shown-mobile is-stack-20" src="/images/it-rooms-and-facilities/dashboard-it-view.png">
+        <p>A picture paints a thousand words and the art of remote monitoring is to make identifying alarms quick and easy.</p>
+        <p>Using emoji for a high level overview is ideal for managing air quality devices that have multiple sensors.</p>
+        <p>Spook emoji are able to be expanded to focus on the individual monitored conditions of different equipment types.</p>
+      </div>
+      <div class="is-col is-60 is-hidden-mobile">
+        <img alt="Air quality and CO2 monitoring dashboard" src="/images/it-rooms-and-facilities/dashboard-it-view.png">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+		<div class="is-row is-items-middle is-stack-60">
+			<div class="is-col is-60 is-hidden-mobile">
+				<img alt="Temperature monitoring comparison" src="/images/it-rooms-and-facilities/temperature-comparison-chart.png">
+			</div>
+			<div class="is-col is-40">
+				<p class="section-subheader">Trend analysis</p>
+        <h4 class="section-header">Data in perpetuity</h4>
+				<img alt="Temperature monitoring comparison" class="is-shown-mobile is-stack-20" src="/images/it-rooms-and-facilities/temperature-comparison-chart.png">
+        <p>Most third party sensors and equipment, including climate monitors, have on-board data loggers. Often the collected readings have a limited shelf life of between 30 and 60 days before falling off the data horizon; and it is usually hard to access, download and understand.</p>
+        <p>OmniWatch sensor and data readings are held in perpetuity; providing accurate historical trend analysis for a unique user insight. Understanding and providing accurate historical measurements is hugely beneficial.</p>
+			</div>
+		</div>
+    <div class="grey muted is-inset-20 is-stack-60">
+      <div class="is-stack-60 is-text-center">
+        <h4>Advantages of perpetual trend analysis</h4>
+      </div>
+      <div class="is-row">
+        {% for item in site.data.it.trend-analysis %}
+          <div class="is-col is-50 is-stack-20">
+            <img style="height: 60px; margin-right: 1em;" src="{{ item.icon }}">
+            {{ item.name }}
+          </div>
         {% endfor %}
       </div>
     </div>
-    -->
+  </div>
+</section>
+<section class="grey">
+  <div class="container">
+    {% include omniwatch/key-points.html %}
+  </div>
+</section>
+<section>
+  <div class="container">
+		<div class="alert is-error is-text-center">OmniWatch is the only monitoring service to escalate alarms to a UK call centre if emails and SMS messages go unanswered.</div>
+    <div class="is-row is-items-middle is-stack-20">
+      <div class="is-col is-40">
+        <h3>Spook 3-tier alarm escalation process</h3>
+        <p>Alerts are sent in real-time and have three stages. At each stage there is a time delay to allow you to acknowledge the alarm.</p>
+        <p>If alarms aren't acknowledged they pass to the next stage, eventually culminating to Spook's UK call centre where an agent is tasked with calling you and your team.</p>
+      </div>
+      <div class="is-col is-60">
+        <img alt="Temperature monitoring chart" class="is-stack-20" style="height: 400px;" src="/images/it-rooms-and-facilities/temperature-chart.svg">
+      </div>
+    </div>
+    <div class="is-row">
+      {% for stage in site.data.alerting.stages %}
+        <div class="is-col">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img {{ stage.color }}" style="background-image: url('{{ stage.image }}'); background-size: contain; background-repeat: no-repeat;"></div>
+            <div class="card-content">
+              <p class="section-subheader">{{ stage.subheader }}</p>
+              <h4 class="section-header">{{ stage.header }}</h4>
+              {% for paragraph in stage.description %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 <section>
@@ -306,22 +300,16 @@ page-description: Monitoring and alerting for IT rooms and facilities teams with
     </div>
   </div>
 </section>
-<section class="spook-blue">
-  <div class="container white-text">
-    {% include omniwatch/key-points.html %}
-  </div>
-</section>
 <section>
   <div class="container">
     {% include two-types-of-customers.html %}
   </div>
 </section>
-{% include used-by.html %}
-<section class="header-banner is-text-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/homepage-banner-2.png');">
+<section class="header-banner footer is-text-center">
 	<div class="container">
     <div class="is-stack-40">
       <h2>Get in touch with Spook</h2>
-      <p>Please contact us if you wish for further information on how Spook can help with your air quality and CO<sub>2</sub> monitoring needs.</p>
+      <p>Please contact us if you wish for further information on how Spook can help with your IT rooms and facility monitoring needs.</p>
     </div>
 		<p><a href="/contact/" class="button">Contact us <span class="caret is-right"></span></a></p>
 	</div>

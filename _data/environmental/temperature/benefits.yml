@@ -2,23 +2,22 @@
   icon: /images/sensor/icons/damage.svg
   color: red
   description:
-    - Ensuring that environments remain within the proper temperature range will help to extend the lifespan of equipment, perishable produce and structures.
-    - Catching excessive or fluctuating temperatures and rectifying them before harm can be done will save replacement costs and potential impact to business down the line.
-    - Proactive action and early alerting provides time for replacement plans and maintenance calls to be booked at more convenient times; further reducing negative impact on businesses.
+    - Ensuring that environments remain within their proper temperature range will help to extend the lifespan of equipment, perishable produce and structures.
+    - Catching excessive or fluctuating temperatures and rectifying them before harm can be done, will save replacement costs and potential impact to business down the line.
+    - Early temperature alerting by Spook provides valuable time for replacement plans and maintenance calls to be booked at more convenient times; further reducing negative impacts on an organisations uptime.
 
 - name: Energy efficiency and cost savings
   icon: /images/icons/cost-saving.svg
   color: green
   description:
-    - Historical data can be used to track energy demands and utilisation of other systems such as air conditioning (AC) units or cooling units within fridges/freezers.
-    - Not only can areas with high demands point towards a previously unknown issue, such as a failing AC unit or broken fan, it can also help plan redistribution of equipment to lower demand areas.
-    - High demand areas can also exist where there is an artificial demand; after equipment is moved or a period of high ambient temperature has passed and cooling hasn't been altered to reflect this.
-    - Artificial demand on cooling can cause excess expense which once rectified can save the business money.
+    - Understanding thermal output can have a direct impact on reducing energy consumption and produce valuable cost savings.
+    - Spook's historical trend data can be used to illustrate energy demands and utilisation of other systems such as air conditioning (AC) units or cooling units within fridges/freezers.
+    - Areas with high temperature readings can point towards a previously unknown issue, such as a failing AC unit or broken fan.
+    - High thermal demand areas can also exist where there is artificial demand; for example, after equipment is moved or after a high period of ambient temperature has passed and cooling hasn't been altered to reflect this.
 
-- name: Health and safety and warranty audit
-  icon: /images/icons/data.svg
+- name: Warranty protection
+  icon: /images/icons/warranty.svg
   color: blue
   description:
-    - Often there is a duty to prove equipment or produce or other items are stored at the correct temperature.
-    - With OmniWatch temperature monitoring you are able to produce a report for any time frame covered by your installation as proof of correct environmental conditions.
-    - Unlike most off the shelf monitoring solutions available OmniWatch stores all readings forever rather than just the last 30 days.
+    - Equipment manufacturers often publish recommended operating conditions for their assets. By measuring temperature 24/7 users are able to set alarms for when the temperature is becoming too high or too low. This is true for equipment contained within an area or, if available,  via an assets on-board temperature sensors.
+    - Historical trend data readings can also be helpful in proving the correct temperature levels have been adhered to as recommended by equipment manufacturers. OmniWatch saves all sensor readings in perpetuity making creating evidence based reports a cinch. 

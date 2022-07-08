@@ -23,15 +23,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2800"
-     inkscape:window-height="1672"
+     inkscape:window-width="2840"
+     inkscape:window-height="1736"
      id="namedview2116"
      showgrid="false"
      inkscape:zoom="6.675088"
-     inkscape:cx="118.48689"
-     inkscape:cy="69.786974"
-     inkscape:window-x="80"
-     inkscape:window-y="54"
+     inkscape:cx="87.625874"
+     inkscape:cy="69.187731"
+     inkscape:window-x="40"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -54,7 +54,7 @@
     <path
        id="rect1536"
        d="m 10.824415,250.44408 h 32.940964 v 30.98748 l -9.755332,9.27451 H 10.824415 Z"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#333333;stroke-width:2.11666664;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:2.11666664;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
     <path
        id="path1541"
        d="m 34.010047,290.70607 v -9.80905 h 10.089425"

@@ -1,16 +1,21 @@
-- name: Critical alerting
-  image: /images/icons/alert.svg
+- name: Damage to assets
+  color: green
+  icon: /images/icons/predictive-maintenance.svg
   description:
-    - When a power cut or interruption to the mains supply occurs it is very important to act quickly. OmniWatch sends out alerts to key members of staff at the very moment the UPS takes over feeding power giving as much warning as possible.
-    - Most UPSs only have enough battery autonomy for a very short period of time and if there is no generator to take over or return of the mains supply then reducing non-critical loads quickly will help keep important equipment up and running longer.
+    - Power loss can have negative effects outside of the obvious loss of work or services. Devices such as computers and servers are constantly active and working even if a user has not asked it to do anything.
+    - Important system files could be being worked on by the computer when power loss occurs, permanently corrupting or destroying files and databases.
 
-- name: Health monitoring
-  image: /images/icons/focus.svg
+- name: Power source switch over
+  color: blue
+  icon: /images/sensor/icons/generator.svg
   description:
-    - Alongside monitoring power outages OmniWatch monitors the health of a UPS and is configured to alert to conditions and incidents that could otherwise go unnoticed such as faulty batteries. 
-    - OmniWatch works to keep its users informed and up-to-date with the operational health of all their equipment and reports have been used as evidence in upholding warranties.
+    - Even if an organisation have diesel generators to provide long term power security in the event of a prolonged loss of utility power, there is a delay between loss of power and a generator being invoked.
+    - UPS units are used to ensure there is no loss of power during the switch over from mains power to generator power provision. Knowing all elements of the switchover are successful is critical.
 
-- name: Remote information
-  image: /images/icons/remote-working.svg
+- name: UPS warranties
+  color: orange
+  icon: /images/icons/warranty.svg
   description:
-    - OmniWatch is built from the ground up to work on any internet enabled device so metrics such as run time remaining and phase loads can be tracked on a mobile phone or tablet while on site during an outage; giving all the information needed quickly and easily.
+    - Monitoring the operating environment of a UPS is as important as monitoring the temperature of a server room.
+    - Many UPS units have battery banks associated with them. These battery banks contain individual batteries that require the ambient environment to be within the guidelines of the manufacturer.
+    - It's important to be able to prove the operating environment of a UPS and its associated batteries in order to maintain its warranty protection.

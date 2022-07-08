@@ -3,10 +3,17 @@
 </div>
 <div class="is-row is-text-center">
   {% for item in site.data.home.key-points %}
-    <div class="is-col is-border is-shadow-3 white is-stack-40">
-      <div style="background-image: url('{{ item.icon }}'); background-size: contain; background-position: center; background-repeat: no-repeat; width: 100%; height: 100px; margin-top: 1em;"></div>
-      <h4 class="blue-text" style="font-weight: normal;">{{ item.name }}</h4>
-      <p class="is-inset-x-20 is-inset-y-8 black-text">{{ item.description }}</p>
+    <div class="is-col is-stack-40">
+      <div class="card is-border is-shadow-2">
+        <div class="card-img green" style="background-image: url('{{ item.icon }}'); background-size: contain; background-position: center; background-repeat: no-repeat;"></div>
+        <div class="card-content">
+          <h4 class="blue-text" style="font-weight: normal;">{{ item.name }}</h4>
+          <p class="is-inset-x-20 is-inset-y-8 black-text">{{ item.description }}</p>
+          {% if item.link %}
+          <p><a class="button" href="{{ item.link.url}}">{{ item.link.text }} <span class="caret is-right"></span></a></p>
+          {% endif %}
+        </div>
+      </div>
     </div>
     {% if forloop.index == 3 %}</div><div class="is-row is-text-center">{% endif %}
   {% endfor %}

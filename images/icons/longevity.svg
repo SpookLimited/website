@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 52.916665 52.916668"
+   height="200"
+   width="200">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-244.08332)"
+     id="layer1">
+    <g
+       id="layer1-2"
+       transform="translate(-7.8430059,30.832269)">
+      <g
+         transform="matrix(0.11387709,0,0,0.11387709,-11.249497,205.54626)"
+         id="g932"
+         style="clip-rule:evenodd;fill-rule:evenodd;stroke-width:2.32341146;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5">
+        <g
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke-width:2.32341146"
+           transform="translate(-2.941155,715.50715)"
+           id="g5506">
+          <path
+             id="path5895"
+             d="m 289.55444,-506.70545 c -50.60527,0.37557 -88.63282,38.33832 -88.63282,91.19727 0,89.0256 107.86656,135.80256 202.01953,31.91016 94.15296,103.8924 202.01954,57.11544 202.01954,-31.91016 0,-52.8589 -38.02755,-90.82177 -88.63282,-91.19727 -34.62465,-0.257 -75.13709,17.08277 -113.38672,59.28907 -38.24964,-42.20629 -78.76206,-59.54603 -113.38671,-59.28907 z m -1.85938,43.19922 c 24.30472,-0.21766 55.78881,17.95257 88.05665,47.99805 -60.73947,56.5562 -118.69749,71.036 -131.23438,0 5.87667,-33.29813 21.73239,-47.80599 43.17773,-47.99805 z m 230.49219,0 c 21.44535,0.192 37.30106,14.69995 43.17773,47.99805 -12.53689,71.036 -70.49489,56.5562 -131.23436,0 32.26784,-30.0455 63.75191,-48.21575 88.05663,-47.99805 z"
+             style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.32341146px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+- name: Peak load
+  icon: /images/icons/peak-graph.svg
+  words:
+    - Utility companies install energy meters to keep track on how much energy is provided to an organisation. They measure peak load by meter usage as the average demand over 15 minutes. This is done by adding up the energy consumed and then dividing by the interval of time.
+    - The highest average 15 minute period of demand over a month is known as peak demand. OmniWatch can automate the whole process and present this in real-time and provide accurate trend data in auto daily, weekly or monthly reports.
+
+- name: Efficiency gains
+  icon: /images/sensor/icons/pue-dcie.svg
+  words:
+    - Energy meter monitoring is important as it is the process of making energy consumption efficient, from buildings or campuses to individual assets across the facility such as HVAC (Heating, Ventilation and air conditioning) and more.
+    - Monitoring at meter level is vital in helping to control and conserve energy now and in the future. Energy inefficiencies can be identified enabling organisations time to implement changes to reduce energy consumption and as a consequence maximise cost savings.
+
+
+- name: Energy reduction
+  icon: /images/icons/peak-load.svg
+  words:
+    - The opportunity of reducing energy consumption by measuring it and understanding how an organisations energy interdependencies work only comes with measuring energy in the first place. To paraphrase Lord Kelvin - If you cannot measure it, you cannot improve it.
+    - For example, monitoring a building’s energy meter levels could highlight inefficiencies such as excessively heating a vacant area, constantly providing lighting and other power hungry activities such as cooling and ventilation.
+    - Commercial buildings are typically noted for their energy inefficiency. Offices usually have open spaces that require a lot of heating to fill the space alongside an excessive amount of lighting. When you consider that the CO<sub>2</sub> impact of electricity consumption is 2.5 times greater than that of natural gas exasperates the situation.

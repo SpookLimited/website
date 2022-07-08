@@ -1,15 +1,29 @@
 - name: CO<sub>2</sub>
-  description: Identifying safe levels of CO<sub>2</sub> and other ambient measurements of indoor spaces for ventilation projects and reduce employee anxiety.
-  icon: /images/sensor/icons/airflow.svg
+  color: blue
+  description: 
+    - CO<sub>2</sub> levels in indoor working spaces has a direct correlation to the well being of the people occupying the area.
+    - Generally speaking low CO<sub>2</sub> levels increase productivity and reduce sickness of staff and visitors.
+  icon: /images/sensor/icons/co2.svg
 
-- name: Temperature & humidity
-  description: Understanding sick building syndrome and how to apply changes to reduce stress.
-  icon: /images/air-quality-and-co2/building-icon.svg
-
-- name: Activity & light
-  description: Identifying how changes in occupancy levels effect health and using light levels to increase productivity and assist security.
+- name: Activity
+  color: green
+  description: 
+    - Activity within an area directly effects the levels of indoor CO2.
+    - The more people within an area or where occupancy is used for more active events rapidly ramps up CO<sub>2</sub> levels to potentially unhealthy levels.
   icon: /images/sensor/icons/motion.svg
 
-- name: Perpetual historical data
-  description: Analyse how seasonal trends and environmental changes impact employee satisfaction and attendance.
-  icon: /images/sensor/icons/frequency.svg
+- name: Light
+  color: orange
+  description:
+    - Light can have a huge impact on a worker's health and their productivity.
+    - People deprived of natural light are found to be more tired, more prone to insomnia, more distractible and less active.
+  icon: /images/sensor/icons/light.svg
+
+- name: Ambience
+  color: red
+  description: 
+    - Sick Building Syndrome is caused by a mixture of things such as dry air, ventilation, temperature, humidity, air renewal rates, noise levels and lighting.
+    - This can cause occupants to feel unwell, leading to absenteeism and poor mental health.
+  icon: /images/air-quality-and-co2/building-icon.svg
+
+

@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="89.486847"
-     inkscape:cy="112.15886"
+     inkscape:cx="61.71899"
+     inkscape:cy="111.80172"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -133,6 +133,12 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-244.08334)">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#333333;stroke-width:2.11666656;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       d="M 6.3499999,256.38293 H 46.566666 v 28.31748 H 6.3499999 Z"
+       id="rect1614-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
     <g
        id="g835"
        transform="translate(4.9999998e-8,-5.949597)">

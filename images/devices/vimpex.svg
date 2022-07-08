@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 52.916665 52.916668"
+   height="200"
+   width="200">
+  <defs
+     id="defs2">
+    <polygon
+       id="path-1"
+       points="0 28 122.969241 28 122.969241 0.0331950887 0 0.0331950887" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-244.08332)"
+     id="layer1">
+    <g
+       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:0.76855773;fill-opacity:1;stroke-opacity:1"
+       transform="matrix(0.34425954,0,0,0.34425954,5.2916666,265.41303)"
+       id="Symbols">
+      <g
+         style="stroke-width:0.76855773;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+         id="Nav-Bar"
+         transform="translate(-200,-13)">
+        <g
+           style="stroke-width:0.76855773;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+           id="Page-1"
+           transform="translate(200,13)">
+          <polygon
+             style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="Fill-1"
+             points="10.644009,16.882132 4.9415193,8 0,8 8.0608761,20 12.923024,20 21,8 16.168887,8 " />
+          <polygon
+             style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="Fill-2"
+             points="25,20 29,20 29,8 25,8 " />
+          <polygon
+             style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="Fill-3"
+             points="52.537836,10.554443 47.807886,20 43.176495,20 38.462164,10.554443 38.462164,20 34,20 34,8 41.198312,8 45.517715,16.186159 49.786069,8 57,8 57,20 52.537836,20 " />
+          <g
+             style="stroke-width:0.76855773;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="Group-13">
+            <path
+               style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+               d="m 65.064716,10.262076 v 3.475515 h 2.576818 c 1.857401,0 3.100746,-0.06249 3.728901,-0.192639 0.623142,-0.127547 1.112617,-0.325419 1.471024,-0.601331 0.353093,-0.273354 0.531543,-0.591018 0.531543,-0.952879 0,-0.445249 -0.249129,-0.812344 -0.748894,-1.103918 -0.495619,-0.286341 -1.130258,-0.471187 -1.890649,-0.541473 -0.565129,-0.0573 -1.69452,-0.08328 -3.391415,-0.08328 z m -4.71162,10.179318 V 8.1870969 h 7.560561 c 2.863378,0 4.73107,0.065053 5.602173,0.1874052 1.335848,0.1823246 2.461093,0.5832633 3.362841,1.1976207 0.901749,0.6169932 1.352624,1.4111162 1.352624,2.3847372 0,0.755044 -0.259458,1.385025 -0.782481,1.895328 -0.521252,0.512863 -1.177679,0.919034 -1.983116,1.210609 -0.797785,0.288862 -1.614719,0.486734 -2.440775,0.577915 -1.123812,0.117119 -2.755306,0.179651 -4.890108,0.179651 h -3.070099 v 4.621031 z"
+               id="Fill-4" />
+            <polygon
+               style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+               id="Fill-6"
+               points="85.856367,18.374341 98.891879,18.374341 98.891879,20.441413 81.145916,20.441413 81.145916,8.1870778 98.44485,8.1870778 98.44485,10.262095 85.856367,10.262095 85.856367,12.97737 97.572541,12.97737 97.572541,15.041883 85.856367,15.041883 " />
+            <polygon
+               style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+               id="Fill-8"
+               points="116.53127,20.441413 111.35697,16.2031 106.16888,20.441413 100.51544,20.441413 108.4939,14.047367 101.26698,8.1870778 106.76994,8.1870778 111.45592,12.126063 116.03535,8.1870778 121.4985,8.1870778 114.23569,14.138548 122.21415,20.441413 " />
+            <mask
+               id="mask-2"
+               fill="white">
+              <use
+                 height="100%"
+                 width="100%"
+                 y="0"
+                 x="0"
+                 xlink:href="#path-1"
+                 id="use836" />
+            </mask>
+            <g
+               style="stroke-width:0.76855773;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+               id="Clip-11" />
+            <polygon
+               style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+               id="Fill-10"
+               mask="url(#mask-2)"
+               points="122.96924,28 122.96924,26.561113 0.021938707,26.561113 0.021938707,28 " />
+            <path
+               style="fill:#000000;stroke-width:0.76855773;fill-opacity:1;stroke:none;stroke-opacity:1"
+               d="m 26.331838,0.03319891 c 1.68276,0 3.048312,1.38235199 3.048312,3.08756349 0,1.7054024 -1.365552,3.0903901 -3.048312,3.0903901 -1.682759,0 -3.04816,-1.3849877 -3.04816,-3.0903901 0,-1.7052115 1.365401,-3.08756349 3.04816,-3.08756349"
+               id="Fill-12"
+               mask="url(#mask-2)" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <circle
+       r="1.0394346"
+       cy="266.41937"
+       cx="14.585156"
+       id="path879"
+       style="opacity:1;fill:#1c99d5;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    <rect
+       y="274.40341"
+       x="5.2175598"
+       height="0.57947969"
+       width="42.584614"
+       id="rect881"
+       style="opacity:1;fill:#1c99d5;fill-opacity:1;stroke:none;stroke-width:2.11666656;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+  </g>
+</svg>

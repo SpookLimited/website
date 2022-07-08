@@ -1,0 +1,82 @@
+---
+layout: base
+title: OmniWatch alerting
+page-description: An overview of how the OmniWatch monitoring system works. Description of our 3-tier escalation process and alerting channels.
+---
+<section style="background-image: url('/images/omniwatch/alerting-chart-banner.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
+  <div class="container">
+    <div class="is-50">
+      <h3>24/7 real-time monitoring and alerting</h3>
+      <h1>OmniWatch has the most complete all-inclusive alarm escalation procedure on the market.</h1>
+      <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <h2>How the 3-stage alarm escalation works</h2>
+    <p>Each alarm stage waits 15 minutes before escalating to the next stage to give users time to acknowledge the alarm. At each stage a user can decide to be:</p>
+    <div class="is-row is-stack-20">
+      {% for stage in site.data.alerting.stages %}
+        <div class="is-col">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img {{ stage.color }}" style="background-image: url('{{ stage.image }}'); background-size: contain; background-repeat: no-repeat;"></div>
+            <div class="card-content">
+              <p class="section-subheader">{{ stage.subheader }}</p>
+              <h4 class="section-header">{{ stage.header }}</h4>
+              {% for paragraph in stage.description %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <p>Each alarm stage clearly lists who, within the rota, were emailed, texted and contacted by the call centre together with time and date stamps of each broadcasted stage.</p>
+    <div class="quote-block grey">
+      <span>"</span>
+      <p>Spook provides peace of mind in that we can monitor all aspects of our server room in realtime. Alarms are handled by OmniWatch 24/7 and easily takes into account our out-of-office hours emergency contact process. We can review all alarms historically and check trend date for sensors too, this makes management reviews for incidents simple and easy.</p>
+      <p class="is-small">P&O Ferrymasters</p>
+      <div class="quote-by">
+        <img alt="P&O Ferrymasters" src="/images/customer-logo/pando.svg">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row">
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img blue icon" style="background-image: url('/images/icons/remote-working.svg');"></div>
+          <div class="card-content">
+            <h3>Custom schedules</h3>
+            <p>Emergency contact timetables can vary. Calendars are pre-configured to reflect the times a member of your team is available.</p>
+            <p>This includes those who do not follow conventional 9-5 office hours, have staggered shift patterns or have fully flexible working hours.</p>
+          </div>
+        </div>
+      </div>
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img green icon" style="background-image: url('/images/icons/switching.svg');"></div>
+          <div class="card-content">
+            <h3>Availability status</h3>
+            <p>For organisations who operate a rota for emergency contact there is an easy ‘active/inactive’ function for each contact.</p>
+            <p>Simply activate or deactivate availability as and when their rota changes.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card is-border is-shadow-2">
+      <div class="card-img orange icon" style="background-image: url('/images/omniwatch/filter-contacts.svg');"></div>
+      <div class="card-content">
+        <h3>Regional and departmental workflow</h3>
+        <p>Spook's customers range from single room installations to multiple locations across national and international borders.</p>
+        <p>When multi-territory monitoring is required sometimes a regional manager may only need to know what is happening in their district. Whereas the global team may need an enterprise centric view across all regions and territories.</p>
+        <p>Even at local level there may be a need for different departments to be responsible for their own monitoring. For example, water ingress monitoring may be the remit of the facilities department whereas the temperature of a room or server cabinet may be the responsibility of another department.</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% include used-by.html %}
+{% include contact-us.html %}

@@ -8,6 +8,7 @@ of electrical power that supports important IT systems on loss of normal power s
   <div class="container">
     <div class="is-50 is-stack-40">
       <h1>UPS monitoring</h1>
+      <p class="is-big">The importance of UPS monitoring and the benefits it offers</p>
     </div>
     <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
@@ -15,57 +16,38 @@ of electrical power that supports important IT systems on loss of normal power s
 <div class="is-inset-y-8 black">
   <div class="container">
     <div class="is-row is-items-middle">
-      <div class="is-col is-10 white-text">
+      <div class="is-col is-10 white-text is-text-center-mobile">
         Support for
       </div>
       <div class="is-col is-80 is-text-center">
         <img alt="Supported manufacturers for UPS monitoring" src="/images/monitoring/ups/supported-manufacturers.svg">
       </div>
-      <div class="is-col is-10 white-text">
+      <div class="is-col is-10 white-text is-text-center-mobile">
         and more.
       </div>
     </div>
   </div>
 </div>
-<section>
+<section class="grey">
   <div class="container">
-     <div class="is-row is-items-middle is-stack-40">
-        <div class="is-col is-50">
-          <p class="section-subheader">Monitoring specialists</p>
-          <h4 class="section-header">The importance of UPS monitoring and the benefits it offers</h4>
-          <p class="is-big">Uninterruptible power supply (UPS) systems are put in place to protect attached equipment, condition the incoming power to reduce sags and surges and to also supply a short term solution during loss of power.</p>
-          <p class="is-big">Electronic equipment is very susceptible to damage caused by sudden loss of power with the risk and likelihood increasing with the complexity of the equipment.</p>
-        </div>
-        <div class="is-col is-50">
-          {% include awards.html %}
-        </div>
+   <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col is-50">
+        <p class="section-subheader">Monitoring specialists</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors UPS systems. Measuring key UPS metrics across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
       </div>
-      <div class="is-row">
-        {% for benefit in site.data.power.ups.benefits %}
-          <div class="is-col is-stack-40">
-            <div class="card is-border is-shadow-2">
-              <div class="card-content">
-                <h3>{{ benefit.name }}</h3>
-                {% for paragraph in benefit.description %}
-                  <p>{{ paragraph }}</p>
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-        {% endfor %} 
+      <div class="is-col is-50">
+        {% include awards.html %}
       </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle">
+    </div>
+    <div class="is-row">
       <div class="is-col">
-        <img alt="UPS monitoring dashboard" src="/images/monitoring/ups/ups-dashboard-view.png">
+        <h3>Remote information</h3>
+        <p>Most UPS systems have their own on-board data management software. However, the majority of these are data loggers and track UPS metrics for a limited amount of time. </p>
+        <p>Organisations tend to have various UPS assets installed from many different manufacturers. This can become complicated for end users as each unit has its own unique way of presenting data.</p>
+        <p>OmniWatch is designed to passively collect UPS power metrics and present them in a standard, easy to understand, digital dashboard. Comparing and understanding UPS power metrics has never been so easy.</p>
       </div>
       <div class="is-col">
-        <h3>Damage to equipment</h3>
-        <p>Power loss can have negative effects outside of the obvious loss of work or services. Devices such as computers and servers are constantly active and working even if a user has not asked it to do anything. Important system files could be being worked on by the computer when power loss occurs permanently corrupting or destroying the file.</p>
-        <h3>Power source switch over</h3>
-        <p>Even if a site has generators there is a delay between loss of power and a generator being switched on. UPSs are used to ensure there is no loss of power during the switch over from mains power to generator power.</p>
+        <img class="is-border is-shadow-2 is-inset-20" style="background-color: #fff;" src="/images/monitoring/ups/ups-dashboard-view.png">
       </div>
     </div>
   </div>
@@ -73,17 +55,30 @@ of electrical power that supports important IT systems on loss of normal power s
 <section>
   <div class="container">
     <div class="is-row is-items-middle">
-      <div class="is-col is-70">
-        <h2>Maximise your investment</h2>
-        <p>Most modern UPS systems have the ability to have a communications card installed within it that allow for third party solutions to connect and share metrics and usage data.</p>
-        <p>OmniWatch is capable of monitoring these cards and their UPSs, either through SNMP, Modbus, BACnet or other protocols. Spook is constantly working to increase the number of supported devices and communications protocols to allow for a singular cloud based solution and not force users to be reliant on local only web interfaces.</p>
-        <p>Even UPSs that are not able to be network attached can be added to a user's monitoring footprint as there is usually a facility to connect to a Voltage Free Connection (VFC) panel to monitor a wide-range of conditions.
-        </p>
+      <div class="is-col is-60 is-stack-40-mobile">
+        <img src="/images/monitoring/ups/ups-battery-capacity.png">
       </div>
-      <div class="is-col black white-text is-30 is-inset-20">
-        <p>When using a VFC there are two types of condition to monitor, Normally Open (NO) or Normally Closed (NC).</p>
-        <p>Spook recommends setting equipment to NO when the alarm status is within the normal operating mode.</p>
-        <p>Therefore, if the interconnecting cable connecting the sensor to the monitoring unit is cut or becomes loose, the sensor will send an alarm.</p>
+      <div class="is-col is-40">
+        <h3>Critical alerting</h3>
+        <p>When mains incoming power is lost or interruption to the mains supply occurs it is very important to act quickly. OmniWatch sends alerts to key members of staff at the very moment the UPS takes over power provision, providing as much warning as possible.</p>
+        <p>Most UPS units only have enough battery autonomy for a short period of time and if there is no diesel generator to take over long term power provision or the return of the mains supply is delayed, then reducing non-critical loads in controlled power down procedures will help keep important equipment up and running longer.</p>
+        <p>OmniWatch broadcasts alerts via email, SMS and UK call centre.</p>
+        <p><a href="/alerting" class="button">More information regarding Spook alerts</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <h3>UPS health monitoring</h3>
+        <p>Alongside monitoring power outages OmniWatch monitors the health of a UPS and is configured to alert to conditions and incidents that could otherwise go unnoticed such as faulty batteries.</p>
+        <p>OmniWatch works to keep its users informed and up-to-date with the operational health of all their equipment. All UPS readings are stored in perpetuity so studying long term trend data is easy. </p>
+        <p>In short, OmniWatch makes measuring energy related monitoring meaningful, intuitive and incredibly easy.</p>
+      </div>
+      <div class="is-col">
+        <img src="/images/monitoring/ups/ups-report-view.png">
       </div>
     </div>
   </div>
@@ -91,13 +86,34 @@ of electrical power that supports important IT systems on loss of normal power s
 <section>
   <div class="container">
     <div class="is-row">
-      <div class="is-col" style="background-image: url('/images/monitoring/ups/ups-battery-deformed.png'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      {% for benefit in site.data.power.ups.benefits %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img icon {{ benefit.color }}" style="background-image: url('{{ benefit.icon }}');"></div>
+            <div class="card-content">
+              <h3>{{ benefit.name }}</h3>
+              {% for paragraph in benefit.description %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %} 
+    </div>
+  </div>
+</section>
+<section class="grey">
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-70">
+        <h2>Maximise your investment</h2>
+        <p>Most modern UPS systems have the ability to have a communications card installed within it to allow third party service providers to connect and share metrics and usage data.</p>
+        <p>OmniWatch is capable of monitoring these cards and their UPS units, either through SNMP, Modbus, BACnet or other protocols.</p>
+        <p>OmniWatch works with all communications protocols to allow for a cloud based, enterprise centric solution and not force users to be reliant on localised equipment manufacturers web interfaces.</p>
+        <p>Even UPS systems that are not network attached can be monitored via a Voltage Free Connection (VFC) panel to monitor a wide range of UPS metrics.</p>
       </div>
-      <div class="is-col is-inset-20">
-        <h2>UPS environmental monitoring</h2>
-        <p>Monitoring the environment of a UPS is as important as monitoring the temperature of a server room.</p>
-        <p>Many UPSs have battery banks associated with them. These battery banks contain individual batteries that require the ambient environment to be within the guidelines of the manufacturer.</p>
-        <p>It's important to be able to prove the operating environment of a UPS and associated batteries in order to maintain its warranty protection.</p>
+      <div class="is-col is-30">
+        <img src="/images/monitoring/ups/protocols.svg">
       </div>
     </div>
   </div>
@@ -127,3 +143,4 @@ of electrical power that supports important IT systems on loss of normal power s
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

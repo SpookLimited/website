@@ -1,9 +1,15 @@
 - name: High humidity
+  color: red
+  icon: /images/icons/high-humidity.svg
   description:
-    - High humidity can cause an undesirable level of moisture in the air which can negatively impact a wide range of products as well as creating an uncomfortable environment for people. 
-    - Increased moisture can damage electronic equipment, manufactured products, structures, encourage the growth of mould and mildew and cause rot.
+    - High RH can cause an undesirable level of moisture in the air which can negatively impact a wide range of products as well as creating an uncomfortable environment for people.
+    - Increased moisture in the air can damage electronic equipment due to rusting and corrosion. Tiny water droplets cause short circuits when they come in contact with the devices circuitry. In addition, if the asset overheats, it might break down.
+    - High humidity also effects manufactured products, structures, encourage the growth of mould and mildew and cause perishable items to rot.
 
 - name: Low humidity
+  color: blue
+  icon: /images/icons/low-humidity.svg
   description:
-    - Low humidity levels can cause excess build up of static electricity, increase the susceptibility of colds and respiratory illnesses and allows viruses and germs to thrive. 
-    - It can also have adverse effects on plants, wood, paint and other objects that are hygroscopic as their natural moisture levels are decreased in line with the RH.
+    - Low RH levels can cause excess build up of static electricity, increase the susceptibility of colds and respiratory illnesses and allows viruses and germs to thrive.
+    - To illustrate how harmful a static discharge can be to electrical equipment; the human body is capable of carrying up to 25,000 volts of electrical current from static buildup, but it only takes 4,000 volts to damage the sensitive circuitry of electronic equipment.
+    - Low humidity can also have adverse effects on plants, wood, paint and other objects that are hygroscopic as their natural moisture levels are decreased in line with the low humidity level.

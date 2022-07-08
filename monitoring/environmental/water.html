@@ -3,17 +3,19 @@ layout: base
 title: Water ingress monitoring
 page-description: Real-time monitoring and alerting solution for water ingress. Keep an eye on areas that you do not wish for water to be and be told when there's an issue.
 ---
-<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+<section style="background-image: url('/images/banner/water-chart.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-50">
         <div class="is-stack-40">
+          <img style="width: 80px;" src="/images/sensor/icons/water.svg">
           <h1>Water ingress monitoring</h1>
+          <p class="is-big">The importance of water ingress monitoring and the benefits it offers</p>
         </div>
         <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
       </div>
       <div class="is-col is-50">
-        <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/monitoring/environmental/water-dashboard.png">
       </div>
     </div>
   </div>
@@ -33,16 +35,76 @@ page-description: Real-time monitoring and alerting solution for water ingress. 
     <div class="is-row is-items-middle is-stack-40">
       <div class="is-col is-50">
         <p class="section-subheader">Monitoring specialists</p>
-        <h4 class="section-header">The importance of water ingress monitoring and the benefits it offers</h4>
-        <p class="is-big">Often a water problem can be festering for some time underneath a raised floor or above a false ceiling. Early detection gives enough lead time to prevent a major shut down.</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors water ingress. Measuring the presence of water across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
       </div>
       <div class="is-col is-50">
         {% include awards.html %}
       </div>
     </div>
     <div class="is-stack-40">
+      <h3 class="section-header">The importance of water ingress monitoring</h3>
+      <p>Often a water problem can be festering for some time unbeknown to employees, for example underneath a raised floor or above a false ceiling. </p>
+      <p>Early detection gives valuable advanced warning of a water related event that, if went unnoticed, could cause considerable disruption. </p>
+      <p>From a point of view of remedying the situation, this usually is a time consuming process to dry out an areas water damaged area and ensure health and safety guidelines are met during the process.</p>
       <p>Pipes can burst and air conditioning units and cooling systems can leak from a failed condensation pump, broken supply lines or clogged drains. Sprinkler systems can malfunction too.</p>
-      <p>Proper placement of water sensors is key. Water tends to puddle at the lowest point of the floor and underneath pipe junctions and air conditioning units. Should a water sensor be placed too high it won't trigger an alarm until after a serious flood has occurred.</p>
+    </div>
+    <div class="is-stack-40 is-text-center">
+      <h2>Common areas for water ingress monitoring</h2>
+    </div>
+    <div class="is-row">
+      {% for item in site.data.environmental.water.common-areas %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img {{ item.color }} icon" style="background-image: url('{{ item.icon }}');"></div>
+            <div class="card-content">
+              <h3>{{ item.name }}</h3>
+              {% for paragraph in item.words %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %} 
+    </div>
+  </div>
+</section>
+<section class="grey">
+  <div class="container is-text-center">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-inset-20">
+        <div class="is-row is-text-center">
+          {% for logo in site.data.environmental.water.manufacturers %}
+            <div class="is-col is-50">
+              <img alt="{{ logo.name }}" src="{{ logo.image }}">
+            </div>
+          {% endfor %}
+          <div class="is-col is-50">
+            <div class="is-inset-y-80">
+              <p>And more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="is-col">
+        <h3 class="section-header">Water sensors</h3>
+        <p>There are many different types of water sensor, each designed to detect for wetness in specific areas, example of this are third party water detection panels, water ropes, water point detectors, water pads and water level probes.</p>
+        <p>Proper placement of water sensors is key. Water tends to puddle at the lowest point of the floor and underneath pipe junctions and air conditioning units.</p>
+        <p>Should a water sensor be placed too high it won't trigger an alarm until after a serious flood has occurred.</p>
+      </div>
+      <div class="is-col is-inset-20">
+        <div class="is-row is-text-center">
+          {% for logo in site.data.environmental.water.protocols %}
+            <div class="is-col is-50">
+              <img alt="{{ logo.name }}" src="{{ logo.image }}">
+            </div>
+          {% endfor %}
+          <div class="is-col is-50">
+            <div class="is-inset-y-80">
+              <p>And more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -91,3 +153,4 @@ page-description: Real-time monitoring and alerting solution for water ingress. 
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

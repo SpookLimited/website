@@ -5,12 +5,11 @@
     </div>
     <div class="is-row">
       {% for component in site.data.power.key-components %}
-        <div class="is-col is-border is-shadow-2 is-inset-20 power-block">
+        <div class="is-col is-border is-shadow-2 is-inset-20 power-block is-stack-40-mobile">
           <a class="is-text-center" href="{{ component.link }}">
             <img src="{{ component.icon }}">
             <div class="divider"></div>
             <h4>{{ component.name }}</h4>
-            <p>{{ component.description }}</p>
           </a>
         </div>
       {% endfor %}

@@ -3,17 +3,19 @@ layout: base
 title: Humidity monitoring
 page-description: Ensure that electrical equipment and vunerable items are protected from humidity with real-time monitoring and alerting.
 ---
-<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+<section style="background-image: url('/images/banner/humidity-chart.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-50">
         <div class="is-stack-40">
-          <h1>Humidity monitoring</h1>
+          <img style="width: 80px;" src="/images/sensor/icons/humidity.svg">
+          <h1>Humidity monitoring (RH)</h1>
+          <p class="is-big">The importance of humidity monitoring and the benefits it offers</p>
         </div>
         <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
       </div>
       <div class="is-col is-50">
-        <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/monitoring/environmental/humidity-dashboard.png">
       </div>
     </div>
   </div>
@@ -30,31 +32,48 @@ page-description: Ensure that electrical equipment and vunerable items are prote
 </div>
 <section>
   <div class="container">
-     <div class="is-row is-items-middle is-stack-40">
-        <div class="is-col is-50">
-          <p class="section-subheader">Monitoring specialists</p>
-          <h4 class="section-header">The importance of humidity monitoring and the benefits it offers</h4>
-          <p class="is-big">Relative humidity (RH) is a measurement of the amount of water vapour present in the air and is stated as a percentage of the amount needed to achieve saturation at the same temperature.</p>
-          <p class="is-big">The aim of humidity monitoring is to ensure the safety of the local environment and allow a quick and correct response to the shifting factors in the surrounding area. Being able to react correctly and quickly can not only save products from unnecessary damage and create a safe environment for humans but it could also be used a cost saving initiative when it comes to air conditioning demand.</p>
-        </div>
-        <div class="is-col is-50">
-          {% include awards.html %}
-        </div>
+   <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col is-50">
+        <p class="section-subheader">Monitoring specialists</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors Humidity. Measuring humidity across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
+        <p class="is-big">Irregular RH levels can cause harm to a wide range of electrical equipment, ruin produce, encourage pathogen growth or even indicate unseen issues elsewhere.</p>
       </div>
-      <div class="is-row">
-        {% for benefit in site.data.environmental.humidity.key-points %}
-          <div class="is-col is-50 is-stack-40">
-            <div class="card is-border is-shadow-2">
-              <div class="card-content">
-                <h3>{{ benefit.name }}</h3>
-                {% for paragraph in benefit.description %}
-                  <p>{{ paragraph }}</p>
-                {% endfor %}
-              </div>
+      <div class="is-col is-50">
+        {% include awards.html %}
+      </div>
+    </div>
+    <div class="is-stack-20">
+      <h4 class="section-header">What is relative humidity?</h4>
+      <p>RH is a measurement of the amount of water vapour present in the air and is stated as a percentage of the amount needed to achieve saturation at the same temperature.</p>
+      <p>The aim of humidity monitoring is to ensure the safety of the local environment and allow a quick and correct response to the shifting humidity factors in the surrounding area.</p> 
+      <p>Being able to react correctly and quickly can not only save products from unnecessary damage and create a safe environment for people but it could also be used as a cost saving initiative when it comes to the demands of power consumption on air conditioning units.</p>
+    </div>
+    <div class="is-row is-stack-20">
+      {% for benefit in site.data.environmental.humidity.key-points %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img {{ benefit.color }} icon" style="background-image: url('{{ benefit.icon }}');"></div>
+            <div class="card-content">
+              <h3>{{ benefit.name }}</h3>
+              {% for paragraph in benefit.description %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
             </div>
           </div>
-        {% endfor %} 
+        </div>
+      {% endfor %} 
+    </div>
+    <div class="is-stack-20">
+      <div class="is-row is-items-middle">
+        <div class="is-col is-30">
+          <img src="/images/monitoring/environmental/goldilocks-humidity.png">
+        </div>
+        <div class="is-col is-70">
+          <h4 class="section-header">Goldilocks zone for electrical equipment</h4>
+          <p>The typical desired range for humidity in an electronics environment is between RH 30% and RH 70%. Some facilities try to maintain a constant moderate RH level of ~50%, while others may want a lower RH% rate due to humidity sensitive parts.</p>
+        </div>
       </div>
+    </div>
   </div>
 </section>
 <div class="container"><hr></div>
@@ -100,3 +119,4 @@ page-description: Ensure that electrical equipment and vunerable items are prote
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

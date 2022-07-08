@@ -1,0 +1,14 @@
+- name: LoRaWAN
+  image: /images/devices/lorawan.svg
+
+- name: SNMP
+  image: /images/devices/snmp-color.svg
+
+- name: BACNet
+  image: /images/devices/bacnet-color.svg
+
+- name: Modbus
+  image: /images/devices/modbus-color.svg
+
+- name: VFCs
+  image: /images/devices/vfcs.svg

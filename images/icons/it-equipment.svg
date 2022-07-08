@@ -29,12 +29,12 @@
    id="namedview825"
    showgrid="false"
    inkscape:zoom="2.27"
-   inkscape:cx="440.59648"
-   inkscape:cy="271.00313"
+   inkscape:cx="283.98855"
+   inkscape:cy="270.12207"
    inkscape:window-x="80"
    inkscape:window-y="54"
    inkscape:window-maximized="1"
-   inkscape:current-layer="svg1191"
+   inkscape:current-layer="g1160"
    showguides="true"
    inkscape:guide-bbox="true"><sodipodi:guide
      position="398.721,275.05519"
@@ -47,13 +47,31 @@
      inkscape:locked="false" /></sodipodi:namedview><metadata
    id="metadata1197"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs1195" />
     
     
 <g
    id="g1160"
-   transform="translate(23.78854)"><path
+   transform="translate(23.78854)"><rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="rect829"
+     width="324.22906"
+     height="92.511017"
+     x="214.09692"
+     y="129.95595" /><rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="rect831"
+     width="322.9075"
+     height="95.594711"
+     x="214.97798"
+     y="252.42291" /><rect
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+     id="rect833"
+     width="322.02643"
+     height="94.273125"
+     x="216.7401"
+     y="375.77094" /><path
      inkscape:connector-curvature="0"
      id="rect948"
      d="m 214.50603,120.39728 a 10.95972,9.449764 0 0 0 -10.95909,9.44727 v 93.83398 a 10.95972,9.449764 0 0 0 10.95909,9.44922 H 537.9169 a 10.95972,9.449764 0 0 0 10.95908,-9.44922 v -93.83398 a 10.95972,9.449764 0 0 0 -10.95908,-9.44727 z m 10.95682,18.89649 H 526.9578 v 74.93554 H 225.46285 Z"

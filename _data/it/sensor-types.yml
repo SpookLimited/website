@@ -1,0 +1,35 @@
+- name: Temperature
+  icon: /images/sensor/icons/temperature.svg
+  link: /monitoring/environmental/temperature
+
+- name: Humidity
+  icon: /images/sensor/icons/humidity.svg
+  link: /monitoring/environmental/humidity
+
+- name: Dew Point
+  icon: /images/sensor/icons/dewpoint.svg
+  link: /monitoring/environmental/dewpoint
+
+- name: Water
+  icon: /images/sensor/icons/water.svg
+  link: /monitoring/environmental/water
+
+- name: Energy monitoring
+  icon: /images/icons/peak-load.svg
+  link: /monitoring/power/energy-monitoring
+
+- name: UPSs
+  icon: /images/sensor/icons/ups.svg
+  link: /monitoring/power/ups
+
+- name: PDUs
+  icon: /images/sensor/icons/pdu-socket.svg
+  link: /monitoring/power/pdu
+
+- name: Generators
+  icon: /images/sensor/icons/generator.svg
+  link: /monitor/power/generator
+
+- name: PUE DCiE
+  icon: /images/sensor/icons/pue-dcie.svg
+  link: /monitor/power/pue-and-dcie

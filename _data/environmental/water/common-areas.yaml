@@ -1,0 +1,43 @@
+- name: Server rooms and data centers
+  color: green
+  icon: /images/icons/it-equipment.svg
+  words:
+    - Spook remotely monitors for water ingress in key areas that need to be dry or to prevent leaking and flooding. Water ingress monitoring is prevalent in areas that contain high levels of electrical assets such as server rooms and data centers. 
+    - IT rooms normally have false ceilings and false floors, so often a burst pipe or area of water ingress can go unnoticed until its too late.
+    - Naturally, it is important to isolate electrical equipment from areas of water ingress at the earliest opportunity.
+
+- name: Commercial buildings and residential properties
+  color: blue
+  icon: /images/icons/building.svg
+  words:
+    - Water insurance claims has been an issue for UK insurers for a number of years. A water claim can result from many incidents such as a burst pipe, backed up drain or a flood caused by heavy rain. Nearly all buildings are at risk.
+    - Water insurance claims are consistently one of the most expensive, costing insurers an estimated £1.8m a day (accurate July 2022), and are on the rise.
+    - As a result of the increasing costs and number of water damage claims, insurers are administering substantial premium increases and applying higher insurance claim excess payments to premises where water ingress continues to be an issue.
+
+- name: Flat roofs and guttering
+  icon: /images/icons/gutter.svg
+  color: red
+  words:
+    - A building that has a flat roof can be prone to water ingress as water from the elements does not have a viable escape route. If water does build up on a flat roof or a building with with blocked guttering it is not unusual for the room beneath the build up of water to suffer leaks. 
+    - The labour and effort to recover from such events can be prolonged as suitable drying out processes are employed. This can cause the area that is affected to be uninhabitable for a number of days or even weeks.
+
+- name: Commercial basements
+  icon: /images/icons/basement.svg
+  color: orange
+  words:
+    - Organisations usually reserver underground access points to areas for general use such as car parking. However, with the recent changes to the climate, and unusual weather patterns means such areas are prone to flooding.
+    - Thought should be given to how, in the event of a deluge of water, will staff and visitors be able to safely access the area where their cars are parked. 
+
+- name: Diesel generators
+  color: dark-blue-grey
+  icon: /images/sensor/icons/generator.svg
+  words:
+    - Generators are often installed in basements of buildings or in secure areas outside the building. Generators only usually get visited when there is a test or when they are invoked in order to provide emergency power generation. 
+    - If flooding occurs in the area where the generator is installed it is important to know as soon as possible as this will more often than not prevent staff and maintenance engineers open access to the area.
+
+- name: Pipes and boilers
+  color: light-blue
+  icon: /images/icons/pipe.svg
+  words:
+    - Buildings have to install pipework throughout to provide pressurised water to its facility. Pipes have natural stress points in elbows and linkages of long areas of pressurised water. It is easy to miss a burst pipe or leaking boiler point until it is too late.
+    - Water needs to be cut off from the affected area in order to address the problem. Depending on where the influx of water is, this could cause disruption to large areas of a building or facility.

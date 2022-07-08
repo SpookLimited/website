@@ -3,17 +3,19 @@ layout: base
 title: Light monitoring
 page-description: Monitor and keep an eye on light levels in important rooms. Stop potential damage to vunerable items.
 ---
-<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+<section style="background-image: url('/images/banner/light-chart.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-50">
         <div class="is-stack-40">
+          <img style="width: 80px;" src="/images/sensor/icons/light.svg">
           <h1>Light monitoring</h1>
+          <p class="is-big">The importance of monitoring light levels and the benefits it offers</p>
         </div>
         <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
       </div>
       <div class="is-col is-50">
-        <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/monitoring/environmental/light-dashboard.png">
       </div>
     </div>
   </div>
@@ -33,27 +35,37 @@ page-description: Monitor and keep an eye on light levels in important rooms. St
     <div class="is-row is-items-middle is-stack-40">
       <div class="is-col is-50">
         <p class="section-subheader">Monitoring specialists</p>
-        <h4 class="section-header">The importance of light monitoring and the benefits it offers</h4>
-        <p class="is-big">One of the key aspects of environmental monitoring and management is the control of light exposure and ultraviolet radiation. Correct monitoring can have many benefits for the museum and conservation sectors</p>
-        <p class="is-big">When measuring light it is common to express the concentration in Lux which is 1 Lumen per square meter (m<sup>2</sup>) and ultraviolet radiation is measured in microwatts per Lumen (μW/Lm).</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors light levels. Measuring light levels across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
       </div>
       <div class="is-col is-50">
         {% include awards.html %}
       </div>
     </div>
+    <div class="is-stack-20">
+      <h3 class="section-header">Light monitoring for offices</h3>
+      <p>The light level in a work environment can impact on an employees performance in a number of different ways from effects that damage their health to ways that reduce the individual's ability to perform a simple task.</p>
+      <p>According to the HSE (Health and Safety Executive) different levels of lighting are required for different types of work.</p>
+      <p>Close, accurate work such as soldering a control panel will require higher light levels than walking down a corridor.</p>
+      <p>However, when considering lighting, a number of different factors need to be contemplated such as colour, contrast, glare and so on.</p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
     <div class="is-row">
       {% for benefit in site.data.environmental.light.benefits %}
         <div class="is-col is-50 is-stack-40">
           <div class="card is-border is-shadow-2">
+            <div class="card-img {{ benefit.color }} icon" style="background-image: url('{{ benefit.icon }}');"></div>
             <div class="card-content">
               <h3>{{ benefit.name }}</h3>
-              {% for paragraph in benefit.description %}
+              {% for paragraph in benefit.words %}
                 <p>{{ paragraph }}</p>
               {% endfor %}
             </div>
           </div>
         </div>
-      {% endfor %} 
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -88,3 +100,4 @@ page-description: Monitor and keep an eye on light levels in important rooms. St
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

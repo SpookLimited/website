@@ -6,14 +6,18 @@ their business gives them valuable thinking and reaction time."
 ---
 <style>
 .header-banner{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/homepage-banner-2.png');
-  #background-image: url('/images/banner/homepage-banner.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/homepage-banner-3.png');
   background-size: cover;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
 }
+
+.header-banner.footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/omniwatch-banner-image.png');
+}
+
 .header-banner h1, .header-banner h3{
   font-weight: normal;
 }
@@ -29,6 +33,14 @@ their business gives them valuable thinking and reaction time."
 .customer-logo{
 	height: 100px;
 	padding: 1em .5em;
+}
+
+.celebration-section{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/celebration.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 </style>
 <section class="header-banner">
@@ -47,34 +59,37 @@ their business gives them valuable thinking and reaction time."
     </div>
   </div>
 </section>
-<div class="is-inset-y-20 black">
+<div class="is-inset-y-80">
   <div class="container">
-    <div class="is-container is-items-middle">
-      <div class="announcement-block is-50 white-text">
-        <p><b>News:</b> New indoor air quality monitoring to limit the spread of Covid-19 and other aerosol related infections.</p>
+    <div class="slider">
+      <div class="is-text-center">
+        <h5>Trusted by</h5>
       </div>
-      <div class="is-push-right"><a class="button" href="/monitoring/air-quality-and-co2">Learn more <span class="caret is-right"></span></a></div>
+      <div class="slider-row"></div>
     </div>
   </div>
 </div>
+<section class="celebration-section">
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <video poster="/images/spook_award.jpg" controls>
+          <source src="/images/spook_award.mov" type="video/mp4">
+          Your browser does not support the video tag.
+        </video> 
+      </div>
+      <div class="is-col is-text-center">
+        <img src="/images/icons/award.svg" style="filter: invert(1);">
+        <h3>Spook OmniWatch was voted "Most Innovative Solution of the Year" and "Specialist Technology Company of the Year" at the annual UK CIR Business Continuity Awards.</h3>
+      </div>
+    </div>
+  </div>
+</section>
 <section>
   <div class="container">
-    <div class="is-row is-items-middle is-stack-40">
-      <div class="is-col is-50">
-        <p class="section-subheader">Monitoring specialists</p>
-        <h4 class="section-header">OmniWatch is Spook's remote monitoring software solution.</h4>
-        <p class="is-big">Designed to be the central repository for all things monitored; OmniWatch is the professionals first choice for monitoring the broadest range of sensors and equipment types.</p>
-      </div>
-      <div class="is-col is-50">
-        <div class="is-row is-items-middle">
-          <div class="is-col is-20">
-            <div style="width: 100%; height: 100px; background-image: url('/images/icons/award.svg'); background-size: contain; background-repeat: no-repeat; background-position: center;"></div>
-          </div>
-          <div class="is-col is-80">
-            <p>Voted <b>Most Innovative Solution of the Year</b> and <b>Specialist Technology Company of the Year</b> at the annual Business Continuity Awards.</p>
-          </div>
-        </div>
-      </div>
+    <div class="is-stack-60 is-text-center">
+      <h2>Award winning remote monitoring specialists</h2>
+      <p class="is-big">OmniWatch is Spook's remote monitoring software solution. Designed to be the central repository for all things monitored; OmniWatch is the professionals first choice for monitoring the broadest range of sensors and equipment types.</p>
     </div>
     <div class="is-row">
       <div class="is-col is-stack-40">
@@ -82,7 +97,7 @@ their business gives them valuable thinking and reaction time."
           <div class="card-img co2-monitoring"></div>
           <div class="card-content">
             <h3>Indoor air quality monitoring</h3>
-            <p>For organisations that need to provide safe and healthy indoor environments.</p>
+            <p>For organisations that need to provide safe and healthy indoor environments centrally with minimal labour resource.</p>
             <p>Reduce employee and student anxiety by monitoring CO<sub>2</sub> for Covid-19 and other aerosol related infections.</p>
             <p>Increase productivity by measuring temperature, humidity, light and more for a more productive and greener office experience.</p>
           </div>
@@ -96,18 +111,19 @@ their business gives them valuable thinking and reaction time."
           <div class="card-img server-room"></div>
           <div class="card-content">
             <h3>IT room & facility monitoring</h3>
-            <p>Maximise business uptime, increase equipment reliability and reduce operating costs by monitoring the environmental and power conditions for rooms containing key equipment.</p>
-            <p>Extend monitoring to include disparate equipment that is important across the whole enterprise.</p>
+            <p>Maximise business uptime, increase reliability and reduce operating costs by monitoring the environmental and power conditions for rooms containing key assets.</p>
+            <p>Analyse, compare and measure common sensors across many different types of equipment.</p>
+            <p>Extend monitoring to include disparate hardware that is important across the whole enterprise.
           </div>
           <div class="card-footer">
-            <a href="/monitoring/it-rooms-and-facilities">Explore IT monitoring <span class="caret is-right"></span></a>
+            <a href="/monitoring/it-rooms-and-facilities">Explore IT and facility monitoring <span class="caret is-right"></span></a>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<section class="spook-blue white-text">
+<section class="grey">
 	<div class="container">
     {% include omniwatch/key-points.html %}
 	</div>
@@ -150,8 +166,7 @@ their business gives them valuable thinking and reaction time."
    {% include two-types-of-customers.html %}
   </div>
 </section>
-{% include used-by.html %}
-<section class="header-banner is-text-center">
+<section class="header-banner footer is-text-center">
 	<div class="container">
 		<h2>Get in touch with Spook</h2>
     <p class="is-big">Contact us for further information on how Spook can help with your monitoring requirements.</p>

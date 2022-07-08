@@ -5,11 +5,55 @@ page-description: "Monitoring the environment is important for many reasons, whe
 refrigeration units or water monitoring for leaking pipes, trapped water or even floods, the range of climate monitoring
 by Spook is extensive."
 ---
+<style>
+.card-img-background{
+  height: 220px;
+  position: relative;
+}
+
+.card-img-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.highlight-container, .highlight {
+  position: relative;
+}
+
+.highlight-container {
+  display: inline-block;
+}
+.highlight-container:before {
+  content: " ";
+  display: block;
+  height: 90%;
+  width: 100%;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: absolute;
+  background: linear-gradient(90deg, rgb(66, 165, 245) 0%, rgb(227, 242, 253) 100%);
+  transform: rotate(2deg);
+  top: -1px;
+  left: -1px;
+  border-radius: 20% 25% 20% 24%;
+  padding: 10px 3px 3px 10px;
+}
+{% for condition in site.data.environmental.key-climate-conditions %}
+.highlight-container.{{ condition.class }}:before{
+  background: linear-gradient(90deg, {{ condition.color-one }} 0%, {{ condition.color-two }} 100%);
+}
+{% endfor %}
+</style>
 <header style="background-image: url('/images/sections/key-pages/environmental-monitoring/environmental-monitoring-banner.png'); background-attachment: fixed; background-repeat: no-repeat; background-position: bottom; background-size: cover;">
   <div class="container">
     <div class="is-60">
-      <h1>Environmental & climate monitoring</h1>
-      <p class="is-big">Secure, remote, cloud based monitoring</p>
+      <h1>Environmental monitoring</h1>
+      <p class="is-big">Remotely monitoring key environmental conditions including temperature, humidity, dew point, water ingress, light levels and airflow</p>
       <a class="button" href="/contact">Get in touch <span class="caret is-right"></span></a>
     </div>
   </div>
@@ -19,8 +63,9 @@ by Spook is extensive."
     <div class="is-row is-items-middle is-stack-40">
       <div class="is-col is-50">
         <p class="section-subheader">Monitoring specialists</p>
-        <h4 class="section-header">Centrally monitor environmental conditions with OmniWatch</h4>
-        <p class="is-big">Monitoring the environment is important for many reasons, whether it's temperature monitoring for refrigeration units or water monitoring for leaking pipes, trapped water or even floods, the range of climate monitoring by Spook is extensive.</p>
+        <!--<h4 class="section-header">Centrally monitor environmental conditions with OmniWatch</h4>-->
+        <h4 class="section-header">Spook's award winning remote monitoring service called OmniWatch  centrally monitors key environmental conditions across many different industry sectors.</h4>
+        <p class="is-big">Monitoring the environment is important for many reasons, whether it's temperature monitoring for air conditioning units or refrigeration units or water monitoring for leaking pipes, trapped water or even floods, the range of climate monitoring by Spook is extensive.</p>
       </div>
       <div class="is-col is-50">
 				{% include awards.html %}
@@ -30,7 +75,7 @@ by Spook is extensive."
       {% for condition in site.data.environmental.key-climate-conditions %}
         <div class="is-col is-stack-40">
           <div class="card is-border is-shadow-2">
-            <div class="card-img green icon" style="background-image: url('{{ condition.icon }}');"></div>
+            <div class="card-img icon green" style="background-image: url('{{ condition.icon }}');"></div>
             <div class="card-content">
               <h3>{{ condition.name }}</h3>
               {% for paragraph in condition.description %}
@@ -52,11 +97,12 @@ by Spook is extensive."
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col">
-        <img alt="OmniWatch dashboard" class="is-shadow-2 is-stack-20" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-shadow-2 is-stack-20" src="/images/monitoring/environmental/overview-dashboard.png">
       </div>
       <div class="is-col">
-        <p>Spook's secure remote monitoring service called OmniWatch is designed to work with most climate measuring hardware and sensors making monitoring the environment easy, cohesive and technically advanced.</p>
-        <p>OmniWatch's main function is to alert users to changes to the sensors being monitored via email, SMS and UK call centre. In addition, Spook understands that users real-time dashboards must be intuitive yet functionally rich. That's why OmniWatch's functionality has been and continues to be designed by customer led feedback.</p>
+        <h4 class="section-header">OmniWatch digital dashboards</h4>
+        <p>Spook's secure remote monitoring service called OmniWatch is designed to work with any climate measuring hardware and sensors; making monitoring the environment easy, cohesive and technically advanced.</p>
+        <p>OmniWatch's main function is to alert users to changes to the sensors being monitored via email, SMS and UK call centre. In addition, Spook understands that a users real-time dashboards must be intuitive yet functionally rich. That's why OmniWatch's functionality has been, and continues to be, designed by customer led feedback.</p>
         <p>Spook's customers range from organisations that have already invested in climate monitoring equipment and want a central cloud based service that is easy to use and functionally advanced to businesses that are considering monitoring for the first time and want a hassle free, out-of-box monitoring solution.</p>
       </div>
     </div>
@@ -68,3 +114,4 @@ by Spook is extensive."
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}

@@ -3,17 +3,19 @@ layout: base
 title: Dew point monitoring
 page-description: Monitor the dew point in your rooms and stop potential damage to electrical equipment and the building.
 ---
-<section style="background-image: url('/images/banner/wall-banner.jpg'); background-size: cover; background-position: center;">
+<section style="background-image: url('/images/banner/dewpoint-chart.png'); background-size: contain; background-position: bottom; background-repeat: no-repeat;">
   <div class="container">
     <div class="is-row is-items-middle">
       <div class="is-col is-50">
         <div class="is-stack-40">
+          <img style="width: 80px;" src="/images/sensor/icons/dewpoint.svg">
           <h1>Dew point monitoring</h1>
+          <p class="is-big">The importance of dew point monitoring and the benefits it offers</p>
         </div>
         <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
       </div>
       <div class="is-col is-50">
-        <img alt="OmniWatch dashboard" class="is-shadow-2" src="/images/homepage/omniwatch-dashboard.svg">
+        <img alt="OmniWatch dashboard" class="is-border is-shadow-2" src="/images/monitoring/environmental/dewpoint-dashboard.png">
       </div>
     </div>
   </div>
@@ -29,51 +31,107 @@ page-description: Monitor the dew point in your rooms and stop potential damage 
   </div>
 </div>
 <section>
-    <div class="container">
-        <h2>The importance of dew point monitoring</h2>
-        <p>In an unmonitored room containing several air conditioning (AC) units, it is possible to have half the room's
-            cooling units adding humidity while the other half work to reduce it. This condition is known as demand
-            contention and is one of the primary causes of excessive energy consumption in IT environments.</p>
-        <p>By monitoring and controlling dew point and <a href="/monitoring/environmental/humidity">relative humidity
-                (RH)</a> greatly reduces the frequency of demand contention. This is due to the fact that as air
-            increases in temperature in an IT environment its dew point stays the same.</p>
-        <p>Most air cooling units simply maintain humidity based on the actual amount of water required in each pound of
-            air that passes through the unit. Elimination of demand contention can significantly increase the efficiency
-            of the cooling system and save excessive usage of power and fluctuation.</p>
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col">
+        <p class="section-subheader">Monitoring specialists</p>
+        <p class="is-big">Spook's award winning remote monitoring service called OmniWatch monitors dew point. Measuring dew point across many different assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
+      </div>
+      <div class="is-col">
+        {% include awards.html %}
+      </div>
     </div>
+		<div class="is-row">
+			<div class="is-col is-stack-40">
+				<div class="card is-border is-shadow-2">
+          <div class="card-img icon green" style="background-image: url('/images/sensor/icons/humidity.svg');"></div>
+					<div class="card-content">
+            <h4 class="section-header">What's the difference between relative humidity and dew point?</h4>
+            <p>RH is a measurement of the amount of water vapour present in the air and is stated as a percentage of the amount needed to achieve saturation at the same temperature. Whereas, the dew point level is a calculation between temperature and humidity and is always expressed as a temperature value, most commonly °C.</p>
+            <p>For organisations that require highly accurate dew point monitoring there are many precision dew point sensors available, contact us for more information.</p>
+					</div>
+				</div>
+			</div>
+			<div class="is-col is-stack-40">
+				<div class="card is-border is-shadow-2">
+					<div class="card-img icon blue" style="background-image: url('/images/sensor/icons/dewpoint.svg');"></div>
+					<div class="card-content">
+            <h4 class="section-header">What is dew point?</h4>
+            <p>Dew point is the climate point at which the relative air humidity equals 100% and begins to condense. Dew point is presented in °C Td (dew point temperature).</p> 
+            <p>Dew point temperature is a measurement of the water vapour content in a gas. If air is compressed or expanded, its dew point temperature changes.</p>
+            <p>If air is compressed, it is able to absorb less water and the dew point rises until the air is saturated and begins to condense. In this example, the term pressure dew point measurement is also used to describe measurement of the dew point in gases above the ambient temperature.</p>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
 </section>
 <section id="dew-point-calculator">
-    <div class="container">
-        <h2 class="section-header">Dew point calculator</h2>
-        <p>RH and air temperature are always related for any specific dew point temperature. If the RH and temperature
-            are known a calculation can be made to present the dew point.</p>
-        <p>To check your dew point if you know your humidity and temperature use Spook's free dew point calculator
-            below.</p>
-        <div class="is-row is-items-middle">
-            <div class="is-col">
-                <form>
-                    <h3 class="section-subheader">Temperature</h3>
-                    <p>Enter the temperature value (°C)</p>
-                    <div class="is-prepend">
-                        <span>°C</span>
-                        <input id="temperature" name="temperature" class="form-control" value="25" />
-                    </div>
-                    <h3 class="section-subheader">Humidity</h3>
-                    <p>Enter the relative humidity value (%)</p>
-                    <div class="is-prepend">
-                        <span>%</span>
-                        <input id="humidity" name="humidity" class="form-control" value="25" />
-                    </div>
-                </form>
+  <div class="container">
+    <div class="is-border is-shadow-2 is-inset-20">
+      <h2 class="section-header">Dew point calculator</h2>
+      <div class="is-row is-items-middle">
+        <div class="is-col">
+          <form>
+            <h3 class="section-subheader">Temperature</h3>
+            <p>Enter the temperature value (°C)</p>
+            <div class="is-prepend is-stack-20">
+              <span>°C</span>
+              <input id="temperature" name="temperature" class="form-control" value="25" />
             </div>
-            <div class="is-col">
-                <div class="col-md-5 is-text-center">
-                    <h3 class="section-subheader">Dew Point</h3>
-                    <h3 id="dewpoint" style="font-size:2em; font-weight: 300;"></h3>
-                </div>
+            <h3 class="section-subheader">Humidity</h3>
+            <p>Enter the relative humidity value (%)</p>
+            <div class="is-prepend">
+              <span>%</span>
+              <input id="humidity" name="humidity" class="form-control" value="25" />
             </div>
+          </form>
         </div>
+        <div class="is-col">
+          <div class="col-md-5 is-text-center">
+            <h3 class="section-subheader">Dew Point</h3>
+            <h3 id="dewpoint" style="font-size:2em; font-weight: 300;"></h3>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <figure class="is-text-center">
+          <img class="is-stack-20" src="/images/monitoring/environmental/dewpoint-range.svg" style="min-width: 100%">
+          <figcaption>
+            How dew point feels at various dew point ranges (°C).
+          </figcaption>
+        </figure>
+      </div>
+      <div class="is-col">
+        <h3 class="section-header">Why is dew point measured?</h3>
+        <p>There can be many reasons for monitoring dew point. A good example is compressed air systems with an excessively high dew point can condense, thereby causing valves to become blocked or corroded.</p>
+        <p>In addition to this, dry compressed air systems require less maintenance, which saves labour time and costs.</p>
+        <p>Furthermore, there are sensitive processes in specific industries such as the drying of injection moulding granulate and the compressed air for spray painting systems, which place particularly high demands on measuring dew point.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img src="/images/monitoring/environmental/demand-contention.svg">
+      </div>
+      <div class="is-col">
+        <h3 class="section-header">The importance of dew point monitoring for cooling systems</h3>
+        <p>In an unmonitored room containing several air conditioning (AC) units, it is possible to have half the room's cooling units adding humidity while the other half work to reduce it. This condition is known as "demand contention" and is one of the primary causes of excessive energy consumption in IT environments.</p>
+        <p>By monitoring and controlling dew point and <a href="/monitoring/environmental/humidity">relative humidity (RH)</a> greatly reduces the frequency of demand contention. This is due to the fact that as air increases in temperature in an IT environment its dew point stays the same.</p>
+        <p>Most air cooling units simply maintain humidity levels based on the actual amount of water required in each pound of air that passes through the unit.</p>
+        <p>Elimination or reduction of demand contention can significantly increase the efficiency of the cooling system and save excessive usage of power.</p>
+      </div>
+    </div>
+  </div>
 </section>
 <div class="container"><hr></div>
 <section>
@@ -116,6 +174,7 @@ page-description: Monitor the dew point in your rooms and stop potential damage 
   </div>
 </section>
 {% include used-by.html %}
+{% include contact-us.html %}
 <script src="/js/jquery.min.js"></script>
 <script>
     $(document).ready(function () {

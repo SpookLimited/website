@@ -2,13 +2,13 @@
   color: green
   icon: /images/icons/it-equipment.svg
   description:
-    - OmniWatch monitoring bundles come with all the necessary equipment to monitor the CO2 levels of your rooms. Our intelligent, non-intrusive, wireless sensors arrive pre-configured, calibrated and ready to work out-of-the-box. All you need to do is install them and switch them on.
+    - OmniWatch monitoring bundles come with all the necessary equipment to monitor the CO<sub>2</sub> levels of your rooms. Our intelligent, non-intrusive, wireless sensors arrive pre-configured, calibrated and ready to work out-of-the-box. All you need to do is install them and switch them on.
 
 - name: Software
   color: blue
   icon: /images/icons/remote-working.svg
   description:
-    - OmniWatch is a bespoke remote, secure web-based service and is tailored to your requirements and made available to you so that you can monitor the condition of your premises in real time.
+    - OmniWatch is a bespoke remote, secure web-based service and is tailored to your requirements and made available to you so that you can monitor the condition of your premises in real-time.
 
 - name: Support
   color: orange

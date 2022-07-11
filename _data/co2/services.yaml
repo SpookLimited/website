@@ -8,7 +8,7 @@
   color: blue
   icon: /images/icons/remote-working.svg
   description:
-    - OmniWatch is a bespoke remote, secure web-based service and is tailored to your requirements and made available to you so that you can monitor the condition of your premises in real-time.
+    - OmniWatch is a bespoke remote, secure web-based service and is tailored to your requirements and made available to you so that you can monitor the condition of your premises in realtime.
 
 - name: Support
   color: orange

@@ -18,15 +18,15 @@
   icon: /images/icons/gutter.svg
   color: red
   words:
-    - A building that has a flat roof can be prone to water ingress as water from the elements does not have a viable escape route. If water does build up on a flat roof or a building with with blocked guttering it is not unusual for the room beneath the build up of water to suffer leaks. 
+    - A building that has a flat roof can be prone to water ingress as water from the elements does not have a viable escape route. If water does build up on a flat roof or a building with blocked guttering it is not unusual for the room beneath the build up of water to suffer leaks. 
     - The labour and effort to recover from such events can be prolonged as suitable drying out processes are employed. This can cause the area that is affected to be uninhabitable for a number of days or even weeks.
 
 - name: Commercial basements
   icon: /images/icons/basement.svg
   color: orange
   words:
-    - Organisations usually reserver underground access points to areas for general use such as car parking. However, with the recent changes to the climate, and unusual weather patterns means such areas are prone to flooding.
-    - Thought should be given to how, in the event of a deluge of water, will staff and visitors be able to safely access the area where their cars are parked. 
+    - Organisations usually reserve underground access points to areas for general use such as car parking. However, with the recent changes to the climate, and unusual weather patterns, means such areas are prone to flooding.
+    - Thought should be given to how, in the event of a deluge of water, will staff and visitors be able to safely access the area where their cars are parked or exit the area safely. 
 
 - name: Diesel generators
   color: dark-blue-grey

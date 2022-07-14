@@ -1,11 +1,14 @@
+- name: CO<sub>2</sub>
+  icon: /images/sensor/icons/co2.svg
+
+- name: Air quality
+  icon: /images/sensor/icons/airflow.svg
+
 - name: Accelerometers and vibration
   icon: /images/sensor/icons/vibration.svg
 
 - name: Alternating current (AC)
   icon: /images/sensor/icons/alternatingcurrent.svg
-
-- name: Air quality
-  icon: /images/sensor/icons/airflow.svg
 
 - name: Boundary and IR
   icon: /images/sensor/icons/ir.svg
@@ -42,9 +45,6 @@
 
 - name: Propane levels
   icon: /images/sensor/icons/propane.svg
-
-- name: Soil moisture
-  icon: /images/sensor/icons/soil-moisture.svg
 
 - name: Temperature
   icon: /images/sensor/icons/temperature.svg

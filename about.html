@@ -4,15 +4,6 @@ title: About Spook Limited
 page-description: From Spook's beginnings back in 2003 of purely providing an environmental monitoring solution they have grown to deliver a market leading service spanning the monitoring of the environment, power, video and 3rd party equipment.
 ---
 <style>
-header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/omniwatch-banner-image.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: #fff;
-}
-
 h4{
   font-weight: normal;
 }
@@ -33,15 +24,117 @@ h4{
   margin-right: 20px;
 }
 </style>
-<header>
+<header class="contact-us-box">
   <div class="container">
     <div class="is-50">
       <h1>About Spook</h1>
+      <p class="is-big">Spook was founded in 2003 and we have been passionate about remote monitoring from day one and our mission statement since our inception is <b>Prevention is better than cure</b>.</p>
+      <p class="is-big">According to Oxford University Press <b>Prevention is better than cure</b> is a proverbial saying, early 17th century. A similar idea is found in a Latin saying of the mid 13th century, it is better and more useful to meet a problem in time than to seek a remedy after the damage is done.</p>
     </div>
   </div>
 </header>
+<section class="grey">
+  <div class="container">
+    <div class="is-row">
+      {% for item in site.data.about.data %}
+        <div class="is-col is-border is-shadow-2 is-inset-20 white is-stack-40-mobile">
+          <div class="is-row is-items-middle">
+            <div class="is-col">
+              <img src="{{ item.icon }}">
+            </div>
+            <div class="is-col is-text-right">
+              <h3>{{ item.title }}</h3>
+              <h1>{{ item.figure }}</h1>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container is-text-center">
+    <h2>Why call ourselves Spook?</h2>
+    <div class="is-inset-x-120 is-inset-x-20-mobile is-stack-40">
+      <p class="is-big">We develop our software to monitor third party hardware. We wanted a name that could be associated with being available 24/7 and have an investigative theme so we landed on Spook.</p>
+    </div>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <p>A Spook is a ghost, something in a location 24/7: spook·i·er, spook·i·est.</p>
+        <p>Informal. like or befitting a spook or ghost.</p>
+      </div>
+      <div class="is-col">
+        <p>A spook is the agent tasked with "erasing an issue".</p>
+        <p>Differing from a spy, a spook does not exist on paper anywhere.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container"><hr></div>
 <section>
   <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <h2>Why call our remote software monitoring service OmniWatch?</h2>
+        <p class="is-big">Because our software has been designed to be manufacturer and protocol independent. We can monitor any type of equipment or asset and we wanted a name that reflected this.</p>
+      </div>
+      <div class="is-col is-text-center">
+        <p><b><span class="is-big">Omni</span></b><br>Etymology: Ultimately from Latin - Omnis ("all")</p>
+        <p><b><span class="is-big">Watch</span></b><br>Verb: Look at or observe attentively over a period of time</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container is-text-center">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-border is-shadow-2 is-inset-20 is-stack-40-mobile">
+        <img src="/images/icons/award.svg">
+        <div class="is-stack-60">
+          <h4>Winner</h4>
+          <h3>Most Innovative Solution of the Year</h3>
+        </div>
+      </div>
+      <div class="is-col is-border is-shadow-2 is-inset-20 is-stack-40-mobile">
+        <img src="/images/icons/award.svg">
+        <div class="is-stack-60">
+          <h4>Winner</h4>
+          <h3>Specialist Technology Company of the Year</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-30 is-inset-40">
+        <img src="/images/omniwatch-logo.svg">
+      </div>
+      <div class="is-col is-70">
+        <h2>Software development</h2>
+        <p>Our software development is in-house and our customers drive our software development roadmap.</p>
+        <p>With an exceptionally loyal customer base we are privileged to embrace end user suggestions for our commitment to constant software development.</p>
+        <p>With new functionality and new software versions being to the benefit of all, everyone enjoys the latest releases during the lifetime of their contracts.</p>
+        <p>We welcome ideas so much we have a feedback button on a users navigation bar for quick and easy idea sharing back to Spook.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-stack-60">
+      <h2>Why choose Spook and OmniWatch</h2>
+    </div>
+   {% include two-types-of-customers.html %}
+  </div>
+</section>
+<div class="container"><hr></div>
+<section>
+  <div class="container">
+    <div class="is-stack-60">
+      <h2>Spook timeline</h2>
+    </div>
     {% for item in site.data.about.timeline reversed %}
     <div class="is-row">
       <div class="is-col is-20 timeline-item">
@@ -59,4 +152,5 @@ h4{
     {% endfor %}
   </div>
 </section>
+{% include used-by.html %}
 {% include contact-us.html %}

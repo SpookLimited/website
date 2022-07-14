@@ -8,7 +8,7 @@
   icon: /images/sensor/icons/pdu-socket.svg
   link: /monitoring/power/pdu
   description:
-    - By monitoring power consumption at PDU level an organisation can measure power consumption to asset level. Bring aware of real-time power usage means informed load balancing procedures can be implemented to prevent power overloads and protect service outages due to loss off power.
+    - By monitoring power consumption at PDU level an organisation can measure energy used to asset level. Being aware of realtime power usage means informed load balancing procedures can be implemented to prevent power overloads and protect service outages due to loss off power.
 
 - name: Energy meters
   icon: /images/icons/peak-load.svg
@@ -21,13 +21,13 @@
   icon: /images/sensor/icons/generator.svg
   link: /monitoring/power/generator
   description:
-    - Generators provide a continuous stream of voltage power and are designed for continual use. Any organisation that controls mission critical applications can benefit from having a generator available as a reliable power source.
+    - Generators provide a continuous stream of secure power and are designed for continual use. Any organisation that controls mission critical applications can benefit from having a generator available as a reliable power source.
     - Understanding core generator metrics in realtime ensures power security is maintained.
 
 - name: PUE and DCiE
   icon: /images/sensor/icons/pue-dcie.svg
   link: /monitoring/power/pue-and-dcie
   description:
-    - PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Effectiveness) are industry standard efficiency benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for its existing IT load.
+    - PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Efficiency) are industry standard benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for the existing IT load.
     - By measuring these efficiency benchmarks in realtime means ongoing efforts to gain the best ratings can be achieved.
 

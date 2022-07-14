@@ -8,19 +8,21 @@
   icon: /images/icons/theft.svg
   color: red
   description:
-    - Instantly detect if fuel is being stolen, monitor and make sure that the accurate fuel amounts are delivered
+    - Generators are usually installed in remote locations due to their decibel (Db) rating whilst in use. Theft from generator reservoirs is increasing due to the high cost of fuel. Instantly detect if fuel is being stolen by monitoring realtime fuel levels in generator reservoirs.
+    - Also, it is important to monitor and make sure that accurate fuel amounts are delivered to generators, this is especially important in times of continuous use.
 
 - name: Reduce maintenance costs
   icon: /images/icons/cost-saving.svg
   color: green
   description:
-    - Reduce the need for costly service calls and site visits to check the generator's status, repairs, maintenance and refuelling can be planned in a advance, saving time and money.
+    - Realtime monitoring to check a generator's status, repairs to used parts, maintenance slots and refuelling schedules means you can reduce the need for costly service calls. This means staff do not need to waste valuable time in unnecessary site visits by the maintenance service providers.
 
 - name: Calculate efficiency
   icon: /images/icons/efficiency.svg
   color: green
   description:
-    - The Efficiency of a diesel engine is calculated based on total energy produced, fuel consumed, and other parameters like temperature, oil pressure, etc. By monitoring these and the metrics efficiencies can be easily identified.
+    - The efficiency of a diesel engine is calculated based on total energy produced, fuel consumed, and other parameters like temperature, oil pressure, etc. By monitoring these and perhaps introducing Spook smart sensors to help calculate additional metrics, efficiencies can be easily identified.
+    - <a href="/solutions/technical/smart-sensors" class="button">Read more about smart sensors <span class="caret is-right"></span></a></p>
 
 - name: Power generation reports
   icon: /images/icons/report.svg
@@ -32,4 +34,4 @@
   icon: /images/icons/time-remaining.svg
   color: green
   description:
-    - Calculate run time remaining automatically and receive realtime alerts when fuel reservoirs are depleting to dangerous levels.
+    - Automatically calculate run time remaining automatically and receive realtime alerts when fuel reservoirs are depleting to dangerous levels.

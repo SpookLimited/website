@@ -6,26 +6,40 @@ within many
 industries."
 ---
 <header
-  style="background-image: url('/images/banner/cellular-tower.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
-  <div class="container black-text">
-    <div class="is-50 block is-inset-20">
+  style="background-image: url('/images/solutions/cellular-technology/cellular-banner.jpg'); background-size: cover; background-position: left;">
+  <div class="container">
+    <div class="is-stack-40 is-50">
       <h3>Technical</h3>
-      <h1>Cellular technology</h1>
-      <p class="is-large">Cellular technology is improving quickly and being adopted as a reliable communications
-        solution within many industries.</p>
+      <h1>Cellular monitoring</h1>
+      <p class="is-big">Keeping remote monitoring secure and independent.</p>
+      <p class="is-big">Cellular technology is improving quickly and being adopted as a reliable communications solution within many industries.</p>
     </div>
+    <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
 </header>
+<section class="grey">
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-60">
+      <div class="is-col">
+        <img alt="Cellular gateway" src="/images/solutions/cellular-technology/gateway.svg">
+      </div>
+      <div class="is-col">
+        <h2>Award winning remote monitoring solution</h2>
+        <p class="is-big">Spook's cellular router solution won the CIR Business Continuity Awards category of <a href="/news/cir-business-continuity-award-winners">Specialist Technology Company of the Year</a>.</p>
+        <p class="is-big">Unlike a standard router that accesses the internet through a cable, a cellular router enables you to get internet access through a cellular data network.</p>
+        <p class="is-big">This is perfect for keeping remote monitoring independent of a customers ethernet network or for areas where broadband is not an option.</p>
+      </div>
+    </div>
+  </div>
+</section>
 <section>
   <div class="container">
-    <div class="is-row">
+    <div class="is-row is-stack-60">
       <div class="is-col">
-        <h2>‘X’G</h2>
-        <p>Since the development of 2G technology back in the 1990's the mobile communications marketplace has developed
-          at an ever increasing pace. 3G was introduced in 2003 and 4G superseded this in 2012 which gave the same
-          benefits of 3G but at a much greater speed.</p>
-        <p>We now enter the realms of 5G technology which is set to revolutionise how we approach communications and the
-          Internet of Things (IoT).</p>
+        <h2>Improved technology</h2>
+        <p>Since the development of 2G technology back in the 1990's the mobile communications marketplace has developed at an ever increasing pace.</p>
+        <p>3G was introduced in 2003 and 4G superseded this in 2012 which gave the same benefits of 3G but at a much greater speed.</p>
+        <p>We now enter the realms of 5G technology which is set to revolutionise how we approach communications and the Internet of Things (IoT).</p>
       </div>
       <div class="is-col">
         <p class="is-big">Latency time for cellular communication</p>
@@ -54,54 +68,39 @@ industries."
         <p><strong>*</strong>Average UK latency according to Ofcom research conducted in late 2017.</p>
       </div>
     </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-        <img alt="Cellular sims" src="/images/solutions/cellular-technology/sims.svg" style="height:400px;">
-      </div>
-      <div class="is-col">
-        <h2>SIM technology</h2>
-        <p>SIM (Subscriber Identity/Identification Module) cards have also developed at an amazing rate. SIMS were
-          originally designed for the voice communications of a specific mobile phone operator.</p>
-        <p>However, SIMS have now been designed for use in the data industry and can be confined to carrying simple
-          packets of data. This helps limit costs and is ideal for use in today’s modern world of the IoT.</p>
-      </div>
+    <div class="is-row is-stack-60">
+      {% for item in site.data.solutions.cellular.key-points %}
+        <div class="is-col is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img {{ item.color }} icon" style="background-image: url('{{ item.icon }}');"></div>
+            <div class="card-content">
+              <h3>{{ item.name }}</h3>
+              {% for paragraph in item.words %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
     </div>
-  </div>
-</section>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-        <h2>Data resilience</h2>
-        <p>Data roaming is now a thing we are all used to and the latest range of Cellular Routers cater for seamless
-          data roaming. This means locking to the mobile service operator with the strongest signal to carry the data
-          communication. Cellular routers carry multiple mobile service providers as standard and Spook uses a
-          manufacturer that has over 80 service providers under the bonnet including O2, Vodafone, EE and Three UK.</p>
-        <p>Spook set the search for the strongest mobile signal in the area every 24 hours so if a new provider pops up
-          in the vicinity with a stronger signal, it is selected automatically.</p>
-      </div>
-      <div class="is-col">
-        <img alt="Cellular network operators" src="/images/solutions/cellular-technology/operators.svg">
-      </div>
+		<div class="is-text-center is-stack-20">
+			<h3>SIM features</h3>
     </div>
+		<div class="is-row is-text-center">
+			{% for feature in site.data.co2.sim-features %}
+				<div class="is-col">
+          <img alt="{{ feature.name }}" style="height: 100px;" src="{{ feature.icon }}">
+					<h5>{{ feature.name }}</h5>
+					<p>{{ feature.description }}</p>
+				</div>
+			{% endfor %}
+		</div>
   </div>
 </section>
-<section>
-  <div class="container">
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-        <img alt="Cellular gateways" src="/images/solutions/cellular-technology/gateway.svg">
-      </div>
-      <div class="is-col">
-        <h2>Contingency</h2>
-        <p>By being able to select alternative service providers based on signal strength, in the unlikely event a
-          mobile signal is lost in an area, the next best signal is selected.</p>
-      </div>
-    </div>
+<section class="contact-us-box">
+  <div class="container is-text-center">
+    <h2>Try before you buy</h2>
+    <p class="is-big">Spook can provide a loan cellular router to try before you decide to buy one. This ensures the cellular router proves its ability to work before you buy it.</p>
+    <p class="is-big"><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
 </section>
-{% include contact-us.html %}

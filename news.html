@@ -9,22 +9,26 @@ page-description: See the latest news and updates from Spook concerning all thin
     <h1>News</h1>
   </div>
 </header>
-{% for post in site.posts %}
 <section>
   <div class="container">
     <div class="is-row">
-      <div class="is-col"
-        style="background-color: #212121; background-image: url('{{ post.image }}'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      {% for post in site.posts %}
+      <div class="is-col is-30 is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img" style="background-image: url('{{ post.image }}');"></div>
+          <div class="card-content">
+            <h3>{{ post.title }}</h3>
+            <div style="position: absolute; bottom: 0; right: 0;">
+              <div class="is-outset-12">
+                <a href="{{ post.permalink }}" class="button">Read more <span class="caret is-right"></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="is-col">
-        <h2><a href="{{ post.permalink }}" class="is-color-black">{{ post.title }}</a></h2>
-        {% if post.blurb %}
-        <p>{{ post.blurb }}</p>
-        {% else %}
-        <p>{{ post.content }}</p>
-        {% endif %}
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
-{% endfor %}
+{% include used-by.html %}
+{% include contact-us.html %}

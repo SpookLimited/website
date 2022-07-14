@@ -21,9 +21,3 @@
   icon: /images/icons/cost-saving.svg
   words:
     - Direct load is controlled where thermostat control set-points are offset based on pricing signals sent by the utility. Using this method the user can decide how much energy cost is expired at any particular time. 
-
-- name: Optimal start/stop
-  color: dark-blue-grey
-  icon: /images/icons/performance.svg
-  words:
-    - Delays the equipment startup or equipment shutdown to take advantage of thermal lags in building structures. 

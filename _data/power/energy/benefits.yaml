@@ -14,6 +14,6 @@
 - name: Energy reduction
   icon: /images/icons/peak-load.svg
   words:
-    - The opportunity of reducing energy consumption by measuring it and understanding how an organisations energy interdependencies work only comes with measuring energy in the first place. To paraphrase Lord Kelvin - If you cannot measure it, you cannot improve it.
+    - The opportunity of reducing energy consumption by measuring it and understanding how an organisations energy interdependencies work only comes with measuring energy in the first place. To paraphrase Lord Kelvin - <a href="/monitoring/environmental/temperature#lord-kelvin">If you cannot measure it, you cannot improve it</a>.
     - For example, monitoring a building’s energy meter levels could highlight inefficiencies such as excessively heating a vacant area, constantly providing lighting and other power hungry activities such as cooling and ventilation.
     - Commercial buildings are typically noted for their energy inefficiency. Offices usually have open spaces that require a lot of heating to fill the space alongside an excessive amount of lighting. When you consider that the CO<sub>2</sub> impact of electricity consumption is 2.5 times greater than that of natural gas exasperates the situation.

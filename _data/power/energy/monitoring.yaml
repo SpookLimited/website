@@ -1,4 +1,4 @@
-- name: Real time monitoring
+- name: Realtime monitoring
   icon: /images/icons/remote-working.svg
   words:
     - Energy monitoring only becomes effective when it is conducted in real-time. Labour costs and data collection inaccuracies associated with staff taking regular measurements throughout the day on energy meters can be totally eliminated.
@@ -8,13 +8,13 @@
 - name: Peaks and troughs
   icon: /images/icons/load-balance.svg
   words:
-    - Real-time energy meter monitoring makes it easier to identify trends such as high and low energy consumption.
+    - Realtime energy meter monitoring makes it easier to identify trends such as high and low energy consumption.
     - By reviewing energy trends over the course of a given time period presents the best options to reduce consumption and possible re-scheduling options in order to minimise usage.
-    - Spook's real-time energy meter monitoring is completely scaleable, meaning monitoring single buildings or an entire estate of facilities can be achieved in an enterprise centric solution.
+    - Spook's realtime energy meter monitoring is completely scaleable, meaning monitoring single buildings or an entire estate of facilities can be achieved in an enterprise centric solution.
 
 - name: Maximising efficiency
   icon: /images/icons/efficiency.svg
   words:
     - Energy efficiency is key in helping to reduce the cost of the bottom line or limiting an organisations impact on the environment.
-    - The cost of providing energy across all industry sectors is increasing at an eye watering level. This is caused by our over-reliance on fossil fuels, the return to pre-Covid levels of energy consumption and global energy insecurity.
+    - The cost of providing energy across all industry sectors is increasing at an eye watering level. This is caused by our over reliance on fossil fuels, the return to pre-Covid levels of energy consumption and global energy insecurity.
     - Obviously operating more efficiently reduces energy consumption, meaning significant savings can be achieved on utility bills. For example, by applying effective energy management to an industrial or commercial building presents the potential to save thousands each year.

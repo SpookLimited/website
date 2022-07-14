@@ -9,7 +9,7 @@
   color: blue
   icon: /images/sensor/icons/generator.svg
   description:
-    - Even if an organisation have diesel generators to provide long term power security in the event of a prolonged loss of utility power, there is a delay between loss of power and a generator being invoked.
+    - Even if an organisation has diesel generators to provide long term power security in the event of a prolonged loss of utility power, there is a delay between loss of power and a generator being invoked.
     - UPS units are used to ensure there is no loss of power during the switch over from mains power to generator power provision. Knowing all elements of the switchover are successful is critical.
 
 - name: UPS warranties

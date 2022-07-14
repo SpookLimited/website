@@ -1,0 +1,24 @@
+- name: Cellular technology
+  blurb: Cellular technology is improving quickly and being adopted as a reliable communications solution within many industries.
+  link: /solutions/technical/cellular-technology
+  image: /images/banner/cellular-tower.jpeg
+
+- name: Wireless technology
+  blurb: Spook works with any proprietary wireless sensor manufacturer and with LoraWAN sensors for the IoT.
+  link: /solutions/technical/wireless-technology
+  image: /images/banner/wireless-banner.jpeg
+
+- name: Wired vs wireless sensor monitoring
+  blurb: Wired and wireless monitoring both have their own benefits over the other. Knowing these benefits helps to make an informed decision when considering which is best for you.
+  link: /solutions/technical/wired-vs-wireless
+  image: /images/banner/communications-tower.jpeg
+
+- name: Spook smart sensors
+  blurb: Spook have developed smart sensors to compliment and improve upon conventional monitoring. Smart sensors can be used to perform complex calculations or to create pseudo sensors to add additional measurements not possible with traditional monitoring solutions.
+  link: /solutions/technical/smart-sensors
+  image: /images/solutions/smart-sensor/smart-sensor-banner.jpg
+
+- name: Spook Legionella remote monitoring service
+  blurb: Legionnaires' disease is predicted to increase due to changes in working practices.
+  link: /solutions/technical/legionella-monitoring
+  image: /images/solutions/legionella-monitoring/legionella-pneumonia-banner.jpg

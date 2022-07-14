@@ -12,101 +12,25 @@ monitoring as well as all things IoT."
     <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
 </header>
+<div id="technical"></div>
 <section>
   <div class="container">
-    <h2 class="is-stack-60">Most popular solutions</h2>
-    <div class="is-row">
-      <div class="is-col">
-        <div class="card is-border is-shadow-2">
-          <div class="card-img green icon" style="background-image: url('/images/solutions/cellular-technology/gateway.svg');"></div>
-          <div class="card-content">
-            <h3>Cellular router</h3>
-            <p>Spook's cellular router solution won the 2020 CIR Business Continuity Awards category of Specialist Technology Company of the Year.</p>
+    {% for item in site.data.solutions.pages %}
+      <div class="is-border is-shadow-2 is-inset-20 is-stack-40">
+        <div class="is-row">
+          <div class="is-col is-40" style="background-image: url('{{ item.image }}'); min-height: 300px; background-size: cover; background-position: right; background-repeat: no-repeat;">
           </div>
-          <div class="card-footer">
-            <a href="/solutions/cellular">More about cellular <span class="caret is-right"></span></a>
-          </div>
-        </div>
-      </div>
-      <div class="is-col">
-        <div class="card is-border is-shadow-2">
-          <div class="card-img blue icon" style="background-image: url('/images/solutions/wireless/gateway.svg');"></div>
-          <div class="card-content">
-            <h2>Wireless monitoring</h2>
-            <p>Spook's wireless monitoring solutions allow for easy monitoring in any location with instant access to data, all you need to do is turn on the sensors and you're ready to go.</p>
-          </div>
-          <div class="card-footer">
-            <a href="/solutions/wireless">More about wireless <span class="caret is-right"></span></a>
+          <div class="is-col is-60">
+            <div class="is-stack-40">
+              <p class="section-subheader">Technical</p>
+              <h3 style="margin-top: 0;">{{ item.name }}</h3>
+              <p class="is-big">{{ item.blurb }}</p>
+            </div>
+            <p><a href="{{ item.link }}" class="button">Read more <span class="caret is-right"></span></a></p>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</section>
-<section class="container">
-  <hr>
-</section>
-<section id="technical">
-  <div class="container">
-    <div class="is-row is-stack-60">
-      <div class="is-col is-40">
-        <div
-          style="min-width: 100%; min-height: 100%; background-image: url('/images/banner/cellular-tower.jpeg'); background-size: cover; background-position: center;">
-        </div>
-      </div>
-      <div class="is-col is-60">
-        <h5>Technical</h5>
-        <h2>Cellular technology</h2>
-        <p>Cellular technology is improving quickly and being adopted as a reliable communications solution within many
-          industries.</p>
-        <p><a href="/solutions/technical/cellular-technology" class="button">Read more</a></p>
-      </div>
-    </div>
-    <div class="is-row is-stack-60">
-      <div class="is-col is-40">
-        <div
-          style="min-width: 100%; min-height: 100%; background-image: url('/images/banner/communications-tower.jpeg'); background-size: cover; background-position: center;">
-        </div>
-      </div>
-      <div class="is-col is-60">
-        <h5>Technical</h5>
-        <h2>Wired vs wireless sensor monitoring</h2>
-        <p>Wired and wireless monitoring both have their own benefits over the other. Knowing these benefits helps to
-          make
-          an informed decision when considering which is best for you.</p>
-        <p><a href="/solutions/technical/wired-vs-wireless" class="button">Read more</a></p>
-      </div>
-    </div>
-    <div class="is-row is-stack-60">
-      <div class="is-col is-40">
-        <div
-          style="min-width: 100%; min-height: 100%; background-image: url('/images/solutions/smart-sensor/smart-sensor-banner.jpg'); background-size: cover; background-position: center;">
-        </div>
-      </div>
-      <div class="is-col is-60">
-        <h5>Technical</h5>
-        <h2>Spook smart sensors</h2>
-        <p>Spook have developed smart sensors to compliment and improve upon conventional monitoring. Smart sensors can
-          be used to
-          perform complex calculations or to create pseudo sensors to add additional measurements not possible with
-          traditional
-          monitoring solutions.</p>
-        <p><a href="/solutions/technical/smart-sensors" class="button">Read more</a></p>
-      </div>
-    </div>
-    <div class="is-row is-stack-60">
-      <div class="is-col is-40">
-        <div
-          style="min-width: 100%; min-height: 100%; background-image: url('/images/solutions/legionella-monitoring/legionella-pneumonia-banner.jpg'); background-size: cover; background-position: center;">
-        </div>
-      </div>
-      <div class="is-col is-60">
-        <h5>Technical</h5>
-        <h2>Spook Legionella remote monitoring service</h2>
-	<p>Legionnaires' disease is predicted to increase due to changes in working practices.</p>
-        <p><a href="/solutions/technical/legionella-monitoring" class="button">Read more</a></p>
-      </div>
-    </div>
+    {% endfor %}
   </div>
 </section>
 {% include contact-us.html %}

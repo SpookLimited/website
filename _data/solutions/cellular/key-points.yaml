@@ -1,0 +1,13 @@
+- name: Data resilience
+  color: blue
+  icon: /images/icons/anomaly-detection.svg
+  words:
+    - By only using data sims the signal required to transmit readings to Spook's remote cloud servers can be surprisingly weak.
+    - For areas where there is no mobile signal external aerials can be added or the cellular router can be installed anywhere within a customers facility where signal may be achieved.
+
+- name: Contingency
+  color: green
+  icon: /images/icons/failover.svg
+  words:
+    - Spook cellular routers reboot and hunt for the strongest signal in the area every 24 hours so if a new mobile service provider pops up in the vicinity with a stronger signal, it is selected automatically.
+    - Also, if the current mobile service provider has a sudden loss of service Spook has designed a handy feature to auto-hunt for an alternative service provider within ten minutes of signal loss.

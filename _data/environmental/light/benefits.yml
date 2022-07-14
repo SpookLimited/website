@@ -9,7 +9,7 @@
   color: blue
   icon: /images/icons/focus.svg
   words:
-    - Different activities require different levels of light. In general, the more detailed the task, the greater the light requirement. A process control room should be lit at an illuminance of 300 lux, a corridor or walkway may only require 50 lux, whilst studying an engineering drawing may require 750 lux.
+    - Different activities require different levels of light. In general, the more detailed the task, the greater the light requirement. For example, a process control room should be lit at an illuminance of 300 lux, a corridor or walkway may only require 50 lux, whilst studying an engineering drawing may require 750 lux.
     - Where individuals are carrying out different activities, they will need control over their local lighting; for example a control and instrumentation engineer coming into a process control room lit at 300 lux may need a desk with a lamp to study a wiring diagram.
 
 - name: Open plan offices

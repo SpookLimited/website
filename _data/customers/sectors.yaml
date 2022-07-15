@@ -88,18 +88,18 @@
     by: Refresco
     tag: The worlds largest bottler of beverages.
 
-- name: Professional healthcare
+- name: NHS organisations
   icon: /images/icons/healthcare.svg
   section: healthcare
   customers:
-    - name: NHS
-      logo: /images/customer-logo/nhs.svg
+    - name: NHS BSA
+      logo: /images/customer-logo/nhs-bsa.svg
     - name: Simplyhealth
-      logo: /images/customer-logo/simplyhealth.svg
+      logo: /images/customer-logo/alder-hey.svg
     - name: Clatterbridge
-      logo: /images/customer-logo/clatterbridge.svg
+      logo: /images/customer-logo/maidstone-tunbridge-wells-nhs.svg
     - name: Vocare
-      logo: /images/customer-logo/vocare.svg
+      logo: /images/customer-logo/clatterbridge.svg
   quote:
     words:
       - We needed a remote monitoring service that did not require an on premise PC and was independent of our network. Spook provided pre-configured cellular routers for each of our five data centers. The whole project was a simple plug-and-play solution with little or no involvement from us which left us to concentrate on other pressing matters. We were pleased on how Spook ran with the project as it was in December and we needed a service in place before year end. Once the cellular routers were powered up, we had instant access to our secure digital dashboards. We remain impressed with the ease of the whole process provided for by Spook. 
@@ -238,8 +238,8 @@
   customers:
     - name: APHA
       logo: /images/customer-logo/apha.svg
-    - name: Covetrus
-      logo: /images/customer-logo/covetrus.svg
+    - name: Venator
+      logo: /images/customer-logo/venator.svg
     - name: Munster Technologyical University
       logo: /images/customer-logo/munster-technologyical-university.svg
     - name: Thermo Fisher

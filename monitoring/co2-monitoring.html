@@ -11,6 +11,21 @@ page-description: CO2 monitoring for schools
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+  .header-banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/homepage-banner-3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+  }
+  .header-banner.footer{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/omniwatch-banner-image.png');
+  }
+  .header-banner h1, .header-banner h3{
+    font-weight: normal;
+  }
 </style>
 <header class="classroom">
   <div class="container">
@@ -128,4 +143,10 @@ page-description: CO2 monitoring for schools
     </div>
   </div>
 </section>
-{% include contact-us.html %}
+<section class="header-banner footer is-text-center">
+	<div class="container">
+		<h2>Get in touch with Spook</h2>
+		<p>Please contact us if you wish for further information on how Spook can help with your CO<sub>2</sub> monitoring needs.</p>
+		<p><a href="/contact/" class="button">Contact us <span class="caret is-right"></span></a></p>
+	</div>
+</section>

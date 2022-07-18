@@ -24,11 +24,23 @@ header{
 </header>
 <section>
   <div class="container">
-    <div class="is-50 is-stack-60">
-      <h2>Wireless sensors</h2>
-      <p>Spook works with any proprietary wireless sensor manufacturer and with LoRaWAN sensors for the IoT. We are resellers for a full range of sensor manufacturers and sensor types so if you need advice or help, simply <a href="/contact">contact us</a> for a free and non-obligatory chat.</p>
-      <p>Spook wireless sensors arrive pre-configured and calibrated and have on-board on/off switches making installation very easy. Just install the sensor and switch it on for instant access to OmniWatch, via any internet enabled device.</p>
-      <p>Here are some of the most popular sensor types:</p>
+    <div class="is-row is-items-middle is-stack-60">
+      <div class="is-col is-50">
+        <h2>Wireless sensors</h2>
+        <p>Spook works with any proprietary wireless sensor manufacturer and with LoRaWAN sensors for the IoT. We are resellers for a full range of sensor manufacturers and sensor types so if you need advice or help, simply <a href="/contact">contact us</a> for a free and non-obligatory chat.</p>
+        <p>Spook wireless sensors arrive pre-configured and calibrated and have on-board on/off switches making installation very easy. Just install the sensor and switch it on for instant access to OmniWatch, via any internet enabled device.</p>
+        <p>Here are some of the most popular sensor types:</p>
+      </div>
+      <div class="is-col">
+        <div class="is-row is-text-center is-stack-20 is-inset-40 is-hidden-mobile">
+          {% for point in site.data.co2.lorawan-points %}
+            <div class="is-col">
+              <img alt="{{ point.name }}" src="{{ point.icon }}">
+              <p><strong>{{ point.name }}</strong></p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
     </div>
     <div class="is-row is-stack-60">
       {% for sensor in site.data.wireless.sensors %}

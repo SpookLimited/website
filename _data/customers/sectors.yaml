@@ -92,8 +92,8 @@
   icon: /images/icons/healthcare.svg
   section: healthcare
   customers:
-    - name: NHS BSA
-      logo: /images/customer-logo/nhs-bsa.svg
+    - name: Liverpool heart and chest nhs
+      logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg
     - name: Simplyhealth
       logo: /images/customer-logo/alder-hey.svg
     - name: Clatterbridge

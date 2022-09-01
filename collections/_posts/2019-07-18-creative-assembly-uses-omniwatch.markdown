@@ -4,7 +4,7 @@ title: "Spook is pleased to welcome Creative Assembly to its growing list of Omn
 blurb: "OmniWatch is an award winning IT Environmental and Power Monitoring Service and is installed across two locations at CA’s HQ in Horsham, West Sussex."
 page-description: "OmniWatch is an award winning IT Environmental and Power Monitoring Service and is installed across two locations at CA’s HQ in Horsham, West Sussex."
 image: /images/blog/creative-assembly-uses-omniwatch/creative-assembly-total-war.jpeg
-permalink: /news/spook-welcomes-creative-assembly-to-omniwatch/
+permalink: /blog/spook-welcomes-creative-assembly-to-omniwatch/
 date:   2018-07-18 10:27:49 +0000
 published: 1
 ---

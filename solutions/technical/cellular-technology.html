@@ -12,7 +12,8 @@ industries."
       <h3>Technical</h3>
       <h1>Cellular monitoring</h1>
       <p class="is-big">Keeping remote monitoring secure and independent.</p>
-      <p class="is-big">Cellular technology is improving quickly and being adopted as a reliable communications solution within many industries.</p>
+      <p class="is-big">Cellular technology is improving quickly and being adopted as a reliable communications solution
+        within many industries.</p>
     </div>
     <p><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
@@ -25,9 +26,12 @@ industries."
       </div>
       <div class="is-col">
         <h2>Award winning remote monitoring solution</h2>
-        <p class="is-big">Spook's cellular router solution won the CIR Business Continuity Awards category of <a href="/news/cir-business-continuity-award-winners">Specialist Technology Company of the Year</a>.</p>
-        <p class="is-big">Unlike a standard router that accesses the internet through a cable, a cellular router enables you to get internet access through a cellular data network.</p>
-        <p class="is-big">This is perfect for keeping remote monitoring independent of a customers ethernet network or for areas where broadband is not an option.</p>
+        <p class="is-big">Spook's cellular router solution won the CIR Business Continuity Awards category of <a
+            href="/blog/cir-business-continuity-award-winners">Specialist Technology Company of the Year</a>.</p>
+        <p class="is-big">Unlike a standard router that accesses the internet through a cable, a cellular router enables
+          you to get internet access through a cellular data network.</p>
+        <p class="is-big">This is perfect for keeping remote monitoring independent of a customers ethernet network or
+          for areas where broadband is not an option.</p>
       </div>
     </div>
   </div>
@@ -37,9 +41,12 @@ industries."
     <div class="is-row is-stack-60">
       <div class="is-col">
         <h2>Improved technology</h2>
-        <p>Since the development of 2G technology back in the 1990's the mobile communications marketplace has developed at an ever increasing pace.</p>
-        <p>3G was introduced in 2003 and 4G superseded this in 2012 which gave the same benefits of 3G but at a much greater speed.</p>
-        <p>We now enter the realms of 5G technology which is set to revolutionise how we approach communications and the Internet of Things (IoT).</p>
+        <p>Since the development of 2G technology back in the 1990's the mobile communications marketplace has developed
+          at an ever increasing pace.</p>
+        <p>3G was introduced in 2003 and 4G superseded this in 2012 which gave the same benefits of 3G but at a much
+          greater speed.</p>
+        <p>We now enter the realms of 5G technology which is set to revolutionise how we approach communications and the
+          Internet of Things (IoT).</p>
       </div>
       <div class="is-col">
         <p class="is-big">Latency time for cellular communication</p>
@@ -70,37 +77,38 @@ industries."
     </div>
     <div class="is-row is-stack-60">
       {% for item in site.data.solutions.cellular.key-points %}
-        <div class="is-col is-stack-40">
-          <div class="card is-border is-shadow-2">
-            <div class="card-img {{ item.color }} icon" style="background-image: url('{{ item.icon }}');"></div>
-            <div class="card-content">
-              <h3>{{ item.name }}</h3>
-              {% for paragraph in item.words %}
-                <p>{{ paragraph }}</p>
-              {% endfor %}
-            </div>
+      <div class="is-col is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img {{ item.color }} icon" style="background-image: url('{{ item.icon }}');"></div>
+          <div class="card-content">
+            <h3>{{ item.name }}</h3>
+            {% for paragraph in item.words %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
           </div>
         </div>
+      </div>
       {% endfor %}
     </div>
-		<div class="is-text-center is-stack-20">
-			<h3>SIM features</h3>
+    <div class="is-text-center is-stack-20">
+      <h3>SIM features</h3>
     </div>
-		<div class="is-row is-text-center">
-			{% for feature in site.data.co2.sim-features %}
-				<div class="is-col">
-          <img alt="{{ feature.name }}" style="height: 100px;" src="{{ feature.icon }}">
-					<h5>{{ feature.name }}</h5>
-					<p>{{ feature.description }}</p>
-				</div>
-			{% endfor %}
-		</div>
+    <div class="is-row is-text-center">
+      {% for feature in site.data.co2.sim-features %}
+      <div class="is-col">
+        <img alt="{{ feature.name }}" style="height: 100px;" src="{{ feature.icon }}">
+        <h5>{{ feature.name }}</h5>
+        <p>{{ feature.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 <section class="contact-us-box">
   <div class="container is-text-center">
     <h2>Try before you buy</h2>
-    <p class="is-big">Spook can provide a loan cellular router to try before you decide to buy one. This ensures the cellular router proves its ability to work before you buy it.</p>
+    <p class="is-big">Spook can provide a loan cellular router to try before you decide to buy one. This ensures the
+      cellular router proves its ability to work before you buy it.</p>
     <p class="is-big"><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
   </div>
 </section>

@@ -5,7 +5,7 @@ post-title: Spook launches its new bulk intelligent power distribution unit (PDU
 blurb: 
 page-description: Spook launches its new bulk intelligent power distribution unit (PDU) monitoring service that improves upon conventional single device monitoring.
 image: /images/sections/pdu-monitoring.png 
-permalink: /news/bulk-power-monitoring/
+permalink: /blog/bulk-power-monitoring/
 date:   2020-02-01 08:00:00 +0000
 published: 1
 ---

@@ -4,7 +4,7 @@ title:  "Waterstones, The Testaments, Christmas and OmniWatch"
 blurb: "Waterstones predict Margaret Atwood’s sequel to the Handmaid’s Tale, The Testaments, is going to be their biggest release of the year and say it will be their best seller for Christmas 2019."
 page-description: "Waterstones predict Margaret Atwood’s sequel to the Handmaid’s Tale, The Testaments, is going to be their biggest release of the year and say it will be their best seller for Christmas 2019."
 image: /images/blog/snowflakes-waterstones.png
-permalink: /news/waterstones-testaments-christmas-omniwatch/
+permalink: /blog/waterstones-testaments-christmas-omniwatch/
 date:   2019-09-19 08:27:49 +0000
 published: 1
 ---

@@ -4,7 +4,7 @@ title:  "The Three Wise Men of data centre monitoring"
 blurb: "Three wise men are predominantly celebrated once a year but monitoring the environment of your data centre should be 24/7."
 page-description: "Three wise men are predominantly celebrated once a year but monitoring the environment of your data centre should be 24/7."
 image: /images/blog/the-three-wise-men-of-monitoring/the-three-wise-men-of-monitoring.jpeg
-permalink: /news/the-three-wise-men-of-data-centre-monitoring/
+permalink: /blog/the-three-wise-men-of-data-centre-monitoring/
 date:   2018-04-10 10:27:49 +0000
 published: 1
 ---

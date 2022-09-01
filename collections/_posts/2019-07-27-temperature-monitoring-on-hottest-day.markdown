@@ -4,7 +4,7 @@ title:  "Server room temperature monitoring on the hottest day of the year"
 blurb: "Far be it for us to wish this lovely hot spell to end but it’s at times like these that server room air conditioning units are really put to the test."
 page-description: "Far be it for us to wish this lovely hot spell to end but it’s at times like these that server room air conditioning units are really put to the test."
 image: /images/blog/temperature-monitoring-on-hottest-day/ac-temperature-monitoring.jpeg
-permalink: /news/server-room-temperature-monitoring-on-the-hottest-day-of-the-year/
+permalink: /blog/server-room-temperature-monitoring-on-the-hottest-day-of-the-year/
 date:   2018-07-27 10:27:49 +0000
 published: 1
 ---

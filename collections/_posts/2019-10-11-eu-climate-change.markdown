@@ -5,7 +5,7 @@ post-title: Plant-based diets provide major opportunities to aid climate crisis
 blurb: "Intergovernmental Panel on Climate Change (IPCC) has released the first comprehensive look at how land influences climate change, and vice versa."
 page-description: "Intergovernmental Panel on Climate Change (IPCC) has released the first comprehensive look at how land influences climate change, and vice versa."
 image: /images/blog/farm-land-management.jpeg
-permalink: /news/eu-climate-change-report/
+permalink: /blog/eu-climate-change-report/
 date:   2019-10-11 08:00:00 +0000
 published: 1
 ---

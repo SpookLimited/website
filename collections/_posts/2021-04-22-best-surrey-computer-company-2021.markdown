@@ -5,7 +5,7 @@ post-title: "Spook is listed as one of The Best Computer Companies in Surrey (20
 blurb: 
 page-description: "Although Spook has been around for nearly two decades and is obviously not a start-up, we won the 'The most innovative product' award for 2021." 
 image: /images/blog/best-startup-logo.png 
-permalink: /news/best-surrey-computer-company-2021/
+permalink: /blog/best-surrey-computer-company-2021/
 date:   2021-04-22 08:00:00 +0000
 published: 1
 ---

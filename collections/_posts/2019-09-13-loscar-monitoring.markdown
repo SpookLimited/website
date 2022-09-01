@@ -4,7 +4,7 @@ title:  "L'oscar, Masterchef and OmniWatch"
 blurb: "Spook continues to monitor L'oscar's various IT rooms with OmniWatch. This ensure's L'oscar's guests  continue to receive the highest standards in luxury expected of one of London's leading boutique hotels."
 page-description: "Spook continues to monitor L'oscar's various IT rooms with OmniWatch. This ensure's L'oscar's guests  continue to receive the highest standards in luxury expected of one of London's leading boutique hotels."
 image: /images/blog/loscar-omniwatch/loscar-omniwatch.jpeg
-permalink: /news/spook-monitors-loscar-masterchef/
+permalink: /blog/spook-monitors-loscar-masterchef/
 date:   2019-09-13 08:27:49 +0000
 published: 1
 ---

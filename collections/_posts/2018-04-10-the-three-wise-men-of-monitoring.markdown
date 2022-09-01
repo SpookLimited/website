@@ -21,7 +21,7 @@ It is well known that the data centre, by nature of its design, houses the highe
 
 By monitoring temperature and measuring, in real time, the fluctuations associated with hot and cold spots means IT departments can take remedial action in advance of a temperature related incident causing problems.
 
-<a class="button is-center" href="/omniwatch/sensors/temperature-monitoring/">Read more about temperature monitoring</a>
+<a class="button is-center" href="/monitoring/environmental/temperature">Read more about temperature monitoring</a>
 
 ## Humidity
 
@@ -33,7 +33,7 @@ The majority of confusion when considering humidity is how it is measured. Typic
 
 As hot air cools, its relative humidity increases until it reaches 100%. This is the point where water in the air will start condensing, also known as "dew point".
 
-<a class="button is-center" href="/omniwatch/sensors/humidity-monitoring/">Read more about humidity monitoring</a>
+<a class="button is-center" href="/monitoring/environmental/humidity">Read more about humidity monitoring</a>
 
 ## Dew Point
 
@@ -53,5 +53,5 @@ The dew point value will not exceed the temperature, as humidity cannot go highe
 
 Spook's leading environmental monitoring service [OmniWatch](/omniwatch/) calculates all three measurements in real-time. See our free dew point [calculator](/omniwatch/sensors/dew-point-monitoring/#dew-point-calculator) for those of you who only know your temperature and humidity values.
 
-<a class="button is-center" href="/omniwatch/sensors/dew-point-monitoring/">Read more about dew point monitoring</a>
+<a class="button is-center" href="/monitoring/environmental/dewpoint">Read more about dew point monitoring</a>
 

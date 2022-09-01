@@ -51,7 +51,7 @@ The dew point value will not exceed the temperature, as humidity cannot go highe
 
 ![temperature-humidity-dewpoint-monitoring](/images/blog/the-three-wise-men-of-monitoring/temperature-humidity-dewpoint-monitoring.png)
 
-Spook's leading environmental monitoring service [OmniWatch](/omniwatch/) calculates all three measurements in real-time. See our free dew point [calculator](/omniwatch/sensors/dew-point-monitoring/#dew-point-calculator) for those of you who only know your temperature and humidity values.
+Spook's leading environmental monitoring service [OmniWatch](/monitoring/it-rooms-and-facilities) calculates all three measurements in real-time. See our free dew point [calculator](/monitoring/environmental/dewpoint/#dew-point-calculator) for those of you who only know your temperature and humidity values.
 
 <a class="button is-center" href="/monitoring/environmental/dewpoint">Read more about dew point monitoring</a>
 

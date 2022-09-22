@@ -1,0 +1,277 @@
+---
+layout: base
+title: Utility monitoring
+page-description: Real-time remote monitoring from global consumption to granular monitoring at asset level, all can be achieved easily with Spook's award winning remote monitoring service, OmniWatch.
+---
+<style>
+.header-banner{
+  #background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/monitoring/energy/energy-monitoring-banner-image.jpeg');
+  background-image: url('/images/utility-monitoring/utility-monitoring-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+.header-banner.footer{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/banner/omniwatch-banner-image.png');
+}
+.header-banner h1, .header-banner h3{
+  font-weight: normal;
+}
+</style>
+<header class="header-banner">
+  <div class="container">
+    <div class="is-50">
+      <div class="is-stack-40">
+        <h1>Public utility services intelligent remote monitoring</h1>
+        <p class="is-big">The importance of public utility monitoring and the benefits it offers.</p>
+      </div>
+      <a class="button" href="/contact">Get in touch <span class="caret is-right"></span></a>
+    </div>
+  </div>
+</header>
+<div class="is-inset-y-8 black">
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-10 white-text">
+        Support for
+      </div>
+      <div class="is-col is-80 is-text-center">
+        <img alt="Supported manufacturers for energy monitoring" src="/images/utility-monitoring/supported-providers.svg">
+      </div>
+      <div class="is-col is-10 white-text">
+        and more.
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="is-row">
+      <div class="is-col is-30">
+        <div class="is-stack-40">
+          <p class="section-subheader">Monitoring specialists</p>
+          <h3>Public utility intelligent monitoring</h3>
+          <p>Spook's award winning remote monitoring service called OmniWatch monitors energy consumption and water usage.</p>
+          <p>Measuring consumables from public utility companies across many different service providers, assets and areas; OmniWatch presents realtime readings in an easy to use real-time digital dashboard.</p>
+          <p>Public utility monitoring empowers data managers to understand and work towards making consumption as efficient as possible.</p>
+        </div>
+
+        <h3>The importance of public utility monitoring</h3>
+        <p>Understanding consumption from public utility service organisations is crucial as costs of energy continue to rise and the consumption of water as a finite resource is becoming more scrutinised.</p>
+        <p>There are many reasons understanding non-domestic utility service usage is important however the most common reasons are:</p>
+        <ul>
+          <li class="is-small">The unit price for energy is volatile and is at the highest unit cost ever recorded (set to £211 per MWh for electricity and £75 per MWh for gas until March 2023)</li>
+          <li class="is-small">Organisations are under extreme pressure to minimise electricity and gas usage in order to reduce their overall running costs.</li>
+          <li class="is-small">Public utility firms are likely to introduce off-peak schemes for non-domestic consumers with incentives to switch energy intensive applications from peak to off-peak times where possible.</li>
+          <li class="is-small">Water efficiency is becoming more important with the rise in heat waves and droughts.</li>
+          <li class="is-small">Place public utilities service providers under pressure to ensure utility bills are accurate and can be proven and accounted for.</li>
+        </ul>
+
+        <p>By understanding an organisations consumption from public utility firms means energy managers can use actual data as proof of concept to change usage patterns and understand their most energy hungry times and processes.</p>
+        <p>By introducing new processes, organisations can start to load balance usage for maximum efficiency gains and lower billing costs.</p>
+      </div>
+      <div class="is-col is-70">
+        <img src="/images/utility-monitoring/topology.svg">
+      </div>
+    </div>
+    <img src="/images/utility-monitoring/energy-usage-meter-chart.png">
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row">
+      {% for item in site.data.utility.main-points %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img icon {{ item.color }}" style="background-image: url('{{ item.icon }}');"></div>
+            <div class="card-content">
+              <h4 class="section-header">{{ item.name }}</h4>
+              {% for paragraph in item.words %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+							{% if item.link %}
+								<a href="{{ item.link }}" class="button">Read more</a>
+							{% endif %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<div class="container"><hr></div>
+<section>
+  <div class="container">
+    <div class="is-stack-60 is-text-center">
+      <h3>Public utility remote monitoring key features</h3>
+    </div>
+    <div class="is-row is-items-middle is-stack-40">
+      <div class="is-col is-30">
+        <img src="/images/utility-monitoring/combining-kwh-readings.png">
+      </div>
+      <div class="is-col is-70">
+        <h4>Return on investment (ROI)</h4> 
+        <p>OmniWatch is an extremely cost efficient monitoring solution.</p>
+        <p>Because Spook's public utility monitoring bundle uses LoraWAN sensors and cellular gateways to harvest data there is no need to install heavy duty infrastructure in order to achieve a total monitoring solution.</p>
+        <p>The ROI is rapid and the installation is "process light".</p>
+      </div>
+    </div>
+    <div class="is-row is-stack-40">
+      <div class="is-row is-items-middle">
+        <div class="is-col">
+          <h4>Spook IoT sensors and gateways</h4>
+          <p>Spook wireless sensors arrive pre-configured and calibrated and have on-board on/off switches making installation very easy.</p>
+          <p>Just install the sensor and switch it on for instant access to  OmniWatch, via any internet enabled device.</p>
+        </div>
+        <div class="is-col">
+          <img src="/images/utility-monitoring/easy-setup.png">
+        </div>
+      </div>
+      <div class="is-text-center">
+        <div class="is-stack-40">
+          <h4>Here are a few of the many LoRaWAN wireless sensors available for monitoring public utility services.</h4>
+        </div>
+        <div class="is-row is-items-middle">
+          <div class="is-col">
+            <figure>
+              <img src="/images/sensor/led-counter.svg">
+              <figcaption>LED flash counter</figcaption>
+            </figure>
+          </div>
+          <div class="is-col">
+            <figure>
+              <img src="/images/sensor/pulse-counter.svg">
+              <figcaption>Pulse counter</figcaption>
+            </figure>
+          </div>
+          <div class="is-col">
+            <figure>
+              <img src="/images/sensor/rotation-counter.svg">
+              <figcaption>Rotary dial counter</figcaption>
+            </figure>
+          </div>
+          <div class="is-col">
+            <figure>
+              <img src="/images/sensor/energy-meter.svg">
+              <figcaption>Single/3 phase energy meter</figcaption>
+            </figure>
+          </div>
+          <div class="is-col">
+            <figure>
+              <img src="/images/monitoring/ups/protocols.svg">
+              <figcaption>Network protocols</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="is-stack-40 is-border is-shadow-2">
+		<div class="is-row">
+			<div class="is-col is-33 is-inset-20 orange">
+				<img alt="Wireless cellular and ethernet gateways" src="/images/air-quality-and-co2/gateway.svg">
+			</div>
+			<div class="is-col is-66 is-inset-20">
+				<h3>Wireless cellular and ethernet gateways</h3>
+				<p>Spook recommended gateways come with ethernet and cellular connectivity as standard.</p>
+				<p>Gateways reside in appropriate locations around the building - dictated by the spread of sensors.</p>
+				<p>Sensor data is transmitted over the ethernet network with a cellular backhaul and is encrypted end to end and is sent to Spook's OmniWatch servers.</p>
+				<p>Gateways can be set to cellular operation as priority, ensuring monitoring is independent of the corporate network.</p>
+			</div>
+		</div>
+	</div> 
+	<div class="is-text-center">
+			<h3>SIM features</h3>
+			<p>Cellular gateways each have a pre-installed data roaming SIM card.</p>
+		</div>
+	<div class="is-row is-text-center">
+		<div class="is-col">
+			<img alt="Data roaming" style="height: 100px;" src="/images/solutions/cellular-technology/operators-line.svg">
+			<h5>Data roaming</h5>
+			<p>Each SIM is configured to work on all major cellular networks.</p>
+		</div>
+		<div class="is-col">
+			<img alt="Full LTE support" style="height: 100px;" src="/images/icons/cellular.svg">
+			<h5>Full LTE support</h5>
+			<p>SIMs are capable of utilising 4G, 3G and 2G to ensure there is always a strong signal.</p>
+		</div>
+		<div class="is-col">
+			<img alt="Price included" style="height: 100px;" src="/images/icons/simcard.svg">
+			<h5>Price included</h5>
+			<p>SIM data charges are already included in Spook's pricing model. No hidden surprises.</p>
+		</div>
+	</div>
+</div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-stack-60 is-items-middle">
+      <div class="is-col">
+        <h4>BEMS</h4>
+        <p>For organisations that have already installed BEMS (Building Energy Management Systems), OmniWatch works with these too.</p>
+        <p>So if you already have a BEMS system, why not breath new life into it by implementing OmniWatch to passively harvest the sensor readings and present them onto secure, internet based, digital dashboards, for a modern and functionally rich approach to BEMS management.</p>
+      </div>
+      <div class="is-col">
+        <img src="/images/utility-monitoring/trend-bms.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-stack-60">
+      <div class="is-col is-20">
+        <h4>Spook smart sensors</h4>
+        <p>Spook smart sensors use legacy sensor readings to create a full range of intelligent smart sensors.</p>
+        <p>Spook smart sensors apply real-time complex calculations for new and intuitive information such as billing grade real-time costs.</p>
+      </div>
+      <div class="is-col is-80">
+        <div class="is-row is-stack-20">
+          {% for sensor in site.data.it.smart-sensors %}
+          <div class="is-col is-stack-20">
+            <div class="green is-stack-12" style="width: 100%; height: 120px;background-image: url('{{ sensor.img }}'); background-position: center; background-size: contain; background-repeat: no-repeat;"></div>
+            <div class="is-text-right">
+              <h5><b>{{ sensor.name }}</b></h5>
+              <p><a class="button is-secondary is-small" href="{{ sensor.link }}">Read more <span class="caret is-right"></span></a></p>
+            </div>
+          </div>
+          {% if forloop.index == 3 %}</div><div class="is-row">{% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <div class="is-row is-items-middle">
+      <div class="is-col is-80">
+        <img src="/images/monitoring/pdu/kwh-pdu-price.png">
+      </div>
+      <div class="is-col is-20">
+        <h4>Cost calculation</h4>
+        <p>OmniWatch can apply peak and off-peak calculations as well as taking into account multiple utility service providers that may source a single location or where regional locations use different service providers and tariffs.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-stack-40">
+      <h4>Complimentary monitoring</h4>
+      <p>An installation can easily be extended to add complimentary monitoring with a series of additional sensors to extend beyond public utility monitoring. Popular sensors include:</p>
+      {% include monitoring/it/popular-sensors.html %}
+    </div>
+  </div>
+</section>
+<section>
+	<div class="container">
+    {% include two-types-of-customers.html %}
+  </div>
+</section>
+{% include used-by.html %}
+<section class="header-banner footer is-text-center">
+	<div class="container">
+    <div class="is-stack-40">
+      <h2>Get in touch with Spook</h2>
+      <p>Please contact us if you wish for further information on how Spook can help with your electricity, gas and water monitoring needs.</p>
+    </div>
+		<p><a href="/contact/" class="button">Contact us <span class="caret is-right"></span></a></p>
+	</div>
+</section>

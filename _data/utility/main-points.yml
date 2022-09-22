@@ -1,0 +1,31 @@
+- name: Utility independent
+  color: green
+  icon: /images/icons/asset-optimisation.svg
+  words:
+    - OmniWatch works with any utility service providers meters and any organisations individual assets via a full range of IoT sensors.
+    - OmniWatch empowers organisations data managers to accurately understand key consumption data across multi-platforms and equipment types.
+
+- name: Realtime alerts
+  color: blue
+  icon: /images/icons/alarms.svg
+  link: /alerting
+  words:
+    - OmniWatch measures building, campus and organisational consumption versus its KPI's.
+    - Know instantly when there are public utility and asset behavioural misdemeanours, malfunctions and inefficiencies.
+    - Receive live alerts via email, SMS and UK call centre.
+
+- name: Performance trends
+  color: red
+  icon: /images/icons/peak-graph.svg
+  words:
+    - OmniWatch collected sensor readings are held in perpetuity, providing accurate historical trend analysis.
+    - By researching over longer time frames, intermittent energy hungry assets can easily be identified.
+    - The longer the period of scrutiny, the greater efficiency gain accuracy.
+
+- name: Automated reports
+  color: orange
+  icon: /images/icons/load-balance.svg
+  words:
+    - OmniWatch converts all sensor readings into a series of easy to read management reports.
+    - Reports are sent via email on a daily, weekly or monthly basis. Reports include time sensitive consumption and bill grade analysis.
+    - Customised time frames can be applied via the online report function.

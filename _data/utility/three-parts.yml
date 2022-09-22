@@ -1,0 +1,8 @@
+- name: Electricity
+  icon: /images/sensor/icons/kwh.svg
+
+- name: Gas
+  icon: /images/sensor/icons/pressure.svg
+
+- name: Water
+  icon: /images/sensor/icons/water.svg

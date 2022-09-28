@@ -28,7 +28,7 @@ page-description: Monitoring and alerting service for power monitoring. Track po
     </div>
     <div class="is-row is-stack-20">
       {% for condition in site.data.power.key-power-conditions %}
-        <div class="is-col is-stack-40">
+        <div class="is-col is-33 is-stack-40">
           <div class="card is-border is-shadow-2">
             <div class="card-img blue icon" style="background-image: url('{{ condition.icon }}');"></div>
             <div class="card-content">
@@ -42,7 +42,6 @@ page-description: Monitoring and alerting service for power monitoring. Track po
             </div>
           </div>
         </div>
-        {% if forloop.index == 2 %}</div><div class="is-row">{% endif %}
       {% endfor %}
     </div>
   </div>

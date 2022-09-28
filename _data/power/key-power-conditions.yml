@@ -31,3 +31,10 @@
     - PUE (Power Usage Effectiveness) and DCiE (Data Centre infrastructure Efficiency) are industry standard benchmarks comparing the overall energy used for a data centers infrastructure versus its energy used for the existing IT load.
     - By measuring these efficiency benchmarks in realtime means ongoing efforts to gain the best ratings can be achieved.
 
+- name: Public utilities
+  icon: /images/sensor/icons/pressure.svg
+  link: /monitoring/utility-monitoring
+  description:
+    - OmniWatch works with any utility service providers meters and any organisations individual assets via a full range of IoT sensors.
+    - OmniWatch empowers organisations data managers to accurately understand key consumption data across multi-platforms and equipment types.
+

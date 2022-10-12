@@ -61,3 +61,8 @@
   header: New indoor air quality monitoring service
   description:
     - OmniWatch introduces support for indoor office based monitoring with the ability to monitor air quality and CO2 levels.
+
+- year: 2022
+  header: Public utility monitoring service
+  description:
+    - OmniWatch introduces its public utility monitoring service, empowering energy managers to achieve energy efficiency and lower energy costs.

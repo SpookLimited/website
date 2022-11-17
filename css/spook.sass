@@ -66,6 +66,12 @@ $muted: #555
 .blue-text
   color: $spook-blue
 
+.green-text
+  color: $green
+
+.red-text
+  color: $red
+
 .muted
   color: $muted
 
@@ -341,3 +347,22 @@ footer a
   &:hover
     .hexagon
       fill: $spook-blue !important
+
+.hero-block
+	background-color: $spook-blue
+	color: $white
+	position: relative
+
+.hero-block:after
+  content: ""
+  position: absolute
+  top: 100%
+  left: 0
+  right: 0
+  margin: 0 auto
+  width: 0
+  height: 0
+  border-top: solid 50px $spook-blue
+  border-left: solid 50px transparent
+  border-right: solid 50px transparent
+  z-index: 10

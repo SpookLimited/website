@@ -1,0 +1,19 @@
+- name: BEMS
+  width: 100
+  image: /images/utility-monitoring/trend-bms.jpg
+  paragraphs:
+    - OmniWatch is protocol neutral and works with all the major BEMS manufacturers. Any organisations that already have a BEMS (Building Energy Management System), OmniWatch is able to passively monitor any sensors and present them in a modern and intuitive way.
+
+- name: Alerts
+  width: 50
+  image: /images/utility-monitoring/energy-efficiency.svg
+  paragraphs:
+    - OmniWatch alerts can be applied to any monitored sensors. Spook’s industry leading three-tier alarm escalation procedure is invoked using auto-email, SMS and ultimately via Spook’s UK based call centre. <a href="/alerting">Read more</a>.
+
+- name: Reminders
+  width: 50
+  image: /images/utility-monitoring/reminder.svg
+  paragraphs:
+    - Monitored readings can be allocated a reminder status.
+    - Reminders are a perfect way to esnure any time based duty cycles for assets are maintained or any manual checking processes; such as a member of staff tasked with turning off/on electrical equipment, is applied.
+

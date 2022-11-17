@@ -1,0 +1,33 @@
+- name: Local government
+  icon: /images/icons/banking.svg
+  color: "#125589"
+  kwh:
+    average: 352.66
+    pdus: 76
+    total: 26802
+    price: 5655
+
+- name: NHS Trust
+  icon: /images/icons/building2.svg
+  color: "#2b94d6"
+  kwh:
+    average: 301.08
+    pdus: 36
+    total: 10838
+    price: 2286
+
+- name: Creative industry
+  icon: /images/icons/leisure.svg
+  color: "#3edad7"
+  kwh:
+    average: 652.74
+    pdus: 24
+    total: 15665
+    price: 3305
+
+- name: Data centre
+  icon: /images/icons/data-centre.svg
+  color: "#aedadb"
+  kwh:
+    total: 700312
+    price: 147765

@@ -8,6 +8,21 @@ page-description: Real-time remote monitoring from global consumption to granula
   color: #5f7abd;
 }
 
+.utility-banner{
+  background-image: url('/images/utility-monitoring/comparison-dashboard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  min-height: 1800px;
+}
+
+@media only screen and (max-width: 600px) {
+  .utility-banner{
+    background-position: center;
+    min-height: 1600px;
+  }
+}
+
 .logo-box{
   max-width: 300px;
   margin-bottom: 20px;
@@ -32,13 +47,7 @@ page-description: Real-time remote monitoring from global consumption to granula
   color: #fff;
 }
 </style>
-<section style="
-    background-image: url('/images/utility-monitoring/comparison-dashboard.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right;
-    min-height: 1800px;
-  ">
+<section class="utility-banner">
   <div class="container">
     <div class="is-row">
       <div class="is-col is-20">
@@ -196,7 +205,7 @@ page-description: Real-time remote monitoring from global consumption to granula
 <section>
   <div class="container">
     <div class="is-row is-items-middle is-stack-60">
-      <div class="is-col is-33">
+      <div class="is-col is-33 is-stack-40-mobile">
         <img src="/images/utility-monitoring/energy-saving.svg">
       </div>
       <div class="is-col is-33 is-border is-shadow-2 is-inset-20">
@@ -215,7 +224,7 @@ page-description: Real-time remote monitoring from global consumption to granula
       <div class="is-col is-33">
 
       </div>
-      <div class="is-col is-33">
+      <div class="is-col is-33 is-stack-40-mobile">
         <img src="/images/monitoring/ups/protocols.svg">
       </div>
       <div class="is-col is-33 is-border is-shadow-2 is-inset-20">
@@ -226,7 +235,7 @@ page-description: Real-time remote monitoring from global consumption to granula
     </div>
 
     <div class="is-row is-items-middle is-stack-60">
-      <div class="is-col is-33">
+      <div class="is-col is-33 is-stack-40-mobile">
         <img src="/images/icons/alert-service.svg">
       </div>
       <div class="is-col is-33 is-border is-shadow-2 is-inset-20">
@@ -244,7 +253,7 @@ page-description: Real-time remote monitoring from global consumption to granula
       <div class="is-col is-33">
 
       </div>
-      <div class="is-col is-33">
+      <div class="is-col is-33 is-stack-40-mobile">
         <img style="display: block; margin: 0 auto;" src="/images/utility-monitoring/reminder.svg">
       </div>
       <div class="is-col is-33 is-border is-shadow-2 is-inset-20">

@@ -34,18 +34,18 @@ h4{
     </div>
   </div>
 </header>
-<section class="grey">
+<section class="hero-block is-shadow-2">
   <div class="container">
     <div class="is-row">
       {% for item in site.data.about.data %}
-        <div class="is-col is-border is-shadow-2 is-inset-20 white is-stack-40-mobile">
+        <div class="is-col is-border is-shadow-2 is-inset-20 white black-text is-stack-40-mobile" style="border-color: rgba(106, 135, 218, 0.8); border-width: 3px;">
           <div class="is-row is-items-middle">
-            <div class="is-col">
+            <div class="is-col is-text-center-mobile">
               <img src="{{ item.icon }}">
             </div>
-            <div class="is-col is-text-right">
-              <h3>{{ item.title }}</h3>
-              <h1>{{ item.figure }}</h1>
+            <div class="is-col is-text-right is-text-center-mobile">
+              <div style="text-transform: uppercase;"><strong>{{ item.title }}</strong></div>
+              <div style="font-size: 2.6em;">{{ item.figure }}</div>
             </div>
           </div>
         </div>
@@ -54,27 +54,19 @@ h4{
   </div>
 </section>
 <section>
-  <div class="container is-text-center">
-    <h2>Why call ourselves Spook?</h2>
-    <div class="is-inset-x-120 is-inset-x-20-mobile is-stack-40">
-      <p class="is-big">We develop our software to monitor third party hardware. We wanted a name that could be associated with being available 24/7 and have an investigative theme so we landed on Spook.</p>
-    </div>
-    <div class="is-row is-items-middle">
-      <div class="is-col">
-        <p>A Spook is a ghost, something in a location 24/7: spook·i·er, spook·i·est.</p>
-        <p>Informal. like or befitting a spook or ghost.</p>
-      </div>
-      <div class="is-col">
-        <p>A spook is the agent tasked with "erasing an issue".</p>
-        <p>Differing from a spy, a spook does not exist on paper anywhere.</p>
-      </div>
-    </div>
-  </div>
-</section>
-<div class="container"><hr></div>
-<section>
   <div class="container">
-    <div class="is-row is-items-middle">
+    <div class="is-row is-items-middle is-border is-shadow-2 is-inset-20 is-stack-60" style="border-color: #81C784; border-width: 5px;">
+      <div class="is-col">
+        <h2>Why call ourselves Spook?</h2>
+        <p class="is-big">We develop our software to monitor third party hardware.</p>
+        <p class="is-big">We wanted a name that could be associated with being available 24/7 and have an investigative theme so we landed on Spook.</p>
+      </div>
+      <div class="is-col is-text-right" style="border-right: 5px solid #6a87da; padding-right: 20px;">
+        <p class="is-small blue-text">A Spook is a ghost, something in a location 24/7: spook·i·er, spook·i·est.<br>Informal. like or befitting a spook or ghost.</p>
+        <p class="is-small blue-text" style="margin-bottom: 0;">A spook is the agent tasked with "erasing an issue".<br>Differing from a spy, a spook does not exist on paper anywhere.</p>
+      </div>
+    </div>
+    <div class="is-row is-items-middle is-border is-shadow-2 is-inset-20" style="border-color: #7986CB; border-width: 5px;">
       <div class="is-col">
         <h2>Why call our remote software monitoring service OmniWatch?</h2>
         <p class="is-big">Our software has been designed to be manufacturer and protocol independent. We can monitor any type of equipment or asset and we wanted a name that reflected this.</p>
@@ -86,21 +78,21 @@ h4{
     </div>
   </div>
 </section>
-<section>
+<section class="spook-blue is-shadow-2">
   <div class="container is-text-center">
     <div class="is-row is-items-middle">
-      <div class="is-col is-border is-shadow-2 is-inset-20 is-stack-40-mobile">
-        <img src="/images/icons/award.svg">
+      <div class="is-col is-border is-shadow-2 is-inset-20 is-stack-40-mobile white-text" style="border-color: #fff; border-width: 5px;">
+        <img src="/images/icons/award.svg" style="filter: invert(1);">
         <div class="is-stack-60">
-          <h4>Winner</h4>
-          <h3>Most Innovative Solution of the Year</h3>
+          <h4 style="text-transform: uppercase; letter-spacing: .1em;">Winner</h4>
+          <h3><strong>Most Innovative Solution of the Year</strong></h3>
         </div>
       </div>
-      <div class="is-col is-border is-shadow-2 is-inset-20 is-stack-40-mobile">
-        <img src="/images/icons/award.svg">
+      <div class="is-col is-border is-shadow-2 is-inset-20 is-stack-40-mobile white-text" style="border-color: #fff; border-width: 5px;">
+        <img src="/images/icons/award.svg" style="filter: invert(1);">
         <div class="is-stack-60">
-          <h4>Winner</h4>
-          <h3>Specialist Technology Company of the Year</h3>
+          <h4 style="text-transform: uppercase; letter-spacing: .1em;">Winner</h4>
+          <h3><strong>Specialist Technology Company of the Year</strong></h3>
         </div>
       </div>
     </div>
@@ -122,6 +114,7 @@ h4{
     </div>
   </div>
 </section>
+<div class="container"><hr></div>
 <section>
   <div class="container">
     <div class="is-stack-60">
@@ -137,18 +130,27 @@ h4{
       <h2>Spook timeline</h2>
     </div>
     {% for item in site.data.about.timeline reversed %}
-    <div class="is-row">
-      <div class="is-col is-20 timeline-item">
+    <div class="is-row is-stack-60">
+      <div class="is-col is-20 timeline-item is-stack-20-mobile">
         <h2>{{ item.year }}</h2>
       </div>
-      <div class="is-col is-80">
-        <div class="is-50 is-border is-shadow-2 is-inset-20 is-stack-60">
+      <div class="is-col is-60">
+        <div class="is-border is-shadow-2 is-inset-20 is-stack-20-mobile" style="border-color: {{ item.color }}; border-width: 5px;">
           <h4>{{ item.header}}</h4>
           {% for paragraphs in item.description %}
-          <p>{{ paragraphs }}</p>
+            <p>{{ paragraphs }}</p>
           {% endfor %}
         </div>
       </div>
+      {% if item.link %}
+        <div class="is-col is-20 is-text-center">
+          <a class="button" href="{{ item.link }}">Read more</a>
+        </div>
+      {% else %}
+        <div class="is-col is-20">
+
+        </div>
+      {% endif %}
     </div>
     {% endfor %}
   </div>

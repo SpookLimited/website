@@ -1,68 +1,87 @@
 - year: 2003
+  color: '#E3F2FD'
   header: Spook incorporated
   description:
     - Spook was co-founded by Directors who had previously worked together in disaster recovery and work place recovery since 1997. 
     - Spook was created with the ethos that prevention is better than cure.
 
 - year: 2003
+  color: '#E1F5FE'
   header: Spook Console launched
   description:
     - Spook launches its own server room climate monitoring application.
     - Aquires the customer base of competitors product Vigilant.
 
 - year: 2007
+  color: '#BBDEFB'
+  link: /monitoring/power/
   header: Introduced power monitoring
   description:
     - The Spook Console application was expanded to include power monitoring of intelligent power strips.
 
 - year: 2008
+  color: '#B3E5FC'
   header: European Code of Conduct for Data Centres Endorser
   description:
     - Spook is granted Endorser status for the European Code of Conduct for Data Centres by introducing more in-depth power monitoring in Spook Console.
     - The ability to monitor DCiE and PUE is launched.
 
 - year: 2011
+  color: '#90CAF9'
+  link: /monitoring/power
   header: Most Innovative Solution of the Year
   description:
     - Spook Console wins the CIR Business Continuity Award for Most Innovative Solution of the Year.
     - Sungard Availability Services outsources management of its environmental monitoring service Vigil Plus to Spook.
 
 - year: 2015
+  color: '#81D4FA'
   header: Creation of OmniWatch
   description:
     - Development work begins on OmniWatch which would be the next evolution of Spook Console and move it to a cloud based approach.
 
 - year: 2016
+  color: '#64B5F6'
   header: OmniWatch launches
   description:
     - OmniWatch is launched and becomes manufacturer independent and protocol neutral expanding what could be monitored.
 
 - year: 2019
+  color: '#4FC3F7'
+  link: /solutions/technical/wireless-technology
   header: OmniWatch wireless support
   description:
     - OmniWatch introduces support for wireless sensors removing the need for network attached devices.
 
 - year: 2020
+  color: '#42A5F5'
+  link: /solutions/technical/cellular-technology
   header: OmniWatch cellular support
   description:
     - OmniWatch introduces support for cellular technology allowing monitoring to be seperated from the corporate LAN.
 
 - year: 2020
+  color: '#29B6F6'
   header: OmniWatch LoRaWAN support
   description:
     - OmniWatch introduces support for the LoRaWAN protocol expanding monitoring into the Internet of Things (IoT) market.
 
 - year: 2020
+  color: '#2196F3'
   header: Specialist Technology Company of the Year
   description:
     - Spook wins the CIR Business Continuity Award for Specialist Technology Company of the Year.
 
 - year: 2021
-  header: New indoor air quality monitoring service
+  color: '#03A9F4'
+  link: /monitoring/air-quality-and-co2
+  header: Indoor air quality monitoring service
   description:
     - OmniWatch introduces support for indoor office based monitoring with the ability to monitor air quality and CO2 levels.
 
 - year: 2022
+  color: '#1E88E5'
+  link: /monitoring/utility-monitoring
   header: Public utility monitoring service
   description:
     - OmniWatch introduces its public utility monitoring service, empowering energy managers to achieve energy efficiency and lower energy costs.

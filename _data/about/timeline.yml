@@ -2,7 +2,7 @@
   color: '#E3F2FD'
   header: Spook incorporated
   description:
-    - Spook was co-founded by Directors who had previously worked together in disaster recovery and work place recovery since 1997. 
+    - Spook was co-founded by Directors who had previously worked together in disaster recovery and work place recovery since 1996. 
     - Spook was created with the ethos that prevention is better than cure.
 
 - year: 2003
@@ -14,7 +14,7 @@
 
 - year: 2007
   color: '#BBDEFB'
-  link: /monitoring/power/
+  link: /monitoring/power
   header: Introduced power monitoring
   description:
     - The Spook Console application was expanded to include power monitoring of intelligent power strips.
@@ -68,6 +68,7 @@
 
 - year: 2020
   color: '#2196F3'
+  link: /solutions/technical/cellular-technology
   header: Specialist Technology Company of the Year
   description:
     - Spook wins the CIR Business Continuity Award for Specialist Technology Company of the Year.

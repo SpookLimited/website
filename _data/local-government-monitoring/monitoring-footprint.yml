@@ -71,6 +71,7 @@
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
     - name: Mains Power
+      link: /monitoring/power
       icon: /images/sensor/icons/power.svg
     - name: UPS Systems
       link: /monitoring/power/ups
@@ -101,6 +102,7 @@
     - name: Intruder Detection
       icon: /images/sensor/icons/motion.svg
     - name: Mains Power
+      link: /monitoring/power
       icon: /images/sensor/icons/power.svg
 
 - name: St Albans City & District Council
@@ -123,6 +125,7 @@
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
     - name: Mains Power
+      link: /monitoring/power
       icon: /images/sensor/icons/power.svg
     - name: UPS Systems
       link: /monitoring/power/ups
@@ -184,6 +187,7 @@
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
     - name: Mains Power
+      link: /monitoring/power
       icon: /images/sensor/icons/power.svg
     - name: Gas Fault
       icon: /images/sensor/icons/powder.svg

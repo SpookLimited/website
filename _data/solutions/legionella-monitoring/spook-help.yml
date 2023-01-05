@@ -1,0 +1,31 @@
+- name: Spook sensors
+  color: 125589
+  icon: /images/icons/signal.svg
+  paragraphs:
+    - The wireless sensors come pre-configured for a hassle free out-of-the-box solution. Simply install the sensors where you need them and switch them on.
+    - They are non-invasive and as they are wireless they can be installed quickly and easily in a variety of ways.
+  link:
+    url: /solutions/technical/wireless-technology
+    text: View sensor range
+
+- name: Spook alarm escalation
+  color: 2b94d6
+  icon: /images/icons/alarms.svg
+  paragraphs:
+    - OmniWatch collects sensor readings throughout the day and if OmniWatch detects any of the readings are outside of the preferred operating range an alarm is broadcasted via email, SMS and by Spook's UK call centre.
+  link:
+    url: /alerting
+    text: More about alerting
+
+- name: Spook dashboards
+  color: 3edad7
+  icon: /images/icons/remote-working.svg
+  paragraphs:
+    - Spook's Legionella monitoring bundle provides you with real-time secure dashboards so you can check the wireless sensor values on any internet enabled device 24/7.
+    - Ideal for monitoring remotely while you are on the move.
+
+- name: Trend data and online reports
+  color: aedadb
+  icon: /images/icons/report.svg
+  paragraphs:
+    - Sensor readings are kept in perpetuity allowing users to create online reports over a variety of time frames to prove their Legionella compliance responsibilities.

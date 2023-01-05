@@ -1,0 +1,189 @@
+- name: Bedford Borough Council
+  display: 0
+  logo: /images/customer-logo/bedford-borough-council.svg
+  background: /images/local-government-monitoring/bedford-banner.jpg
+  quote:
+    paragraphs:
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna neque, vulputate nec maximus sed, faucibus sit amet sapien. Vestibulum commodo malesuada leo, ac imperdiet enim. Sed aliquam posuere nisl, at congue leo viverra ut. Duis eleifend ornare nulla, et sollicitudin sem hendrerit hendrerit. Nullam ut euismod dolor.
+    by: Someone somewhere
+    tag: A cool and interesting tagline.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: iPDUs
+      link: /monitoring/power/pdu
+      icon: /images/sensor/icons/pdu-socket.svg
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+    - name: Power Metric Meter
+      link: /monitoring/power/energy-meters
+      icon: /images/sensor/icons/power.svg
+
+- name: Bournemouth Borough Council
+  display: 0
+  background: /images/local-government-monitoring/bournemouth-banner.jpg
+  logo: /images/customer-logo/bcp.svg
+  quote:
+    paragraphs:
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna neque, vulputate nec maximus sed, faucibus sit amet sapien. Vestibulum commodo malesuada leo, ac imperdiet enim. Sed aliquam posuere nisl, at congue leo viverra ut. Duis eleifend ornare nulla, et sollicitudin sem hendrerit hendrerit. Nullam ut euismod dolor.
+    by: Someone somewhere
+    tag: A cool and interesting tagline.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+
+- name: East Riding of Yorkshire Council
+  display: 1
+  background: /images/local-government-monitoring/east-riding-of-yorkshire-banner.jpg
+  logo: /images/customer-logo/east-riding-of-yorkshire-council.svg
+  quote:
+    paragraphs:
+      - We have used Spook remote monitoring for many years. During this time we have gone out to tender at renewal time and always come back to Spook for their professional solution called OmniWatch. During the latest renewal we agreed a technical refresh to wireless sensors. Spook provided the wireless sensor hardware and ethernet gateways pre-configured and ready to install for an easy out-of-the-box upgrade.
+      - Their service is excellent and we would recommend anyone looking for an easy to use yet functionally rich monitoring solution to consider OmniWatch.
+    by: East Riding of Yorkshire Council
+    tag: One of the UKs largest unitary authorities.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: Mains Power
+      icon: /images/sensor/icons/power.svg
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+
+- name: Sheffield City Council
+  display: 0
+  background: /images/local-government-monitoring/sheffield-banner.jpg
+  logo: /images/customer-logo/sheffield-city-council.svg
+  quote:
+    paragraphs:
+      - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam magna neque, vulputate nec maximus sed, faucibus sit amet sapien. Vestibulum commodo malesuada leo, ac imperdiet enim. Sed aliquam posuere nisl, at congue leo viverra ut. Duis eleifend ornare nulla, et sollicitudin sem hendrerit hendrerit. Nullam ut euismod dolor.
+    by: Someone somewhere
+    tag: A cool and interesting tagline.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: Intruder Detection
+      icon: /images/sensor/icons/motion.svg
+    - name: Mains Power
+      icon: /images/sensor/icons/power.svg
+
+- name: St Albans City & District Council
+  display: 1
+  background: /images/local-government-monitoring/st-albans-banner.jpg
+  logo: /images/customer-logo/st-albans-city-and-district-council.svg
+  quote:
+    paragraphs:
+      - We have used Spook to monitor our main server room in St Albans for many years. The server room is ‘lights out’ and only gets visited when work inside is required. We rely on Spook OmniWatch to remotely monitor the server rooms environment and UPS systems. OmniWatch alerts us to any changes that, if went unnoticed, could cause issues to the Councils online services. Our dealings with Spook have always been helpful and professional.
+    by: St Albans City & District Council
+    tag: A non-metropolitan district and city in Hertfordshire.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: Mains Power
+      icon: /images/sensor/icons/power.svg
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+    - name: Ping table
+      icon: /images/sensor/icons/frequency.svg
+
+- name: Stoke City Council
+  display: 1
+  background: /images/local-government-monitoring/stoke-banner.jpg
+  logo: /images/customer-logo/stoke-city-council.svg
+  quote:
+    paragraphs:
+      - Spook provides 24/7 remote monitoring to our data centres and ICT rooms across the Councils facilities. We monitor the environment and power provision to each location, down to individual rack iPDUs. We have subscribed to Spook OmniWatch for over a decade and value their professional service; their secure digital dashboards are particularly helpful in providing realtime views for every sensor. Spook have always provided a high quality service to our busy ICT department.
+    by: Stoke City Council
+    tag: A unitary authority, combining the non-metropolitan county and district council for Stoke-on-Trent, Staffordshire.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: Smoke Detection
+      icon: /images/sensor/icons/smoke.svg
+    - name: Generator Metrics
+      link: /monitoring/power/generator
+      icon: /images/sensor/icons/generator.svg
+    - name: iPDUs
+      link: /monitoring/power/pdu
+      icon: /images/sensor/icons/pdu-socket.svg
+
+- name: Swindon Borough Council
+  display: 1
+  background: /images/local-government-monitoring/swindon-banner.jpg
+  logo: /images/customer-logo/swindon-borough-council.svg
+  quote:
+    paragraphs:
+      - We have remotely monitored our main server room at the Civic Centre for many years with Spook. We added our Waterside server room at Swindon’s Waterside Park when we recently renewed the Spook service in order to extend monitoring to both locations. We know we will be contacted 24/7 for any serious issues that may occur in each of the locations which is perfect for our IT departments peace of mind.
+    by: Swindon Borough Council
+    tag: A unitary authority, combining the non-metropolitan county and district council of the Borough of Swindon in Wiltshire.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: Mains Power
+      icon: /images/sensor/icons/power.svg
+    - name: Gas Fault
+      icon: /images/sensor/icons/powder.svg

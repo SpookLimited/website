@@ -18,8 +18,8 @@
       link: /monitoring/environmental/dewpoint
       icon: /images/sensor/icons/dewpoint.svg
     - name: Fire Suppressant 
-      icon: /images/sensor/icons/fire.svg
       link: /monitoring/it-rooms-and-facilities
+      icon: /images/sensor/icons/fire.svg
     - name: Water Detection
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg

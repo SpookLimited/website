@@ -1,0 +1,28 @@
+- name: Air quality
+  image: /images/solutions/co2-monitoring/co2-monitoring-banner.jpg
+  blurb: Remote indoor monitoring to limit the spread of aerosol related viruses and increase staff productivity.
+  link:
+    url: monitoring/air-quality-and-co2
+    text: Read more
+
+- name: CO<sub>2</sub>
+  image: /images/monitoring/energy/energy-monitoring-banner-image.jpeg
+  blurb: Spook presents a range of intelligent and non-intrusive sensors for measuring and tracking levels of CO<sub>2</sub>.
+  link:
+    url: /monitoring/co2-monitoring
+    text: Read more
+
+- name: Legionella
+  image: /images/solutions/legionella-monitoring/legionella-pneumonia-banner.jpg
+  blurb: With Spook's Legionella monitoring bundle you are able to remotely monitor your Legionella risk quickly and easily 24/7.
+  link:
+    url: /solutions/technical/legionella-monitoring
+    text: Read more
+
+- name: Utility monitoring
+  image: /images/utility-monitoring/utility-monitoring-banner.jpg
+  blurb: OmniWatch empowers organisations data managers to accurately understand key consumption data across multi-platforms and equipment types.
+  link:
+    url: /monitoring/utility-monitoring
+    text: Read more
+

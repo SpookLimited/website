@@ -1,0 +1,129 @@
+- name: Alder Hey Children's NHS Foundation Trust
+  display: 1
+  logo: /images/customer-logo/alder-hey.svg
+  background: /images/nhs-remote-monitoring/nhs-banner-1.jpg
+  quote:
+    paragraphs:
+      - We use Spook to monitor the environment of 17 ICT rooms (MER and SER) spread across the Trust and also monitor 36 rack mounted UPS systems. Spook are independent of sensor manufacturers and were able to provide trial bundles of sensor types for us to test and identify a standard across the facility. We are confident Spook’s OmniWatch service provides a high quality early warning system for our busy ICT team 24/7.
+    by: Alder Hey Children's NHS Foundation Trust
+    tag:
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Fire Suppressant 
+      icon: /images/sensor/icons/fire.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+
+- name: The Clatterbridge Cancer Center NHS Foundation Trust
+  display: 0
+  logo: /images/customer-logo/clatterbridge.svg
+  background: /images/nhs-remote-monitoring/nhs-banner-2.jpg
+  quote:
+    paragraphs:
+      - words go here
+    by: The Clatterbridge Cancer Center NHS Foundation Trust
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Air Flow Detection 
+      icon: /images/sensor/icons/airflow.svg
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+    - name: Smart Sensors
+      icon: /images/icons/informationtechnology.svg
+
+- name: Liverpool Heart and Chest Hospital NHS Foundation Trust
+  display: 1
+  logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg
+  background: /images/nhs-remote-monitoring/nhs-banner-3.jpg
+  quote:
+    paragraphs:
+      - Spook provides remote monitoring for another local NHS Trust who we know very well. We approached Spook to provide a similar monitoring installation for us to use in our two MER and eleven SER locations. The sensor bundles arrived pre-configured and ready for us to install. Our ICT team are happy to know each room is protected by OmniWatch and that we will be given valuable early warnings to any critical changes using Spook’s 24/7 alarm escalation service. 
+    by: Liverpool Heart and Chest Hospital NHS Foundation Trust
+    tag:
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Fire Suppressant 
+      link: /monitoring/it-rooms-and-facilities
+      icon: /images/sensor/icons/fire.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+
+- name: Maidstone and Tunbridge Wells NHS Trust
+  display: 0
+  logo: /images/customer-logo/maidstone-tunbridge-wells-nhs.svg
+  background: /images/nhs-remote-monitoring/nhs-banner-4.jpg
+  quote:
+    paragraphs:
+      - sfdfdfd
+    by: Maidstone and Tunbridge Wells NHS Trust
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Fire Suppressant 
+      icon: /images/sensor/icons/fire.svg
+    - name: UPS Statuses 
+      icon: /images/sensor/icons/ups.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: iPDUs
+      link: /monitoring/power/pdu
+      icon: /images/sensor/icons/pdu-socket.svg
+
+- name: NHS Business Services Authority
+  display: 1
+  logo: /images/customer-logo/nhs-bsa.svg
+  background: /images/nhs-remote-monitoring/nhs-banner-5.jpg
+  quote:
+    paragraphs:
+      - We needed a remote monitoring service that did not require an on-premise PC and was independent of our network. Spook provided pre-configured cellular routers for each of our five data centers. The whole project was a simple plug-and-play solution with little or no involvement from us. 
+      - We were pleased on how Spook ran with the project as it was in December and we needed a service in place before year end. Once the cellular routers were powered up, we had instant access to our secure digital dashboards. We remain impressed with the ease of the whole process provided for by Spook.
+    by: NHS Business Services Authority
+    tag:
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+    - name: Fire Suppressant 
+      link: /monitoring/it-rooms-and-facilities
+      icon: /images/sensor/icons/fire.svg
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+    - name: Mains Power
+      link: /monitoring/power
+      icon: /images/sensor/icons/power.svg

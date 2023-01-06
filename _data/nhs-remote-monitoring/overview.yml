@@ -1,0 +1,11 @@
+- name: Out of the box
+  icon: /images/icons/logistics-hex.svg
+
+- name: Real-time monitoring
+  icon: /images/icons/monitor-all-hex.svg
+
+- name: 24/7 alerting
+  icon: /images/icons/alarms-hex.svg
+
+- name: Reporting
+  icon: /images/icons/report-hex.svg

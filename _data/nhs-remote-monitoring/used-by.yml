@@ -1,0 +1,14 @@
+- name: Alder Hey
+  logo: /images/customer-logo/alder-hey.svg
+
+- name: The Clatterbridge Cancer Centre
+  logo: /images/customer-logo/clatterbridge.svg
+
+- name: Liverpool Heart and Chest Hospital
+  logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg
+
+- name: Maidstone and Tunbridge Wells
+  logo: /images/customer-logo/maidstone-tunbridge-wells-nhs.svg
+
+- name: Business Services Authority
+  logo: /images/customer-logo/nhs-bsa.svg

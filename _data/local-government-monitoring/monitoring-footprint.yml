@@ -101,6 +101,7 @@
       icon: /images/sensor/icons/water.svg
     - name: Intruder Detection
       icon: /images/sensor/icons/motion.svg
+      link: /monitoring/it-rooms-and-facilities
     - name: Mains Power
       link: /monitoring/power
       icon: /images/sensor/icons/power.svg
@@ -156,6 +157,7 @@
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
     - name: Smoke Detection
+      link: /monitoring/it-rooms-and-facilities
       icon: /images/sensor/icons/smoke.svg
     - name: Generator Metrics
       link: /monitoring/power/generator
@@ -189,5 +191,6 @@
     - name: Mains Power
       link: /monitoring/power
       icon: /images/sensor/icons/power.svg
-    - name: Gas Fault
+    - name: Smoke Detection
+      link: /monitoring/it-rooms-and-facilities
       icon: /images/sensor/icons/powder.svg

@@ -1,0 +1,20 @@
+<div class="quote-block grey is-stack-20">
+  <span>"</span>
+  {% for paragraph in client.quote.paragraphs %}
+    <p>{{ paragraph }}</p>
+  {% endfor %}
+  <div class="is-text-right">
+    <img style="height: 100px;" src="{{ client.logo }}">
+    <p class="is-small"><b>{{ client.quote.by }}</b><br>{{ item.quote.tag }}.</p>
+  </div>
+</div>
+{% for device in client.devices %}
+  <div class="is-border is-shadow-2 is-inset-20 is-stack-8" style="background-color: #{{ device.color }}">
+    <a style="text-decoration: none;" href="{{ device.link }}">
+      <div class="is-container-row is-items-middle">
+        <img style="width: 40px;" src="{{ device.icon }}">
+        <h5 style="margin-top: 10px; margin-left: 10px; color: #333; text-decoration: none !important;"><b>{{ device.name }}</b></h5>
+      </div>
+    </a>
+  </div>
+{% endfor %}

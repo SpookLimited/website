@@ -1,5 +1,4 @@
 - name: Alder Hey Children's NHS Foundation Trust
-  display: 1
   logo: /images/customer-logo/alder-hey.svg
   background: /images/nhs-remote-monitoring/nhs-banner-1.jpg
   quote:
@@ -11,44 +10,29 @@
     - name: Temperature
       link: /monitoring/environmental/temperature
       icon: /images/sensor/icons/temperature.svg
+      color: E57373
     - name: Humidity
       link: /monitoring/environmental/humidity
       icon: /images/sensor/icons/humidity.svg
+      color: FFA726
     - name: Dew Point
       link: /monitoring/environmental/dewpoint
       icon: /images/sensor/icons/dewpoint.svg
+      color: FFCA28
     - name: Fire Suppressant 
       link: /monitoring/it-rooms-and-facilities
       icon: /images/sensor/icons/fire.svg
+      color: FFEE58
     - name: Water Detection
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
+      color: 9CCC65
     - name: UPS Systems
       link: /monitoring/power/ups
       icon: /images/sensor/icons/ups.svg
-
-- name: The Clatterbridge Cancer Center NHS Foundation Trust
-  display: 0
-  logo: /images/customer-logo/clatterbridge.svg
-  background: /images/nhs-remote-monitoring/nhs-banner-2.jpg
-  quote:
-    paragraphs:
-      - words go here
-    by: The Clatterbridge Cancer Center NHS Foundation Trust
-  devices:
-    - name: Temperature
-      link: /monitoring/environmental/temperature
-      icon: /images/sensor/icons/temperature.svg
-    - name: Air Flow Detection 
-      icon: /images/sensor/icons/airflow.svg
-    - name: UPS Systems
-      link: /monitoring/power/ups
-      icon: /images/sensor/icons/ups.svg
-    - name: Smart Sensors
-      icon: /images/icons/informationtechnology.svg
+      color: 26A69A
 
 - name: Liverpool Heart and Chest Hospital NHS Foundation Trust
-  display: 1
   logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg
   background: /images/nhs-remote-monitoring/nhs-banner-3.jpg
   quote:
@@ -60,48 +44,29 @@
     - name: Temperature
       link: /monitoring/environmental/temperature
       icon: /images/sensor/icons/temperature.svg
+      color: E57373
     - name: Humidity
       link: /monitoring/environmental/humidity
       icon: /images/sensor/icons/humidity.svg
+      color: FFA726
     - name: Dew Point
       link: /monitoring/environmental/dewpoint
       icon: /images/sensor/icons/dewpoint.svg
+      color: FFCA28
     - name: Fire Suppressant 
       link: /monitoring/it-rooms-and-facilities
       icon: /images/sensor/icons/fire.svg
+      color: FFEE58
     - name: Water Detection
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
+      color: 9CCC65
     - name: UPS Systems
       link: /monitoring/power/ups
       icon: /images/sensor/icons/ups.svg
-
-- name: Maidstone and Tunbridge Wells NHS Trust
-  display: 0
-  logo: /images/customer-logo/maidstone-tunbridge-wells-nhs.svg
-  background: /images/nhs-remote-monitoring/nhs-banner-4.jpg
-  quote:
-    paragraphs:
-      - sfdfdfd
-    by: Maidstone and Tunbridge Wells NHS Trust
-  devices:
-    - name: Temperature
-      link: /monitoring/environmental/temperature
-      icon: /images/sensor/icons/temperature.svg
-    - name: Fire Suppressant 
-      link: /monitoring/it-rooms-and-facilities
-      icon: /images/sensor/icons/fire.svg
-    - name: UPS Statuses 
-      icon: /images/sensor/icons/ups.svg
-    - name: Water Detection
-      link: /monitoring/environmental/water
-      icon: /images/sensor/icons/water.svg
-    - name: iPDUs
-      link: /monitoring/power/pdu
-      icon: /images/sensor/icons/pdu-socket.svg
+      color: 26A69A
 
 - name: NHS Business Services Authority
-  display: 1
   logo: /images/customer-logo/nhs-bsa.svg
   background: /images/nhs-remote-monitoring/nhs-banner-5.jpg
   quote:
@@ -114,18 +79,24 @@
     - name: Temperature
       link: /monitoring/environmental/temperature
       icon: /images/sensor/icons/temperature.svg
+      color: E57373
     - name: Humidity
       link: /monitoring/environmental/humidity
       icon: /images/sensor/icons/humidity.svg
+      color: FFA726
     - name: Dew Point
       link: /monitoring/environmental/dewpoint
       icon: /images/sensor/icons/dewpoint.svg
+      color: FFCA28
     - name: Fire Suppressant 
       link: /monitoring/it-rooms-and-facilities
       icon: /images/sensor/icons/fire.svg
+      color: FFEE58
     - name: Water Detection
       link: /monitoring/environmental/water
       icon: /images/sensor/icons/water.svg
+      color: 9CCC65
     - name: Mains Power
       link: /monitoring/power
       icon: /images/sensor/icons/power.svg
+      color: 26A69A

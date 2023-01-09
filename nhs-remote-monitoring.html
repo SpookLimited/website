@@ -127,10 +127,15 @@ page-description: Get in touch with Spook to discuss how we can help with your a
   }
 }
 </style>
-<div class="slide-viewer is-stack-20">
+<section class="is-shown-mobile">
+  <div class="container">
+    {% assign client = site.data.nhs-remote-monitoring.monitoring-footprint[0] %}
+    {% include quote-box.html %}
+  </div>
+</section>
+<div class="slide-viewer is-stack-20 is-hidden-mobile">
   <div class="slide-group">
     {% for item in site.data.nhs-remote-monitoring.monitoring-footprint %}
-      {% if item.display == 1 %}
       <div class="slide" style="background-image: url('{{ item.background }}');">
         <div class="container">
           <div class="is-row is-reverse-mobile" style="margin-top: 120px;">
@@ -163,11 +168,10 @@ page-description: Get in touch with Spook to discuss how we can help with your a
           </div>
         </div>
       </div>
-      {% endif %}
     {% endfor %}
   </div>
 </div>
-<div class="slide-buttons is-text-center"></div>
+<div class="slide-buttons is-text-center is-hidden-mobile"></div>
 <script src="/js/jquery.min.js"></script>
 <script>
   $('.slide-viewer').each(function() {
@@ -253,9 +257,15 @@ page-description: Get in touch with Spook to discuss how we can help with your a
         </div>
       </div>
       <div class="is-col is-60">
-        <img src="/images/nhs-remote-monitoring/omniwatch-metric-view2.png">
+        <img src="/images/nhs-remote-monitoring/omniwatch-metric-view.png">
       </div>
     </div>
+  </div>
+</section>
+<section class="is-shown-mobile">
+  <div class="container">
+    {% assign client = site.data.nhs-remote-monitoring.monitoring-footprint[1] %}
+    {% include quote-box.html %}
   </div>
 </section>
 <section>
@@ -287,6 +297,12 @@ page-description: Get in touch with Spook to discuss how we can help with your a
         </div>
       {% endfor %}
     </div>
+  </div>
+</section>
+<section class="is-shown-mobile">
+  <div class="container">
+    {% assign client = site.data.nhs-remote-monitoring.monitoring-footprint[2] %}
+    {% include quote-box.html %}
   </div>
 </section>
 <section class="grey">

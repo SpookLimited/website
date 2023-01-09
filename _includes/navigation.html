@@ -79,8 +79,15 @@
           </ul>
         </div>
         <li><a class="mobile-link" href="/solutions">Solutions</a></li>
-        <!--<li><a class="mobile-link" href="/nhs-remote-monitoring">NHS</a></li>-->
-        <li><a class="mobile-link" href="/customers">Customers</a></li>
+        <li><a class="mobile-link" data-kube="toggle" data-target="#customer-toggle">Customers <span
+              class="caret is-down"></span></a></li>
+        <div id="customer-toggle" class="is-hidden">
+          <ul>
+            <li><a class="mobile-link" href="/customers">Overview</a></li>
+            <li><a class="mobile-link" href="/nhs-remote-monitoring">NHS</a></li>
+            <li><a class="mobile-link" href="/local-government-monitoring">Local government</a></li>
+          </ul>
+        </div>
         <li><a class="mobile-link" href="/blog">Blog</a></li>
         <li><a class="mobile-link" href="/about">About</a></li>
         <li><a class="mobile-link" href="/contact">Contact</a></li>

@@ -118,53 +118,23 @@ page-description: Get in touch with Spook to discuss how we can help with your a
   border: 5px solid #333;
 }
 
+@media only screen and (max-width: 600px) {
+  .is-reverse-mobile{
+    flex-direction: column-reverse !important;
+  }
+
+  .device-line > div{
+    border: 2px solid #333;
+  }
+}
 </style>
-<!--
-<header class="gov-banner is-stack-20">
-  <div class="container">
-    <div class="is-50">
-      <img src="/images/omniwatch-logo.svg">
-      <h1>Local government remote monitoring</h1>
-      <p class="is-big">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam a sollicitudin mi. Cras sit amet viverra ex, quis placerat orci.</p>
-      <p class="is-big"><a href="/contact/" class="button">Get in touch <span class="caret is-right"></span></a></p>
-    </div>
-  </div>
-</header>
-<div class="container is-text-center">
-  <h5>Used by</h5>
-  <div class="is-row is-items-middle">
-    {% for customer in site.data.local-government-monitoring.used-by %}
-      <div class="is-col">
-        <div class="is-inset-20">
-          <img src="{{ customer.logo }}" alt="{{ customer.name }}">
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
--->
 <div class="slide-viewer is-stack-20">
   <div class="slide-group">
     {% for item in site.data.local-government-monitoring.monitoring-footprint %}
       {% if item.display == 1 %}
       <div class="slide" style="background-image: url('{{ item.background }}');">
         <div class="container">
-          <div class="is-row" style="margin-top: 120px;">
-            <!--
-            <div class="is-col is-40 white is-inset-20">
-              <div class="slide-logo" style="background-image: url('{{ item.logo }}');"></div>
-              <div class="is-row">
-                {% for device in item.devices %}
-                  <div class="is-col is-33 is-text-center">
-                    <a class="footprint-icon" href="{{ device.link }}">
-                      <div style="background-image: url('{{ device.icon }}');"></div>
-                      <p class="is-small">{{ device.name }}</p>
-                    </a>
-                  </div>
-                {% endfor %}
-              </div>
-            </div>
-            -->
+          <div class="is-row is-reverse-mobile" style="margin-top: 120px;">
             <div class="is-col is-40">
               {% for device in item.devices %}
               <a class="device-line" href="{{ device.link }}" style="text-decoration: none;">
@@ -179,7 +149,7 @@ page-description: Get in touch with Spook to discuss how we can help with your a
               </a>
               {% endfor %}
             </div>
-            <div class="is-col is-60">
+            <div class="is-col is-60 is-stack-20-mobile">
               <div class="quote-block grey">
                 <span>"</span>
                 {% for paragraph in item.quote.paragraphs %}

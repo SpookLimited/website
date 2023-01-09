@@ -117,7 +117,15 @@ page-description: Get in touch with Spook to discuss how we can help with your a
   border: 5px solid #333;
 }
 
+@media only screen and (max-width: 600px) {
+  .is-reverse-mobile{
+    flex-direction: column-reverse !important;
+  }
 
+  .device-line > div{
+    border: 2px solid #333;
+  }
+}
 </style>
 <div class="slide-viewer is-stack-20">
   <div class="slide-group">
@@ -125,7 +133,7 @@ page-description: Get in touch with Spook to discuss how we can help with your a
       {% if item.display == 1 %}
       <div class="slide" style="background-image: url('{{ item.background }}');">
         <div class="container">
-          <div class="is-row" style="margin-top: 120px;">
+          <div class="is-row is-reverse-mobile" style="margin-top: 120px;">
             <div class="is-col is-40">
               {% for device in item.devices %}
               <a class="device-line" href="{{ device.link }}" style="text-decoration: none;">
@@ -140,7 +148,7 @@ page-description: Get in touch with Spook to discuss how we can help with your a
               </a>
               {% endfor %}
             </div>
-            <div class="is-col is-60">
+            <div class="is-col is-60 is-stack-20-mobile">
               <div class="quote-block grey">
                 <span>"</span>
                 {% for paragraph in item.quote.paragraphs %}

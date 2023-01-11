@@ -31,6 +31,10 @@
       link: /monitoring/power/ups
       icon: /images/sensor/icons/ups.svg
       color: 26A69A
+    - name: Ping table
+      link: /solutions/technical/ping-table
+      icon: /images/sensor/icons/frequency.svg
+      color: 26C6DA
 
 - name: Liverpool Heart and Chest Hospital NHS Foundation Trust
   logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg

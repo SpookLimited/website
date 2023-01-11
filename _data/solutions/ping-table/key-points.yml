@@ -1,0 +1,24 @@
+- name: Easy setup
+  image: /images/solutions/ping-table/infrastructure.svg
+  color: 125589
+  paragraphs:
+    - Monitor key assets and vital infrastructure by implementing ping alerts within OmniWatch. Be contacted at the first sign of an issue before it becomes a problem.
+    - Rotas for emergency personnel, key members of staff or departmental contact are configured within OmniWatch to ensure swift notification of alerts 24/7.
+
+- name: Custom sensors
+  image: /images/solutions/ping-table/finetune.svg
+  color: 2b94d6
+  paragraphs:
+    - Each ping sensor can be customised with their own variable alarm setting. This is perfect for determining the invocation threshold of an alert. Low thresholds can be set for highly sensitive assets whereas high thresholds may be more appropriate for routine equipment. If the pinged IP address is reached before the alarm threshold is met the sensor resets ready for its next poll. This prevents nuisance alerts being broadcast and stops alarm fatigue.
+
+- name: Critical/non-critical sensors
+  image: /images/solutions/ping-table/critical.svg
+  color: 3edad7
+  paragraphs:
+    - Ping sensors can be configured to either email only (non-critical), for information purposes; or set to a critical status which ensures the alarm invokes Spook's 3-tier alarm escalation process where notifications are sent to on-call staff via email, SMS and Spook's UK call centre.
+
+- name: Direct access
+  image: /images/solutions/ping-table/linked.svg
+  color: aedadb
+  paragraphs:
+    - Each ping sensors IP address or relevant friendly name is directly linked to its individual web interface. This provides swift access to each monitored item for hassle free on-board management. 

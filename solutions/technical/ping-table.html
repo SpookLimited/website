@@ -1,0 +1,70 @@
+---
+layout: base
+title: Ping table
+page-description: Spook have designed ping tables to focus on key assets and ensure they are reachable 24/7. Should any be unavailable, alarms are invoked and handled by Spook's 24/7 real-time 3-tier alarm handling process. 
+---
+<header
+  style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/solutions/ping-table/ping-table-banner.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+  <div class="container black-text">
+    <div class="is-50 is-border is-shadow-2 white is-inset-20" style="border: 5px solid #125589;">
+      <h3>Technical</h3>
+      <h1>Spook ping tables</h1>
+      <p class="is-large">A robust solution to ensuring key assets are reachable 24/7.</p>
+    </div>
+  </div>
+</header>
+<section class="hero-block">
+  <div class="container">
+    <h2>Introduction to Spook ping tables</h2>
+    <p>Spook have designed ping tables to focus on key assets and ensure they are reachable 24/7. Should any be unavailable, alarms are invoked and handled by Spook's <a style="color: #fff;" href="/alerting">24/7 real-time 3-tier alarm handling process</a>.</p>
+    <p>Other network tools can prove too complex and often present alarm fatigue whereby alerts are ignored simply because they are monitoring far too many network points or are being sent to too many users.</p>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row">
+      <div class="is-col">
+        <div class="quote-block grey is-stack-20">
+          <span>"</span>
+          <p>We use OmniWatch’s Ping Tables to monitor key IT assets and ensure they can be reached. Spook's alarm escalation process ensures we are kept informed of any lost connections for the most important equipment we have on our network.</p>
+          <div class="is-text-right">
+            <img style="height: 100px;" src="/images/customer-logo/gordons-box.svg">
+            <p class="is-small"><b>Gordons LLP</b><br>One of the most successful law firms in the North of England.</p>
+          </div>
+        </div>
+      </div>
+      <div class="is-col">
+        <div class="quote-block grey is-stack-20">
+          <span>"</span>
+          <p>Our ICT department does use other network monitoring tools but we rely on OmniWatch’s Ping Tables to monitor primary devices within our MER and SER rooms. We confine Spook IP alarms to assets that are key to delivering IT services 24/7 to the Hospital.</p>
+          <div class="is-text-right">
+            <img style="height: 100px;" src="/images/customer-logo/alder-hey.svg">
+            <p class="is-small"><b>Alder Hey Children's NHS Foundation Trust</b><br>The world's first hospital built in a park.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container"><hr></div>
+<section>
+  <div class="container">
+    <div class="is-row">
+      {% for item in site.data.solutions.ping-table.key-points %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img icon" style="background-image: url('{{ item.image }}'); background-color: #{{ item.color }};"></div>
+            <div class="card-content">
+              <h3>{{ item.name }}</h3>
+              {% for paragraph in item.paragraphs %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include used-by.html %}
+{% include contact-us.html %}

@@ -59,6 +59,7 @@
       icon: /images/sensor/icons/ups.svg
       color: 9CCC65
     - name: Ping table
+      link: /solutions/technical/ping-table
       icon: /images/sensor/icons/frequency.svg
       color: 26A69A
 

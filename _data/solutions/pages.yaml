@@ -24,6 +24,6 @@
   image: /images/solutions/legionella-monitoring/legionella-pneumonia-banner.jpg
 
 - name: Spook ping tables
-  blurb: Spook have designed ping tables to focus on key assets and ensure they are reachable 24/7. Should any be unreachable, alarms are invoked and handled by Spook’s 24/7 real-time 3-tier alarm handling process.
+  blurb: Spook have designed ping tables to focus on key assets and ensure they are reachable 24/7. Should any be unavailable, alarms are invoked and handled by Spook’s 24/7 real-time 3-tier alarm handling process.
   link: /solutions/technical/ping-table
   image: /images/solutions/ping-table/ping-table-banner.jpg

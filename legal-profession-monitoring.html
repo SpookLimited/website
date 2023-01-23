@@ -1,0 +1,230 @@
+---
+layout: base
+title: Legal profession remote monitoring
+page-description: Get in touch with Spook to discuss how we can help with your air quality, CO2, IT rooms and facilities monitoring needs.
+---
+<style>
+.overview-icon{
+  margin-bottom: 30px;
+}
+
+.overview-icon > img{
+  height: 80px;
+  margin-bottom: 8px;
+}
+
+
+.legal-profession-contact{
+  background-color: #FFD54F;
+}
+
+.legal-profession-contact > div > h4{
+  font-size: 2em;
+}
+
+.legal-profession-contact > div > h4, .legal-profession-contact > div > form > div > label, .legal-profession-contact > div > form > div > div > div > label{
+  color: #fff;
+}
+
+.legal-profession-contact > div > form > .button{
+  border-color: #fff;
+  color: #fff;
+}
+
+.footprint-icon{
+  text-decoration: none;
+}
+
+.footprint-icon > div{
+  display: block;
+  margin: 0 auto;
+  width: 60px;
+  height: 60px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footprint-icon > p{
+  color: #333;
+  text-decoration: none !important;
+}
+
+.device-line > div:hover{
+  border: 5px solid #333;
+}
+
+@media only screen and (max-width: 600px) {
+  .is-reverse-mobile{
+    flex-direction: column-reverse !important;
+  }
+
+  .device-line > div{
+    border: 2px solid #333;
+  }
+}
+</style>
+{% assign client = site.data.legal-profession.monitoring-footprint[0] %}
+<section style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('{{ client.background }}'); background-position: center; background-repeat: no-repeat; background-size: cover; color: #fff; background-attachment: fixed;">
+  <div class="container">
+    <div class="is-50">
+      <h1>Secure remote monitoring for legal firms</h1>
+      <p class="is-big">Used and valued by The University of Law</p>
+      <p class="is-big"><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+        {% for device in client.devices %}
+          <div class="is-border is-shadow-2 is-inset-20 is-stack-8" style="background-color: #{{ device.color }}">
+            <a style="text-decoration: none;" href="{{ device.link }}">
+              <div class="is-container-row is-items-middle">
+                <img style="width: 40px;" src="{{ device.icon }}">
+                <h5 style="font-size: 1.2em; margin-left: 10px; color: #333; text-decoration: none !important;"><b>{{ device.name }}</b></h5>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="is-col is-60">
+        <div class="quote-block grey">
+          <span>"</span>
+          {% for paragraph in client.quote.paragraphs %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+          <div class="is-text-right">
+            <img style="height: 100px;" src="{{ client.logo }}">
+            <p><b>{{ client.quote.by }}</b><br>{{ client.quote.tag }}.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-40">
+        <div class="is-stack-40">
+          <h2>Award winning remote monitoring specialists</h2>
+          <p>OmniWatch is Spook's remote monitoring software solution. Designed to be the central repository for all things monitored; OmniWatch is the first choice of monitoring the broadest range of sensors and equipment types for The Univeristy of Law.</p>
+        </div>
+        <div class="is-row">
+          {% for item in site.data.legal-profession.overview %}
+            <div class="is-col is-text-center">
+              <div class="overview-icon">
+                <img src="{{ item.icon }}">
+                <p>{{ item.name }}</p>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="is-col is-60">
+        <img src="/images/legal-profession/omniwatch-metric-view.png">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-stack-40">
+      <div class="is-col is-60 is-20 is-stack-20-mobile">
+        <h3>OmniWatch is an all-in-one monitoring and alerting solution</h3>
+        <p>Secure remote cloud based monitoring for all things IT and facilities related.</p>
+        <p>Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it before it causes service disruption.</p>
+        <p>Complimentary sensors can be instrumental in an organisation becoming self-aware of any instances that could cause unplanned downtime and also be helpful in increasing employee productivity.</p>
+        <a href="/monitoring/it-rooms-and-facilities" class="button">Read more <span class="caret is-right"></span></a>
+      </div>
+      <div class="is-col is-40 is-text-center is-inset-20 is-border is-shadow-2" style="border-color: #6a87da; border-width: 5px;">
+        <img src="/images/icons/award.svg">
+        <p class="is-small">Spook and OmniWatch was voted <strong>Specialist Technology Company of the Year</strong> and <strong>Most Innovative Solution of the Year</strong> at the annual UK CIR Business Continuity Awards.</p>
+      </div>
+    </div>
+    <div class="is-row">
+      {% for item in site.data.legal-profession.key-points %}
+        <div class="is-col is-40 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img" style="background-image: url('{{ item.image }}');"></div>
+            <div class="card-content">
+              <div class="is-container is-items-middle is-stack-20">
+                <img style="width: 40px; margin-right: 8px;" src="{{ item.icon }}">
+                <h3>{{ item.name }}</h3>
+              </div>
+              {% for paragraph in item.words %}
+                <p>{{ paragraph }}</p>
+              {% endfor %}
+            </div>
+            <div class="card-footer">
+              <a href="{{ item.link.url }}" class="button is-secondary">{{ item.link.text }} <span class="caret is-right"></span></a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="grey">
+  <div class="container">
+    <div class="is-stack-40">
+      <h3>Additional monitoring</h3>
+    </div>
+    <div class="is-row">
+      {% for item in site.data.legal-profession.lower-points %}
+        <div class="is-col is-50 is-stack-40">
+          <div class="card is-border is-shadow-2">
+            <div class="card-img" style="background-image: url('{{ item.image }}');"></div>
+            <div class="card-content is-stack-20">
+              <h4>{{ item.name }}</h4>
+              <p>{{ item.blurb }}</p>
+            </div>
+            <div class="card-footer">
+              <a href="{{ item.link.url }}" class="button">{{ item.link.text }}</a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="legal-profession-contact">
+  <div class="container">
+    <h4>Get in contact</h4>
+   <form class="is-inset-top-20" action="https://formspree.io/f/mqkwegpd" method="POST">
+			<div class="form-item">
+				<label><strong>Name <span class="is-req">*</span></strong></label>
+				<input type="text" name="name" required="">
+			</div>
+			<div class="form-item">
+				<label><strong>Email <span class="is-req">*</span></strong></label>
+				<input type="email" name="email" required="">
+			</div>
+			<div class="form-item">
+				<label><strong>Organisation</strong></label>
+				<input type="text" name="organisation">
+			</div>
+			<div class="form-item">
+				<label><strong>Phone number</strong></label>
+				<input type="text" name="phone">
+			</div>
+			<div class="form-item">
+				<label><strong>Message <span class="is-req">*</span></strong></label>
+				<textarea rows="8" name="message" required=""></textarea>
+			</div>
+			<div class="form-item">
+				<div class="is-container-row">
+					<div style="margin-right: 10px;">
+						<input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required="">
+					</div>
+					<div>
+						<label for="terms-and-conditions"><span class="is-req">*</span> I accept the <a href="/policies#terms-and-conditions">terms of use</a> and <a href="/policies#privacy-policy">privacy policy</a>.</label>
+					</div>
+				</div>
+			</div>
+			<button class="button is-secondary is-100 is-big">Send</button>
+		</form> 
+  </div>
+</section>

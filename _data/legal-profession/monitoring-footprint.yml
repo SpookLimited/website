@@ -1,0 +1,42 @@
+- name: University of Law
+  logo: /images/customer-logo/university-of-law.svg
+  background: /images/legal-profession/university-of-law-guildford.png
+  quote:
+    paragraphs:
+      - The University of Law uses Spook remote monitoring across 10 Global Server Rooms. We monitor each server rooms environment and have interfaced OmniWatch to our main BMS system in our Guildford data centre.
+      - We also benefit from monitoring UPS battery health and power metrics across the estate, with specific escalation points per site to regional staff.
+      - Apart from being a fantastic reporting tool Omniwatch has become our remote eyes and now forms part of the daily operational procedure. Their <a href="/alerting">3-tier alerting procedure</a> is so accurate that it is now even used to report on network outages.
+      - We have found dealing with Spook to be easy and professional at all times.
+    by: University of Law
+    tag: The largest and oldest law school in the UK.
+  devices:
+    - name: Temperature
+      link: /monitoring/environmental/temperature
+      icon: /images/sensor/icons/temperature.svg
+      color: E57373
+    - name: Humidity
+      link: /monitoring/environmental/humidity
+      icon: /images/sensor/icons/humidity.svg
+      color: FFA726
+    - name: Dew Point
+      link: /monitoring/environmental/dewpoint
+      icon: /images/sensor/icons/dewpoint.svg
+      color: FFCA28
+    - name: Building Management Systems
+      link: /monitoring/it-rooms-and-facilities
+      icon: /images/sensor/icons/bms-icon.svg
+      color: FFEE58
+    - name: iPDUs
+      link: /monitoring/power/pdu
+      icon: /images/sensor/icons/pdu-socket.svg
+      color: 9CCC65
+    - name: UPS Systems
+      link: /monitoring/power/ups
+      icon: /images/sensor/icons/ups.svg
+      color: 26A69A
+    - name: Water Detection
+      link: /monitoring/environmental/water
+      icon: /images/sensor/icons/water.svg
+      color: 26C6DA
+
+    

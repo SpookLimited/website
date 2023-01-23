@@ -1,0 +1,18 @@
+- name: Environmental
+  icon: /images/icons/climate.svg
+  image: /images/local-government-monitoring/environmental-banner.jpg
+  words:
+    - Remotely monitoring key environmental conditions including temperature, humidity, dew point, water ingress, light levels and airflow.
+  link:
+    url: /monitoring/environmental
+    text: Read more
+
+- name: Power
+  icon: /images/icons/peak-load.svg
+  image: /images/local-government-monitoring/power-banner.jpg
+  words:
+    - Remotely monitoring key power assets including energy meters, uninterruptible power supplies (UPS), intelligent power distribution units (iPDUs) and diesel generators.
+  link:
+    url: /monitoring/power
+    text: Read more
+

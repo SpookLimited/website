@@ -93,3 +93,22 @@
   header: Public utility monitoring service
   description:
     - OmniWatch introduces its public utility monitoring service, empowering energy managers to achieve energy efficiency and lower energy costs.
+
+- year: 2023
+  color: '#1E88E5'
+  header: OmniWatch support for NB-IoT LTE sensors 
+  description:
+    - Remote monitoring for NB-IoT indoor sensors. A range of sensors with onboard SIMS (no gateways required). 
+
+- year: 2023
+  color: '#1E88E5'
+  header: OmniWatch SIM based SmartPlug support 
+  description:
+    - Remote monitoring for incoming socket power; remote on/off/reboot functionality.
+
+- year: 2023
+  color: '#1E88E5'
+  header: OmniWatch LoRaWAN PowerPlug /Power Meter support
+  description:
+    - Remote monitoring for power sockets. Power socket remote management and power meter readings for sustainability and green initiatives.
+

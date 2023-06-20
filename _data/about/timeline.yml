@@ -108,7 +108,7 @@
 
 - year: 2023
   color: '#1E88E5'
-  header: OmniWatch LoRaWAN PowerPlug /Power Meter support
+  header: OmniWatch LoRaWAN PowerPlug/Power Meter support
   description:
     - Remote monitoring for power sockets. Power socket remote management and power meter readings for sustainability and green initiatives.
 

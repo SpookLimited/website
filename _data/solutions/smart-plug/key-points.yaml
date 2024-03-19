@@ -1,0 +1,24 @@
+- name: Worldwide
+  icon: /images/icons/climate.svg
+  color: '#92a9ea'
+  blurb: Supports UK, EU and US plug types. Accessed via any secure internet connection. 
+
+- name: Secure
+  icon: /images/icons/building2.svg
+  color: '#6a88da'
+  blurb: SIM based and only accessible via authorised OmniWatch users. 
+
+- name: Preconfigured
+  icon: /images/icons/logistics.svg
+  color: '#2c4fb1'
+  blurb: Delivered fully configured and OmniWatch ready including SIM setup. 
+
+- name: Rapid ROI
+  icon: /images/icons/wealth.svg
+  color: '#496bc7'
+  blurb: Saves time and money from unnecessary site visits. Most issues resolved by remote reboot.
+
+- name: Intuitive
+  icon: /images/icons/remote-working.svg
+  color: '#6a88da'
+  blurb: No formal training required. Simple command buttons for power on, power off and power cycle.

@@ -1,3 +1,8 @@
+- name: Smart plug
+  blurb: OmniWatch remote power control and real-time power loss alerts. 
+  link: /solutions/technical/smart-plug
+  image: /images/solutions/smart-plug/smartplug.jpg
+
 - name: Cellular technology
   blurb: Cellular technology is improving quickly and being adopted as a reliable communications solution within many industries.
   link: /solutions/technical/cellular-technology

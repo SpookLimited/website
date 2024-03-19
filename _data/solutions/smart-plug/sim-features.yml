@@ -1,0 +1,11 @@
+- name: Low signal support
+  description: Communication through SMS means there is no reliance on data plans or internet conectivity.
+  icon: /images/icons/cellular.svg
+
+- name: Network support
+  description: The Smart Plug is compatible with the majority of mobile network providers including Vodafone, EE and O2.
+  icon: /images/solutions/smart-plug/operators-line.svg
+
+- name: Price included
+  description: SIM usage charges are already included in Spook's pricing model. No hidden suprises.
+  icon: /images/icons/simcard.svg

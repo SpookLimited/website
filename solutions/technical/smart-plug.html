@@ -1,0 +1,197 @@
+---
+layout: base
+title: Smart plug
+page-description: "Spook SmartPlugs are SIM based remote power control switches that are fully operated and controlled
+using Spook's award wining remote monitoring service OmniWatch."
+---
+<style>
+.bar-text{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 10px 20px;
+}
+</style>
+<header
+  style="background-image: url('/images/solutions/smart-plug/locations.svg'); background-size: cover; background-position: right;">
+  <div class="container">
+    <div class="is-container-row is-60">
+      <div>
+        <img class="is-stack-60-mobile" style="max-height: 800px; display: block; margin: 0 auto;" alt="Spook Smart Plug" src="/images/solutions/smart-plug/plug.png">
+      </div>
+      <div class="is-color-black is-inset-20" style="margin-left: 40px; background-color: #fff; border: 5px solid #125589;">
+        <h3>Technical</h3>
+        <h1 style="font-size: 3.6em; font-weight: bold;">Spook SmartPlug</h1>
+        <h2>SIM based remote power control</h2>
+        <h3>Real-time alerts<br>Remote power commands</h3>
+        <p class="is-big">Perfect for:</p>
+        <ul>
+          <li>Multiple locations</li>
+          <li>Secure buildings, rooms and zones</li>
+          <li>Hard to reach areas</li>
+          <li>Duty cycle power management</li>
+        </ul>
+        <p class="is-text-center"><a href="/contact" class="button">Get in touch <span class="caret is-right"></span></a></p>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="black">
+  <div class="container">
+    <ul class="is-bar is-text-center" style="color: #757575; font-size: 1.6em;">
+      <li class="bar-text">Power OK</li>
+      <li class="bar-text">|</li>
+      <li class="bar-text">Power Off</li>
+      <li class="bar-text">|</li>
+      <li class="bar-text">Power On</li>
+      <li class="bar-text">|</li>
+      <li class="bar-text">Power cycle</li>
+    </ul>
+  </div>
+</div>
+<section class="grey">
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-60">
+      <div class="is-col">
+        <img class="is-stack-60-mobile" style="max-height: 500px; display: block; margin: 0 auto; border-radius: 20px;" alt="Spook Smart Plug" src="/images/solutions/smart-plug/smartplug.jpg">
+      </div>
+      <div class="is-col">
+        <h2>Power outage alerts</h2>
+        <p class="is-big">Spook Smart Plug lets you know the status of incoming power to any socket.<p>
+        <p class="is-big">With instant power loss alerts, you and your staff are contacted immediately by invoking Spook's award winning 3 tier remote alarm escalation process.</p>
+        <p class="is-big"><b>Email | SMS | UK call centre | <a href="/alerting">Find out more <span class="caret is-right"></span></a></b></p>
+        <p class="is-big">Instant notification of power loss lets you know there is a potential problem before it turns into a disaster.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container is-stack-60">
+    <div class="is-row is-text-center is-stack-60">
+      {% for item in site.data.solutions.smart-plug.key-points %}
+        <div class="is-col is-33">
+          <div style="background-color: {{ item.color }}; border-radius: 10px;">
+            <img style="height: 100px; margin-bottom: 10px;" src="{{ item.icon }}">
+          </div>
+          <h3>{{ item.name }}</h3>
+          <p>{{ item.blurb }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <p class="is-big" style="margin-bottom: 0;"><b><span style="font-size: 2em;">"</span></b></p>
+        <p class="is-big"><b>Our head office ICT team supports our data centre in Cardiff and our many remote branches throughout Wales. Each branch has local a broadband router to provide internet services to our regional staff and customers.</b></p>
+        <p class="is-big"><b>We needed to ensure we know the power to each device is sound and Spook SmartPlug does this for us. Should a reboot be required, we can now do this centrally via OmniWatch.</b></p>
+        <p class="is-big"><b>Spook SmartPlug saves us valuable time and effort ensuring internet services are maximised to each branch at all times.</b></p>
+        <div class="is-container-row">
+          <img style="height: 100px;" src="/images/customer-logo/principality-building-society.svg">
+        </div>
+      </div>
+      <div class="is-col">
+        <img class="is-border is-shadow-2" src="/images/solutions/smart-plug/alarm-state.png">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-stack-40 is-text-center">
+      <h2>Centrally manage using OmniWatch secure digital dashboards</h2>
+    </div>
+    <img class="is-border is-shadow-2" src="/images/solutions/smart-plug/omniwatch-dashboard.png">
+  </div>
+</section>
+<!--
+    <div class="is-text-center">
+      <p class="is-big no-margin">Find out more<br><span class="caret is-down"></span></p>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle is-stack-60">
+      <div class="is-col is-60">
+        <img class="is-border is-shadow-2" src="/images/solutions/smart-plug/omniwatch-dashboard.png">
+      </div>
+      <div class="is-col is-40 is-inset-20">
+        <h3>Installation made easy</h3>
+        <p class="is-big">Gone are the days of struggling with complex setups and confusing manuals. Smart Plug is engineered for seamless installation, requiring no technical knowledge whatsoever. Simply plug it into any standard electrical outlet, and you're ready to go.</p>
+        <p class="is-big">Its intuitive design ensures that anyone can set it up within minutes, eliminating the frustration often associated with traditional smart devices and IP based equipment.</p>
+        <h3>Fully configured out-of-the-box</h3>
+        <p class="is-big">Forget about tedious setup processes and endless configurations. Smart Plug arrives fully configured and ready to use right out of the box.</p>
+        <p class="is-big">All you need to do is log into your account on Spook's award winning platform OmniWatch and you'll gain instant access to intuitive controls and customizable settings.</p>
+      </div>
+    </div>
+    <div class="is-row is-stack-60">
+      <div class="is-col">
+        <h3>No network access required</h3>
+        <p class="is-big">Unlike other similar products that rely heavily on Wi-Fi, Bluetooth or ethernet connectivity, Smart Plug operates independently from any internal network relying on cellular connectivity instead.</p>
+        <p class="is-big">This unique feature not only enhances reliability but also ensures uninterrupted functionality even in areas with poor connectivity or during internal network outages.</p>
+      </div>
+      <div class="is-col">
+        <table>
+          <thead>
+            <tr>
+              <th>Requires</th>
+              <th>Smart Plug</th>
+              <th>IP power control</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Network</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Technical installation</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Firewall rules</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Connection to equipment</td>
+              <td>No</td>
+              <td>Yes</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="is-row is-items-middle">
+      <div class="is-col">
+        <img class="is-border is-shadow-2 is-inset-8" src="/images/solutions/smart-plug/omniwatch-logging.png">
+      </div>
+      <div class="is-col">
+        <h3>Comprehensive logging and reporting</h3>
+        <p class="is-big">With Smart Plug, every action taken, whether initiated by the user or the plug itself, is meticulously logged within the comprehensive web portal.</p>
+        <p class="is-big">This includes not only real-time activities but also historical data, enabling users to track usage patterns and gain valuable insights.</p>
+        <p class="is-big">The web portal serves as a centralized hub where users can effortlessly access detailed reports and analytics, empowering them to make informed decisions.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-text-center is-stack-20">
+      <h3>SIM features</h3>
+    </div>
+    <div class="is-row is-text-center">
+      {% for feature in site.data.solutions.smart-plug.sim-features %}
+      <div class="is-col">
+        <img alt="{{ feature.name }}" style="height: 100px;" src="{{ feature.icon }}">
+        <h5>{{ feature.name }}</h5>
+        <p>{{ feature.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+-->
+{% include contact-us.html %}

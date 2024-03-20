@@ -1,0 +1,16 @@
+- name: UK single extension
+  image: /images/solutions/smart-plug/uk-single-extension.jpg
+
+- name: UK to C13 adapter
+  image: /images/solutions/smart-plug/uk-c13.png
+
+- name: C14 to UK adapter
+  image: /images/solutions/smart-plug/c14-uk.png
+
+- name: UK to C19 adapter
+  image: /images/solutions/smart-plug/uk-c19.png
+
+- name: C20 to UK adapter
+  image: /images/solutions/smart-plug/c20-uk.png
+
+- name: And more

@@ -10,7 +10,74 @@ using Spook's award wining remote monitoring service OmniWatch."
   font-weight: bold;
   margin: 10px 20px;
 }
+
+.card-row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-container{
+  cursor: pointer;
+  flex: 1 0 calc(33% - 20px);
+  max-width: calc(33% - 20px);
+  box-sizing: border-box;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #e8edee;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card-container, .card-content, .card-container > .card-image{
+  transition: all 0.3s ease;
+}
+
+.card-container:hover{
+  background-color: #F5F5F5;
+}
+
+.card-container:hover > .card-content{
+  color: #78909C;
+}
+
+.card-container:hover > .card-image{
+  filter: grayscale(100%);
+}
+
+.card-container > .card-image{
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 12px;
+}
+
+.card-content{
+  padding: 10px;
+}
+
+.card-content > h3.card-header{
+  font-size: 1.2em;
+  padding-bottom: .2em;
+}
+
+.card-content > p.card-paragraph{
+  font-size: 1.2em;
+  padding-bottom: 1em;
+}
+
+.card-content > span{
+  font-size: 2em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: .6em;
+}
 </style>
+
 <header
   style="background-image: url('/images/solutions/smart-plug/locations.svg'); background-size: cover; background-position: right;">
   <div class="container">
@@ -100,7 +167,44 @@ using Spook's award wining remote monitoring service OmniWatch."
     <div class="is-stack-40 is-text-center">
       <h2>Centrally manage using OmniWatch secure digital dashboards</h2>
     </div>
-    <img class="is-border is-shadow-2" src="/images/solutions/smart-plug/omniwatch-dashboard.png">
+    <div class="is-container-row">
+      <div style="min-height: 600px; width: 260px; background-image: url('/images/solutions/smart-plug/topology.svg'); background-position: center; background-size: contain; background-repeat: no-repeat;"></div>
+      <div class="is-border is-shadow-2" style="width: 100%; background-image: url('/images/solutions/smart-plug/omniwatch-dashboard.png'); background-position: left top; background-size: contain; background-repeat: no-repeat;"></div>
+      <!--
+      <img style="width: 200px;" src="/images/solutions/smart-plug/topology.svg">
+      <img class="is-border is-shadow-2" src="/images/solutions/smart-plug/omniwatch-dashboard.png">
+      --!>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="is-row is-items-middle">
+      <div class="is-col is-66">
+        <div class="is-stack-20 is-text-center">
+          <h3>Accessories</h3>
+        </div>
+        <div class="card-row is-text-center">
+          {% for item in site.data.solutions.smart-plug.accessories %}
+            {% if item.name != "And more" %}
+              <div class="card-container">
+                <div class="card-image" style="background-image: url('{{ item.image }}');"></div>
+                <div class="card-content">
+                  <h3 class="card-header">{{ item.name }}</h3>
+                </div>
+              </div>
+            {% else %}
+              <div style="flex: 1 0 calc(33% - 20px); max-width: calc(33% - 20px); box-sizing: border-box;">
+                <h4 style="color: #BDBDBD; margin-top: 50px;"><span style="font-size: 4em; font-weight: bold;">+</span><br>{{ item.name }}</h4>
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="is-col is-33">
+        <img src="/images/solutions/smart-plug/plug-and-rack.svg">
+      </div>
+    </div>
   </div>
 </section>
 <!--

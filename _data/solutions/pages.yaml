@@ -1,4 +1,4 @@
-- name: Smart plug
+- name: Spook SmartPlug
   blurb: OmniWatch remote power control and real-time power loss alerts. 
   link: /solutions/technical/smart-plug
   image: /images/solutions/smart-plug/smartplug.jpg

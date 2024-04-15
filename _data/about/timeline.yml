@@ -102,6 +102,7 @@
 
 - year: 2023
   color: '#1E88E5'
+  link: /solutions/technical/smart-plug
   header: OmniWatch SIM based SmartPlug support 
   description:
     - Remote monitoring for incoming socket power; remote on/off/reboot functionality.

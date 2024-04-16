@@ -68,40 +68,40 @@
     - OmniWatch introduces support for cellular technology allowing monitoring to be seperated from the corporate LAN.
 
 - year: 2020
-  color: '#29B6F6'
+  color: '#03A9F4'
   header: OmniWatch LoRaWAN support
   description:
     - OmniWatch introduces support for the LoRaWAN protocol expanding monitoring into the Internet of Things (IoT) market.
 
 - year: 2020
-  color: '#2196F3'
+  color: '#29B6F6'
   link: /solutions/technical/cellular-technology
   header: Specialist Technology Company of the Year
   description:
     - Spook wins the CIR Business Continuity Award for Specialist Technology Company of the Year.
 
 - year: 2021
-  color: '#03A9F4'
+  color: '#29B6F6'
   link: /monitoring/air-quality-and-co2
   header: Indoor air quality monitoring service
   description:
     - OmniWatch introduces support for indoor office based monitoring with the ability to monitor air quality and CO2 levels.
 
 - year: 2022
-  color: '#1E88E5'
+  color: '#2196F3'
   link: /monitoring/utility-monitoring
   header: Public utility monitoring service
   description:
     - OmniWatch introduces its public utility monitoring service, empowering energy managers to achieve energy efficiency and lower energy costs.
 
 - year: 2023
-  color: '#1E88E5'
+  color: '#2196F3'
   header: OmniWatch support for NB-IoT LTE sensors 
   description:
     - Remote monitoring for NB-IoT indoor sensors. A range of sensors with onboard SIMS (no gateways required). 
 
 - year: 2023
-  color: '#1E88E5'
+  color: '#03A9F4'
   link: /solutions/technical/smart-plug
   header: OmniWatch SIM based SmartPlug support 
   description:
@@ -113,3 +113,8 @@
   description:
     - Remote monitoring for power sockets. Power socket remote management and power meter readings for sustainability and green initiatives.
 
+- year: 2024
+  color: '#1E88E5'
+  header: OmniWatch support for food and drug storage monitoring
+  description:
+    - Added support for high precision FDA-approved food contact materials and EN12830 Standard certified IP67 rated sensors to monitor all parts of the cold chain.

@@ -1,11 +1,17 @@
 - name: 888
   logo: /images/customer-logo/888.svg
 
-- name: Generali
-  logo: /images/customer-logo/generali.svg
+- name: Alder Hey Children's
+  logo: /images/customer-logo/alder-hey.svg
+
+- name: Avon and Wiltshire Mental Health Partnership
+  logo: /images/customer-logo/nhsawp.svg
   
 - name: Creative Assembly
   logo: /images/customer-logo/creative-assembly.svg
+
+- name: Clatterbridge Cancer Centre
+  logo: /images/customer-logo/clatterbridge.svg
   
 - name: East Riding of Yorkshire
   logo: /images/customer-logo/east-riding-of-yorkshire-council.svg
@@ -16,6 +22,9 @@
 - name: Friends Provident
   logo: /images/customer-logo/friends-provident-international.svg
 
+- name: Generali
+  logo: /images/customer-logo/generali.svg
+
 - name: Greene King
   logo: /images/customer-logo/greene-king.svg
 
@@ -24,18 +33,27 @@
 
 - name: Hilti
   logo: /images/customer-logo/hilti.svg
+
+- name: Liverpool Heart and Chest Hospital
+  logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg
+
+- name: Maidstone and Tunbridge Wells
+  logo: /images/customer-logo/maidstone-tunbridge-wells-nhs.svg
   
 - name: Muller
   logo: /images/customer-logo/muller.svg
   
-- name: NHS
-  logo: /images/customer-logo/nhs.svg
+- name: NHS BSA
+  logo: /images/customer-logo/nhs-bsa.svg
   
 - name: Nisa
   logo: /images/customer-logo/nisa.svg
 
 - name: P&O Ferrymasters
   logo: /images/customer-logo/pando.svg
+
+- name: Principality
+  logo: /images/customer-logo/principality-building-society.svg
   
 - name: Reed
   logo: /images/customer-logo/reed.svg

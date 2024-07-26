@@ -3,6 +3,11 @@
   link: /solutions/technical/smart-plug
   image: /images/solutions/smart-plug/smartplug.jpg
 
+- name: Spook AC unit water detection bundle
+  blurb: By installing Spook's AC Water Detection Bundle means you will be alerted to these dangerous events as they happen. This gives you valuable thinking and reaction time to address the issue before it escalates to an event that could cause unplanned IT downtime.
+  link: /solutions/technical/water-ac-unit-monitoring
+  image: /images/solutions/water-ac/banner.jpg
+
 - name: Cellular technology
   blurb: Cellular technology is improving quickly and being adopted as a reliable communications solution within many industries.
   link: /solutions/technical/cellular-technology

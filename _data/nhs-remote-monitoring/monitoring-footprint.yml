@@ -36,29 +36,6 @@
       icon: /images/sensor/icons/frequency.svg
       color: 26C6DA
 
-- name: The Clatterbridge Cancer Centre NHS Foundation Trust
-  logo: /images/customer-logo/clatterbridge.svg
-  background: /images/nhs-remote-monitoring/nhs-banner-2.jpg
-  quote:
-    paragraphs:
-      - We are a small team in a busy NHS Trust. We use Spook OmniWatch to centrally monitor key ICT rooms in our Liverpool and Wirral facilities.
-      - OmniWatch continues to prove itself a core solution in the monitoring of our data centres. We are working closely with the team at Spook to develop our solution further and have found them to be professional and helpful and engaged.
-    by: The Clatterbridge Cancer Centre NHS Foundation Trust
-    tag:
-  devices:
-    - name: Temperature
-      link: /monitoring/environmental/temperature
-      icon: /images/sensor/icons/temperature.svg
-      color: E57373
-    - name: Airflow
-      link: /monitoring/environmental/airflow
-      icon: /images/sensor/icons/airflow.svg
-      color: FFA726
-    - name: UPS Systems
-      link: /monitoring/power/ups
-      icon: /images/sensor/icons/ups.svg
-      color: FFCA28
-
 
 - name: Liverpool Heart and Chest Hospital NHS Foundation Trust
   logo: /images/customer-logo/liverpool-heart-and-chest-nhs.svg

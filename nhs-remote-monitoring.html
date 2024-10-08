@@ -1,131 +1,133 @@
 ---
 layout: base
 title: NHS remote monitoring
-page-description: Get in touch with Spook to discuss how we can help with your air quality, CO2, IT rooms and facilities monitoring needs.
+page-description: "Get in touch with Spook to discuss how we can help with your air quality, CO2, IT rooms and
+facilities
+monitoring needs."
 ---
 <style>
-.nhs-banner{
-  background-image: url('/images/sections/nhs-banner.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.nhs-banner > div > div > img{
-  width: 120px;
-  margin-bottom: 20px;
-}
-
-.overview-icon{
-  margin-bottom: 30px;
-}
-
-.overview-icon > img{
-  height: 80px;
-  margin-bottom: 8px;
-}
-
-.overview-icon > p{
-
-}
-
-.nhs-contact{
-  background-color: #196fc1;
-}
-
-.nhs-contact > div > h4{
-  font-size: 2em;
-}
-
-.nhs-contact > div > h4, .nhs-contact > div > form > div > label, .nhs-contact > div > form > div > div > div > label{
-  color: #fff;
-}
-
-.nhs-contact > div > form > .button{
-  border-color: #fff;
-  color: #fff;
-}
-
-.slide-viewer{
-  position: relative;
-  overflow: scroll;
-  height: 700px;
-}
-
-.slide-group{
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
-.slide{
-  width: 100%;
-  height: 100%;
-  display: none;
-  position: absolute;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.slide:first-child{
-  display: block;
-}
-
-.slide-buttons > a{
-  font-size: 1.8em;
-  color: #E0E0E0;
-  cursor: pointer;
-}
-
-.slide-buttons > a:hover{
-  color: #90CAF9;
-}
-
-.slide-buttons > a.active{
-  color: #29B6F6;
-}
-
-.slide-logo{
-  width: 200px;
-  height: 100px;
-  background-position: left;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.footprint-icon{
-  text-decoration: none;
-}
-
-.footprint-icon > div{
-  display: block;
-  margin: 0 auto;
-  width: 60px;
-  height: 60px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.footprint-icon > p{
-  color: #333;
-  text-decoration: none !important;
-}
-
-.device-line > div:hover{
-  border: 5px solid #333;
-}
-
-@media only screen and (max-width: 600px) {
-  .is-reverse-mobile{
-    flex-direction: column-reverse !important;
+  .nhs-banner {
+    background-image: url('/images/sections/nhs-banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
   }
 
-  .device-line > div{
-    border: 2px solid #333;
+  .nhs-banner>div>div>img {
+    width: 120px;
+    margin-bottom: 20px;
   }
-}
+
+  .overview-icon {
+    margin-bottom: 30px;
+  }
+
+  .overview-icon>img {
+    height: 80px;
+    margin-bottom: 8px;
+  }
+
+  .overview-icon>p {}
+
+  .nhs-contact {
+    background-color: #196fc1;
+  }
+
+  .nhs-contact>div>h4 {
+    font-size: 2em;
+  }
+
+  .nhs-contact>div>h4,
+  .nhs-contact>div>form>div>label,
+  .nhs-contact>div>form>div>div>div>label {
+    color: #fff;
+  }
+
+  .nhs-contact>div>form>.button {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .slide-viewer {
+    position: relative;
+    overflow: scroll;
+    height: 700px;
+  }
+
+  .slide-group {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .slide:first-child {
+    display: block;
+  }
+
+  .slide-buttons>a {
+    font-size: 1.8em;
+    color: #E0E0E0;
+    cursor: pointer;
+  }
+
+  .slide-buttons>a:hover {
+    color: #90CAF9;
+  }
+
+  .slide-buttons>a.active {
+    color: #29B6F6;
+  }
+
+  .slide-logo {
+    width: 200px;
+    height: 100px;
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .footprint-icon {
+    text-decoration: none;
+  }
+
+  .footprint-icon>div {
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .footprint-icon>p {
+    color: #333;
+    text-decoration: none !important;
+  }
+
+  .device-line>div:hover {
+    border: 5px solid #333;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .is-reverse-mobile {
+      flex-direction: column-reverse !important;
+    }
+
+    .device-line>div {
+      border: 2px solid #333;
+    }
+  }
 </style>
 <section class="is-shown-mobile">
   <div class="container">
@@ -136,45 +138,47 @@ page-description: Get in touch with Spook to discuss how we can help with your a
 <div class="slide-viewer is-stack-20 is-hidden-mobile">
   <div class="slide-group">
     {% for item in site.data.nhs-remote-monitoring.monitoring-footprint %}
-      <div class="slide" style="background-image: url('{{ item.background }}');">
-        <div class="container">
-          <div class="is-row" style="margin-top: 120px;">
-            <div class="is-col is-40">
-              {% for device in item.devices %}
-              <a class="device-line" href="{{ device.link }}" style="text-decoration: none;">
-                <div class="is-stack-8 white is-inset-4">
-                  <div class="is-container-row is-items-middle">
-                    <div style="height: 40px; width: 40px; background-image: url('{{ device.icon }}'); background-position: center; background-repeat: no-repeat; background-size: contain; margin-right: 8px;"></div>
-                    <div>
-                      <h5 style="color: #333; text-decoration: none !important;">{{ device.name }}</h5>
-                    </div>
+    <div class="slide" style="background-image: url('{{ item.background }}');">
+      <div class="container">
+        <div class="is-row" style="margin-top: 120px;">
+          <div class="is-col is-40">
+            {% for device in item.devices %}
+            <a class="device-line" href="{{ device.link }}" style="text-decoration: none;">
+              <div class="is-stack-8 white is-inset-4">
+                <div class="is-container-row is-items-middle">
+                  <div
+                    style="height: 40px; width: 40px; background-image: url('{{ device.icon }}'); background-position: center; background-repeat: no-repeat; background-size: contain; margin-right: 8px;">
+                  </div>
+                  <div>
+                    <h5 style="color: #333; text-decoration: none !important;">{{ device.name }}</h5>
                   </div>
                 </div>
-              </a>
+              </div>
+            </a>
+            {% endfor %}
+          </div>
+          <div class="is-col is-60">
+            <div class="quote-block grey">
+              <span>"</span>
+              {% for paragraph in item.quote.paragraphs %}
+              <p>{{ paragraph }}</p>
               {% endfor %}
-            </div>
-            <div class="is-col is-60">
-              <div class="quote-block grey">
-                <span>"</span>
-                {% for paragraph in item.quote.paragraphs %}
-                  <p>{{ paragraph }}</p>
-                {% endfor %}
-                <div class="is-text-right">
-                  <img style="height: 100px;" src="{{ item.logo }}">
-                  <p><b>{{ item.quote.by }}</b><br>{{ item.quote.tag }}.</p>
-                </div>
+              <div class="is-text-right">
+                <img style="height: 100px;" src="{{ item.logo }}">
+                <p><b>{{ item.quote.by }}</b><br>{{ item.quote.tag }}.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
     {% endfor %}
   </div>
 </div>
 <div class="slide-buttons is-text-center is-hidden-mobile"></div>
 <script src="/js/jquery.min.js"></script>
 <script>
-  $('.slide-viewer').each(function() {
+  $('.slide-viewer').each(function () {
     var $this = $(this);
     var $group = $this.find('.slide-group');
     var $slides = $this.find('.slide');
@@ -182,23 +186,23 @@ page-description: Get in touch with Spook to discuss how we can help with your a
     var currentIndex = 0;
     var timeout;
 
-    function advance(){
+    function advance() {
       clearTimeout(timeout);
-      timeout = setTimeout(function(){
-        if(currentIndex < ($slides.length - 1)){
+      timeout = setTimeout(function () {
+        if (currentIndex < ($slides.length - 1)) {
           move(currentIndex + 1);
-        }else{
+        } else {
           move(0);
         }
-      },15000);
+      }, 15000);
     }
 
-    $.each($slides, function(index){
+    $.each($slides, function (index) {
       var $button = $('<a type="button">&#x2609;</a>');
-      if(index === currentIndex){
+      if (index === currentIndex) {
         $button.addClass('active');
       }
-      $button.on('click', function(){
+      $button.on('click', function () {
         move(index);
       }).appendTo('.slide-buttons');
       buttonArray.push($button);
@@ -206,31 +210,31 @@ page-description: Get in touch with Spook to discuss how we can help with your a
 
     advance();
 
-    function move(newIndex){
+    function move(newIndex) {
       var animateLeft, slideLeft;
 
       advance();
 
-      if($group.is(':animated') || currentIndex === newIndex){
+      if ($group.is(':animated') || currentIndex === newIndex) {
         return;
       }
 
       buttonArray[currentIndex].removeClass('active');
       buttonArray[newIndex].addClass('active');
 
-      if(newIndex > currentIndex){
+      if (newIndex > currentIndex) {
         slideLeft = '100%';
         animateLeft = '-100%';
-      }else{
+      } else {
         slideLeft = '-100%';
         animateLeft = '100%';
       }
 
-      $slides.eq(newIndex).css({left: slideLeft, display: 'block'});
-      $group.animate({left: animateLeft}, function(){
-        $slides.eq(currentIndex).css({display: 'none'});
-        $slides.eq(newIndex).css({left: 0});
-        $group.css({left: 0});
+      $slides.eq(newIndex).css({ left: slideLeft, display: 'block' });
+      $group.animate({ left: animateLeft }, function () {
+        $slides.eq(currentIndex).css({ display: 'none' });
+        $slides.eq(newIndex).css({ left: 0 });
+        $group.css({ left: 0 });
         currentIndex = newIndex;
       });
     }
@@ -244,16 +248,18 @@ page-description: Get in touch with Spook to discuss how we can help with your a
         <div class="is-stack-40">
           <img style="width: 100px; margin-bottom: 20px;" src="/images/omniwatch-logo.svg">
           <h2>Award winning remote monitoring specialists</h2>
-          <p>OmniWatch is Spook's remote monitoring software solution. Designed to be the central repository for all things monitored; OmniWatch is fast becoming the NHS first choice for monitoring the broadest range of sensors and equipment types.</p>
+          <p>OmniWatch is Spook's remote monitoring software solution. Designed to be the central repository for all
+            things monitored; OmniWatch is fast becoming the NHS first choice for monitoring the broadest range of
+            sensors and equipment types.</p>
         </div>
         <div class="is-row">
           {% for item in site.data.nhs-remote-monitoring.overview %}
-            <div class="is-col is-text-center">
-              <div class="overview-icon">
-                <img src="{{ item.icon }}">
-                <p>{{ item.name }}</p>
-              </div>
+          <div class="is-col is-text-center">
+            <div class="overview-icon">
+              <img src="{{ item.icon }}">
+              <p>{{ item.name }}</p>
             </div>
+          </div>
           {% endfor %}
         </div>
       </div>
@@ -271,37 +277,98 @@ page-description: Get in touch with Spook to discuss how we can help with your a
 </section>
 <section>
   <div class="container">
+    <div class="is-border is-shadow-2 is-inset-20">
+      <blockquote style="font-style: normal; color: #333 !important;">
+        <p>OmniWatch, a service provided by Spook, is our primary solution for the centralised monitoring of our various
+          ICT
+          rooms
+          located throughout Liverpool. OmniWatch is a cloud-based platform, enabling us to access real-time digital
+          dashboards
+          from any location, ensuring both on-site and off-site accessibility.</p>
+        <p>Previously, we relied on multiple equipment-based monitoring and reporting modules. This approach proved
+          cumbersome and
+          highlighted a significant gap in our monitoring capabilities, particularly regarding the reporting of
+          out-of-hours
+          issues, which often went unreported until the following day.</p>
+        <p>In our journey for a more effective solution, we reached out to several vendors to explore available options.
+          Spook
+          distinguished itself through its commitment to excellence. The capabilities of OmniWatch, combined with its
+          development
+          roadmap, aligned seamlessly with our operational needs. Our decision was further solidified by the team's
+          extensive
+          expertise and genuine passion for their product.</p>
+        <p>Given that our ICT rooms are geographically dispersed across Liverpool, the integration of remote
+          environmental
+          monitoring for our various locations, along with the oversight of our Uninterruptible Power Supply (UPS)
+          systems,
+          provides us with a significant level of assurance.</p>
+        <p>A crucial factor in our decision to select OmniWatch was Spook's three-tier alarm escalation process.
+          Recognising
+          the
+          demands on our time and the possibility of overlooking critical communications; whether due to busy schedules,
+          low
+          mobile signal areas, or the quiet hours of the night, Spook has implemented a robust alert system. In the
+          event
+          of
+          critical alarms, UK call centre representatives are tasked with contacting us directly to relay the alerts.
+          They
+          can
+          also reach alternative staff members or landlines if necessary.</p>
+        <p>It is not uncommon for incidents to occur outside of regular office hours. With Spook's comprehensive
+          monitoring
+          system
+          in place, we have peace of mind knowing that we will be promptly notified of any issues 24/7.</p>
+        <p>Furthermore, Spook’s remote environmental monitoring is now a core feature on our Network Operations Centre
+          (NOC)
+          dashboard and allow the Digital team to provide the required assurances to both the CTO and Board.</p>
+        <p>In conclusion, we are confident that the implementation of OmniWatch significantly enhances our monitoring
+          capabilities
+          and contributes to the overall operational efficiency of our ICT infrastructure.</p>
+      </blockquote>
+      <div class="is-text-right">
+        <img src="/images/customer-logo/clatterbridge.svg">
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
     <div class="is-row is-stack-40">
       <div class="is-col is-60 is-stack-40">
         <h3>OmniWatch is an all-in-one monitoring and alerting solution</h3>
         <p>Secure remote cloud based monitoring for all things IT and facilities related.</p>
-        <p>Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it before it causes service disruption.</p>
+        <p>Taking remedial action at the early stages of an alert lets organisations contain a situation and fix it
+          before it causes service disruption.</p>
         <a href="/monitoring/it-rooms-and-facilities" class="button">Read more <span class="caret is-right"></span></a>
       </div>
-      <div class="is-col is-40 is-text-center is-inset-20 is-border is-shadow-2" style="border-color: #6a87da; border-width: 5px;">
+      <div class="is-col is-40 is-text-center is-inset-20 is-border is-shadow-2"
+        style="border-color: #6a87da; border-width: 5px;">
         <img src="/images/icons/award.svg">
-        <p class="is-small">Spook and OmniWatch was voted <strong>Specialist Technology Company of the Year</strong> and <strong>Most Innovative Solution of the Year</strong> at the annual UK CIR Business Continuity Awards.</p>
+        <p class="is-small">Spook and OmniWatch was voted <strong>Specialist Technology Company of the Year</strong> and
+          <strong>Most Innovative Solution of the Year</strong> at the annual UK CIR Business Continuity Awards.
+        </p>
       </div>
     </div>
     <div class="is-row">
       {% for item in site.data.nhs-remote-monitoring.key-points %}
-        <div class="is-col is-40 is-stack-40">
-          <div class="card is-border is-shadow-2">
-            <div class="card-img" style="background-image: url('{{ item.image }}');"></div>
-            <div class="card-content">
-              <div class="is-container is-items-middle is-stack-20">
-                <img style="width: 40px; margin-right: 8px;" src="{{ item.icon }}">
-                <h3>{{ item.name }}</h3>
-              </div>
-              {% for paragraph in item.words %}
-                <p>{{ paragraph }}</p>
-              {% endfor %}
+      <div class="is-col is-40 is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img" style="background-image: url('{{ item.image }}');"></div>
+          <div class="card-content">
+            <div class="is-container is-items-middle is-stack-20">
+              <img style="width: 40px; margin-right: 8px;" src="{{ item.icon }}">
+              <h3>{{ item.name }}</h3>
             </div>
-            <div class="card-footer">
-              <a href="{{ item.link.url }}" class="button is-secondary">{{ item.link.text }} <span class="caret is-right"></span></a>
-            </div>
+            {% for paragraph in item.words %}
+            <p>{{ paragraph }}</p>
+            {% endfor %}
+          </div>
+          <div class="card-footer">
+            <a href="{{ item.link.url }}" class="button is-secondary">{{ item.link.text }} <span
+                class="caret is-right"></span></a>
           </div>
         </div>
+      </div>
       {% endfor %}
     </div>
   </div>
@@ -319,18 +386,18 @@ page-description: Get in touch with Spook to discuss how we can help with your a
     </div>
     <div class="is-row">
       {% for item in site.data.nhs-remote-monitoring.lower-points %}
-        <div class="is-col is-50 is-stack-40">
-          <div class="card is-border is-shadow-2">
-            <div class="card-img" style="background-image: url('{{ item.image }}');"></div>
-            <div class="card-content is-stack-20">
-              <h4>{{ item.name }}</h4>
-              <p>{{ item.blurb }}</p>
-            </div>
-            <div class="card-footer">
-              <a href="{{ item.link.url }}" class="button">{{ item.link.text }}</a>
-            </div>
+      <div class="is-col is-50 is-stack-40">
+        <div class="card is-border is-shadow-2">
+          <div class="card-img" style="background-image: url('{{ item.image }}');"></div>
+          <div class="card-content is-stack-20">
+            <h4>{{ item.name }}</h4>
+            <p>{{ item.blurb }}</p>
+          </div>
+          <div class="card-footer">
+            <a href="{{ item.link.url }}" class="button">{{ item.link.text }}</a>
           </div>
         </div>
+      </div>
       {% endfor %}
     </div>
   </div>
@@ -338,38 +405,40 @@ page-description: Get in touch with Spook to discuss how we can help with your a
 <section class="nhs-contact">
   <div class="container">
     <h4>Get in contact</h4>
-   <form class="is-inset-top-20" action="https://formspree.io/f/mqkwegpd" method="POST">
-			<div class="form-item">
-				<label><strong>Name <span class="is-req">*</span></strong></label>
-				<input type="text" name="name" required="">
-			</div>
-			<div class="form-item">
-				<label><strong>Email <span class="is-req">*</span></strong></label>
-				<input type="email" name="email" required="">
-			</div>
-			<div class="form-item">
-				<label><strong>Organisation</strong></label>
-				<input type="text" name="organisation">
-			</div>
-			<div class="form-item">
-				<label><strong>Phone number</strong></label>
-				<input type="text" name="phone">
-			</div>
-			<div class="form-item">
-				<label><strong>Message <span class="is-req">*</span></strong></label>
-				<textarea rows="8" name="message" required=""></textarea>
-			</div>
-			<div class="form-item">
-				<div class="is-container-row">
-					<div style="margin-right: 10px;">
-						<input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required="">
-					</div>
-					<div>
-						<label for="terms-and-conditions"><span class="is-req">*</span> I accept the <a href="/policies#terms-and-conditions">terms of use</a> and <a href="/policies#privacy-policy">privacy policy</a>.</label>
-					</div>
-				</div>
-			</div>
-			<button class="button is-secondary is-100 is-big">Send</button>
-		</form> 
+    <form class="is-inset-top-20" action="https://formspree.io/f/mqkwegpd" method="POST">
+      <div class="form-item">
+        <label><strong>Name <span class="is-req">*</span></strong></label>
+        <input type="text" name="name" required="">
+      </div>
+      <div class="form-item">
+        <label><strong>Email <span class="is-req">*</span></strong></label>
+        <input type="email" name="email" required="">
+      </div>
+      <div class="form-item">
+        <label><strong>Organisation</strong></label>
+        <input type="text" name="organisation">
+      </div>
+      <div class="form-item">
+        <label><strong>Phone number</strong></label>
+        <input type="text" name="phone">
+      </div>
+      <div class="form-item">
+        <label><strong>Message <span class="is-req">*</span></strong></label>
+        <textarea rows="8" name="message" required=""></textarea>
+      </div>
+      <div class="form-item">
+        <div class="is-container-row">
+          <div style="margin-right: 10px;">
+            <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required="">
+          </div>
+          <div>
+            <label for="terms-and-conditions"><span class="is-req">*</span> I accept the <a
+                href="/policies#terms-and-conditions">terms of use</a> and <a href="/policies#privacy-policy">privacy
+                policy</a>.</label>
+          </div>
+        </div>
+      </div>
+      <button class="button is-secondary is-100 is-big">Send</button>
+    </form>
   </div>
 </section>
